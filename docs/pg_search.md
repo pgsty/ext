@@ -18,7 +18,7 @@
 
 | Extension | Version | License | RPM | DEB | PL |
 |-----------|:-------:|:-------:|:---:|:---:|:--:|
-| [pg_search](https://github.com/paradedb/paradedb/tree/dev/pg_search) | 0.15.20 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | `Rust` |
+| [pg_search](https://github.com/paradedb/paradedb/tree/dev/pg_search) | 0.16.0 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | `Rust` |
 
 
 
@@ -36,11 +36,11 @@
 
 | Distro / Ver | PG17 | PG16 | PG15 | PG14 | PG13 |
 |:------------:|:----:|:----:|:----:|:----:|:----:|
-| `el8` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> |
-| `el9` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> |
-| `d12` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> |
-| `u22` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> |
-| `u24` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> |
+| `el8` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `el9` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `d12` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `u22` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `u24` | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
 
 
 
@@ -58,8 +58,8 @@ CREATE EXTENSION pg_search;
 
 | OS | Version | License | REPO | Package Pattern | 17 | 16 | 15 | 14 | 13 | Dependency |
 |:--:|---------|:-------:|:----:|-----------------|:--:|:--:|:--:|:--:|:--:|------------|
-| [RPM](/rpm) | 0.15.18 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_search_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  |
-| [DEB](/deb) | 0.15.20 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pg-search` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  |
+| [RPM](/rpm) | 0.15.18 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_search_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  |  |
+| [DEB](/deb) | 0.16.0 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pg-search` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  |  |
 
 
 
@@ -83,7 +83,6 @@ Install `pg_search` [RPM](/rpm) from the **<span class="tcwarn">PIGSTY</span>** 
 dnf install pg_search_17;
 dnf install pg_search_16;
 dnf install pg_search_15;
-dnf install pg_search_14;
 ```
 
 
@@ -93,7 +92,6 @@ Install `pg_search` [DEB](/deb) from the **<span class="tcwarn">PIGSTY</span>** 
 apt install postgresql-17-pg-search;
 apt install postgresql-16-pg-search;
 apt install postgresql-15-pg-search;
-apt install postgresql-14-pg-search;
 ```
 
 
@@ -101,11 +99,11 @@ apt install postgresql-14-pg-search;
 
 | Distro / Ver | PG17 | PG16 | PG15 | PG14 | PG13 |
 |:------------:|:----:|:----:|:----:|:----:|:----:|
-| `el8` | `pg_search_17` | `pg_search_16` | `pg_search_15` | `pg_search_14` | <span class="tcred">✘</span> |
-| `el9` | `pg_search_17` | `pg_search_16` | `pg_search_15` | `pg_search_14` | <span class="tcred">✘</span> |
-| `d12` | `postgresql-17-pg-search` | `postgresql-16-pg-search` | `postgresql-15-pg-search` | `postgresql-14-pg-search` | <span class="tcred">✘</span> |
-| `u22` | `postgresql-17-pg-search` | `postgresql-16-pg-search` | `postgresql-15-pg-search` | `postgresql-14-pg-search` | <span class="tcred">✘</span> |
-| `u24` | `postgresql-17-pg-search` | `postgresql-16-pg-search` | `postgresql-15-pg-search` | `postgresql-14-pg-search` | <span class="tcred">✘</span> |
+| `el8` | `pg_search_17` | `pg_search_16` | `pg_search_15` | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `el9` | `pg_search_17` | `pg_search_16` | `pg_search_15` | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `d12` | `postgresql-17-pg-search` | `postgresql-16-pg-search` | `postgresql-15-pg-search` | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `u22` | `postgresql-17-pg-search` | `postgresql-16-pg-search` | `postgresql-15-pg-search` | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
+| `u24` | `postgresql-17-pg-search` | `postgresql-16-pg-search` | `postgresql-15-pg-search` | <span class="tcred">✘</span> | <span class="tcred">✘</span> |
 
 
 

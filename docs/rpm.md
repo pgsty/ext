@@ -1,16 +1,16 @@
 # RPM Extension Packages
 
-There are **415** extensions available on EL compatible systems, **6** of them are EL exclusive, and missing **6** Debian exclusive extensions.
+There are **416** extensions available on EL compatible systems, **6** of them are EL exclusive, and missing **6** Debian exclusive extensions.
 
-There are **71** built-in [**contrib**](contrib) extensions, in addition to **118** rpm extensions provided by PGDG YUM repository, and **226** extensions provided by Pigsty.
+There are **71** built-in [**contrib**](contrib) extensions, in addition to **118** rpm extensions provided by PGDG YUM repository, and **227** extensions provided by Pigsty.
 
-There are **407** extensions available in the current major version PostgreSQL 16, and **396** ready for the latest PostgreSQL 17.
+There are **408** extensions available in the current major version PostgreSQL 16, and **397** ready for the latest PostgreSQL 17.
 
 
 |Entry / Filter | All | PGDG | PIGSTY | CONTRIB | MISC | MISS | PG17 | PG16 | PG15 | PG14 | PG13|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| RPM Extension | 415 | 118 | 226 | 71 | 0 | 6 | 396 | 407 | 409 | 392 | 367 |
-| RPM Package | 290 | 106 | 184 | 1 | 0 | 1 | 275 | 284 | 286 | 274 | 252 |
+| RPM Extension | 416 | 118 | 227 | 71 | 0 | 6 | 397 | 408 | 410 | 390 | 368 |
+| RPM Package | 291 | 106 | 185 | 1 | 0 | 1 | 276 | 285 | 287 | 273 | 253 |
 
 
 
@@ -24,7 +24,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 
 | Category | Package | Version | License | RPM | RPM Package | 17 | 16 | 15 | 14 | 13 | Description |
 |:--------:|---------|---------|:-------:|:---:|-------------|:--:|:--:|:--:|:--:|:--:|-------------|
-| [TIME](/time) | [timescaledb](/timescaledb) | 2.20.0 | **<span class="tcwarn">Timescale</span>** | **<span class="tcwarn">PIGSTY</span>** | `timescaledb-tsl_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  | Enables scalable inserts and complex queries for time-series data |
+| [TIME](/time) | [timescaledb](/timescaledb) | 2.20.3 | **<span class="tcwarn">Timescale</span>** | **<span class="tcwarn">PIGSTY</span>** | `timescaledb-tsl_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  | Enables scalable inserts and complex queries for time-series data |
 | [TIME](/time) | [timescaledb_toolkit](/timescaledb_toolkit) | 1.21.0 | **<span class="tcwarn">Timescale</span>** | **<span class="tcwarn">PIGSTY</span>** | `timescaledb-toolkit_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Library of analytical hyperfunctions, time-series pipelining, and other SQL utilities |
 | [TIME](/time) | [pg_timeseries](/timeseries) | 0.1.6 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_timeseries_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Convenience API for time series stack |
 | [TIME](/time) | [periods](/periods) | 1.2.3 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tccyan">PGDG</span>** | `periods_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | Provide Standard SQL functionality for PERIODs and SYSTEM VERSIONING |
@@ -46,7 +46,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 | [GIS](/gis) | [pg_geohash](/pg_geohash) | 1.0 | **<span class="tcblue">MIT</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_geohash_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Handle geohash based functionality for spatial coordinates |
 | [GIS](/gis) | [pg_tzf](/tzf) | 0.2.2 | **<span class="tcblue">MIT</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_tzf_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Fast lookup timezone name by GPS coordinates |
 | [RAG](/rag) | [pgvector](/vector) | 0.8.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tccyan">PGDG</span>** | `pgvector_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | vector data type and ivfflat and hnsw access methods |
-| [RAG](/rag) | [vchord](/vchord) | 0.3.0 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `vchord_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Vector database plugin for Postgres, written in Rust |
+| [RAG](/rag) | [vchord](/vchord) | 0.4.3 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `vchord_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Vector database plugin for Postgres, written in Rust |
 | [RAG](/rag) | [pgvectorscale](/vectorscale) | 0.7.1 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pgvectorscale_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Advanced indexing for vector data with DiskANN |
 | [RAG](/rag) | [pg_vectorize](/vectorize) | 0.22.2 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_vectorize_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | The simplest way to do vector search on Postgres |
 | [RAG](/rag) | [pg_similarity](/pg_similarity) | 1.0 | **<span class="tcblue">BSD-3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_similarity_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | support similarity queries |
@@ -55,7 +55,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 | [RAG](/rag) | [pg_tiktoken](/pg_tiktoken) | 0.0.1 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_tiktoken_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | tiktoken tokenizer for use with OpenAI models in postgres |
 | [RAG](/rag) | [pg4ml](/pg4ml) | 2.0 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg4ml_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Machine learning framework for PostgreSQL |
 | [RAG](/rag) | [pgml](/pgml) | 2.10.0 | **<span class="tcblue">MIT</span>** | **<span class="tcwarn">PIGSTY</span>** | `pgml_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Run AL/ML workloads with SQL interface |
-| [FTS](/fts) | [pg_search](/pg_search) | 0.15.18 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_search_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Full text search for PostgreSQL using BM25 |
+| [FTS](/fts) | [pg_search](/pg_search) | 0.15.18 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_search_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  | Full text search for PostgreSQL using BM25 |
 | [FTS](/fts) | [pgroonga](/pgroonga) | 4.0.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pgroonga_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Use Groonga as index, fast full text search platform for all languages! |
 | [FTS](/fts) | [pg_bigm](/pg_bigm) | 1.2 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tccyan">PGDG</span>** | `pg_bigm_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | create 2-gram (bigram) index for faster full text search. |
 | [FTS](/fts) | [zhparser](/zhparser) | 2.3 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `zhparser_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | a parser for full-text search of Chinese |
@@ -72,7 +72,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 | [FTS](/fts) | [hunspell_pt_pt](/hunspell_pt_pt) | 1.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `hunspell_pt_pt_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Portuguese Hunspell Dictionary |
 | [FTS](/fts) | [hunspell_ru_ru](/hunspell_ru_ru) | 1.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `hunspell_ru_ru_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Russian Hunspell Dictionary |
 | [FTS](/fts) | [hunspell_ru_ru_aot](/hunspell_ru_ru_aot) | 1.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `hunspell_ru_ru_aot_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Russian Hunspell Dictionary (from AOT.ru group) |
-| [OLAP](/olap) | [citus](/citus) | 13.0.3 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `citus_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Distributed PostgreSQL as an extension |
+| [OLAP](/olap) | [citus](/citus) | 13.1.0 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `citus_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  | Distributed PostgreSQL as an extension |
 | [OLAP](/olap) | [hydra](/columnar) | 1.1.2 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `hydra_$v*` |  | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Hydra Columnar extension |
 | [OLAP](/olap) | [pg_analytics](/pg_analytics) | 0.3.7 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_analytics_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Postgres for analytics, powered by DuckDB |
 | [OLAP](/olap) | [pg_duckdb](/pg_duckdb) | 0.3.1 | **<span class="tcblue">MIT</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_duckdb_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | DuckDB Embedded in Postgres |
@@ -305,6 +305,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 | [ETL](/etl) | [pgl_ddl_deploy](/pgl_ddl_deploy) | 2.2.1 | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | `pgl_ddl_deploy_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | automated ddl deployment using pglogical |
 | [ETL](/etl) | [pg_failover_slots](/pg_failover_slots) | 1.1.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_failover_slots_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | PG Failover Slots extension |
 | [ETL](/etl) | [db_migrator](/db_migrator) | 1.0.0 | **<span class="tcblue">BSD-3</span>** | **<span class="tcwarn">PIGSTY</span>** | `db_migrator_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Tools to migrate other databases to PostgreSQL |
+| [ETL](/etl) | [pglogical](/pgactive) | 2.1.5 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `pgactive_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Active-Active Replication Extension for PostgreSQL |
 | [ETL](/etl) | [wal2json](/wal2json) | 2.6 | **<span class="tcblue">BSD-3</span>** | **<span class="tccyan">PGDG</span>** | `wal2json_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | Changing data capture in JSON format |
 | [ETL](/etl) | [wal2mongo](/wal2mongo) | 1.0.7 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `wal2mongo_$v*` |  | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | PostgreSQL logical decoding output plugin for MongoDB |
 | [ETL](/etl) | [decoderbufs](/decoderbufs) | 3.0.2 | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | `postgres-decoderbufs_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | Logical decoding plugin that delivers WAL stream changes using a Protocol Buffer format |
@@ -340,7 +341,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_17* supautils_17 pgsodium_17* vault_17* pg_session_jwt_17 pg_anon_17 pgsmcrypto_17 pgaudit_17* pgauditlogtofile_17* pg_auth_mon_17* credcheck_17* pgcryptokey_17 pg_jobmon_17 logerrors_17* login_hook_17* set_user_17* pg_snakeoil_17* pgextwlist_17* pg_auditor_17 sslutils_17* noset_17* #pg_tde_17*
 - wrappers_17 multicorn2_17* odbc_fdw_17* pgspider_ext_17* mysql_fdw_17* tds_fdw_17* sqlite_fdw_17* pgbouncer_fdw_17 redis_fdw_17* pg_redis_pubsub_17* hdfs_fdw_17* firebird_fdw_17 aws_s3_17 log_fdw_17* #jdbc_fdw_17* #oracle_fdw_17* #db2_fdw_17* #mongo_fdw_17* #kafka_fdw_17
 - documentdb_17* orafce_17 pgtt_17* session_variable_17* pg_statement_rollback_17* pg_dbms_metadata_17 pg_dbms_lock_17 spat_17* pgmemcache_17* #pg_dbms_job_17 #wiltondb
-- pglogical_17* pglogical_ticker_17* pgl_ddl_deploy_17* pg_failover_slots_17* db_migrator_17 wal2json_17* postgres-decoderbufs_17* decoder_raw_17* mimeo_17 pg_fact_loader_17* pg_bulkload_17* #wal2mongo_17* #repmgr_17*
+- pglogical_17* pglogical_ticker_17* pgl_ddl_deploy_17* pg_failover_slots_17* db_migrator_17 pgactive_17* wal2json_17* postgres-decoderbufs_17* decoder_raw_17* mimeo_17 pg_fact_loader_17* pg_bulkload_17* #wal2mongo_17* #repmgr_17*
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -362,7 +363,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_17* supautils_17 pgsodium_17* vault_17* pg_session_jwt_17 pg_anon_17 pgsmcrypto_17 pgaudit_17* pgauditlogtofile_17* pg_auth_mon_17* credcheck_17* pgcryptokey_17 pg_jobmon_17 logerrors_17* login_hook_17* set_user_17* pg_snakeoil_17* pgextwlist_17* pg_auditor_17 sslutils_17* noset_17* #pg_tde_17*
 - wrappers_17 multicorn2_17* odbc_fdw_17* pgspider_ext_17* mysql_fdw_17* tds_fdw_17* sqlite_fdw_17* pgbouncer_fdw_17 redis_fdw_17* pg_redis_pubsub_17* hdfs_fdw_17* firebird_fdw_17 aws_s3_17 log_fdw_17* #jdbc_fdw_17* #oracle_fdw_17* #db2_fdw_17* #mongo_fdw_17* #kafka_fdw_17
 - documentdb_17* orafce_17 pgtt_17* session_variable_17* pg_statement_rollback_17* pg_dbms_metadata_17 pg_dbms_lock_17 spat_17* pgmemcache_17* #pg_dbms_job_17 #wiltondb
-- pglogical_17* pglogical_ticker_17* pgl_ddl_deploy_17* pg_failover_slots_17* db_migrator_17 wal2json_17* postgres-decoderbufs_17* decoder_raw_17* mimeo_17 pg_fact_loader_17* pg_bulkload_17* #wal2mongo_17* #repmgr_17*
+- pglogical_17* pglogical_ticker_17* pgl_ddl_deploy_17* pg_failover_slots_17* db_migrator_17 pgactive_17* wal2json_17* postgres-decoderbufs_17* decoder_raw_17* mimeo_17 pg_fact_loader_17* pg_bulkload_17* #wal2mongo_17* #repmgr_17*
 ```
 
 --------
@@ -389,7 +390,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_16* supautils_16 pgsodium_16* vault_16* pg_session_jwt_16 pg_anon_16 pg_tde_16* pgsmcrypto_16 pgaudit_16* pgauditlogtofile_16* pg_auth_mon_16* credcheck_16* pgcryptokey_16 pg_jobmon_16 logerrors_16* login_hook_16* set_user_16* pg_snakeoil_16* pgextwlist_16* pg_auditor_16 sslutils_16* noset_16*
 - wrappers_16 multicorn2_16* odbc_fdw_16* jdbc_fdw_16* pgspider_ext_16* mysql_fdw_16* tds_fdw_16* sqlite_fdw_16* pgbouncer_fdw_16 mongo_fdw_16* redis_fdw_16* pg_redis_pubsub_16* kafka_fdw_16 hdfs_fdw_16* firebird_fdw_16 aws_s3_16 log_fdw_16* #oracle_fdw_16* #db2_fdw_16*
 - documentdb_16* orafce_16 pgtt_16* session_variable_16* pg_statement_rollback_16* pg_dbms_metadata_16 pg_dbms_lock_16 pgmemcache_16* #pg_dbms_job_16 #wiltondb #spat_16*
-- pglogical_16* pglogical_ticker_16* pgl_ddl_deploy_16* pg_failover_slots_16* db_migrator_16 wal2json_16* wal2mongo_16* postgres-decoderbufs_16* decoder_raw_16* mimeo_16 pg_fact_loader_16* pg_bulkload_16* #repmgr_16*
+- pglogical_16* pglogical_ticker_16* pgl_ddl_deploy_16* pg_failover_slots_16* db_migrator_16 pgactive_16* wal2json_16* wal2mongo_16* postgres-decoderbufs_16* decoder_raw_16* mimeo_16 pg_fact_loader_16* pg_bulkload_16* #repmgr_16*
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -411,7 +412,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_16* supautils_16 pgsodium_16* vault_16* pg_session_jwt_16 pg_anon_16 pg_tde_16* pgsmcrypto_16 pgaudit_16* pgauditlogtofile_16* pg_auth_mon_16* credcheck_16* pgcryptokey_16 pg_jobmon_16 logerrors_16* login_hook_16* set_user_16* pg_snakeoil_16* pgextwlist_16* pg_auditor_16 sslutils_16* noset_16*
 - wrappers_16 multicorn2_16* odbc_fdw_16* jdbc_fdw_16* pgspider_ext_16* mysql_fdw_16* tds_fdw_16* sqlite_fdw_16* pgbouncer_fdw_16 mongo_fdw_16* redis_fdw_16* pg_redis_pubsub_16* kafka_fdw_16 hdfs_fdw_16* firebird_fdw_16 aws_s3_16 log_fdw_16* #oracle_fdw_16* #db2_fdw_16*
 - documentdb_16* orafce_16 pgtt_16* session_variable_16* pg_statement_rollback_16* pg_dbms_metadata_16 pg_dbms_lock_16 pgmemcache_16* #pg_dbms_job_16 #wiltondb #spat_16*
-- pglogical_16* pglogical_ticker_16* pgl_ddl_deploy_16* pg_failover_slots_16* db_migrator_16 wal2json_16* wal2mongo_16* postgres-decoderbufs_16* decoder_raw_16* mimeo_16 pg_fact_loader_16* pg_bulkload_16* #repmgr_16*
+- pglogical_16* pglogical_ticker_16* pgl_ddl_deploy_16* pg_failover_slots_16* db_migrator_16 pgactive_16* wal2json_16* wal2mongo_16* postgres-decoderbufs_16* decoder_raw_16* mimeo_16 pg_fact_loader_16* pg_bulkload_16* #repmgr_16*
 ```
 
 --------
@@ -438,7 +439,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_15* supautils_15 pgsodium_15* vault_15* pg_session_jwt_15 pg_anon_15 pgsmcrypto_15 pgaudit17_15* pgauditlogtofile_15* pg_auth_mon_15* credcheck_15* pgcryptokey_15 pg_jobmon_15 logerrors_15* login_hook_15* set_user_15* pg_snakeoil_15* pgextwlist_15* pg_auditor_15 sslutils_15* noset_15* #pg_tde_15*
 - wrappers_15 multicorn2_15* odbc_fdw_15* jdbc_fdw_15* pgspider_ext_15* mysql_fdw_15* tds_fdw_15* sqlite_fdw_15* pgbouncer_fdw_15 mongo_fdw_15* redis_fdw_15* pg_redis_pubsub_15* kafka_fdw_15 hdfs_fdw_15* firebird_fdw_15 aws_s3_15 log_fdw_15* #oracle_fdw_15* #db2_fdw_15*
 - documentdb_15* orafce_15 pgtt_15* session_variable_15* pg_statement_rollback_15* pg_dbms_metadata_15 pg_dbms_lock_15 pgmemcache_15* #pg_dbms_job_15 #wiltondb #spat_15*
-- pglogical_15* pglogical_ticker_15* pgl_ddl_deploy_15* pg_failover_slots_15* db_migrator_15 wal2json_15* wal2mongo_15* postgres-decoderbufs_15* decoder_raw_15* mimeo_15 pg_fact_loader_15* pg_bulkload_15* #repmgr_15*
+- pglogical_15* pglogical_ticker_15* pgl_ddl_deploy_15* pg_failover_slots_15* db_migrator_15 pgactive_15* wal2json_15* wal2mongo_15* postgres-decoderbufs_15* decoder_raw_15* mimeo_15 pg_fact_loader_15* pg_bulkload_15* #repmgr_15*
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -460,7 +461,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_15* supautils_15 pgsodium_15* vault_15* pg_session_jwt_15 pg_anon_15 pgsmcrypto_15 pgaudit17_15* pgauditlogtofile_15* pg_auth_mon_15* credcheck_15* pgcryptokey_15 pg_jobmon_15 logerrors_15* login_hook_15* set_user_15* pg_snakeoil_15* pgextwlist_15* pg_auditor_15 sslutils_15* noset_15* #pg_tde_15*
 - wrappers_15 multicorn2_15* odbc_fdw_15* jdbc_fdw_15* pgspider_ext_15* mysql_fdw_15* tds_fdw_15* sqlite_fdw_15* pgbouncer_fdw_15 mongo_fdw_15* redis_fdw_15* pg_redis_pubsub_15* kafka_fdw_15 hdfs_fdw_15* firebird_fdw_15 aws_s3_15 log_fdw_15* #oracle_fdw_15* #db2_fdw_15*
 - documentdb_15* orafce_15 pgtt_15* session_variable_15* pg_statement_rollback_15* pg_dbms_metadata_15 pg_dbms_lock_15 pgmemcache_15* #pg_dbms_job_15 #wiltondb #spat_15*
-- pglogical_15* pglogical_ticker_15* pgl_ddl_deploy_15* pg_failover_slots_15* db_migrator_15 wal2json_15* wal2mongo_15* postgres-decoderbufs_15* decoder_raw_15* mimeo_15 pg_fact_loader_15* pg_bulkload_15* #repmgr_15*
+- pglogical_15* pglogical_ticker_15* pgl_ddl_deploy_15* pg_failover_slots_15* db_migrator_15 pgactive_15* wal2json_15* wal2mongo_15* postgres-decoderbufs_15* decoder_raw_15* mimeo_15 pg_fact_loader_15* pg_bulkload_15* #repmgr_15*
 ```
 
 --------
@@ -475,8 +476,8 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - timescaledb-toolkit_14 pg_timeseries_14 periods_14* temporal_tables_14* e-maj_14 table_version_14 pg_cron_14* pg_task_14* pg_later_14 pg_background_14* #timescaledb-tsl_14*
 - postgis35_14* pgrouting_14* pointcloud_14* h3-pg_14* q3c_14* ogr_fdw_14* geoip_14 pg_polyline_14 pg_geohash_14* pg_tzf_14
 - pgvector_14* vchord_14 pgvectorscale_14 pg_vectorize_14 pg_similarity_14* smlar_14* pg_summarize_14 pg_tiktoken_14 pg4ml_14 pgml_14
-- pg_search_14 pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14
-- citus_14* hydra_14* pg_analytics_14 pg_mooncake_14* duckdb_fdw_14* pg_parquet_14 pg_fkpart_14 pg_partman_14* plproxy_14* #pg_duckdb_14* #pg_strom_14*
+- pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14 #pg_search_14
+- hydra_14* pg_analytics_14 pg_mooncake_14* duckdb_fdw_14* pg_parquet_14 pg_fkpart_14 pg_partman_14* plproxy_14* #citus_14* #pg_duckdb_14* #pg_strom_14*
 - apache-age_14* hll_14* rum_14 pg_graphql_14 pg_jsonschema_14 jsquery_14* pg_hint_plan_14* hypopg_14* index_advisor_14 pg_plan_filter_14* imgsmlr_14* pg_ivm_14* pgmq_14 pgq_14* pg_cardano_14 omnigres_14 #pg_incremental_14*
 - pg_tle_14* plv8_14* pllua_14* plprql_14 pldebugger_14* plpgsql_check_14* plprofiler_14* plsh_14* #pljava_14* #plr_14* #pgtap_14* #postgresql_faker_14* #dbt2-pg14-extensions*
 - prefix_14* semver_14* postgresql-unit_14* pgpdf_14* pglite_fusion_14 md5hash_14* asn1oid_14* pg_roaringbitmap_14* pgfaceting_14 pgsphere_14* pg_country_14* pg_xenophile_14 pg_currency_14* pgcollection_14* numeral_14* pg_rational_14* pguint_14* pg_uint128_14* hashtypes_14* ip4r_14* pg_uri_14* pg_emailaddr_14* acl_14* timestamp9_14* chkpass_14* #pgmp_14* #pg_duration_14*
@@ -487,7 +488,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_14* supautils_14 pgsodium_14* vault_14* pg_session_jwt_14 pg_anon_14 pgsmcrypto_14 pgaudit16_14* pgauditlogtofile_14* pg_auth_mon_14* credcheck_14* pgcryptokey_14 pg_jobmon_14 logerrors_14* login_hook_14* set_user_14* pg_snakeoil_14* pgextwlist_14* pg_auditor_14 sslutils_14* noset_14* #pg_tde_14*
 - wrappers_14 multicorn2_14* odbc_fdw_14* jdbc_fdw_14* mysql_fdw_14* tds_fdw_14* sqlite_fdw_14* pgbouncer_fdw_14 mongo_fdw_14* redis_fdw_14* pg_redis_pubsub_14* kafka_fdw_14 hdfs_fdw_14* firebird_fdw_14 aws_s3_14 log_fdw_14* #pgspider_ext_14* #oracle_fdw_14* #db2_fdw_14*
 - orafce_14 pgtt_14* session_variable_14* pg_statement_rollback_14* pg_dbms_metadata_14 pg_dbms_lock_14 #documentdb_14* #pg_dbms_job_14 #wiltondb #spat_14* #pgmemcache_14*
-- pglogical_14* pglogical_ticker_14* pgl_ddl_deploy_14* pg_failover_slots_14* db_migrator_14 wal2json_14* wal2mongo_14* postgres-decoderbufs_14* decoder_raw_14* mimeo_14 pg_fact_loader_14* pg_bulkload_14* #repmgr_14*
+- pglogical_14* pglogical_ticker_14* pgl_ddl_deploy_14* pg_failover_slots_14* db_migrator_14 pgactive_14* wal2json_14* wal2mongo_14* postgres-decoderbufs_14* decoder_raw_14* mimeo_14 pg_fact_loader_14* pg_bulkload_14* #repmgr_14*
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -497,8 +498,8 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - timescaledb-toolkit_14 pg_timeseries_14 periods_14* temporal_tables_14* e-maj_14 table_version_14 pg_cron_14* pg_task_14* pg_later_14 pg_background_14* #timescaledb-tsl_14*
 - postgis35_14* pgrouting_14* pointcloud_14* h3-pg_14* q3c_14* ogr_fdw_14* geoip_14 pg_polyline_14 pg_geohash_14* pg_tzf_14
 - pgvector_14* vchord_14 pgvectorscale_14 pg_vectorize_14 pg_similarity_14* smlar_14* pg_summarize_14 pg_tiktoken_14 pg4ml_14 pgml_14
-- pg_search_14 pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14
-- citus_14* hydra_14* pg_analytics_14 pg_duckdb_14* pg_mooncake_14* duckdb_fdw_14* pg_parquet_14 pg_fkpart_14 pg_partman_14* plproxy_14* #pg_strom_14*
+- pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14 #pg_search_14
+- hydra_14* pg_analytics_14 pg_duckdb_14* pg_mooncake_14* duckdb_fdw_14* pg_parquet_14 pg_fkpart_14 pg_partman_14* plproxy_14* #citus_14* #pg_strom_14*
 - apache-age_14* hll_14* rum_14 pg_graphql_14 pg_jsonschema_14 jsquery_14* pg_hint_plan_14* hypopg_14* index_advisor_14 pg_plan_filter_14* imgsmlr_14* pg_ivm_14* pgmq_14 pgq_14* pg_cardano_14 omnigres_14 #pg_incremental_14*
 - pg_tle_14* plv8_14* pllua_14* plprql_14 pldebugger_14* plpgsql_check_14* plprofiler_14* plsh_14* pljava_14* #plr_14* #pgtap_14* #postgresql_faker_14* #dbt2-pg14-extensions*
 - prefix_14* semver_14* postgresql-unit_14* pgpdf_14* pglite_fusion_14 md5hash_14* asn1oid_14* pg_roaringbitmap_14* pgfaceting_14 pgsphere_14* pg_country_14* pg_xenophile_14 pg_currency_14* pgcollection_14* numeral_14* pg_rational_14* pguint_14* pg_uint128_14* hashtypes_14* ip4r_14* pg_uri_14* pg_emailaddr_14* acl_14* timestamp9_14* chkpass_14* #pgmp_14* #pg_duration_14*
@@ -509,7 +510,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_14* supautils_14 pgsodium_14* vault_14* pg_session_jwt_14 pg_anon_14 pgsmcrypto_14 pgaudit16_14* pgauditlogtofile_14* pg_auth_mon_14* credcheck_14* pgcryptokey_14 pg_jobmon_14 logerrors_14* login_hook_14* set_user_14* pg_snakeoil_14* pgextwlist_14* pg_auditor_14 sslutils_14* noset_14* #pg_tde_14*
 - wrappers_14 multicorn2_14* odbc_fdw_14* jdbc_fdw_14* mysql_fdw_14* tds_fdw_14* sqlite_fdw_14* pgbouncer_fdw_14 mongo_fdw_14* redis_fdw_14* pg_redis_pubsub_14* kafka_fdw_14 hdfs_fdw_14* firebird_fdw_14 aws_s3_14 log_fdw_14* #pgspider_ext_14* #oracle_fdw_14* #db2_fdw_14*
 - orafce_14 pgtt_14* session_variable_14* pg_statement_rollback_14* pg_dbms_metadata_14 pg_dbms_lock_14 #documentdb_14* #pg_dbms_job_14 #wiltondb #spat_14* #pgmemcache_14*
-- pglogical_14* pglogical_ticker_14* pgl_ddl_deploy_14* pg_failover_slots_14* db_migrator_14 wal2json_14* wal2mongo_14* postgres-decoderbufs_14* decoder_raw_14* mimeo_14 pg_fact_loader_14* pg_bulkload_14* #repmgr_14*
+- pglogical_14* pglogical_ticker_14* pgl_ddl_deploy_14* pg_failover_slots_14* db_migrator_14 pgactive_14* wal2json_14* wal2mongo_14* postgres-decoderbufs_14* decoder_raw_14* mimeo_14 pg_fact_loader_14* pg_bulkload_14* #repmgr_14*
 ```
 
 --------
@@ -536,7 +537,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_13* supautils_13 pgsodium_13* vault_13* pg_anon_13 pgsmcrypto_13 pgaudit15_13* pgauditlogtofile_13* pg_auth_mon_13* credcheck_13* pgcryptokey_13 pg_jobmon_13 logerrors_13* login_hook_13* set_user_13* pg_snakeoil_13* pgextwlist_13* pg_auditor_13 sslutils_13* noset_13* #pg_session_jwt_13 #pg_tde_13*
 - multicorn2_13* odbc_fdw_13* jdbc_fdw_13* mysql_fdw_13* tds_fdw_13* sqlite_fdw_13* pgbouncer_fdw_13 mongo_fdw_13* redis_fdw_13* pg_redis_pubsub_13* kafka_fdw_13 hdfs_fdw_13* firebird_fdw_13 aws_s3_13 #wrappers_13 #pgspider_ext_13* #oracle_fdw_13* #db2_fdw_13* #log_fdw_13*
 - orafce_13 pgtt_13* session_variable_13* pg_statement_rollback_13* pg_dbms_metadata_13 pg_dbms_lock_13 #documentdb_13* #pg_dbms_job_13 #wiltondb #spat_13* #pgmemcache_13*
-- pglogical_13* pglogical_ticker_13* pgl_ddl_deploy_13* pg_failover_slots_13* db_migrator_13 wal2json_13* wal2mongo_13* postgres-decoderbufs_13* decoder_raw_13* mimeo_13 pg_fact_loader_13* pg_bulkload_13* #repmgr_13*
+- pglogical_13* pglogical_ticker_13* pgl_ddl_deploy_13* pg_failover_slots_13* db_migrator_13 pgactive_13* wal2json_13* wal2mongo_13* postgres-decoderbufs_13* decoder_raw_13* mimeo_13 pg_fact_loader_13* pg_bulkload_13* #repmgr_13*
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -558,7 +559,7 @@ There are **407** extensions available in the current major version PostgreSQL 1
 - passwordcheck_cracklib_13* supautils_13 pgsodium_13* vault_13* pg_anon_13 pgsmcrypto_13 pgaudit15_13* pgauditlogtofile_13* pg_auth_mon_13* credcheck_13* pgcryptokey_13 pg_jobmon_13 logerrors_13* login_hook_13* set_user_13* pg_snakeoil_13* pgextwlist_13* pg_auditor_13 sslutils_13* noset_13* #pg_session_jwt_13 #pg_tde_13*
 - multicorn2_13* odbc_fdw_13* jdbc_fdw_13* mysql_fdw_13* tds_fdw_13* sqlite_fdw_13* pgbouncer_fdw_13 mongo_fdw_13* redis_fdw_13* pg_redis_pubsub_13* kafka_fdw_13 hdfs_fdw_13* firebird_fdw_13 aws_s3_13 #wrappers_13 #pgspider_ext_13* #oracle_fdw_13* #db2_fdw_13* #log_fdw_13*
 - orafce_13 pgtt_13* session_variable_13* pg_statement_rollback_13* pg_dbms_metadata_13 pg_dbms_lock_13 #documentdb_13* #pg_dbms_job_13 #wiltondb #spat_13* #pgmemcache_13*
-- pglogical_13* pglogical_ticker_13* pgl_ddl_deploy_13* pg_failover_slots_13* db_migrator_13 wal2json_13* wal2mongo_13* postgres-decoderbufs_13* decoder_raw_13* mimeo_13 pg_fact_loader_13* pg_bulkload_13* #repmgr_13*
+- pglogical_13* pglogical_ticker_13* pgl_ddl_deploy_13* pg_failover_slots_13* db_migrator_13 pgactive_13* wal2json_13* wal2mongo_13* postgres-decoderbufs_13* decoder_raw_13* mimeo_13 pg_fact_loader_13* pg_bulkload_13* #repmgr_13*
 ```
 
 
