@@ -41,7 +41,7 @@ There are 20 available extensions in this category:
 pg17: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg16: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg15: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
-pg14: pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
+pg14: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #pg_tokenizer
 ```
 
@@ -52,7 +52,7 @@ pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #p
 pg17: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg16: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg15: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
-pg14: pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
+pg14: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #pg_tokenizer
 ```
 
@@ -63,7 +63,7 @@ pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #p
 pg17: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg16: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg15: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
-pg14: pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
+pg14: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #pg_tokenizer
 ```
 
@@ -74,7 +74,7 @@ pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #p
 pg17: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg16: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg15: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
-pg14: pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
+pg14: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #pg_tokenizer
 ```
 
@@ -85,7 +85,7 @@ pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #p
 pg17: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg16: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg15: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
-pg14: pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
+pg14: pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
 pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #pg_tokenizer
 ```
 
@@ -98,7 +98,7 @@ pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #p
 
 | Package | Version | License | RPM | RPM Package | 17 | 16 | 15 | 14 | 13 | Description |
 |---------|---------|:-------:|:---:|-------------|:--:|:--:|:--:|:--:|:--:|-------------|
-| [pg_search](/pg_search) | 0.15.18 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_search_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  | Full text search for PostgreSQL using BM25 |
+| [pg_search](/pg_search) | 0.15.18 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_search_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Full text search for PostgreSQL using BM25 |
 | [pgroonga](/pgroonga) | 4.0.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pgroonga_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Use Groonga as index, fast full text search platform for all languages! |
 | [pg_bigm](/pg_bigm) | 1.2 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tccyan">PGDG</span>** | `pg_bigm_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | create 2-gram (bigram) index for faster full text search. |
 | [zhparser](/zhparser) | 2.3 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `zhparser_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | a parser for full-text search of Chinese |
@@ -126,7 +126,7 @@ pg13: pgroonga pg_bigm zhparser pg_bestmatch hunspell #pg_search #vchord_bm25 #p
 pg17: pg_search_17 pgroonga_17* pg_bigm_17* zhparser_17* pg_bestmatch_17 vchord_bm25_17 pg_tokenizer_17 hunspell_cs_cz_17 hunspell_de_de_17 hunspell_en_us_17 hunspell_fr_17 hunspell_ne_np_17 hunspell_nl_nl_17 hunspell_nn_no_17 hunspell_pt_pt_17 hunspell_ru_ru_17 hunspell_ru_ru_aot_17
 pg16: pg_search_16 pgroonga_16* pg_bigm_16* zhparser_16* pg_bestmatch_16 vchord_bm25_16 pg_tokenizer_16 hunspell_cs_cz_16 hunspell_de_de_16 hunspell_en_us_16 hunspell_fr_16 hunspell_ne_np_16 hunspell_nl_nl_16 hunspell_nn_no_16 hunspell_pt_pt_16 hunspell_ru_ru_16 hunspell_ru_ru_aot_16
 pg15: pg_search_15 pgroonga_15* pg_bigm_15* zhparser_15* pg_bestmatch_15 vchord_bm25_15 pg_tokenizer_15 hunspell_cs_cz_15 hunspell_de_de_15 hunspell_en_us_15 hunspell_fr_15 hunspell_ne_np_15 hunspell_nl_nl_15 hunspell_nn_no_15 hunspell_pt_pt_15 hunspell_ru_ru_15 hunspell_ru_ru_aot_15
-pg14: pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14 #pg_search_14
+pg14: pg_search_14 pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14
 pg13: pgroonga_13* pg_bigm_13* zhparser_13* pg_bestmatch_13 hunspell_cs_cz_13 hunspell_de_de_13 hunspell_en_us_13 hunspell_fr_13 hunspell_ne_np_13 hunspell_nl_nl_13 hunspell_nn_no_13 hunspell_pt_pt_13 hunspell_ru_ru_13 hunspell_ru_ru_aot_13 #pg_search_13 #vchord_bm25_13 #pg_tokenizer_13
 ```
 
@@ -137,7 +137,7 @@ pg13: pgroonga_13* pg_bigm_13* zhparser_13* pg_bestmatch_13 hunspell_cs_cz_13 hu
 pg17: pg_search_17 pgroonga_17* pg_bigm_17* zhparser_17* pg_bestmatch_17 vchord_bm25_17 pg_tokenizer_17 hunspell_cs_cz_17 hunspell_de_de_17 hunspell_en_us_17 hunspell_fr_17 hunspell_ne_np_17 hunspell_nl_nl_17 hunspell_nn_no_17 hunspell_pt_pt_17 hunspell_ru_ru_17 hunspell_ru_ru_aot_17
 pg16: pg_search_16 pgroonga_16* pg_bigm_16* zhparser_16* pg_bestmatch_16 vchord_bm25_16 pg_tokenizer_16 hunspell_cs_cz_16 hunspell_de_de_16 hunspell_en_us_16 hunspell_fr_16 hunspell_ne_np_16 hunspell_nl_nl_16 hunspell_nn_no_16 hunspell_pt_pt_16 hunspell_ru_ru_16 hunspell_ru_ru_aot_16
 pg15: pg_search_15 pgroonga_15* pg_bigm_15* zhparser_15* pg_bestmatch_15 vchord_bm25_15 pg_tokenizer_15 hunspell_cs_cz_15 hunspell_de_de_15 hunspell_en_us_15 hunspell_fr_15 hunspell_ne_np_15 hunspell_nl_nl_15 hunspell_nn_no_15 hunspell_pt_pt_15 hunspell_ru_ru_15 hunspell_ru_ru_aot_15
-pg14: pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14 #pg_search_14
+pg14: pg_search_14 pgroonga_14* pg_bigm_14* zhparser_14* pg_bestmatch_14 vchord_bm25_14 pg_tokenizer_14 hunspell_cs_cz_14 hunspell_de_de_14 hunspell_en_us_14 hunspell_fr_14 hunspell_ne_np_14 hunspell_nl_nl_14 hunspell_nn_no_14 hunspell_pt_pt_14 hunspell_ru_ru_14 hunspell_ru_ru_aot_14
 pg13: pgroonga_13* pg_bigm_13* zhparser_13* pg_bestmatch_13 hunspell_cs_cz_13 hunspell_de_de_13 hunspell_en_us_13 hunspell_fr_13 hunspell_ne_np_13 hunspell_nl_nl_13 hunspell_nn_no_13 hunspell_pt_pt_13 hunspell_ru_ru_13 hunspell_ru_ru_aot_13 #pg_search_13 #vchord_bm25_13 #pg_tokenizer_13
 ```
 
@@ -150,7 +150,7 @@ pg13: pgroonga_13* pg_bigm_13* zhparser_13* pg_bestmatch_13 hunspell_cs_cz_13 hu
 
 | Package | Version | License | DEB | DEB Package | 17 | 16 | 15 | 14 | 13 | Description |
 |---------|---------|:-------:|:---:|-------------|:--:|:--:|:--:|:--:|:--:|-------------|
-| [pg_search](/pg_search) | 0.16.0 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pg-search` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  |  | Full text search for PostgreSQL using BM25 |
+| [pg_search](/pg_search) | 0.16.0 | **<span class="tcwarn">AGPLv3</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pg-search` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** |  | Full text search for PostgreSQL using BM25 |
 | [pgroonga](/pgroonga) | 4.0.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pgroonga` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Use Groonga as index, fast full text search platform for all languages! |
 | [pg_bigm](/pg_bigm) | 1.2 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pg-bigm` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | create 2-gram (bigram) index for faster full text search. |
 | [zhparser](/zhparser) | 2.3 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-zhparser` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | a parser for full-text search of Chinese |
@@ -178,7 +178,7 @@ pg13: pgroonga_13* pg_bigm_13* zhparser_13* pg_bestmatch_13 hunspell_cs_cz_13 hu
 pg17: postgresql-17-pg-search postgresql-17-pgroonga postgresql-17-pg-bigm postgresql-17-zhparser postgresql-17-pg-bestmatch postgresql-17-vchord-bm25 postgresql-17-pg-tokenizer postgresql-17-hunspell-cs-cz postgresql-17-hunspell-de-de postgresql-17-hunspell-en-us postgresql-17-hunspell-fr postgresql-17-hunspell-ne-np postgresql-17-hunspell-nl-nl postgresql-17-hunspell-nn-no postgresql-17-hunspell-pt-pt postgresql-17-hunspell-ru-ru postgresql-17-hunspell-ru-ru-aot
 pg16: postgresql-16-pg-search postgresql-16-pgroonga postgresql-16-pg-bigm postgresql-16-zhparser postgresql-16-pg-bestmatch postgresql-16-vchord-bm25 postgresql-16-pg-tokenizer postgresql-16-hunspell-cs-cz postgresql-16-hunspell-de-de postgresql-16-hunspell-en-us postgresql-16-hunspell-fr postgresql-16-hunspell-ne-np postgresql-16-hunspell-nl-nl postgresql-16-hunspell-nn-no postgresql-16-hunspell-pt-pt postgresql-16-hunspell-ru-ru postgresql-16-hunspell-ru-ru-aot
 pg15: postgresql-15-pg-search postgresql-15-pgroonga postgresql-15-pg-bigm postgresql-15-zhparser postgresql-15-pg-bestmatch postgresql-15-vchord-bm25 postgresql-15-pg-tokenizer postgresql-15-hunspell-cs-cz postgresql-15-hunspell-de-de postgresql-15-hunspell-en-us postgresql-15-hunspell-fr postgresql-15-hunspell-ne-np postgresql-15-hunspell-nl-nl postgresql-15-hunspell-nn-no postgresql-15-hunspell-pt-pt postgresql-15-hunspell-ru-ru postgresql-15-hunspell-ru-ru-aot
-pg14: postgresql-14-pgroonga postgresql-14-pg-bigm postgresql-14-zhparser postgresql-14-pg-bestmatch postgresql-14-vchord-bm25 postgresql-14-pg-tokenizer postgresql-14-hunspell-cs-cz postgresql-14-hunspell-de-de postgresql-14-hunspell-en-us postgresql-14-hunspell-fr postgresql-14-hunspell-ne-np postgresql-14-hunspell-nl-nl postgresql-14-hunspell-nn-no postgresql-14-hunspell-pt-pt postgresql-14-hunspell-ru-ru postgresql-14-hunspell-ru-ru-aot #postgresql-14-pg-search
+pg14: postgresql-14-pg-search postgresql-14-pgroonga postgresql-14-pg-bigm postgresql-14-zhparser postgresql-14-pg-bestmatch postgresql-14-vchord-bm25 postgresql-14-pg-tokenizer postgresql-14-hunspell-cs-cz postgresql-14-hunspell-de-de postgresql-14-hunspell-en-us postgresql-14-hunspell-fr postgresql-14-hunspell-ne-np postgresql-14-hunspell-nl-nl postgresql-14-hunspell-nn-no postgresql-14-hunspell-pt-pt postgresql-14-hunspell-ru-ru postgresql-14-hunspell-ru-ru-aot
 pg13: postgresql-13-pgroonga postgresql-13-pg-bigm postgresql-13-zhparser postgresql-13-pg-bestmatch postgresql-13-hunspell-cs-cz postgresql-13-hunspell-de-de postgresql-13-hunspell-en-us postgresql-13-hunspell-fr postgresql-13-hunspell-ne-np postgresql-13-hunspell-nl-nl postgresql-13-hunspell-nn-no postgresql-13-hunspell-pt-pt postgresql-13-hunspell-ru-ru postgresql-13-hunspell-ru-ru-aot #postgresql-13-pg-search #postgresql-13-vchord-bm25 #postgresql-13-pg-tokenizer
 ```
 
@@ -189,7 +189,7 @@ pg13: postgresql-13-pgroonga postgresql-13-pg-bigm postgresql-13-zhparser postgr
 pg17: postgresql-17-pg-search postgresql-17-pgroonga postgresql-17-pg-bigm postgresql-17-zhparser postgresql-17-pg-bestmatch postgresql-17-vchord-bm25 postgresql-17-pg-tokenizer postgresql-17-hunspell-cs-cz postgresql-17-hunspell-de-de postgresql-17-hunspell-en-us postgresql-17-hunspell-fr postgresql-17-hunspell-ne-np postgresql-17-hunspell-nl-nl postgresql-17-hunspell-nn-no postgresql-17-hunspell-pt-pt postgresql-17-hunspell-ru-ru postgresql-17-hunspell-ru-ru-aot
 pg16: postgresql-16-pg-search postgresql-16-pgroonga postgresql-16-pg-bigm postgresql-16-zhparser postgresql-16-pg-bestmatch postgresql-16-vchord-bm25 postgresql-16-pg-tokenizer postgresql-16-hunspell-cs-cz postgresql-16-hunspell-de-de postgresql-16-hunspell-en-us postgresql-16-hunspell-fr postgresql-16-hunspell-ne-np postgresql-16-hunspell-nl-nl postgresql-16-hunspell-nn-no postgresql-16-hunspell-pt-pt postgresql-16-hunspell-ru-ru postgresql-16-hunspell-ru-ru-aot
 pg15: postgresql-15-pg-search postgresql-15-pgroonga postgresql-15-pg-bigm postgresql-15-zhparser postgresql-15-pg-bestmatch postgresql-15-vchord-bm25 postgresql-15-pg-tokenizer postgresql-15-hunspell-cs-cz postgresql-15-hunspell-de-de postgresql-15-hunspell-en-us postgresql-15-hunspell-fr postgresql-15-hunspell-ne-np postgresql-15-hunspell-nl-nl postgresql-15-hunspell-nn-no postgresql-15-hunspell-pt-pt postgresql-15-hunspell-ru-ru postgresql-15-hunspell-ru-ru-aot
-pg14: postgresql-14-pgroonga postgresql-14-pg-bigm postgresql-14-zhparser postgresql-14-pg-bestmatch postgresql-14-vchord-bm25 postgresql-14-pg-tokenizer postgresql-14-hunspell-cs-cz postgresql-14-hunspell-de-de postgresql-14-hunspell-en-us postgresql-14-hunspell-fr postgresql-14-hunspell-ne-np postgresql-14-hunspell-nl-nl postgresql-14-hunspell-nn-no postgresql-14-hunspell-pt-pt postgresql-14-hunspell-ru-ru postgresql-14-hunspell-ru-ru-aot #postgresql-14-pg-search
+pg14: postgresql-14-pg-search postgresql-14-pgroonga postgresql-14-pg-bigm postgresql-14-zhparser postgresql-14-pg-bestmatch postgresql-14-vchord-bm25 postgresql-14-pg-tokenizer postgresql-14-hunspell-cs-cz postgresql-14-hunspell-de-de postgresql-14-hunspell-en-us postgresql-14-hunspell-fr postgresql-14-hunspell-ne-np postgresql-14-hunspell-nl-nl postgresql-14-hunspell-nn-no postgresql-14-hunspell-pt-pt postgresql-14-hunspell-ru-ru postgresql-14-hunspell-ru-ru-aot
 pg13: postgresql-13-pgroonga postgresql-13-pg-bigm postgresql-13-zhparser postgresql-13-pg-bestmatch postgresql-13-hunspell-cs-cz postgresql-13-hunspell-de-de postgresql-13-hunspell-en-us postgresql-13-hunspell-fr postgresql-13-hunspell-ne-np postgresql-13-hunspell-nl-nl postgresql-13-hunspell-nn-no postgresql-13-hunspell-pt-pt postgresql-13-hunspell-ru-ru postgresql-13-hunspell-ru-ru-aot #postgresql-13-pg-search #postgresql-13-vchord-bm25 #postgresql-13-pg-tokenizer
 ```
 
@@ -200,7 +200,7 @@ pg13: postgresql-13-pgroonga postgresql-13-pg-bigm postgresql-13-zhparser postgr
 pg17: postgresql-17-pg-search postgresql-17-pgroonga postgresql-17-pg-bigm postgresql-17-zhparser postgresql-17-pg-bestmatch postgresql-17-vchord-bm25 postgresql-17-pg-tokenizer postgresql-17-hunspell-cs-cz postgresql-17-hunspell-de-de postgresql-17-hunspell-en-us postgresql-17-hunspell-fr postgresql-17-hunspell-ne-np postgresql-17-hunspell-nl-nl postgresql-17-hunspell-nn-no postgresql-17-hunspell-pt-pt postgresql-17-hunspell-ru-ru postgresql-17-hunspell-ru-ru-aot
 pg16: postgresql-16-pg-search postgresql-16-pgroonga postgresql-16-pg-bigm postgresql-16-zhparser postgresql-16-pg-bestmatch postgresql-16-vchord-bm25 postgresql-16-pg-tokenizer postgresql-16-hunspell-cs-cz postgresql-16-hunspell-de-de postgresql-16-hunspell-en-us postgresql-16-hunspell-fr postgresql-16-hunspell-ne-np postgresql-16-hunspell-nl-nl postgresql-16-hunspell-nn-no postgresql-16-hunspell-pt-pt postgresql-16-hunspell-ru-ru postgresql-16-hunspell-ru-ru-aot
 pg15: postgresql-15-pg-search postgresql-15-pgroonga postgresql-15-pg-bigm postgresql-15-zhparser postgresql-15-pg-bestmatch postgresql-15-vchord-bm25 postgresql-15-pg-tokenizer postgresql-15-hunspell-cs-cz postgresql-15-hunspell-de-de postgresql-15-hunspell-en-us postgresql-15-hunspell-fr postgresql-15-hunspell-ne-np postgresql-15-hunspell-nl-nl postgresql-15-hunspell-nn-no postgresql-15-hunspell-pt-pt postgresql-15-hunspell-ru-ru postgresql-15-hunspell-ru-ru-aot
-pg14: postgresql-14-pgroonga postgresql-14-pg-bigm postgresql-14-zhparser postgresql-14-pg-bestmatch postgresql-14-vchord-bm25 postgresql-14-pg-tokenizer postgresql-14-hunspell-cs-cz postgresql-14-hunspell-de-de postgresql-14-hunspell-en-us postgresql-14-hunspell-fr postgresql-14-hunspell-ne-np postgresql-14-hunspell-nl-nl postgresql-14-hunspell-nn-no postgresql-14-hunspell-pt-pt postgresql-14-hunspell-ru-ru postgresql-14-hunspell-ru-ru-aot #postgresql-14-pg-search
+pg14: postgresql-14-pg-search postgresql-14-pgroonga postgresql-14-pg-bigm postgresql-14-zhparser postgresql-14-pg-bestmatch postgresql-14-vchord-bm25 postgresql-14-pg-tokenizer postgresql-14-hunspell-cs-cz postgresql-14-hunspell-de-de postgresql-14-hunspell-en-us postgresql-14-hunspell-fr postgresql-14-hunspell-ne-np postgresql-14-hunspell-nl-nl postgresql-14-hunspell-nn-no postgresql-14-hunspell-pt-pt postgresql-14-hunspell-ru-ru postgresql-14-hunspell-ru-ru-aot
 pg13: postgresql-13-pgroonga postgresql-13-pg-bigm postgresql-13-zhparser postgresql-13-pg-bestmatch postgresql-13-hunspell-cs-cz postgresql-13-hunspell-de-de postgresql-13-hunspell-en-us postgresql-13-hunspell-fr postgresql-13-hunspell-ne-np postgresql-13-hunspell-nl-nl postgresql-13-hunspell-nn-no postgresql-13-hunspell-pt-pt postgresql-13-hunspell-ru-ru postgresql-13-hunspell-ru-ru-aot #postgresql-13-pg-search #postgresql-13-vchord-bm25 #postgresql-13-pg-tokenizer
 ```
 

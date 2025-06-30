@@ -7,8 +7,8 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 
 |Entry / Filter | All | PGDG | PIGSTY | CONTRIB | MISC | MISS | PG17 | PG16 | PG15 | PG14 | PG13|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| RPM Extension | 416 | 118 | 227 | 71 | 0 | 6 | 397 | 408 | 410 | 390 | 368 |
-| DEB Extension | 409 | 103 | 235 | 71 | 0 | 13 | 395 | 401 | 403 | 387 | 363 |
+| RPM Extension | 416 | 118 | 227 | 71 | 0 | 6 | 397 | 408 | 410 | 394 | 368 |
+| DEB Extension | 409 | 103 | 235 | 71 | 0 | 13 | 395 | 401 | 403 | 391 | 363 |
 
 
 
@@ -788,11 +788,11 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 ### RHEL 8 Compatible OS (el8)
 
 ```yaml
-- timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background #timescaledb
+- timescaledb timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background
 - postgis pgrouting pointcloud pg_h3 q3c ogr_fdw geoip pg_polyline pg_geohash pg_tzf #mobilitydb
 - pgvector vchord pgvectorscale pg_vectorize pg_similarity smlar pg_summarize pg_tiktoken pg4ml pgml
-- pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
-- hydra pg_analytics pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #citus #pg_duckdb #pg_strom
+- pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
+- citus hydra pg_analytics pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #pg_duckdb #pg_strom
 - age hll rum pg_graphql pg_jsonschema jsquery pg_hint_plan hypopg index_advisor pg_plan_filter imgsmlr pg_ivm pgmq pgq pg_cardano omnigres #pg_incremental #rdkit
 - pg_tle plv8 pllua plprql pldebugger plpgsql_check plprofiler plsh #pljava #plr #pgtap #faker #dbt2
 - pg_prefix pg_semver pgunit pgpdf pglite_fusion md5hash asn1oid roaringbitmap pgfaceting pgsphere pg_country pg_xenophile pg_currency pg_collection numeral pg_rational pguint pg_uint128 hashtypes ip4r pg_uri pgemailaddr pg_acl timestamp9 chkpass #pgmp #pg_duration #debversion #pg_rrule
@@ -809,11 +809,11 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 ### RHEL 9 Compatible OS (el9)
 
 ```yaml
-- timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background #timescaledb
+- timescaledb timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background
 - postgis pgrouting pointcloud pg_h3 q3c ogr_fdw geoip pg_polyline pg_geohash pg_tzf #mobilitydb
 - pgvector vchord pgvectorscale pg_vectorize pg_similarity smlar pg_summarize pg_tiktoken pg4ml pgml
-- pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
-- hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #citus #pg_strom
+- pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
+- citus hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #pg_strom
 - age hll rum pg_graphql pg_jsonschema jsquery pg_hint_plan hypopg index_advisor pg_plan_filter imgsmlr pg_ivm pgmq pgq pg_cardano omnigres #pg_incremental #rdkit
 - pg_tle plv8 pllua plprql pldebugger plpgsql_check plprofiler plsh pljava #plr #pgtap #faker #dbt2
 - pg_prefix pg_semver pgunit pgpdf pglite_fusion md5hash asn1oid roaringbitmap pgfaceting pgsphere pg_country pg_xenophile pg_currency pg_collection numeral pg_rational pguint pg_uint128 hashtypes ip4r pg_uri pgemailaddr pg_acl timestamp9 chkpass #pgmp #pg_duration #debversion #pg_rrule
@@ -830,11 +830,11 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 ### Debian 12 bookworm Compatible OS (d12)
 
 ```yaml
-- timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background #timescaledb
+- timescaledb timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background
 - postgis pgrouting pointcloud pg_h3 q3c ogr_fdw geoip pg_polyline pg_geohash mobilitydb pg_tzf
 - pgvector vchord pgvectorscale pg_vectorize pg_similarity smlar pg_summarize pg_tiktoken pg4ml pgml
-- pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
-- hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #citus #pg_strom
+- pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
+- citus hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #pg_strom
 - age hll rum pg_graphql pg_jsonschema jsquery pg_hint_plan hypopg index_advisor pg_plan_filter imgsmlr pg_ivm pgmq pgq pg_cardano rdkit omnigres #pg_incremental
 - pg_tle plv8 pllua plprql pldebugger plpgsql_check plprofiler plsh pljava #plr #pgtap #faker #dbt2
 - pg_prefix pg_semver pgunit pgpdf pglite_fusion md5hash asn1oid roaringbitmap pgfaceting pgsphere pg_country pg_xenophile pg_currency pg_collection pgmp numeral pg_rational pguint pg_uint128 hashtypes ip4r pg_uri pgemailaddr pg_acl debversion pg_rrule timestamp9 chkpass #pg_duration
@@ -851,11 +851,11 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 ### Ubuntu 24.04 jammy Compatible OS (u22)
 
 ```yaml
-- timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background #timescaledb
+- timescaledb timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background
 - postgis pgrouting pointcloud pg_h3 q3c ogr_fdw geoip pg_polyline pg_geohash mobilitydb pg_tzf
 - pgvector vchord pgvectorscale pg_vectorize pg_similarity smlar pg_summarize pg_tiktoken pg4ml pgml
-- pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
-- hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #citus #pg_strom
+- pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
+- citus hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #pg_strom
 - age hll rum pg_graphql pg_jsonschema jsquery pg_hint_plan hypopg index_advisor pg_plan_filter imgsmlr pg_ivm pgmq pgq pg_cardano rdkit omnigres #pg_incremental
 - pg_tle plv8 pllua plprql pldebugger plpgsql_check plprofiler plsh pljava #plr #pgtap #faker #dbt2
 - pg_prefix pg_semver pgunit pgpdf pglite_fusion md5hash asn1oid roaringbitmap pgfaceting pgsphere pg_country pg_xenophile pg_currency pg_collection pgmp numeral pg_rational pguint pg_uint128 hashtypes ip4r pg_uri pgemailaddr pg_acl debversion pg_rrule timestamp9 chkpass #pg_duration
@@ -872,11 +872,11 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 ### Ubuntu 24.04 noble Compatible OS (u24)
 
 ```yaml
-- timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background #timescaledb
+- timescaledb timescaledb_toolkit pg_timeseries periods temporal_tables emaj table_version pg_cron pg_task pg_later pg_background
 - postgis pgrouting pointcloud pg_h3 q3c ogr_fdw geoip pg_polyline pg_geohash mobilitydb pg_tzf
 - pgvector vchord pgvectorscale pg_vectorize pg_similarity smlar pg_summarize pg_tiktoken pg4ml pgml
-- pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell #pg_search
-- hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #citus #pg_strom
+- pg_search pgroonga pg_bigm zhparser pg_bestmatch vchord_bm25 pg_tokenizer hunspell
+- citus hydra pg_analytics pg_duckdb pg_mooncake duckdb_fdw pg_parquet pg_fkpart pg_partman plproxy #pg_strom
 - age hll rum pg_graphql pg_jsonschema jsquery pg_hint_plan hypopg index_advisor pg_plan_filter imgsmlr pg_ivm pgmq pgq pg_cardano rdkit omnigres #pg_incremental
 - pg_tle plv8 pllua plprql pldebugger plpgsql_check plprofiler plsh pljava #plr #pgtap #faker #dbt2
 - pg_prefix pg_semver pgunit pgpdf pglite_fusion md5hash asn1oid roaringbitmap pgfaceting pgsphere pg_country pg_xenophile pg_currency pg_collection pgmp numeral pg_rational pguint pg_uint128 hashtypes ip4r pg_uri pgemailaddr pg_acl debversion pg_rrule timestamp9 chkpass #pg_duration
