@@ -18,7 +18,7 @@ There are 17 available extensions in this category:
 | 9520 | [pgl_ddl_deploy](/pgl_ddl_deploy) | 2.2.1 | [pgl_ddl_deploy](/pgl_ddl_deploy) | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | **<span class="tccyan">PGDG</span>** | [LINK](https://github.com/enova/pgl_ddl_deploy) |  |  | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | automated ddl deployment using pglogical |
 | 9530 | [pg_failover_slots](/pg_failover_slots) | 1.1.0 | [pg_failover_slots](/pg_failover_slots) | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/EnterpriseDB/pg_failover_slots) |  | <span class="tcred">❗</span> | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | PG Failover Slots extension |
 | 9540 | [db_migrator](/db_migrator) | 1.0.0 | [db_migrator](/db_migrator) | **<span class="tcblue">BSD-3</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/cybertec-postgresql/db_migrator) |  |  | <span class="tcwarn">✘</span> | <span class="tcblue">✔</span> | Tools to migrate other databases to PostgreSQL |
-| 9550 | [pgactive](/pgactive) | 2.1.5 | [pglogical](/pgactive) | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/aws/pgactive) | **<span class="tcwarn">✔</span>** | <span class="tcred">❗</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | Active-Active Replication Extension for PostgreSQL |
+| 9550 | [pgactive](/pgactive) | 2.1.5 | [pgactive](/pgactive) | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/aws/pgactive) | **<span class="tcwarn">✔</span>** | <span class="tcred">❗</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | Active-Active Replication Extension for PostgreSQL |
 | 9630 | [wal2json](/wal2json) | 2.6 | [wal2json](/wal2json) | **<span class="tcblue">BSD-3</span>** | **<span class="tccyan">PGDG</span>** | **<span class="tccyan">PGDG</span>** | [LINK](https://github.com/eulerto/wal2json) |  |  | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | Changing data capture in JSON format |
 | 9640 | [wal2mongo](/wal2mongo) | 1.0.7 | [wal2mongo](/wal2mongo) | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/HighgoSoftware/wal2mongo) |  |  | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | PostgreSQL logical decoding output plugin for MongoDB |
 | 9650 | [decoderbufs](/decoderbufs) | 3.0.7 | [decoderbufs](/decoderbufs) | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | **<span class="tccyan">PGDG</span>** | [LINK](https://github.com/debezium/postgres-decoderbufs) |  |  | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | Logical decoding plugin that delivers WAL stream changes using a Protocol Buffer format |
@@ -35,55 +35,55 @@ There are 17 available extensions in this category:
 ### RHEL 8 Compatible (el8)
 
 ```yaml
-pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
-pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 
 ### RHEL 9 Compatible (el9)
 
 ```yaml
-pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
-pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 
 ### Debian 12 bookworm Compatible (d12)
 
 ```yaml
-pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
-pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 
 ### Ubuntu 24.04 jammy Compatible (u22)
 
 ```yaml
-pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
-pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 
 ### Ubuntu 24.04 noble Compatible (u24)
 
 ```yaml
-pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
-pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
-pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg17: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+pg16: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg15: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg14: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 
@@ -100,7 +100,7 @@ pg13: pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wa
 | [pgl_ddl_deploy](/pgl_ddl_deploy) | 2.2.1 | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | `pgl_ddl_deploy_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | automated ddl deployment using pglogical |
 | [pg_failover_slots](/pg_failover_slots) | 1.1.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `pg_failover_slots_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | PG Failover Slots extension |
 | [db_migrator](/db_migrator) | 1.0.0 | **<span class="tcblue">BSD-3</span>** | **<span class="tcwarn">PIGSTY</span>** | `db_migrator_$v` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Tools to migrate other databases to PostgreSQL |
-| [pglogical](/pgactive) | 2.1.5 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `pgactive_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Active-Active Replication Extension for PostgreSQL |
+| [pgactive](/pgactive) | 2.1.5 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `pgactive_$v*` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Active-Active Replication Extension for PostgreSQL |
 | [wal2json](/wal2json) | 2.6 | **<span class="tcblue">BSD-3</span>** | **<span class="tccyan">PGDG</span>** | `wal2json_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | Changing data capture in JSON format |
 | [wal2mongo](/wal2mongo) | 1.0.7 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `wal2mongo_$v*` |  | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | PostgreSQL logical decoding output plugin for MongoDB |
 | [decoderbufs](/decoderbufs) | 3.0.2 | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | `postgres-decoderbufs_$v*` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | Logical decoding plugin that delivers WAL stream changes using a Protocol Buffer format |
@@ -149,7 +149,7 @@ pg13: pglogical_13* pglogical_ticker_13* pgl_ddl_deploy_13* pg_failover_slots_13
 | [pgl_ddl_deploy](/pgl_ddl_deploy) | 2.2.1 | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | `postgresql-$v-pgl-ddl-deploy` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | automated ddl deployment using pglogical |
 | [pg_failover_slots](/pg_failover_slots) | 1.1.0 | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pg-failover-slots` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | PG Failover Slots extension |
 | [db_migrator](/db_migrator) | 1.0.0 | **<span class="tcblue">BSD-3</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-db-migrator` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Tools to migrate other databases to PostgreSQL |
-| [pglogical](/pgactive) | 2.1.5 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pgactive` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Active-Active Replication Extension for PostgreSQL |
+| [pgactive](/pgactive) | 2.1.5 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-pgactive` | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | Active-Active Replication Extension for PostgreSQL |
 | [wal2json](/wal2json) | 2.6 | **<span class="tcblue">BSD-3</span>** | **<span class="tccyan">PGDG</span>** | `postgresql-$v-wal2json` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | Changing data capture in JSON format |
 | [wal2mongo](/wal2mongo) | 1.0.7 | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | `postgresql-$v-wal2mongo` |  | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | **<span class="tcwarn">✔</span>** | PostgreSQL logical decoding output plugin for MongoDB |
 | [decoderbufs](/decoderbufs) | 3.0.7 | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | `postgresql-$v-decoderbufs` | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | **<span class="tccyan">✔</span>** | Logical decoding plugin that delivers WAL stream changes using a Protocol Buffer format |

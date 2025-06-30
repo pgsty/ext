@@ -433,7 +433,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 | [ETL](/etl) | 9520 | [pgl_ddl_deploy](/pgl_ddl_deploy) | 2.2.1 | [pgl_ddl_deploy](/pgl_ddl_deploy) | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | **<span class="tccyan">PGDG</span>** | [LINK](https://github.com/enova/pgl_ddl_deploy) |  |  | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | automated ddl deployment using pglogical |
 | [ETL](/etl) | 9530 | [pg_failover_slots](/pg_failover_slots) | 1.1.0 | [pg_failover_slots](/pg_failover_slots) | **<span class="tcblue">PostgreSQL</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/EnterpriseDB/pg_failover_slots) |  | <span class="tcred">❗</span> | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | PG Failover Slots extension |
 | [ETL](/etl) | 9540 | [db_migrator](/db_migrator) | 1.0.0 | [db_migrator](/db_migrator) | **<span class="tcblue">BSD-3</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/cybertec-postgresql/db_migrator) |  |  | <span class="tcwarn">✘</span> | <span class="tcblue">✔</span> | Tools to migrate other databases to PostgreSQL |
-| [ETL](/etl) | 9550 | [pgactive](/pgactive) | 2.1.5 | [pglogical](/pgactive) | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/aws/pgactive) | **<span class="tcwarn">✔</span>** | <span class="tcred">❗</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | Active-Active Replication Extension for PostgreSQL |
+| [ETL](/etl) | 9550 | [pgactive](/pgactive) | 2.1.5 | [pgactive](/pgactive) | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/aws/pgactive) | **<span class="tcwarn">✔</span>** | <span class="tcred">❗</span> | <span class="tcblue">✔</span> | <span class="tcblue">✔</span> | Active-Active Replication Extension for PostgreSQL |
 | [ETL](/etl) | 9630 | [wal2json](/wal2json) | 2.6 | [wal2json](/wal2json) | **<span class="tcblue">BSD-3</span>** | **<span class="tccyan">PGDG</span>** | **<span class="tccyan">PGDG</span>** | [LINK](https://github.com/eulerto/wal2json) |  |  | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | Changing data capture in JSON format |
 | [ETL](/etl) | 9640 | [wal2mongo](/wal2mongo) | 1.0.7 | [wal2mongo](/wal2mongo) | **<span class="tccyan">Apache-2</span>** | **<span class="tcwarn">PIGSTY</span>** | **<span class="tcwarn">PIGSTY</span>** | [LINK](https://github.com/HighgoSoftware/wal2mongo) |  |  | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | PostgreSQL logical decoding output plugin for MongoDB |
 | [ETL](/etl) | 9650 | [decoderbufs](/decoderbufs) | 3.0.7 | [decoderbufs](/decoderbufs) | **<span class="tcblue">MIT</span>** | **<span class="tccyan">PGDG</span>** | **<span class="tccyan">PGDG</span>** | [LINK](https://github.com/debezium/postgres-decoderbufs) |  |  | <span class="tcblue">✔</span> | <span class="tcwarn">✘</span> | Logical decoding plugin that delivers WAL stream changes using a Protocol Buffer format |
@@ -473,7 +473,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers multicorn odbc_fdw pgspider_ext mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw redis_fdw pg_redis_pubsub hdfs_fdw firebird_fdw aws_s3 log_fdw #jdbc_fdw #oracle_fdw #db2_fdw #mongo_fdw #kafka_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock spat pgmemcache #pg_dbms_job #wiltondb
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -494,7 +494,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers multicorn odbc_fdw pgspider_ext mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw redis_fdw pg_redis_pubsub hdfs_fdw firebird_fdw aws_s3 log_fdw #jdbc_fdw #oracle_fdw #db2_fdw #mongo_fdw #kafka_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock spat pgmemcache #pg_dbms_job #wiltondb
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
 ```
 
 ### Debian 12 bookworm Compatible OS (d12)
@@ -515,7 +515,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #kafka_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback spat pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
 ```
 
 ### Ubuntu 24.04 jammy Compatible OS (u22)
@@ -536,7 +536,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #kafka_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback spat pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
 ```
 
 ### Ubuntu 24.04 noble Compatible OS (u24)
@@ -557,7 +557,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #kafka_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback spat pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #wal2mongo #repmgr
 ```
 
 --------
@@ -583,7 +583,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pg_tde pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset
 - wrappers multicorn odbc_fdw jdbc_fdw pgspider_ext mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 log_fdw #oracle_fdw #db2_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock pgmemcache #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -604,7 +604,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pg_tde pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset
 - wrappers multicorn odbc_fdw jdbc_fdw pgspider_ext mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 log_fdw #oracle_fdw #db2_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock pgmemcache #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Debian 12 bookworm Compatible OS (d12)
@@ -625,7 +625,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pg_tde pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 jammy Compatible OS (u22)
@@ -646,7 +646,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pg_tde pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 noble Compatible OS (u24)
@@ -667,7 +667,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pg_tde pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 --------
@@ -693,7 +693,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit17 pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers multicorn odbc_fdw jdbc_fdw pgspider_ext mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 log_fdw #oracle_fdw #db2_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock pgmemcache #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -714,7 +714,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit17 pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers multicorn odbc_fdw jdbc_fdw pgspider_ext mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 log_fdw #oracle_fdw #db2_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock pgmemcache #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Debian 12 bookworm Compatible OS (d12)
@@ -735,7 +735,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 jammy Compatible OS (u22)
@@ -756,7 +756,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 noble Compatible OS (u24)
@@ -777,7 +777,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers pgspider_ext mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - documentdb orafce pgtt session_variable pg_statement_rollback pgmemcache #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 --------
@@ -803,7 +803,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit16 pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers multicorn odbc_fdw jdbc_fdw mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 log_fdw #pgspider_ext #oracle_fdw #db2_fdw
 - orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock #documentdb #pg_dbms_job #wiltondb #spat #pgmemcache
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -824,7 +824,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit16 pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers multicorn odbc_fdw jdbc_fdw mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 log_fdw #pgspider_ext #oracle_fdw #db2_fdw
 - orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock #documentdb #pg_dbms_job #wiltondb #spat #pgmemcache
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Debian 12 bookworm Compatible OS (d12)
@@ -845,7 +845,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #pgspider_ext #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - orafce pgtt session_variable pg_statement_rollback pgmemcache #documentdb #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 jammy Compatible OS (u22)
@@ -866,7 +866,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #pgspider_ext #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - orafce pgtt session_variable pg_statement_rollback pgmemcache #documentdb #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 noble Compatible OS (u24)
@@ -887,7 +887,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_session_jwt pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_tde
 - wrappers mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 log_fdw #multicorn #odbc_fdw #jdbc_fdw #pgspider_ext #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw
 - orafce pgtt session_variable pg_statement_rollback pgmemcache #documentdb #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 --------
@@ -913,7 +913,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_anon pgsmcrypto pgaudit15 pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_session_jwt #pg_tde
 - multicorn odbc_fdw jdbc_fdw mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 #wrappers #pgspider_ext #oracle_fdw #db2_fdw #log_fdw
 - orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock #documentdb #pg_dbms_job #wiltondb #spat #pgmemcache
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### RHEL 9 Compatible OS (el9)
@@ -934,7 +934,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_anon pgsmcrypto pgaudit15 pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_session_jwt #pg_tde
 - multicorn odbc_fdw jdbc_fdw mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw pg_redis_pubsub kafka_fdw hdfs_fdw firebird_fdw aws_s3 #wrappers #pgspider_ext #oracle_fdw #db2_fdw #log_fdw
 - orafce pgtt session_variable pg_statement_rollback pg_dbms_metadata pg_dbms_lock #documentdb #pg_dbms_job #wiltondb #spat #pgmemcache
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Debian 12 bookworm Compatible OS (d12)
@@ -955,7 +955,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_session_jwt #pg_tde
 - mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 #wrappers #multicorn #odbc_fdw #jdbc_fdw #pgspider_ext #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw #log_fdw
 - orafce pgtt session_variable pg_statement_rollback pgmemcache #documentdb #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 jammy Compatible OS (u22)
@@ -976,7 +976,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_session_jwt #pg_tde
 - mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 #wrappers #multicorn #odbc_fdw #jdbc_fdw #pgspider_ext #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw #log_fdw
 - orafce pgtt session_variable pg_statement_rollback pgmemcache #documentdb #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 ### Ubuntu 24.04 noble Compatible OS (u24)
@@ -997,7 +997,7 @@ There are **71** [**Contrib**](contrib) extensions provided by PostgreSQL and **
 - passwordcheck supautils pgsodium pg_vault pg_anon pgsmcrypto pgaudit pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors login_hook set_user pg_snakeoil pgextwlist pg_auditor sslutils pg_noset #pg_session_jwt #pg_tde
 - mysql_fdw tds_fdw sqlite_fdw redis_fdw pg_redis_pubsub kafka_fdw firebird_fdw aws_s3 #wrappers #multicorn #odbc_fdw #jdbc_fdw #pgspider_ext #oracle_fdw #db2_fdw #pgbouncer_fdw #mongo_fdw #hdfs_fdw #log_fdw
 - orafce pgtt session_variable pg_statement_rollback pgmemcache #documentdb #pg_dbms_metadata #pg_dbms_lock #pg_dbms_job #wiltondb #spat
-- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
+- pglogical pglogical_ticker pgl_ddl_deploy pg_failover_slots db_migrator pgactive wal2json wal2mongo decoderbufs decoder_raw mimeo pg_fact_loader pg_bulkload #repmgr
 ```
 
 
