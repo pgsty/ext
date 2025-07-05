@@ -83,3 +83,28 @@ The search API (`app/api/search/route.ts`) uses Orama with special configuration
 
 ### Build Process
 The build process uses Fumadocs to generate static documentation from MDX files. The `fumadocs-mdx` postinstall script processes MDX content during package installation.
+
+
+## Python Environment
+
+Use `~/.venv/bin/activate` to use python virtual environment
+
+## Translation Rules
+
+如果你收到了翻译任务，你应该读取指定的内容文件或者目录，将其翻译为指定的语言。
+
+作为一个示例，如果我要把 pgsql/acl.mdx 翻译成英文，那么你应该找到 content/docs/pgsql/acl.mdx 文件，将其翻译为 content/docs/pgsql/acl.cn.mdx 文件。
+这里特别需要注意的是，在翻译非英文版本的文档过程中：
+
+1. 你应该保留所有的 Markdown 链接，如果这是一个相对链接，那么你应该意识到，在其他语言的翻译中应该加上对应前缀。比如在中文翻译中你需要加上 `/cn/` 前缀来引用文档
+2. 你应该保留所有 H2/H3/H4 等标题的英文锚点，然后在引用的链接中统一使用英文锚点。
+3. 你应该使用地道，信达雅，精准，干练，专业的用词来进行翻译，使用计算机领域与数据库领域的专业术语。
+
+## 提前授权
+
+如果你要访问网络读取文档，读取本地 HTTP 访问，直接执行即可。
+
+如果你要执行本地读取文件类操作，无需询问授权，直接干就完了。
+如果你要进行本地编辑，如果是跟业务相关的文件，直接干就完了。
+
+对于批量删除操作，你要向我确认一下。其他的中低风险我授权你执行。

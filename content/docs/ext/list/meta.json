@@ -1,0 +1,12 @@
+{
+  "defaultOpen": true,
+  "pages": [
+    "cate",
+    "lang",
+    "license",
+    "repo",
+    "distro",
+    "pg",
+    "attr"
+  ]
+}

@@ -1,6 +1,6 @@
 ---
-title: Extension
-description: The PostgreSQL Extension Catalog, Repository and Package Manager
+title: Extensions
+description: The PostgreSQL Extension Catalog, Repository and Package Manager, maintained by Pigsty
 icon: Blocks
 full: true
 ---
@@ -10,21 +10,21 @@ import { Badge } from "@/components/ui/badge";
 
 Pigsty allows you to harness the synergistic superpower of the PostgreSQL extensions ecosystem with three things:
 
-- [**Catalog**](/list) : Find the extension you need, with unparalleled 420+ extensions included
-- [**Repository**](/repo) : Get pre-made RPM/DEB packages for 10 mainstream Linux OS
-- [**Package Manager**](/pig) : Setup everything with a single command - `pig`
+- [**Catalog**](/ext/list) : Find the extension you need, with unparalleled 420+ extensions included
+- [**Repository**](/ext/repo) : Get pre-made RPM/DEB packages for 10 mainstream Linux OS
+- [**Package Manager**](/ext/pig) : Setup everything with a single command - `pig`
 
 <Cards>
-    <Card icon={<ClipboardList className="text-green-600" />} title='Extension Catalog' href={"/list"}>
+    <Card icon={<ClipboardList className="text-green-600" />} title='Extension Catalog' href={"/ext/list"}>
         The complete list of <span className="text-lg font-black text-emerald-500">420+</span> available PostgreSQL extensions
     </Card>
-    <Card icon={<Warehouse className={"text-red-500"} />} title='Software Repository' href={"/repo"}>
+    <Card icon={<Warehouse className={"text-red-500"} />} title='Software Repository' href={"/ext/repo"}>
         The APT/YUM repo that deliver PostgreSQL extensions
     </Card>
-    <Card icon={<PiggyBank className="text-blue-300" />} title='Package Manger' href={"/pig"}>
+    <Card icon={<PiggyBank className="text-blue-300" />} title='Package Manger' href={"/ext/pig"}>
         The missing package manager for PostgreSQL & Extensions
     </Card>
-    <Card icon={<CircleHelp className={"text-orange-400"} />} title='Usage Tutorial' href={"/usage"}>
+    <Card icon={<CircleHelp className={"text-orange-400"} />} title='Usage Tutorial' href={"/pgsql/ext"}>
         How to get, install, config, manage these extensions?
     </Card>
 </Cards>
@@ -35,48 +35,48 @@ Pigsty allows you to harness the synergistic superpower of the PostgreSQL extens
 
 Also check our blog post: [PostgreSQL is eating the Database World](https://medium.com/@fengruohang/postgres-is-eating-the-database-world-157c204dcfc4)
 
-[![ecosystem](/img/ecosystem.gif)](https://medium.com/@fengruohang/postgres-is-eating-the-database-world-157c204dcfc4)
+[![ecosystem](/img/pigsty/ecosystem.gif)](https://medium.com/@fengruohang/postgres-is-eating-the-database-world-157c204dcfc4)
 
-<a href="/cate/time" className="no-underline"><Badge icon={<Clock />} variant="blue-subtle">TIME</Badge></a>
-<a href="/cate/gis" className="no-underline"><Badge icon={<Globe />} variant="green-subtle">GIS</Badge></a>
-<a href="/cate/rag" className="no-underline"><Badge icon={<Brain />} variant="purple-subtle">RAG</Badge></a>
-<a href="/cate/fts" className="no-underline"><Badge icon={<Search />} variant="amber-subtle">FTS</Badge></a>
-<a href="/cate/olap" className="no-underline"><Badge icon={<ChartNoAxesCombined />} variant="red-subtle">OLAP</Badge></a>
-<a href="/cate/feat" className="no-underline"><Badge icon={<Sparkles />} variant="pink-subtle">FEAT</Badge></a>
-<a href="/cate/lang" className="no-underline"><Badge icon={<BookA />} variant="teal-subtle">LANG</Badge></a>
-<a href="/cate/type" className="no-underline"><Badge icon={<Boxes />} variant="gray-subtle">TYPE</Badge></a>
-<a href="/cate/util" className="no-underline"><Badge icon={<Wrench />} variant="amber-subtle">UTIL</Badge></a>
-<a href="/cate/func" className="no-underline"><Badge icon={<Variable />} variant="pink-subtle">FUNC</Badge></a>
-<a href="/cate/admin" className="no-underline"><Badge icon={<Landmark />} variant="gray-subtle">ADMIN</Badge></a>
-<a href="/cate/stat" className="no-underline"><Badge icon={<Activity />} variant="green-subtle">STAT</Badge></a>
-<a href="/cate/sec" className="no-underline"><Badge icon={<Shield />} variant="red-subtle">SEC</Badge></a>
-<a href="/cate/fdw" className="no-underline"><Badge icon={<FileInput />} variant="blue-subtle">FDW</Badge></a>
-<a href="/cate/sim" className="no-underline"><Badge icon={<Shell />} variant="teal-subtle">SIM</Badge></a>
-<a href="/cate/etl" className="no-underline"><Badge icon={<Truck />} variant="purple-subtle">ETL</Badge></a>
+<a href="/ext/cate/time" className="no-underline"><Badge icon={<Clock />} variant="blue-subtle">TIME</Badge></a>
+<a href="/ext/cate/gis" className="no-underline"><Badge icon={<Globe />} variant="green-subtle">GIS</Badge></a>
+<a href="/ext/cate/rag" className="no-underline"><Badge icon={<Brain />} variant="purple-subtle">RAG</Badge></a>
+<a href="/ext/cate/fts" className="no-underline"><Badge icon={<Search />} variant="amber-subtle">FTS</Badge></a>
+<a href="/ext/cate/olap" className="no-underline"><Badge icon={<ChartNoAxesCombined />} variant="red-subtle">OLAP</Badge></a>
+<a href="/ext/cate/feat" className="no-underline"><Badge icon={<Sparkles />} variant="pink-subtle">FEAT</Badge></a>
+<a href="/ext/cate/lang" className="no-underline"><Badge icon={<BookA />} variant="teal-subtle">LANG</Badge></a>
+<a href="/ext/cate/type" className="no-underline"><Badge icon={<Boxes />} variant="gray-subtle">TYPE</Badge></a>
+<a href="/ext/cate/util" className="no-underline"><Badge icon={<Wrench />} variant="amber-subtle">UTIL</Badge></a>
+<a href="/ext/cate/func" className="no-underline"><Badge icon={<Variable />} variant="pink-subtle">FUNC</Badge></a>
+<a href="/ext/cate/admin" className="no-underline"><Badge icon={<Landmark />} variant="gray-subtle">ADMIN</Badge></a>
+<a href="/ext/cate/stat" className="no-underline"><Badge icon={<Activity />} variant="green-subtle">STAT</Badge></a>
+<a href="/ext/cate/sec" className="no-underline"><Badge icon={<Shield />} variant="red-subtle">SEC</Badge></a>
+<a href="/ext/cate/fdw" className="no-underline"><Badge icon={<FileInput />} variant="blue-subtle">FDW</Badge></a>
+<a href="/ext/cate/sim" className="no-underline"><Badge icon={<Shell />} variant="teal-subtle">SIM</Badge></a>
+<a href="/ext/cate/etl" className="no-underline"><Badge icon={<Truck />} variant="purple-subtle">ETL</Badge></a>
 
-<a href="/list/license#mit"          className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >MIT</Badge></a>
-<a href="/list/license#isc"          className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >ISC</Badge></a>
-<a href="/list/license#postgresql"   className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >PostgreSQL</Badge></a>
-<a href="/list/license#bsd-0-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >BSD-0</Badge></a>
-<a href="/list/license#bsd-2-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >BSD-2</Badge></a>
-<a href="/list/license#bsd-3-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >BSD-3</Badge></a>
-<a href="/list/license#artistic"     className="no-underline"><Badge icon={<Scale />} variant="green-subtle" >Artistic</Badge></a>
-<a href="/list/license#apache-20"    className="no-underline"><Badge icon={<Scale />} variant="green-subtle" >Apache-2.0</Badge></a>
-<a href="/list/license#mpl-20"       className="no-underline"><Badge icon={<Scale />} variant="green-subtle" >MPL-2.0</Badge></a>
-<a href="/list/license#gpl-20"       className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >GPL-2.0</Badge></a>
-<a href="/list/license#gpl-30"       className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >GPL-3.0</Badge></a>
-<a href="/list/license#lgpl-21"      className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >LGPL-2.1</Badge></a>
-<a href="/list/license#lgpl-30"      className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >LGPL-3.0</Badge></a>
-<a href="/list/license#agpl-30"      className="no-underline"><Badge icon={<Scale />} variant="red-subtle"   >AGPL-3.0</Badge></a>
-<a href="/list/license#timescale"    className="no-underline"><Badge icon={<Scale />} variant="gray-subtle"  >Timescale</Badge></a>
+<a href="/ext/list/license#mit"          className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >MIT</Badge></a>
+<a href="/ext/list/license#isc"          className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >ISC</Badge></a>
+<a href="/ext/list/license#postgresql"   className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >PostgreSQL</Badge></a>
+<a href="/ext/list/license#bsd-0-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >BSD-0</Badge></a>
+<a href="/ext/list/license#bsd-2-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >BSD-2</Badge></a>
+<a href="/ext/list/license#bsd-3-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle"  >BSD-3</Badge></a>
+<a href="/ext/list/license#artistic"     className="no-underline"><Badge icon={<Scale />} variant="green-subtle" >Artistic</Badge></a>
+<a href="/ext/list/license#apache-20"    className="no-underline"><Badge icon={<Scale />} variant="green-subtle" >Apache-2.0</Badge></a>
+<a href="/ext/list/license#mpl-20"       className="no-underline"><Badge icon={<Scale />} variant="green-subtle" >MPL-2.0</Badge></a>
+<a href="/ext/list/license#gpl-20"       className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >GPL-2.0</Badge></a>
+<a href="/ext/list/license#gpl-30"       className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >GPL-3.0</Badge></a>
+<a href="/ext/list/license#lgpl-21"      className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >LGPL-2.1</Badge></a>
+<a href="/ext/list/license#lgpl-30"      className="no-underline"><Badge icon={<Scale />} variant="amber-subtle" >LGPL-3.0</Badge></a>
+<a href="/ext/list/license#agpl-30"      className="no-underline"><Badge icon={<Scale />} variant="red-subtle"   >AGPL-3.0</Badge></a>
+<a href="/ext/list/license#timescale"    className="no-underline"><Badge icon={<Scale />} variant="gray-subtle"  >Timescale</Badge></a>
 
-<a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a>
-<a href="/list/lang#c-1"><Badge icon={<FileCode2 />} variant="purple-subtle">C++</Badge></a>
-<a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a>
-<a href="/list/lang#java"><Badge icon={<FileCode2 />} variant="pink-subtle">Java</Badge></a>
-<a href="/list/lang#python"><Badge icon={<FileCode2 />} variant="blue-subtle">Python</Badge></a>
-<a href="/list/lang#sql"><Badge icon={<FileCode2 />} variant="green-subtle">SQL</Badge></a>
-<a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a>
+<a href="/ext/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a>
+<a href="/ext/list/lang#c-1"><Badge icon={<FileCode2 />} variant="purple-subtle">C++</Badge></a>
+<a href="/ext/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a>
+<a href="/ext/list/lang#java"><Badge icon={<FileCode2 />} variant="pink-subtle">Java</Badge></a>
+<a href="/ext/list/lang#python"><Badge icon={<FileCode2 />} variant="blue-subtle">Python</Badge></a>
+<a href="/ext/list/lang#sql"><Badge icon={<FileCode2 />} variant="green-subtle">SQL</Badge></a>
+<a href="/ext/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a>
 
 
 
@@ -86,67 +86,67 @@ Also check our blog post: [PostgreSQL is eating the Database World](https://medi
 ## Categories
 
 <Cards>
-    <Card icon={<Clock className="text-blue-500" />} title='TIME' href={"/cate/time"}>
+    <Card icon={<Clock className="text-blue-500" />} title='TIME' href={"/ext/cate/time"}>
         TimescaleDB, Versioning & Temporal Table, Crontab, Async & Background Job Scheduler, ...
     </Card>
 
-    <Card icon={<Globe className="text-green-500" />} title='GIS' href={"/cate/gis"}>
+    <Card icon={<Globe className="text-green-500" />} title='GIS' href={"/ext/cate/gis"}>
         GeoSpatial Data Types, Operators, and Indexes, Hexagonal Indexing, OGR Data FDW, GeoIP & MobilityDB, etc...
     </Card>
 
-    <Card icon={<Brain className="text-purple-500" />} title='RAG' href={"/cate/rag"}>
+    <Card icon={<Brain className="text-purple-500" />} title='RAG' href={"/ext/cate/rag"}>
         Vector Database with IVFFLAT, HNSW, DiskANN Indexes, AI & ML in SQL interface, Similarity Funcs, etc...
     </Card>
 
-    <Card icon={<Search className="text-orange-500" />} title='FTS' href={"/cate/fts"}>
+    <Card icon={<Search className="text-orange-500" />} title='FTS' href={"/ext/cate/fts"}>
         ElasticSearch Alternative with BM25, 2-gram/3-gram Fuzzy Search, Zhparser & Hunspell Segregation Dicts, etc...
     </Card>
 
-    <Card icon={<ChartNoAxesCombined className="text-red-500" />} title='OLAP' href={"/cate/olap"}>
+    <Card icon={<ChartNoAxesCombined className="text-red-500" />} title='OLAP' href={"/ext/cate/olap"}>
         DuckDB Integration with FDW & PG Lakehouse, Access Parquet from File/S3, Sharding with Citus/Partman/PlProxy, ...
     </Card>
 
-    <Card icon={<Sparkles className="text-cyan-500" />} title='FEAT' href={"/cate/feat"}>
+    <Card icon={<Sparkles className="text-cyan-500" />} title='FEAT' href={"/ext/cate/feat"}>
         OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IVM, ChemRDKit, and Message Queues,...
     </Card>
 
-    <Card icon={<BookA className="text-indigo-500" />} title='LANG' href={"/cate/lang"}>
+    <Card icon={<BookA className="text-indigo-500" />} title='LANG' href={"/ext/cate/lang"}>
         Develop, Test, Package, and Deliver Stored Procedures written in various PL/Lanaguages: Java, Js, Lua, R, Sh, PRQL, ...
     </Card>
 
-    <Card icon={<Boxes className="text-teal-500" />} title='TYPE' href={"/cate/type"}>
+    <Card icon={<Boxes className="text-teal-500" />} title='TYPE' href={"/ext/cate/type"}>
         Dedicate New Data Types Like: prefix, sember, uint, SIUnit, RoaringBitmap, Rational, Sphere, Hash, RRule, and more...
     </Card>
 
-    <Card icon={<Wrench className="text-amber-500" />} title='UTIL' href={"/cate/util"}>
+    <Card icon={<Wrench className="text-amber-500" />} title='UTIL' href={"/ext/cate/util"}>
         Utilities such as send http request, perform gzip/zstd compress, send mails, Regex, ICU, encoding, docs, Encryption,...
     </Card>
 
-    <Card icon={<Variable className="text-pink-500" />} title='FUNC' href={"/cate/func"}>
+    <Card icon={<Variable className="text-pink-500" />} title='FUNC' href={"/ext/cate/func"}>
         Function such as id generator, aggregations, sketches, vector functions, mathematical functions and digest functions...
     </Card>
 
-    <Card icon={<Landmark className="text-slate-500" />} title='ADMIN' href={"/cate/admin"}>
+    <Card icon={<Landmark className="text-slate-500" />} title='ADMIN' href={"/ext/cate/admin"}>
         Utilities for Bloat Control, DirtyRead, BufferInspect, DDL Generate, ChecksumVerify, Permission, Priority, Catalog,...
     </Card>
 
-    <Card icon={<Activity className="text-emerald-500" />} title='STAT' href={"/cate/stat"}>
+    <Card icon={<Activity className="text-emerald-500" />} title='STAT' href={"/ext/cate/stat"}>
         Observability Catalogs, Monitoring Metrics & Views, Statistics, Query Plans, WaitSampling, SlowLogs, and etc...
     </Card>
 
-    <Card icon={<Shield className="text-red-600" />} title='SEC' href={"/cate/sec"}>
+    <Card icon={<Shield className="text-red-600" />} title='SEC' href={"/ext/cate/sec"}>
         Auditing Logs, Enforce Passwords, Keep Secrets, TDE, SM Algorithm, Login Hooks, Log Erros, Extension White List, ...
     </Card>
 
-    <Card icon={<FileInput className="text-blue-600" />} title='FDW' href={"/cate/fdw"}>
+    <Card icon={<FileInput className="text-blue-600" />} title='FDW' href={"/ext/cate/fdw"}>
         Wrappers & Multicorn for FDW Development, Access other DBMS: MySQL, Mongo, SQLite, MSSQL, Oracle, HDFS, DB2,...
     </Card>
 
-    <Card icon={<Shell className="text-violet-500" />} title='SIM' href={"/cate/sim"}>
+    <Card icon={<Shell className="text-violet-500" />} title='SIM' href={"/ext/cate/sim"}>
         Protocol Simulation & heterogeneous DBMS Compatibility: Oracle, MSSQL, DB2, MySQL, Memcached, and Babelfish!
     </Card>
 
-    <Card icon={<Truck className="text-orange-600" />} title='ETL' href={"/cate/etl"}>
+    <Card icon={<Truck className="text-orange-600" />} title='ETL' href={"/ext/cate/etl"}>
         Logical Replication, Decoding, CDC in protobuf/JSON/Mongo format, Copy & Load & Compare Postgres Databases,...
     </Card>
 </Cards>

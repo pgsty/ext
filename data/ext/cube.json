@@ -1,0 +1,69 @@
+{
+  "id": 3950,
+  "name": "cube",
+  "pkg": "cube",
+  "lead_ext": "cube",
+  "category": "TYPE",
+  "state": "available",
+  "url": "https://www.postgresql.org/docs/current/cube.html",
+  "license": "PostgreSQL",
+  "tags": [],
+  "version": "1.5",
+  "repo": "CONTRIB",
+  "lang": "C",
+  "contrib": true,
+  "lead": true,
+  "has_bin": false,
+  "has_lib": true,
+  "need_ddl": true,
+  "need_load": false,
+  "trusted": false,
+  "relocatable": null,
+  "schemas": [],
+  "pg_ver": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "requires": [],
+  "require_by": [
+    "earthdistance",
+    "pg4ml"
+  ],
+  "see_also": [],
+  "rpm_ver": "1.5",
+  "rpm_repo": "CONTRIB",
+  "rpm_pkg": "postgresql$v-contrib",
+  "rpm_pg": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "rpm_deps": [],
+  "deb_ver": "1.5",
+  "deb_repo": "CONTRIB",
+  "deb_pkg": "postgresql-$v",
+  "deb_deps": [],
+  "deb_pg": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "source": null,
+  "extra": {},
+  "en_desc": "data type for multidimensional cubes",
+  "zh_desc": "用于存储多维立方体的数据类型",
+  "comment": null,
+  "mtime": "2025-02-20",
+  "siblings": [
+    "cube"
+  ],
+  "matrix": [],
+  "package": []
+}

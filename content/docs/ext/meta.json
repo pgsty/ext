@@ -1,7 +1,20 @@
 {
   "root": false,
-  "icon": "Landmark",
+  "description": "Postgres Extension Manager",
   "pages": [
-
+    "index",
+    "list",
+    "--- ---",
+    "repo",
+    "--- ---",
+    "pig",
+    "--- ---",
+    "usage",
+    "--- ---",
+    "build",
+    "--- ---",
+    "about",
+    "--- ---",
+    "cate"
   ]
 }

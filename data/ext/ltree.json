@@ -1,0 +1,68 @@
+{
+  "id": 3960,
+  "name": "ltree",
+  "pkg": "ltree",
+  "lead_ext": "ltree",
+  "category": "TYPE",
+  "state": "available",
+  "url": "https://www.postgresql.org/docs/current/ltree.html",
+  "license": "PostgreSQL",
+  "tags": [],
+  "version": "1.3",
+  "repo": "CONTRIB",
+  "lang": "C",
+  "contrib": true,
+  "lead": true,
+  "has_bin": false,
+  "has_lib": true,
+  "need_ddl": true,
+  "need_load": false,
+  "trusted": true,
+  "relocatable": null,
+  "schemas": [],
+  "pg_ver": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "requires": [],
+  "require_by": [
+    "ltree_plpython3u"
+  ],
+  "see_also": [],
+  "rpm_ver": "1.3",
+  "rpm_repo": "CONTRIB",
+  "rpm_pkg": "postgresql$v-contrib",
+  "rpm_pg": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "rpm_deps": [],
+  "deb_ver": "1.3",
+  "deb_repo": "CONTRIB",
+  "deb_pkg": "postgresql-$v",
+  "deb_deps": [],
+  "deb_pg": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "source": null,
+  "extra": {},
+  "en_desc": "data type for hierarchical tree-like structures",
+  "zh_desc": "用于表示分层树状结构的数据类型",
+  "comment": null,
+  "mtime": "2025-02-20",
+  "siblings": [
+    "ltree"
+  ],
+  "matrix": [],
+  "package": []
+}

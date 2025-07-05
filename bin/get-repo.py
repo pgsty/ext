@@ -1,227 +1,171 @@
 #!/usr/bin/env python3
 
 import requests
-import os
+import psycopg
+import sqlite3
 import json
+import re
+import bz2
+import hashlib
+from xml.etree import ElementTree as ET
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
-import re
-from xml.etree import ElementTree as ET
-import hashlib
-import bz2
+import io
 
+PGURL = "postgres:///vonng"
 
-RawDataDir = Path(__file__).parent.parent / "data" / "raw"
-RawDataDir.mkdir(parents=True, exist_ok=True)
+def reload_repo(pgurl=PGURL, max_workers=4):
+    """
+    Download repository metadata and store binary data to pgext.repo_data
+    Uses HTTP caching headers (etag, size, last-modified) to avoid redundant downloads
+    """
+    print("Starting repository reload...")
 
+    conn = psycopg.connect(pgurl)
+    cursor = conn.cursor()
 
-APT_REPOS = [
-    ('u24.amd.pgdg' , "https://download.postgresql.org/pub/repos/apt/dists/noble-pgdg/main/binary-amd64/Packages"    ),
-    ('u24.arm.pgdg' , "https://download.postgresql.org/pub/repos/apt/dists/noble-pgdg/main/binary-arm64/Packages"    ),
-    ('u22.amd.pgdg' , "https://download.postgresql.org/pub/repos/apt/dists/jammy-pgdg/main/binary-amd64/Packages"    ),
-    ('u22.arm.pgdg' , "https://download.postgresql.org/pub/repos/apt/dists/jammy-pgdg/main/binary-arm64/Packages"    ),
-    ('d12.amd.pgdg' , "https://download.postgresql.org/pub/repos/apt/dists/bookworm-pgdg/main/binary-arm64/Packages" ),
-    ('d12.arm.pgdg' , "https://download.postgresql.org/pub/repos/apt/dists/bookworm-pgdg/main/binary-amd64/Packages" ),
-    ('u24.amd.pigsty' , "https://repo.pigsty.io/apt/pgsql/noble/dists/noble/main/binary-amd64/Packages"    ),
-    ('u24.arm.pigsty' , "https://repo.pigsty.io/apt/pgsql/noble/dists/noble/main/binary-arm64/Packages"    ),
-    ('u22.amd.pigsty' , "https://repo.pigsty.io/apt/pgsql/jammy/dists/jammy/main/binary-amd64/Packages"    ),
-    ('u22.arm.pigsty' , "https://repo.pigsty.io/apt/pgsql/jammy/dists/jammy/main/binary-arm64/Packages"    ),
-    ('d12.amd.pigsty' , "https://repo.pigsty.io/apt/pgsql/bookworm/dists/bookworm/main/binary-amd64/Packages" ),
-    ('d12.arm.pigsty' , "https://repo.pigsty.io/apt/pgsql/bookworm/dists/bookworm/main/binary-arm64/Packages" ),
-]
+    # Get all repositories with their metadata URLs and existing cache data
+    cursor.execute("""
+                   SELECT r.id, r.default_meta, r.type, rd.etag, rd.size, rd.last_modified, rd.extra
+                   FROM pgext.repository r
+                            LEFT JOIN pgext.repo_data rd ON r.id = rd.id
+                   WHERE r.default_meta IS NOT NULL
+                   ORDER BY r.id
+                   """)
+    repos = cursor.fetchall()
 
+    def download_repo_data(repo_info):
+        repo_id, metadata_url, repo_type, existing_etag, existing_size, existing_last_modified, existing_extra = repo_info
+        existing_extra = existing_extra or {}
 
-YUM_REPOS = [
-    ('el8.amd.pigsty' , "https://repo.pigsty.io/yum/pgsql/el8.x86_64/repodata/repomd.xml"  ),
-    ('el8.amd.pgdg17' , 'https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgdg16' , 'https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgdg15' , 'https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgdg14' , 'https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgdg13' , 'https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgnf17' , 'https://download.postgresql.org/pub/repos/yum/non-free/17/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgnf16' , 'https://download.postgresql.org/pub/repos/yum/non-free/16/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgnf15' , 'https://download.postgresql.org/pub/repos/yum/non-free/15/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgnf14' , 'https://download.postgresql.org/pub/repos/yum/non-free/14/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
-    ('el8.amd.pgnf13' , 'https://download.postgresql.org/pub/repos/yum/non-free/13/redhat/rhel-8-x86_64/repodata/repomd.xml'  ),
+        print(f"Processing {repo_id} ({repo_type})...")
 
-    ('el8.arm.pigsty' , "https://repo.pigsty.io/yum/pgsql/el8.aarch64/repodata/repomd.xml" ),
-    ('el8.arm.pgdg17' , 'https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/repodata/repomd.xml' ),
-    ('el8.arm.pgdg16' , 'https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/repodata/repomd.xml' ),
-    ('el8.arm.pgdg15' , 'https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/repodata/repomd.xml' ),
-    ('el8.arm.pgdg14' , 'https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/repodata/repomd.xml' ),
-    ('el8.arm.pgdg13' , 'https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/repodata/repomd.xml' ),
-
-    ('el9.amd.pigsty' , "https://repo.pigsty.io/yum/pgsql/el9.x86_64/repodata/repomd.xml"  ),
-    ('el9.amd.pgdg17' , 'https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgdg16' , 'https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgdg15' , 'https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgdg14' , 'https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgdg13' , 'https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgnf17' , 'https://download.postgresql.org/pub/repos/yum/non-free/17/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgnf16' , 'https://download.postgresql.org/pub/repos/yum/non-free/16/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgnf15' , 'https://download.postgresql.org/pub/repos/yum/non-free/15/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgnf14' , 'https://download.postgresql.org/pub/repos/yum/non-free/14/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-    ('el9.amd.pgnf13' , 'https://download.postgresql.org/pub/repos/yum/non-free/13/redhat/rhel-9-x86_64/repodata/repomd.xml'  ),
-
-    ('el9.arm.pigsty' , "https://repo.pigsty.io/yum/pgsql/el9.aarch64/repodata/repomd.xml" ),
-    ('el9.arm.pgdg17' , 'https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/repodata/repomd.xml' ),
-    ('el9.arm.pgdg16' , 'https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/repodata/repomd.xml' ),
-    ('el9.arm.pgdg15' , 'https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/repodata/repomd.xml' ),
-    ('el9.arm.pgdg14' , 'https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/repodata/repomd.xml' ),
-    ('el9.arm.pgdg13' , 'https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/repodata/repomd.xml' ),
-
-]
-
-def get_apt_repo(name, url, dir=RawDataDir):
-    packages_url = url
-    target_file = dir / name
-    
-    # 检查本地文件是否存在
-    if target_file.exists():
-        # 获取本地文件大小
-        local_size = target_file.stat().st_size
-        
-        # 获取远程文件信息
         try:
-            response = requests.head(packages_url)
-            response.raise_for_status()
-            remote_size = int(response.headers.get('Content-Length', 0))
-            
-            # 如果文件大小相同，跳过下载
-            if local_size == remote_size:
-                print(f"{name} 已是最新，跳过下载")
+            # Prepare headers for conditional requests
+            headers = {}
+            if existing_etag:
+                headers['If-None-Match'] = existing_etag
+            if existing_last_modified:
+                headers['If-Modified-Since'] = existing_last_modified.strftime('%a, %d %b %Y %H:%M:%S GMT')
+
+            # Make conditional request first
+            response = requests.head(metadata_url, headers=headers, timeout=30)
+
+            # Check if content has been modified
+            if response.status_code == 304:
+                print(f"{repo_id}: Not modified (304), skipping download")
                 return
-        except requests.RequestException as e:
-            print(f"无法获取 {name} 的远程信息: {e}")
-            return
-
-    # 下载文件
-    try:
-        print(f"正在下载 {name}...")
-        response = requests.get(packages_url, stream=True)
-        response.raise_for_status()
-        
-        total_size = int(response.headers.get('content-length', 0))
-        downloaded_size = 0
-        with open(target_file, 'wb') as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                if chunk:
-                    f.write(chunk)
-                    downloaded_size += len(chunk)
-                    # 打印下载进度
-                    print(f"\r{name}: {downloaded_size}/{total_size} bytes ({downloaded_size/total_size:.1%})", end="")
-        print(f"\n{name} 下载完成")
-    except requests.RequestException as e:
-        print(f"\n下载 {name} 失败: {e}")
-
-def download_all_apt_repos(max_workers=4):
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [
-            executor.submit(get_apt_repo, name, url)
-            for name, url in APT_REPOS
-        ]
-        for future in futures:
-            future.result()
-
-
-
-def get_yum_repo(name, url, dir=RawDataDir):
-    # 第一步：下载并解析 repomd.xml
-    try:
-        print(f"正在获取 {name} 的 repomd.xml...")
-        response = requests.get(url)
-        response.raise_for_status()
-        
-        # 直接在内存中解析 XML
-        root = ET.fromstring(response.content)
-        
-        # 查找 primary.sqlite.bz2 的 location 和 checksum
-        namespace = {'repo': 'http://linux.duke.edu/metadata/repo'}
-        primary_data = root.find(".//repo:data[@type='primary_db']", namespace)
-        primary_location = primary_data.find('repo:location', namespace).attrib['href']
-        primary_checksum = primary_data.find('repo:open-checksum[@type="sha256"]', namespace).text
-        
-        base_url = url.rsplit('/', 2)[0]  # 去掉 repodata/repomd.xml
-        primary_url = f"{base_url}/{primary_location}"
-    except Exception as e:
-        print(f"处理 {name} 的 repomd.xml 失败: {e}")
-        return
-
-    # 目标文件路径（去掉.bz2后缀）
-    target_file = dir / name
-    
-    # 检查本地文件是否存在且校验和匹配
-    if target_file.exists():
-        try:
-            # 计算本地文件的sha256
-            sha256_hash = hashlib.sha256()
-            with open(target_file, 'rb') as f:
-                for byte_block in iter(lambda: f.read(4096), b""):
-                    sha256_hash.update(byte_block)
-            local_checksum = sha256_hash.hexdigest()
-            
-            if local_checksum == primary_checksum:
-                print(f"{name} 已是最新，跳过下载")
+            elif response.status_code != 200:
+                print(f"{repo_id}: Error {response.status_code}")
                 return
+
+            # Check content-length for additional validation
+            remote_size = response.headers.get('Content-Length')
+            remote_etag = response.headers.get('ETag')
+
+            if (existing_size and remote_size and int(remote_size) == existing_size and
+                    existing_etag and remote_etag and existing_etag == remote_etag):
+                print(f"{repo_id}: Same size and etag, skipping download")
+                return
+
+            # Download the actual data
+            if repo_type == 'deb':
+                # APT repository - download Packages file directly
+                response = requests.get(metadata_url, timeout=60)
+                response.raise_for_status()
+                binary_data = response.content
+
+            elif repo_type == 'rpm':
+                # YUM repository - download and parse repomd.xml, then get primary.sqlite.bz2
+                response = requests.get(metadata_url, timeout=60)
+                response.raise_for_status()
+
+                # Parse repomd.xml to find primary.sqlite.bz2
+                root = ET.fromstring(response.content)
+                namespace = {'repo': 'http://linux.duke.edu/metadata/repo'}
+                primary_data = root.find(".//repo:data[@type='primary_db']", namespace)
+
+                if primary_data is None:
+                    print(f"{repo_id}: No primary_db found in repomd.xml")
+                    return
+
+                primary_location = primary_data.find('repo:location', namespace).attrib['href']
+                primary_checksum = primary_data.find('repo:open-checksum[@type="sha256"]', namespace).text
+
+                # Construct URL for primary.sqlite.bz2
+                base_url = metadata_url.rsplit('/', 2)[0]  # Remove repodata/repomd.xml
+                primary_url = f"{base_url}/{primary_location}"
+
+                # Download and decompress primary.sqlite.bz2
+                response = requests.get(primary_url, stream=True, timeout=120)
+                response.raise_for_status()
+
+                # Decompress bz2 data in memory
+                compressed_data = response.content
+                binary_data = bz2.decompress(compressed_data)
+
+                # Verify checksum
+                actual_checksum = hashlib.sha256(binary_data).hexdigest()
+                if actual_checksum != primary_checksum:
+                    print(f"{repo_id}: Checksum mismatch, skipping")
+                    return
+            else:
+                print(f"{repo_id}: Unknown repository type {repo_type}")
+                return
+
+            # Extract cache information from response headers
+            etag = response.headers.get('ETag')
+            last_modified_str = response.headers.get('Last-Modified')
+            content_length = response.headers.get('Content-Length')
+
+            # Parse last_modified timestamp
+            last_modified = None
+            if last_modified_str:
+                from datetime import datetime
+                try:
+                    last_modified = datetime.strptime(last_modified_str, '%a, %d %b %Y %H:%M:%S GMT')
+                except ValueError:
+                    pass
+
+            size = len(binary_data)
+
+            # Store or update binary data and cache info in pgext.repo_data
+            update_cursor = conn.cursor()
+            update_cursor.execute("""
+                                  INSERT INTO pgext.repo_data (id, etag, size, extra, data, last_modified, update_at)
+                                  VALUES (%s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP)
+                                  ON CONFLICT (id) DO UPDATE SET
+                                                                 etag = EXCLUDED.etag,
+                                                                 size = EXCLUDED.size,
+                                                                 extra = EXCLUDED.extra,
+                                                                 data = EXCLUDED.data,
+                                                                 last_modified = EXCLUDED.last_modified,
+                                                                 update_at = CURRENT_TIMESTAMP
+                                  """, (repo_id, etag, size, json.dumps(existing_extra), binary_data, last_modified))
+            conn.commit()
+
+            print(f"{repo_id}: Downloaded {size} bytes")
+
         except Exception as e:
-            print(f"无法验证 {name} 的校验和: {e}")
+            print(f"{repo_id}: Error downloading - {e}")
 
-    # 下载并解压 primary.sqlite.bz2
-    try:
-        print(f"正在下载 {name}...")
-        response = requests.get(primary_url, stream=True)
-        response.raise_for_status()
-        
-        total_size = int(response.headers.get('content-length', 0))
-        downloaded_size = 0
-        
-        # 使用内存中的临时文件进行解压
-        with bz2.BZ2File(response.raw) as bz2_file:
-            with open(target_file, 'wb') as f:
-                while True:
-                    chunk = bz2_file.read(8192)
-                    if not chunk:
-                        break
-                    f.write(chunk)
-                    downloaded_size += len(chunk)
-                    # 打印下载进度
-                    print(f"\r{name}: {downloaded_size}/{total_size} bytes ({downloaded_size/total_size:.1%})", end="")
-        
-        print(f"\n{name} 下载并解压完成")
-        
-        # 验证解压后的文件校验和
-        sha256_hash = hashlib.sha256()
-        with open(target_file, 'rb') as f:
-            for byte_block in iter(lambda: f.read(4096), b""):
-                sha256_hash.update(byte_block)
-        local_checksum = sha256_hash.hexdigest()
-        
-        if local_checksum != primary_checksum:
-            print(f"警告：{name} 的校验和不匹配，可能下载损坏")
-            target_file.unlink()  # 删除损坏的文件
-            return False
-        return True
-        
-    except requests.RequestException as e:
-        print(f"\n下载 {name} 失败: {e}")
-        return False
-    except Exception as e:
-        print(f"\n处理 {name} 失败: {e}")
-        if target_file.exists():
-            target_file.unlink()  # 删除可能损坏的文件
-        return False
-
-def download_all_yum_repos(max_workers=4):
+    # Use ThreadPoolExecutor for parallel downloads
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = [
-            executor.submit(get_yum_repo, name, url)
-            for name, url in YUM_REPOS
-        ]
+        futures = [executor.submit(download_repo_data, repo) for repo in repos]
         for future in futures:
             future.result()
 
+    conn.close()
+    print("Repository reload completed")
 
-download_all_apt_repos(8)
-download_all_yum_repos(8)
 
-# get_yum_repo('pigsty.el9.arm64' , "https://repo.pigsty.cc/yum/pgsql/el9.aarch64/repodata/repomd.xml")
+def main():
+    """Main function to run both reload operations"""
+    print("=== PostgreSQL Extension Repository Reload ===")
+
+    # Step 1: Download repository metadata
+    reload_repo()
+
+
+if __name__ == "__main__":
+    main()

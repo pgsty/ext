@@ -1,0 +1,68 @@
+{
+  "id": 2590,
+  "name": "tablefunc",
+  "pkg": "tablefunc",
+  "lead_ext": "tablefunc",
+  "category": "OLAP",
+  "state": "available",
+  "url": "https://www.postgresql.org/docs/current/tablefunc.html",
+  "license": "PostgreSQL",
+  "tags": [],
+  "version": "1.0",
+  "repo": "CONTRIB",
+  "lang": "C",
+  "contrib": true,
+  "lead": true,
+  "has_bin": false,
+  "has_lib": true,
+  "need_ddl": true,
+  "need_load": false,
+  "trusted": true,
+  "relocatable": null,
+  "schemas": [],
+  "pg_ver": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "requires": [],
+  "require_by": [
+    "pg4ml"
+  ],
+  "see_also": [],
+  "rpm_ver": "1.0",
+  "rpm_repo": "CONTRIB",
+  "rpm_pkg": "postgresql$v-contrib",
+  "rpm_pg": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "rpm_deps": [],
+  "deb_ver": "1.0",
+  "deb_repo": "CONTRIB",
+  "deb_pkg": "postgresql-$v",
+  "deb_deps": [],
+  "deb_pg": [
+    "17",
+    "16",
+    "15",
+    "14",
+    "13"
+  ],
+  "source": null,
+  "extra": {},
+  "en_desc": "functions that manipulate whole tables, including crosstab",
+  "zh_desc": "交叉表函数",
+  "comment": null,
+  "mtime": "2025-02-20",
+  "siblings": [
+    "tablefunc"
+  ],
+  "matrix": [],
+  "package": []
+}

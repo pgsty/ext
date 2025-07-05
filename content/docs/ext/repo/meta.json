@@ -1,0 +1,10 @@
+{
+  "defaultOpen": true,
+  "pages": [
+    "infra",
+    "pgsql",
+    "ivory",
+    "mssql",
+    "gpg"
+  ]
+}

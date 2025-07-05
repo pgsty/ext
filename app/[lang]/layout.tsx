@@ -1,6 +1,7 @@
 import "@/app/global.css"
 import { RootProvider } from 'fumadocs-ui/provider';
 import type { Translations } from 'fumadocs-ui/i18n';
+import { Analytics } from '@vercel/analytics/react';
 
 const cn: Partial<Translations> = {
   search: '搜索',
@@ -48,6 +49,7 @@ export default async function RootLayout({
         >
           {children}
         </RootProvider>
+        <Analytics />
       </body>
     </html>
   );

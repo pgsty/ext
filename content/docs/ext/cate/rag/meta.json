@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "[vector](/e/vector)",
+    "[vchord](/e/vchord)",
+    "[vectorscale](/e/vectorscale)",
+    "[vectorize](/e/vectorize)",
+    "[pg_similarity](/e/pg_similarity)",
+    "[smlar](/e/smlar)",
+    "[pg_summarize](/e/pg_summarize)",
+    "[pg_tiktoken](/e/pg_tiktoken)",
+    "[pg4ml](/e/pg4ml)",
+    "[pgml](/e/pgml)"
+  ]
+}

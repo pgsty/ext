@@ -51,7 +51,7 @@ export const baseOptions = (lang: string): BaseLayoutProps => {
               </g>
             </g>
           </svg>
-          PostgreSQL Extensions
+          PIGSTY
         </>
       ),
     },

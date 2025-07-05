@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "[passwordcheck_cracklib](/e/passwordcheck_cracklib)",
+    "[supautils](/e/supautils)",
+    "[pgsodium](/e/pgsodium)",
+    "[supabase_vault](/e/supabase_vault)",
+    "[pg_session_jwt](/e/pg_session_jwt)",
+    "[anon](/e/anon)",
+    "[pg_tde](/e/pg_tde)",
+    "[pgsmcrypto](/e/pgsmcrypto)",
+    "[pgaudit](/e/pgaudit)",
+    "[pgauditlogtofile](/e/pgauditlogtofile)",
+    "[pg_auth_mon](/e/pg_auth_mon)",
+    "[credcheck](/e/credcheck)",
+    "[pgcryptokey](/e/pgcryptokey)",
+    "[pg_jobmon](/e/pg_jobmon)",
+    "[logerrors](/e/logerrors)",
+    "[login_hook](/e/login_hook)",
+    "[set_user](/e/set_user)",
+    "[pg_snakeoil](/e/pg_snakeoil)",
+    "[pgextwlist](/e/pgextwlist)",
+    "[pg_auditor](/e/pg_auditor)",
+    "[sslutils](/e/sslutils)",
+    "[noset](/e/noset)",
+    "[sepgsql](/e/sepgsql)",
+    "[auth_delay](/e/auth_delay)",
+    "[pgcrypto](/e/pgcrypto)",
+    "[passwordcheck](/e/passwordcheck)"
+  ]
+}
