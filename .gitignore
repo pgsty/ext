@@ -1,2 +1,41 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# deps
+/node_modules
+
+# generated content
+.contentlayer
+.content-collections
+.source
+
+# test & build
+/coverage
+/.next/
+/out/
+/build
+*.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
+/.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# others
+.env*.local
+.vercel
+next-env.d.ts
+.idea/
+.code/
+
+docs.iml
+tmp/
+
+prompt.md
+
+bin/__pycache__/
+.env.local
+
+data/raw
+data/ext.csv

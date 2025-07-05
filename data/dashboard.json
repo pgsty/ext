@@ -1,0 +1,439 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "datasource",
+          "uid": "grafana"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "target": {
+          "limit": 100,
+          "matchAny": false,
+          "tags": [],
+          "type": "dashboard"
+        },
+        "type": "dashboard"
+      }
+    ]
+  },
+  "description": "Extension Overview",
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 74,
+  "links": [
+    {
+      "asDropdown": true,
+      "icon": "external link",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [
+        "ISD"
+      ],
+      "targetBlank": false,
+      "title": "ISD",
+      "type": "dashboards"
+    }
+  ],
+  "panels": [
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 50,
+      "panels": [],
+      "title": "Overview",
+      "type": "row"
+    },
+    {
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "ds-meta"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byType",
+              "options": "boolean"
+            },
+            "properties": [
+              {
+                "id": "custom.cellOptions",
+                "value": {
+                  "applyToRow": false,
+                  "type": "color-background",
+                  "wrapText": false
+                }
+              },
+              {
+                "id": "thresholds",
+                "value": {
+                  "mode": "absolute",
+                  "steps": [
+                    {
+                      "color": "green",
+                      "value": null
+                    },
+                    {
+                      "color": "orange",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "mappings",
+                "value": [
+                  {
+                    "options": {
+                      "false": {
+                        "color": "orange",
+                        "index": 1,
+                        "text": "No"
+                      },
+                      "true": {
+                        "color": "blue",
+                        "index": 0,
+                        "text": "Yes"
+                      }
+                    },
+                    "type": "value"
+                  }
+                ]
+              },
+              {
+                "id": "custom.width",
+                "value": 80
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "ID"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 23
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Category"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 100
+              },
+              {
+                "id": "custom.filterable",
+                "value": true
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "License"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 100
+              },
+              {
+                "id": "custom.filterable",
+                "value": true
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Tags"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 94
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Version"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 72
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Repo"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 80
+              },
+              {
+                "id": "custom.filterable",
+                "value": true
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Lang"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 80
+              },
+              {
+                "id": "custom.filterable",
+                "value": true
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "PG Vers"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 107
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "URL"
+            },
+            "properties": [
+              {
+                "id": "links",
+                "value": [
+                  {
+                    "targetBlank": true,
+                    "title": "Extension ${__data.fields.Name} Repo",
+                    "url": "${__data.fields.URL}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "State"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 68
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 36,
+        "w": 24,
+        "x": 0,
+        "y": 1
+      },
+      "id": 49,
+      "options": {
+        "cellHeight": "sm",
+        "footer": {
+          "countRows": false,
+          "enablePagination": false,
+          "fields": "",
+          "reducer": [
+            "sum"
+          ],
+          "show": false
+        },
+        "showHeader": true,
+        "sortBy": []
+      },
+      "pluginVersion": "11.5.2",
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-postgresql-datasource",
+            "uid": "ds-meta"
+          },
+          "editorMode": "code",
+          "format": "table",
+          "rawQuery": true,
+          "rawSql": "TABLE ext.extension;",
+          "refId": "A",
+          "sql": {
+            "columns": [
+              {
+                "parameters": [],
+                "type": "function"
+              }
+            ],
+            "groupBy": [
+              {
+                "property": {
+                  "type": "string"
+                },
+                "type": "groupBy"
+              }
+            ],
+            "limit": 50
+          }
+        }
+      ],
+      "title": "Available Extensions",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "state": true
+            },
+            "includeByName": {},
+            "indexByName": {},
+            "renameByName": {
+              "alias": "Alias",
+              "bad_case": "Badcase",
+              "category": "Category",
+              "comment": "Comment",
+              "contrib": "Contrib",
+              "ctime": "Ctime",
+              "deb_deps": "DEB DEPS",
+              "deb_pg": "DEB PG",
+              "deb_pkg": "DEB PKG",
+              "deb_repo": "DEB REPO",
+              "deb_ver": "DEB VER",
+              "en_desc": "Description",
+              "extra": "Extra",
+              "has_bin": "HasBin",
+              "has_lib": "HasLib",
+              "id": "ID",
+              "lang": "Lang",
+              "lead": "Leading",
+              "license": "License",
+              "mtime": "MTime",
+              "name": "Name",
+              "need_ddl": "NeedDDL",
+              "need_load": "NeedLoad",
+              "pg_ver": "PG Vers",
+              "pkg": "Package",
+              "relocatable": "Relocate",
+              "repo": "Repo",
+              "requires": "Requires",
+              "rpm_deps": "RPM DEPS",
+              "rpm_pg": "RPM PG",
+              "rpm_pkg": "RPM PKG",
+              "rpm_repo": "RPM REPO",
+              "rpm_ver": "RPM VER",
+              "schemas": "Schemas",
+              "state": "State",
+              "tags": "Tags",
+              "trusted": "Trusted",
+              "url": "URL",
+              "version": "Version",
+              "zh_desc": "说明"
+            }
+          }
+        }
+      ],
+      "type": "table"
+    }
+  ],
+  "preload": false,
+  "refresh": "",
+  "schemaVersion": 40,
+  "tags": [
+    "EXT",
+    "APP",
+    "OVERVIEW"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-120y",
+    "to": "now"
+  },
+  "timepicker": {
+    "refresh_intervals": [
+      "1d",
+      "1w/w",
+      "1M",
+      "2M",
+      "3M",
+      "6M",
+      "1y",
+      "2y",
+      "3y",
+      "6y",
+      "10y",
+      "20y",
+      "30y",
+      "50y",
+      "100y"
+    ]
+  },
+  "timezone": "",
+  "title": "Postgres Extensions",
+  "uid": "bel82b857uhoge",
+  "version": 7,
+  "weekStart": ""
+}

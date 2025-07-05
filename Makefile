@@ -1,19 +1,34 @@
 #==============================================================#
 # File      :   Makefile
 # Ctime     :   2024-10-30
-# Mtime     :   2025-02-22
+# Mtime     :   2025-07-05
 # Desc      :   Makefile shortcuts
 # Path      :   Makefile
-# Copyright (C) 2019-2020 Ruohang Feng
+# Copyright (C) 2019-2025 Ruohang Feng
 #==============================================================#
 
-default: run
+default: dev
+
+
+d: dev
+dev:
+	TURBO_CONCURRENCY=25 npm run dev
+b: build
+build:
+	npm run build
+v: view
+view:
+	open 'http://localhost:3000'
+c: clean
+clean:
+	rm -rf out
+s: serve
+	cd .next && python3 -m http.server 3002
+
+.PHONY: d dev b build v view c clean
+
 
 PGURL="postgres:///vonng"
-
-# run http server to serve the docs
-run:
-	docs/run
 
 # update docs from the data/pigsty.csv
 gen:
