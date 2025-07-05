@@ -2,26 +2,26 @@
 
 [![Webite: ext.pigsty.io](https://img.shields.io/badge/website-pigsty.io-slategray?style=flat&logo=cilium&logoColor=white)](https://ext.pigsty.io)
 [![CLI: pig v0.5.0](https://img.shields.io/badge/pig-v0.4.2-slategray?style=flat&logo=cilium&logoColor=white)](https://github.com/pgsty/pig)
-[![Extensions: 423](https://img.shields.io/badge/extensions-412-%233E668F?style=flat&logo=postgresql&logoColor=white&labelColor=3E668F)](https://pigsty.io/ext/list)
+[![Extensions: 423](https://img.shields.io/badge/extensions-423-%233E668F?style=flat&logo=postgresql&logoColor=white&labelColor=3E668F)](https://pigsty.io/ext/list)
 [![License: Apache-2.0](https://img.shields.io/github/license/pgsty/extension?logo=opensourceinitiative&logoColor=green&color=slategray)](https://github.com/pgsty/pig/blob/main/LICENSE)
 
 The supplementary [APT](#apt-repo) and [YUM](#yum-repo) repo for PostgreSQL extensions, maintained and used by [Pigsty](https://www.pigsty.io)
 
-Provide [423](/list) available extensions as [RPM](/rpm) / [DEB](/deb) for PostgreSQL **13** - **17** in addition to the official PGDG repo.
+Provide [423](https://ext.pigsty.io/list) available extensions as [RPM](#) / [DEB](#) for PostgreSQL **13** - **17** in addition to the official PGDG repo.
 
-Available on Linux: Debian 12 / Ubuntu 24.04 / 22.04 / EL8 / EL9 compatible OS distros, and `x86_64` & `ARM64` architectures.
+Available on Linux: Debian 12 / Ubuntu 24.04 / 22.04 / EL8 / EL9 compatible distros, and `x86_64` & `ARM64` arch.
 
-| Entry / Filter | All | PGDG | PIGSTY | CONTRIB | MISC | MISS | PG17 | PG16 | PG15 | PG14 | PG13 |
-|:--------------:|:---:|:----:|:------:|:-------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| RPM Extension  | 417 | 119  |  227   |   71    |  0   |  6   | 399  | 407  | 410  | 394  | 368  |
-| DEB Extension  | 410 | 103  |  236   |   71    |  0   |  13  | 397  | 400  | 403  | 391  | 363  |
+| Entry | All | PGDG | PIGSTY | CONTRIB | MISC | MISS | PG17 | PG16 | PG15 | PG14 | PG13 |
+|:-----:|:---:|:----:|:------:|:-------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|  RPM  | 417 | 119  |  227   |   71    |  0   |  6   | 399  | 407  | 410  | 394  | 368  |
+|  DEB  | 410 | 103  |  236   |   71    |  0   |  13  | 397  | 400  | 403  | 391  | 363  |
 
 
 **Why extension matters to PostgreSQL?** check the post: "[***PostgreSQL is eating the database world!***](https://medium.com/@fengruohang/postgres-is-eating-the-database-world-157c204dcfc4)"
 
 **Why using this repo?** check the post: [***The idea way to deliver PostgreSQL extensions***](https://medium.com/@fengruohang/the-idea-way-to-deliver-postgresql-extensions-35646464bb71)
 
-[![PostgreSQL Extension Ecosystem](https://pigsty.io/img/pigsty/ecosystem.jpg)](https://medium.com/@fengruohang/postgres-is-eating-the-database-world-157c204dcfc4)
+[![PostgreSQL Extension Ecosystem](public/img/ecosystem.gif)](https://medium.com/@fengruohang/postgres-is-eating-the-database-world-157c204dcfc4)
 
 > [The idea way to deliver PostgreSQL extensions](https://medium.com/@fengruohang/the-idea-way-to-deliver-postgresql-extensions-35646464bb71)
 
