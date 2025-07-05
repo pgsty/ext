@@ -1,0 +1,219 @@
+---
+title: By Attribute
+description: PostgreSQL extensions organized by Attribute
+icon: Shapes
+full: true
+---
+
+import { Badge } from '@/components/ui/badge';
+
+------
+
+## Need Loading
+
+Extensions that require dynamic loading in [`shared_preload_libraries`](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-SHARED-PRELOAD-LIBRARIES) to work properly.
+
+| ID | Extension | Package | Description |
+|:---:|:---|:---|:---|
+| 7050 | [`anon`](/ext/anon) | [`pg_anon`](/ext/anon) | PostgreSQL Anonymizer (anon) extension |
+| 7970 | [`auth_delay`](/ext/auth_delay) | [`auth_delay`](/ext/auth_delay) | pause briefly before reporting authentication failure |
+| 6980 | [`auto_explain`](/ext/auto_explain) | [`auto_explain`](/ext/auto_explain) | Provides a means for logging execution plans of slow statements automatically |
+| 9310 | [`babelfishpg_tsql`](/ext/babelfishpg_tsql) | [`babelfishpg_tsql`](/ext/babelfishpg_tsql) | SQL Server Transact SQL compatibility |
+| 6340 | [`bgw_replstatus`](/ext/bgw_replstatus) | [`bgw_replstatus`](/ext/bgw_replstatus) | Small PostgreSQL background worker to report whether a node is a replication master or standby |
+| 2400 | [`citus`](/ext/citus) | [`citus`](/ext/citus) | Distributed PostgreSQL as an extension |
+| 9000 | [`documentdb`](/ext/documentdb) | [`documentdb`](/ext/documentdb) | API surface for DocumentDB for PostgreSQL |
+| 9010 | [`documentdb_core`](/ext/documentdb_core) | [`documentdb`](/ext/documentdb) | Core API surface for DocumentDB for PostgreSQL |
+| 9020 | [`documentdb_distributed`](/ext/documentdb_distributed) | [`documentdb`](/ext/documentdb) | Multi-Node API surface for DocumentDB |
+| 7210 | [`noset`](/ext/noset) | [`pg_noset`](/ext/noset) | Module for blocking SET variables for non-super users. |
+| 2951 | [`omni`](/ext/omni) | [`omnigres`](/ext/omni) | Advanced adapter for Postgres extensions |
+| 2920 | [`orioledb`](/ext/orioledb) | [`orioledb`](/ext/orioledb) | OrioleDB, the next generation transactional engine |
+| 7990 | [`passwordcheck`](/ext/passwordcheck) | [`passwordcheck`](/ext/passwordcheck_cracklib) | checks user passwords and reject weak password |
+| 7000 | [`passwordcheck_cracklib`](/ext/passwordcheck_cracklib) | [`passwordcheck`](/ext/passwordcheck_cracklib) | Strengthen PostgreSQL user password checks with cracklib |
+| 2140 | [`pg_bestmatch`](/ext/pg_bestmatch) | [`pg_bestmatch`](/ext/pg_bestmatch) | Generate BM25 sparse vector inside PostgreSQL |
+| 5190 | [`pg_crash`](/ext/pg_crash) | [`pg_crash`](/ext/pg_crash) | Send random signals to random processes |
+| 1070 | [`pg_cron`](/ext/pg_cron) | [`pg_cron`](/ext/pg_cron) | Job scheduler for PostgreSQL |
+| 2430 | [`pg_duckdb`](/ext/pg_duckdb) | [`pg_duckdb`](/ext/pg_duckdb) | DuckDB Embedded in Postgres |
+| 9530 | [`pg_failover_slots`](/ext/pg_failover_slots) | [`pg_failover_slots`](/ext/pg_failover_slots) | PG Failover Slots extension |
+| 4080 | [`pg_net`](/ext/pg_net) | [`pg_net`](/ext/pg_net) | Async HTTP Requests |
+| 6880 | [`pg_overexplain`](/ext/pg_overexplain) | [`pg_overexplain`](/ext/pg_overexplain) | Allow EXPLAIN to dump even more details |
+| 2460 | [`pg_parquet`](/ext/pg_parquet) | [`pg_parquet`](/ext/pg_parquet) | copy data between Postgres and Parquet |
+| 5890 | [`pg_prewarm`](/ext/pg_prewarm) | [`pg_prewarm`](/ext/pg_prewarm) | prewarm relation data |
+| 6240 | [`pg_qualstats`](/ext/pg_qualstats) | [`pg_qualstats`](/ext/pg_qualstats) | An extension collecting statistics about quals |
+| 6380 | [`pg_relusage`](/ext/pg_relusage) | [`pg_relusage`](/ext/pg_relusage) | Log all the queries that reference a particular column |
+| 7170 | [`pg_snakeoil`](/ext/pg_snakeoil) | [`pg_snakeoil`](/ext/pg_snakeoil) | The PostgreSQL Antivirus |
+| 5020 | [`pg_squeeze`](/ext/pg_squeeze) | [`pg_squeeze`](/ext/pg_squeeze) | A tool to remove unused space from a relation. |
+| 6220 | [`pg_stat_kcache`](/ext/pg_stat_kcache) | [`pg_stat_kcache`](/ext/pg_stat_kcache) | Kernel statistics gathering |
+| 6230 | [`pg_stat_monitor`](/ext/pg_stat_monitor) | [`pg_stat_monitor`](/ext/pg_stat_monitor) | The pg_stat_monitor is a PostgreSQL Query Performance Monitoring tool, based on PostgreSQL contrib module pg_stat_statements. pg_stat_monitor provides aggregated statistics, client information, plan details including plan, and histogram information. |
+| 6990 | [`pg_stat_statements`](/ext/pg_stat_statements) | [`pg_stat_statements`](/ext/pg_stat_statements) | track planning and execution statistics of all SQL statements executed |
+| 9130 | [`pg_statement_rollback`](/ext/pg_statement_rollback) | [`pg_statement_rollback`](/ext/pg_statement_rollback) | Server side rollback at statement level for PostgreSQL like Oracle or DB2 |
+| 6250 | [`pg_store_plans`](/ext/pg_store_plans) | [`pg_store_plans`](/ext/pg_store_plans) | track plan statistics of all SQL statements executed |
+| 1080 | [`pg_task`](/ext/pg_task) | [`pg_task`](/ext/pg_task) | execute any sql command at any specific time at background |
+| 7060 | [`pg_tde`](/ext/pg_tde) | [`pg_tde`](/ext/pg_tde) | Percona pg_tde access method |
+| 3000 | [`pg_tle`](/ext/pg_tle) | [`pg_tle`](/ext/pg_tle) | Trusted Language Extensions for PostgreSQL |
+| 6010 | [`pg_tracing`](/ext/pg_tracing) | [`pg_tracing`](/ext/pg_tracing) | Distributed Tracing for PostgreSQL |
+| 6270 | [`pg_wait_sampling`](/ext/pg_wait_sampling) | [`pg_wait_sampling`](/ext/pg_wait_sampling) | sampling based statistics of wait events |
+| 9550 | [`pgactive`](/ext/pgactive) | [`pgactive`](/ext/pgactive) | Active-Active Replication Extension for PostgreSQL |
+| 7080 | [`pgaudit`](/ext/pgaudit) | [`pgaudit`](/ext/pgaudit) | provides auditing functionality |
+| 5120 | [`pgautofailover`](/ext/pgautofailover) | [`pgautofailover`](/ext/pgautofailover) | pg_auto_failover |
+| 7180 | [`pgextwlist`](/ext/pgextwlist) | [`pgextwlist`](/ext/pgextwlist) | PostgreSQL Extension Whitelisting |
+| 3540 | [`pglite_fusion`](/ext/pglite_fusion) | [`pglite_fusion`](/ext/pglite_fusion) | Embed an SQLite database in your PostgreSQL table |
+| 9510 | [`pglogical_ticker`](/ext/pglogical_ticker) | [`pglogical_ticker`](/ext/pglogical_ticker) | Have an accurate view on pglogical replication delay |
+| 1890 | [`pgml`](/ext/pgml) | [`pgml`](/ext/pgml) | Run AL/ML workloads with SQL interface |
+| 3530 | [`pgpdf`](/ext/pgpdf) | [`pgpdf`](/ext/pgpdf) | PDF type with meta admin & Full-Text Search |
+| 6280 | [`pgsentinel`](/ext/pgsentinel) | [`pgsentinel`](/ext/pgsentinel) | active session history |
+| 7020 | [`pgsodium`](/ext/pgsodium) | [`pgsodium`](/ext/pgsodium) | Postgres extension for libsodium functions |
+| 4510 | [`pgx_ulid`](/ext/pgx_ulid) | [`pgx_ulid`](/ext/pgx_ulid) | ulid type and methods |
+| 2850 | [`plan_filter`](/ext/plan_filter) | [`pg_plan_filter`](/ext/plan_filter) | filter statements by their execution plans. |
+| 3060 | [`plpgsql_check`](/ext/plpgsql_check) | [`plpgsql_check`](/ext/plpgsql_check) | extended check for plpgsql functions |
+| 5820 | [`safeupdate`](/ext/safeupdate) | [`safeupdate`](/ext/safeupdate) | Require criteria for UPDATE and DELETE |
+| 7960 | [`sepgsql`](/ext/sepgsql) | [`sepgsql`](/ext/sepgsql) | label-based mandatory access control (MAC) based on SELinux security policy. |
+| 7010 | [`supautils`](/ext/supautils) | [`supautils`](/ext/supautils) | Extension that secures a cluster on a cloud environment |
+| 1000 | [`timescaledb`](/ext/timescaledb) | [`timescaledb`](/ext/timescaledb) | Enables scalable inserts and complex queries for time-series data |
+| 1810 | [`vchord`](/ext/vchord) | [`vchord`](/ext/vchord) | Vector database plugin for Postgres, written in Rust |
+| 2150 | [`vchord_bm25`](/ext/vchord_bm25) | [`vchord_bm25`](/ext/vchord_bm25) | A postgresql extension for bm25 ranking algorithm |
+
+------
+
+## Without DDL
+
+These extensions do not have DDL, so you don't need to run `CREATE EXTENSION` to use them.
+
+| ID | Extension | Package | Description |
+|:---:|:---|:---|:---|
+| 7970 | [`auth_delay`](/ext/auth_delay) | [`auth_delay`](/ext/auth_delay) | pause briefly before reporting authentication failure |
+| 6980 | [`auto_explain`](/ext/auto_explain) | [`auto_explain`](/ext/auto_explain) | Provides a means for logging execution plans of slow statements automatically |
+| 5950 | [`basebackup_to_shell`](/ext/basebackup_to_shell) | [`basebackup_to_shell`](/ext/basebackup_to_shell) | adds a custom basebackup target called shell |
+| 5940 | [`basic_archive`](/ext/basic_archive) | [`basic_archive`](/ext/basic_archive) | an example of an archive module |
+| 6340 | [`bgw_replstatus`](/ext/bgw_replstatus) | [`bgw_replstatus`](/ext/bgw_replstatus) | Small PostgreSQL background worker to report whether a node is a replication master or standby |
+| 9660 | [`decoder_raw`](/ext/decoder_raw) | [`decoder_raw`](/ext/decoder_raw) | Output plugin for logical replication in Raw SQL format |
+| 9650 | [`decoderbufs`](/ext/decoderbufs) | [`decoderbufs`](/ext/decoderbufs) | Logical decoding plugin that delivers WAL stream changes using a Protocol Buffer format |
+| 7990 | [`passwordcheck`](/ext/passwordcheck) | [`passwordcheck`](/ext/passwordcheck_cracklib) | checks user passwords and reject weak password |
+| 7000 | [`passwordcheck_cracklib`](/ext/passwordcheck_cracklib) | [`passwordcheck`](/ext/passwordcheck_cracklib) | Strengthen PostgreSQL user password checks with cracklib |
+| 5080 | [`pg_checksums`](/ext/pg_checksums) | [`pg_checksums`](/ext/pg_checksums) | Activate/deactivate/verify checksums in offline Postgres clusters |
+| 5190 | [`pg_crash`](/ext/pg_crash) | [`pg_crash`](/ext/pg_crash) | Send random signals to random processes |
+| 9530 | [`pg_failover_slots`](/ext/pg_failover_slots) | [`pg_failover_slots`](/ext/pg_failover_slots) | PG Failover Slots extension |
+| 6880 | [`pg_overexplain`](/ext/pg_overexplain) | [`pg_overexplain`](/ext/pg_overexplain) | Allow EXPLAIN to dump even more details |
+| 6380 | [`pg_relusage`](/ext/pg_relusage) | [`pg_relusage`](/ext/pg_relusage) | Log all the queries that reference a particular column |
+| 7170 | [`pg_snakeoil`](/ext/pg_snakeoil) | [`pg_snakeoil`](/ext/pg_snakeoil) | The PostgreSQL Antivirus |
+| 9130 | [`pg_statement_rollback`](/ext/pg_statement_rollback) | [`pg_statement_rollback`](/ext/pg_statement_rollback) | Server side rollback at statement level for PostgreSQL like Oracle or DB2 |
+| 1080 | [`pg_task`](/ext/pg_task) | [`pg_task`](/ext/pg_task) | execute any sql command at any specific time at background |
+| 7180 | [`pgextwlist`](/ext/pgextwlist) | [`pgextwlist`](/ext/pgextwlist) | PostgreSQL Extension Whitelisting |
+| 9980 | [`pgoutput`](/ext/pgoutput) | [`pgoutput`](/ext/pgoutput) | Logical Replication output plugin |
+| 2850 | [`plan_filter`](/ext/plan_filter) | [`pg_plan_filter`](/ext/plan_filter) | filter statements by their execution plans. |
+| 5820 | [`safeupdate`](/ext/safeupdate) | [`safeupdate`](/ext/safeupdate) | Require criteria for UPDATE and DELETE |
+| 7960 | [`sepgsql`](/ext/sepgsql) | [`sepgsql`](/ext/sepgsql) | label-based mandatory access control (MAC) based on SELinux security policy. |
+| 7010 | [`supautils`](/ext/supautils) | [`supautils`](/ext/supautils) | Extension that secures a cluster on a cloud environment |
+| 9970 | [`test_decoding`](/ext/test_decoding) | [`test_decoding`](/ext/test_decoding) | SQL-based test/example module for WAL logical decoding |
+| 9630 | [`wal2json`](/ext/wal2json) | [`wal2json`](/ext/wal2json) | Changing data capture in JSON format |
+| 9640 | [`wal2mongo`](/ext/wal2mongo) | [`wal2mongo`](/ext/wal2mongo) | PostgreSQL logical decoding output plugin for MongoDB |
+
+------
+
+## Has Dependency
+
+Extensions that have dependencies on other extensions.
+
+| Extension | Dependencies |
+|:---|:---|
+| [`babelfishpg_tds`](/ext/babelfishpg_tds) | [`babelfishpg_tsql`](/ext/babelfishpg_tsql) |
+| [`babelfishpg_tsql`](/ext/babelfishpg_tsql) | [`babelfishpg_common`](/ext/babelfishpg_common), [`uuid-ossp`](/ext/uuid-ossp) |
+| [`bool_plperl`](/ext/bool_plperl) | [`plperl`](/ext/plperl) |
+| [`bool_plperlu`](/ext/bool_plperlu) | [`plperlu`](/ext/plperlu) |
+| [`data_historization`](/ext/data_historization) | [`plpgsql`](/ext/plpgsql) |
+| [`ddl_historization`](/ext/ddl_historization) | [`plpgsql`](/ext/plpgsql) |
+| [`documentdb`](/ext/documentdb) | [`documentdb_core`](/ext/documentdb_core), [`pg_cron`](/ext/pg_cron), [`tsm_system_rows`](/ext/tsm_system_rows), [`vector`](/ext/vector), [`postgis`](/ext/postgis), [`rum`](/ext/rum) |
+| [`earthdistance`](/ext/earthdistance) | [`cube`](/ext/cube) |
+| [`emaj`](/ext/emaj) | [`dblink`](/ext/dblink), [`btree_gist`](/ext/btree_gist) |
+| [`geoip`](/ext/geoip) | [`ip4r`](/ext/ip4r) |
+| [`h3_postgis`](/ext/h3_postgis) | [`h3`](/ext/h3), [`postgis`](/ext/postgis), [`postgis_raster`](/ext/postgis_raster) |
+| [`hstore_pllua`](/ext/hstore_pllua) | [`hstore`](/ext/hstore), [`pllua`](/ext/pllua) |
+| [`hstore_plluau`](/ext/hstore_plluau) | [`hstore`](/ext/hstore), [`plluau`](/ext/plluau) |
+| [`hstore_plperl`](/ext/hstore_plperl) | [`plperl`](/ext/plperl) |
+| [`hstore_plperlu`](/ext/hstore_plperlu) | [`plperlu`](/ext/plperlu) |
+| [`hstore_plpython3u`](/ext/hstore_plpython3u) | [`hstore`](/ext/hstore), [`plpython3u`](/ext/plpython3u) |
+| [`jsonb_plperl`](/ext/jsonb_plperl) | [`plperl`](/ext/plperl) |
+| [`jsonb_plperlu`](/ext/jsonb_plperlu) | [`plperlu`](/ext/plperlu) |
+| [`jsonb_plpython3u`](/ext/jsonb_plpython3u) | [`plpython3u`](/ext/plpython3u) |
+| [`l10n_table_dependent_extension`](/ext/l10n_table_dependent_extension) | [`pg_xenophile`](/ext/pg_xenophile) |
+| [`ltree_plpython3u`](/ext/ltree_plpython3u) | [`ltree`](/ext/ltree), [`plpython3u`](/ext/plpython3u) |
+| [`mimeo`](/ext/mimeo) | [`dblink`](/ext/dblink) |
+| [`mobilitydb`](/ext/mobilitydb) | [`postgis`](/ext/postgis) |
+| [`omni_auth`](/ext/omni_auth) | [`omni_types`](/ext/omni_types), [`omni_id`](/ext/omni_id), [`pgcrypto`](/ext/pgcrypto), [`btree_gist`](/ext/btree_gist), [`omni_polyfill`](/ext/omni_polyfill) |
+| [`omni_aws`](/ext/omni_aws) | [`omni_httpc`](/ext/omni_httpc), [`pgcrypto`](/ext/pgcrypto), [`omni_xml`](/ext/omni_xml), [`omni_web`](/ext/omni_web) |
+| [`omni_cloudevents`](/ext/omni_cloudevents) | [`omni_web`](/ext/omni_web) |
+| [`omni_containers`](/ext/omni_containers) | [`omni_httpc`](/ext/omni_httpc), [`omni_web`](/ext/omni_web) |
+| [`omni_credentials`](/ext/omni_credentials) | [`pgcrypto`](/ext/pgcrypto), [`omni_os`](/ext/omni_os) |
+| [`omni_email`](/ext/omni_email) | [`omni_id`](/ext/omni_id), [`omni_cloudevents`](/ext/omni_cloudevents), [`omni_polyfill`](/ext/omni_polyfill) |
+| [`omni_httpc`](/ext/omni_httpc) | [`omni_http`](/ext/omni_http), [`omni_types`](/ext/omni_types) |
+| [`omni_httpd`](/ext/omni_httpd) | [`omni_types`](/ext/omni_types), [`omni_http`](/ext/omni_http) |
+| [`omni_kube`](/ext/omni_kube) | [`omni_httpc`](/ext/omni_httpc), [`omni_web`](/ext/omni_web), [`omni_var`](/ext/omni_var), [`pgcrypto`](/ext/pgcrypto) |
+| [`omni_ledger`](/ext/omni_ledger) | [`omni_id`](/ext/omni_id), [`omni_polyfill`](/ext/omni_polyfill) |
+| [`omni_python`](/ext/omni_python) | [`plpython3u`](/ext/plpython3u) |
+| [`omni_rest`](/ext/omni_rest) | [`omni_httpd`](/ext/omni_httpd), [`omni_sql`](/ext/omni_sql), [`omni_web`](/ext/omni_web), [`omni_var`](/ext/omni_var), [`pgcrypto`](/ext/pgcrypto) |
+| [`omni_schema`](/ext/omni_schema) | [`omni_sql`](/ext/omni_sql), [`omni_vfs`](/ext/omni_vfs), [`dblink`](/ext/dblink) |
+| [`omni_session`](/ext/omni_session) | [`omni_var`](/ext/omni_var), [`omni_id`](/ext/omni_id), [`omni_web`](/ext/omni_web), [`omni_httpd`](/ext/omni_httpd), [`omni_polyfill`](/ext/omni_polyfill) |
+| [`omni_test`](/ext/omni_test) | [`dblink`](/ext/dblink) |
+| [`omni_vfs_types_v1`](/ext/omni_vfs_types_v1) | [`omni_vfs_types_v1`](/ext/omni_vfs_types_v1), [`dblink`](/ext/dblink) |
+| [`periods`](/ext/periods) | [`btree_gist`](/ext/btree_gist) |
+| [`pg4ml`](/ext/pg4ml) | [`plpgsql`](/ext/plpgsql), [`tablefunc`](/ext/tablefunc), [`cube`](/ext/cube), [`plpython3u`](/ext/plpython3u) |
+| [`pg_drop_events`](/ext/pg_drop_events) | [`plpgsql`](/ext/plpgsql) |
+| [`pg_incremental`](/ext/pg_incremental) | [`pg_cron`](/ext/pg_cron) |
+| [`pg_jobmon`](/ext/pg_jobmon) | [`dblink`](/ext/dblink) |
+| [`pg_later`](/ext/pg_later) | [`pgmq`](/ext/pgmq) |
+| [`pg_profile`](/ext/pg_profile) | [`dblink`](/ext/dblink), [`plpgsql`](/ext/plpgsql) |
+| [`pg_readme`](/ext/pg_readme) | [`hstore`](/ext/hstore) |
+| [`pg_readme_test_extension`](/ext/pg_readme_test_extension) | [`hstore`](/ext/hstore) |
+| [`pg_sqlog`](/ext/pg_sqlog) | [`file_fdw`](/ext/file_fdw) |
+| [`pg_stat_kcache`](/ext/pg_stat_kcache) | [`pg_stat_statements`](/ext/pg_stat_statements) |
+| [`pg_upless`](/ext/pg_upless) | [`plpgsql`](/ext/plpgsql) |
+| [`pgautofailover`](/ext/pgautofailover) | [`btree_gist`](/ext/btree_gist) |
+| [`pgcryptokey`](/ext/pgcryptokey) | [`pgcrypto`](/ext/pgcrypto) |
+| [`pgfaceting`](/ext/pgfaceting) | [`roaringbitmap`](/ext/roaringbitmap) |
+| [`pgl_ddl_deploy`](/ext/pgl_ddl_deploy) | [`pglogical`](/ext/pglogical) |
+| [`pglogical_ticker`](/ext/pglogical_ticker) | [`pglogical`](/ext/pglogical) |
+| [`pgrouting`](/ext/pgrouting) | [`postgis`](/ext/postgis) |
+| [`plperl`](/ext/plperl) | [`plperl`](/ext/plperl) |
+| [`plperlu`](/ext/plperlu) | [`plperlu`](/ext/plperlu) |
+| [`plpgsql_check`](/ext/plpgsql_check) | [`plpgsql`](/ext/plpgsql) |
+| [`pointcloud_postgis`](/ext/pointcloud_postgis) | [`postgis`](/ext/postgis), [`pointcloud`](/ext/pointcloud) |
+| [`postgis_raster`](/ext/postgis_raster) | [`postgis`](/ext/postgis) |
+| [`postgis_sfcgal`](/ext/postgis_sfcgal) | [`postgis`](/ext/postgis) |
+| [`postgis_tiger_geocoder`](/ext/postgis_tiger_geocoder) | [`postgis`](/ext/postgis), [`fuzzystrmatch`](/ext/fuzzystrmatch) |
+| [`postgis_topology`](/ext/postgis_topology) | [`postgis`](/ext/postgis) |
+| [`powa`](/ext/powa) | [`plpgsql`](/ext/plpgsql), [`pg_stat_statements`](/ext/pg_stat_statements), [`btree_gist`](/ext/btree_gist) |
+| [`schedoc`](/ext/schedoc) | [`ddl_historization`](/ext/ddl_historization) |
+| [`sparql`](/ext/sparql) | [`plperl`](/ext/plperl), [`plperlu`](/ext/plperlu) |
+| [`supabase_vault`](/ext/supabase_vault) | [`pgsodium`](/ext/pgsodium) |
+| [`table_version`](/ext/table_version) | [`plpgsql`](/ext/plpgsql) |
+| [`timeseries`](/ext/timeseries) | [`columnar`](/ext/columnar), [`pg_cron`](/ext/pg_cron), [`pg_ivm`](/ext/pg_ivm), [`pg_partman`](/ext/pg_partman) |
+| [`unit`](/ext/unit) | [`plpgsql`](/ext/plpgsql) |
+| [`vchord`](/ext/vchord) | [`vector`](/ext/vector) |
+| [`vectorize`](/ext/vectorize) | [`pg_cron`](/ext/pg_cron), [`pgmq`](/ext/pgmq), [`vector`](/ext/vector) |
+| [`vectorscale`](/ext/vectorscale) | [`vector`](/ext/vector) |
+
+------
+
+## Multiple Extension
+
+These packages contain multiple extensions simultaneously:
+
+| Package | Extensions |
+|:---|:---|
+| [`postgis`](/ext/postgis) | [`postgis`](/ext/postgis), [`postgis_topology`](/ext/postgis_topology), [`postgis_raster`](/ext/postgis_raster), [`postgis_sfcgal`](/ext/postgis_sfcgal), [`postgis_tiger_geocoder`](/ext/postgis_tiger_geocoder), [`address_standardizer`](/ext/address_standardizer), [`address_standardizer_data_us`](/ext/address_standardizer_data_us) |
+| [`pointcloud`](/ext/pointcloud) | [`pointcloud`](/ext/pointcloud), [`pointcloud_postgis`](/ext/pointcloud_postgis) |
+| [`pg_h3`](/ext/h3) | [`h3`](/ext/h3), [`h3_postgis`](/ext/h3_postgis) |
+| [`pgroonga`](/ext/pgroonga) | [`pgroonga`](/ext/pgroonga), [`pgroonga_database`](/ext/pgroonga_database) |
+| [`citus`](/ext/citus) | [`citus`](/ext/citus), [`citus_columnar`](/ext/citus_columnar) |
+| [`omnigres`](/ext/omni) | [`omni`](/ext/omni), [`omni_auth`](/ext/omni_auth), [`omni_aws`](/ext/omni_aws), [`omni_cloudevents`](/ext/omni_cloudevents), [`omni_containers`](/ext/omni_containers), [`omni_credentials`](/ext/omni_credentials), [`omni_email`](/ext/omni_email), [`omni_http`](/ext/omni_http), [`omni_httpc`](/ext/omni_httpc), [`omni_httpd`](/ext/omni_httpd), [`omni_id`](/ext/omni_id), [`omni_json`](/ext/omni_json), [`omni_kube`](/ext/omni_kube), [`omni_ledger`](/ext/omni_ledger), [`omni_manifest`](/ext/omni_manifest), [`omni_mimetypes`](/ext/omni_mimetypes), [`omni_os`](/ext/omni_os), [`omni_polyfill`](/ext/omni_polyfill), [`omni_python`](/ext/omni_python), [`omni_regex`](/ext/omni_regex), [`omni_rest`](/ext/omni_rest), [`omni_schema`](/ext/omni_schema), [`omni_seq`](/ext/omni_seq), [`omni_service`](/ext/omni_service), [`omni_session`](/ext/omni_session), [`omni_sql`](/ext/omni_sql), [`omni_sqlite`](/ext/omni_sqlite), [`omni_test`](/ext/omni_test), [`omni_txn`](/ext/omni_txn), [`omni_types`](/ext/omni_types), [`omni_var`](/ext/omni_var), [`omni_vfs`](/ext/omni_vfs), [`omni_vfs_types_v1`](/ext/omni_vfs_types_v1), [`omni_web`](/ext/omni_web), [`omni_worker`](/ext/omni_worker), [`omni_xml`](/ext/omni_xml), [`omni_yaml`](/ext/omni_yaml) |
+| [`pllua`](/ext/pllua) | [`pllua`](/ext/pllua), [`hstore_pllua`](/ext/hstore_pllua), [`plluau`](/ext/plluau), [`hstore_plluau`](/ext/hstore_plluau) |
+| [`pltcl`](/ext/pltcl) | [`pltcl`](/ext/pltcl), [`pltclu`](/ext/pltclu) |
+| [`plperl`](/ext/plperl) | [`plperl`](/ext/plperl), [`bool_plperl`](/ext/bool_plperl), [`hstore_plperl`](/ext/hstore_plperl), [`jsonb_plperl`](/ext/jsonb_plperl) |
+| [`plperlu`](/ext/plperlu) | [`plperlu`](/ext/plperlu), [`bool_plperlu`](/ext/bool_plperlu), [`jsonb_plperlu`](/ext/jsonb_plperlu), [`hstore_plperlu`](/ext/hstore_plperlu) |
+| [`plpython3u`](/ext/plpython3u) | [`plpython3u`](/ext/plpython3u), [`jsonb_plpython3u`](/ext/jsonb_plpython3u), [`ltree_plpython3u`](/ext/ltree_plpython3u), [`hstore_plpython3u`](/ext/hstore_plpython3u) |
+| [`pg_xenophile`](/ext/pg_xenophile) | [`pg_xenophile`](/ext/pg_xenophile), [`l10n_table_dependent_extension`](/ext/l10n_table_dependent_extension) |
+| [`pg_readme`](/ext/pg_readme) | [`pg_readme`](/ext/pg_readme), [`pg_readme_test_extension`](/ext/pg_readme_test_extension) |
+| [`pgpool`](/ext/pgpool_adm) | [`pgpool_adm`](/ext/pgpool_adm), [`pgpool_recovery`](/ext/pgpool_recovery), [`pgpool_regclass`](/ext/pgpool_regclass) |
+| [`pgnodemx`](/ext/pgnodemx) | [`pgnodemx`](/ext/pgnodemx), [`pg_proctab`](/ext/pg_proctab) |
+| [`passwordcheck`](/ext/passwordcheck_cracklib) | [`passwordcheck_cracklib`](/ext/passwordcheck_cracklib), [`passwordcheck`](/ext/passwordcheck) |
+| [`documentdb`](/ext/documentdb) | [`documentdb`](/ext/documentdb), [`documentdb_core`](/ext/documentdb_core), [`documentdb_distributed`](/ext/documentdb_distributed) |
+| [`pglogical`](/ext/pglogical) | [`pglogical`](/ext/pglogical), [`pglogical_origin`](/ext/pglogical_origin) |

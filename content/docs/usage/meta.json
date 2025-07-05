@@ -1,0 +1,15 @@
+{
+  "title": "Usage",
+  "icon": "Blocks",
+  "pages": [
+    "repo",
+    "pkg",
+    "list",
+    "download",
+    "install",
+    "config",
+    "create",
+    "update",
+    "remove"
+  ]
+}

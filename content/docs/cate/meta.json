@@ -1,0 +1,21 @@
+{
+  "defaultOpen": false,
+  "pages": [
+    "time",
+    "gis",
+    "rag",
+    "fts",
+    "olap",
+    "feat",
+    "lang",
+    "type",
+    "util",
+    "func",
+    "admin",
+    "stat",
+    "sec",
+    "fdw",
+    "sim",
+    "etl"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "defaultOpen": false,
+  "pages": [
+    "start",
+    "install",
+    "why",
+    "pig",
+    "repo",
+    "ext",
+    "sty",
+    "build",
+    "release"
+  ]
+}

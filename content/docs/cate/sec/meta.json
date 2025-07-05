@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "[passwordcheck_cracklib](/ext/passwordcheck_cracklib)",
+    "[supautils](/ext/supautils)",
+    "[pgsodium](/ext/pgsodium)",
+    "[supabase_vault](/ext/supabase_vault)",
+    "[pg_session_jwt](/ext/pg_session_jwt)",
+    "[anon](/ext/anon)",
+    "[pg_tde](/ext/pg_tde)",
+    "[pgsmcrypto](/ext/pgsmcrypto)",
+    "[pgaudit](/ext/pgaudit)",
+    "[pgauditlogtofile](/ext/pgauditlogtofile)",
+    "[pg_auth_mon](/ext/pg_auth_mon)",
+    "[credcheck](/ext/credcheck)",
+    "[pgcryptokey](/ext/pgcryptokey)",
+    "[pg_jobmon](/ext/pg_jobmon)",
+    "[logerrors](/ext/logerrors)",
+    "[login_hook](/ext/login_hook)",
+    "[set_user](/ext/set_user)",
+    "[pg_snakeoil](/ext/pg_snakeoil)",
+    "[pgextwlist](/ext/pgextwlist)",
+    "[pg_auditor](/ext/pg_auditor)",
+    "[sslutils](/ext/sslutils)",
+    "[noset](/ext/noset)",
+    "[sepgsql](/ext/sepgsql)",
+    "[auth_delay](/ext/auth_delay)",
+    "[pgcrypto](/ext/pgcrypto)",
+    "[passwordcheck](/ext/passwordcheck)"
+  ]
+}

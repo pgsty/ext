@@ -1,0 +1,1422 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1701.51333266" height="1511.999622" font-family="Consolas, Menlo, 'Bitstream Vera Sans Mono', monospace, 'Powerline Symbols'" font-size="14px">
+  <style>
+    .br { font-weight: bold }
+    .fa { fill-opacity: 0.5 }
+    .it { font-style: italic }
+    .un { text-decoration: underline }
+  </style>
+
+  <rect width="100%" height="100%" style="fill: #002b36" rx="4" ry="4"></rect>
+
+  <svg x="8.42333333" y="9.333331000000001" class="default-text-fill">
+    <g style="shape-rendering: optimizeSpeed">
+
+        <rect x="143.19666661" y="1474.666298" width="8.42333333" height="18.666662000000002" style="fill: #eee8d5"></rect>
+
+
+    </g>
+
+    <text style="fill: #839496">
+      <tspan y="0.0">
+        <tspan dy="1em" x="0.0">
+          file_fdw
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.0
+        </tspan><tspan x="438.01333316">
+          FDW
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          CONTRIB
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          postgresql17-contrib
+        </tspan><tspan x="1078.18666624">
+          foreign-data wrapper for flat file access
+        </tspan>
+      </tspan><tspan y="18.666662000000002">
+        <tspan dy="1em" x="0.0">
+          postgres_fdw
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.1
+        </tspan><tspan x="438.01333316">
+          FDW
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          CONTRIB
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          postgresql17-contrib
+        </tspan><tspan x="1078.18666624">
+          foreign-data wrapper for remote PostgreSQL servers
+        </tspan>
+      </tspan><tspan y="37.333324000000005">
+        <tspan dy="1em" x="0.0">
+          orafce
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          4.14
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds---
+        </tspan><tspan x="564.36333311">
+          BSD 0-Clause
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          orafce_17*
+        </tspan><tspan x="1078.18666624">
+          Functions and operators that emulate a subset of functions and p
+        </tspan>
+      </tspan><tspan y="55.99998600000001">
+        <tspan dy="1em" x="0.0">
+          pgtt
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          4.0.0
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          ISC
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pgtt_17*
+        </tspan><tspan x="1078.18666624">
+          Extension to add Global Temporary Tables feature to PostgreSQL
+        </tspan>
+      </tspan><tspan y="74.66664800000001">
+        <tspan dy="1em" x="0.0">
+          session_variable
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          3.4
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds-xr
+        </tspan><tspan x="564.36333311">
+          GPL-3.0
+        </tspan><tspan x="682.28999973">
+          PIGSTY
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          session_variable_17*
+        </tspan><tspan x="1078.18666624">
+          Registration and manipulation of session variables and constants
+        </tspan>
+      </tspan><tspan y="93.33331000000001">
+        <tspan dy="1em" x="0.0">
+          pg_statement_rollback
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.4
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          --sl-x
+        </tspan><tspan x="564.36333311">
+          ISC
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pg_statement_rollback_17*
+        </tspan><tspan x="1078.18666624">
+          Server side rollback at statement level for PostgreSQL like Orac
+        </tspan>
+      </tspan><tspan y="111.99997200000001">
+        <tspan dy="1em" x="0.0">
+          pg_dbms_metadata
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.0.0
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pg_dbms_metadata_17*
+        </tspan><tspan x="1078.18666624">
+          Extension to add Oracle DBMS_METADATA compatibility to PostgreSQ
+        </tspan>
+      </tspan><tspan y="130.66663400000002">
+        <tspan dy="1em" x="0.0">
+          pg_dbms_lock
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.0.0
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pg_dbms_lock_17*
+        </tspan><tspan x="1078.18666624">
+          Extension to add Oracle DBMS_LOCK full compatibility to PostgreS
+        </tspan>
+      </tspan><tspan y="149.33329600000002">
+        <tspan dy="1em" x="0.0">
+          pg_dbms_job
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.5.0
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pg_dbms_job_17*
+        </tspan><tspan x="1078.18666624">
+          Extension to add Oracle DBMS_JOB full compatibility to PostgreSQ
+        </tspan>
+      </tspan><tspan y="167.99995800000002">
+        <tspan dy="1em" x="0.0">
+          babelfishpg_common
+        </tspan><tspan x="252.6999999">
+          n/a
+        </tspan><tspan x="311.66333321">
+          3.3.3
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds--r
+        </tspan><tspan x="564.36333311">
+          Apache-2.0
+        </tspan><tspan x="682.28999973">
+          WILTON
+        </tspan><tspan x="758.0999997">
+          15
+        </tspan><tspan x="842.333333">
+          babelfishpg-common*
+        </tspan><tspan x="1078.18666624">
+          SQL Server Transact SQL Datatype Support
+        </tspan>
+      </tspan><tspan y="186.66662000000002">
+        <tspan dy="1em" x="0.0">
+          babelfishpg_tsql
+        </tspan><tspan x="252.6999999">
+          n/a
+        </tspan><tspan x="311.66333321">
+          3.3.1
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -dsl-r
+        </tspan><tspan x="564.36333311">
+          Apache-2.0
+        </tspan><tspan x="682.28999973">
+          WILTON
+        </tspan><tspan x="758.0999997">
+          15
+        </tspan><tspan x="842.333333">
+          babelfishpg-tsql*
+        </tspan><tspan x="1078.18666624">
+          SQL Server Transact SQL compatibility
+        </tspan>
+      </tspan><tspan y="205.33328200000003">
+        <tspan dy="1em" x="0.0">
+          babelfishpg_tds
+        </tspan><tspan x="252.6999999">
+          n/a
+        </tspan><tspan x="311.66333321">
+          1.0.0
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds--r
+        </tspan><tspan x="564.36333311">
+          Apache-2.0
+        </tspan><tspan x="682.28999973">
+          WILTON
+        </tspan><tspan x="758.0999997">
+          15
+        </tspan><tspan x="842.333333">
+          babelfishpg-tds*
+        </tspan><tspan x="1078.18666624">
+          SQL Server TDS protocol extension
+        </tspan>
+      </tspan><tspan y="223.99994400000003">
+        <tspan dy="1em" x="0.0">
+          babelfishpg_money
+        </tspan><tspan x="252.6999999">
+          n/a
+        </tspan><tspan x="311.66333321">
+          1.1.0
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds-t-
+        </tspan><tspan x="564.36333311">
+          Apache-2.0
+        </tspan><tspan x="682.28999973">
+          WILTON
+        </tspan><tspan x="758.0999997">
+          15
+        </tspan><tspan x="842.333333">
+          babelfishpg-money*
+        </tspan><tspan x="1078.18666624">
+          SQL Server Money Data Type
+        </tspan>
+      </tspan><tspan y="242.66660600000003">
+        <tspan dy="1em" x="0.0">
+          pgmemcache
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          2.3.0
+        </tspan><tspan x="438.01333316">
+          SIM
+        </tspan><tspan x="496.97666647">
+          -ds--r
+        </tspan><tspan x="564.36333311">
+          MIT
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          15-17
+        </tspan><tspan x="842.333333">
+          pgmemcache_17*
+        </tspan><tspan x="1078.18666624">
+          memcached interface
+        </tspan>
+      </tspan><tspan y="261.33326800000003">
+        <tspan dy="1em" x="0.0">
+          pglogical
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          2.4.5
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          -ds---
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pglogical_17*
+        </tspan><tspan x="1078.18666624">
+          PostgreSQL Logical Replication
+        </tspan>
+      </tspan><tspan y="279.99993">
+        <tspan dy="1em" x="0.0">
+          pglogical_origin
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.0.0
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          -ds---
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pglogical_17*
+        </tspan><tspan x="1078.18666624">
+          Dummy extension for compatibility when upgrading from Postgres 9
+        </tspan>
+      </tspan><tspan y="298.66659200000004">
+        <tspan dy="1em" x="0.0">
+          pglogical_ticker
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.4
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          -dsl--
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PIGSTY
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pglogical_ticker_17*
+        </tspan><tspan x="1078.18666624">
+          Have an accurate view on pglogical replication delay
+        </tspan>
+      </tspan><tspan y="317.333254">
+        <tspan dy="1em" x="0.0">
+          pgl_ddl_deploy
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          2.2
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          MIT
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pgl_ddl_deploy_17*
+        </tspan><tspan x="1078.18666624">
+          automated ddl deployment using pglogical
+        </tspan>
+      </tspan><tspan y="335.99991600000004">
+        <tspan dy="1em" x="0.0">
+          pg_failover_slots
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.0.1
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          --slxr
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PIGSTY
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pg_failover_slots_17*
+        </tspan><tspan x="1078.18666624">
+          PG Failover Slots extension
+        </tspan>
+      </tspan><tspan y="354.666578">
+        <tspan dy="1em" x="0.0">
+          wal2json
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          2.5.3
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          --s--x
+        </tspan><tspan x="564.36333311">
+          BSD 3-Clause
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          wal2json_17*
+        </tspan><tspan x="1078.18666624">
+          Changing data capture in JSON format
+        </tspan>
+      </tspan><tspan y="373.33324000000005">
+        <tspan dy="1em" x="0.0">
+          wal2mongo
+        </tspan><tspan x="252.6999999">
+          n/a
+        </tspan><tspan x="311.66333321">
+          1.0.7
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          --s--x
+        </tspan><tspan x="564.36333311">
+          Apache-2.0
+        </tspan><tspan x="682.28999973">
+          PIGSTY
+        </tspan><tspan x="758.0999997">
+          13-16
+        </tspan><tspan x="842.333333">
+          wal2mongo_17*
+        </tspan><tspan x="1078.18666624">
+          PostgreSQL logical decoding output plugin for MongoDB
+        </tspan>
+      </tspan><tspan y="391.999902">
+        <tspan dy="1em" x="0.0">
+          decoderbufs
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          0.1.0
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          --s--x
+        </tspan><tspan x="564.36333311">
+          MIT
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          postgres-decoderbufs_17*
+        </tspan><tspan x="1078.18666624">
+          Logical decoding plugin that delivers WAL stream changes using a
+        </tspan>
+      </tspan><tspan y="410.66656400000005">
+        <tspan dy="1em" x="0.0">
+          decoder_raw
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.0
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          --s-x-
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PIGSTY
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          decoder_raw_17*
+        </tspan><tspan x="1078.18666624">
+          Output plugin for logical replication in Raw SQL format
+        </tspan>
+      </tspan><tspan y="429.333226">
+        <tspan dy="1em" x="0.0">
+          pgoutput
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          -
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          --s---
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          CONTRIB
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          postgresql17-contrib
+        </tspan><tspan x="1078.18666624">
+          Logical Replication output plugin
+        </tspan>
+      </tspan><tspan y="447.99988800000006">
+        <tspan dy="1em" x="0.0">
+          test_decoding
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          -
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          --s--x
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          CONTRIB
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          postgresql17-contrib
+        </tspan><tspan x="1078.18666624">
+          SQL-based test/example module for WAL logical decoding
+        </tspan>
+      </tspan><tspan y="466.66655000000003">
+        <tspan dy="1em" x="0.0">
+          mimeo
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          1.5.1
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          -d----
+        </tspan><tspan x="564.36333311">
+          PostgreSQL
+        </tspan><tspan x="682.28999973">
+          PIGSTY
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          mimeo_17
+        </tspan><tspan x="1078.18666624">
+          Extension for specialized, per-table replication between Postgre
+        </tspan>
+      </tspan><tspan y="485.33321200000006">
+        <tspan dy="1em" x="0.0">
+          repmgr
+        </tspan><tspan x="252.6999999">
+          n/a
+        </tspan><tspan x="311.66333321">
+          5.4
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          GPL-3.0
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-16
+        </tspan><tspan x="842.333333">
+          repmgr_17*
+        </tspan><tspan x="1078.18666624">
+          Replication manager for PostgreSQL
+        </tspan>
+      </tspan><tspan y="503.99987400000003">
+        <tspan dy="1em" x="0.0">
+          pg_fact_loader
+        </tspan><tspan x="252.6999999">
+          avail
+        </tspan><tspan x="311.66333321">
+          2.0
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          -ds--x
+        </tspan><tspan x="564.36333311">
+          MIT
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-17
+        </tspan><tspan x="842.333333">
+          pg_fact_loader_17*
+        </tspan><tspan x="1078.18666624">
+          build fact tables with Postgres
+        </tspan>
+      </tspan><tspan y="522.6665360000001">
+        <tspan dy="1em" x="0.0">
+          pg_bulkload
+        </tspan><tspan x="252.6999999">
+          n/a
+        </tspan><tspan x="311.66333321">
+          3.1.21
+        </tspan><tspan x="438.01333316">
+          ETL
+        </tspan><tspan x="496.97666647">
+          bds---
+        </tspan><tspan x="564.36333311">
+          BSD 3-Clause
+        </tspan><tspan x="682.28999973">
+          PGDG
+        </tspan><tspan x="758.0999997">
+          13-16
+        </tspan><tspan x="842.333333">
+          pg_bulkload_17*
+        </tspan><tspan x="1078.18666624">
+          pg_bulkload is a high speed data loading utility for PostgreSQL
+        </tspan>
+      </tspan><tspan y="559.99986">
+        <tspan dy="1em" x="0.0">
+          (340 Rows) (State: added|avail|n/a,Flags: b = HasBin, d = HasDDL, s = HasSolib, l = NeedLoad, t = Trusted, r = Relocatable, x = Unknown)
+        </tspan>
+      </tspan><tspan y="597.3331840000001">
+        <tspan dy="1em" x="0.0">
+          [vagrant@el9 ~]$ pig ext ls fdw
+        </tspan>
+      </tspan><tspan y="634.666508">
+        <tspan dy="1em" x="0.0" style="fill: #b58900">
+          WARN
+        </tspan><tspan x="33.69333332">
+          [15:00:23] failed to detect active postgres: failed to get PostgreSQL installation: no active PostgreSQL installation detected
+        </tspan>
+      </tspan><tspan y="653.33317">
+        <tspan dy="1em" x="0.0" style="fill: #2aa198">
+          INFO
+        </tspan><tspan x="33.69333332">
+          [15:00:23] fail to detect active postgres, use default pg version: 17
+        </tspan>
+      </tspan><tspan y="671.9998320000001">
+        <tspan dy="1em" x="0.0" style="fill: #2aa198">
+          INFO
+        </tspan><tspan x="33.69333332">
+          [15:00:23] found 21 extensions matching &#39;fdw&#39;:
+        </tspan>
+      </tspan><tspan y="690.6664940000001">
+        <tspan dy="1em" x="0.0">
+          Name
+        </tspan><tspan x="126.34999995">
+          State
+        </tspan><tspan x="185.31333326">
+          Version
+        </tspan><tspan x="261.12333323">
+          Cate
+        </tspan><tspan x="311.66333321">
+          Flags
+        </tspan><tspan x="379.04999985">
+          License
+        </tspan><tspan x="496.97666647">
+          Repo
+        </tspan><tspan x="572.78666644">
+          PGVer
+        </tspan><tspan x="657.01999974">
+          Package
+        </tspan><tspan x="842.333333">
+          Description
+        </tspan>
+      </tspan><tspan y="709.333156">
+        <tspan dy="1em" x="0.0">
+          ----
+        </tspan><tspan x="126.34999995">
+          -----
+        </tspan><tspan x="185.31333326">
+          -------
+        </tspan><tspan x="261.12333323">
+          ----
+        </tspan><tspan x="311.66333321">
+          ------
+        </tspan><tspan x="379.04999985">
+          -------
+        </tspan><tspan x="496.97666647">
+          ------
+        </tspan><tspan x="572.78666644">
+          --------
+        </tspan><tspan x="657.01999974">
+          ------------
+        </tspan><tspan x="842.333333">
+          ---------------------
+        </tspan>
+      </tspan><tspan y="727.999818">
+        <tspan dy="1em" x="0.0">
+          wrappers
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          0.4.3
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds-t-
+        </tspan><tspan x="379.04999985">
+          Apache-2.0
+        </tspan><tspan x="496.97666647">
+          PIGSTY
+        </tspan><tspan x="572.78666644">
+          14-17
+        </tspan><tspan x="657.01999974">
+          wrappers_17
+        </tspan><tspan x="842.333333">
+          Foreign data wrappers developed by Supabase
+        </tspan>
+      </tspan><tspan y="746.6664800000001">
+        <tspan dy="1em" x="0.0">
+          multicorn
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          3.0
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          multicorn2_17*
+        </tspan><tspan x="842.333333">
+          Fetch foreign data in Python in your PostgreSQL server.
+        </tspan>
+      </tspan><tspan y="765.3331420000001">
+        <tspan dy="1em" x="0.0">
+          odbc_fdw
+        </tspan><tspan x="126.34999995">
+          n/a
+        </tspan><tspan x="185.31333326">
+          0.5.1
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--r
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-16
+        </tspan><tspan x="657.01999974">
+          odbc_fdw_17*
+        </tspan><tspan x="842.333333">
+          Foreign data wrapper for accessing remote databases using ODBC
+        </tspan>
+      </tspan><tspan y="783.999804">
+        <tspan dy="1em" x="0.0">
+          jdbc_fdw
+        </tspan><tspan x="126.34999995">
+          n/a
+        </tspan><tspan x="185.31333326">
+          1.2
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--r
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-16
+        </tspan><tspan x="657.01999974">
+          jdbc_fdw_17*
+        </tspan><tspan x="842.333333">
+          foreign-data wrapper for remote servers available over JDBC
+        </tspan>
+      </tspan><tspan y="802.666466">
+        <tspan dy="1em" x="0.0">
+          mysql_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.2
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--r
+        </tspan><tspan x="379.04999985">
+          BSD 3-Clause
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          mysql_fdw_17*
+        </tspan><tspan x="842.333333">
+          Foreign data wrapper for querying a MySQL server
+        </tspan>
+      </tspan><tspan y="821.3331280000001">
+        <tspan dy="1em" x="0.0">
+          oracle_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.2
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          oracle_fdw_17*
+        </tspan><tspan x="842.333333">
+          foreign data wrapper for Oracle access
+        </tspan>
+      </tspan><tspan y="839.9997900000001">
+        <tspan dy="1em" x="0.0">
+          tds_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          2.0.4
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--r
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          tds_fdw_17*
+        </tspan><tspan x="842.333333">
+          Foreign data wrapper for querying a TDS database (Sybase or Micr
+        </tspan>
+      </tspan><tspan y="858.666452">
+        <tspan dy="1em" x="0.0">
+          db2_fdw
+        </tspan><tspan x="126.34999995">
+          n/a
+        </tspan><tspan x="185.31333326">
+          6.0.1
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-16
+        </tspan><tspan x="657.01999974">
+          db2_fdw_17*
+        </tspan><tspan x="842.333333">
+          foreign data wrapper for DB2 access
+        </tspan>
+      </tspan><tspan y="877.333114">
+        <tspan dy="1em" x="0.0">
+          sqlite_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.1
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--r
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          sqlite_fdw_17*
+        </tspan><tspan x="842.333333">
+          SQLite Foreign Data Wrapper
+        </tspan>
+      </tspan><tspan y="895.9997760000001">
+        <tspan dy="1em" x="0.0">
+          pgbouncer_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.2.0
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          pgbouncer_fdw_17*
+        </tspan><tspan x="842.333333">
+          Extension for querying PgBouncer stats from normal SQL views &amp; r
+        </tspan>
+      </tspan><tspan y="914.6664380000001">
+        <tspan dy="1em" x="0.0">
+          mongo_fdw
+        </tspan><tspan x="126.34999995">
+          n/a
+        </tspan><tspan x="185.31333326">
+          1.1
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          LGPL-3.0
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-16
+        </tspan><tspan x="657.01999974">
+          mongo_fdw_17*
+        </tspan><tspan x="842.333333">
+          foreign data wrapper for MongoDB access
+        </tspan>
+      </tspan><tspan y="933.3331000000001">
+        <tspan dy="1em" x="0.0">
+          redis_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.0
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds-xx
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PIGSTY
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          redis_fdw_17*
+        </tspan><tspan x="842.333333">
+          Foreign data wrapper for querying a Redis server
+        </tspan>
+      </tspan><tspan y="951.999762">
+        <tspan dy="1em" x="0.0">
+          redis
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          0.0.1
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds-xr
+        </tspan><tspan x="379.04999985">
+          MIT
+        </tspan><tspan x="496.97666647">
+          PIGSTY
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          pg_redis_pubsub_17*
+        </tspan><tspan x="842.333333">
+          Send redis pub/sub messages to Redis from PostgreSQL Directly
+        </tspan>
+      </tspan><tspan y="970.6664240000001">
+        <tspan dy="1em" x="0.0">
+          kafka_fdw
+        </tspan><tspan x="126.34999995">
+          n/a
+        </tspan><tspan x="185.31333326">
+          0.0.3
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--r
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PIGSTY
+        </tspan><tspan x="572.78666644">
+          13-16
+        </tspan><tspan x="657.01999974">
+          kafka_fdw_17
+        </tspan><tspan x="842.333333">
+          kafka Foreign Data Wrapper for CSV formated messages
+        </tspan>
+      </tspan><tspan y="989.3330860000001">
+        <tspan dy="1em" x="0.0">
+          hdfs_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          2.0.5
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          BSD 3-Clause
+        </tspan><tspan x="496.97666647">
+          PGDG
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          hdfs_fdw_17*
+        </tspan><tspan x="842.333333">
+          foreign-data wrapper for remote hdfs servers
+        </tspan>
+      </tspan><tspan y="1007.9997480000001">
+        <tspan dy="1em" x="0.0">
+          firebird_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.4.0
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--r
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          PIGSTY
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          firebird_fdw_17
+        </tspan><tspan x="842.333333">
+          Foreign data wrapper for Firebird
+        </tspan>
+      </tspan><tspan y="1026.66641">
+        <tspan dy="1em" x="0.0">
+          aws_s3
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          0.0.1
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -d---r
+        </tspan><tspan x="379.04999985">
+          Apache-2.0
+        </tspan><tspan x="496.97666647">
+          PIGSTY
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          aws_s3_17
+        </tspan><tspan x="842.333333">
+          aws_s3 postgres extension to import/export data from/to s3
+        </tspan>
+      </tspan><tspan y="1045.3330720000001">
+        <tspan dy="1em" x="0.0">
+          log_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.4
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds-xx
+        </tspan><tspan x="379.04999985">
+          Apache-2.0
+        </tspan><tspan x="496.97666647">
+          PIGSTY
+        </tspan><tspan x="572.78666644">
+          14-17
+        </tspan><tspan x="657.01999974">
+          log_fdw_17*
+        </tspan><tspan x="842.333333">
+          foreign-data wrapper for Postgres log file access
+        </tspan>
+      </tspan><tspan y="1063.999734">
+        <tspan dy="1em" x="0.0">
+          dblink
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.2
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          CONTRIB
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          postgresql17-contrib
+        </tspan><tspan x="842.333333">
+          connect to other PostgreSQL databases from within a database
+        </tspan>
+      </tspan><tspan y="1082.666396">
+        <tspan dy="1em" x="0.0">
+          file_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.0
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          CONTRIB
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          postgresql17-contrib
+        </tspan><tspan x="842.333333">
+          foreign-data wrapper for flat file access
+        </tspan>
+      </tspan><tspan y="1101.3330580000002">
+        <tspan dy="1em" x="0.0">
+          postgres_fdw
+        </tspan><tspan x="126.34999995">
+          avail
+        </tspan><tspan x="185.31333326">
+          1.1
+        </tspan><tspan x="261.12333323">
+          FDW
+        </tspan><tspan x="311.66333321">
+          -ds--x
+        </tspan><tspan x="379.04999985">
+          PostgreSQL
+        </tspan><tspan x="496.97666647">
+          CONTRIB
+        </tspan><tspan x="572.78666644">
+          13-17
+        </tspan><tspan x="657.01999974">
+          postgresql17-contrib
+        </tspan><tspan x="842.333333">
+          foreign-data wrapper for remote PostgreSQL servers
+        </tspan>
+      </tspan><tspan y="1138.666382">
+        <tspan dy="1em" x="0.0">
+          (21 Rows) (State: added|avail|n/a,Flags: b = HasBin, d = HasDDL, s = HasSolib, l = NeedLoad, t = Trusted, r = Relocatable, x = Unknown)
+        </tspan>
+      </tspan><tspan y="1175.999706">
+        <tspan dy="1em" x="0.0">
+          [vagrant@el9 ~]$ pig ext ls duck
+        </tspan>
+      </tspan><tspan y="1213.33303">
+        <tspan dy="1em" x="0.0" style="fill: #b58900">
+          WARN
+        </tspan><tspan x="33.69333332">
+          [15:00:25] failed to detect active postgres: failed to get PostgreSQL installation: no active PostgreSQL installation detected
+        </tspan>
+      </tspan><tspan y="1231.999692">
+        <tspan dy="1em" x="0.0" style="fill: #2aa198">
+          INFO
+        </tspan><tspan x="33.69333332">
+          [15:00:25] fail to detect active postgres, use default pg version: 17
+        </tspan>
+      </tspan><tspan y="1250.6663540000002">
+        <tspan dy="1em" x="0.0" style="fill: #2aa198">
+          INFO
+        </tspan><tspan x="33.69333332">
+          [15:00:25] found 6 extensions matching &#39;duck&#39;:
+        </tspan>
+      </tspan><tspan y="1269.333016">
+        <tspan dy="1em" x="0.0">
+          Name
+        </tspan><tspan x="101.07999996000001">
+          State
+        </tspan><tspan x="160.04333327">
+          Version
+        </tspan><tspan x="235.85333324">
+          Cate
+        </tspan><tspan x="294.81666655">
+          Flags
+        </tspan><tspan x="362.20333319">
+          License
+        </tspan><tspan x="480.12999981">
+          Repo
+        </tspan><tspan x="555.93999978">
+          PGVer
+        </tspan><tspan x="640.17333308">
+          Package
+        </tspan><tspan x="825.48666634">
+          Description
+        </tspan>
+      </tspan><tspan y="1287.9996780000001">
+        <tspan dy="1em" x="0.0">
+          ----
+        </tspan><tspan x="101.07999996000001">
+          -----
+        </tspan><tspan x="160.04333327">
+          -------
+        </tspan><tspan x="235.85333324">
+          ----
+        </tspan><tspan x="294.81666655">
+          ------
+        </tspan><tspan x="362.20333319">
+          -------
+        </tspan><tspan x="480.12999981">
+          ------
+        </tspan><tspan x="555.93999978">
+          --------
+        </tspan><tspan x="640.17333308">
+          ------------
+        </tspan><tspan x="825.48666634">
+          ---------------------
+        </tspan>
+      </tspan><tspan y="1306.66634">
+        <tspan dy="1em" x="0.0">
+          pg_duckdb
+        </tspan><tspan x="101.07999996000001">
+          avail
+        </tspan><tspan x="160.04333327">
+          0.2.0
+        </tspan><tspan x="235.85333324">
+          OLAP
+        </tspan><tspan x="294.81666655">
+          -dsl--
+        </tspan><tspan x="362.20333319">
+          MIT
+        </tspan><tspan x="480.12999981">
+          PIGSTY
+        </tspan><tspan x="555.93999978">
+          14-17
+        </tspan><tspan x="640.17333308">
+          pg_duckdb_17*
+        </tspan><tspan x="825.48666634">
+          DuckDB Embedded in Postgres
+        </tspan>
+      </tspan><tspan y="1325.333002">
+        <tspan dy="1em" x="0.0">
+          duckdb_fdw
+        </tspan><tspan x="101.07999996000001">
+          avail
+        </tspan><tspan x="160.04333327">
+          1.1.2
+        </tspan><tspan x="235.85333324">
+          OLAP
+        </tspan><tspan x="294.81666655">
+          -ds--r
+        </tspan><tspan x="362.20333319">
+          MIT
+        </tspan><tspan x="480.12999981">
+          PIGSTY
+        </tspan><tspan x="555.93999978">
+          13-17
+        </tspan><tspan x="640.17333308">
+          duckdb_fdw_17*
+        </tspan><tspan x="825.48666634">
+          DuckDB Foreign Data Wrapper
+        </tspan>
+      </tspan><tspan y="1343.9996640000002">
+        <tspan dy="1em" x="0.0">
+          pguecc
+        </tspan><tspan x="101.07999996000001">
+          avail
+        </tspan><tspan x="160.04333327">
+          1.0
+        </tspan><tspan x="235.85333324">
+          FUNC
+        </tspan><tspan x="294.81666655">
+          -ds-xr
+        </tspan><tspan x="362.20333319">
+          BSD 2-Clause
+        </tspan><tspan x="480.12999981">
+          PIGSTY
+        </tspan><tspan x="555.93999978">
+          13-17
+        </tspan><tspan x="640.17333308">
+          pg_ecdsa_17*
+        </tspan><tspan x="825.48666634">
+          uECC bindings for Postgres
+        </tspan>
+      </tspan><tspan y="1362.666326">
+        <tspan dy="1em" x="0.0">
+          adminpack
+        </tspan><tspan x="101.07999996000001">
+          n/a
+        </tspan><tspan x="160.04333327">
+          2.1
+        </tspan><tspan x="235.85333324">
+          ADMIN
+        </tspan><tspan x="294.81666655">
+          -ds--x
+        </tspan><tspan x="362.20333319">
+          PostgreSQL
+        </tspan><tspan x="480.12999981">
+          CONTRIB
+        </tspan><tspan x="555.93999978">
+          13-16
+        </tspan><tspan x="640.17333308">
+          postgresql17-contrib
+        </tspan><tspan x="825.48666634">
+          administrative functions for PostgreSQL
+        </tspan>
+      </tspan><tspan y="1381.3329880000001">
+        <tspan dy="1em" x="0.0">
+          credcheck
+        </tspan><tspan x="101.07999996000001">
+          avail
+        </tspan><tspan x="160.04333327">
+          2.8.0
+        </tspan><tspan x="235.85333324">
+          SEC
+        </tspan><tspan x="294.81666655">
+          -ds---
+        </tspan><tspan x="362.20333319">
+          MIT
+        </tspan><tspan x="480.12999981">
+          PGDG
+        </tspan><tspan x="555.93999978">
+          13-17
+        </tspan><tspan x="640.17333308">
+          credcheck_17*
+        </tspan><tspan x="825.48666634">
+          credcheck - postgresql plain text credential checker
+        </tspan>
+      </tspan><tspan y="1399.9996500000002">
+        <tspan dy="1em" x="0.0">
+          dblink
+        </tspan><tspan x="101.07999996000001">
+          avail
+        </tspan><tspan x="160.04333327">
+          1.2
+        </tspan><tspan x="235.85333324">
+          FDW
+        </tspan><tspan x="294.81666655">
+          -ds--x
+        </tspan><tspan x="362.20333319">
+          PostgreSQL
+        </tspan><tspan x="480.12999981">
+          CONTRIB
+        </tspan><tspan x="555.93999978">
+          13-17
+        </tspan><tspan x="640.17333308">
+          postgresql17-contrib
+        </tspan><tspan x="825.48666634">
+          connect to other PostgreSQL databases from within a database
+        </tspan>
+      </tspan><tspan y="1437.3329740000001">
+        <tspan dy="1em" x="0.0">
+          (6 Rows) (State: added|avail|n/a,Flags: b = HasBin, d = HasDDL, s = HasSolib, l = NeedLoad, t = Trusted, r = Relocatable, x = Unknown)
+        </tspan>
+      </tspan><tspan y="1474.666298">
+        <tspan dy="1em" x="0.0">
+          [vagrant@el9 ~]$ 
+        </tspan>
+      </tspan>
+    </text>
+  </svg>
+
+  <g transform="translate(-40 -40)">
+    <svg x="50%" y="50%" width="80" height="80">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000.0 1000.0" style="filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.4))">
+  <defs>
+    <mask id="small-triangle-mask">
+      <rect width="100%" height="100%" fill="white"></rect>
+      <polygon points="700.0 500.0, 400.00000000000006 326.7949192431122, 399.9999999999999 673.2050807568877" fill="black">
+      </polygon>
+    </mask>
+  </defs>
+  <polygon points="1000.0 500.0, 250.0000000000001 66.98729810778059, 249.99999999999977 933.0127018922192" mask="url(#small-triangle-mask)" fill="white">
+  </polygon>
+  <polyline points="673.2050807568878 400.0, 326.7949192431123 600.0" stroke="white" stroke-width="90">
+  </polyline>
+</svg>
+    </svg>
+  </g>
+</svg>

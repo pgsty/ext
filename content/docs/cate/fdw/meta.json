@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "[wrappers](/ext/wrappers)",
+    "[multicorn](/ext/multicorn)",
+    "[odbc_fdw](/ext/odbc_fdw)",
+    "[jdbc_fdw](/ext/jdbc_fdw)",
+    "[pgspider_ext](/ext/pgspider_ext)",
+    "[mysql_fdw](/ext/mysql_fdw)",
+    "[oracle_fdw](/ext/oracle_fdw)",
+    "[tds_fdw](/ext/tds_fdw)",
+    "[db2_fdw](/ext/db2_fdw)",
+    "[sqlite_fdw](/ext/sqlite_fdw)",
+    "[pgbouncer_fdw](/ext/pgbouncer_fdw)",
+    "[mongo_fdw](/ext/mongo_fdw)",
+    "[redis_fdw](/ext/redis_fdw)",
+    "[redis](/ext/redis)",
+    "[kafka_fdw](/ext/kafka_fdw)",
+    "[hdfs_fdw](/ext/hdfs_fdw)",
+    "[firebird_fdw](/ext/firebird_fdw)",
+    "[aws_s3](/ext/aws_s3)",
+    "[log_fdw](/ext/log_fdw)",
+    "[dblink](/ext/dblink)",
+    "[file_fdw](/ext/file_fdw)",
+    "[postgres_fdw](/ext/postgres_fdw)"
+  ]
+}
