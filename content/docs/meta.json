@@ -1,16 +1,15 @@
 {
   "root": true,
   "pages": [
-    "index",
-    "ext/pig",
-    "ext/repo",
     "ext/list",
+    "ext/repo",
+    "ext/pig",
+    "ext/usage",
+    "--- ---",
     "ext/cate",
 
     "---Links---",
-    "[GitHub Repo](https://github.com/pgsty/pigsty)",
-    "[Public Demo](https://demo.pigsty.cc)",
-    "[ReleaseNote](docs/about/release)",
+    "[GitHub Repo](https://github.com/pgsty/pig)",
     "[pigsty.io](https://pigsty.io)",
     "[pigsty.cc](https://pigsty.cc)"
   ]
