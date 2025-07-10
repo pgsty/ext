@@ -553,7 +553,7 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
   sections.push(
     <div key="install" className="space-y-4">
       <div>
-        <a href="/pgsql/ext/install"><strong>Install</strong></a> this extension with:
+        <a href="/ext/usage/install"><strong>Install</strong></a> this extension with:
       </div>
       
       <Tabs items={tabItems}>
@@ -609,7 +609,7 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
     sections.push(
       <div key="load" className="space-y-4">
         <div>
-          <a href="/pgsql/ext/config"><strong>Load</strong></a> this extension with:
+          <a href="/ext/usage/config"><strong>Load</strong></a> this extension with:
         </div>
         
         <DynamicCodeBlock
@@ -628,7 +628,7 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
     sections.push(
       <div key="create" className="space-y-4">
         <div>
-          <a href="/pgsql/ext/create"><strong>Create</strong></a> this extension with:
+          <a href="/ext/usage/create"><strong>Create</strong></a> this extension with:
         </div>
         
         <DynamicCodeBlock
