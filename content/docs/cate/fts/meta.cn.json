@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "[fuzzystrmatch](/cn/e/fuzzystrmatch)",
+    "[hunspell_cs_cz](/cn/e/hunspell_cs_cz)",
+    "[hunspell_de_de](/cn/e/hunspell_de_de)",
+    "[hunspell_en_us](/cn/e/hunspell_en_us)",
+    "[hunspell_fr](/cn/e/hunspell_fr)",
+    "[hunspell_ne_np](/cn/e/hunspell_ne_np)",
+    "[hunspell_nl_nl](/cn/e/hunspell_nl_nl)",
+    "[hunspell_nn_no](/cn/e/hunspell_nn_no)",
+    "[hunspell_pt_pt](/cn/e/hunspell_pt_pt)",
+    "[hunspell_ru_ru](/cn/e/hunspell_ru_ru)",
+    "[hunspell_ru_ru_aot](/cn/e/hunspell_ru_ru_aot)",
+    "[pg_bestmatch](/cn/e/pg_bestmatch)",
+    "[pg_bigm](/cn/e/pg_bigm)",
+    "[pg_search](/cn/e/pg_search)",
+    "[pg_tokenizer](/cn/e/pg_tokenizer)",
+    "[pg_trgm](/cn/e/pg_trgm)",
+    "[pgroonga](/cn/e/pgroonga)",
+    "[pgroonga_database](/cn/e/pgroonga_database)",
+    "[vchord_bm25](/cn/e/vchord_bm25)",
+    "[zhparser](/cn/e/zhparser)"
+  ]
+}

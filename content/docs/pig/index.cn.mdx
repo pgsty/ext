@@ -1,0 +1,94 @@
+---
+title: PIG CLI
+description: PostgreSQL与扩展生态包管理器
+icon: PiggyBank
+full: true
+---
+
+
+import {
+    Terminal,
+    Package,
+    Puzzle,
+    Hammer,
+    Rocket,
+    HelpCircle,
+    Download,
+    Zap
+} from 'lucide-react';
+
+
+> "Postgres Install Genius, the missing extension package manager for PostgreSQL ecosystem"
+
+## 快速上手 Start
+
+使用以下命令 [快速上手](/cn/pig/start) PIG 包管理器：
+
+```bash tab="default"
+curl -fsSL https://repo.pigsty.io/pig | bash
+```
+```bash tab="mirror"
+curl -fsSL https://repo.pigsty.cc/pig | bash
+```
+
+Then it’s ready to use, assume you want to install the [**`pg_duckdb`**](/cn/e/pg_duckdb/) extension:
+
+```bash
+$ pig repo add pigsty pgdg -u  # add pgdg & pigsty repo, then update repo cache
+$ pig ext install pg17         # install PostgreSQL 17 kernels with native PGDG packages
+$ pig ext install pg_duckdb    # install the pg_duckdb extension (for current pg17)
+```
+
+--------
+
+<Cards>
+    <Card icon={<Zap className="text-green-500"/>} title='快速上手' href={"/pig/start"}>
+        PIG CLI 快速上手
+    </Card>
+    <Card icon={<Download className="text-blue-600"/>} title='安装' href={"/pig/install"}>
+        安装 PostgreSQL 扩展
+    </Card>
+    <Card icon={<HelpCircle className="text-purple-600"/>} title='特性' href={"/pig/why"}>
+        为什么我们需要一个PostgreSQL包管理器？
+    </Card>
+    <Card icon={<Rocket className="text-orange-500"/>} title='发布说明' href={"/pig/release"}>
+        PIG 命令行工具的发布说明
+    </Card>
+</Cards>
+
+
+
+
+--------
+
+## 命令
+
+你可以执行 `pig help <command>` 来获取关于子命令的帮助信息。
+
+
+<Cards>
+    <Card icon={<Terminal className="text-slate-600"/>} title='pig' href={"/pig/pig"}>
+        Main CLI interface for the command line tool
+    </Card>
+    <Card icon={<Package className="text-indigo-600"/>} title='pig repo' href={"/pig/repo"}>
+        Manage repositories for your linux distribution
+    </Card>
+    <Card icon={<Puzzle className="text-emerald-600"/>} title='pig ext' href={"/pig/ext"}>
+        Install, remove, search, scan postgres extensions
+    </Card>
+    <Card icon={<Hammer className="text-amber-600"/>} title='pig build' href={"/pig/build"}>
+        Setup building env for extensions and build them
+    </Card>
+</Cards>
+
+
+--------
+
+## 源代码
+
+The `pig` CLI is developed by [Vonng](https://vonng.com/en/) and open-sourced under the [Apache License 2.0](https://github.com/pgsty/pig/?tab=Apache-2.0-1-ov-file#readme).
+
+You can also check the [pigsty](https://pgsty.com) project, which makes it even smoother to deliver all these [extensions](/usage).
+
+- https://github.com/pgsty/pig
+- https://github.com/pgsty/pigsty

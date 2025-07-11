@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "[babelfishpg_common](/cn/e/babelfishpg_common)",
+    "[babelfishpg_money](/cn/e/babelfishpg_money)",
+    "[babelfishpg_tds](/cn/e/babelfishpg_tds)",
+    "[babelfishpg_tsql](/cn/e/babelfishpg_tsql)",
+    "[documentdb](/cn/e/documentdb)",
+    "[documentdb_core](/cn/e/documentdb_core)",
+    "[documentdb_distributed](/cn/e/documentdb_distributed)",
+    "[orafce](/cn/e/orafce)",
+    "[pg_dbms_job](/cn/e/pg_dbms_job)",
+    "[pg_dbms_lock](/cn/e/pg_dbms_lock)",
+    "[pg_dbms_metadata](/cn/e/pg_dbms_metadata)",
+    "[pg_statement_rollback](/cn/e/pg_statement_rollback)",
+    "[pgmemcache](/cn/e/pgmemcache)",
+    "[pgtt](/cn/e/pgtt)",
+    "[session_variable](/cn/e/session_variable)",
+    "[spat](/cn/e/spat)"
+  ]
+}

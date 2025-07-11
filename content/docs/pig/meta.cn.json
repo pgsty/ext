@@ -1,0 +1,15 @@
+{
+  "title": "包管理器",
+  "defaultOpen": true,
+  "pages": [
+    "start",
+    "install",
+    "why",
+    "pig",
+    "repo",
+    "ext",
+    "sty",
+    "build",
+    "release"
+  ]
+}

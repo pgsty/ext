@@ -43,7 +43,7 @@ class Config:
         
         if self.OUTPUT_DIR is None:
             script_dir = os.path.dirname(os.path.abspath(__file__))
-            self.OUTPUT_DIR = os.path.abspath(os.path.join(script_dir, '..', 'content', 'docs', 'ext', 'list'))
+            self.OUTPUT_DIR = os.path.abspath(os.path.join(script_dir, '..', 'content', 'docs', 'list'))
 
 
 # OS and Language mappings
@@ -65,25 +65,8 @@ LANGUAGE_DESCRIPTIONS = {
     'Data': 'Data-only extensions',
 }
 
-# Category metadata
-CATEGORY_META = {
-    "TIME": {"description": "TimescaleDB, Versioning & Temporal Table, Crontab, Async & Background Job Scheduler", "icon": "Clock", "color": "blue-subtle"},
-    "GIS": {"description": "GeoSpatial Data Types, Operators, and Indexes, Hexagonal Indexing, OGR Data FDW, GeoIP & MobilityDB", "icon": "Globe", "color": "green-subtle"},
-    "RAG": {"description": "Vector Database with IVFFLAT, HNSW, DiskANN Indexes, AI & ML in SQL interface, Similarity Funcs", "icon": "Brain", "color": "purple-subtle"},
-    "FTS": {"description": "ElasticSearch Alternative with BM25, 2-gram/3-gram Fuzzy Search, Zhparser & Hunspell Segregation Dicts", "icon": "Search", "color": "amber-subtle"},
-    "OLAP": {"description": "DuckDB Integration with FDW & PG Lakehouse, Access Parquet from File/S3, Sharding with Citus/Partman/PlProxy", "icon": "ChartNoAxesCombined", "color": "red-subtle"},
-    "FEAT": {"description": "OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IVM, ChemRDKit, and Message Queues", "icon": "Sparkles", "color": "pink-subtle"},
-    "LANG": {"description": "Develop, Test, Package, and Deliver Stored Procedures written in various PL/Languages: Java, Js, Lua, R, Sh, PRQL", "icon": "BookA", "color": "teal-subtle"},
-    "TYPE": {"description": "Dedicate New Data Types Like: prefix, sember, uint, SIUnit, RoaringBitmap, Rational, Sphere, Hash, RRule", "icon": "Boxes", "color": "gray-subtle"},
-    "UTIL": {"description": "Utilities such as send http request, perform gzip/zstd compress, send mails, Regex, ICU, encoding, docs, Encryption", "icon": "Wrench", "color": "amber-subtle"},
-    "FUNC": {"description": "Function such as id generator, aggregations, sketches, vector functions, mathematical functions and digest functions", "icon": "Variable", "color": "pink-subtle"},
-    "ADMIN": {"description": "Utilities for Bloat Control, DirtyRead, BufferInspect, DDL Generate, ChecksumVerify, Permission, Priority, Catalog", "icon": "Landmark", "color": "gray-subtle"},
-    "STAT": {"description": "Observability Catalogs, Monitoring Metrics & Views, Statistics, Query Plans, WaitSampling, SlowLogs", "icon": "Activity", "color": "green-subtle"},
-    "SEC": {"description": "Auditing Logs, Enforce Passwords, Keep Secrets, TDE, SM Algorithm, Login Hooks, Log Erros, Extension White List", "icon": "Shield", "color": "red-subtle"},
-    "FDW": {"description": "Wrappers & Multicorn for FDW Development, Access other DBMS: MySQL, Mongo, SQLite, MSSQL, Oracle, HDFS, DB2", "icon": "FileInput", "color": "blue-subtle"},
-    "SIM": {"description": "Protocol Simulation & heterogeneous DBMS Compatibility: Oracle, MSSQL, DB2, MySQL, Memcached, and Babelfish", "icon": "Shell", "color": "teal-subtle"},
-    "ETL": {"description": "Logical Replication, Decoding, CDC in protobuf/JSON/Mongo format, Copy & Load & Compare Postgres Databases", "icon": "Truck", "color": "purple-subtle"}
-}
+# Category metadata - loaded from category.csv
+CATEGORY_META = {}
 
 LICENSE_INFO = {
     'PostgreSQL': {'url': 'https://opensource.org/licenses/postgresql', 'description': 'Very liberal license based on the BSD license, allowing almost unlimited freedom.', 'anchor': 'postgresql', 'variant': 'blue-subtle'},
@@ -154,6 +137,12 @@ def normalize_license_name(license_name: str) -> str:
     return LICENSE_NORMALIZATION.get(license_name, license_name)
 
 
+def format_language_badge(language: str) -> str:
+    """Format programming language as Badge component with appropriate color."""
+    info = LANGUAGE_CONFIG.get(language, {"variant": 'gray-subtle', "anchor": "#"})
+    return f'<a href="{info["anchor"]}"><Badge icon={{<FileCode2 />}} variant="{info["variant"]}">{language or "N/A"}</Badge></a>'
+
+
 def extract_semantic_version(version: str) -> str:
     """Extract semantic version from package version string."""
     semantic_version = re.split(r'[-_]\d*[A-Z]', version)[0]
@@ -174,7 +163,7 @@ class BadgeFormatter:
         """Format category as Badge component with icon and color."""
         meta = CATEGORY_META.get(category, {'icon': 'Blocks', 'color': 'gray-subtle'})
         iconstr = '{<%s />}' % meta['icon']
-        return f'<Badge icon={iconstr} variant="{meta["color"]}"><a href="/ext/cate/{category.lower()}" className="no-underline">{category}</a></Badge>'
+        return f'<Badge icon={iconstr} variant="{meta["color"]}"><a href="/cate/{category.lower()}" className="no-underline">{category}</a></Badge>'
     
     @staticmethod
     def format_license(license_name: str) -> str:
@@ -183,7 +172,7 @@ class BadgeFormatter:
             'anchor': license_name.lower().replace(' ', '-').replace('.', ''), 
             'variant': 'gray-subtle'
         })
-        return f'<a href="/ext/list/license#{license_info["anchor"]}" className="no-underline"><Badge icon={{<Scale />}} variant="{license_info["variant"]}">{license_name}</Badge></a>'
+        return f'<a href="/list/license#{license_info["anchor"]}" className="no-underline"><Badge icon={{<Scale />}} variant="{license_info["variant"]}">{license_name}</Badge></a>'
     
     @staticmethod
     def format_language(language: str) -> str:
@@ -205,17 +194,16 @@ class BadgeFormatter:
 @dataclass
 class Package:
     """Represents a PostgreSQL extension package."""
-    pkg: str
-    pname: str
-    os: str
     pg: int
-    name: str
-    ver: str
+    os: str
+    pname: str
     org: str
     type: str
     os_code: str
     os_arch: str
     repo: str
+    name: str
+    ver: str
     version: str
     release: str
     file: str
@@ -237,7 +225,7 @@ class Extension:
     id: int
     name: str
     pkg: str
-    alias: Optional[str]
+    lead_ext: Optional[str]
     category: str
     state: str
     url: Optional[str]
@@ -257,6 +245,8 @@ class Extension:
     schemas: List[str]
     pg_ver: List[str]
     requires: List[str]
+    require_by: List[str]
+    see_also: List[str]
     rpm_ver: Optional[str]
     rpm_repo: Optional[str]
     rpm_pkg: Optional[str]
@@ -267,27 +257,28 @@ class Extension:
     deb_pkg: Optional[str]
     deb_deps: List[str]
     deb_pg: List[str]
-    bad_case: bool
+    source: Optional[str]
     extra: Optional[str]
-    ctime: str
-    mtime: str
     en_desc: Optional[str]
     zh_desc: Optional[str]
     comment: Optional[str]
+    mtime: str
     packages: List[Package] = None
     
     @classmethod
     def from_row(cls, row: Tuple) -> 'Extension':
         """Create Extension from database row."""
-        (id, name, pkg, alias, category, state, url, license, tags, version, repo, lang, 
+        (id, name, pkg, lead_ext, category, state, url, license, tags, version, repo, lang, 
          contrib, lead, has_bin, has_lib, need_ddl, need_load, trusted, relocatable, schemas, 
-         pg_ver, requires, rpm_ver, rpm_repo, rpm_pkg, rpm_pg, rpm_deps, deb_ver, deb_repo, 
-         deb_pkg, deb_deps, deb_pg, bad_case, extra, ctime, mtime, en_desc, zh_desc, comment) = row
+         pg_ver, requires, require_by, see_also, rpm_ver, rpm_repo, rpm_pkg, rpm_pg, rpm_deps, 
+         deb_ver, deb_repo, deb_pkg, deb_deps, deb_pg, source, extra, en_desc, zh_desc, comment, mtime) = row
         
         # Parse array fields
         tags = parse_array(tags) if tags else []
         pg_ver = parse_array(pg_ver) if pg_ver else []
         requires = parse_array(requires) if requires else []
+        require_by = parse_array(require_by) if require_by else []
+        see_also = parse_array(see_also) if see_also else []
         schemas = parse_array(schemas) if schemas else []
         rpm_deps = parse_array(rpm_deps) if rpm_deps else []
         deb_deps = parse_array(deb_deps) if deb_deps else []
@@ -295,15 +286,14 @@ class Extension:
         deb_pg = parse_array(deb_pg) if deb_pg else []
         
         return cls(
-            id=id, name=name, pkg=pkg, alias=alias, category=category, state=state, url=url,
+            id=id, name=name, pkg=pkg, lead_ext=lead_ext, category=category, state=state, url=url,
             license=license, tags=tags, version=version, repo=repo, lang=lang, contrib=contrib,
             lead=lead, has_bin=has_bin, has_lib=has_lib, need_ddl=need_ddl, need_load=need_load,
             trusted=trusted, relocatable=relocatable, schemas=schemas, pg_ver=pg_ver,
-            requires=requires, rpm_ver=rpm_ver, rpm_repo=rpm_repo, rpm_pkg=rpm_pkg,
-            rpm_pg=rpm_pg, rpm_deps=rpm_deps, deb_ver=deb_ver, deb_repo=deb_repo,
-            deb_pkg=deb_pkg, deb_deps=deb_deps, deb_pg=deb_pg, bad_case=bad_case,
-            extra=extra, ctime=ctime, mtime=mtime, en_desc=en_desc, zh_desc=zh_desc,
-            comment=comment, packages=[]
+            requires=requires, require_by=require_by, see_also=see_also, rpm_ver=rpm_ver, 
+            rpm_repo=rpm_repo, rpm_pkg=rpm_pkg, rpm_pg=rpm_pg, rpm_deps=rpm_deps, deb_ver=deb_ver, 
+            deb_repo=deb_repo, deb_pkg=deb_pkg, deb_deps=deb_deps, deb_pg=deb_pg, source=source,
+            extra=extra, en_desc=en_desc, zh_desc=zh_desc, comment=comment, mtime=mtime, packages=[]
         )
     
     @property
@@ -313,6 +303,21 @@ class Extension:
     @property
     def has_deb(self) -> bool:
         return bool(self.deb_repo)
+    
+    def load_packages(self, all_packages: List[Package]):
+        """Load package data for this extension from the provided list."""
+        if self.packages is None:
+            self.packages = []
+        
+        # Find packages that match this extension's package name
+        for pkg in all_packages:
+            # Handle different package naming patterns:
+            # RPM: pkg_name, pkg_name_XX (where XX is PG version)
+            # DEB: postgresql-XX-pkg-name (where XX is PG version)
+            if (pkg.pname == self.pkg or 
+                pkg.pname.startswith(f'{self.pkg}_') or
+                f'-{self.pkg.replace("_", "-")}' in pkg.pname):
+                self.packages.append(pkg)
 
 
 # =============================================================================
@@ -366,6 +371,27 @@ class TableGenerator:
         
         return '\n'.join(rows)
     
+    def generate_category_table_cn(self, extensions: List[Extension]) -> str:
+        """Generate Chinese extension table for category lists."""
+        if not extensions:
+            return "未找到扩展。"
+        
+        headers = ['ID', '扩展', '包', '版本', '描述']
+        rows = [self._format_table_header(headers, [':---:',':---',':---',':---',':---'])]
+        
+        for ext in extensions:
+            package_cell = f'[`{ext.pkg}`](/cn/e/{self.leading_map.get(ext.pkg, ext.name)})'
+            row_data = [
+                str(ext.id),
+                f'[`{ext.name}`](/cn/e/{ext.name})',
+                package_cell,
+                ext.version or 'N/A',
+                ext.zh_desc or ext.en_desc or '暂无描述'
+            ]
+            rows.append('| ' + ' | '.join(row_data) + ' |')
+        
+        return '\n'.join(rows)
+    
     def generate_repo_table(self, extensions: List[Extension]) -> str:
         """Generate extension table for repo lists (ID, Name, Category, RPM, DEB, Description)."""
         if not extensions:
@@ -396,6 +422,140 @@ class TableGenerator:
         header_row = '| ' + ' | '.join(headers) + ' |'
         separator_row = '|' + '|'.join(alignments) + '|'
         return header_row + '\n' + separator_row
+    
+    def generate_extension_cards(self, extensions: List[Extension], config, is_chinese=False) -> str:
+        """Generate Callout-style layout for extensions with detailed metadata."""
+        if not extensions:
+            return "<p className='text-muted-foreground'>No extensions available in this category.</p>"
+
+        def generate_metadata_table(ext: Extension) -> str:
+            """Generate left-side metadata table."""
+            # Format RPM and DEB package names
+            rpm_pkg = f'`{ext.rpm_pkg or "N/A"}`' if ext.has_rpm else '<span className="text-red-500">N/A</span>'
+            deb_pkg = f'`{ext.deb_pkg or "N/A"}`' if ext.has_deb else '<span className="text-red-500">N/A</span>'
+            
+            # Generate individual attribute badges for each row
+            load_badge = '<Badge variant="red-subtle">LOAD</Badge>' if ext.need_load else ''
+            ddl_badge = '<Badge variant="blue-subtle">DDL</Badge>' if ext.need_ddl else ''
+            lib_badge = '<Badge variant="green-subtle">LIB</Badge>' if ext.has_lib else ''
+            bin_badge = '<Badge variant="pink-subtle">BIN</Badge>' if ext.has_bin else ''
+            trust_badge = '<Badge variant="green-subtle">TRUST</Badge>' if ext.trusted else ''
+            
+            # Website link with localized labels
+            path_prefix = '/cn' if is_chinese else ''
+            ext_label = "扩展" if is_chinese else "Extension"
+            website_label = "网站" if is_chinese else "Website"
+            attrs_label = "属性" if is_chinese else "Attributes"
+            package_label = "扩展包" if is_chinese else "Package"
+            lang_label = "开发语言" if is_chinese else "Language"
+            lic_label = "许可证" if is_chinese else "License"
+            
+            extension_cell = f'[{ext_label}]({path_prefix}/e/{ext.name})'
+            website_cell = f'[{website_label}]({ext.url})' if ext.url else 'N/A'
+            package_cell = f'[`{ext.pkg}`]({path_prefix}/e/{self.leading_map.get(ext.pkg, ext.name)})'
+
+            return f'''| {extension_cell} | {website_cell} | {attrs_label} |
+|:----:|:---------:|:---------:|
+| {package_label}  | {package_cell} | {load_badge} |
+| RPM  | {rpm_pkg} | {ddl_badge} |
+| DEB  | {deb_pkg} | {lib_badge} |
+| {lang_label} | {format_language_badge(ext.lang or "N/A")} | {bin_badge} |
+| {lic_label} | {BadgeFormatter.format_license(ext.license or "N/A")} | {trust_badge} |'''
+
+        def generate_availability_matrix(ext: Extension) -> str:
+
+            """Generate right-side availability matrix with PG version badges."""
+            # Packages are already loaded in _setup
+            
+            # Build package matrix
+            pkg_matrix = {}
+            repo_matrix = {}
+            
+            # Initialize matrix for each OS
+            for os in config.OS_VERSIONS:
+                pkg_matrix[os] = {}
+                repo_matrix[os] = {}
+                for pg in config.PG_VERSIONS:
+                    pkg_matrix[os][pg] = ""
+                    repo_matrix[os][pg] = ""
+            
+            # Fill matrix with actual package data
+            for pkg in ext.packages:
+                pkg_os_key = f"{pkg.os_code}.{normalize_os_arch(pkg.os_arch)}"
+                
+                if pkg_os_key in pkg_matrix and pkg.pg in pkg_matrix[pkg_os_key]:
+                    pkg_matrix[pkg_os_key][pkg.pg] = pkg.version
+                    repo_matrix[pkg_os_key][pkg.pg] = pkg.org.upper()
+            
+            # Generate matrix table
+            rows = []
+            # Group by OS, then by architecture
+            for os_base in ['el8', 'el9', 'd12', 'u22', 'u24']:
+                x86_key = f"{os_base}.x86_64"
+                arm_key = f"{os_base}.aarch64"
+                
+                x86_badges = []
+                arm_badges = []
+                
+                for pg in config.PG_VERSIONS:
+                    # x86_64 badges
+                    if x86_key in pkg_matrix and pg in pkg_matrix[x86_key] and pkg_matrix[x86_key][pg]:
+                        repo = repo_matrix[x86_key][pg]
+                        if repo == 'PIGSTY':
+                            x86_badges.append(f'<Badge variant="amber-subtle">{pg}</Badge>')
+                        elif repo == 'PGDG':
+                            x86_badges.append(f'<Badge variant="blue-subtle">{pg}</Badge>')
+                        elif repo == 'CONTRIB':
+                            x86_badges.append(f'<Badge variant="green-subtle">{pg}</Badge>')
+                        else:
+                            x86_badges.append(f'<Badge variant="gray-subtle">{pg}</Badge>')
+                    elif ext.contrib and str(pg) in ext.pg_ver:
+                        x86_badges.append(f'<Badge variant="green-subtle">{pg}</Badge>')
+                    else:
+                        x86_badges.append(f'<Badge variant="red-subtle">{pg}</Badge>')
+                    
+                    # aarch64 badges
+                    if arm_key in pkg_matrix and pg in pkg_matrix[arm_key] and pkg_matrix[arm_key][pg]:
+                        repo = repo_matrix[arm_key][pg]
+                        if repo == 'PIGSTY':
+                            arm_badges.append(f'<Badge variant="amber-subtle">{pg}</Badge>')
+                        elif repo == 'PGDG':
+                            arm_badges.append(f'<Badge variant="blue-subtle">{pg}</Badge>')
+                        elif repo == 'CONTRIB':
+                            arm_badges.append(f'<Badge variant="green-subtle">{pg}</Badge>')
+                        else:
+                            arm_badges.append(f'<Badge variant="gray-subtle">{pg}</Badge>')
+                    elif ext.contrib and str(pg) in ext.pg_ver:
+                        arm_badges.append(f'<Badge variant="green-subtle">{pg}</Badge>')
+                    else:
+                        arm_badges.append(f'<Badge variant="red-subtle">{pg}</Badge>')
+                
+                rows.append(f"| {os_base} | {''.join(x86_badges)} | {''.join(arm_badges)} |")
+
+            header_txt = '系统'  if is_chinese else 'OS/Arch'
+            header = f"| {header_txt} | x86_64 | aarch64 |\n|:-----:|:---:|:---:|"
+            return f"{header}\n" + "\n".join(rows)
+
+        callouts = []
+        for ext in extensions:
+            title = f"{ext.name} - {ext.version or 'Unknown'}"
+            description = (ext.zh_desc if is_chinese else ext.en_desc) or ext.en_desc or 'No description available'
+            
+            callout = f'''
+<Callout title="{title}">
+    <p>{description}</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            {generate_metadata_table(ext)}
+        </div>
+        <div className="space-y-2">
+            {generate_availability_matrix(ext)}
+        </div>
+    </div>
+</Callout>
+'''
+            callouts.append(callout)
+
+        return "\n".join(callouts)
 
 
 # =============================================================================
@@ -414,12 +574,33 @@ class DatabaseManager:
             self._conn = psycopg2.connect(self.connection_string)
         return self._conn
     
+    def load_category_metadata(self) -> Dict[str, Dict[str, str]]:
+        """Load category metadata from CSV file."""
+        print("Loading category metadata from CSV...")
+        
+        import csv
+        category_data = {}
+        csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'category.csv')
+        
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                category_data[row['name']] = {
+                    'zh_desc': row['zh_desc'],
+                    'en_desc': row['en_desc'],
+                    'icon': row['icon2'],
+                    'color': 'blue-subtle'  # Default color, can be customized
+                }
+        
+        print(f"Loaded {len(category_data)} categories.")
+        return category_data
+    
     def load_extensions(self) -> List[Extension]:
         """Load all extensions from database."""
         print("Loading extensions from database...")
         
         with self.get_connection().cursor() as cur:
-            cur.execute('SELECT * FROM ext.extension ORDER BY id')
+            cur.execute('SELECT * FROM pgext.extension ORDER BY id')
             rows = cur.fetchall()
         
         extensions = [Extension.from_row(row) for row in rows]
@@ -431,7 +612,7 @@ class DatabaseManager:
         print("Loading packages from database...")
         
         with self.get_connection().cursor() as cur:
-            cur.execute('SELECT * FROM ext.pkg ORDER BY os, pg DESC')
+            cur.execute('SELECT pg, os, pname, org, type, os_code, os_arch, repo, name, ver, version, release, file, sha256, url, mirror_url, size, size_full FROM pgext.package ORDER BY os, pg DESC')
             rows = cur.fetchall()
         
         packages = [Package.from_row(row) for row in rows]
@@ -475,7 +656,7 @@ class CategoryListGenerator(ContentGenerator):
         for category in CATEGORY_META.keys():
             count = len(category_groups[category])
             meta = CATEGORY_META[category]
-            category_table_rows.append(f'| {BadgeFormatter.format_category(category)} | {count} | {meta["description"]} |')
+            category_table_rows.append(f'| {BadgeFormatter.format_category(category)} | {count} | {meta["en_desc"]} |')
         
         category_overview_table = f'''| Category | Count | Description |
 |:---------|:-----:|:------------|
@@ -494,7 +675,7 @@ class CategoryListGenerator(ContentGenerator):
             section = f'''
 ## {category}
 
-{meta["description"]}
+{meta["en_desc"]}
 
 {BadgeFormatter.format_category(category)} <Badge variant="gray-subtle">{count} Extensions</Badge>
 
@@ -537,6 +718,79 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
 '''
         
         self.write_content('cate.mdx', content)
+        self._generate_chinese_version(category_groups, category_overview_table, category_sections)
+    
+    def _generate_chinese_version(self, category_groups, category_overview_table, category_sections):
+        """Generate Chinese version of category list."""
+        print("Generating Chinese category list...")
+        
+        # Generate Chinese category overview table
+        cn_category_table_rows = []
+        for category in CATEGORY_META.keys():
+            count = len(category_groups[category])
+            meta = CATEGORY_META[category]
+            cn_category_table_rows.append(f'| {BadgeFormatter.format_category(category)} | {count} | {meta["zh_desc"]} |')
+        
+        cn_category_overview_table = f'''| 分类 | 数量 | 描述 |
+|:---------|:-----:|:------------|
+{chr(10).join(cn_category_table_rows)}'''
+        
+        # Generate Chinese category sections
+        cn_category_sections = []
+        for category in CATEGORY_META.keys():
+            if category not in category_groups:
+                continue
+            
+            cat_extensions = sorted(category_groups[category], key=lambda e: e.name)
+            count = len(cat_extensions)
+            meta = CATEGORY_META[category]
+            
+            section = f'''
+## {category}
+
+{meta["zh_desc"]}
+
+{BadgeFormatter.format_category(category)} <Badge variant="gray-subtle">{count} 个扩展</Badge>
+
+{self.table_gen.generate_category_table_cn(cat_extensions)}
+'''
+            cn_category_sections.append(section)
+        
+        cn_content = f'''---
+title: 按分类
+description: 按功能分类组织的 PostgreSQL 扩展
+icon: Shapes
+full: true
+---
+
+import {{ Badge }} from '@/components/ui/badge';
+import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck }} from 'lucide-react';
+
+<Badge icon={{<Clock />}}               variant="blue-subtle"><a   href="#time" className="no-underline">TIME</a></Badge>
+<Badge icon={{<Globe />}}               variant="green-subtle"><a  href="#gis" className="no-underline">GIS</a></Badge>
+<Badge icon={{<Brain />}}               variant="purple-subtle"><a href="#rag" className="no-underline">RAG</a></Badge>
+<Badge icon={{<Search />}}              variant="amber-subtle"><a  href="#fts" className="no-underline">FTS</a></Badge>
+<Badge icon={{<ChartNoAxesCombined />}} variant="red-subtle"><a    href="#olap" className="no-underline">OLAP</a></Badge>
+<Badge icon={{<Sparkles />}}            variant="pink-subtle"><a   href="#feat" className="no-underline">FEAT</a></Badge>
+<Badge icon={{<BookA />}}               variant="teal-subtle"><a   href="#lang" className="no-underline">LANG</a></Badge>
+<Badge icon={{<Boxes />}}               variant="gray-subtle"><a   href="#type" className="no-underline">TYPE</a></Badge><br />
+<Badge icon={{<Wrench />}}              variant="amber-subtle"><a  href="#util" className="no-underline">UTIL</a></Badge>
+<Badge icon={{<Variable />}}            variant="pink-subtle"><a   href="#func" className="no-underline">FUNC</a></Badge>
+<Badge icon={{<Landmark />}}            variant="gray-subtle"><a   href="#admin" className="no-underline">ADMIN</a></Badge>
+<Badge icon={{<Activity />}}            variant="green-subtle"><a  href="#stat" className="no-underline">STAT</a></Badge>
+<Badge icon={{<Shield />}}              variant="red-subtle"><a    href="#sec" className="no-underline">SEC</a></Badge>
+<Badge icon={{<FileInput />}}           variant="blue-subtle"><a   href="#fdw" className="no-underline">FDW</a></Badge>
+<Badge icon={{<Shell />}}               variant="teal-subtle"><a   href="#sim" className="no-underline">SIM</a></Badge>
+<Badge icon={{<Truck />}}               variant="purple-subtle"><a href="#etl" className="no-underline">ETL</a></Badge>
+
+## 概览
+
+{cn_category_overview_table}
+
+{''.join(cn_category_sections)}
+'''
+        
+        self.write_content('cate.cn.mdx', cn_content)
 
 
 class LinuxDistroGenerator(ContentGenerator):
@@ -553,7 +807,7 @@ class LinuxDistroGenerator(ContentGenerator):
         os_groups = defaultdict(set)
         for pkg in self.packages:
             os_key = f"{pkg.os_code}.{pkg.os_arch}"
-            os_groups[os_key].add(pkg.pkg)
+            os_groups[os_key].add(pkg.pname)
         
         # Generate OS sections
         os_sections = []
@@ -561,7 +815,7 @@ class LinuxDistroGenerator(ContentGenerator):
             x86_packages = os_groups.get(f'{os_base}.x86_64', set())
             arm_packages = os_groups.get(f'{os_base}.aarch64', set())
             
-            # Get extensions available on this OS
+            # Get extensions available on this OS  
             all_os_packages = x86_packages | arm_packages
             available_extensions = [ext for ext in self.extensions if ext.pkg in all_os_packages]
             available_extensions.sort(key=lambda e: e.name)
@@ -1022,9 +1276,9 @@ PostgreSQL extensions availability across different Linux distributions and arch
             os_key = f"{pkg.os_code}.{normalize_os_arch(pkg.os_arch)}"
             if os_key not in package_map:
                 package_map[os_key] = {}
-            if pkg.pkg not in package_map[os_key]:
-                package_map[os_key][pkg.pkg] = {}
-            package_map[os_key][pkg.pkg][pkg.pg] = {'version': pkg.ver, 'repo': pkg.repo}
+            if pkg.pname not in package_map[os_key]:
+                package_map[os_key][pkg.pname] = {}
+            package_map[os_key][pkg.pname][pkg.pg] = {'version': pkg.ver, 'repo': pkg.repo}
         return package_map
     
     def _generate_distro_section(self, distro: str, leading_extensions: List[Extension], package_map: Dict) -> str:
@@ -1258,9 +1512,17 @@ class ExtensionListGenerator:
     
     def _setup(self):
         """Setup data and dependencies."""
+        # Load category metadata from CSV
+        global CATEGORY_META
+        CATEGORY_META = self.db_manager.load_category_metadata()
+        
         # Load data from database
         self.extensions = self.db_manager.load_extensions()
         self.packages = self.db_manager.load_packages()
+        
+        # Load packages for all extensions
+        for ext in self.extensions:
+            ext.load_packages(self.packages)
         
         # Build leading extension map
         self.leading_map = self._build_leading_map()
@@ -1295,6 +1557,136 @@ class ExtensionListGenerator:
         
         for generator in generators:
             generator.generate()
+        
+        # Generate individual category pages for the 16 categories
+        self._generate_category_pages()
+    
+    def _generate_category_pages(self):
+        """Generate individual category pages for the 16 categories."""
+        print("Generating individual category pages...")
+        
+        # Group extensions by category
+        category_groups = defaultdict(list)
+        for ext in self.extensions:
+            category_groups[ext.category].append(ext)
+        
+        # Generate a page for each category
+        for category in CATEGORY_META.keys():
+            if category not in category_groups:
+                continue
+            
+            cat_extensions = sorted(category_groups[category], key=lambda e: e.name)
+            count = len(cat_extensions)
+            meta = CATEGORY_META[category]
+            
+            # Generate extension table
+            extension_table = self.table_gen.generate_category_table(cat_extensions)
+            
+            # Generate extension cards with detailed information
+            extension_cards = self.table_gen.generate_extension_cards(cat_extensions, self.config, is_chinese=False)
+            
+            # Generate Chinese extension cards
+            extension_cards_cn = self.table_gen.generate_extension_cards(cat_extensions, self.config, is_chinese=True)
+            
+            # Generate meta.json files for navigation
+            self._generate_meta_json_files(category, cat_extensions)
+            
+            # English version
+            en_content = f'''---
+title: {category}
+description: "{meta["en_desc"]}"
+icon: {meta["icon"]}
+full: true
+---
+
+import {{ Badge }} from '@/components/ui/badge';
+import {{ Callout }} from 'fumadocs-ui/components/callout';
+import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck, Scale, FileCode2 }} from 'lucide-react';
+
+{category} category contains **{count}** PostgreSQL extensions.
+
+{extension_table}
+
+--------
+
+{extension_cards}
+'''
+            
+            # Chinese version  
+            cn_content = f'''---
+title: {category}
+description: "{meta["zh_desc"]}"
+icon: {meta["icon"]}
+full: true
+---
+
+import {{ Badge }} from '@/components/ui/badge';
+import {{ Callout }} from 'fumadocs-ui/components/callout';
+import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck, Scale, FileCode2 }} from 'lucide-react';
+
+{category} 分类包含 **{count}** 个 PostgreSQL 扩展。
+
+{self.table_gen.generate_category_table_cn(cat_extensions)}
+
+--------
+
+{extension_cards_cn}
+'''
+            
+            # Write category pages
+            category_dir = os.path.join(self.config.OUTPUT_DIR, '..', 'cate', category.lower())
+            os.makedirs(category_dir, exist_ok=True)
+            
+            # English version
+            en_path = os.path.join(category_dir, 'index.mdx')
+            with open(en_path, 'w', encoding='utf-8') as f:
+                f.write(en_content)
+            print(f"Generated: {en_path}")
+            
+            # Chinese version
+            cn_path = os.path.join(category_dir, 'index.cn.mdx')
+            with open(cn_path, 'w', encoding='utf-8') as f:
+                f.write(cn_content)
+            print(f"Generated: {cn_path}")
+    
+    def _generate_meta_json_files(self, category: str, extensions: List[Extension]):
+        """Generate meta.json and meta.cn.json files for a category."""
+        import json
+        
+        # Create category directory if it doesn't exist
+        category_dir = os.path.join(self.config.OUTPUT_DIR, '..', 'cate', category.lower())
+        os.makedirs(category_dir, exist_ok=True)
+        
+        # Generate pages array for English
+        en_pages = []
+        cn_pages = []
+        
+        for ext in extensions:
+            # English version
+            en_pages.append(f"[{ext.name}](/e/{ext.name})")
+            
+            # Chinese version  
+            cn_pages.append(f"[{ext.name}](/cn/e/{ext.name})")
+        
+        # Generate English meta.json
+        en_meta = {
+            "pages": en_pages
+        }
+        
+        en_meta_path = os.path.join(category_dir, 'meta.json')
+        with open(en_meta_path, 'w', encoding='utf-8') as f:
+            json.dump(en_meta, f, indent=2, ensure_ascii=False)
+        print(f"Generated: {en_meta_path}")
+        
+        # Generate Chinese meta.cn.json
+        cn_meta = {
+            "pages": cn_pages
+        }
+        
+        cn_meta_path = os.path.join(category_dir, 'meta.cn.json')
+        with open(cn_meta_path, 'w', encoding='utf-8') as f:
+            json.dump(cn_meta, f, indent=2, ensure_ascii=False)
+        print(f"Generated: {cn_meta_path}")
 
 
 def main():

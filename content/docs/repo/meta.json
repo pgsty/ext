@@ -1,0 +1,9 @@
+{
+  "defaultOpen": true,
+  "pages": [
+    "index",
+    "infra",
+    "pgsql",
+    "gpg"
+  ]
+}

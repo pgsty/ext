@@ -1,3 +1,5 @@
+'use client';
+
 import { File, Folder, Files } from 'fumadocs-ui/components/files';
 import { Package, Box } from 'lucide-react';
 import { Callout } from 'fumadocs-ui/components/callout';
@@ -6,6 +8,7 @@ import { TooltipIconButton } from '@/components/ui/tooltip-icon-button';
 import { DynamicCodeBlock } from 'fumadocs-ui/components/dynamic-codeblock';
 import { Tab, Tabs } from 'fumadocs-ui/components/tabs';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import {
     Scale, Clock, Globe, Brain, Search, ChartNoAxesCombined,
     Sparkles, BookA, Boxes, Wrench, Variable, Landmark,
@@ -91,8 +94,11 @@ interface ExtensionData {
 const DEFAULT_OS = ['el8.x86_64', 'el8.aarch64', 'el9.x86_64', 'el9.aarch64', 'd12.x86_64', 'd12.aarch64', 'u22.x86_64', 'u22.aarch64', 'u24.x86_64', 'u24.aarch64'];
 const DEFAULT_PG = [17, 16, 15, 14, 13];
 
-function formatBool(value: boolean | null, trueText: string = "Yes", falseText: string = "No"): string {
-  if (value === null) return "Unknown";
+function formatBool(value: boolean | null, trueText: string = "Yes", falseText: string = "No", isChinese: boolean = false): string {
+  if (value === null) return isChinese ? "未知" : "Unknown";
+  if (isChinese) {
+    return value ? "是" : "否";
+  }
   return value ? trueText : falseText;
 }
 
@@ -106,7 +112,7 @@ function formatRepoTag(repo: string): React.JSX.Element {
   return badges[repo] || <Badge variant="gray-subtle"><span className="font-bold">{repo}</span></Badge>;
 }
 
-function formatLicenseTag(license: string): React.JSX.Element {
+function formatLicenseTag(license: string, isChinese: boolean = false): React.JSX.Element {
   const licenseMapping: Record<string, { name: string; anchor: string; variant: string }> = {
     'PostgreSQL': { name: 'PostgreSQL', anchor: 'postgresql', variant: 'blue-subtle' },
     'MIT': { name: 'MIT', anchor: 'mit', variant: 'blue-subtle' },
@@ -136,14 +142,15 @@ function formatLicenseTag(license: string): React.JSX.Element {
   
   const info = licenseMapping[license] || { name: license, anchor: license.toLowerCase().replace(/[^a-z0-9]/g, ''), variant: 'gray-subtle' };
   
+  const baseUrl = isChinese ? '/cn/list/license' : '/list/license';
   return (
-    <a href={`/ext/list/license#${info.anchor}`} className="no-underline">
+    <a href={`${baseUrl}#${info.anchor}`} className="no-underline">
       <Badge icon={<Scale />} variant={info.variant as any}>{info.name}</Badge>
     </a>
   );
 }
 
-function formatLanguageTag(language: string): React.JSX.Element {
+function formatLanguageTag(language: string, isChinese: boolean = false): React.JSX.Element {
   const langMap: Record<string, { variant: string; anchor: string }> = {
     'Python': { variant: 'blue-subtle', anchor: '/list/lang#python' },
     'Rust': { variant: 'amber-subtle', anchor: '/list/lang#rust' },
@@ -156,14 +163,15 @@ function formatLanguageTag(language: string): React.JSX.Element {
   
   const info = langMap[language] || { variant: 'gray-subtle', anchor: '/list/lang#other' };
   
+  const baseUrl = isChinese ? '/cn/ext' : '/ext';
   return (
-    <a href={`/ext${info.anchor}`}>
-      <Badge icon={<FileCode2 />} variant={info.variant as any}>{language || "N/A"}</Badge>
+    <a href={`${baseUrl}${info.anchor}`}>
+      <Badge icon={<FileCode2 />} variant={info.variant as any}>{language || (isChinese ? "未知" : "N/A")}</Badge>
     </a>
   );
 }
 
-function formatCategoryTag(category: string): React.JSX.Element {
+function formatCategoryTag(category: string, isChinese: boolean = false): React.JSX.Element {
   const categoryMeta: Record<string, { icon: string; color: string }> = {
     'TIME': { icon: 'Clock', color: 'blue-subtle' },
     'GIS': { icon: 'Globe', color: 'green-subtle' }, 
@@ -190,14 +198,15 @@ function formatCategoryTag(category: string): React.JSX.Element {
   };
   const IconComponent = iconComponentMap[meta.icon as keyof typeof iconComponentMap] || Blocks;
   
+  const baseUrl = isChinese ? '/cn/cate' : '/cate';
   return (
-    <a href={`/ext/cate/${category.toLowerCase()}`} className="no-underline">
+    <a href={`${baseUrl}/${category.toLowerCase()}`} className="no-underline">
       <Badge icon={<IconComponent />} variant={meta.color as any}>{category}</Badge>
     </a>
   );
 }
 
-function PackageInfoSection({ ext }: { ext: ExtensionData }) {
+function PackageInfoSection({ ext, isChinese = false }: { ext: ExtensionData, isChinese?: boolean }) {
   const rows = [];
   
   // Check if has RPM packages
@@ -267,7 +276,7 @@ function PackageInfoSection({ ext }: { ext: ExtensionData }) {
   if (rows.length === 0) {
     rows.push(
       <tr key="none">
-        <td colSpan={6} className="text-center">No package information available</td>
+        <td colSpan={6} className="text-center">{isChinese ? "无包信息" : "No package information available"}</td>
       </tr>
     );
   }
@@ -276,12 +285,12 @@ function PackageInfoSection({ ext }: { ext: ExtensionData }) {
     <table className="w-full border-collapse border">
       <thead>
         <tr>
-          <th className="text-center"><TooltipIconButton tooltip="Linux distribution family, EL or Debian" side="top">Distro</TooltipIconButton></th>
-          <th className="text-center"><TooltipIconButton tooltip="Package repository" side="top">Repo</TooltipIconButton></th>
-          <th className="text-center"><TooltipIconButton tooltip="The RPM/DEB Package Name Pattern (replace $v with real pg major)" side="top">Package Name</TooltipIconButton></th>
-          <th className="text-center"><TooltipIconButton tooltip="Latest package version" side="top">Version</TooltipIconButton></th>
-          <th className="text-center"><TooltipIconButton tooltip="RPM/DEB Package dependencies" side="top">Deps</TooltipIconButton></th>
-          <th className="text-center"><TooltipIconButton tooltip="Available in these PostgreSQL Major Versions" side="top">PG Major</TooltipIconButton></th>
+          <th className="text-center"><TooltipIconButton tooltip={isChinese ? "Linux 发行版系列，EL 或 Debian" : "Linux distribution family, EL or Debian"} side="top">{isChinese ? "发行版" : "Distro"}</TooltipIconButton></th>
+          <th className="text-center"><TooltipIconButton tooltip={isChinese ? "软件包仓库" : "Package repository"} side="top">{isChinese ? "仓库" : "Repo"}</TooltipIconButton></th>
+          <th className="text-center"><TooltipIconButton tooltip={isChinese ? "RPM/DEB 包名模式（用实际 PG 主版本号替换 $v）" : "The RPM/DEB Package Name Pattern (replace $v with real pg major)"} side="top">{isChinese ? "包名" : "Package Name"}</TooltipIconButton></th>
+          <th className="text-center"><TooltipIconButton tooltip={isChinese ? "最新包版本" : "Latest package version"} side="top">{isChinese ? "版本" : "Version"}</TooltipIconButton></th>
+          <th className="text-center"><TooltipIconButton tooltip={isChinese ? "RPM/DEB 包依赖" : "RPM/DEB Package dependencies"} side="top">{isChinese ? "依赖" : "Deps"}</TooltipIconButton></th>
+          <th className="text-center"><TooltipIconButton tooltip={isChinese ? "在这些 PostgreSQL 主要版本中可用" : "Available in these PostgreSQL Major Versions"} side="top">{isChinese ? "PG 主版本" : "PG Major"}</TooltipIconButton></th>
         </tr>
       </thead>
       <tbody>
@@ -291,7 +300,7 @@ function PackageInfoSection({ ext }: { ext: ExtensionData }) {
   );
 }
 
-function AvailabilityMatrix({ ext }: { ext: ExtensionData }) {
+function AvailabilityMatrix({ ext, isChinese = false }: { ext: ExtensionData, isChinese?: boolean }) {
   const pgHeaders = DEFAULT_PG.map(pg => {
     const isSupported = ext.pg_ver.includes(String(pg));
     return (
@@ -345,7 +354,7 @@ function AvailabilityMatrix({ ext }: { ext: ExtensionData }) {
     <table className="w-full border-collapse border">
       <thead>
         <tr>
-          <th className="text-center"><TooltipIconButton tooltip="Linux Distro Arch / PostgreSQL Major Version" side="top">Linux / PostgreSQL</TooltipIconButton></th>
+          <th className="text-center"><TooltipIconButton tooltip={isChinese ? "Linux 发行版架构 / PostgreSQL 主版本" : "Linux Distro Arch / PostgreSQL Major Version"} side="top">Linux / PostgreSQL</TooltipIconButton></th>
           {pgHeaders}
         </tr>
       </thead>
@@ -356,7 +365,7 @@ function AvailabilityMatrix({ ext }: { ext: ExtensionData }) {
   );
 }
 
-function DependenciesSection({ ext }: { ext: ExtensionData }) {
+function DependenciesSection({ ext, isChinese = false }: { ext: ExtensionData, isChinese?: boolean }) {
   const sections = [];
   
   // Dependencies (what this extension requires)
@@ -364,12 +373,12 @@ function DependenciesSection({ ext }: { ext: ExtensionData }) {
     const depsLinks = ext.requires.map((dep, index) => (
       <span key={dep}>
         {index > 0 && ', '}
-        <Link href={`/e/${dep}`}><code>{dep}</code></Link>
+        <Link href={`${isChinese ? '/cn' : ''}/e/${dep}`}><code>{dep}</code></Link>
       </span>
     ));
     sections.push(
-      <Callout key="deps" title="Dependencies" type="warn">
-        <div>This extension depends on: {depsLinks}</div>
+      <Callout key="deps" title={isChinese ? "依赖" : "Dependencies"} type="warn">
+        <div>{isChinese ? "此扩展依赖于：" : "This extension depends on: "}{depsLinks}</div>
       </Callout>
     );
   }
@@ -379,12 +388,12 @@ function DependenciesSection({ ext }: { ext: ExtensionData }) {
     const dependentLinks = ext.require_by.map((dep, index) => (
       <span key={dep}>
         {index > 0 && ', '}
-        <Link href={`/e/${dep}`}><code>{dep}</code></Link>
+        <Link href={`${isChinese ? '/cn' : ''}/e/${dep}`}><code>{dep}</code></Link>
       </span>
     ));
     sections.push(
-      <Callout key="dependents" title="Dependent Extensions" type="info">
-        <div>The following extensions depend on this extension: {dependentLinks}</div>
+      <Callout key="dependents" title={isChinese ? "依赖此扩展的扩展" : "Dependent Extensions"} type="info">
+        <div>{isChinese ? "以下扩展依赖于此扩展：" : "The following extensions depend on this extension: "}{dependentLinks}</div>
       </Callout>
     );
   }
@@ -392,7 +401,7 @@ function DependenciesSection({ ext }: { ext: ExtensionData }) {
   // Comments (if extension has comment field)
   if (ext.comment && ext.comment.trim()) {
     sections.push(
-      <Callout key="comments" title="Comments" type="info">
+      <Callout key="comments" title={isChinese ? "注释" : "Comments"} type="info">
         <div>{ext.comment}</div>
       </Callout>
     );
@@ -401,11 +410,11 @@ function DependenciesSection({ ext }: { ext: ExtensionData }) {
   return <div className="space-y-4">{sections}</div>;
 }
 
-function DownloadSection({ ext }: { ext: ExtensionData }) {
+function DownloadSection({ ext, isChinese = false }: { ext: ExtensionData, isChinese?: boolean }) {
   if (ext.contrib) {
     return (
       <div>
-        This extension is built-in with PostgreSQL and does not need separate download.
+        {isChinese ? "此扩展是 PostgreSQL 内置的，无需单独下载。" : "This extension is built-in with PostgreSQL and does not need separate download."}
       </div>
     );
   }
@@ -413,14 +422,19 @@ function DownloadSection({ ext }: { ext: ExtensionData }) {
   return (
     <div className="space-y-4">
       <div>
-        To add the required PGDG / PIGSTY upstream repository, use:
+        {isChinese ? "要添加所需的 PGDG / PIGSTY 上游仓库，请使用：" : "To add the required PGDG / PIGSTY upstream repository, use:"}
       </div>
       
       <Tabs items={['pig', 'pigsty']}>
         <Tab value="pig">
           <DynamicCodeBlock
             lang="bash"
-            code={`pig repo add pgdg -u    # add PGDG repo and update cache (leave existing repos)
+            code={isChinese ? 
+              `pig repo add pgdg -u    # 添加 PGDG 仓库并更新缓存（保留现有仓库）
+pig repo add pigsty -u  # 添加 PIGSTY 仓库并更新缓存（保留现有仓库）
+pig repo add pgsql -u   # 添加 PGDG + Pigsty 仓库并更新缓存（保留现有仓库）
+pig repo set all -u     # 设置仓库为 all = NODE + PGSQL + INFRA （移除现有仓库）` :
+              `pig repo add pgdg -u    # add PGDG repo and update cache (leave existing repos)
 pig repo add pigsty -u  # add PIGSTY repo and update cache (leave existing repos)
 pig repo add pgsql -u   # add PGDG + Pigsty repo and update cache (leave existing repos)
 pig repo set all -u     # set repo to all = NODE + PGSQL + INFRA  (remove existing repos)`}
@@ -429,12 +443,14 @@ pig repo set all -u     # set repo to all = NODE + PGSQL + INFRA  (remove existi
         <Tab value="pigsty">
           <DynamicCodeBlock
             lang="bash"
-            code={`./node.yml -t node_repo -e node_repo_modules=node,pgsql # -l <cluster>`}
+            code={isChinese ?
+              `./node.yml -t node_repo -e node_repo_modules=node,pgsql # -l <集群>` :
+              `./node.yml -t node_repo -e node_repo_modules=node,pgsql # -l <cluster>`}
           />
         </Tab>
       </Tabs>
       
-      <div>Or download the latest packages directly:</div>
+      <div>{isChinese ? "或直接下载最新包：" : "Or download the latest packages directly:"}</div>
       
       <Files>
         {DEFAULT_OS.map(os => {
@@ -487,15 +503,24 @@ pig repo set all -u     # set repo to all = NODE + PGSQL + INFRA  (remove existi
 }
 
 
-function InstallSection({ ext }: { ext: ExtensionData }) {
+function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChinese?: boolean }) {
   if (ext.contrib) {
     const sections = [];
     
     sections.push(
       <div key="contrib-info" className="space-y-4">
         <div>
-          Extension <code>{ext.name}</code> is PostgreSQL Built-in{' '}
-          <a href="/ext/list/contrib"><strong>Contrib</strong></a> Extension which is installed along with the kernel/contrib.
+          {isChinese ? (
+            <>
+              扩展 <code>{ext.name}</code> 是 PostgreSQL 内置的{' '}
+              <a href="/cn/list/contrib"><strong>Contrib</strong></a> 扩展，随内核/contrib 一起安装。
+            </>
+          ) : (
+            <>
+              Extension <code>{ext.name}</code> is PostgreSQL Built-in{' '}
+              <a href="/list/contrib"><strong>Contrib</strong></a> Extension which is installed along with the kernel/contrib.
+            </>
+          )}
         </div>
       </div>
     );
@@ -505,16 +530,26 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
       sections.push(
         <div key="load" className="space-y-4">
           <div>
-            <a href="/ext/usage/load"><strong>Load</strong></a> this extension by adding it to shared_preload_libraries:
+            {isChinese ? (
+              <>
+                通过将此扩展添加到 shared_preload_libraries 来<a href="/cn/usage/load"><strong>加载</strong></a>：
+              </>
+            ) : (
+              <>
+                <a href="/usage/load"><strong>Load</strong></a> this extension by adding it to shared_preload_libraries:
+              </>
+            )}
           </div>
           
           <DynamicCodeBlock
             lang="ini"
-            code={`# postgresql.conf\nshared_preload_libraries = '${ext.name}'  # add to existing extensions if any`}
+            code={isChinese ? 
+              `# postgresql.conf\nshared_preload_libraries = '${ext.name}'  # 添加到现有扩展中（如果有的话）` :
+              `# postgresql.conf\nshared_preload_libraries = '${ext.name}'  # add to existing extensions if any`}
           />
           
           <div>
-            After modifying the configuration, restart PostgreSQL to load the extension.
+            {isChinese ? "修改配置后，重启 PostgreSQL 以加载扩展。" : "After modifying the configuration, restart PostgreSQL to load the extension."}
           </div>
         </div>
       );
@@ -525,7 +560,15 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
       sections.push(
         <div key="create" className="space-y-4">
           <div>
-            <a href="/ext/usage/create"><strong>Create</strong></a> this extension with:
+            {isChinese ? (
+              <>
+                使用以下命令<a href="/cn/usage/create"><strong>创建</strong></a>此扩展：
+              </>
+            ) : (
+              <>
+                <a href="/usage/create"><strong>Create</strong></a> this extension with:
+              </>
+            )}
           </div>
           
           <DynamicCodeBlock
@@ -553,14 +596,26 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
   sections.push(
     <div key="install" className="space-y-4">
       <div>
-        <a href="/ext/usage/install"><strong>Install</strong></a> this extension with:
+        {isChinese ? (
+          <>
+            使用以下命令<a href="/cn/usage/install"><strong>安装</strong></a>此扩展：
+          </>
+        ) : (
+          <>
+            <a href="/usage/install"><strong>Install</strong></a> this extension with:
+          </>
+        )}
       </div>
       
       <Tabs items={tabItems}>
         <Tab value="pig">
           <DynamicCodeBlock
             lang="bash"
-            code={`pig ext install ${ext.name}; # install by extension name, for the current active PG version${ext.pkg !== ext.name ? `\npig ext install ${ext.pkg}; # install via package alias, for the active PG version` : ''}${DEFAULT_PG.filter(pg => ext.pg_ver.includes(String(pg))).map(pg => 
+            code={isChinese ?
+              `pig ext install ${ext.name}; # 按扩展名安装，适用于当前活动的 PG 版本${ext.pkg !== ext.name ? `\npig ext install ${ext.pkg}; # 通过包别名安装，适用于活动的 PG 版本` : ''}${DEFAULT_PG.filter(pg => ext.pg_ver.includes(String(pg))).map(pg => 
+                `\npig ext install ${ext.name} -v ${pg};   # 为 PG ${pg} 安装`
+              ).join('')}` :
+              `pig ext install ${ext.name}; # install by extension name, for the current active PG version${ext.pkg !== ext.name ? `\npig ext install ${ext.pkg}; # install via package alias, for the active PG version` : ''}${DEFAULT_PG.filter(pg => ext.pg_ver.includes(String(pg))).map(pg => 
                 `\npig ext install ${ext.name} -v ${pg};   # install for PG ${pg}`
               ).join('')}`}
           />
@@ -597,7 +652,9 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
         <Tab value="ansible">
           <DynamicCodeBlock
             lang="bash"
-            code={`./pgsql.yml -t pg_ext -e '{"pg_extensions": ["${ext.pkg}"]}' # -l <cls>`}
+            code={isChinese ?
+              `./pgsql.yml -t pg_ext -e '{"pg_extensions": ["${ext.pkg}"]}' # -l <集群>` :
+              `./pgsql.yml -t pg_ext -e '{"pg_extensions": ["${ext.pkg}"]}' # -l <cls>`}
           />
         </Tab>
       </Tabs>
@@ -609,12 +666,22 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
     sections.push(
       <div key="load" className="space-y-4">
         <div>
-          <a href="/ext/usage/config"><strong>Load</strong></a> this extension with:
+          {isChinese ? (
+            <>
+              使用以下命令<a href="/cn/usage/config"><strong>加载</strong></a>此扩展：
+            </>
+          ) : (
+            <>
+              <a href="/usage/config"><strong>Load</strong></a> this extension with:
+            </>
+          )}
         </div>
         
         <DynamicCodeBlock
           lang="ini"
-          code={`shared_preload_libraries = '${ext.name}'  # add to pg config`}
+          code={isChinese ?
+            `shared_preload_libraries = '${ext.name}'  # 添加到 pg 配置` :
+            `shared_preload_libraries = '${ext.name}'  # add to pg config`}
         />
 
       </div>
@@ -628,7 +695,15 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
     sections.push(
       <div key="create" className="space-y-4">
         <div>
-          <a href="/ext/usage/create"><strong>Create</strong></a> this extension with:
+          {isChinese ? (
+            <>
+              使用以下命令<a href="/cn/usage/create"><strong>创建</strong></a>此扩展：
+            </>
+          ) : (
+            <>
+              <a href="/usage/create"><strong>Create</strong></a> this extension with:
+            </>
+          )}
         </div>
         
         <DynamicCodeBlock
@@ -641,9 +716,19 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
     sections.push(
       <div key="no-ddl" className="space-y-4">
         <div>
-          Extension <code>{ext.name}</code>{' '}
-          <a href="/pgsql/ext/create#extension-without-ddl"><strong>does not need</strong></a>{' '}
-          <code>CREATE EXTENSION</code> command.
+          {isChinese ? (
+            <>
+              扩展 <code>{ext.name}</code>{' '}
+              <a href="/cn/usage/create#extension-without-ddl"><strong>不需要</strong></a>{' '}
+              <code>CREATE EXTENSION</code> 命令。
+            </>
+          ) : (
+            <>
+              Extension <code>{ext.name}</code>{' '}
+              <a href="/cn/usage/create#extension-without-ddl"><strong>does not need</strong></a>{' '}
+              <code>CREATE EXTENSION</code> command.
+            </>
+          )}
         </div>
       </div>
     );
@@ -653,6 +738,9 @@ function InstallSection({ ext }: { ext: ExtensionData }) {
 }
 
 export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
+  const pathname = usePathname();
+  const isChinese = pathname?.includes('/cn') || false;
+  
   const nameLink = data.url ? (
     <a href={data.url}><code>{data.name}</code></a>
   ) : (
@@ -660,8 +748,9 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
   );
   
   const leadingExtension = data.siblings.find(sibling => sibling !== data.name) || data.lead_ext;
+  const baseUrl = isChinese ? '/cn/e' : '/e';
   const packageLink = data.pkg !== data.name && leadingExtension && leadingExtension !== data.name ? (
-    <a href={`/e/${leadingExtension}`}><code>{data.pkg}</code></a>
+    <a href={`${baseUrl}/${leadingExtension}`}><code>{data.pkg}</code></a>
   ) : (
     <code>{data.pkg}</code>
   );
@@ -670,17 +759,17 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
     <div className="space-y-8">
       {/* Overview Section */}
       <section>
-        <h2>Overview</h2>
+        <h2>{isChinese ? "概述" : "Overview"}</h2>
         <table className="w-full border-collapse border">
           <thead>
             <tr>
-              <th className="text-center"><TooltipIconButton tooltip="Extension unique identifier" side="top">ID</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Extension name" side="top">Name</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Package name for installation" side="top">Package</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Latest available extension version" side="top">Version</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Extension category" side="top">Category</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Open source license" side="top">License</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Programming language" side="top">Lang</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "扩展唯一标识符" : "Extension unique identifier"} side="top">ID</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "扩展名称" : "Extension name"} side="top">{isChinese ? "名称" : "Name"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "安装用包名" : "Package name for installation"} side="top">{isChinese ? "包" : "Package"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "最新可用扩展版本" : "Latest available extension version"} side="top">{isChinese ? "版本" : "Version"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "扩展类别" : "Extension category"} side="top">{isChinese ? "类别" : "Category"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "开源许可证" : "Open source license"} side="top">{isChinese ? "许可证" : "License"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "编程语言" : "Programming language"} side="top">{isChinese ? "语言" : "Lang"}</TooltipIconButton></th>
             </tr>
           </thead>
           <tbody>
@@ -689,9 +778,9 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
               <td className="text-center">{nameLink}</td>
               <td className="text-center">{packageLink}</td>
               <td className="text-center">{data.version}</td>
-              <td className="text-center">{formatCategoryTag(data.category)}</td>
-              <td className="text-center">{formatLicenseTag(data.license)}</td>
-              <td className="text-center">{formatLanguageTag(data.lang)}</td>
+              <td className="text-center">{formatCategoryTag(data.category, isChinese)}</td>
+              <td className="text-center">{formatLicenseTag(data.license, isChinese)}</td>
+              <td className="text-center">{formatLanguageTag(data.lang, isChinese)}</td>
             </tr>
           </tbody>
         </table>
@@ -699,29 +788,29 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
 
       {/* Attributes Section */}
       <section>
-        <h3>Attributes</h3>
+        <h3>{isChinese ? "属性" : "Attributes"}</h3>
         <table className="w-full border-collapse border">
           <thead>
             <tr>
-              <th className="text-center"><TooltipIconButton tooltip="The Primary Leading extension in the Package" side="top">Leading</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Contains binary utils" side="top">Has Bin</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Contains .so shared library files" side="top">Has Lib</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Requires preloading via shared_preload_libraries" side="top">PreLoad</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Requires CREATE EXTENSION DDL command" side="top">Need DDL</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Can be installed in any schema" side="top">Relocatable</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Can be created by non-superuser" side="top">Trusted</TooltipIconButton></th>
-              <th className="text-center"><TooltipIconButton tooltip="Schemas used by this extension" side="top">Schemas</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "包中的主要领导扩展" : "The Primary Leading extension in the Package"} side="top">{isChinese ? "主扩展" : "Leading"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "包含二进制工具" : "Contains binary utils"} side="top">{isChinese ? "有二进制" : "Has Bin"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "包含 .so 共享库文件" : "Contains .so shared library files"} side="top">{isChinese ? "有库文件" : "Has Lib"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "需要通过 shared_preload_libraries 预加载" : "Requires preloading via shared_preload_libraries"} side="top">{isChinese ? "预加载" : "PreLoad"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "需要 CREATE EXTENSION DDL 命令" : "Requires CREATE EXTENSION DDL command"} side="top">{isChinese ? "需要 DDL" : "Need DDL"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "可以在任何模式中安装" : "Can be installed in any schema"} side="top">{isChinese ? "可重定位" : "Relocatable"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "可以由非超级用户创建" : "Can be created by non-superuser"} side="top">{isChinese ? "受信任" : "Trusted"}</TooltipIconButton></th>
+              <th className="text-center"><TooltipIconButton tooltip={isChinese ? "此扩展使用的模式" : "Schemas used by this extension"} side="top">{isChinese ? "模式" : "Schemas"}</TooltipIconButton></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="text-center">{formatBool(data.lead)}</td>
-              <td className="text-center">{formatBool(data.has_bin)}</td>
-              <td className="text-center">{formatBool(data.has_lib)}</td>
-              <td className="text-center">{formatBool(data.need_load)}</td>
-              <td className="text-center">{formatBool(data.need_ddl)}</td>
-              <td className="text-center">{formatBool(data.relocatable)}</td>
-              <td className="text-center">{formatBool(data.trusted)}</td>
+              <td className="text-center">{formatBool(data.lead, "Yes", "No", isChinese)}</td>
+              <td className="text-center">{formatBool(data.has_bin, "Yes", "No", isChinese)}</td>
+              <td className="text-center">{formatBool(data.has_lib, "Yes", "No", isChinese)}</td>
+              <td className="text-center">{formatBool(data.need_load, "Yes", "No", isChinese)}</td>
+              <td className="text-center">{formatBool(data.need_ddl, "Yes", "No", isChinese)}</td>
+              <td className="text-center">{formatBool(data.relocatable, "Yes", "No", isChinese)}</td>
+              <td className="text-center">{formatBool(data.trusted, "Yes", "No", isChinese)}</td>
               <td className="text-center">{data.schemas.length > 0 ? data.schemas.map(s => <code key={s}>{s}</code>).reduce((prev, curr) => [prev, ', ', curr] as any) : '-'}</td>
             </tr>
           </tbody>
@@ -730,19 +819,19 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
 
       {/* Packages Section */}
       <section>
-        <h3>Packages</h3>
-        <PackageInfoSection ext={data} />
+        <h3>{isChinese ? "软件包" : "Packages"}</h3>
+        <PackageInfoSection ext={data} isChinese={isChinese} />
       </section>
 
       {/* Dependencies Section */}
-      <DependenciesSection ext={data} />
+      <DependenciesSection ext={data} isChinese={isChinese} />
 
       <hr />
 
       {/* Availability Section */}
       <section>
-        <h2>Availability</h2>
-        <AvailabilityMatrix ext={data} />
+        <h2>{isChinese ? "可用性" : "Availability"}</h2>
+        <AvailabilityMatrix ext={data} isChinese={isChinese} />
         
         <div className="mt-4 space-x-2">
           <Badge variant="green-subtle"><span className="font-black">CONTRIB</span></Badge>
@@ -755,16 +844,16 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
 
       {/* Download Section */}
       <section>
-        <h2>Download</h2>
-        <DownloadSection ext={data} />
+        <h2>{isChinese ? "下载" : "Download"}</h2>
+        <DownloadSection ext={data} isChinese={isChinese} />
       </section>
 
       <hr />
 
       {/* Install Section */}
       <section>
-        <h2>Install</h2>
-        <InstallSection ext={data} />
+        <h2>{isChinese ? "安装" : "Install"}</h2>
+        <InstallSection ext={data} isChinese={isChinese} />
       </section>
     </div>
   );

@@ -1,0 +1,74 @@
+---
+title: Categories
+description: PostgreSQL extensions organized by functionality categories
+icon: Shapes
+full: true
+---
+
+import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck } from 'lucide-react';
+
+<Cards>
+    <Card icon={<Clock className="text-blue-500" />} title='TIME' href={"/cate/time"}>
+        TimescaleDB, Versioning & Temporal Table, Crontab, Async & Background Job Scheduler, ...
+    </Card>
+
+    <Card icon={<Globe className="text-green-500" />} title='GIS' href={"/cate/gis"}>
+        GeoSpatial Data Types, Operators, and Indexes, Hexagonal Indexing, OGR Data FDW, GeoIP & MobilityDB, etc...
+    </Card>
+
+    <Card icon={<Brain className="text-purple-500" />} title='RAG' href={"/cate/rag"}>
+        Vector Database with IVFFLAT, HNSW, DiskANN Indexes, AI & ML in SQL interface, Similarity Funcs, etc...
+    </Card>
+
+    <Card icon={<Search className="text-orange-500" />} title='FTS' href={"/cate/fts"}>
+        ElasticSearch Alternative with BM25, 2-gram/3-gram Fuzzy Search, Zhparser & Hunspell Segregation Dicts, etc...
+    </Card>
+
+    <Card icon={<ChartNoAxesCombined className="text-red-500" />} title='OLAP' href={"/cate/olap"}>
+        DuckDB Integration with FDW & PG Lakehouse, Access Parquet from File/S3, Sharding with Citus/Partman/PlProxy, ...
+    </Card>
+
+    <Card icon={<Sparkles className="text-cyan-500" />} title='FEAT' href={"/cate/feat"}>
+        OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IVM, ChemRDKit, and Message Queues,...
+    </Card>
+
+    <Card icon={<BookA className="text-indigo-500" />} title='LANG' href={"/cate/lang"}>
+        Develop, Test, Package, and Deliver Stored Procedures written in various PL/Lanaguages: Java, Js, Lua, R, Sh, PRQL, ...
+    </Card>
+
+    <Card icon={<Boxes className="text-teal-500" />} title='TYPE' href={"/cate/type"}>
+        Dedicate New Data Types Like: prefix, sember, uint, SIUnit, RoaringBitmap, Rational, Sphere, Hash, RRule, and more...
+    </Card>
+
+    <Card icon={<Wrench className="text-amber-500" />} title='UTIL' href={"/cate/util"}>
+        Utilities such as send http request, perform gzip/zstd compress, send mails, Regex, ICU, encoding, docs, Encryption,...
+    </Card>
+
+    <Card icon={<Variable className="text-pink-500" />} title='FUNC' href={"/cate/func"}>
+        Function such as id generator, aggregations, sketches, vector functions, mathematical functions and digest functions...
+    </Card>
+
+    <Card icon={<Landmark className="text-slate-500" />} title='ADMIN' href={"/cate/admin"}>
+        Utilities for Bloat Control, DirtyRead, BufferInspect, DDL Generate, ChecksumVerify, Permission, Priority, Catalog,...
+    </Card>
+
+    <Card icon={<Activity className="text-emerald-500" />} title='STAT' href={"/cate/stat"}>
+        Observability Catalogs, Monitoring Metrics & Views, Statistics, Query Plans, WaitSampling, SlowLogs, and etc...
+    </Card>
+
+    <Card icon={<Shield className="text-red-600" />} title='SEC' href={"/cate/sec"}>
+        Auditing Logs, Enforce Passwords, Keep Secrets, TDE, SM Algorithm, Login Hooks, Log Erros, Extension White List, ...
+    </Card>
+
+    <Card icon={<FileInput className="text-blue-600" />} title='FDW' href={"/cate/fdw"}>
+        Wrappers & Multicorn for FDW Development, Access other DBMS: MySQL, Mongo, SQLite, MSSQL, Oracle, HDFS, DB2,...
+    </Card>
+
+    <Card icon={<Shell className="text-violet-500" />} title='SIM' href={"/cate/sim"}>
+        Protocol Simulation & heterogeneous DBMS Compatibility: Oracle, MSSQL, DB2, MySQL, Memcached, and Babelfish!
+    </Card>
+
+    <Card icon={<Truck className="text-orange-600" />} title='ETL' href={"/cate/etl"}>
+        Logical Replication, Decoding, CDC in protobuf/JSON/Mongo format, Copy & Load & Compare Postgres Databases,...
+    </Card>
+</Cards>

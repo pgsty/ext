@@ -261,7 +261,7 @@ class Extension:
         
         # Dependencies (what this extension requires)
         if self.requires:
-            deps_links = [f"[{dep}](/ext/{dep})" for dep in self.requires]
+            deps_links = [f"[{dep}](/e/{dep})" for dep in self.requires]
             deps_text = ", ".join(deps_links)
             sections.append(f'''
 <Callout title="Dependencies" type="warn">
@@ -272,7 +272,7 @@ class Extension:
         # Reverse dependencies (what depends on this extension)
         if self.name in DEP_MAP:
             dependents = DEP_MAP[self.name]
-            dependent_links = [f"[{dep}](/ext/{dep})" for dep in dependents]
+            dependent_links = [f"[{dep}](/e/{dep})" for dep in dependents]
             dependent_text = ", ".join(dependent_links)
             sections.append(f'''
 <Callout title="Dependent Extensions" type="info">
@@ -580,7 +580,7 @@ Extension `{self.name}` [**does not need**](/usage/create#extensions-without-ddl
         # Package linking logic: link to leading extension if pkg != name
         if self.pkg != self.name and self.pkg in LEADING_MAP:
             leading_ext = LEADING_MAP[self.pkg]
-            package_link = f'[`{self.pkg}`](/ext/{leading_ext})'
+            package_link = f'[`{self.pkg}`](/e/{leading_ext})'
         else:
             package_link = f'`{self.pkg}`'
         
