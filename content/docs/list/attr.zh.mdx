@@ -1,0 +1,219 @@
+---
+title: 按属性分类
+description: 按属性分类的 PostgreSQL 扩展列表
+icon: Shapes
+full: true
+---
+
+import { Badge } from '@/components/ui/badge';
+
+------
+
+## 需要加载的扩展
+
+需要在 [`shared_preload_libraries`](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-SHARED-PRELOAD-LIBRARIES) 中动态加载才能正常工作的扩展。
+
+| ID | 扩展 | 包 | 描述 |
+|:---:|:---|:---|:---|
+| 7050 | [`anon`](/zh/e/anon) | [`pg_anon`](/zh/e/anon) | 数据匿名化处理工具 |
+| 7970 | [`auth_delay`](/zh/e/auth_delay) | [`auth_delay`](/zh/e/auth_delay) | 在返回认证失败前暂停一会，避免爆破 |
+| 6980 | [`auto_explain`](/zh/e/auto_explain) | [`auto_explain`](/zh/e/auto_explain) | 提供一种自动记录执行计划的手段 |
+| 9310 | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | SQL Server SQL语法兼容性扩展 |
+| 6340 | [`bgw_replstatus`](/zh/e/bgw_replstatus) | [`bgw_replstatus`](/zh/e/bgw_replstatus) | 用于汇报本机主从状态的后台工作进程 |
+| 2400 | [`citus`](/zh/e/citus) | [`citus`](/zh/e/citus) | Citus 分布式数据库 |
+| 9000 | [`documentdb`](/zh/e/documentdb) | [`documentdb`](/zh/e/documentdb) | 微软DocumentDB的API层 |
+| 9010 | [`documentdb_core`](/zh/e/documentdb_core) | [`documentdb`](/zh/e/documentdb) | 微软DocumentDB的核心API层实现 |
+| 9020 | [`documentdb_distributed`](/zh/e/documentdb_distributed) | [`documentdb`](/zh/e/documentdb) | DocumentDB多节点模式的API层 |
+| 7210 | [`noset`](/zh/e/noset) | [`pg_noset`](/zh/e/noset) | 阻止非超级用户使用SET/RESET设置变量 |
+| 2951 | [`omni`](/zh/e/omni) | [`omnigres`](/zh/e/omni) | PostgreSQL即平台，Omnigres主扩展与加载器 |
+| 2920 | [`orioledb`](/zh/e/orioledb) | [`orioledb`](/zh/e/orioledb) | OrioleDB，下一代事务处理引擎 |
+| 7990 | [`passwordcheck`](/zh/e/passwordcheck) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 用于强制拒绝修改弱密码的扩展 |
+| 7000 | [`passwordcheck_cracklib`](/zh/e/passwordcheck_cracklib) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 使用cracklib加固PG用户密码 |
+| 2140 | [`pg_bestmatch`](/zh/e/pg_bestmatch) | [`pg_bestmatch`](/zh/e/pg_bestmatch) | 在数据库内生成BM25稀疏向量 |
+| 5190 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 向数据库进程随机发送信号模拟故障 |
+| 1070 | [`pg_cron`](/zh/e/pg_cron) | [`pg_cron`](/zh/e/pg_cron) | 定时任务调度器 |
+| 2430 | [`pg_duckdb`](/zh/e/pg_duckdb) | [`pg_duckdb`](/zh/e/pg_duckdb) | 在PostgreSQL中的嵌入式DuckDB扩展 |
+| 9530 | [`pg_failover_slots`](/zh/e/pg_failover_slots) | [`pg_failover_slots`](/zh/e/pg_failover_slots) | 在Failover过程中保留复制槽 |
+| 4080 | [`pg_net`](/zh/e/pg_net) | [`pg_net`](/zh/e/pg_net) | 用 SQL 进行异步非阻塞HTTP/HTTPS 请求的扩展 (supabase) |
+| 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
+| 2460 | [`pg_parquet`](/zh/e/pg_parquet) | [`pg_parquet`](/zh/e/pg_parquet) | 在PostgreSQL与本地/S3中的Parquet文件复制数据 |
+| 5890 | [`pg_prewarm`](/zh/e/pg_prewarm) | [`pg_prewarm`](/zh/e/pg_prewarm) | 预热关系数据 |
+| 6240 | [`pg_qualstats`](/zh/e/pg_qualstats) | [`pg_qualstats`](/zh/e/pg_qualstats) | 收集有关 quals 的统计信息的扩展 |
+| 6380 | [`pg_relusage`](/zh/e/pg_relusage) | [`pg_relusage`](/zh/e/pg_relusage) | 打印查询引用的表与列 |
+| 7170 | [`pg_snakeoil`](/zh/e/pg_snakeoil) | [`pg_snakeoil`](/zh/e/pg_snakeoil) | PostgreSQL动态链接库反病毒功能 |
+| 5020 | [`pg_squeeze`](/zh/e/pg_squeeze) | [`pg_squeeze`](/zh/e/pg_squeeze) | 从关系中删除未使用空间 |
+| 6220 | [`pg_stat_kcache`](/zh/e/pg_stat_kcache) | [`pg_stat_kcache`](/zh/e/pg_stat_kcache) | 内核统计信息收集 |
+| 6230 | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | 提供查询聚合统计、客户端信息、执行计划详细信息和直方图 |
+| 6990 | [`pg_stat_statements`](/zh/e/pg_stat_statements) | [`pg_stat_statements`](/zh/e/pg_stat_statements) | 跟踪所有执行的 SQL 语句的计划和执行统计信息 |
+| 9130 | [`pg_statement_rollback`](/zh/e/pg_statement_rollback) | [`pg_statement_rollback`](/zh/e/pg_statement_rollback) | 在服务端提供类似Oracle/DB2的语句级回滚能力 |
+| 6250 | [`pg_store_plans`](/zh/e/pg_store_plans) | [`pg_store_plans`](/zh/e/pg_store_plans) | 跟踪所有执行的 SQL 语句的计划统计信息 |
+| 1080 | [`pg_task`](/zh/e/pg_task) | [`pg_task`](/zh/e/pg_task) | 在特定时间点在后台执行SQL命令 |
+| 7060 | [`pg_tde`](/zh/e/pg_tde) | [`pg_tde`](/zh/e/pg_tde) | Percona加密存储引擎 |
+| 3000 | [`pg_tle`](/zh/e/pg_tle) | [`pg_tle`](/zh/e/pg_tle) | AWS 可信语言扩展 |
+| 6010 | [`pg_tracing`](/zh/e/pg_tracing) | [`pg_tracing`](/zh/e/pg_tracing) | PostgreSQL分布式Tracing |
+| 6270 | [`pg_wait_sampling`](/zh/e/pg_wait_sampling) | [`pg_wait_sampling`](/zh/e/pg_wait_sampling) | 基于采样的等待事件统计 |
+| 9550 | [`pgactive`](/zh/e/pgactive) | [`pgactive`](/zh/e/pgactive) | PostgreSQL多主逻辑复制 |
+| 7080 | [`pgaudit`](/zh/e/pgaudit) | [`pgaudit`](/zh/e/pgaudit) | 提供审计功能 |
+| 5120 | [`pgautofailover`](/zh/e/pgautofailover) | [`pgautofailover`](/zh/e/pgautofailover) | PG 自动故障迁移 |
+| 7180 | [`pgextwlist`](/zh/e/pgextwlist) | [`pgextwlist`](/zh/e/pgextwlist) | PostgreSQL扩展白名单功能 |
+| 3540 | [`pglite_fusion`](/zh/e/pglite_fusion) | [`pglite_fusion`](/zh/e/pglite_fusion) | 在PG表中嵌入SQLite数据库作为数据类型 |
+| 9510 | [`pglogical_ticker`](/zh/e/pglogical_ticker) | [`pglogical_ticker`](/zh/e/pglogical_ticker) | pglogical复制延迟以秒计的精确视图 |
+| 1890 | [`pgml`](/zh/e/pgml) | [`pgml`](/zh/e/pgml) | PostgresML：用SQL运行机器学习算法并训练模型 |
+| 3530 | [`pgpdf`](/zh/e/pgpdf) | [`pgpdf`](/zh/e/pgpdf) | PDF数据类型，管理函数与全文检索 |
+| 6280 | [`pgsentinel`](/zh/e/pgsentinel) | [`pgsentinel`](/zh/e/pgsentinel) | 活跃会话历史 |
+| 7020 | [`pgsodium`](/zh/e/pgsodium) | [`pgsodium`](/zh/e/pgsodium) | 表数据加密存储 TDE |
+| 4510 | [`pgx_ulid`](/zh/e/pgx_ulid) | [`pgx_ulid`](/zh/e/pgx_ulid) | ULID数据类型与函数 |
+| 2850 | [`plan_filter`](/zh/e/plan_filter) | [`pg_plan_filter`](/zh/e/plan_filter) | 使用执行计划代价过滤阻止特定查询语句 |
+| 3060 | [`plpgsql_check`](/zh/e/plpgsql_check) | [`plpgsql_check`](/zh/e/plpgsql_check) | 对 plpgsql 函数进行扩展检查 |
+| 5820 | [`safeupdate`](/zh/e/safeupdate) | [`safeupdate`](/zh/e/safeupdate) | 强制在 UPDATE 和 DELETE 时提供 Where 条件 |
+| 7960 | [`sepgsql`](/zh/e/sepgsql) | [`sepgsql`](/zh/e/sepgsql) | 基于SELinux标签的强制访问控制 |
+| 7010 | [`supautils`](/zh/e/supautils) | [`supautils`](/zh/e/supautils) | 用于在云环境中确保数据库集群的安全 |
+| 1000 | [`timescaledb`](/zh/e/timescaledb) | [`timescaledb`](/zh/e/timescaledb) | 时序数据库扩展插件 |
+| 1810 | [`vchord`](/zh/e/vchord) | [`vchord`](/zh/e/vchord) | 使用Rust重写的高性能向量扩展 |
+| 2150 | [`vchord_bm25`](/zh/e/vchord_bm25) | [`vchord_bm25`](/zh/e/vchord_bm25) | BM25排序算法 |
+
+------
+
+## 无需 DDL 的扩展
+
+这些扩展没有 DDL 语句，所以你不需要（也不能）运行 `CREATE EXTENSION` 来创建它们。
+
+| ID | 扩展 | 包 | 描述 |
+|:---:|:---|:---|:---|
+| 7970 | [`auth_delay`](/zh/e/auth_delay) | [`auth_delay`](/zh/e/auth_delay) | 在返回认证失败前暂停一会，避免爆破 |
+| 6980 | [`auto_explain`](/zh/e/auto_explain) | [`auto_explain`](/zh/e/auto_explain) | 提供一种自动记录执行计划的手段 |
+| 5950 | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | 添加一种备份到Shell终端到基础备份方式 |
+| 5940 | [`basic_archive`](/zh/e/basic_archive) | [`basic_archive`](/zh/e/basic_archive) | 归档模块样例 |
+| 6340 | [`bgw_replstatus`](/zh/e/bgw_replstatus) | [`bgw_replstatus`](/zh/e/bgw_replstatus) | 用于汇报本机主从状态的后台工作进程 |
+| 9660 | [`decoder_raw`](/zh/e/decoder_raw) | [`decoder_raw`](/zh/e/decoder_raw) | 逻辑复制解码输出插件：RAW SQL格式 |
+| 9650 | [`decoderbufs`](/zh/e/decoderbufs) | [`decoderbufs`](/zh/e/decoderbufs) | 将WAL逻辑解码为ProtocolBuffer协议的消息 |
+| 7990 | [`passwordcheck`](/zh/e/passwordcheck) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 用于强制拒绝修改弱密码的扩展 |
+| 7000 | [`passwordcheck_cracklib`](/zh/e/passwordcheck_cracklib) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 使用cracklib加固PG用户密码 |
+| 5080 | [`pg_checksums`](/zh/e/pg_checksums) | [`pg_checksums`](/zh/e/pg_checksums) | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
+| 5190 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 向数据库进程随机发送信号模拟故障 |
+| 9530 | [`pg_failover_slots`](/zh/e/pg_failover_slots) | [`pg_failover_slots`](/zh/e/pg_failover_slots) | 在Failover过程中保留复制槽 |
+| 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
+| 6380 | [`pg_relusage`](/zh/e/pg_relusage) | [`pg_relusage`](/zh/e/pg_relusage) | 打印查询引用的表与列 |
+| 7170 | [`pg_snakeoil`](/zh/e/pg_snakeoil) | [`pg_snakeoil`](/zh/e/pg_snakeoil) | PostgreSQL动态链接库反病毒功能 |
+| 9130 | [`pg_statement_rollback`](/zh/e/pg_statement_rollback) | [`pg_statement_rollback`](/zh/e/pg_statement_rollback) | 在服务端提供类似Oracle/DB2的语句级回滚能力 |
+| 1080 | [`pg_task`](/zh/e/pg_task) | [`pg_task`](/zh/e/pg_task) | 在特定时间点在后台执行SQL命令 |
+| 7180 | [`pgextwlist`](/zh/e/pgextwlist) | [`pgextwlist`](/zh/e/pgextwlist) | PostgreSQL扩展白名单功能 |
+| 9980 | [`pgoutput`](/zh/e/pgoutput) | [`pgoutput`](/zh/e/pgoutput) | PG内置的逻辑解码输出插件 |
+| 2850 | [`plan_filter`](/zh/e/plan_filter) | [`pg_plan_filter`](/zh/e/plan_filter) | 使用执行计划代价过滤阻止特定查询语句 |
+| 5820 | [`safeupdate`](/zh/e/safeupdate) | [`safeupdate`](/zh/e/safeupdate) | 强制在 UPDATE 和 DELETE 时提供 Where 条件 |
+| 7960 | [`sepgsql`](/zh/e/sepgsql) | [`sepgsql`](/zh/e/sepgsql) | 基于SELinux标签的强制访问控制 |
+| 7010 | [`supautils`](/zh/e/supautils) | [`supautils`](/zh/e/supautils) | 用于在云环境中确保数据库集群的安全 |
+| 9970 | [`test_decoding`](/zh/e/test_decoding) | [`test_decoding`](/zh/e/test_decoding) | 基于SQL的WAL逻辑解码样例 |
+| 9630 | [`wal2json`](/zh/e/wal2json) | [`wal2json`](/zh/e/wal2json) | 用逻辑解码捕获 JSON 格式的 CDC 变更 |
+| 9640 | [`wal2mongo`](/zh/e/wal2mongo) | [`wal2mongo`](/zh/e/wal2mongo) | 使用逻辑解码捕获MongoDB JSON格式的CDC变更 |
+
+------
+
+## 有依赖
+
+依赖其他扩展的扩展。
+
+| 扩展 | 依赖 |
+|:---|:---|
+| [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) |
+| [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | [`babelfishpg_common`](/zh/e/babelfishpg_common), [`uuid-ossp`](/zh/e/uuid-ossp) |
+| [`bool_plperl`](/zh/e/bool_plperl) | [`plperl`](/zh/e/plperl) |
+| [`bool_plperlu`](/zh/e/bool_plperlu) | [`plperlu`](/zh/e/plperlu) |
+| [`data_historization`](/zh/e/data_historization) | [`plpgsql`](/zh/e/plpgsql) |
+| [`ddl_historization`](/zh/e/ddl_historization) | [`plpgsql`](/zh/e/plpgsql) |
+| [`documentdb`](/zh/e/documentdb) | [`documentdb_core`](/zh/e/documentdb_core), [`pg_cron`](/zh/e/pg_cron), [`tsm_system_rows`](/zh/e/tsm_system_rows), [`vector`](/zh/e/vector), [`postgis`](/zh/e/postgis), [`rum`](/zh/e/rum) |
+| [`earthdistance`](/zh/e/earthdistance) | [`cube`](/zh/e/cube) |
+| [`emaj`](/zh/e/emaj) | [`dblink`](/zh/e/dblink), [`btree_gist`](/zh/e/btree_gist) |
+| [`geoip`](/zh/e/geoip) | [`ip4r`](/zh/e/ip4r) |
+| [`h3_postgis`](/zh/e/h3_postgis) | [`h3`](/zh/e/h3), [`postgis`](/zh/e/postgis), [`postgis_raster`](/zh/e/postgis_raster) |
+| [`hstore_pllua`](/zh/e/hstore_pllua) | [`hstore`](/zh/e/hstore), [`pllua`](/zh/e/pllua) |
+| [`hstore_plluau`](/zh/e/hstore_plluau) | [`hstore`](/zh/e/hstore), [`plluau`](/zh/e/plluau) |
+| [`hstore_plperl`](/zh/e/hstore_plperl) | [`plperl`](/zh/e/plperl) |
+| [`hstore_plperlu`](/zh/e/hstore_plperlu) | [`plperlu`](/zh/e/plperlu) |
+| [`hstore_plpython3u`](/zh/e/hstore_plpython3u) | [`hstore`](/zh/e/hstore), [`plpython3u`](/zh/e/plpython3u) |
+| [`jsonb_plperl`](/zh/e/jsonb_plperl) | [`plperl`](/zh/e/plperl) |
+| [`jsonb_plperlu`](/zh/e/jsonb_plperlu) | [`plperlu`](/zh/e/plperlu) |
+| [`jsonb_plpython3u`](/zh/e/jsonb_plpython3u) | [`plpython3u`](/zh/e/plpython3u) |
+| [`l10n_table_dependent_extension`](/zh/e/l10n_table_dependent_extension) | [`pg_xenophile`](/zh/e/pg_xenophile) |
+| [`ltree_plpython3u`](/zh/e/ltree_plpython3u) | [`ltree`](/zh/e/ltree), [`plpython3u`](/zh/e/plpython3u) |
+| [`mimeo`](/zh/e/mimeo) | [`dblink`](/zh/e/dblink) |
+| [`mobilitydb`](/zh/e/mobilitydb) | [`postgis`](/zh/e/postgis) |
+| [`omni_auth`](/zh/e/omni_auth) | [`omni_types`](/zh/e/omni_types), [`omni_id`](/zh/e/omni_id), [`pgcrypto`](/zh/e/pgcrypto), [`btree_gist`](/zh/e/btree_gist), [`omni_polyfill`](/zh/e/omni_polyfill) |
+| [`omni_aws`](/zh/e/omni_aws) | [`omni_httpc`](/zh/e/omni_httpc), [`pgcrypto`](/zh/e/pgcrypto), [`omni_xml`](/zh/e/omni_xml), [`omni_web`](/zh/e/omni_web) |
+| [`omni_cloudevents`](/zh/e/omni_cloudevents) | [`omni_web`](/zh/e/omni_web) |
+| [`omni_containers`](/zh/e/omni_containers) | [`omni_httpc`](/zh/e/omni_httpc), [`omni_web`](/zh/e/omni_web) |
+| [`omni_credentials`](/zh/e/omni_credentials) | [`pgcrypto`](/zh/e/pgcrypto), [`omni_os`](/zh/e/omni_os) |
+| [`omni_email`](/zh/e/omni_email) | [`omni_id`](/zh/e/omni_id), [`omni_cloudevents`](/zh/e/omni_cloudevents), [`omni_polyfill`](/zh/e/omni_polyfill) |
+| [`omni_httpc`](/zh/e/omni_httpc) | [`omni_http`](/zh/e/omni_http), [`omni_types`](/zh/e/omni_types) |
+| [`omni_httpd`](/zh/e/omni_httpd) | [`omni_types`](/zh/e/omni_types), [`omni_http`](/zh/e/omni_http) |
+| [`omni_kube`](/zh/e/omni_kube) | [`omni_httpc`](/zh/e/omni_httpc), [`omni_web`](/zh/e/omni_web), [`omni_var`](/zh/e/omni_var), [`pgcrypto`](/zh/e/pgcrypto) |
+| [`omni_ledger`](/zh/e/omni_ledger) | [`omni_id`](/zh/e/omni_id), [`omni_polyfill`](/zh/e/omni_polyfill) |
+| [`omni_python`](/zh/e/omni_python) | [`plpython3u`](/zh/e/plpython3u) |
+| [`omni_rest`](/zh/e/omni_rest) | [`omni_httpd`](/zh/e/omni_httpd), [`omni_sql`](/zh/e/omni_sql), [`omni_web`](/zh/e/omni_web), [`omni_var`](/zh/e/omni_var), [`pgcrypto`](/zh/e/pgcrypto) |
+| [`omni_schema`](/zh/e/omni_schema) | [`omni_sql`](/zh/e/omni_sql), [`omni_vfs`](/zh/e/omni_vfs), [`dblink`](/zh/e/dblink) |
+| [`omni_session`](/zh/e/omni_session) | [`omni_var`](/zh/e/omni_var), [`omni_id`](/zh/e/omni_id), [`omni_web`](/zh/e/omni_web), [`omni_httpd`](/zh/e/omni_httpd), [`omni_polyfill`](/zh/e/omni_polyfill) |
+| [`omni_test`](/zh/e/omni_test) | [`dblink`](/zh/e/dblink) |
+| [`omni_vfs_types_v1`](/zh/e/omni_vfs_types_v1) | [`omni_vfs_types_v1`](/zh/e/omni_vfs_types_v1), [`dblink`](/zh/e/dblink) |
+| [`periods`](/zh/e/periods) | [`btree_gist`](/zh/e/btree_gist) |
+| [`pg4ml`](/zh/e/pg4ml) | [`plpgsql`](/zh/e/plpgsql), [`tablefunc`](/zh/e/tablefunc), [`cube`](/zh/e/cube), [`plpython3u`](/zh/e/plpython3u) |
+| [`pg_drop_events`](/zh/e/pg_drop_events) | [`plpgsql`](/zh/e/plpgsql) |
+| [`pg_incremental`](/zh/e/pg_incremental) | [`pg_cron`](/zh/e/pg_cron) |
+| [`pg_jobmon`](/zh/e/pg_jobmon) | [`dblink`](/zh/e/dblink) |
+| [`pg_later`](/zh/e/pg_later) | [`pgmq`](/zh/e/pgmq) |
+| [`pg_profile`](/zh/e/pg_profile) | [`dblink`](/zh/e/dblink), [`plpgsql`](/zh/e/plpgsql) |
+| [`pg_readme`](/zh/e/pg_readme) | [`hstore`](/zh/e/hstore) |
+| [`pg_readme_test_extension`](/zh/e/pg_readme_test_extension) | [`hstore`](/zh/e/hstore) |
+| [`pg_sqlog`](/zh/e/pg_sqlog) | [`file_fdw`](/zh/e/file_fdw) |
+| [`pg_stat_kcache`](/zh/e/pg_stat_kcache) | [`pg_stat_statements`](/zh/e/pg_stat_statements) |
+| [`pg_upless`](/zh/e/pg_upless) | [`plpgsql`](/zh/e/plpgsql) |
+| [`pgautofailover`](/zh/e/pgautofailover) | [`btree_gist`](/zh/e/btree_gist) |
+| [`pgcryptokey`](/zh/e/pgcryptokey) | [`pgcrypto`](/zh/e/pgcrypto) |
+| [`pgfaceting`](/zh/e/pgfaceting) | [`roaringbitmap`](/zh/e/roaringbitmap) |
+| [`pgl_ddl_deploy`](/zh/e/pgl_ddl_deploy) | [`pglogical`](/zh/e/pglogical) |
+| [`pglogical_ticker`](/zh/e/pglogical_ticker) | [`pglogical`](/zh/e/pglogical) |
+| [`pgrouting`](/zh/e/pgrouting) | [`postgis`](/zh/e/postgis) |
+| [`plperl`](/zh/e/plperl) | [`plperl`](/zh/e/plperl) |
+| [`plperlu`](/zh/e/plperlu) | [`plperlu`](/zh/e/plperlu) |
+| [`plpgsql_check`](/zh/e/plpgsql_check) | [`plpgsql`](/zh/e/plpgsql) |
+| [`pointcloud_postgis`](/zh/e/pointcloud_postgis) | [`postgis`](/zh/e/postgis), [`pointcloud`](/zh/e/pointcloud) |
+| [`postgis_raster`](/zh/e/postgis_raster) | [`postgis`](/zh/e/postgis) |
+| [`postgis_sfcgal`](/zh/e/postgis_sfcgal) | [`postgis`](/zh/e/postgis) |
+| [`postgis_tiger_geocoder`](/zh/e/postgis_tiger_geocoder) | [`postgis`](/zh/e/postgis), [`fuzzystrmatch`](/zh/e/fuzzystrmatch) |
+| [`postgis_topology`](/zh/e/postgis_topology) | [`postgis`](/zh/e/postgis) |
+| [`powa`](/zh/e/powa) | [`plpgsql`](/zh/e/plpgsql), [`pg_stat_statements`](/zh/e/pg_stat_statements), [`btree_gist`](/zh/e/btree_gist) |
+| [`schedoc`](/zh/e/schedoc) | [`ddl_historization`](/zh/e/ddl_historization) |
+| [`sparql`](/zh/e/sparql) | [`plperl`](/zh/e/plperl), [`plperlu`](/zh/e/plperlu) |
+| [`supabase_vault`](/zh/e/supabase_vault) | [`pgsodium`](/zh/e/pgsodium) |
+| [`table_version`](/zh/e/table_version) | [`plpgsql`](/zh/e/plpgsql) |
+| [`timeseries`](/zh/e/timeseries) | [`columnar`](/zh/e/columnar), [`pg_cron`](/zh/e/pg_cron), [`pg_ivm`](/zh/e/pg_ivm), [`pg_partman`](/zh/e/pg_partman) |
+| [`unit`](/zh/e/unit) | [`plpgsql`](/zh/e/plpgsql) |
+| [`vchord`](/zh/e/vchord) | [`vector`](/zh/e/vector) |
+| [`vectorize`](/zh/e/vectorize) | [`pg_cron`](/zh/e/pg_cron), [`pgmq`](/zh/e/pgmq), [`vector`](/zh/e/vector) |
+| [`vectorscale`](/zh/e/vectorscale) | [`vector`](/zh/e/vector) |
+
+------
+
+## 多扩展
+
+同时包含多个扩展的包：
+
+| 软件包 | 扩展名 |
+|:---|:---|
+| [`postgis`](/zh/e/postgis) | [`postgis`](/zh/e/postgis), [`postgis_topology`](/zh/e/postgis_topology), [`postgis_raster`](/zh/e/postgis_raster), [`postgis_sfcgal`](/zh/e/postgis_sfcgal), [`postgis_tiger_geocoder`](/zh/e/postgis_tiger_geocoder), [`address_standardizer`](/zh/e/address_standardizer), [`address_standardizer_data_us`](/zh/e/address_standardizer_data_us) |
+| [`pointcloud`](/zh/e/pointcloud) | [`pointcloud`](/zh/e/pointcloud), [`pointcloud_postgis`](/zh/e/pointcloud_postgis) |
+| [`pg_h3`](/zh/e/h3) | [`h3`](/zh/e/h3), [`h3_postgis`](/zh/e/h3_postgis) |
+| [`pgroonga`](/zh/e/pgroonga) | [`pgroonga`](/zh/e/pgroonga), [`pgroonga_database`](/zh/e/pgroonga_database) |
+| [`citus`](/zh/e/citus) | [`citus`](/zh/e/citus), [`citus_columnar`](/zh/e/citus_columnar) |
+| [`omnigres`](/zh/e/omni) | [`omni`](/zh/e/omni), [`omni_auth`](/zh/e/omni_auth), [`omni_aws`](/zh/e/omni_aws), [`omni_cloudevents`](/zh/e/omni_cloudevents), [`omni_containers`](/zh/e/omni_containers), [`omni_credentials`](/zh/e/omni_credentials), [`omni_email`](/zh/e/omni_email), [`omni_http`](/zh/e/omni_http), [`omni_httpc`](/zh/e/omni_httpc), [`omni_httpd`](/zh/e/omni_httpd), [`omni_id`](/zh/e/omni_id), [`omni_json`](/zh/e/omni_json), [`omni_kube`](/zh/e/omni_kube), [`omni_ledger`](/zh/e/omni_ledger), [`omni_manifest`](/zh/e/omni_manifest), [`omni_mimetypes`](/zh/e/omni_mimetypes), [`omni_os`](/zh/e/omni_os), [`omni_polyfill`](/zh/e/omni_polyfill), [`omni_python`](/zh/e/omni_python), [`omni_regex`](/zh/e/omni_regex), [`omni_rest`](/zh/e/omni_rest), [`omni_schema`](/zh/e/omni_schema), [`omni_seq`](/zh/e/omni_seq), [`omni_service`](/zh/e/omni_service), [`omni_session`](/zh/e/omni_session), [`omni_sql`](/zh/e/omni_sql), [`omni_sqlite`](/zh/e/omni_sqlite), [`omni_test`](/zh/e/omni_test), [`omni_txn`](/zh/e/omni_txn), [`omni_types`](/zh/e/omni_types), [`omni_var`](/zh/e/omni_var), [`omni_vfs`](/zh/e/omni_vfs), [`omni_vfs_types_v1`](/zh/e/omni_vfs_types_v1), [`omni_web`](/zh/e/omni_web), [`omni_worker`](/zh/e/omni_worker), [`omni_xml`](/zh/e/omni_xml), [`omni_yaml`](/zh/e/omni_yaml) |
+| [`pllua`](/zh/e/pllua) | [`pllua`](/zh/e/pllua), [`hstore_pllua`](/zh/e/hstore_pllua), [`plluau`](/zh/e/plluau), [`hstore_plluau`](/zh/e/hstore_plluau) |
+| [`pltcl`](/zh/e/pltcl) | [`pltcl`](/zh/e/pltcl), [`pltclu`](/zh/e/pltclu) |
+| [`plperl`](/zh/e/plperl) | [`plperl`](/zh/e/plperl), [`bool_plperl`](/zh/e/bool_plperl), [`hstore_plperl`](/zh/e/hstore_plperl), [`jsonb_plperl`](/zh/e/jsonb_plperl) |
+| [`plperlu`](/zh/e/plperlu) | [`plperlu`](/zh/e/plperlu), [`bool_plperlu`](/zh/e/bool_plperlu), [`jsonb_plperlu`](/zh/e/jsonb_plperlu), [`hstore_plperlu`](/zh/e/hstore_plperlu) |
+| [`plpython3u`](/zh/e/plpython3u) | [`plpython3u`](/zh/e/plpython3u), [`jsonb_plpython3u`](/zh/e/jsonb_plpython3u), [`ltree_plpython3u`](/zh/e/ltree_plpython3u), [`hstore_plpython3u`](/zh/e/hstore_plpython3u) |
+| [`pg_xenophile`](/zh/e/pg_xenophile) | [`pg_xenophile`](/zh/e/pg_xenophile), [`l10n_table_dependent_extension`](/zh/e/l10n_table_dependent_extension) |
+| [`pg_readme`](/zh/e/pg_readme) | [`pg_readme`](/zh/e/pg_readme), [`pg_readme_test_extension`](/zh/e/pg_readme_test_extension) |
+| [`pgpool`](/zh/e/pgpool_adm) | [`pgpool_adm`](/zh/e/pgpool_adm), [`pgpool_recovery`](/zh/e/pgpool_recovery), [`pgpool_regclass`](/zh/e/pgpool_regclass) |
+| [`pgnodemx`](/zh/e/pgnodemx) | [`pgnodemx`](/zh/e/pgnodemx), [`pg_proctab`](/zh/e/pg_proctab) |
+| [`passwordcheck`](/zh/e/passwordcheck_cracklib) | [`passwordcheck_cracklib`](/zh/e/passwordcheck_cracklib), [`passwordcheck`](/zh/e/passwordcheck) |
+| [`documentdb`](/zh/e/documentdb) | [`documentdb`](/zh/e/documentdb), [`documentdb_core`](/zh/e/documentdb_core), [`documentdb_distributed`](/zh/e/documentdb_distributed) |
+| [`pglogical`](/zh/e/pglogical) | [`pglogical`](/zh/e/pglogical), [`pglogical_origin`](/zh/e/pglogical_origin) |
