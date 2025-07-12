@@ -160,14 +160,14 @@ class FumaDocsLinkChecker:
             # Handle index files for Chinese version
             if zh_relative.endswith("/index"):
                 zh_relative = zh_relative.replace("/index", "/")
-            elif cn_relative == "index":
-                cn_relative = "/"
+            elif zh_relative == "index":
+                zh_relative = "/"
             
-            # Add /cn prefix to the resolved path
-            if cn_relative == "/":
-                relative_path = "/cn"
+            # Add /zh prefix to the resolved path
+            if zh_relative == "/":
+                relative_path = "/zh"
             else:
-                relative_path = "/cn" + cn_relative
+                relative_path = "/zh" + zh_relative
         
         return relative_path
     
@@ -200,10 +200,10 @@ class FumaDocsLinkChecker:
                         self.file_to_url_map[virtual_file] = url
                         
                         # Add Chinese version
-                        cn_url = f"/cn/e/{ext_name}"
-                        cn_virtual_file = f"virtual://extension/{ext_name}.cn.mdx"
-                        self.url_to_file_map[cn_url] = cn_virtual_file
-                        self.file_to_url_map[cn_virtual_file] = cn_url
+                        zh_url = f"/zh/e/{ext_name}"
+                        zh_virtual_file = f"virtual://extension/{ext_name}.zh.mdx"
+                        self.url_to_file_map[zh_url] = zh_virtual_file
+                        self.file_to_url_map[zh_virtual_file] = zh_url
                         
                         # Add category-based URLs: /ext/{category}/{ext_name}/
                         if category:
@@ -213,18 +213,18 @@ class FumaDocsLinkChecker:
                             self.file_to_url_map[category_virtual_file] = category_url
                             
                             # Add Chinese version for category URLs
-                            cn_category_url = f"/cn/ext/{category}/{ext_name}/"
-                            cn_category_virtual_file = f"virtual://extension/{category}/{ext_name}.cn.mdx"
-                            self.url_to_file_map[cn_category_url] = cn_category_virtual_file
-                            self.file_to_url_map[cn_category_virtual_file] = cn_category_url
+                            zh_category_url = f"/zh/ext/{category}/{ext_name}/"
+                            zh_category_virtual_file = f"virtual://extension/{category}/{ext_name}.zh.mdx"
+                            self.url_to_file_map[zh_category_url] = zh_category_virtual_file
+                            self.file_to_url_map[zh_category_virtual_file] = zh_category_url
                             
                             # Add common anchors for category-based pages
                             self._add_extension_anchors(category_virtual_file)
-                            self._add_extension_anchors(cn_category_virtual_file)
+                            self._add_extension_anchors(zh_category_virtual_file)
                         
                         # Add common anchors that would be found in extension pages
                         self._add_extension_anchors(virtual_file)
-                        self._add_extension_anchors(cn_virtual_file)
+                        self._add_extension_anchors(zh_virtual_file)
                         
             except Exception as e:
                 print(f"Warning: Could not load extensions index: {e}")
@@ -255,10 +255,10 @@ class FumaDocsLinkChecker:
                     self.file_to_url_map[virtual_file] = url
                     
                     # Add Chinese version
-                    cn_url = f"/cn/e/{ext_name}"
-                    cn_virtual_file = f"virtual://extension/{ext_name}.cn.mdx"
-                    self.url_to_file_map[cn_url] = cn_virtual_file
-                    self.file_to_url_map[cn_virtual_file] = cn_url
+                    zh_url = f"/zh/e/{ext_name}"
+                    zh_virtual_file = f"virtual://extension/{ext_name}.zh.mdx"
+                    self.url_to_file_map[zh_url] = zh_virtual_file
+                    self.file_to_url_map[zh_virtual_file] = zh_url
                     
                     # Add category-based URLs: /ext/{category}/{ext_name}/
                     if category:
@@ -268,18 +268,18 @@ class FumaDocsLinkChecker:
                         self.file_to_url_map[category_virtual_file] = category_url
                         
                         # Add Chinese version for category URLs
-                        cn_category_url = f"/cn/ext/{category}/{ext_name}/"
-                        cn_category_virtual_file = f"virtual://extension/{category}/{ext_name}.cn.mdx"
-                        self.url_to_file_map[cn_category_url] = cn_category_virtual_file
-                        self.file_to_url_map[cn_category_virtual_file] = cn_category_url
+                        zh_category_url = f"/zh/ext/{category}/{ext_name}/"
+                        zh_category_virtual_file = f"virtual://extension/{category}/{ext_name}.zh.mdx"
+                        self.url_to_file_map[zh_category_url] = zh_category_virtual_file
+                        self.file_to_url_map[zh_category_virtual_file] = zh_category_url
                         
                         # Add common anchors for category-based pages
                         self._add_extension_anchors(category_virtual_file)
-                        self._add_extension_anchors(cn_category_virtual_file)
+                        self._add_extension_anchors(zh_category_virtual_file)
                     
                     # Add common anchors that would be found in extension pages
                     self._add_extension_anchors(virtual_file)
-                    self._add_extension_anchors(cn_virtual_file)
+                    self._add_extension_anchors(zh_virtual_file)
                     
             except Exception as e:
                 print(f"Warning: Could not scan extension files: {e}")

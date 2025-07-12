@@ -1586,7 +1586,7 @@ class ExtensionListGenerator:
             extension_cards = self.table_gen.generate_extension_cards(cat_extensions, self.config, is_chinese=False)
             
             # Generate Chinese extension cards
-            extension_cards_cn = self.table_gen.generate_extension_cards(cat_extensions, self.config, is_chinese=True)
+            extension_cards_zh = self.table_gen.generate_extension_cards(cat_extensions, self.config, is_chinese=True)
             
             # Generate meta.json files for navigation
             self._generate_meta_json_files(category, cat_extensions)
@@ -1613,7 +1613,7 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
 '''
             
             # Chinese version  
-            cn_content = f'''---
+            zh_content = f'''---
 title: {category}
 description: "{meta["zh_desc"]}"
 icon: {meta["icon"]}
@@ -1626,11 +1626,11 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
 
 {category} 分类包含 **{count}** 个 PostgreSQL 扩展。
 
-{self.table_gen.generate_category_table_cn(cat_extensions)}
+{self.table_gen.generate_category_table_zh(cat_extensions)}
 
 --------
 
-{extension_cards_cn}
+{extension_cards_zh}
 '''
             
             # Write category pages
@@ -1644,13 +1644,13 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
             print(f"Generated: {en_path}")
             
             # Chinese version
-            cn_path = os.path.join(category_dir, 'index.cn.mdx')
-            with open(cn_path, 'w', encoding='utf-8') as f:
-                f.write(cn_content)
-            print(f"Generated: {cn_path}")
+            zh_path = os.path.join(category_dir, 'index.zh.mdx')
+            with open(zh_path, 'w', encoding='utf-8') as f:
+                f.write(zh_content)
+            print(f"Generated: {zh_path}")
     
     def _generate_meta_json_files(self, category: str, extensions: List[Extension]):
-        """Generate meta.json and meta.cn.json files for a category."""
+        """Generate meta.json and meta.zh.json files for a category."""
         import json
         
         # Create category directory if it doesn't exist
@@ -1659,14 +1659,14 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
         
         # Generate pages array for English
         en_pages = []
-        cn_pages = []
+        zh_pages = []
         
         for ext in extensions:
             # English version
             en_pages.append(f"[{ext.name}](/e/{ext.name})")
             
             # Chinese version  
-            cn_pages.append(f"[{ext.name}](/cn/e/{ext.name})")
+            zh_pages.append(f"[{ext.name}](/zh/e/{ext.name})")
         
         # Generate English meta.json
         en_meta = {
@@ -1678,15 +1678,15 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
             json.dump(en_meta, f, indent=2, ensure_ascii=False)
         print(f"Generated: {en_meta_path}")
         
-        # Generate Chinese meta.cn.json
-        cn_meta = {
-            "pages": cn_pages
+        # Generate Chinese meta.zh.json
+        zh_meta = {
+            "pages": zh_pages
         }
         
-        cn_meta_path = os.path.join(category_dir, 'meta.cn.json')
-        with open(cn_meta_path, 'w', encoding='utf-8') as f:
-            json.dump(cn_meta, f, indent=2, ensure_ascii=False)
-        print(f"Generated: {cn_meta_path}")
+        zh_meta_path = os.path.join(category_dir, 'meta.zh.json')
+        with open(zh_meta_path, 'w', encoding='utf-8') as f:
+            json.dump(zh_meta, f, indent=2, ensure_ascii=False)
+        print(f"Generated: {zh_meta_path}")
 
 
 def main():
