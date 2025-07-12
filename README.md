@@ -1,13 +1,13 @@
 # PostgreSQL Extension Catalog
 
-[![Webite: ext.pigsty.io](https://img.shields.io/badge/website-pigsty.io-slategray?style=flat&logo=cilium&logoColor=white)](https://ext.pigsty.io)
+[![Webite: ext.pgsty.com](https://img.shields.io/badge/website-pigsty.io-slategray?style=flat&logo=cilium&logoColor=white)](https://ext.pgsty.com)
 [![CLI: pig v0.5.0](https://img.shields.io/badge/pig-v0.4.2-slategray?style=flat&logo=cilium&logoColor=white)](https://github.com/pgsty/pig)
 [![Extensions: 423](https://img.shields.io/badge/extensions-423-%233E668F?style=flat&logo=postgresql&logoColor=white&labelColor=3E668F)](https://pigsty.io/ext/list)
 [![License: Apache-2.0](https://img.shields.io/github/license/pgsty/extension?logo=opensourceinitiative&logoColor=green&color=slategray)](https://github.com/pgsty/pig/blob/main/LICENSE)
 
 The supplementary [APT](#apt-repo) and [YUM](#yum-repo) repo for PostgreSQL extensions, maintained and used by [Pigsty](https://www.pigsty.io)
 
-Provide [423](https://ext.pigsty.io/list) available extensions as [RPM](#) / [DEB](#) for PostgreSQL **13** - **17** in addition to the official PGDG repo.
+Provide [423](https://ext.pgsty.com/list) available extensions as RPM / DEB for PostgreSQL **13** - **17** in addition to the official PGDG repo.
 
 Available on Linux: Debian 12 / Ubuntu 24.04 / 22.04 / EL8 / EL9 compatible distros, and `x86_64` & `ARM64` arch.
 
@@ -31,7 +31,7 @@ Available on Linux: Debian 12 / Ubuntu 24.04 / 22.04 / EL8 / EL9 compatible dist
 
 ### Pig CLI
 
-You can use the [`pig`](/pig) cli tool (pg package manager) or just use the traditional way. It's up to you.
+You can use the [`pig`](https://ext.pgsty.com/pig) cli tool (pg package manager) or just use the traditional way. It's up to you.
 
 ```bash
 curl -fsSL https://repo.pigsty.io/pig | bash  # install pig rpm/deb package
@@ -42,11 +42,11 @@ $ pig ext install pg_duckdb                   # install the pg_duckdb extension 
 
 ### APT Repo
 
-[![Linux AMD](https://img.shields.io/badge/Linux-AMD64-%%23FCC624?style=flat&logo=linux&labelColor=FCC624&logoColor=black)](https://pigsty.io/docs/node)
-[![Linux ARM](https://img.shields.io/badge/Linux-ARM64-%%23FCC624?style=flat&logo=linux&labelColor=FCC624&logoColor=black)](https://pigsty.io/docs/node)
-[![Ubuntu Support: 24](https://img.shields.io/badge/Ubuntu-24/noble-%%23E95420?style=flat&logo=ubuntu&logoColor=%%23E95420)](https://pigsty.io/docs/pgext/list/deb/)
-[![Ubuntu Support: 22](https://img.shields.io/badge/Ubuntu-22/jammy-%%23E95420?style=flat&logo=ubuntu&logoColor=%%23E95420)](https://pigsty.io/docs/pgext/list/deb/)
-[![Debian Support: 12](https://img.shields.io/badge/Debian-12/bookworm-%%23A81D33?style=flat&logo=debian&logoColor=%%23A81D33)](https://pigsty.io/docs/reference/compatibility/)
+[![Linux AMD](https://img.shields.io/badge/Linux-AMD64-%%23FCC624?style=flat&logo=linux&labelColor=FCC624&logoColor=black)](https://doc.pgsty.com/node)
+[![Linux ARM](https://img.shields.io/badge/Linux-ARM64-%%23FCC624?style=flat&logo=linux&labelColor=FCC624&logoColor=black)](https://doc.pgsty.com/node)
+[![Ubuntu Support: 24](https://img.shields.io/badge/Ubuntu-24/noble-%%23E95420?style=flat&logo=ubuntu&logoColor=%%23E95420)](https://ext.pgsty.com.com/list/)
+[![Ubuntu Support: 22](https://img.shields.io/badge/Ubuntu-22/jammy-%%23E95420?style=flat&logo=ubuntu&logoColor=%%23E95420)](https://ext.pgsty.com/list/)
+[![Debian Support: 12](https://img.shields.io/badge/Debian-12/bookworm-%%23A81D33?style=flat&logo=debian&logoColor=%%23A81D33)](https://doc.pgsty.com/prepare/linux/)
 
 All rpm/deb packages are signed with GPG key `B9BD8B20` (`9592A7BC7A682E7333376E09E7935D8DB9BD8B20` ).
 
@@ -86,9 +86,9 @@ sudo yum makecache; # sudo yum install pig
 
 ## What's Inside
 
-Linux x86_64/amd64 [Extension](/list) packages for PostgreSQL 12 - 17, on El8, EL9, Ubuntu 22.04 and Debian 12.
+Linux x86_64/amd64 [Extension](https://ext.pgsty.com/list) packages for PostgreSQL 12 - 17, on El8, EL9, Ubuntu 22.04 and Debian 12.
 
-Check the [extension list](https://ext.pigsty.io/#/list) for details.
+Check the [extension list](https://ext.pgsty.com/list) for details.
 
 
 ----------------
@@ -96,9 +96,9 @@ Check the [extension list](https://ext.pigsty.io/#/list) for details.
 ## Contrib
 
 If you have any suggestions on including new extensions or bumping to new versions, or find any mistake about metadata,
-PR or [Issue](https://github.com/pgsty/extension/issues/new) are welcome!
+PR or [Issue](https://github.com/pgsty/ext/issues/new) are welcome!
 
-You can edit the [`pigsty.csv`](https://github.com/pgsty/extension/blob/main/data/pigsty.csv) raw data and create a pull
+You can edit the [`pigsty.csv`](https://github.com/pgsty/ext/blob/main/data/extension.csv) raw data and create a pull
 request to update the metadata.
 
 You can also suggest new extensions [here](https://github.com/orgs/pgsty/discussions/333)
