@@ -126,40 +126,40 @@ class FumaDocsLinkChecker:
         if not relative_path.startswith("/"):
             relative_path = "/" + relative_path
         
-        # Handle Chinese/international routing (cn suffix)
-        # If file has .cn.mdx, it should map to /cn/ prefix
+        # Handle Chinese/international routing (zh suffix)
+        # If file has .zh.mdx, it should map to /zh/ prefix
         original_file = file_path.replace(self.content_dir + "/", "")
-        if original_file.endswith(".cn.mdx"):
+        if original_file.endswith(".zh.mdx"):
             # Extract the Chinese version path by processing the same way as English version
-            cn_file_path = original_file.replace(".cn.mdx", ".mdx")
-            cn_relative = cn_file_path.replace(".mdx", "")
+            zh_file_path = original_file.replace(".zh.mdx", ".mdx")
+            zh_relative = zh_file_path.replace(".mdx", "")
             
-            if cn_relative.startswith("docs/"):
+            if zh_relative.startswith("docs/"):
                 # Remove "docs/" prefix to get the actual path
-                inner_path = cn_relative[5:]
+                inner_path = zh_relative[5:]
                 
                 # docs/index.mdx -> / (home page)
                 if inner_path == "index" or inner_path == "":
-                    cn_relative = "/"
+                    zh_relative = "/"
                 # Special handling for docs/docs/* -> /docs/*
                 elif inner_path.startswith("docs/"):
-                    cn_relative = "/" + inner_path
+                    zh_relative = "/" + inner_path
                 # Special handling for other sections that map to root level
                 elif inner_path.startswith(("ext/", "pgsql/", "node/", "infra/", "redis/", "minio/", "etcd/", "ferret/", "docker/", "app/")):
-                    cn_relative = "/" + inner_path
+                    zh_relative = "/" + inner_path
                 else:
                     # Other content in docs/ maps to root
-                    cn_relative = "/" + inner_path
-            elif cn_relative.startswith("stub/"):
+                    zh_relative = "/" + inner_path
+            elif zh_relative.startswith("stub/"):
                 # content/stub/* maps to /stub/*
-                cn_relative = "/" + cn_relative
+                zh_relative = "/" + zh_relative
             else:
-                if not cn_relative.startswith("/"):
-                    cn_relative = "/" + cn_relative
+                if not zh_relative.startswith("/"):
+                    zh_relative = "/" + zh_relative
             
             # Handle index files for Chinese version
-            if cn_relative.endswith("/index"):
-                cn_relative = cn_relative.replace("/index", "/")
+            if zh_relative.endswith("/index"):
+                zh_relative = zh_relative.replace("/index", "/")
             elif cn_relative == "index":
                 cn_relative = "/"
             

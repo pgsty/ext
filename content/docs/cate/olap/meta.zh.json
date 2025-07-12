@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "[citus](/zh/e/citus)",
+    "[citus_columnar](/zh/e/citus_columnar)",
+    "[columnar](/zh/e/columnar)",
+    "[duckdb_fdw](/zh/e/duckdb_fdw)",
+    "[pg_analytics](/zh/e/pg_analytics)",
+    "[pg_duckdb](/zh/e/pg_duckdb)",
+    "[pg_fkpart](/zh/e/pg_fkpart)",
+    "[pg_mooncake](/zh/e/pg_mooncake)",
+    "[pg_parquet](/zh/e/pg_parquet)",
+    "[pg_partman](/zh/e/pg_partman)",
+    "[pg_strom](/zh/e/pg_strom)",
+    "[plproxy](/zh/e/plproxy)",
+    "[tablefunc](/zh/e/tablefunc)"
+  ]
+}

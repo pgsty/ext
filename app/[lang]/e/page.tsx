@@ -168,7 +168,7 @@ export default async function ExtensionsPage({
                 </thead>
                 <tbody>
                   {sortedExtensions.map(ext => {
-                    const description = lang === 'cn' && ext.zh_desc 
+                    const description = lang === 'zh' && ext.zh_desc
                       ? ext.zh_desc 
                       : ext.en_desc || 'No description available';
                     

@@ -9,7 +9,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Button, ButtonProps } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { zh } from "@/lib/utils";
 
 export type TooltipIconButtonProps = ButtonProps & {
   tooltip: string;
@@ -28,7 +28,7 @@ export const TooltipIconButton = forwardRef<
             variant="ghost"
             size="icon"
             {...rest}
-            className={cn("size-6 p-1", className)}
+            className={zh("size-6 p-1", className)}
             ref={ref}
           >
             {children}

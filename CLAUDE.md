@@ -69,9 +69,9 @@ Each extension has a corresponding MDX file in `content/docs/ext/` following the
 
 ### Internationalization
 - Default language: English (`en`)
-- Secondary language: Chinese (`cn`)
-- Locale-specific content in `content/docs/` with `.cn.mdx` suffixes
-- Search configured with Chinese tokenizer for CN locale
+- Secondary language: Chinese (`zh`)
+- Locale-specific content in `content/docs/` with `.zh.mdx` suffixes
+- Search configured with Chinese tokenizer for zh locale
 
 ## Development Notes
 
@@ -93,10 +93,10 @@ Use `~/.venv/bin/activate` to use python virtual environment
 
 如果你收到了翻译任务，你应该读取指定的内容文件或者目录，将其翻译为指定的语言。
 
-作为一个示例，如果我要把 pgsql/acl.mdx 翻译成英文，那么你应该找到 content/docs/pgsql/acl.mdx 文件，将其翻译为 content/docs/pgsql/acl.cn.mdx 文件。
+作为一个示例，如果我要把 pgsql/acl.mdx 翻译成英文，那么你应该找到 content/docs/pgsql/acl.mdx 文件，将其翻译为 content/docs/pgsql/acl.zh.mdx 文件。
 这里特别需要注意的是，在翻译非英文版本的文档过程中：
 
-1. 你应该保留所有的 Markdown 链接，如果这是一个相对链接，那么你应该意识到，在其他语言的翻译中应该加上对应前缀。比如在中文翻译中你需要加上 `/cn/` 前缀来引用文档
+1. 你应该保留所有的 Markdown 链接，如果这是一个相对链接，那么你应该意识到，在其他语言的翻译中应该加上对应前缀。比如在中文翻译中你需要加上 `/zh/` 前缀来引用文档
 2. 你应该保留所有 H2/H3/H4 等标题的英文锚点，然后在引用的链接中统一使用英文锚点。
 3. 你应该使用地道，信达雅，精准，干练，专业的用词来进行翻译，使用计算机领域与数据库领域的专业术语。
 

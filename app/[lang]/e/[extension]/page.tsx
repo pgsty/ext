@@ -110,7 +110,7 @@ async function getAllExtensions(): Promise<{ name: string; lang: string }[]> {
       .filter(file => file.endsWith('.json'))
       .map(file => file.replace('.json', ''));
     
-    const langs = ['en', 'cn'];
+    const langs = ['en', 'zh'];
     const params = [];
     
     for (const lang of langs) {
@@ -139,7 +139,7 @@ export default async function ExtensionPage({
   }
 
   // Use description based on language
-  const description = lang === 'cn' && extensionData.zh_desc 
+  const description = lang === 'zh' && extensionData.zh_desc
     ? extensionData.zh_desc 
     : extensionData.en_desc || 'PostgreSQL Extension';
 
@@ -178,7 +178,7 @@ export async function generateMetadata({
     };
   }
 
-  const description = lang === 'cn' && extensionData.zh_desc 
+  const description = lang === 'zh' && extensionData.zh_desc
     ? extensionData.zh_desc 
     : extensionData.en_desc || 'PostgreSQL Extension';
 

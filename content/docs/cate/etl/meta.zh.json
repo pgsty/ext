@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "[db_migrator](/zh/e/db_migrator)",
+    "[decoder_raw](/zh/e/decoder_raw)",
+    "[decoderbufs](/zh/e/decoderbufs)",
+    "[mimeo](/zh/e/mimeo)",
+    "[pg_bulkload](/zh/e/pg_bulkload)",
+    "[pg_fact_loader](/zh/e/pg_fact_loader)",
+    "[pg_failover_slots](/zh/e/pg_failover_slots)",
+    "[pgactive](/zh/e/pgactive)",
+    "[pgl_ddl_deploy](/zh/e/pgl_ddl_deploy)",
+    "[pglogical](/zh/e/pglogical)",
+    "[pglogical_origin](/zh/e/pglogical_origin)",
+    "[pglogical_ticker](/zh/e/pglogical_ticker)",
+    "[pgoutput](/zh/e/pgoutput)",
+    "[repmgr](/zh/e/repmgr)",
+    "[test_decoding](/zh/e/test_decoding)",
+    "[wal2json](/zh/e/wal2json)",
+    "[wal2mongo](/zh/e/wal2mongo)"
+  ]
+}

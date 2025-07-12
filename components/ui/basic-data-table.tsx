@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { ChevronUp, ChevronDown, Search, Filter } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { zh } from "@/lib/utils";
 
 export type DataTableColumn<T> = {
   key: keyof T;
@@ -139,7 +139,7 @@ export function DataTable<T extends Record<string, any>>({
   };
   if (loading) {
     return (
-      <div className={cn("w-full bg-card rounded-2xl ", className)}>
+      <div className={zh("w-full bg-card rounded-2xl ", className)}>
         <div className="animate-pulse p-6">
           {/* Search skeleton */}
           {searchable && <div className="mb-6 h-11 bg-muted rounded-2xl"></div>}
@@ -170,7 +170,7 @@ export function DataTable<T extends Record<string, any>>({
 
   return (
     <div
-      className={cn(
+      className={zh(
         "w-full bg-card rounded-2xl",
         bordered && "border border-border",
         className,
@@ -196,7 +196,7 @@ export function DataTable<T extends Record<string, any>>({
       )}
       {/* Table */}
       <div
-        className={cn(
+        className={zh(
           "overflow-hidden bg-muted/30",
           searchable ? "rounded-b-2xl" : "rounded-2xl",
         )}
@@ -209,7 +209,7 @@ export function DataTable<T extends Record<string, any>>({
                 {columns.map((column) => (
                   <th
                     key={String(column.key)}
-                    className={cn(
+                    className={zh(
                       "text-left font-medium text-muted-foreground bg-muted/30",
                       compact ? "px-4 py-3" : "px-6 py-4",
                       column.sortable &&
@@ -228,7 +228,7 @@ export function DataTable<T extends Record<string, any>>({
                         {column.sortable && (
                           <div className="flex flex-col">
                             <ChevronUp
-                              className={cn(
+                              className={zh(
                                 "h-3 w-3",
                                 sortConfig.key === column.key &&
                                   sortConfig.direction === "asc"
@@ -237,7 +237,7 @@ export function DataTable<T extends Record<string, any>>({
                               )}
                             />
                             <ChevronDown
-                              className={cn(
+                              className={zh(
                                 "h-3 w-3 -mt-1",
                                 sortConfig.key === column.key &&
                                   sortConfig.direction === "desc"
@@ -292,7 +292,7 @@ export function DataTable<T extends Record<string, any>>({
                 <tr>
                   <td
                     colSpan={columns.length}
-                    className={cn(
+                    className={zh(
                       "text-center text-muted-foreground bg-card",
                       compact ? "px-4 py-12" : "px-6 py-16",
                     )}
@@ -307,7 +307,7 @@ export function DataTable<T extends Record<string, any>>({
                 paginatedData.map((row, index) => (
                   <tr
                     key={index}
-                    className={cn(
+                    className={zh(
                       "border-t border-border bg-card transition-colors",
                       striped && index % 2 === 0 && "bg-muted/20",
                       hoverable && "hover:bg-muted/30",
@@ -318,7 +318,7 @@ export function DataTable<T extends Record<string, any>>({
                     {columns.map((column) => (
                       <td
                         key={String(column.key)}
-                        className={cn(
+                        className={zh(
                           "text-sm text-foreground",
                           compact ? "px-4 py-3" : "px-6 py-4",
                         )}
@@ -366,7 +366,7 @@ export function DataTable<T extends Record<string, any>>({
                   <button
                     key={pageNumber}
                     onClick={() => setCurrentPage(pageNumber)}
-                    className={cn(
+                    className={zh(
                       "px-3 py-2 text-sm border border-input rounded-2xl hover:bg-muted transition-colors",
                       currentPage === pageNumber &&
                         "bg-primary text-primary-foreground border-primary hover:bg-primary/90",

@@ -142,7 +142,7 @@ function formatLicenseTag(license: string, isChinese: boolean = false): React.JS
   
   const info = licenseMapping[license] || { name: license, anchor: license.toLowerCase().replace(/[^a-z0-9]/g, ''), variant: 'gray-subtle' };
   
-  const baseUrl = isChinese ? '/cn/list/license' : '/list/license';
+  const baseUrl = isChinese ? '/zh/list/license' : '/list/license';
   return (
     <a href={`${baseUrl}#${info.anchor}`} className="no-underline">
       <Badge icon={<Scale />} variant={info.variant as any}>{info.name}</Badge>
@@ -163,7 +163,7 @@ function formatLanguageTag(language: string, isChinese: boolean = false): React.
   
   const info = langMap[language] || { variant: 'gray-subtle', anchor: '/list/lang#other' };
   
-  const baseUrl = isChinese ? '/cn/ext' : '/ext';
+  const baseUrl = isChinese ? '/zh/ext' : '/ext';
   return (
     <a href={`${baseUrl}${info.anchor}`}>
       <Badge icon={<FileCode2 />} variant={info.variant as any}>{language || (isChinese ? "未知" : "N/A")}</Badge>
@@ -198,7 +198,7 @@ function formatCategoryTag(category: string, isChinese: boolean = false): React.
   };
   const IconComponent = iconComponentMap[meta.icon as keyof typeof iconComponentMap] || Blocks;
   
-  const baseUrl = isChinese ? '/cn/cate' : '/cate';
+  const baseUrl = isChinese ? '/zh/cate' : '/cate';
   return (
     <a href={`${baseUrl}/${category.toLowerCase()}`} className="no-underline">
       <Badge icon={<IconComponent />} variant={meta.color as any}>{category}</Badge>
@@ -373,7 +373,7 @@ function DependenciesSection({ ext, isChinese = false }: { ext: ExtensionData, i
     const depsLinks = ext.requires.map((dep, index) => (
       <span key={dep}>
         {index > 0 && ', '}
-        <Link href={`${isChinese ? '/cn' : ''}/e/${dep}`}><code>{dep}</code></Link>
+        <Link href={`${isChinese ? '/zh' : ''}/e/${dep}`}><code>{dep}</code></Link>
       </span>
     ));
     sections.push(
@@ -388,7 +388,7 @@ function DependenciesSection({ ext, isChinese = false }: { ext: ExtensionData, i
     const dependentLinks = ext.require_by.map((dep, index) => (
       <span key={dep}>
         {index > 0 && ', '}
-        <Link href={`${isChinese ? '/cn' : ''}/e/${dep}`}><code>{dep}</code></Link>
+        <Link href={`${isChinese ? '/zh' : ''}/e/${dep}`}><code>{dep}</code></Link>
       </span>
     ));
     sections.push(
@@ -513,7 +513,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
           {isChinese ? (
             <>
               扩展 <code>{ext.name}</code> 是 PostgreSQL 内置的{' '}
-              <a href="/cn/list/contrib"><strong>Contrib</strong></a> 扩展，随内核/contrib 一起安装。
+              <a href="/zh/list/contrib"><strong>Contrib</strong></a> 扩展，随内核/contrib 一起安装。
             </>
           ) : (
             <>
@@ -532,7 +532,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
           <div>
             {isChinese ? (
               <>
-                通过将此扩展添加到 shared_preload_libraries 来<a href="/cn/usage/load"><strong>加载</strong></a>：
+                通过将此扩展添加到 shared_preload_libraries 来<a href="/zh/usage/load"><strong>加载</strong></a>：
               </>
             ) : (
               <>
@@ -562,7 +562,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
           <div>
             {isChinese ? (
               <>
-                使用以下命令<a href="/cn/usage/create"><strong>创建</strong></a>此扩展：
+                使用以下命令<a href="/zh/usage/create"><strong>创建</strong></a>此扩展：
               </>
             ) : (
               <>
@@ -598,7 +598,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
       <div>
         {isChinese ? (
           <>
-            使用以下命令<a href="/cn/usage/install"><strong>安装</strong></a>此扩展：
+            使用以下命令<a href="/zh/usage/install"><strong>安装</strong></a>此扩展：
           </>
         ) : (
           <>
@@ -668,7 +668,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
         <div>
           {isChinese ? (
             <>
-              使用以下命令<a href="/cn/usage/config"><strong>加载</strong></a>此扩展：
+              使用以下命令<a href="/zh/usage/config"><strong>加载</strong></a>此扩展：
             </>
           ) : (
             <>
@@ -697,7 +697,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
         <div>
           {isChinese ? (
             <>
-              使用以下命令<a href="/cn/usage/create"><strong>创建</strong></a>此扩展：
+              使用以下命令<a href="/zh/usage/create"><strong>创建</strong></a>此扩展：
             </>
           ) : (
             <>
@@ -719,13 +719,13 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
           {isChinese ? (
             <>
               扩展 <code>{ext.name}</code>{' '}
-              <a href="/cn/usage/create#extension-without-ddl"><strong>不需要</strong></a>{' '}
+              <a href="/zh/usage/create#extension-without-ddl"><strong>不需要</strong></a>{' '}
               <code>CREATE EXTENSION</code> 命令。
             </>
           ) : (
             <>
               Extension <code>{ext.name}</code>{' '}
-              <a href="/cn/usage/create#extension-without-ddl"><strong>does not need</strong></a>{' '}
+              <a href="/zh/usage/create#extension-without-ddl"><strong>does not need</strong></a>{' '}
               <code>CREATE EXTENSION</code> command.
             </>
           )}
@@ -739,7 +739,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
 
 export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
   const pathname = usePathname();
-  const isChinese = pathname?.includes('/cn') || false;
+  const isChinese = pathname?.includes('/zh') || false;
   
   const nameLink = data.url ? (
     <a href={data.url}><code>{data.name}</code></a>
@@ -748,7 +748,7 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
   );
   
   const leadingExtension = data.siblings.find(sibling => sibling !== data.name) || data.lead_ext;
-  const baseUrl = isChinese ? '/cn/e' : '/e';
+  const baseUrl = isChinese ? '/zh/e' : '/e';
   const packageLink = data.pkg !== data.name && leadingExtension && leadingExtension !== data.name ? (
     <a href={`${baseUrl}/${leadingExtension}`}><code>{data.pkg}</code></a>
   ) : (

@@ -3,7 +3,7 @@ import { RootProvider } from 'fumadocs-ui/provider';
 import type { Translations } from 'fumadocs-ui/i18n';
 import { Analytics } from '@vercel/analytics/react';
 
-const cn: Partial<Translations> = {
+const zh: Partial<Translations> = {
   search: '搜索',
   searchNoResult: '未找到',
   toc: '目录',
@@ -23,7 +23,7 @@ const locales = [
   },
   {
     name: '简体中文',
-    locale: 'cn',
+    locale: 'zh',
   },
 ];
 
@@ -43,7 +43,7 @@ export default async function RootLayout({
           i18n={{
             locale: lang,
             locales,
-            translations: { cn }[lang],
+            translations: { zh }[lang],
           }}
 
         >

@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "[anon](/zh/e/anon)",
+    "[auth_delay](/zh/e/auth_delay)",
+    "[credcheck](/zh/e/credcheck)",
+    "[logerrors](/zh/e/logerrors)",
+    "[login_hook](/zh/e/login_hook)",
+    "[noset](/zh/e/noset)",
+    "[passwordcheck](/zh/e/passwordcheck)",
+    "[passwordcheck_cracklib](/zh/e/passwordcheck_cracklib)",
+    "[pg_auditor](/zh/e/pg_auditor)",
+    "[pg_auth_mon](/zh/e/pg_auth_mon)",
+    "[pg_jobmon](/zh/e/pg_jobmon)",
+    "[pg_session_jwt](/zh/e/pg_session_jwt)",
+    "[pg_snakeoil](/zh/e/pg_snakeoil)",
+    "[pg_tde](/zh/e/pg_tde)",
+    "[pgaudit](/zh/e/pgaudit)",
+    "[pgauditlogtofile](/zh/e/pgauditlogtofile)",
+    "[pgcrypto](/zh/e/pgcrypto)",
+    "[pgcryptokey](/zh/e/pgcryptokey)",
+    "[pgextwlist](/zh/e/pgextwlist)",
+    "[pgsmcrypto](/zh/e/pgsmcrypto)",
+    "[pgsodium](/zh/e/pgsodium)",
+    "[sepgsql](/zh/e/sepgsql)",
+    "[set_user](/zh/e/set_user)",
+    "[sslutils](/zh/e/sslutils)",
+    "[supabase_vault](/zh/e/supabase_vault)",
+    "[supautils](/zh/e/supautils)"
+  ]
+}

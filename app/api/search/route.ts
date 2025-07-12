@@ -7,7 +7,7 @@ export const { GET } = createFromSource(source,  {
   localeMap: {
     // you can customise search configs for specific locales, like:
     // [locale]: Orama options
-    cn: {
+    zh: {
       components: {
         tokenizer: createTokenizer(),
       },

@@ -371,7 +371,7 @@ class TableGenerator:
         
         return '\n'.join(rows)
     
-    def generate_category_table_cn(self, extensions: List[Extension]) -> str:
+    def generate_category_table_zh(self, extensions: List[Extension]) -> str:
         """Generate Chinese extension table for category lists."""
         if not extensions:
             return "未找到扩展。"
@@ -380,10 +380,10 @@ class TableGenerator:
         rows = [self._format_table_header(headers, [':---:',':---',':---',':---',':---'])]
         
         for ext in extensions:
-            package_cell = f'[`{ext.pkg}`](/cn/e/{self.leading_map.get(ext.pkg, ext.name)})'
+            package_cell = f'[`{ext.pkg}`](/zh/e/{self.leading_map.get(ext.pkg, ext.name)})'
             row_data = [
                 str(ext.id),
-                f'[`{ext.name}`](/cn/e/{ext.name})',
+                f'[`{ext.name}`](/zh/e/{ext.name})',
                 package_cell,
                 ext.version or 'N/A',
                 ext.zh_desc or ext.en_desc or '暂无描述'
@@ -442,7 +442,7 @@ class TableGenerator:
             trust_badge = '<Badge variant="green-subtle">TRUST</Badge>' if ext.trusted else ''
             
             # Website link with localized labels
-            path_prefix = '/cn' if is_chinese else ''
+            path_prefix = '/zh' if is_chinese else ''
             ext_label = "扩展" if is_chinese else "Extension"
             website_label = "网站" if is_chinese else "Website"
             attrs_label = "属性" if is_chinese else "Attributes"
@@ -725,18 +725,18 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
         print("Generating Chinese category list...")
         
         # Generate Chinese category overview table
-        cn_category_table_rows = []
+        zh_category_table_rows = []
         for category in CATEGORY_META.keys():
             count = len(category_groups[category])
             meta = CATEGORY_META[category]
-            cn_category_table_rows.append(f'| {BadgeFormatter.format_category(category)} | {count} | {meta["zh_desc"]} |')
+            zh_category_table_rows.append(f'| {BadgeFormatter.format_category(category)} | {count} | {meta["zh_desc"]} |')
         
-        cn_category_overview_table = f'''| 分类 | 数量 | 描述 |
+        zh_category_overview_table = f'''| 分类 | 数量 | 描述 |
 |:---------|:-----:|:------------|
-{chr(10).join(cn_category_table_rows)}'''
+{chr(10).join(zh_category_table_rows)}'''
         
         # Generate Chinese category sections
-        cn_category_sections = []
+        zh_category_sections = []
         for category in CATEGORY_META.keys():
             if category not in category_groups:
                 continue
@@ -752,11 +752,11 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
 
 {BadgeFormatter.format_category(category)} <Badge variant="gray-subtle">{count} 个扩展</Badge>
 
-{self.table_gen.generate_category_table_cn(cat_extensions)}
+{self.table_gen.generate_category_table_zh(cat_extensions)}
 '''
-            cn_category_sections.append(section)
+            zh_category_sections.append(section)
         
-        cn_content = f'''---
+        zh_content = f'''---
 title: 按分类
 description: 按功能分类组织的 PostgreSQL 扩展
 icon: Shapes
@@ -785,12 +785,12 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
 
 ## 概览
 
-{cn_category_overview_table}
+{zh_category_overview_table}
 
-{''.join(cn_category_sections)}
+{''.join(zh_category_sections)}
 '''
         
-        self.write_content('cate.cn.mdx', cn_content)
+        self.write_content('cate.zh.mdx', zh_content)
 
 
 class LinuxDistroGenerator(ContentGenerator):

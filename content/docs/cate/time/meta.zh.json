@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "[emaj](/zh/e/emaj)",
+    "[periods](/zh/e/periods)",
+    "[pg_background](/zh/e/pg_background)",
+    "[pg_cron](/zh/e/pg_cron)",
+    "[pg_later](/zh/e/pg_later)",
+    "[pg_task](/zh/e/pg_task)",
+    "[table_version](/zh/e/table_version)",
+    "[temporal_tables](/zh/e/temporal_tables)",
+    "[timescaledb](/zh/e/timescaledb)",
+    "[timescaledb_toolkit](/zh/e/timescaledb_toolkit)",
+    "[timeseries](/zh/e/timeseries)"
+  ]
+}
