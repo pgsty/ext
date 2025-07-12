@@ -1,113 +1,352 @@
 ---
-title: By Linux
-description: PostgreSQL extensions availability by Linux distros
+title: By Linux Distribution
+description: PostgreSQL extensions with availability issues on Linux platforms
 icon: Server
 full: true
 ---
 
 import { Badge } from '@/components/ui/badge';
 
+This page lists PostgreSQL extensions that have availability issues on specific Linux distributions and architectures. Extensions are analyzed across 10 platform combinations (5 distributions × 2 architectures).
 
-## EL8
-
-Enterprise Linux 8 (RHEL 8, CentOS 8, Rocky 8, Alma 8)
-
-<Badge variant="blue-subtle">x86_64</Badge> <Badge variant="gray-subtle">1640 Packages</Badge>
-
-<Badge variant="orange-subtle">aarch64</Badge> <Badge variant="gray-subtle">1600 Packages</Badge>
-
-<Badge variant="green-subtle">Total</Badge> <Badge variant="gray-subtle">311 Extensions</Badge>
-
-### Missing Extensions
-
-[`adminpack`](/e/adminpack) [`amcheck`](/e/amcheck) [`auth_delay`](/e/auth_delay) [`auto_explain`](/e/auto_explain) [`autoinc`](/e/autoinc) [`babelfishpg_common`](/e/babelfishpg_common) [`babelfishpg_money`](/e/babelfishpg_money) [`babelfishpg_tds`](/e/babelfishpg_tds) [`babelfishpg_tsql`](/e/babelfishpg_tsql) [`basebackup_to_shell`](/e/basebackup_to_shell) [`basic_archive`](/e/basic_archive) [`bloom`](/e/bloom) [`bool_plperl`](/e/bool_plperl) [`bool_plperlu`](/e/bool_plperlu) [`btree_gin`](/e/btree_gin) [`btree_gist`](/e/btree_gist) [`citext`](/e/citext) [`collection`](/e/collection) [`cube`](/e/cube) [`dblink`](/e/dblink) ... and 92 more
-
-### Partially Available Extensions
-
-- [`db2_fdw`](/e/db2_fdw) (missing on: aarch64)
-- [`extra_window_functions`](/e/extra_window_functions) (missing on: x86_64)
-- [`hstore_pllua`](/e/hstore_pllua) (missing on: aarch64)
-- [`hstore_plluau`](/e/hstore_plluau) (missing on: aarch64)
-- [`hunspell_pt_pt`](/e/hunspell_pt_pt) (missing on: aarch64)
-- [`jdbc_fdw`](/e/jdbc_fdw) (missing on: aarch64)
-- [`oracle_fdw`](/e/oracle_fdw) (missing on: aarch64)
-- [`pg_strom`](/e/pg_strom) (missing on: aarch64)
-- [`pgmp`](/e/pgmp) (missing on: x86_64)
-- [`pllua`](/e/pllua) (missing on: aarch64)
-- ... and 2 more
+**Platform Status Legend:**
+- <Badge variant="blue-subtle">✓</Badge> Available
+- <Badge variant="amber-subtle">⚠</Badge> Available with warnings  
+- <Badge variant="red-subtle">✗</Badge> Missing or hidden
 
 
-## EL9
+## EL8.X86_64
 
-Enterprise Linux 9 (RHEL 9, CentOS 9, Rocky 9, Alma 9)
+Enterprise Linux 8 (x86_64)
 
-<Badge variant="blue-subtle">x86_64</Badge> <Badge variant="gray-subtle">1639 Packages</Badge>
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">23 Extensions</Badge>
 
-<Badge variant="orange-subtle">aarch64</Badge> <Badge variant="gray-subtle">1608 Packages</Badge>
-
-<Badge variant="green-subtle">Total</Badge> <Badge variant="gray-subtle">310 Extensions</Badge>
-
-### Missing Extensions
-
-[`adminpack`](/e/adminpack) [`amcheck`](/e/amcheck) [`auth_delay`](/e/auth_delay) [`auto_explain`](/e/auto_explain) [`autoinc`](/e/autoinc) [`babelfishpg_common`](/e/babelfishpg_common) [`babelfishpg_money`](/e/babelfishpg_money) [`babelfishpg_tds`](/e/babelfishpg_tds) [`babelfishpg_tsql`](/e/babelfishpg_tsql) [`basebackup_to_shell`](/e/basebackup_to_shell) [`basic_archive`](/e/basic_archive) [`bloom`](/e/bloom) [`bool_plperl`](/e/bool_plperl) [`bool_plperlu`](/e/bool_plperlu) [`btree_gin`](/e/btree_gin) [`btree_gist`](/e/btree_gist) [`citext`](/e/citext) [`collection`](/e/collection) [`cube`](/e/cube) [`dblink`](/e/dblink) ... and 93 more
-
-### Partially Available Extensions
-
-- [`db2_fdw`](/e/db2_fdw) (missing on: aarch64)
-- [`extra_window_functions`](/e/extra_window_functions) (missing on: x86_64)
-- [`hstore_pllua`](/e/hstore_pllua) (missing on: aarch64)
-- [`hstore_plluau`](/e/hstore_plluau) (missing on: aarch64)
-- [`hunspell_pt_pt`](/e/hunspell_pt_pt) (missing on: aarch64)
-- [`jdbc_fdw`](/e/jdbc_fdw) (missing on: aarch64)
-- [`jsquery`](/e/jsquery) (missing on: x86_64)
-- [`oracle_fdw`](/e/oracle_fdw) (missing on: aarch64)
-- [`pg_strom`](/e/pg_strom) (missing on: aarch64)
-- [`pgmp`](/e/pgmp) (missing on: x86_64)
-- ... and 4 more
-
-
-## D12
-
-Debian 12 (Bookworm)
-
-<Badge variant="blue-subtle">x86_64</Badge> <Badge variant="gray-subtle">1616 Packages</Badge>
-
-<Badge variant="orange-subtle">aarch64</Badge> <Badge variant="gray-subtle">1616 Packages</Badge>
-
-<Badge variant="green-subtle">Total</Badge> <Badge variant="gray-subtle">301 Extensions</Badge>
-
-### Missing Extensions
-
-[`adminpack`](/e/adminpack) [`amcheck`](/e/amcheck) [`auth_delay`](/e/auth_delay) [`auto_explain`](/e/auto_explain) [`autoinc`](/e/autoinc) [`babelfishpg_common`](/e/babelfishpg_common) [`babelfishpg_money`](/e/babelfishpg_money) [`babelfishpg_tds`](/e/babelfishpg_tds) [`babelfishpg_tsql`](/e/babelfishpg_tsql) [`basebackup_to_shell`](/e/basebackup_to_shell) [`basic_archive`](/e/basic_archive) [`bloom`](/e/bloom) [`bool_plperl`](/e/bool_plperl) [`bool_plperlu`](/e/bool_plperlu) [`btree_gin`](/e/btree_gin) [`btree_gist`](/e/btree_gist) [`citext`](/e/citext) [`citus`](/e/citus) [`citus_columnar`](/e/citus_columnar) [`collection`](/e/collection) ... and 102 more
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`h3`](/e/h3) | [`pg_h3`](/e/h3) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`h3_postgis`](/e/h3_postgis) | [`pg_h3`](/e/h3_postgis) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mobilitydb`](/e/mobilitydb) | [`mobilitydb`](/e/mobilitydb) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_duckdb`](/e/pg_duckdb) | [`pg_duckdb`](/e/pg_duckdb) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`debversion`](/e/debversion) | [`debversion`](/e/debversion) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_rrule`](/e/pg_rrule) | [`pg_rrule`](/e/pg_rrule) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_checksums`](/e/pg_checksums) | [`pg_checksums`](/e/pg_checksums) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_adm`](/e/pgpool_adm) | [`pgpool`](/e/pgpool_adm) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_recovery`](/e/pgpool_recovery) | [`pgpool`](/e/pgpool_recovery) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_regclass`](/e/pgpool_regclass) | [`pgpool`](/e/pgpool_regclass) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
 
 
-## U22
+## EL8.AARCH64
 
-Ubuntu 22.04 LTS (Jammy)
+Enterprise Linux 8 (aarch64)
 
-<Badge variant="blue-subtle">x86_64</Badge> <Badge variant="gray-subtle">1616 Packages</Badge>
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">26 Extensions</Badge>
 
-<Badge variant="orange-subtle">aarch64</Badge> <Badge variant="gray-subtle">1616 Packages</Badge>
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`mobilitydb`](/e/mobilitydb) | [`mobilitydb`](/e/mobilitydb) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hunspell_pt_pt`](/e/hunspell_pt_pt) | [`hunspell_pt_pt`](/e/hunspell_pt_pt) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_duckdb`](/e/pg_duckdb) | [`pg_duckdb`](/e/pg_duckdb) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgtap`](/e/pgtap) | [`pgtap`](/e/pgtap) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`debversion`](/e/debversion) | [`debversion`](/e/debversion) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_rrule`](/e/pg_rrule) | [`pg_rrule`](/e/pg_rrule) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_checksums`](/e/pg_checksums) | [`pg_checksums`](/e/pg_checksums) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_adm`](/e/pgpool_adm) | [`pgpool`](/e/pgpool_adm) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_recovery`](/e/pgpool_recovery) | [`pgpool`](/e/pgpool_recovery) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_regclass`](/e/pgpool_regclass) | [`pgpool`](/e/pgpool_regclass) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`oracle_fdw`](/e/oracle_fdw) | [`oracle_fdw`](/e/oracle_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
 
-<Badge variant="green-subtle">Total</Badge> <Badge variant="gray-subtle">301 Extensions</Badge>
 
-### Missing Extensions
+## EL9.X86_64
 
-[`adminpack`](/e/adminpack) [`amcheck`](/e/amcheck) [`auth_delay`](/e/auth_delay) [`auto_explain`](/e/auto_explain) [`autoinc`](/e/autoinc) [`babelfishpg_common`](/e/babelfishpg_common) [`babelfishpg_money`](/e/babelfishpg_money) [`babelfishpg_tds`](/e/babelfishpg_tds) [`babelfishpg_tsql`](/e/babelfishpg_tsql) [`basebackup_to_shell`](/e/basebackup_to_shell) [`basic_archive`](/e/basic_archive) [`bloom`](/e/bloom) [`bool_plperl`](/e/bool_plperl) [`bool_plperlu`](/e/bool_plperlu) [`btree_gin`](/e/btree_gin) [`btree_gist`](/e/btree_gist) [`citext`](/e/citext) [`citus`](/e/citus) [`citus_columnar`](/e/citus_columnar) [`collection`](/e/collection) ... and 102 more
+Enterprise Linux 9 (x86_64)
+
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">20 Extensions</Badge>
+
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`mobilitydb`](/e/mobilitydb) | [`mobilitydb`](/e/mobilitydb) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`debversion`](/e/debversion) | [`debversion`](/e/debversion) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_rrule`](/e/pg_rrule) | [`pg_rrule`](/e/pg_rrule) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_checksums`](/e/pg_checksums) | [`pg_checksums`](/e/pg_checksums) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_adm`](/e/pgpool_adm) | [`pgpool`](/e/pgpool_adm) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_recovery`](/e/pgpool_recovery) | [`pgpool`](/e/pgpool_recovery) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_regclass`](/e/pgpool_regclass) | [`pgpool`](/e/pgpool_regclass) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
 
 
-## U24
+## EL9.AARCH64
 
-Ubuntu 24.04 LTS (Noble)
+Enterprise Linux 9 (aarch64)
 
-<Badge variant="blue-subtle">x86_64</Badge> <Badge variant="gray-subtle">1616 Packages</Badge>
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">24 Extensions</Badge>
 
-<Badge variant="orange-subtle">aarch64</Badge> <Badge variant="gray-subtle">1616 Packages</Badge>
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`mobilitydb`](/e/mobilitydb) | [`mobilitydb`](/e/mobilitydb) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hunspell_pt_pt`](/e/hunspell_pt_pt) | [`hunspell_pt_pt`](/e/hunspell_pt_pt) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`debversion`](/e/debversion) | [`debversion`](/e/debversion) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_rrule`](/e/pg_rrule) | [`pg_rrule`](/e/pg_rrule) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_checksums`](/e/pg_checksums) | [`pg_checksums`](/e/pg_checksums) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_adm`](/e/pgpool_adm) | [`pgpool`](/e/pgpool_adm) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_recovery`](/e/pgpool_recovery) | [`pgpool`](/e/pgpool_recovery) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgpool_regclass`](/e/pgpool_regclass) | [`pgpool`](/e/pgpool_regclass) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`oracle_fdw`](/e/oracle_fdw) | [`oracle_fdw`](/e/oracle_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
 
-<Badge variant="green-subtle">Total</Badge> <Badge variant="gray-subtle">300 Extensions</Badge>
 
-### Missing Extensions
+## D12.X86_64
 
-[`adminpack`](/e/adminpack) [`amcheck`](/e/amcheck) [`auth_delay`](/e/auth_delay) [`auto_explain`](/e/auto_explain) [`autoinc`](/e/autoinc) [`babelfishpg_common`](/e/babelfishpg_common) [`babelfishpg_money`](/e/babelfishpg_money) [`babelfishpg_tds`](/e/babelfishpg_tds) [`babelfishpg_tsql`](/e/babelfishpg_tsql) [`basebackup_to_shell`](/e/basebackup_to_shell) [`basic_archive`](/e/basic_archive) [`bloom`](/e/bloom) [`bool_plperl`](/e/bool_plperl) [`bool_plperlu`](/e/bool_plperlu) [`btree_gin`](/e/btree_gin) [`btree_gist`](/e/btree_gist) [`citext`](/e/citext) [`citus`](/e/citus) [`citus_columnar`](/e/citus_columnar) [`collection`](/e/collection) ... and 103 more
+Debian 12 (x86_64)
+
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">24 Extensions</Badge>
+
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`faker`](/e/faker) | [`faker`](/e/faker) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`multicorn`](/e/multicorn) | [`multicorn`](/e/multicorn) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`odbc_fdw`](/e/odbc_fdw) | [`odbc_fdw`](/e/odbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgbouncer_fdw`](/e/pgbouncer_fdw) | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hdfs_fdw`](/e/hdfs_fdw) | [`hdfs_fdw`](/e/hdfs_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_metadata`](/e/pg_dbms_metadata) | [`pg_dbms_metadata`](/e/pg_dbms_metadata) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_lock`](/e/pg_dbms_lock) | [`pg_dbms_lock`](/e/pg_dbms_lock) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_job`](/e/pg_dbms_job) | [`pg_dbms_job`](/e/pg_dbms_job) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+
+
+## D12.AARCH64
+
+Debian 12 (aarch64)
+
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">24 Extensions</Badge>
+
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`faker`](/e/faker) | [`faker`](/e/faker) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`multicorn`](/e/multicorn) | [`multicorn`](/e/multicorn) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`odbc_fdw`](/e/odbc_fdw) | [`odbc_fdw`](/e/odbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgbouncer_fdw`](/e/pgbouncer_fdw) | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hdfs_fdw`](/e/hdfs_fdw) | [`hdfs_fdw`](/e/hdfs_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_metadata`](/e/pg_dbms_metadata) | [`pg_dbms_metadata`](/e/pg_dbms_metadata) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_lock`](/e/pg_dbms_lock) | [`pg_dbms_lock`](/e/pg_dbms_lock) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_job`](/e/pg_dbms_job) | [`pg_dbms_job`](/e/pg_dbms_job) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+
+
+## U22.X86_64
+
+Ubuntu 22.04 LTS (x86_64)
+
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">24 Extensions</Badge>
+
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`faker`](/e/faker) | [`faker`](/e/faker) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`multicorn`](/e/multicorn) | [`multicorn`](/e/multicorn) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`odbc_fdw`](/e/odbc_fdw) | [`odbc_fdw`](/e/odbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgbouncer_fdw`](/e/pgbouncer_fdw) | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hdfs_fdw`](/e/hdfs_fdw) | [`hdfs_fdw`](/e/hdfs_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_metadata`](/e/pg_dbms_metadata) | [`pg_dbms_metadata`](/e/pg_dbms_metadata) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_lock`](/e/pg_dbms_lock) | [`pg_dbms_lock`](/e/pg_dbms_lock) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_job`](/e/pg_dbms_job) | [`pg_dbms_job`](/e/pg_dbms_job) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+
+
+## U22.AARCH64
+
+Ubuntu 22.04 LTS (aarch64)
+
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">24 Extensions</Badge>
+
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`rdkit`](/e/rdkit) | [`rdkit`](/e/rdkit) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`faker`](/e/faker) | [`faker`](/e/faker) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`multicorn`](/e/multicorn) | [`multicorn`](/e/multicorn) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`odbc_fdw`](/e/odbc_fdw) | [`odbc_fdw`](/e/odbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgbouncer_fdw`](/e/pgbouncer_fdw) | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hdfs_fdw`](/e/hdfs_fdw) | [`hdfs_fdw`](/e/hdfs_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_metadata`](/e/pg_dbms_metadata) | [`pg_dbms_metadata`](/e/pg_dbms_metadata) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_lock`](/e/pg_dbms_lock) | [`pg_dbms_lock`](/e/pg_dbms_lock) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_job`](/e/pg_dbms_job) | [`pg_dbms_job`](/e/pg_dbms_job) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+
+
+## U24.X86_64
+
+Ubuntu 24.04 LTS (x86_64)
+
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">23 Extensions</Badge>
+
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`faker`](/e/faker) | [`faker`](/e/faker) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`multicorn`](/e/multicorn) | [`multicorn`](/e/multicorn) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`odbc_fdw`](/e/odbc_fdw) | [`odbc_fdw`](/e/odbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgbouncer_fdw`](/e/pgbouncer_fdw) | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hdfs_fdw`](/e/hdfs_fdw) | [`hdfs_fdw`](/e/hdfs_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_metadata`](/e/pg_dbms_metadata) | [`pg_dbms_metadata`](/e/pg_dbms_metadata) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_lock`](/e/pg_dbms_lock) | [`pg_dbms_lock`](/e/pg_dbms_lock) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_job`](/e/pg_dbms_job) | [`pg_dbms_job`](/e/pg_dbms_job) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+
+
+## U24.AARCH64
+
+Ubuntu 24.04 LTS (aarch64)
+
+<Badge variant="red-subtle">Issues Found</Badge> <Badge variant="gray-subtle">23 Extensions</Badge>
+
+| Extension | Package | 17 | 16 | 15 | 14 | 13 |
+|:----------|:--------|:--:|:--:|:--:|:--:|:--:|
+| [`columnar`](/e/columnar) | [`hydra`](/e/columnar) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_strom`](/e/pg_strom) | [`pg_strom`](/e/pg_strom) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`plprql`](/e/plprql) | [`plprql`](/e/plprql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`faker`](/e/faker) | [`faker`](/e/faker) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`dbt2`](/e/dbt2) | [`dbt2`](/e/dbt2) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`multicorn`](/e/multicorn) | [`multicorn`](/e/multicorn) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`odbc_fdw`](/e/odbc_fdw) | [`odbc_fdw`](/e/odbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`jdbc_fdw`](/e/jdbc_fdw) | [`jdbc_fdw`](/e/jdbc_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`db2_fdw`](/e/db2_fdw) | [`db2_fdw`](/e/db2_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pgbouncer_fdw`](/e/pgbouncer_fdw) | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`mongo_fdw`](/e/mongo_fdw) | [`mongo_fdw`](/e/mongo_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`kafka_fdw`](/e/kafka_fdw) | [`kafka_fdw`](/e/kafka_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`hdfs_fdw`](/e/hdfs_fdw) | [`hdfs_fdw`](/e/hdfs_fdw) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_metadata`](/e/pg_dbms_metadata) | [`pg_dbms_metadata`](/e/pg_dbms_metadata) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_lock`](/e/pg_dbms_lock) | [`pg_dbms_lock`](/e/pg_dbms_lock) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`pg_dbms_job`](/e/pg_dbms_job) | [`pg_dbms_job`](/e/pg_dbms_job) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_common`](/e/babelfishpg_common) | [`babelfishpg_common`](/e/babelfishpg_common) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tsql`](/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/e/babelfishpg_tsql) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_tds`](/e/babelfishpg_tds) | [`babelfishpg_tds`](/e/babelfishpg_tds) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`babelfishpg_money`](/e/babelfishpg_money) | [`babelfishpg_money`](/e/babelfishpg_money) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
+| [`wal2mongo`](/e/wal2mongo) | [`wal2mongo`](/e/wal2mongo) | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> | <Badge variant="red-subtle">✗</Badge> |
 
 

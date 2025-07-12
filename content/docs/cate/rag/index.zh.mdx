@@ -1,7 +1,7 @@
 ---
 title: RAG
 description: "AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量函数集，库内机器学习与推理 pgml，等等。"
-icon: Brain
+icon: fas fa-brain
 full: true
 ---
 
@@ -11,227 +11,57 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 
 RAG 分类包含 **10** 个 PostgreSQL 扩展。
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
-| 1880 | [`pg4ml`](/zh/e/pg4ml) | [`pg4ml`](/zh/e/pg4ml) | 2.0 | PG4ML是一个机器学习框架 |
+| 1800 | [`vector`](/zh/e/vector) | [`pgvector`](/zh/e/vector) | 0.8.0 | 向量数据类型和 ivfflat / hnsw 访问方法 |
+| 1810 | [`vchord`](/zh/e/vchord) | [`vchord`](/zh/e/vchord) | 0.4.3 | 使用Rust重写的高性能向量扩展 |
+| 1820 | [`vectorscale`](/zh/e/vectorscale) | [`pgvectorscale`](/zh/e/vectorscale) | 0.7.1 | 使用DiskANN算法对向量进行高效索引 |
+| 1830 | [`vectorize`](/zh/e/vectorize) | [`pg_vectorize`](/zh/e/vectorize) | 0.22.2 | 在PostgreSQL中封装RAG向量检索服务 |
 | 1840 | [`pg_similarity`](/zh/e/pg_similarity) | [`pg_similarity`](/zh/e/pg_similarity) | 1.0 | 提供17种距离度量函数 |
+| 1850 | [`smlar`](/zh/e/smlar) | [`smlar`](/zh/e/smlar) | 1.0 | 高效的相似度搜索函数 |
 | 1860 | [`pg_summarize`](/zh/e/pg_summarize) | [`pg_summarize`](/zh/e/pg_summarize) | 0.0.1 | 使用LLM对文本字段进行总结 |
 | 1870 | [`pg_tiktoken`](/zh/e/pg_tiktoken) | [`pg_tiktoken`](/zh/e/pg_tiktoken) | 0.0.1 | 在PostgreSQL中计算OpenAI使用的Token数 |
+| 1880 | [`pg4ml`](/zh/e/pg4ml) | [`pg4ml`](/zh/e/pg4ml) | 2.0 | PG4ML是一个机器学习框架 |
 | 1890 | [`pgml`](/zh/e/pgml) | [`pgml`](/zh/e/pgml) | 2.10.0 | PostgresML：用SQL运行机器学习算法并训练模型 |
-| 1850 | [`smlar`](/zh/e/smlar) | [`smlar`](/zh/e/smlar) | 1.0 | 高效的相似度搜索函数 |
-| 1810 | [`vchord`](/zh/e/vchord) | [`vchord`](/zh/e/vchord) | 0.4.3 | 使用Rust重写的高性能向量扩展 |
-| 1800 | [`vector`](/zh/e/vector) | [`pgvector`](/zh/e/vector) | 0.8.0 | 向量数据类型和 ivfflat / hnsw 访问方法 |
-| 1830 | [`vectorize`](/zh/e/vectorize) | [`pg_vectorize`](/zh/e/vectorize) | 0.22.2 | 在PostgreSQL中封装RAG向量检索服务 |
-| 1820 | [`vectorscale`](/zh/e/vectorscale) | [`pgvectorscale`](/zh/e/vectorscale) | 0.7.1 | 使用DiskANN算法对向量进行高效索引 |
 
 --------
-
-
-<Callout title="pg4ml - 2.0">
-    <p>PG4ML是一个机器学习框架</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg4ml) | [网站](https://gitee.com/guotiecheng/plpgsql_pg4ml) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`pg4ml`](/zh/e/pg4ml) |  |
-| RPM  | `pg4ml_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pg4ml` |  |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="pg_similarity - 1.0">
-    <p>提供17种距离度量函数</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_similarity) | [网站](https://github.com/eulerto/pg_similarity) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`pg_similarity`](/zh/e/pg_similarity) |  |
-| RPM  | `pg_similarity_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-similarity` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#bsd-3-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">BSD 3-Clause</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| u22 | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| u24 | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="pg_summarize - 0.0.1">
-    <p>使用LLM对文本字段进行总结</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_summarize) | [网站](https://github.com/HexaCluster/pg_summarize) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`pg_summarize`](/zh/e/pg_summarize) |  |
-| RPM  | `pg_summarize_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pg-summarize` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="pg_tiktoken - 0.0.1">
-    <p>在PostgreSQL中计算OpenAI使用的Token数</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_tiktoken) | [网站](https://github.com/kelvich/pg_tiktoken) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`pg_tiktoken`](/zh/e/pg_tiktoken) |  |
-| RPM  | `pg_tiktoken_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pg-tiktoken` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#apache-20" className="no-underline"><Badge icon={<Scale />} variant="green-subtle">Apache-2.0</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="pgml - 2.10.0">
-    <p>PostgresML：用SQL运行机器学习算法并训练模型</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pgml) | [网站](https://github.com/postgresml/postgresml) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`pgml`](/zh/e/pgml) | <Badge variant="red-subtle">LOAD</Badge> |
-| RPM  | `pgml_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pgml` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#mit" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">MIT</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="smlar - 1.0">
-    <p>高效的相似度搜索函数</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/smlar) | [网站](https://github.com/jirutka/smlar) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`smlar`](/zh/e/smlar) |  |
-| RPM  | `smlar_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-smlar` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="vchord - 0.4.3">
-    <p>使用Rust重写的高性能向量扩展</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/vchord) | [网站](https://github.com/tensorchord/VectorChord) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`vchord`](/zh/e/vchord) | <Badge variant="red-subtle">LOAD</Badge> |
-| RPM  | `vchord_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-vchord` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
 
 <Callout title="vector - 0.8.0">
     <p>向量数据类型和 ivfflat / hnsw 访问方法</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/vector) | [网站](https://github.com/pgvector/pgvector) | 属性 |
+            | [扩展](/zh/e/vector) | [官网](https://github.com/pgvector/pgvector) | 属性 |
 |:----:|:---------:|:---------:|
 | 扩展包  | [`pgvector`](/zh/e/vector) |  |
 | RPM  | `pgvector_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
 | DEB  | `postgresql-$v-pgvector` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
 | el9 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+| d12 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+| u22 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+| u24 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
         </div>
     </div>
 </Callout>
 
-
-<Callout title="vectorize - 0.22.2">
-    <p>在PostgreSQL中封装RAG向量检索服务</p>
+<Callout title="vchord - 0.4.3">
+    <p>使用Rust重写的高性能向量扩展</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/vectorize) | [网站](https://github.com/ChuckHend/pg_vectorize) | 属性 |
+            | [扩展](/zh/e/vchord) | [官网](https://github.com/tensorchord/VectorChord) | 属性 |
 |:----:|:---------:|:---------:|
-| 扩展包  | [`pg_vectorize`](/zh/e/vectorize) |  |
-| RPM  | `pg_vectorize_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pg-vectorize` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+| 扩展包  | [`vchord`](/zh/e/vchord) | <Badge variant="red-subtle">LOAD</Badge> |
+| RPM  | `vchord_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-vchord` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
 | el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
@@ -242,20 +72,19 @@ RAG 分类包含 **10** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-
 <Callout title="vectorscale - 0.7.1">
     <p>使用DiskANN算法对向量进行高效索引</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/vectorscale) | [网站](https://github.com/timescale/pgvectorscale) | 属性 |
+            | [扩展](/zh/e/vectorscale) | [官网](https://github.com/timescale/pgvectorscale) | 属性 |
 |:----:|:---------:|:---------:|
 | 扩展包  | [`pgvectorscale`](/zh/e/vectorscale) |  |
 | RPM  | `pgvectorscale_$v` | <Badge variant="blue-subtle">DDL</Badge> |
 | DEB  | `postgresql-$v-pgvectorscale` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
 | el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
@@ -266,3 +95,163 @@ RAG 分类包含 **10** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
+<Callout title="vectorize - 0.22.2">
+    <p>在PostgreSQL中封装RAG向量检索服务</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/vectorize) | [官网](https://github.com/ChuckHend/pg_vectorize) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`pg_vectorize`](/zh/e/vectorize) |  |
+| RPM  | `pg_vectorize_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pg-vectorize` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="pg_similarity - 1.0">
+    <p>提供17种距离度量函数</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/pg_similarity) | [官网](https://github.com/eulerto/pg_similarity) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`pg_similarity`](/zh/e/pg_similarity) |  |
+| RPM  | `pg_similarity_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-similarity` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#bsd-3-clause" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">BSD 3-Clause</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+| u22 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+| u24 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="smlar - 1.0">
+    <p>高效的相似度搜索函数</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/smlar) | [官网](https://github.com/jirutka/smlar) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`smlar`](/zh/e/smlar) |  |
+| RPM  | `smlar_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-smlar` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="pg_summarize - 0.0.1">
+    <p>使用LLM对文本字段进行总结</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/pg_summarize) | [官网](https://github.com/HexaCluster/pg_summarize) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`pg_summarize`](/zh/e/pg_summarize) |  |
+| RPM  | `pg_summarize_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pg-summarize` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="pg_tiktoken - 0.0.1">
+    <p>在PostgreSQL中计算OpenAI使用的Token数</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/pg_tiktoken) | [官网](https://github.com/kelvich/pg_tiktoken) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`pg_tiktoken`](/zh/e/pg_tiktoken) |  |
+| RPM  | `pg_tiktoken_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pg-tiktoken` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#apache-20" className="no-underline"><Badge icon={<Scale />} variant="green-subtle">Apache-2.0</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="pg4ml - 2.0">
+    <p>PG4ML是一个机器学习框架</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/pg4ml) | [官网](https://gitee.com/guotiecheng/plpgsql_pg4ml) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`pg4ml`](/zh/e/pg4ml) |  |
+| RPM  | `pg4ml_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pg4ml` |  |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 许可证 | <a href="/zh/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="pgml - 2.10.0">
+    <p>PostgresML：用SQL运行机器学习算法并训练模型</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/pgml) | [官网](https://github.com/postgresml/postgresml) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`pgml`](/zh/e/pgml) | <Badge variant="red-subtle">LOAD</Badge> |
+| RPM  | `pgml_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pgml` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#mit" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">MIT</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>

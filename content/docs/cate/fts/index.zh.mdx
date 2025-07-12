@@ -1,7 +1,7 @@
 ---
 title: FTS
 description: "全文检索扩展：ES 替代 pg_search，BM25，中文分词，欧洲语言分词字典 hunspell，模糊检索，2-gram/3-gram 索引。"
-icon: Search
+icon: fas fa-magnifying-glass
 full: true
 ---
 
@@ -11,9 +11,16 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 
 FTS 分类包含 **20** 个 PostgreSQL 扩展。
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
-| 2180 | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) | 1.2 | 确定字符串之间的相似性和距离 |
+| 2100 | [`pg_search`](/zh/e/pg_search) | [`pg_search`](/zh/e/pg_search) | 0.16.2 | ParadeDB BM25算法全文检索插件，ES全文检索 |
+| 2110 | [`pgroonga`](/zh/e/pgroonga) | [`pgroonga`](/zh/e/pgroonga) | 4.0.0 | 使用Groonga，面向所有语言的高速全文检索平台 |
+| 2111 | [`pgroonga_database`](/zh/e/pgroonga_database) | [`pgroonga`](/zh/e/pgroonga) | 4.0.0 | PGGroonga 数据库管理模块 |
+| 2120 | [`pg_bigm`](/zh/e/pg_bigm) | [`pg_bigm`](/zh/e/pg_bigm) | 1.2 | 基于二字组的多语言全文检索扩展 |
+| 2130 | [`zhparser`](/zh/e/zhparser) | [`zhparser`](/zh/e/zhparser) | 2.3 | 中文分词，全文搜索解析器 |
+| 2140 | [`pg_bestmatch`](/zh/e/pg_bestmatch) | [`pg_bestmatch`](/zh/e/pg_bestmatch) | 0.0.1 | 在数据库内生成BM25稀疏向量 |
+| 2150 | [`vchord_bm25`](/zh/e/vchord_bm25) | [`vchord_bm25`](/zh/e/vchord_bm25) | 0.2.1 | BM25排序算法 |
+| 2160 | [`pg_tokenizer`](/zh/e/pg_tokenizer) | [`pg_tokenizer`](/zh/e/pg_tokenizer) | 0.1.0 | 用于全文检索的分词器 |
 | 2170 | [`hunspell_cs_cz`](/zh/e/hunspell_cs_cz) | [`hunspell_cs_cz`](/zh/e/hunspell_cs_cz) | 1.0 | Hunspell捷克语全文检索词典 |
 | 2171 | [`hunspell_de_de`](/zh/e/hunspell_de_de) | [`hunspell_de_de`](/zh/e/hunspell_de_de) | 1.0 | Hunspell德语全文检索词典 |
 | 2172 | [`hunspell_en_us`](/zh/e/hunspell_en_us) | [`hunspell_en_us`](/zh/e/hunspell_en_us) | 1.0 | Hunspell英语全文检索词典 |
@@ -24,56 +31,47 @@ FTS 分类包含 **20** 个 PostgreSQL 扩展。
 | 2177 | [`hunspell_pt_pt`](/zh/e/hunspell_pt_pt) | [`hunspell_pt_pt`](/zh/e/hunspell_pt_pt) | 1.0 | Hunspell葡萄牙语全文检索词典 |
 | 2178 | [`hunspell_ru_ru`](/zh/e/hunspell_ru_ru) | [`hunspell_ru_ru`](/zh/e/hunspell_ru_ru) | 1.0 | Hunspell俄语全文检索词典 |
 | 2179 | [`hunspell_ru_ru_aot`](/zh/e/hunspell_ru_ru_aot) | [`hunspell_ru_ru_aot`](/zh/e/hunspell_ru_ru_aot) | 1.0 | Hunspell俄语全文检索词典（来自AOT.ru小组） |
-| 2140 | [`pg_bestmatch`](/zh/e/pg_bestmatch) | [`pg_bestmatch`](/zh/e/pg_bestmatch) | 0.0.1 | 在数据库内生成BM25稀疏向量 |
-| 2120 | [`pg_bigm`](/zh/e/pg_bigm) | [`pg_bigm`](/zh/e/pg_bigm) | 1.2 | 基于二字组的多语言全文检索扩展 |
-| 2100 | [`pg_search`](/zh/e/pg_search) | [`pg_search`](/zh/e/pg_search) | 0.16.2 | ParadeDB BM25算法全文检索插件，ES全文检索 |
-| 2160 | [`pg_tokenizer`](/zh/e/pg_tokenizer) | [`pg_tokenizer`](/zh/e/pg_tokenizer) | 0.1.0 | 用于全文检索的分词器 |
+| 2180 | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) | 1.2 | 确定字符串之间的相似性和距离 |
 | 2190 | [`pg_trgm`](/zh/e/pg_trgm) | [`pg_trgm`](/zh/e/pg_trgm) | 1.6 | 文本相似度测量函数与模糊检索 |
-| 2110 | [`pgroonga`](/zh/e/pgroonga) | [`pgroonga`](/zh/e/pgroonga) | 4.0.0 | 使用Groonga，面向所有语言的高速全文检索平台 |
-| 2111 | [`pgroonga_database`](/zh/e/pgroonga_database) | [`pgroonga`](/zh/e/pgroonga) | 4.0.0 | PGGroonga 数据库管理模块 |
-| 2150 | [`vchord_bm25`](/zh/e/vchord_bm25) | [`vchord_bm25`](/zh/e/vchord_bm25) | 0.2.1 | BM25排序算法 |
-| 2130 | [`zhparser`](/zh/e/zhparser) | [`zhparser`](/zh/e/zhparser) | 2.3 | 中文分词，全文搜索解析器 |
 
 --------
 
-
-<Callout title="fuzzystrmatch - 1.2">
-    <p>确定字符串之间的相似性和距离</p>
+<Callout title="pg_search - 0.16.2">
+    <p>ParadeDB BM25算法全文检索插件，ES全文检索</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/fuzzystrmatch) | [网站](https://www.postgresql.org/docs/current/fuzzystrmatch.html) | 属性 |
+            | [扩展](/zh/e/pg_search) | [官网](https://github.com/paradedb/paradedb/tree/dev/pg_search) | 属性 |
 |:----:|:---------:|:---------:|
-| 扩展包  | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) |  |
-| RPM  | `postgresql$v-contrib` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 扩展包  | [`pg_search`](/zh/e/pg_search) |  |
+| RPM  | `pg_search_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pg-search` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 许可证 | <a href="/zh/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
-| el8 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
-| el9 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
-| d12 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
-| u22 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
-| u24 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
         </div>
     </div>
 </Callout>
 
-
-<Callout title="hunspell_cs_cz - 1.0">
-    <p>Hunspell捷克语全文检索词典</p>
+<Callout title="pgroonga - 4.0.0">
+    <p>使用Groonga，面向所有语言的高速全文检索平台</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_cs_cz) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+            | [扩展](/zh/e/pgroonga) | [官网](https://github.com/pgroonga/pgroonga) | 属性 |
 |:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_cs_cz`](/zh/e/hunspell_cs_cz) |  |
-| RPM  | `hunspell_cs_cz_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-cs-cz` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+| 扩展包  | [`pgroonga`](/zh/e/pgroonga) |  |
+| RPM  | `pgroonga_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pgroonga` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
 | el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
@@ -84,20 +82,19 @@ FTS 分类包含 **20** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-
-<Callout title="hunspell_de_de - 1.0">
-    <p>Hunspell德语全文检索词典</p>
+<Callout title="pgroonga_database - 4.0.0">
+    <p>PGGroonga 数据库管理模块</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_de_de) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+            | [扩展](/zh/e/pgroonga_database) | [官网](https://github.com/pgroonga/pgroonga) | 属性 |
 |:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_de_de`](/zh/e/hunspell_de_de) |  |
-| RPM  | `hunspell_de_de_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-de-de` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+| 扩展包  | [`pgroonga`](/zh/e/pgroonga_database) |  |
+| RPM  | `pgroonga_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pgroonga` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
 | el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
@@ -107,237 +104,20 @@ FTS 分类包含 **20** 个 PostgreSQL 扩展。
         </div>
     </div>
 </Callout>
-
-
-<Callout title="hunspell_en_us - 1.0">
-    <p>Hunspell英语全文检索词典</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_en_us) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_en_us`](/zh/e/hunspell_en_us) |  |
-| RPM  | `hunspell_en_us_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-en-us` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="hunspell_fr - 1.0">
-    <p>Hunspell法语全文检索词典</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_fr) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_fr`](/zh/e/hunspell_fr) |  |
-| RPM  | `hunspell_fr_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-fr` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="hunspell_ne_np - 1.0">
-    <p>Hunspell尼泊尔语全文检索词典</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_ne_np) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_ne_np`](/zh/e/hunspell_ne_np) |  |
-| RPM  | `hunspell_ne_np_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-ne-np` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="hunspell_nl_nl - 1.0">
-    <p>Hunspell荷兰语全文检索词典</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_nl_nl) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_nl_nl`](/zh/e/hunspell_nl_nl) |  |
-| RPM  | `hunspell_nl_nl_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-nl-nl` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="hunspell_nn_no - 1.0">
-    <p>Hunspell挪威语全文检索词典</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_nn_no) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_nn_no`](/zh/e/hunspell_nn_no) |  |
-| RPM  | `hunspell_nn_no_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-nn-no` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="hunspell_pt_pt - 1.0">
-    <p>Hunspell葡萄牙语全文检索词典</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_pt_pt) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_pt_pt`](/zh/e/hunspell_pt_pt) |  |
-| RPM  | `hunspell_pt_pt_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-pt-pt` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="hunspell_ru_ru - 1.0">
-    <p>Hunspell俄语全文检索词典</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_ru_ru) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_ru_ru`](/zh/e/hunspell_ru_ru) |  |
-| RPM  | `hunspell_ru_ru_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-ru-ru` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="hunspell_ru_ru_aot - 1.0">
-    <p>Hunspell俄语全文检索词典（来自AOT.ru小组）</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/hunspell_ru_ru_aot) | [网站](https://github.com/postgrespro/hunspell_dicts) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`hunspell_ru_ru_aot`](/zh/e/hunspell_ru_ru_aot) |  |
-| RPM  | `hunspell_ru_ru_aot_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-hunspell-ru-ru-aot` |  |
-| 开发语言 | <a href="/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="pg_bestmatch - 0.0.1">
-    <p>在数据库内生成BM25稀疏向量</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_bestmatch) | [网站](https://github.com/tensorchord/pg_bestmatch.rs) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`pg_bestmatch`](/zh/e/pg_bestmatch) | <Badge variant="red-subtle">LOAD</Badge> |
-| RPM  | `pg_bestmatch_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pg-bestmatch` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#apache-20" className="no-underline"><Badge icon={<Scale />} variant="green-subtle">Apache-2.0</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
 
 <Callout title="pg_bigm - 1.2">
     <p>基于二字组的多语言全文检索扩展</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_bigm) | [网站](https://github.com/pgbigm/pg_bigm) | 属性 |
+            | [扩展](/zh/e/pg_bigm) | [官网](https://github.com/pgbigm/pg_bigm) | 属性 |
 |:----:|:---------:|:---------:|
 | 扩展包  | [`pg_bigm`](/zh/e/pg_bigm) |  |
 | RPM  | `pg_bigm_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
 | DEB  | `postgresql-$v-pg-bigm` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
 | el9 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
@@ -348,20 +128,65 @@ FTS 分类包含 **20** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-
-<Callout title="pg_search - 0.16.2">
-    <p>ParadeDB BM25算法全文检索插件，ES全文检索</p>
+<Callout title="zhparser - 2.3">
+    <p>中文分词，全文搜索解析器</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_search) | [网站](https://github.com/paradedb/paradedb/tree/dev/pg_search) | 属性 |
+            | [扩展](/zh/e/zhparser) | [官网](https://github.com/amutu/zhparser) | 属性 |
 |:----:|:---------:|:---------:|
-| 扩展包  | [`pg_search`](/zh/e/pg_search) |  |
-| RPM  | `pg_search_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pg-search` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 扩展包  | [`zhparser`](/zh/e/zhparser) |  |
+| RPM  | `zhparser_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-zhparser` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="pg_bestmatch - 0.0.1">
+    <p>在数据库内生成BM25稀疏向量</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/pg_bestmatch) | [官网](https://github.com/tensorchord/pg_bestmatch.rs) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`pg_bestmatch`](/zh/e/pg_bestmatch) | <Badge variant="red-subtle">LOAD</Badge> |
+| RPM  | `pg_bestmatch_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-pg-bestmatch` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#apache-20" className="no-underline"><Badge icon={<Scale />} variant="green-subtle">Apache-2.0</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="vchord_bm25 - 0.2.1">
+    <p>BM25排序算法</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/vchord_bm25) | [官网](https://github.com/tensorchord/VectorChord-bm25) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`vchord_bm25`](/zh/e/vchord_bm25) | <Badge variant="red-subtle">LOAD</Badge> |
+| RPM  | `vchord_bm25_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-vchord-bm25` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
 | el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
@@ -371,21 +196,20 @@ FTS 分类包含 **20** 个 PostgreSQL 扩展。
         </div>
     </div>
 </Callout>
-
 
 <Callout title="pg_tokenizer - 0.1.0">
     <p>用于全文检索的分词器</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_tokenizer) | [网站](https://github.com/tensorchord/pg_tokenizer.rs) | 属性 |
+            | [扩展](/zh/e/pg_tokenizer) | [官网](https://github.com/tensorchord/pg_tokenizer.rs) | 属性 |
 |:----:|:---------:|:---------:|
 | 扩展包  | [`pg_tokenizer`](/zh/e/pg_tokenizer) |  |
 | RPM  | `pg_tokenizer_$v` | <Badge variant="blue-subtle">DDL</Badge> |
 | DEB  | `postgresql-$v-pg-tokenizer` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#apache-20" className="no-underline"><Badge icon={<Scale />} variant="green-subtle">Apache-2.0</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 语言 | <a href="/zh/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 许可证 | <a href="/zh/list/license#apache-20" className="no-underline"><Badge icon={<Scale />} variant="green-subtle">Apache-2.0</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
 | el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
@@ -396,20 +220,249 @@ FTS 分类包含 **20** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-
-<Callout title="pg_trgm - 1.6">
-    <p>文本相似度测量函数与模糊检索</p>
+<Callout title="hunspell_cs_cz - 1.0">
+    <p>Hunspell捷克语全文检索词典</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pg_trgm) | [网站](https://www.postgresql.org/docs/current/pgtrgm.html) | 属性 |
+            | [扩展](/zh/e/hunspell_cs_cz) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
 |:----:|:---------:|:---------:|
-| 扩展包  | [`pg_trgm`](/zh/e/pg_trgm) |  |
-| RPM  | `postgresql$v-contrib` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+| 扩展包  | [`hunspell_cs_cz`](/zh/e/hunspell_cs_cz) |  |
+| RPM  | `hunspell_cs_cz_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-cs-cz` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_de_de - 1.0">
+    <p>Hunspell德语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_de_de) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_de_de`](/zh/e/hunspell_de_de) |  |
+| RPM  | `hunspell_de_de_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-de-de` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_en_us - 1.0">
+    <p>Hunspell英语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_en_us) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_en_us`](/zh/e/hunspell_en_us) |  |
+| RPM  | `hunspell_en_us_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-en-us` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_fr - 1.0">
+    <p>Hunspell法语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_fr) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_fr`](/zh/e/hunspell_fr) |  |
+| RPM  | `hunspell_fr_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-fr` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_ne_np - 1.0">
+    <p>Hunspell尼泊尔语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_ne_np) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_ne_np`](/zh/e/hunspell_ne_np) |  |
+| RPM  | `hunspell_ne_np_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-ne-np` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_nl_nl - 1.0">
+    <p>Hunspell荷兰语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_nl_nl) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_nl_nl`](/zh/e/hunspell_nl_nl) |  |
+| RPM  | `hunspell_nl_nl_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-nl-nl` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_nn_no - 1.0">
+    <p>Hunspell挪威语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_nn_no) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_nn_no`](/zh/e/hunspell_nn_no) |  |
+| RPM  | `hunspell_nn_no_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-nn-no` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_pt_pt - 1.0">
+    <p>Hunspell葡萄牙语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_pt_pt) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_pt_pt`](/zh/e/hunspell_pt_pt) |  |
+| RPM  | `hunspell_pt_pt_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-pt-pt` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_ru_ru - 1.0">
+    <p>Hunspell俄语全文检索词典</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_ru_ru) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_ru_ru`](/zh/e/hunspell_ru_ru) |  |
+| RPM  | `hunspell_ru_ru_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-ru-ru` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="hunspell_ru_ru_aot - 1.0">
+    <p>Hunspell俄语全文检索词典（来自AOT.ru小组）</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/hunspell_ru_ru_aot) | [官网](https://github.com/postgrespro/hunspell_dicts) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`hunspell_ru_ru_aot`](/zh/e/hunspell_ru_ru_aot) |  |
+| RPM  | `hunspell_ru_ru_aot_$v` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v-hunspell-ru-ru-aot` |  |
+| 语言 | <a href="/zh/list/lang#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
+|:-----:|:---:|:---:|
+| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+        </div>
+    </div>
+</Callout>
+
+<Callout title="fuzzystrmatch - 1.2">
+    <p>确定字符串之间的相似性和距离</p>
+    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
+            | [扩展](/zh/e/fuzzystrmatch) | [官网](https://www.postgresql.org/docs/current/fuzzystrmatch.html) | 属性 |
+|:----:|:---------:|:---------:|
+| 扩展包  | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) |  |
+| RPM  | `postgresql$v-contrib` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
+        </div>
+        <div className="space-y-2">
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
 | el9 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
@@ -420,99 +473,25 @@ FTS 分类包含 **20** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-
-<Callout title="pgroonga - 4.0.0">
-    <p>使用Groonga，面向所有语言的高速全文检索平台</p>
+<Callout title="pg_trgm - 1.6">
+    <p>文本相似度测量函数与模糊检索</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pgroonga) | [网站](https://github.com/pgroonga/pgroonga) | 属性 |
+            | [扩展](/zh/e/pg_trgm) | [官网](https://www.postgresql.org/docs/current/pgtrgm.html) | 属性 |
 |:----:|:---------:|:---------:|
-| 扩展包  | [`pgroonga`](/zh/e/pgroonga) |  |
-| RPM  | `pgroonga_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pgroonga` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
+| 扩展包  | [`pg_trgm`](/zh/e/pg_trgm) |  |
+| RPM  | `postgresql$v-contrib` | <Badge variant="blue-subtle">DDL</Badge> |
+| DEB  | `postgresql-$v` | <Badge variant="green-subtle">LIB</Badge> |
+| 语言 | <a href="/zh/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
+| 许可证 | <a href="/zh/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
         </div>
         <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
+            | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el8 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
+| el9 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
+| d12 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
+| u22 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
+| u24 | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> | <Badge variant="green-subtle">17</Badge><Badge variant="green-subtle">16</Badge><Badge variant="green-subtle">15</Badge><Badge variant="green-subtle">14</Badge><Badge variant="green-subtle">13</Badge> |
         </div>
     </div>
 </Callout>
-
-
-<Callout title="pgroonga_database - 4.0.0">
-    <p>PGGroonga 数据库管理模块</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/pgroonga_database) | [网站](https://github.com/pgroonga/pgroonga) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`pgroonga`](/zh/e/pgroonga) |  |
-| RPM  | `pgroonga_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-pgroonga` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> | <Badge variant="green-subtle">TRUST</Badge> |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="vchord_bm25 - 0.2.1">
-    <p>BM25排序算法</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/vchord_bm25) | [网站](https://github.com/tensorchord/VectorChord-bm25) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`vchord_bm25`](/zh/e/vchord_bm25) | <Badge variant="red-subtle">LOAD</Badge> |
-| RPM  | `vchord_bm25_$v` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-vchord-bm25` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> |  |
-| 许可证 | <a href="/list/license#agpl-30" className="no-underline"><Badge icon={<Scale />} variant="red-subtle">AGPL-3.0</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="red-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-
-
-<Callout title="zhparser - 2.3">
-    <p>中文分词，全文搜索解析器</p>
-    <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
-            | [扩展](/zh/e/zhparser) | [网站](https://github.com/amutu/zhparser) | 属性 |
-|:----:|:---------:|:---------:|
-| 扩展包  | [`zhparser`](/zh/e/zhparser) |  |
-| RPM  | `zhparser_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
-| DEB  | `postgresql-$v-zhparser` | <Badge variant="green-subtle">LIB</Badge> |
-| 开发语言 | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |
-| 许可证 | <a href="/list/license#postgresql" className="no-underline"><Badge icon={<Scale />} variant="blue-subtle">PostgreSQL</Badge></a> |  |
-        </div>
-        <div className="space-y-2">
-            | 系统 | x86_64 | aarch64 |
-|:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-        </div>
-    </div>
-</Callout>
-

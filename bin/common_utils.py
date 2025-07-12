@@ -439,7 +439,7 @@ class TableGenerator:
         if not extensions:
             return "未找到扩展。"
         
-        headers = ['ID', '扩展', '扩展包', '描述']
+        headers = ['ID', '扩展名', '软件包', '描述']
         rows = [self._format_table_header(headers, [':---:',':---',':---',':---'])]
         
         for ext in extensions:

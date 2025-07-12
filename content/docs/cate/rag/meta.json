@@ -1,14 +1,14 @@
 {
   "pages": [
-    "[pg4ml](/e/pg4ml)",
+    "[vector](/e/vector)",
+    "[vchord](/e/vchord)",
+    "[vectorscale](/e/vectorscale)",
+    "[vectorize](/e/vectorize)",
     "[pg_similarity](/e/pg_similarity)",
+    "[smlar](/e/smlar)",
     "[pg_summarize](/e/pg_summarize)",
     "[pg_tiktoken](/e/pg_tiktoken)",
-    "[pgml](/e/pgml)",
-    "[smlar](/e/smlar)",
-    "[vchord](/e/vchord)",
-    "[vector](/e/vector)",
-    "[vectorize](/e/vectorize)",
-    "[vectorscale](/e/vectorscale)"
+    "[pg4ml](/e/pg4ml)",
+    "[pgml](/e/pgml)"
   ]
 }

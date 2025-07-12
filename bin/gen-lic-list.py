@@ -177,9 +177,9 @@ import {{ Scale, Package }} from 'lucide-react';
         for license_name, count in license_counts.most_common():
             info = LICENSE_INFO.get(license_name, {'url': '#', 'description': '开源许可证。'})
             zh_desc = license_descriptions_zh.get(license_name, '开源许可证。')
-            summary_rows.append(f'| {format_license_in_page_zh(license_name)} | {count} | [许可证文本]({info["url"]}) | {zh_desc} |')
+            summary_rows.append(f'| {format_license_in_page_zh(license_name)} | {count} | [许可证]({info["url"]}) | {zh_desc} |')
         
-        summary_table = f'''| 许可证 | 数量 | 参考 | 描述 |
+        summary_table = f'''| 许可证 | 数量 | 参考文本 | 描述 |
 |:--------|:-----:|:-----:|:------------|
 {chr(10).join(summary_rows)}'''
         
@@ -195,7 +195,7 @@ import {{ Scale, Package }} from 'lucide-react';
 
 {BadgeFormatter.format_license(license_name, is_chinese=True, in_license_page=True)} <Badge icon={{<Package />}} variant="gray-subtle">{count} 个扩展</Badge>
 
-[{license_name} 许可证文本]({info["url"]}) : {zh_desc}
+[{license_name} 许可证]({info["url"]}) : {zh_desc}
 
 {self.table_gen.generate_simple_table_zh(license_extensions)}
 '''

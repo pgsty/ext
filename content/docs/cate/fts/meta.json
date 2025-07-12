@@ -1,6 +1,13 @@
 {
   "pages": [
-    "[fuzzystrmatch](/e/fuzzystrmatch)",
+    "[pg_search](/e/pg_search)",
+    "[pgroonga](/e/pgroonga)",
+    "[pgroonga_database](/e/pgroonga_database)",
+    "[pg_bigm](/e/pg_bigm)",
+    "[zhparser](/e/zhparser)",
+    "[pg_bestmatch](/e/pg_bestmatch)",
+    "[vchord_bm25](/e/vchord_bm25)",
+    "[pg_tokenizer](/e/pg_tokenizer)",
     "[hunspell_cs_cz](/e/hunspell_cs_cz)",
     "[hunspell_de_de](/e/hunspell_de_de)",
     "[hunspell_en_us](/e/hunspell_en_us)",
@@ -11,14 +18,7 @@
     "[hunspell_pt_pt](/e/hunspell_pt_pt)",
     "[hunspell_ru_ru](/e/hunspell_ru_ru)",
     "[hunspell_ru_ru_aot](/e/hunspell_ru_ru_aot)",
-    "[pg_bestmatch](/e/pg_bestmatch)",
-    "[pg_bigm](/e/pg_bigm)",
-    "[pg_search](/e/pg_search)",
-    "[pg_tokenizer](/e/pg_tokenizer)",
-    "[pg_trgm](/e/pg_trgm)",
-    "[pgroonga](/e/pgroonga)",
-    "[pgroonga_database](/e/pgroonga_database)",
-    "[vchord_bm25](/e/vchord_bm25)",
-    "[zhparser](/e/zhparser)"
+    "[fuzzystrmatch](/e/fuzzystrmatch)",
+    "[pg_trgm](/e/pg_trgm)"
   ]
 }
