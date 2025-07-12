@@ -97,7 +97,7 @@ import {{ Badge }} from '@/components/ui/badge';
             pg_sections.append(section)
         
         zh_content = f'''---
-title: 按PG大版本分类
+title: 按 PG 大版本分类
 description: 按主要版本分类不可用的 PostgreSQL 扩展
 icon: Database
 full: true

@@ -61,11 +61,11 @@ class CategoryListGenerator:
         for category_name in self.categories.keys():
             count = len(category_groups[category_name])
             category = self.categories[category_name]
-            category_badge = BadgeFormatter.format_category(category_name, self.categories)
+            category_badge = BadgeFormatter.format_category(category_name, self.categories, is_chinese=False, in_cate_page=True)
             category_table_rows.append(f'| {category_badge} | {count} | {category.en_desc} |')
         
         category_overview_table = f'''| Category | Count | Description |
-|:---------|:-----:|:------------|
+|:--------:|:-----:|:------------|
 {chr(10).join(category_table_rows)}'''
         
         # Generate category sections
@@ -83,7 +83,7 @@ class CategoryListGenerator:
 
 {category.en_desc}
 
-{BadgeFormatter.format_category(category_name, self.categories)} <Badge variant="gray-subtle">{count} Extensions</Badge>
+{BadgeFormatter.format_category(category_name, self.categories, is_chinese=False, in_cate_page=True)} <Badge icon={{<Package />}} variant="gray-subtle">{count} Extensions</Badge>
 
 {self.table_gen.generate_category_table(cat_extensions)}
 '''
@@ -97,7 +97,7 @@ full: true
 ---
 
 import {{ Badge }} from '@/components/ui/badge';
-import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck }} from 'lucide-react';
+import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck, Package }} from 'lucide-react';
 
 <Badge icon={{<Clock />}}               variant="blue-subtle"><a   href="#time" className="no-underline">TIME</a></Badge>
 <Badge icon={{<Globe />}}               variant="green-subtle"><a  href="#gis" className="no-underline">GIS</a></Badge>
@@ -134,11 +134,11 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
         for category_name in self.categories.keys():
             count = len(category_groups[category_name])
             category = self.categories[category_name]
-            category_badge = BadgeFormatter.format_category(category_name, self.categories)
+            category_badge = BadgeFormatter.format_category(category_name, self.categories, is_chinese=True, in_cate_page=True)
             zh_category_table_rows.append(f'| {category_badge} | {count} | {category.zh_desc} |')
         
         zh_category_overview_table = f'''| 分类 | 数量 | 描述 |
-|:---------|:-----:|:------------|
+|:--------:|:-----:|:------------|
 {chr(10).join(zh_category_table_rows)}'''
         
         # Generate Chinese category sections
@@ -156,7 +156,7 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
 
 {category.zh_desc}
 
-{BadgeFormatter.format_category(category_name, self.categories)} <Badge variant="gray-subtle">{count} 个扩展</Badge>
+{BadgeFormatter.format_category(category_name, self.categories, is_chinese=True, in_cate_page=True)} <Badge icon={{<Package />}} variant="gray-subtle">{count} 个扩展</Badge>
 
 {self.table_gen.generate_category_table_zh(cat_extensions)}
 '''
@@ -170,7 +170,7 @@ full: true
 ---
 
 import {{ Badge }} from '@/components/ui/badge';
-import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck }} from 'lucide-react';
+import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck, Package }} from 'lucide-react';
 
 <Badge icon={{<Clock />}}               variant="blue-subtle"><a   href="#time" className="no-underline">TIME</a></Badge>
 <Badge icon={{<Globe />}}               variant="green-subtle"><a  href="#gis" className="no-underline">GIS</a></Badge>

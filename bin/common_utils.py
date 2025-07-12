@@ -68,6 +68,26 @@ OS_DESCRIPTIONS = {
     'u24': 'Ubuntu 24.04 LTS (Noble)'
 }
 
+# Category color scheme - unified color mapping for categories
+CATEGORY_COLORS = {
+    'TIME': 'blue-subtle',
+    'GIS': 'green-subtle', 
+    'RAG': 'purple-subtle',
+    'FTS': 'amber-subtle',
+    'OLAP': 'red-subtle',
+    'FEAT': 'pink-subtle',
+    'LANG': 'teal-subtle',
+    'TYPE': 'gray-subtle',
+    'UTIL': 'amber-subtle',
+    'FUNC': 'pink-subtle',
+    'ADMIN': 'gray-subtle',
+    'STAT': 'green-subtle',
+    'SEC': 'red-subtle',
+    'FDW': 'blue-subtle',
+    'SIM': 'teal-subtle',
+    'ETL': 'purple-subtle'
+}
+
 LANGUAGE_DESCRIPTIONS = {
     'C': 'The traditional PostgreSQL extension language',
     'C++': 'Extensions leveraging C++ features and libraries',
@@ -103,13 +123,13 @@ LICENSE_NORMALIZATION = {
 }
 
 LANGUAGE_CONFIG = {
-    'Python': {"variant": 'blue-subtle', "anchor": "/list/lang#python"},
-    'Rust': {"variant": 'amber-subtle', "anchor": "/list/lang#rust"},
-    'SQL': {"variant": 'green-subtle', "anchor": "/list/lang#sql"},
-    'Java': {"variant": 'pink-subtle', "anchor": "/list/lang#java"},
-    'Data': {"variant": 'teal-subtle', "anchor": "/list/lang#data"},
-    'C++': {"variant": 'purple-subtle', "anchor": "/list/lang#c-1"},
-    'C': {"variant": 'blue-subtle', "anchor": "/list/lang#c"},
+    'Python': {"variant": 'blue-subtle', "anchor": "python"},
+    'Rust': {"variant": 'amber-subtle', "anchor": "rust"},
+    'SQL': {"variant": 'green-subtle', "anchor": "sql"},
+    'Java': {"variant": 'pink-subtle', "anchor": "java"},
+    'Data': {"variant": 'teal-subtle', "anchor": "data"},
+    'C++': {"variant": 'purple-subtle', "anchor": "c-1"},
+    'C': {"variant": 'blue-subtle', "anchor": "c"},
 }
 
 REPO_CONFIG = {
@@ -223,29 +243,70 @@ class BadgeFormatter:
     """Centralized badge formatting functionality."""
     
     @staticmethod
-    def format_category(category: str, category_meta: Dict) -> str:
+    def format_category(category: str, category_meta: Dict, is_chinese: bool = False, in_cate_page: bool = False) -> str:
         """Format category as Badge component with icon and color."""
         meta = category_meta.get(category)
         if meta:
             iconstr = f'{{<{meta.icon2} />}}'
         else:
             iconstr = '{<Blocks />}'
-        return f'<Badge icon={iconstr} variant="blue-subtle"><a href="/cate/{category.lower()}" className="no-underline">{category}</a></Badge>'
+        
+        # Use the unified color scheme
+        color = CATEGORY_COLORS.get(category, 'gray-subtle')
+        
+        # Determine link target
+        if in_cate_page:
+            # Link to anchor in current page
+            href = f"#{category.lower()}"
+        else:
+            # Link to category page
+            path_prefix = '/zh' if is_chinese else ''
+            href = f"{path_prefix}/cate/{category.lower()}"
+        
+        return f'<Badge icon={iconstr} variant="{color}"><a href="{href}" className="no-underline">{category}</a></Badge>'
     
     @staticmethod
-    def format_license(license_name: str) -> str:
-        """Format license as Badge component with standard colors and links."""
+    def format_license(license_name: str, is_chinese: bool = False, in_license_page: bool = False) -> str:
+        """Format license as Badge component with context-aware links."""
         license_info = LICENSE_INFO.get(license_name, {
             'anchor': license_name.lower().replace(' ', '-').replace('.', ''), 
             'variant': 'gray-subtle'
         })
-        return f'<a href="/list/license#{license_info["anchor"]}" className="no-underline"><Badge icon={{<Scale />}} variant="{license_info["variant"]}">{license_name}</Badge></a>'
+        
+        # Determine link target
+        if in_license_page:
+            # Link to anchor in current page
+            href = f"#{license_info['anchor']}"
+        else:
+            # Link to license page
+            path_prefix = '/zh' if is_chinese else ''
+            href = f"{path_prefix}/list/license#{license_info['anchor']}"
+        
+        return f'<a href="{href}" className="no-underline"><Badge icon={{<Scale />}} variant="{license_info["variant"]}">{license_name}</Badge></a>'
     
     @staticmethod
-    def format_language(language: str) -> str:
-        """Format programming language as Badge component with appropriate color."""
+    def format_language(language: str, is_chinese: bool = False, in_language_page: bool = False) -> str:
+        """Format programming language as Badge component with context-aware links."""
         info = LANGUAGE_CONFIG.get(language, {"variant": 'gray-subtle', "anchor": "#"})
-        return f'<a href="{info["anchor"]}"><Badge icon={{<FileCode2 />}} variant="{info["variant"]}">{language or "N/A"}</Badge></a>'
+        
+        # Determine link target
+        if in_language_page:
+            # Extract anchor from existing config and use for in-page navigation
+            if '#' in info.get('anchor', ''):
+                anchor = info['anchor'].split('#')[1]
+                href = f"#{anchor}"
+            else:
+                href = f"#{language.lower().replace('+', '-')}"
+        else:
+            # Link to language page
+            path_prefix = '/zh' if is_chinese else ''
+            if '#' in info.get('anchor', ''):
+                anchor = info['anchor'].split('#')[1]
+                href = f"{path_prefix}/list/lang#{anchor}"
+            else:
+                href = f"{path_prefix}/list/lang#{language.lower().replace('+', '-')}"
+        
+        return f'<a href="{href}"><Badge icon={{<FileCode2 />}} variant="{info["variant"]}">{language or "N/A"}</Badge></a>'
     
     @staticmethod
     def format_repo(repo: str) -> str:
@@ -378,7 +439,7 @@ class TableGenerator:
         if not extensions:
             return "未找到扩展。"
         
-        headers = ['ID', '扩展', '包', '描述']
+        headers = ['ID', '扩展', '扩展包', '描述']
         rows = [self._format_table_header(headers, [':---:',':---',':---',':---'])]
         
         for ext in extensions:
@@ -419,7 +480,7 @@ class TableGenerator:
         if not extensions:
             return "未找到扩展。"
         
-        headers = ['ID', '扩展', '包', '版本', '描述']
+        headers = ['ID', '扩展', '扩展包', '版本', '描述']
         rows = [self._format_table_header(headers, [':---:',':---',':---',':---',':---'])]
         
         for ext in extensions:
@@ -435,26 +496,33 @@ class TableGenerator:
         
         return '\n'.join(rows)
     
-    def generate_repo_table(self, extensions: List[Extension], category_meta: Dict) -> str:
+    def generate_repo_table(self, extensions: List[Extension], category_meta: Dict, is_chinese: bool = False) -> str:
         """Generate extension table for repo lists (ID, Name, Category, RPM, DEB, Description)."""
         if not extensions:
-            return "No extensions found."
+            return "未找到扩展。" if is_chinese else "No extensions found."
         
-        headers = ['ID', 'Name', 'Category', 'RPM', 'DEB', 'Description']
+        if is_chinese:
+            headers = ['ID', '名称', '分类', 'RPM', 'DEB', '描述']
+        else:
+            headers = ['ID', 'Name', 'Category', 'RPM', 'DEB', 'Description']
         rows = [self._format_table_header(headers, [':---:',':---',':---',':---:',':---:',':---'])]
+        
+        path_prefix = '/zh' if is_chinese else ''
         
         for ext in extensions:
             rpm_badge = BadgeFormatter.format_repo(ext.rpm_repo) if ext.rpm_repo else '-'
             deb_badge = BadgeFormatter.format_repo(ext.deb_repo) if ext.deb_repo else '-'
-            category_badge = BadgeFormatter.format_category(ext.category, category_meta) if ext.category else '-'
+            category_badge = BadgeFormatter.format_category(ext.category, category_meta, is_chinese) if ext.category else '-'
+            
+            description = (ext.zh_desc or ext.en_desc or '暂无描述') if is_chinese else (ext.en_desc or 'No description')
             
             row_data = [
                 str(ext.id),
-                f'[`{ext.name}`](/e/{ext.name})',
+                f'[`{ext.name}`]({path_prefix}/e/{ext.name})',
                 category_badge,
                 rpm_badge,
                 deb_badge,
-                ext.en_desc or 'No description'
+                description
             ]
             rows.append('| ' + ' | '.join(row_data) + ' |')
         

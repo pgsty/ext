@@ -81,9 +81,9 @@ class RepoListGenerator:
         
         # Generate content sections
         contrib_table = self.table_gen.generate_simple_table(contrib_extensions)
-        both_table = self.table_gen.generate_repo_table(both_extensions, self.categories)
-        el_only_table = self.table_gen.generate_repo_table(el_only_extensions, self.categories)
-        debian_only_table = self.table_gen.generate_repo_table(debian_only_extensions, self.categories)
+        both_table = self.table_gen.generate_repo_table(both_extensions, self.categories, is_chinese=False)
+        el_only_table = self.table_gen.generate_repo_table(el_only_extensions, self.categories, is_chinese=False)
+        debian_only_table = self.table_gen.generate_repo_table(debian_only_extensions, self.categories, is_chinese=False)
         
         # Generate summary
         total_extensions = len(self.extensions)
@@ -143,11 +143,9 @@ There are **{len(debian_only_extensions)}** non-contrib extensions only availabl
         
         # Generate content sections (using Chinese table generators)
         contrib_table = self.table_gen.generate_simple_table_zh(contrib_extensions)
-        
-        # For repo tables, we need to create a Chinese version
-        both_table = self._generate_repo_table_zh(both_extensions)
-        el_only_table = self._generate_repo_table_zh(el_only_extensions)
-        debian_only_table = self._generate_repo_table_zh(debian_only_extensions)
+        both_table = self.table_gen.generate_repo_table(both_extensions, self.categories, is_chinese=True)
+        el_only_table = self.table_gen.generate_repo_table(el_only_extensions, self.categories, is_chinese=True)
+        debian_only_table = self.table_gen.generate_repo_table(debian_only_extensions, self.categories, is_chinese=True)
         
         # Generate summary
         total_extensions = len(self.extensions)
@@ -198,31 +196,6 @@ PostgreSQL 核心发行版自带的扩展。共有 **{len(contrib_extensions)}**
 '''
         
         write_content(self.config, 'repo.zh.mdx', zh_content)
-    
-    def _generate_repo_table_zh(self, extensions: List) -> str:
-        """Generate Chinese version of repo table."""
-        if not extensions:
-            return "未找到扩展。"
-        
-        headers = ['ID', '名称', '分类', 'RPM', 'DEB', '描述']
-        rows = [self.table_gen._format_table_header(headers, [':---:',':---',':---',':---:',':---:',':---'])]
-        
-        for ext in extensions:
-            rpm_badge = BadgeFormatter.format_repo(ext.rpm_repo) if ext.rpm_repo else '-'
-            deb_badge = BadgeFormatter.format_repo(ext.deb_repo) if ext.deb_repo else '-'
-            category_badge = BadgeFormatter.format_category(ext.category, self.categories) if ext.category else '-'
-            
-            row_data = [
-                str(ext.id),
-                f'[`{ext.name}`](/zh/e/{ext.name})',
-                category_badge,
-                rpm_badge,
-                deb_badge,
-                ext.zh_desc or ext.en_desc or '暂无描述'
-            ]
-            rows.append('| ' + ' | '.join(row_data) + ' |')
-        
-        return '\n'.join(rows)
 
 
 def main():

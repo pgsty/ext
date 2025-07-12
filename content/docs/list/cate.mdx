@@ -6,7 +6,7 @@ full: true
 ---
 
 import { Badge } from '@/components/ui/badge';
-import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck } from 'lucide-react';
+import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck, Package } from 'lucide-react';
 
 <Badge icon={<Clock />}               variant="blue-subtle"><a   href="#time" className="no-underline">TIME</a></Badge>
 <Badge icon={<Globe />}               variant="green-subtle"><a  href="#gis" className="no-underline">GIS</a></Badge>
@@ -28,30 +28,30 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 ## Summary
 
 | Category | Count | Description |
-|:---------|:-----:|:------------|
-| <Badge icon={<Clock />} variant="blue-subtle"><a href="/cate/time" className="no-underline">TIME</a></Badge> | 11 | TIME: TimescaleDB, Versioning & Temporal Table, Crontab, Async & Background Job Scheduler, ... |
-| <Badge icon={<Globe />} variant="blue-subtle"><a href="/cate/gis" className="no-underline">GIS</a></Badge> | 20 | GIS: GeoSpatial Data Types, Operators, and Indexes, Hexagonal Indexing, OGR Data FDW, GeoIP & MobilityDB, etc... |
-| <Badge icon={<Brain />} variant="blue-subtle"><a href="/cate/rag" className="no-underline">RAG</a></Badge> | 10 | RAG: Vector Database with Ivfflat, HNSW, DiskANN Indexes, AI & ML in SQL interface, Similarity Funcs, etc...  |
-| <Badge icon={<Search />} variant="blue-subtle"><a href="/cate/fts" className="no-underline">FTS</a></Badge> | 20 | FTS: ElasticSearch Alternative with BM25, 2-gram/3-gram Fuzzy Search, Zhparser & Hunspell Segregation Dicts, etc... |
-| <Badge icon={<ChartNoAxesCombined />} variant="blue-subtle"><a href="/cate/olap" className="no-underline">OLAP</a></Badge> | 13 | OLAP: DuckDB Integration with FDW & PG Lakehouse, Access Parquet from File/S3, Sharding with Citus/Partman/PlProxy, ... |
-| <Badge icon={<Sparkles />} variant="blue-subtle"><a href="/cate/feat" className="no-underline">FEAT</a></Badge> | 56 | FEAT: OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IVM, ChemRDKit, and Message Queues,... |
-| <Badge icon={<BookA />} variant="blue-subtle"><a href="/cate/lang" className="no-underline">LANG</a></Badge> | 31 |  Test |
-| <Badge icon={<Boxes />} variant="blue-subtle"><a href="/cate/type" className="no-underline">TYPE</a></Badge> | 37 | TYPE: Dedicate New Data Types Like: prefix, semver, uint, SIUnit, RoaringBitmap, Rational, Sphere, Hash, RRule, and more... |
-| <Badge icon={<Wrench />} variant="blue-subtle"><a href="/cate/util" className="no-underline">UTIL</a></Badge> | 31 | UTIL: Utilities such as send http request, perform gzip/zstd compress, send mails, Regex, ICU, encoding, docs, Encryption,... |
-| <Badge icon={<Variable />} variant="blue-subtle"><a href="/cate/func" className="no-underline">FUNC</a></Badge> | 43 | FUNC: Function such as id generator, aggregations, sketches, vector functions, mathematical functions and digest functions... |
-| <Badge icon={<Landmark />} variant="blue-subtle"><a href="/cate/admin" className="no-underline">ADMIN</a></Badge> | 36 | ADMIN: Utilities for Bloat Control, DirtyRead, BufferInspect, DDL Generate, ChecksumVerify, Permission, Priority, Catalog,... |
-| <Badge icon={<Activity />} variant="blue-subtle"><a href="/cate/stat" className="no-underline">STAT</a></Badge> | 34 | STAT: Observability Catalogs, Monitoring Metrics & Views, Statistics, Query Plans, WaitSampling, SlowLogs, and etc... |
-| <Badge icon={<Shield />} variant="blue-subtle"><a href="/cate/sec" className="no-underline">SEC</a></Badge> | 26 | SEC: Auditing Logs, Enforce Passwords, Keep Secrets, TDE, SM Algorithm, Login Hooks, Log Errors, Extension White List, ... |
-| <Badge icon={<FileInput />} variant="blue-subtle"><a href="/cate/fdw" className="no-underline">FDW</a></Badge> | 22 | FDW: Wrappers & Multicorn for FDW Development, Access other DBMS: MySQL, Mongo, SQLite, MSSQL, Oracle, HDFS, DB2,... |
-| <Badge icon={<Shell />} variant="blue-subtle"><a href="/cate/sim" className="no-underline">SIM</a></Badge> | 16 | SIM: Protocol Simulation & heterogeneous DBMS Compatibility: Oracle, MSSQL, DB2, MySQL, Memcached, and Babelfish! |
-| <Badge icon={<Truck />} variant="blue-subtle"><a href="/cate/etl" className="no-underline">ETL</a></Badge> | 17 | ETL: Logical Replication, Decoding, CDC in protobuf/JSON/Mongo format, Copy & Load & Compare Postgres Databases,... |
+|:--------:|:-----:|:------------|
+| <Badge icon={<Clock />} variant="blue-subtle"><a href="#time" className="no-underline">TIME</a></Badge> | 11 | TIME: TimescaleDB, Versioning & Temporal Table, Crontab, Async & Background Job Scheduler, ... |
+| <Badge icon={<Globe />} variant="green-subtle"><a href="#gis" className="no-underline">GIS</a></Badge> | 20 | GIS: GeoSpatial Data Types, Operators, and Indexes, Hexagonal Indexing, OGR Data FDW, GeoIP & MobilityDB, etc... |
+| <Badge icon={<Brain />} variant="purple-subtle"><a href="#rag" className="no-underline">RAG</a></Badge> | 10 | RAG: Vector Database with Ivfflat, HNSW, DiskANN Indexes, AI & ML in SQL interface, Similarity Funcs, etc...  |
+| <Badge icon={<Search />} variant="amber-subtle"><a href="#fts" className="no-underline">FTS</a></Badge> | 20 | FTS: ElasticSearch Alternative with BM25, 2-gram/3-gram Fuzzy Search, Zhparser & Hunspell Segregation Dicts, etc... |
+| <Badge icon={<ChartNoAxesCombined />} variant="red-subtle"><a href="#olap" className="no-underline">OLAP</a></Badge> | 13 | OLAP: DuckDB Integration with FDW & PG Lakehouse, Access Parquet from File/S3, Sharding with Citus/Partman/PlProxy, ... |
+| <Badge icon={<Sparkles />} variant="pink-subtle"><a href="#feat" className="no-underline">FEAT</a></Badge> | 56 | FEAT: OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IVM, ChemRDKit, and Message Queues,... |
+| <Badge icon={<BookA />} variant="teal-subtle"><a href="#lang" className="no-underline">LANG</a></Badge> | 31 | LANG: Develop, Test, Package, and Deliver Stored Procedures written in various PL/Languages: Java, Js, Lua, R, Sh, PRQL, ... |
+| <Badge icon={<Boxes />} variant="gray-subtle"><a href="#type" className="no-underline">TYPE</a></Badge> | 37 | TYPE: Dedicate New Data Types Like: prefix, semver, uint, SIUnit, RoaringBitmap, Rational, Sphere, Hash, RRule, and more... |
+| <Badge icon={<Wrench />} variant="amber-subtle"><a href="#util" className="no-underline">UTIL</a></Badge> | 31 | UTIL: Utilities such as send http request, perform gzip/zstd compress, send mails, Regex, ICU, encoding, docs, Encryption,... |
+| <Badge icon={<Variable />} variant="pink-subtle"><a href="#func" className="no-underline">FUNC</a></Badge> | 43 | FUNC: Function such as id generator, aggregations, sketches, vector functions, mathematical functions and digest functions... |
+| <Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> | 36 | ADMIN: Utilities for Bloat Control, DirtyRead, BufferInspect, DDL Generate, ChecksumVerify, Permission, Priority, Catalog,... |
+| <Badge icon={<Activity />} variant="green-subtle"><a href="#stat" className="no-underline">STAT</a></Badge> | 34 | STAT: Observability Catalogs, Monitoring Metrics & Views, Statistics, Query Plans, WaitSampling, SlowLogs, and etc... |
+| <Badge icon={<Shield />} variant="red-subtle"><a href="#sec" className="no-underline">SEC</a></Badge> | 26 | SEC: Auditing Logs, Enforce Passwords, Keep Secrets, TDE, SM Algorithm, Login Hooks, Log Errors, Extension White List, ... |
+| <Badge icon={<FileInput />} variant="blue-subtle"><a href="#fdw" className="no-underline">FDW</a></Badge> | 22 | FDW: Wrappers & Multicorn for FDW Development, Access other DBMS: MySQL, Mongo, SQLite, MSSQL, Oracle, HDFS, DB2,... |
+| <Badge icon={<Shell />} variant="teal-subtle"><a href="#sim" className="no-underline">SIM</a></Badge> | 16 | SIM: Protocol Simulation & heterogeneous DBMS Compatibility: Oracle, MSSQL, DB2, MySQL, Memcached, and Babelfish! |
+| <Badge icon={<Truck />} variant="purple-subtle"><a href="#etl" className="no-underline">ETL</a></Badge> | 17 | ETL: Logical Replication, Decoding, CDC in protobuf/JSON/Mongo format, Copy & Load & Compare Postgres Databases,... |
 
 
 ## TIME
 
 TIME: TimescaleDB, Versioning & Temporal Table, Crontab, Async & Background Job Scheduler, ...
 
-<Badge icon={<Clock />} variant="blue-subtle"><a href="/cate/time" className="no-underline">TIME</a></Badge> <Badge variant="gray-subtle">11 Extensions</Badge>
+<Badge icon={<Clock />} variant="blue-subtle"><a href="#time" className="no-underline">TIME</a></Badge> <Badge icon={<Package />} variant="gray-subtle">11 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -71,7 +71,7 @@ TIME: TimescaleDB, Versioning & Temporal Table, Crontab, Async & Background Job 
 
 GIS: GeoSpatial Data Types, Operators, and Indexes, Hexagonal Indexing, OGR Data FDW, GeoIP & MobilityDB, etc...
 
-<Badge icon={<Globe />} variant="blue-subtle"><a href="/cate/gis" className="no-underline">GIS</a></Badge> <Badge variant="gray-subtle">20 Extensions</Badge>
+<Badge icon={<Globe />} variant="green-subtle"><a href="#gis" className="no-underline">GIS</a></Badge> <Badge icon={<Package />} variant="gray-subtle">20 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -100,7 +100,7 @@ GIS: GeoSpatial Data Types, Operators, and Indexes, Hexagonal Indexing, OGR Data
 
 RAG: Vector Database with Ivfflat, HNSW, DiskANN Indexes, AI & ML in SQL interface, Similarity Funcs, etc... 
 
-<Badge icon={<Brain />} variant="blue-subtle"><a href="/cate/rag" className="no-underline">RAG</a></Badge> <Badge variant="gray-subtle">10 Extensions</Badge>
+<Badge icon={<Brain />} variant="purple-subtle"><a href="#rag" className="no-underline">RAG</a></Badge> <Badge icon={<Package />} variant="gray-subtle">10 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -119,7 +119,7 @@ RAG: Vector Database with Ivfflat, HNSW, DiskANN Indexes, AI & ML in SQL interfa
 
 FTS: ElasticSearch Alternative with BM25, 2-gram/3-gram Fuzzy Search, Zhparser & Hunspell Segregation Dicts, etc...
 
-<Badge icon={<Search />} variant="blue-subtle"><a href="/cate/fts" className="no-underline">FTS</a></Badge> <Badge variant="gray-subtle">20 Extensions</Badge>
+<Badge icon={<Search />} variant="amber-subtle"><a href="#fts" className="no-underline">FTS</a></Badge> <Badge icon={<Package />} variant="gray-subtle">20 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -148,7 +148,7 @@ FTS: ElasticSearch Alternative with BM25, 2-gram/3-gram Fuzzy Search, Zhparser &
 
 OLAP: DuckDB Integration with FDW & PG Lakehouse, Access Parquet from File/S3, Sharding with Citus/Partman/PlProxy, ...
 
-<Badge icon={<ChartNoAxesCombined />} variant="blue-subtle"><a href="/cate/olap" className="no-underline">OLAP</a></Badge> <Badge variant="gray-subtle">13 Extensions</Badge>
+<Badge icon={<ChartNoAxesCombined />} variant="red-subtle"><a href="#olap" className="no-underline">OLAP</a></Badge> <Badge icon={<Package />} variant="gray-subtle">13 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -170,7 +170,7 @@ OLAP: DuckDB Integration with FDW & PG Lakehouse, Access Parquet from File/S3, S
 
 FEAT: OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IVM, ChemRDKit, and Message Queues,...
 
-<Badge icon={<Sparkles />} variant="blue-subtle"><a href="/cate/feat" className="no-underline">FEAT</a></Badge> <Badge variant="gray-subtle">56 Extensions</Badge>
+<Badge icon={<Sparkles />} variant="pink-subtle"><a href="#feat" className="no-underline">FEAT</a></Badge> <Badge icon={<Package />} variant="gray-subtle">56 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -233,9 +233,9 @@ FEAT: OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IV
 
 ## LANG
 
- Test
+LANG: Develop, Test, Package, and Deliver Stored Procedures written in various PL/Languages: Java, Js, Lua, R, Sh, PRQL, ...
 
-<Badge icon={<BookA />} variant="blue-subtle"><a href="/cate/lang" className="no-underline">LANG</a></Badge> <Badge variant="gray-subtle">31 Extensions</Badge>
+<Badge icon={<BookA />} variant="teal-subtle"><a href="#lang" className="no-underline">LANG</a></Badge> <Badge icon={<Package />} variant="gray-subtle">31 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -275,7 +275,7 @@ FEAT: OpenCypher with AGE, GraphQL, JsonSchema, Hints & Hypo Index, HLL, Rum, IV
 
 TYPE: Dedicate New Data Types Like: prefix, semver, uint, SIUnit, RoaringBitmap, Rational, Sphere, Hash, RRule, and more...
 
-<Badge icon={<Boxes />} variant="blue-subtle"><a href="/cate/type" className="no-underline">TYPE</a></Badge> <Badge variant="gray-subtle">37 Extensions</Badge>
+<Badge icon={<Boxes />} variant="gray-subtle"><a href="#type" className="no-underline">TYPE</a></Badge> <Badge icon={<Package />} variant="gray-subtle">37 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -321,7 +321,7 @@ TYPE: Dedicate New Data Types Like: prefix, semver, uint, SIUnit, RoaringBitmap,
 
 UTIL: Utilities such as send http request, perform gzip/zstd compress, send mails, Regex, ICU, encoding, docs, Encryption,...
 
-<Badge icon={<Wrench />} variant="blue-subtle"><a href="/cate/util" className="no-underline">UTIL</a></Badge> <Badge variant="gray-subtle">31 Extensions</Badge>
+<Badge icon={<Wrench />} variant="amber-subtle"><a href="#util" className="no-underline">UTIL</a></Badge> <Badge icon={<Package />} variant="gray-subtle">31 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -361,7 +361,7 @@ UTIL: Utilities such as send http request, perform gzip/zstd compress, send mail
 
 FUNC: Function such as id generator, aggregations, sketches, vector functions, mathematical functions and digest functions...
 
-<Badge icon={<Variable />} variant="blue-subtle"><a href="/cate/func" className="no-underline">FUNC</a></Badge> <Badge variant="gray-subtle">43 Extensions</Badge>
+<Badge icon={<Variable />} variant="pink-subtle"><a href="#func" className="no-underline">FUNC</a></Badge> <Badge icon={<Package />} variant="gray-subtle">43 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -413,7 +413,7 @@ FUNC: Function such as id generator, aggregations, sketches, vector functions, m
 
 ADMIN: Utilities for Bloat Control, DirtyRead, BufferInspect, DDL Generate, ChecksumVerify, Permission, Priority, Catalog,...
 
-<Badge icon={<Landmark />} variant="blue-subtle"><a href="/cate/admin" className="no-underline">ADMIN</a></Badge> <Badge variant="gray-subtle">36 Extensions</Badge>
+<Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> <Badge icon={<Package />} variant="gray-subtle">36 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -458,7 +458,7 @@ ADMIN: Utilities for Bloat Control, DirtyRead, BufferInspect, DDL Generate, Chec
 
 STAT: Observability Catalogs, Monitoring Metrics & Views, Statistics, Query Plans, WaitSampling, SlowLogs, and etc...
 
-<Badge icon={<Activity />} variant="blue-subtle"><a href="/cate/stat" className="no-underline">STAT</a></Badge> <Badge variant="gray-subtle">34 Extensions</Badge>
+<Badge icon={<Activity />} variant="green-subtle"><a href="#stat" className="no-underline">STAT</a></Badge> <Badge icon={<Package />} variant="gray-subtle">34 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -501,7 +501,7 @@ STAT: Observability Catalogs, Monitoring Metrics & Views, Statistics, Query Plan
 
 SEC: Auditing Logs, Enforce Passwords, Keep Secrets, TDE, SM Algorithm, Login Hooks, Log Errors, Extension White List, ...
 
-<Badge icon={<Shield />} variant="blue-subtle"><a href="/cate/sec" className="no-underline">SEC</a></Badge> <Badge variant="gray-subtle">26 Extensions</Badge>
+<Badge icon={<Shield />} variant="red-subtle"><a href="#sec" className="no-underline">SEC</a></Badge> <Badge icon={<Package />} variant="gray-subtle">26 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -536,7 +536,7 @@ SEC: Auditing Logs, Enforce Passwords, Keep Secrets, TDE, SM Algorithm, Login Ho
 
 FDW: Wrappers & Multicorn for FDW Development, Access other DBMS: MySQL, Mongo, SQLite, MSSQL, Oracle, HDFS, DB2,...
 
-<Badge icon={<FileInput />} variant="blue-subtle"><a href="/cate/fdw" className="no-underline">FDW</a></Badge> <Badge variant="gray-subtle">22 Extensions</Badge>
+<Badge icon={<FileInput />} variant="blue-subtle"><a href="#fdw" className="no-underline">FDW</a></Badge> <Badge icon={<Package />} variant="gray-subtle">22 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -567,7 +567,7 @@ FDW: Wrappers & Multicorn for FDW Development, Access other DBMS: MySQL, Mongo, 
 
 SIM: Protocol Simulation & heterogeneous DBMS Compatibility: Oracle, MSSQL, DB2, MySQL, Memcached, and Babelfish!
 
-<Badge icon={<Shell />} variant="blue-subtle"><a href="/cate/sim" className="no-underline">SIM</a></Badge> <Badge variant="gray-subtle">16 Extensions</Badge>
+<Badge icon={<Shell />} variant="teal-subtle"><a href="#sim" className="no-underline">SIM</a></Badge> <Badge icon={<Package />} variant="gray-subtle">16 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|
@@ -592,7 +592,7 @@ SIM: Protocol Simulation & heterogeneous DBMS Compatibility: Oracle, MSSQL, DB2,
 
 ETL: Logical Replication, Decoding, CDC in protobuf/JSON/Mongo format, Copy & Load & Compare Postgres Databases,...
 
-<Badge icon={<Truck />} variant="blue-subtle"><a href="/cate/etl" className="no-underline">ETL</a></Badge> <Badge variant="gray-subtle">17 Extensions</Badge>
+<Badge icon={<Truck />} variant="purple-subtle"><a href="#etl" className="no-underline">ETL</a></Badge> <Badge icon={<Package />} variant="gray-subtle">17 Extensions</Badge>
 
 | ID | Extension | Package | Version | Description |
 |:---:|:---|:---|:---|:---|

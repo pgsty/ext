@@ -4,8 +4,9 @@ description: The pig releasenote and changelog
 icon: ClipboardList
 ---
 
-| Version         |    Date    | Summary                              | Release                                                    |
+|     Version     |    Date    | Summary                              | Release                                                    |
 |:---------------:|:----------:|--------------------------------------|------------------------------------------------------------|
+| [v0.5.0](#v050) | 2025-06-30 | 422 extension, routine fix           | [v0.5.0](https://github.com/pgsty/pig/releases/tag/v0.5.0) |
 | [v0.4.2](#v042) | 2025-05-27 | 421 extension, halo & oriole deb     | [v0.4.2](https://github.com/pgsty/pig/releases/tag/v0.4.2) |
 | [v0.4.1](#v041) | 2025-05-07 | 414 extension, pg18 alias support    | [v0.4.1](https://github.com/pgsty/pig/releases/tag/v0.4.1) |
 | [v0.4.0](#v040) | 2025-05-0? | do & pt sub-cmd, halo & orioledb     | [v0.4.0](https://github.com/pgsty/pig/releases/tag/v0.4.0) |
@@ -22,6 +23,50 @@ icon: ClipboardList
 | [v0.1.1](#v011) | 2025-01-09 | Update Extension List                | [v0.1.1](https://github.com/pgsty/pig/releases/tag/v0.1.1) |
 | [v0.1.0](#v010) | 2024-12-29 | repo, ext, sty, and self-update      | [v0.1.0](https://github.com/pgsty/pig/releases/tag/v0.1.0) |
 | [v0.0.1](#v001) | 2024-12-23 | Genesis Release                      | [v0.0.1](https://github.com/pgsty/pig/releases/tag/v0.0.1) |
+
+
+
+--------
+
+## v0.5.1 (WIP)
+
+- The brand-new extension catalog website: https://ext.pgsty.com
+- Update the extension list to 423 (with pg_tde / orioledb)
+- Add percona postgres kernel alias (with pg_tde support)
+- New subcommand `pig install` which is a wrapper for `pig sty install`
+- Update extension info output
+
+
+
+
+--------
+
+## v0.5.0
+
+- Update the extension list to 422
+- New extension: [pgactive](https://github.com/aws/pgactive) from AWS
+- bump timescaledb to 2.20.3
+- bump citus to 13.1.0
+- bump vchord to 0.4.3
+- bug fix pgvectorscale debian/ubuntu pg17 failure
+- bump kubernetes repo to 1.33
+- bump default pigsty version to 3.5.0
+
+**Checksums**
+
+```
+9ec6f3caf3edbe867caab5de0e0ccb33  pig_0.5.0-1_amd64.deb
+4fbb0a42cd8a88bce50b3c9d85745d77  pig_0.5.0-1_arm64.deb
+9cf8208396b068cab438f72c90d39efe  pig-0.5.0-1.aarch64.rpm
+d9a8d78c30f45e098b29c3d16471aa8d  pig-0.5.0-1.x86_64.rpm
+761df804ff7b83965c41492700717674  pig-v0.5.0.linux-amd64.tar.gz
+5d1830069d98030728f08835f883ea39  pig-v0.5.0.linux-arm64.tar.gz
+```
+
+
+
+Release: https://github.com/pgsty/pig/releases/tag/v0.5.0
+
 
 
 --------

@@ -2,7 +2,6 @@
   "title": "扩展仓库",
   "defaultOpen": true,
   "pages": [
-    "index",
     "infra",
     "pgsql",
     "gpg"

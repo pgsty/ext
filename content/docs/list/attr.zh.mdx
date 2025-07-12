@@ -13,7 +13,7 @@ import { Badge } from '@/components/ui/badge';
 
 需要在 [`shared_preload_libraries`](https://www.postgresql.org/docs/current/runtime-config-client.html#GUC-SHARED-PRELOAD-LIBRARIES) 中动态加载才能正常工作的扩展。
 
-| ID | 扩展 | 包 | 描述 |
+| ID | 扩展 | 扩展包 | 描述 |
 |:---:|:---|:---|:---|
 | 7050 | [`anon`](/zh/e/anon) | [`pg_anon`](/zh/e/anon) | 数据匿名化处理工具 |
 | 7970 | [`auth_delay`](/zh/e/auth_delay) | [`auth_delay`](/zh/e/auth_delay) | 在返回认证失败前暂停一会，避免爆破 |
@@ -78,7 +78,7 @@ import { Badge } from '@/components/ui/badge';
 
 这些扩展没有 DDL 语句，所以你不需要（也不能）运行 `CREATE EXTENSION` 来创建它们。
 
-| ID | 扩展 | 包 | 描述 |
+| ID | 扩展 | 扩展包 | 描述 |
 |:---:|:---|:---|:---|
 | 7970 | [`auth_delay`](/zh/e/auth_delay) | [`auth_delay`](/zh/e/auth_delay) | 在返回认证失败前暂停一会，避免爆破 |
 | 6980 | [`auto_explain`](/zh/e/auto_explain) | [`auto_explain`](/zh/e/auto_explain) | 提供一种自动记录执行计划的手段 |

@@ -460,7 +460,7 @@ class TableGenerator:
 | RPM  | {rpm_pkg} | {ddl_badge} |
 | DEB  | {deb_pkg} | {lib_badge} |
 | {lang_label} | {format_language_badge(ext.lang or "N/A")} | {bin_badge} |
-| {lic_label} | {BadgeFormatter.format_license(ext.license or "N/A")} | {trust_badge} |'''
+| {lic_label} | {BadgeFormatter.format_license(ext.license or "N/A", is_chinese=False)} | {trust_badge} |'''
 
         def generate_availability_matrix(ext: Extension) -> str:
 
@@ -906,7 +906,7 @@ class LicenseListGenerator(ContentGenerator):
         summary_rows = []
         for license_name, count in license_counts.most_common():
             info = LICENSE_INFO.get(license_name, {'url': '#', 'description': 'Open source license.'})
-            summary_rows.append(f'| {BadgeFormatter.format_license(license_name)} | {count} | [License Text]({info["url"]}) | {info["description"]} |')
+            summary_rows.append(f'| {BadgeFormatter.format_license(license_name, is_chinese=False)} | {count} | [License Text]({info["url"]}) | {info["description"]} |')
         
         summary_table = f'''| License | Count | Reference |  Description |
 |:--------|:-----:|:-------:|:----------|
@@ -921,7 +921,7 @@ class LicenseListGenerator(ContentGenerator):
             section = f'''
 ## {license_name}
 
-{BadgeFormatter.format_license(license_name)} <Badge icon={{<Package />}} variant="gray-subtle">{count} Extensions</Badge>
+{BadgeFormatter.format_license(license_name, is_chinese=False)} <Badge icon={{<Package />}} variant="gray-subtle">{count} Extensions</Badge>
 
 [{license_name} License Text]({info["url"]}) : {info["description"]}
 
@@ -980,7 +980,7 @@ class LanguageListGenerator(ContentGenerator):
         summary_rows = []
         for lang, count in language_counts.most_common():
             desc = LANGUAGE_DESCRIPTIONS.get(lang, f'Extensions written in {lang}')
-            summary_rows.append(f'| {BadgeFormatter.format_language(lang)} | {count} | {desc} |')
+            summary_rows.append(f'| {BadgeFormatter.format_language(lang, is_chinese=False)} | {count} | {desc} |')
         
         summary_table = f'''| Language | Count | Description |
 |:-------:|:-----:|:------------|
@@ -997,7 +997,7 @@ class LanguageListGenerator(ContentGenerator):
             section = f'''
 ## {lang}
 
-{BadgeFormatter.format_language(lang)} <Badge icon={{<Package />}} variant="gray-subtle">{count} Extensions</Badge>
+{BadgeFormatter.format_language(lang, is_chinese=False)} <Badge icon={{<Package />}} variant="gray-subtle">{count} Extensions</Badge>
 
 {desc}
 

@@ -6,7 +6,7 @@ full: true
 ---
 
 import { Badge } from '@/components/ui/badge';
-import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck } from 'lucide-react';
+import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck, Package } from 'lucide-react';
 
 <Badge icon={<Clock />}               variant="blue-subtle"><a   href="#time" className="no-underline">TIME</a></Badge>
 <Badge icon={<Globe />}               variant="green-subtle"><a  href="#gis" className="no-underline">GIS</a></Badge>
@@ -28,32 +28,32 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 ## 概览
 
 | 分类 | 数量 | 描述 |
-|:---------|:-----:|:------------|
-| <Badge icon={<Clock />} variant="blue-subtle"><a href="/cate/time" className="no-underline">TIME</a></Badge> | 11 | 时间时态扩展：时序数据库 TimescaleDB，时态数据库，版本控制表，定时任务，异步后台任务调度扩展。 |
-| <Badge icon={<Globe />} variant="blue-subtle"><a href="/cate/gis" className="no-underline">GIS</a></Badge> | 20 | 地理空间扩展：PostGIS，地理空间数据类型、函数与索引，天空索引 Q3C，OGR FDW， 寻路算法，地理正/逆查询。 |
-| <Badge icon={<Brain />} variant="blue-subtle"><a href="/cate/rag" className="no-underline">RAG</a></Badge> | 10 | AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量函数集，库内机器学习与推理 pgml，等等。 |
-| <Badge icon={<Search />} variant="blue-subtle"><a href="/cate/fts" className="no-underline">FTS</a></Badge> | 20 | 全文检索扩展：ES 替代 pg_search，BM25，中文分词，欧洲语言分词字典 hunspell，模糊检索，2-gram/3-gram 索引。 |
-| <Badge icon={<ChartNoAxesCombined />} variant="blue-subtle"><a href="/cate/olap" className="no-underline">OLAP</a></Badge> | 13 | 分析能力扩展：列式存储，DuckDB与外部数据源包装器，Parquet S3，数据冷热分级存储，分布式计算，透明分片，GPU加速 |
-| <Badge icon={<Sparkles />} variant="blue-subtle"><a href="/cate/feat" className="no-underline">FEAT</a></Badge> | 56 | 功能特性扩展：图数据库，Hyperloglog，Rum索引，GraphQL，JsonSchema，Hint，虚拟索引，增量物化视图，消息队列等等 |
-| <Badge icon={<BookA />} variant="blue-subtle"><a href="/cate/lang" className="no-underline">LANG</a></Badge> | 31 | 存储过程语言扩展：使用各种编程语言开发，调试，打包，分发，测试 PostgreSQL 存储过程：Java，Js，Lua，R，SH，PRQL…"LANG: Develop |
-| <Badge icon={<Boxes />} variant="blue-subtle"><a href="/cate/type" className="no-underline">TYPE</a></Badge> | 37 | 自定义类型扩展：前缀树，语义版本号，SI单位，位图，无符号整型，高精度数值，有理数，哈希值，IP地址段，球面，RRULE等 |
-| <Badge icon={<Wrench />} variant="blue-subtle"><a href="/cate/util" className="no-underline">UTIL</a></Badge> | 31 | 实用功能扩展：HTTP请求，GZIP压缩，JWT处理，邮件客户端，正则，字符编码，编码解码，加密解密等实用功能 |
-| <Badge icon={<Variable />} variant="blue-subtle"><a href="/cate/func" className="no-underline">FUNC</a></Badge> | 43 | 标识聚合函数：ID生成器，各类聚合函数，摘要函数，数组处理函数，数学函数，统计量，伪随机，等等 |
-| <Badge icon={<Landmark />} variant="blue-subtle"><a href="/cate/admin" className="no-underline">ADMIN</a></Badge> | 36 | 管理工具扩展：膨胀治理，脏读，检视缓冲区，数据目录，校验和，系统目录腐败检查，优先级管理，权限管理，语句准备，限制批量更新等 |
-| <Badge icon={<Activity />} variant="blue-subtle"><a href="/cate/stat" className="no-underline">STAT</a></Badge> | 34 | 监控统计扩展：AWR报告，可观测性指标，显示执行计划，查询统计信息，内存使用，配置变更，等待事件采样，慢查询日志，等等 |
-| <Badge icon={<Shield />} variant="blue-subtle"><a href="/cate/sec" className="no-underline">SEC</a></Badge> | 26 | 安全功能扩展：强制密码强度，阉割超级用户，密钥管理，商密算法，PII匿名处理，扩展白名单，审计日志，变更追溯，反病毒等等 |
-| <Badge icon={<FileInput />} variant="blue-subtle"><a href="/cate/fdw" className="no-underline">FDW</a></Badge> | 22 | 外部数据源包装器：FDW开发框架 Wrappers，Multicorn，访问外部的 Mongo，MySQL，SQLite，HDFS，MSSQL，Oracle，DB2，…… |
-| <Badge icon={<Shell />} variant="blue-subtle"><a href="/cate/sim" className="no-underline">SIM</a></Badge> | 16 | 数据库兼容扩展：仿真其他 DBMS 的行为：MySQL，Memcache，Mongo，Oracle，Babelfish for Microsoft SQL Server…… |
-| <Badge icon={<Truck />} variant="blue-subtle"><a href="/cate/etl" className="no-underline">ETL</a></Badge> | 17 | 数据复制扩展：逻辑复制，逻辑解码，DDL复制，JSON/BSON/Protobuf 变更抽取，数据迁移，数据导入，数据比对等 |
+|:--------:|:-----:|:------------|
+| <Badge icon={<Clock />} variant="blue-subtle"><a href="#time" className="no-underline">TIME</a></Badge> | 11 | 时间时态扩展：时序数据库 TimescaleDB，时态数据库，版本控制表，定时任务，异步后台任务调度扩展。 |
+| <Badge icon={<Globe />} variant="green-subtle"><a href="#gis" className="no-underline">GIS</a></Badge> | 20 | 地理空间扩展：PostGIS，地理空间数据类型、函数与索引，天空索引 Q3C，OGR FDW， 寻路算法，地理正/逆查询。 |
+| <Badge icon={<Brain />} variant="purple-subtle"><a href="#rag" className="no-underline">RAG</a></Badge> | 10 | AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量函数集，库内机器学习与推理 pgml，等等。 |
+| <Badge icon={<Search />} variant="amber-subtle"><a href="#fts" className="no-underline">FTS</a></Badge> | 20 | 全文检索扩展：ES 替代 pg_search，BM25，中文分词，欧洲语言分词字典 hunspell，模糊检索，2-gram/3-gram 索引。 |
+| <Badge icon={<ChartNoAxesCombined />} variant="red-subtle"><a href="#olap" className="no-underline">OLAP</a></Badge> | 13 | 分析能力扩展：列式存储，DuckDB与外部数据源包装器，Parquet S3，数据冷热分级存储，分布式计算，透明分片，GPU加速 |
+| <Badge icon={<Sparkles />} variant="pink-subtle"><a href="#feat" className="no-underline">FEAT</a></Badge> | 56 | 功能特性扩展：图数据库，Hyperloglog，Rum索引，GraphQL，JsonSchema，Hint，虚拟索引，增量物化视图，消息队列等等 |
+| <Badge icon={<BookA />} variant="teal-subtle"><a href="#lang" className="no-underline">LANG</a></Badge> | 31 | 存储过程语言扩展：使用各种编程语言开发，调试，打包，分发，测试 PostgreSQL 存储过程：Java，Js，Lua，R，SH，PRQL… |
+| <Badge icon={<Boxes />} variant="gray-subtle"><a href="#type" className="no-underline">TYPE</a></Badge> | 37 | 自定义类型扩展：前缀树，语义版本号，SI单位，位图，无符号整型，高精度数值，有理数，哈希值，IP地址段，球面，RRULE等 |
+| <Badge icon={<Wrench />} variant="amber-subtle"><a href="#util" className="no-underline">UTIL</a></Badge> | 31 | 实用功能扩展：HTTP请求，GZIP压缩，JWT处理，邮件客户端，正则，字符编码，编码解码，加密解密等实用功能 |
+| <Badge icon={<Variable />} variant="pink-subtle"><a href="#func" className="no-underline">FUNC</a></Badge> | 43 | 标识聚合函数：ID生成器，各类聚合函数，摘要函数，数组处理函数，数学函数，统计量，伪随机，等等 |
+| <Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> | 36 | 管理工具扩展：膨胀治理，脏读，检视缓冲区，数据目录，校验和，腐败检查，优先级管理，权限管理，语句准备，限制批量更新等 |
+| <Badge icon={<Activity />} variant="green-subtle"><a href="#stat" className="no-underline">STAT</a></Badge> | 34 | 监控统计扩展：AWR报告，可观测性指标，显示执行计划，查询统计信息，内存使用，配置变更，等待事件采样，慢查询日志，等等 |
+| <Badge icon={<Shield />} variant="red-subtle"><a href="#sec" className="no-underline">SEC</a></Badge> | 26 | 安全功能扩展：强制密码强度，阉割超级用户，密钥管理，商密算法，PII匿名处理，扩展白名单，审计日志，变更追溯，反病毒等等 |
+| <Badge icon={<FileInput />} variant="blue-subtle"><a href="#fdw" className="no-underline">FDW</a></Badge> | 22 | 外部数据源包装器：FDW开发框架 Wrappers，Multicorn，访问外部的 Mongo，MySQL，SQLite，HDFS，MSSQL，Oracle，DB2，…… |
+| <Badge icon={<Shell />} variant="teal-subtle"><a href="#sim" className="no-underline">SIM</a></Badge> | 16 | 数据库兼容扩展：仿真其他 DBMS 的行为：MySQL，Memcache，Mongo，Oracle，Babelfish for Microsoft SQL Server…… |
+| <Badge icon={<Truck />} variant="purple-subtle"><a href="#etl" className="no-underline">ETL</a></Badge> | 17 | 数据复制扩展：逻辑复制，逻辑解码，DDL复制，JSON/BSON/Protobuf 变更抽取，数据迁移，数据导入，数据比对等 |
 
 
 ## TIME
 
 时间时态扩展：时序数据库 TimescaleDB，时态数据库，版本控制表，定时任务，异步后台任务调度扩展。
 
-<Badge icon={<Clock />} variant="blue-subtle"><a href="/cate/time" className="no-underline">TIME</a></Badge> <Badge variant="gray-subtle">11 个扩展</Badge>
+<Badge icon={<Clock />} variant="blue-subtle"><a href="#time" className="no-underline">TIME</a></Badge> <Badge icon={<Package />} variant="gray-subtle">11 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 1050 | [`emaj`](/zh/e/emaj) | [`emaj`](/zh/e/emaj) | 4.6.0 | 让数据库的子集具有细粒度日志和时间旅行功能 |
 | 1030 | [`periods`](/zh/e/periods) | [`periods`](/zh/e/periods) | 1.2.3 | 为 PERIODs 和 SYSTEM VERSIONING 提供标准 SQL 功能 |
@@ -71,9 +71,9 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 
 地理空间扩展：PostGIS，地理空间数据类型、函数与索引，天空索引 Q3C，OGR FDW， 寻路算法，地理正/逆查询。
 
-<Badge icon={<Globe />} variant="blue-subtle"><a href="/cate/gis" className="no-underline">GIS</a></Badge> <Badge variant="gray-subtle">20 个扩展</Badge>
+<Badge icon={<Globe />} variant="green-subtle"><a href="#gis" className="no-underline">GIS</a></Badge> <Badge icon={<Package />} variant="gray-subtle">20 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 1505 | [`address_standardizer`](/zh/e/address_standardizer) | [`postgis`](/zh/e/postgis) | 3.5.2 | 地址标准化函数。 |
 | 1506 | [`address_standardizer_data_us`](/zh/e/address_standardizer_data_us) | [`postgis`](/zh/e/postgis) | 3.5.2 | 地址标准化函数：美国数据集示例 |
@@ -100,9 +100,9 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 
 AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量函数集，库内机器学习与推理 pgml，等等。
 
-<Badge icon={<Brain />} variant="blue-subtle"><a href="/cate/rag" className="no-underline">RAG</a></Badge> <Badge variant="gray-subtle">10 个扩展</Badge>
+<Badge icon={<Brain />} variant="purple-subtle"><a href="#rag" className="no-underline">RAG</a></Badge> <Badge icon={<Package />} variant="gray-subtle">10 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 1880 | [`pg4ml`](/zh/e/pg4ml) | [`pg4ml`](/zh/e/pg4ml) | 2.0 | PG4ML是一个机器学习框架 |
 | 1840 | [`pg_similarity`](/zh/e/pg_similarity) | [`pg_similarity`](/zh/e/pg_similarity) | 1.0 | 提供17种距离度量函数 |
@@ -119,9 +119,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 全文检索扩展：ES 替代 pg_search，BM25，中文分词，欧洲语言分词字典 hunspell，模糊检索，2-gram/3-gram 索引。
 
-<Badge icon={<Search />} variant="blue-subtle"><a href="/cate/fts" className="no-underline">FTS</a></Badge> <Badge variant="gray-subtle">20 个扩展</Badge>
+<Badge icon={<Search />} variant="amber-subtle"><a href="#fts" className="no-underline">FTS</a></Badge> <Badge icon={<Package />} variant="gray-subtle">20 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 2180 | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) | [`fuzzystrmatch`](/zh/e/fuzzystrmatch) | 1.2 | 确定字符串之间的相似性和距离 |
 | 2170 | [`hunspell_cs_cz`](/zh/e/hunspell_cs_cz) | [`hunspell_cs_cz`](/zh/e/hunspell_cs_cz) | 1.0 | Hunspell捷克语全文检索词典 |
@@ -148,9 +148,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 分析能力扩展：列式存储，DuckDB与外部数据源包装器，Parquet S3，数据冷热分级存储，分布式计算，透明分片，GPU加速
 
-<Badge icon={<ChartNoAxesCombined />} variant="blue-subtle"><a href="/cate/olap" className="no-underline">OLAP</a></Badge> <Badge variant="gray-subtle">13 个扩展</Badge>
+<Badge icon={<ChartNoAxesCombined />} variant="red-subtle"><a href="#olap" className="no-underline">OLAP</a></Badge> <Badge icon={<Package />} variant="gray-subtle">13 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 2400 | [`citus`](/zh/e/citus) | [`citus`](/zh/e/citus) | 13.1.0 | Citus 分布式数据库 |
 | 2401 | [`citus_columnar`](/zh/e/citus_columnar) | [`citus`](/zh/e/citus) | 13.1.0 | Citus 列式存储引擎 |
@@ -170,9 +170,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 功能特性扩展：图数据库，Hyperloglog，Rum索引，GraphQL，JsonSchema，Hint，虚拟索引，增量物化视图，消息队列等等
 
-<Badge icon={<Sparkles />} variant="blue-subtle"><a href="/cate/feat" className="no-underline">FEAT</a></Badge> <Badge variant="gray-subtle">56 个扩展</Badge>
+<Badge icon={<Sparkles />} variant="pink-subtle"><a href="#feat" className="no-underline">FEAT</a></Badge> <Badge icon={<Package />} variant="gray-subtle">56 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 2760 | [`age`](/zh/e/age) | [`age`](/zh/e/age) | 1.5.0 | Apache AGE，图数据库扩展 （Deb可用） |
 | 2990 | [`bloom`](/zh/e/bloom) | [`bloom`](/zh/e/bloom) | 1.0 | bloom 索引-基于指纹的索引 |
@@ -233,11 +233,11 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 ## LANG
 
-存储过程语言扩展：使用各种编程语言开发，调试，打包，分发，测试 PostgreSQL 存储过程：Java，Js，Lua，R，SH，PRQL…"LANG: Develop
+存储过程语言扩展：使用各种编程语言开发，调试，打包，分发，测试 PostgreSQL 存储过程：Java，Js，Lua，R，SH，PRQL…
 
-<Badge icon={<BookA />} variant="blue-subtle"><a href="/cate/lang" className="no-underline">LANG</a></Badge> <Badge variant="gray-subtle">31 个扩展</Badge>
+<Badge icon={<BookA />} variant="teal-subtle"><a href="#lang" className="no-underline">LANG</a></Badge> <Badge icon={<Package />} variant="gray-subtle">31 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 3261 | [`bool_plperl`](/zh/e/bool_plperl) | [`plperl`](/zh/e/plperl) | 1.0 | 在 bool 和 plperl 之间转换 |
 | 3271 | [`bool_plperlu`](/zh/e/bool_plperlu) | [`plperlu`](/zh/e/plperlu) | 1.0 | 在 bool 和 plperlu 之间转换 |
@@ -275,9 +275,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 自定义类型扩展：前缀树，语义版本号，SI单位，位图，无符号整型，高精度数值，有理数，哈希值，IP地址段，球面，RRULE等
 
-<Badge icon={<Boxes />} variant="blue-subtle"><a href="/cate/type" className="no-underline">TYPE</a></Badge> <Badge variant="gray-subtle">37 个扩展</Badge>
+<Badge icon={<Boxes />} variant="gray-subtle"><a href="#type" className="no-underline">TYPE</a></Badge> <Badge icon={<Package />} variant="gray-subtle">37 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 3860 | [`acl`](/zh/e/acl) | [`pg_acl`](/zh/e/acl) | 1.0.4 | ACL数据类型 |
 | 3560 | [`asn1oid`](/zh/e/asn1oid) | [`asn1oid`](/zh/e/asn1oid) | 1.6 | ASN1OID数据类型支持 |
@@ -321,9 +321,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 实用功能扩展：HTTP请求，GZIP压缩，JWT处理，邮件客户端，正则，字符编码，编码解码，加密解密等实用功能
 
-<Badge icon={<Wrench />} variant="blue-subtle"><a href="/cate/util" className="no-underline">UTIL</a></Badge> <Badge variant="gray-subtle">31 个扩展</Badge>
+<Badge icon={<Wrench />} variant="amber-subtle"><a href="#util" className="no-underline">UTIL</a></Badge> <Badge icon={<Package />} variant="gray-subtle">31 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 4020 | [`bzip`](/zh/e/bzip) | [`pg_bzip`](/zh/e/bzip) | 1.0.0 | BZIP压缩解压缩函数包 |
 | 4450 | [`cryptint`](/zh/e/cryptint) | [`cryptint`](/zh/e/cryptint) | 1.0.0 | 加密INT与BIGINT类型 |
@@ -361,9 +361,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 标识聚合函数：ID生成器，各类聚合函数，摘要函数，数组处理函数，数学函数，统计量，伪随机，等等
 
-<Badge icon={<Variable />} variant="blue-subtle"><a href="/cate/func" className="no-underline">FUNC</a></Badge> <Badge variant="gray-subtle">43 个扩展</Badge>
+<Badge icon={<Variable />} variant="pink-subtle"><a href="#func" className="no-underline">FUNC</a></Badge> <Badge icon={<Package />} variant="gray-subtle">43 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 4750 | [`aggs_for_arrays`](/zh/e/aggs_for_arrays) | [`aggs_for_arrays`](/zh/e/aggs_for_arrays) | 1.3.3 | 计算数组聚合统计值的函数包 |
 | 4740 | [`aggs_for_vecs`](/zh/e/aggs_for_vecs) | [`aggs_for_vecs`](/zh/e/aggs_for_vecs) | 1.4.0 | 针对数组类型的聚合函数集合扩展 |
@@ -411,11 +411,11 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 ## ADMIN
 
-管理工具扩展：膨胀治理，脏读，检视缓冲区，数据目录，校验和，系统目录腐败检查，优先级管理，权限管理，语句准备，限制批量更新等
+管理工具扩展：膨胀治理，脏读，检视缓冲区，数据目录，校验和，腐败检查，优先级管理，权限管理，语句准备，限制批量更新等
 
-<Badge icon={<Landmark />} variant="blue-subtle"><a href="/cate/admin" className="no-underline">ADMIN</a></Badge> <Badge variant="gray-subtle">36 个扩展</Badge>
+<Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> <Badge icon={<Package />} variant="gray-subtle">36 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 5970 | [`adminpack`](/zh/e/adminpack) | [`adminpack`](/zh/e/adminpack) | 2.1 | PostgreSQL 管理函数集合 |
 | 5980 | [`amcheck`](/zh/e/amcheck) | [`amcheck`](/zh/e/amcheck) | 1.4 | 校验关系完整性 |
@@ -458,9 +458,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 监控统计扩展：AWR报告，可观测性指标，显示执行计划，查询统计信息，内存使用，配置变更，等待事件采样，慢查询日志，等等
 
-<Badge icon={<Activity />} variant="blue-subtle"><a href="/cate/stat" className="no-underline">STAT</a></Badge> <Badge variant="gray-subtle">34 个扩展</Badge>
+<Badge icon={<Activity />} variant="green-subtle"><a href="#stat" className="no-underline">STAT</a></Badge> <Badge icon={<Package />} variant="gray-subtle">34 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 6980 | [`auto_explain`](/zh/e/auto_explain) | [`auto_explain`](/zh/e/auto_explain) | - | 提供一种自动记录执行计划的手段 |
 | 6340 | [`bgw_replstatus`](/zh/e/bgw_replstatus) | [`bgw_replstatus`](/zh/e/bgw_replstatus) | 1.0.7 | 用于汇报本机主从状态的后台工作进程 |
@@ -501,9 +501,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 安全功能扩展：强制密码强度，阉割超级用户，密钥管理，商密算法，PII匿名处理，扩展白名单，审计日志，变更追溯，反病毒等等
 
-<Badge icon={<Shield />} variant="blue-subtle"><a href="/cate/sec" className="no-underline">SEC</a></Badge> <Badge variant="gray-subtle">26 个扩展</Badge>
+<Badge icon={<Shield />} variant="red-subtle"><a href="#sec" className="no-underline">SEC</a></Badge> <Badge icon={<Package />} variant="gray-subtle">26 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 7050 | [`anon`](/zh/e/anon) | [`pg_anon`](/zh/e/anon) | 2.1.1 | 数据匿名化处理工具 |
 | 7970 | [`auth_delay`](/zh/e/auth_delay) | [`auth_delay`](/zh/e/auth_delay) | - | 在返回认证失败前暂停一会，避免爆破 |
@@ -536,9 +536,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 外部数据源包装器：FDW开发框架 Wrappers，Multicorn，访问外部的 Mongo，MySQL，SQLite，HDFS，MSSQL，Oracle，DB2，……
 
-<Badge icon={<FileInput />} variant="blue-subtle"><a href="/cate/fdw" className="no-underline">FDW</a></Badge> <Badge variant="gray-subtle">22 个扩展</Badge>
+<Badge icon={<FileInput />} variant="blue-subtle"><a href="#fdw" className="no-underline">FDW</a></Badge> <Badge icon={<Package />} variant="gray-subtle">22 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 8800 | [`aws_s3`](/zh/e/aws_s3) | [`aws_s3`](/zh/e/aws_s3) | 0.0.1 | 从S3导入导出数据的外部数据源包装器 |
 | 8630 | [`db2_fdw`](/zh/e/db2_fdw) | [`db2_fdw`](/zh/e/db2_fdw) | 7.0.0 | 提供对DB2的外部数据源包装器 |
@@ -567,9 +567,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 数据库兼容扩展：仿真其他 DBMS 的行为：MySQL，Memcache，Mongo，Oracle，Babelfish for Microsoft SQL Server……
 
-<Badge icon={<Shell />} variant="blue-subtle"><a href="/cate/sim" className="no-underline">SIM</a></Badge> <Badge variant="gray-subtle">16 个扩展</Badge>
+<Badge icon={<Shell />} variant="teal-subtle"><a href="#sim" className="no-underline">SIM</a></Badge> <Badge icon={<Package />} variant="gray-subtle">16 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 9300 | [`babelfishpg_common`](/zh/e/babelfishpg_common) | [`babelfishpg_common`](/zh/e/babelfishpg_common) | 3.3.3 | SQL Server 数据类型兼容扩展 |
 | 9330 | [`babelfishpg_money`](/zh/e/babelfishpg_money) | [`babelfishpg_money`](/zh/e/babelfishpg_money) | 1.1.0 | SQL Server 货币数据类型兼容扩展 |
@@ -592,9 +592,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 数据复制扩展：逻辑复制，逻辑解码，DDL复制，JSON/BSON/Protobuf 变更抽取，数据迁移，数据导入，数据比对等
 
-<Badge icon={<Truck />} variant="blue-subtle"><a href="/cate/etl" className="no-underline">ETL</a></Badge> <Badge variant="gray-subtle">17 个扩展</Badge>
+<Badge icon={<Truck />} variant="purple-subtle"><a href="#etl" className="no-underline">ETL</a></Badge> <Badge icon={<Package />} variant="gray-subtle">17 个扩展</Badge>
 
-| ID | 扩展 | 包 | 版本 | 描述 |
+| ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 9540 | [`db_migrator`](/zh/e/db_migrator) | [`db_migrator`](/zh/e/db_migrator) | 1.0.0 | 使用FDW从其他DBMS迁移到PostgreSQL |
 | 9660 | [`decoder_raw`](/zh/e/decoder_raw) | [`decoder_raw`](/zh/e/decoder_raw) | 1.0 | 逻辑复制解码输出插件：RAW SQL格式 |

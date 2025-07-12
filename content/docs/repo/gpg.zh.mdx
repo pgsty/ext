@@ -1,19 +1,19 @@
 ---
-title: GPG Key
-description: Import the GPG key for Pigsty repository
+title: GPG 密钥
+description: 导入 Pigsty 仓库使用的 GPG 公钥以验证软件包签名完整性
 icon: KeyRound
 ---
 
-You can verify the integrity of the packages you download from Pigsty repository by checking the GPG signature.
-This document describes how to import the GPG key used to sign the packages.
+你可以通过检查 GPG 签名来验证从 Pigsty 仓库下载的软件包的完整性，本文会介绍如何导入用于签名软件包的 GPG 密钥。
+你也可以生成自己的 GPG 密钥，构建自己的仓库，并用它来签发你自己的软件包。
 
 ------
 
-## Summary
+## 摘要
 
-All the RPM / DEB packages are signed with GPG key fingerprint (`B9BD8B20`) in Pigsty repository.
+Pigsty 仓库中所有的 RPM / DEB 软件包都使用 GPG 密钥（指纹：`B9BD8B20`）进行签名，以确保软件包的完整性和来源的可信度。
 
-Full: `9592A7BC7A682E7333376E09E7935D8DB9BD8B20` Ruohang Feng (Pigsty) [rh@vonng.com](mailto:rh@vonng.com)
+完整摘要： `9592A7BC7A682E7333376E09E7935D8DB9BD8B20` Ruohang Feng (Pigsty) [rh@vonng.com](mailto:rh@vonng.com)
 
 ```
 pub   rsa4096 2024-07-16 [SC]
@@ -22,15 +22,15 @@ uid           [ultimate] Ruohang Feng (Pigsty) <rh@vonng.com>
 sub   rsa4096 2024-07-16 [E]
 ```
 
-You can find the public GPG key at: https://repo.pigsty.io/key or https://repo.pigsty.cc/key
+你可以在这里找到 Pigsty 使用的 GPG 公钥： https://repo.pigsty.io/key or https://repo.pigsty.cc/key
 
 
 
 --------
 
-## Import
+## 导入
 
-On RHEL compatible Linux distributions, you can import this key with the following command:
+在 RHEL 兼容的 Linux 发行版上，你可以使用以下命令导入此密钥：
 
 ```bash tab="default"
 curl -fsSL https://repo.pigsty.io/key | sudo tee /etc/pki/rpm-gpg/RPM-GPG-KEY-pigsty >/dev/null
@@ -39,7 +39,7 @@ curl -fsSL https://repo.pigsty.io/key | sudo tee /etc/pki/rpm-gpg/RPM-GPG-KEY-pi
 curl -fsSL https://repo.pigsty.cc/key | sudo tee /etc/pki/rpm-gpg/RPM-GPG-KEY-pigsty >/dev/null
 ```
 
-On Debian / Ubuntu compatible Linux distributions, you can import this key with the following command:
+在 Debian / Ubuntu 兼容的 Linux 发行版上，你可以使用以下命令导入此密钥：
 
 ```bash tab="default"
 curl -fsSL https://repo.pigsty.io/key | sudo gpg --dearmor -o /etc/apt/keyrings/pigsty.gpg
@@ -51,9 +51,9 @@ curl -fsSL https://repo.pigsty.cc/key | sudo gpg --dearmor -o /etc/apt/keyrings/
 
 --------
 
-## Public Key
+## 公钥
 
-The corresponding public key block is:
+Pigsty 仓库使用的 GPG 公钥内容如下：
 
 ```bash
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -112,12 +112,11 @@ UWEnnC1xBSasNebw4fSE8AJg9JMCRw+3GAetlotOeW9q7PN6yrXD9rGuV/QquQNd
 
 ---------
 
-## Usage
+## 使用
 
-If you wish to distribute your own Repo with your own GPG key, here's tutorial
+如果你想要分发自己的仓库并使用自己的 GPG 密钥进行签名，以下是简单介绍：
 
-
-### Install GPG
+### 安装 GPG 软件包
 
 ```bash tab="brew"
 brew install gnupg pinentry-mac
@@ -129,25 +128,25 @@ sudo apt install gnupg2 pinentry-curses
 sudo dnf install gnupg2 pinentry-curses
 ```
 
-### Generate GPG Key
+### 生成 GPG 密钥
 
-You can generate a GPG key with the following command:
+你可以使用以下命令生成一个新的 GPG 密钥对：
 
 ```bash
 gpg --full-generate-key
 ```
 
-### Import GPG Key
+### 导入 GPG 私钥
 
-If you have a GPG Private key, You can just import it with:
+如果你有一个 GPG 私钥文件（例如 `mykey.secret`），你可以使用以下命令导入它：
 
 ```bash
-gpg --import mykey.sec.as
+gpg --import mykey.secret
 ```
 
-### List GPG Key
+### 列出 GPG 密钥
 
-You can list GPG public keys and secret keys with the following commands:
+你可以列出已经导入的 GPG 公钥和私钥：
 
 ```bash
 $ gpg --list-key
@@ -167,9 +166,9 @@ uid           [ unknown] Ruohang Feng (Pigsty) <rh@vonng.com>
 ssb   rsa4096 2024-07-16 [E]
 ```
 
-### Sign RPM Packages
+### 签名 RPM 包
 
-If you wish to sign your RPM packages with a specific GPG key, you can specify the key in the `~/.rpmmacros` file:
+如果你想要用 GPG 私钥签名你的 RPM 包，可以在 `~/.rpmmacros` 文件中指定 GPG 密钥：
 
 ```bash
 %_signature   gpg
@@ -178,13 +177,17 @@ If you wish to sign your RPM packages with a specific GPG key, you can specify t
 %_gpg_digest_algo  sha256
 ```
 
+这里的 `%_gpg_name` 是你的 GPG 密钥的指纹，请将 Pigsty 密钥指纹 `B9BD8B20` 替换为你自己的密钥指纹。
+
 ```bash
 rpm --addsign yourpackage.rpm
 ```
 
-### Sign DEB Packages
 
-To sign your DEB packages. add the key id to `reprepro` configuration:
+
+### 签名 DEB 包
+
+如果你想要用 GPG 私钥签名你的 DEB 包，可以在 `reprepro` 配置文件中指定 GPG 密钥：
 
 ```yaml
 Origin: Pigsty
@@ -195,3 +198,5 @@ Components: main
 Description: pigsty apt repository for infra components
 SignWith: 9592A7BC7A682E7333376E09E7935D8DB9BD8B20
 ```
+
+同理，将这里的 `SignWith` 替换为你自己的 GPG 密钥指纹即可，`reprepro` 会自动使用它进行签名。

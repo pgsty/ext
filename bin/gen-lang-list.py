@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from common_utils import (
     Config, DataLoader, TableGenerator, BadgeFormatter, 
-    LANGUAGE_DESCRIPTIONS, write_content, build_leading_map
+    LANGUAGE_DESCRIPTIONS, LANGUAGE_CONFIG, write_content, build_leading_map
 )
 
 
@@ -47,16 +47,27 @@ class LanguageListGenerator:
         
         print("Language list generation complete!")
     
+    def _get_language_anchor(self, language: str) -> str:
+        """Get anchor name for a language section."""
+        if language == 'C++':
+            return 'c-1'  # Special case for C++ to avoid issues with + symbol
+        return language.lower()
+    
     def _generate_english_version(self):
         """Generate English version of language list."""
         # Count extensions by language
         language_counts = Counter(ext.lang for ext in self.extensions if ext.lang)
         
+        # Local function to format language badges with in-page anchors
+        def format_language_in_page(language: str) -> str:
+            """Format language badge with in-page anchor for lang list page."""
+            return BadgeFormatter.format_language(language, is_chinese=False, in_language_page=True)
+        
         # Generate summary table
         summary_rows = []
         for lang, count in language_counts.most_common():
             desc = LANGUAGE_DESCRIPTIONS.get(lang, f'Extensions written in {lang}')
-            summary_rows.append(f'| {BadgeFormatter.format_language(lang)} | {count} | {desc} |')
+            summary_rows.append(f'| {format_language_in_page(lang)} | {count} | {desc} |')
         
         summary_table = f'''| Language | Count | Description |
 |:-------:|:-----:|:------------|
@@ -73,7 +84,7 @@ class LanguageListGenerator:
             section = f'''
 ## {lang}
 
-{BadgeFormatter.format_language(lang)} <Badge icon={{<Package />}} variant="gray-subtle">{count} Extensions</Badge>
+{BadgeFormatter.format_language(lang, is_chinese=False, in_language_page=True)} <Badge icon={{<Package />}} variant="gray-subtle">{count} Extensions</Badge>
 
 {desc}
 
@@ -115,6 +126,11 @@ import {{ FileCode2, Package }} from 'lucide-react';
         # Count extensions by language
         language_counts = Counter(ext.lang for ext in self.extensions if ext.lang)
         
+        # Local function to format language badges with in-page anchors for Chinese
+        def format_language_in_page_zh(language: str) -> str:
+            """Format language badge with in-page anchor for Chinese lang list page."""
+            return BadgeFormatter.format_language(language, is_chinese=True, in_language_page=True)
+        
         # Generate summary table with Chinese descriptions
         language_descriptions_zh = {
             'C': 'C 语言， PostgreSQL 默认的扩展开发语言',
@@ -129,7 +145,7 @@ import {{ FileCode2, Package }} from 'lucide-react';
         summary_rows = []
         for lang, count in language_counts.most_common():
             desc = language_descriptions_zh.get(lang, f'使用 {lang} 编写的扩展')
-            summary_rows.append(f'| {BadgeFormatter.format_language(lang)} | {count} | {desc} |')
+            summary_rows.append(f'| {format_language_in_page_zh(lang)} | {count} | {desc} |')
         
         summary_table = f'''| 语言 | 数量 | 描述 |
 |:-------:|:-----:|:------------|
@@ -146,7 +162,7 @@ import {{ FileCode2, Package }} from 'lucide-react';
             section = f'''
 ## {lang}
 
-{BadgeFormatter.format_language(lang)} <Badge icon={{<Package />}} variant="gray-subtle">{count} 个扩展</Badge>
+{BadgeFormatter.format_language(lang, is_chinese=True, in_language_page=True)} <Badge icon={{<Package />}} variant="gray-subtle">{count} 个扩展</Badge>
 
 {desc}
 
