@@ -1,0 +1,146 @@
+---
+title: 按PG大版本分类
+description: 按主要版本分类不可用的 PostgreSQL 扩展
+icon: Database
+full: true
+---
+
+import { Badge } from '@/components/ui/badge';
+
+
+## PostgreSQL 17
+
+在 PostgreSQL 17 中 **不可用** 的扩展
+
+| ID | 扩展 | 包 | 描述 |
+|:---:|:---|:---|:---|
+| 5970 | [`adminpack`](/zh/e/adminpack) | [`adminpack`](/zh/e/adminpack) | PostgreSQL 管理函数集合 |
+| 9300 | [`babelfishpg_common`](/zh/e/babelfishpg_common) | [`babelfishpg_common`](/zh/e/babelfishpg_common) | SQL Server 数据类型兼容扩展 |
+| 9330 | [`babelfishpg_money`](/zh/e/babelfishpg_money) | [`babelfishpg_money`](/zh/e/babelfishpg_money) | SQL Server 货币数据类型兼容扩展 |
+| 9320 | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | SQL Server TDS线缆协议兼容扩展 |
+| 9310 | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | SQL Server SQL语法兼容性扩展 |
+| 2410 | [`columnar`](/zh/e/columnar) | [`hydra`](/zh/e/columnar) | 开源列式存储扩展 |
+| 8630 | [`db2_fdw`](/zh/e/db2_fdw) | [`db2_fdw`](/zh/e/db2_fdw) | 提供对DB2的外部数据源包装器 |
+| 8530 | [`jdbc_fdw`](/zh/e/jdbc_fdw) | [`jdbc_fdw`](/zh/e/jdbc_fdw) | 访问JDBC可访问的任何外部数据源 |
+| 8730 | [`kafka_fdw`](/zh/e/kafka_fdw) | [`kafka_fdw`](/zh/e/kafka_fdw) | Kafka外部数据源包装器 |
+| 8700 | [`mongo_fdw`](/zh/e/mongo_fdw) | [`mongo_fdw`](/zh/e/mongo_fdw) | MongoDB 外部数据包装器 |
+| 5960 | [`old_snapshot`](/zh/e/old_snapshot) | [`old_snapshot`](/zh/e/old_snapshot) | 支持 old_snapshot_threshold 的实用程序 |
+| 6890 | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | 检视逻辑解码组件详情 |
+| 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
+| 3040 | [`plprql`](/zh/e/plprql) | [`plprql`](/zh/e/plprql) | 在PostgreSQL使用PRQL——管线式关系查询语言 |
+| 2940 | [`rdkit`](/zh/e/rdkit) | [`rdkit`](/zh/e/rdkit) | 在PostgreSQL化学领域数据管理功能 |
+| 9640 | [`wal2mongo`](/zh/e/wal2mongo) | [`wal2mongo`](/zh/e/wal2mongo) | 使用逻辑解码捕获MongoDB JSON格式的CDC变更 |
+
+## PostgreSQL 16
+
+在 PostgreSQL 16 中 **不可用** 的扩展
+
+| ID | 扩展 | 包 | 描述 |
+|:---:|:---|:---|:---|
+| 9300 | [`babelfishpg_common`](/zh/e/babelfishpg_common) | [`babelfishpg_common`](/zh/e/babelfishpg_common) | SQL Server 数据类型兼容扩展 |
+| 9330 | [`babelfishpg_money`](/zh/e/babelfishpg_money) | [`babelfishpg_money`](/zh/e/babelfishpg_money) | SQL Server 货币数据类型兼容扩展 |
+| 9320 | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | SQL Server TDS线缆协议兼容扩展 |
+| 9310 | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | SQL Server SQL语法兼容性扩展 |
+| 2920 | [`orioledb`](/zh/e/orioledb) | [`orioledb`](/zh/e/orioledb) | OrioleDB，下一代事务处理引擎 |
+| 3830 | [`pg_duration`](/zh/e/pg_duration) | [`pg_duration`](/zh/e/pg_duration) | 用于表示时间段的强化数据类型 |
+| 6890 | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | 检视逻辑解码组件详情 |
+| 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
+| 7060 | [`pg_tde`](/zh/e/pg_tde) | [`pg_tde`](/zh/e/pg_tde) | Percona加密存储引擎 |
+| 9400 | [`spat`](/zh/e/spat) | [`spat`](/zh/e/spat) | 在PG中嵌入Redis风格的内存数据库 |
+
+## PostgreSQL 15
+
+在 PostgreSQL 15 中 **不可用** 的扩展
+
+| ID | 扩展 | 包 | 描述 |
+|:---:|:---|:---|:---|
+| 2920 | [`orioledb`](/zh/e/orioledb) | [`orioledb`](/zh/e/orioledb) | OrioleDB，下一代事务处理引擎 |
+| 3830 | [`pg_duration`](/zh/e/pg_duration) | [`pg_duration`](/zh/e/pg_duration) | 用于表示时间段的强化数据类型 |
+| 2880 | [`pg_incremental`](/zh/e/pg_incremental) | [`pg_incremental`](/zh/e/pg_incremental) | 增量处理流式事件 |
+| 6890 | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | 检视逻辑解码组件详情 |
+| 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
+| 7060 | [`pg_tde`](/zh/e/pg_tde) | [`pg_tde`](/zh/e/pg_tde) | Percona加密存储引擎 |
+| 9400 | [`spat`](/zh/e/spat) | [`spat`](/zh/e/spat) | 在PG中嵌入Redis风格的内存数据库 |
+
+## PostgreSQL 14
+
+在 PostgreSQL 14 中 **不可用** 的扩展
+
+| ID | 扩展 | 包 | 描述 |
+|:---:|:---|:---|:---|
+| 9300 | [`babelfishpg_common`](/zh/e/babelfishpg_common) | [`babelfishpg_common`](/zh/e/babelfishpg_common) | SQL Server 数据类型兼容扩展 |
+| 9330 | [`babelfishpg_money`](/zh/e/babelfishpg_money) | [`babelfishpg_money`](/zh/e/babelfishpg_money) | SQL Server 货币数据类型兼容扩展 |
+| 9320 | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | SQL Server TDS线缆协议兼容扩展 |
+| 9310 | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | SQL Server SQL语法兼容性扩展 |
+| 5950 | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | 添加一种备份到Shell终端到基础备份方式 |
+| 5940 | [`basic_archive`](/zh/e/basic_archive) | [`basic_archive`](/zh/e/basic_archive) | 归档模块样例 |
+| 2400 | [`citus`](/zh/e/citus) | [`citus`](/zh/e/citus) | Citus 分布式数据库 |
+| 2401 | [`citus_columnar`](/zh/e/citus_columnar) | [`citus`](/zh/e/citus) | Citus 列式存储引擎 |
+| 9000 | [`documentdb`](/zh/e/documentdb) | [`documentdb`](/zh/e/documentdb) | 微软DocumentDB的API层 |
+| 9010 | [`documentdb_core`](/zh/e/documentdb_core) | [`documentdb`](/zh/e/documentdb) | 微软DocumentDB的核心API层实现 |
+| 9020 | [`documentdb_distributed`](/zh/e/documentdb_distributed) | [`documentdb`](/zh/e/documentdb) | DocumentDB多节点模式的API层 |
+| 2920 | [`orioledb`](/zh/e/orioledb) | [`orioledb`](/zh/e/orioledb) | OrioleDB，下一代事务处理引擎 |
+| 3830 | [`pg_duration`](/zh/e/pg_duration) | [`pg_duration`](/zh/e/pg_duration) | 用于表示时间段的强化数据类型 |
+| 2880 | [`pg_incremental`](/zh/e/pg_incremental) | [`pg_incremental`](/zh/e/pg_incremental) | 增量处理流式事件 |
+| 6890 | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | 检视逻辑解码组件详情 |
+| 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
+| 7060 | [`pg_tde`](/zh/e/pg_tde) | [`pg_tde`](/zh/e/pg_tde) | Percona加密存储引擎 |
+| 6010 | [`pg_tracing`](/zh/e/pg_tracing) | [`pg_tracing`](/zh/e/pg_tracing) | PostgreSQL分布式Tracing |
+| 6940 | [`pg_walinspect`](/zh/e/pg_walinspect) | [`pg_walinspect`](/zh/e/pg_walinspect) | 用于检查 PostgreSQL WAL 日志内容的函数 |
+| 8540 | [`pgspider_ext`](/zh/e/pgspider_ext) | [`pgspider_ext`](/zh/e/pgspider_ext) | 使用多种FDW访问远程数据库服务器 |
+| 9400 | [`spat`](/zh/e/spat) | [`spat`](/zh/e/spat) | 在PG中嵌入Redis风格的内存数据库 |
+| 1000 | [`timescaledb`](/zh/e/timescaledb) | [`timescaledb`](/zh/e/timescaledb) | 时序数据库扩展插件 |
+| 1010 | [`timescaledb_toolkit`](/zh/e/timescaledb_toolkit) | [`timescaledb_toolkit`](/zh/e/timescaledb_toolkit) | 超表分析查询，时间序列流式处理，以及其他SQL工具 |
+
+## PostgreSQL 13
+
+在 PostgreSQL 13 中 **不可用** 的扩展
+
+| ID | 扩展 | 包 | 描述 |
+|:---:|:---|:---|:---|
+| 9300 | [`babelfishpg_common`](/zh/e/babelfishpg_common) | [`babelfishpg_common`](/zh/e/babelfishpg_common) | SQL Server 数据类型兼容扩展 |
+| 9330 | [`babelfishpg_money`](/zh/e/babelfishpg_money) | [`babelfishpg_money`](/zh/e/babelfishpg_money) | SQL Server 货币数据类型兼容扩展 |
+| 9320 | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | SQL Server TDS线缆协议兼容扩展 |
+| 9310 | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | SQL Server SQL语法兼容性扩展 |
+| 5950 | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | 添加一种备份到Shell终端到基础备份方式 |
+| 5940 | [`basic_archive`](/zh/e/basic_archive) | [`basic_archive`](/zh/e/basic_archive) | 归档模块样例 |
+| 2400 | [`citus`](/zh/e/citus) | [`citus`](/zh/e/citus) | Citus 分布式数据库 |
+| 2401 | [`citus_columnar`](/zh/e/citus_columnar) | [`citus`](/zh/e/citus) | Citus 列式存储引擎 |
+| 3630 | [`collection`](/zh/e/collection) | [`pg_collection`](/zh/e/collection) | 在PlPGSQL中使用的内存优化高性能集合数据结构 |
+| 9000 | [`documentdb`](/zh/e/documentdb) | [`documentdb`](/zh/e/documentdb) | 微软DocumentDB的API层 |
+| 9010 | [`documentdb_core`](/zh/e/documentdb_core) | [`documentdb`](/zh/e/documentdb) | 微软DocumentDB的核心API层实现 |
+| 9020 | [`documentdb_distributed`](/zh/e/documentdb_distributed) | [`documentdb`](/zh/e/documentdb) | DocumentDB多节点模式的API层 |
+| 3750 | [`hashtypes`](/zh/e/hashtypes) | [`hashtypes`](/zh/e/hashtypes) | 包括SHA1，MD5在内的多种哈希数据类型 |
+| 8810 | [`log_fdw`](/zh/e/log_fdw) | [`log_fdw`](/zh/e/log_fdw) | 访问PostgreSQL日志文件的FDW |
+| 5960 | [`old_snapshot`](/zh/e/old_snapshot) | [`old_snapshot`](/zh/e/old_snapshot) | 支持 old_snapshot_threshold 的实用程序 |
+| 2920 | [`orioledb`](/zh/e/orioledb) | [`orioledb`](/zh/e/orioledb) | OrioleDB，下一代事务处理引擎 |
+| 2420 | [`pg_analytics`](/zh/e/pg_analytics) | [`pg_analytics`](/zh/e/pg_analytics) | 由 DuckDB 驱动的数据分析引擎 |
+| 2430 | [`pg_duckdb`](/zh/e/pg_duckdb) | [`pg_duckdb`](/zh/e/pg_duckdb) | 在PostgreSQL中的嵌入式DuckDB扩展 |
+| 3830 | [`pg_duration`](/zh/e/pg_duration) | [`pg_duration`](/zh/e/pg_duration) | 用于表示时间段的强化数据类型 |
+| 2790 | [`pg_graphql`](/zh/e/pg_graphql) | [`pg_graphql`](/zh/e/pg_graphql) | PG内的GraphQL支持 |
+| 2880 | [`pg_incremental`](/zh/e/pg_incremental) | [`pg_incremental`](/zh/e/pg_incremental) | 增量处理流式事件 |
+| 6890 | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | [`pg_logicalinspect`](/zh/e/pg_logicalinspect) | 检视逻辑解码组件详情 |
+| 2440 | [`pg_mooncake`](/zh/e/pg_mooncake) | [`pg_mooncake`](/zh/e/pg_mooncake) | PostgreSQL列式存储表 |
+| 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
+| 2460 | [`pg_parquet`](/zh/e/pg_parquet) | [`pg_parquet`](/zh/e/pg_parquet) | 在PostgreSQL与本地/S3中的Parquet文件复制数据 |
+| 4290 | [`pg_render`](/zh/e/pg_render) | [`pg_render`](/zh/e/pg_render) | 使用SQL渲染HTML页面 |
+| 2100 | [`pg_search`](/zh/e/pg_search) | [`pg_search`](/zh/e/pg_search) | ParadeDB BM25算法全文检索插件，ES全文检索 |
+| 7040 | [`pg_session_jwt`](/zh/e/pg_session_jwt) | [`pg_session_jwt`](/zh/e/pg_session_jwt) | 使用JWT进行会话认证 |
+| 4170 | [`pg_smtp_client`](/zh/e/pg_smtp_client) | [`pg_smtp_client`](/zh/e/pg_smtp_client) | 使用SMTP从PostgreSQL内发送邮件的客户端扩展 |
+| 5990 | [`pg_surgery`](/zh/e/pg_surgery) | [`pg_surgery`](/zh/e/pg_surgery) | 对损坏的关系进行手术 |
+| 7060 | [`pg_tde`](/zh/e/pg_tde) | [`pg_tde`](/zh/e/pg_tde) | Percona加密存储引擎 |
+| 2160 | [`pg_tokenizer`](/zh/e/pg_tokenizer) | [`pg_tokenizer`](/zh/e/pg_tokenizer) | 用于全文检索的分词器 |
+| 6010 | [`pg_tracing`](/zh/e/pg_tracing) | [`pg_tracing`](/zh/e/pg_tracing) | PostgreSQL分布式Tracing |
+| 6940 | [`pg_walinspect`](/zh/e/pg_walinspect) | [`pg_walinspect`](/zh/e/pg_walinspect) | 用于检查 PostgreSQL WAL 日志内容的函数 |
+| 4150 | [`pgjq`](/zh/e/pgjq) | [`pgjq`](/zh/e/pgjq) | 在Postgres中使用jq查询JSON |
+| 1890 | [`pgml`](/zh/e/pgml) | [`pgml`](/zh/e/pgml) | PostgresML：用SQL运行机器学习算法并训练模型 |
+| 8540 | [`pgspider_ext`](/zh/e/pgspider_ext) | [`pgspider_ext`](/zh/e/pgspider_ext) | 使用多种FDW访问远程数据库服务器 |
+| 4510 | [`pgx_ulid`](/zh/e/pgx_ulid) | [`pgx_ulid`](/zh/e/pgx_ulid) | ULID数据类型与函数 |
+| 9400 | [`spat`](/zh/e/spat) | [`spat`](/zh/e/spat) | 在PG中嵌入Redis风格的内存数据库 |
+| 1000 | [`timescaledb`](/zh/e/timescaledb) | [`timescaledb`](/zh/e/timescaledb) | 时序数据库扩展插件 |
+| 1010 | [`timescaledb_toolkit`](/zh/e/timescaledb_toolkit) | [`timescaledb_toolkit`](/zh/e/timescaledb_toolkit) | 超表分析查询，时间序列流式处理，以及其他SQL工具 |
+| 1810 | [`vchord`](/zh/e/vchord) | [`vchord`](/zh/e/vchord) | 使用Rust重写的高性能向量扩展 |
+| 2150 | [`vchord_bm25`](/zh/e/vchord_bm25) | [`vchord_bm25`](/zh/e/vchord_bm25) | BM25排序算法 |
+| 1830 | [`vectorize`](/zh/e/vectorize) | [`pg_vectorize`](/zh/e/vectorize) | 在PostgreSQL中封装RAG向量检索服务 |
+| 8500 | [`wrappers`](/zh/e/wrappers) | [`wrappers`](/zh/e/wrappers) | Supabase提供的外部数据源包装器捆绑包 |
+
