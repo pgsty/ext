@@ -161,7 +161,7 @@ libreadline-dev, zlib1g-dev, libxml2-dev, liblz4-dev, libzstd-dev, libkrb5-dev,
 
 **Aliases**: `rs`
 
-Sets up the Rust environment and PGRX for building PostgreSQL extensions in Rust.
+Set up the Rust environment and PGRX for building PostgreSQL extensions in Rust.
 
 ```bash
 pig build rust [-v <pgrx_ver>]
@@ -173,8 +173,8 @@ pig build rust [-v <pgrx_ver>]
 
 This command:
 
-1. Installs Rust using rustup if not already installed
-2. Installs the specified version of cargo-pgrx
+1. Install Rust using rustup if not already installed
+2. Install the specified version of cargo-pgrx
 3. Initializes PGRX with appropriate PostgreSQL configurations (versions 13-17)
 
 ------
@@ -207,7 +207,7 @@ The repo contains building specs (rpmspecs or debian control files) for PIGSTY m
 
 **Aliases**: `get`
 
-Downloads source code tarballs for PostgreSQL extensions.
+Download source code tarballs for PostgreSQL extensions.
 
 ```bash
 pig build get [prefixes|all|std]
@@ -272,9 +272,9 @@ It actually leverages the `make <ext>` command in the spec repo to build the ext
 
 **Aliases**: `p`
 
-Sets up a proxy server for accessing external resources, useful in environments with restricted internet access.
+Setup a proxy server for accessing external resources, useful in environments with restricted internet access.
 
-This is purely **optional**, and you dont’t need to it if you don’t have any connection problems.
+This is purely **optional**, and you don't need to it if you don’t have any connection problems.
 
 ```bash
 pig build proxy [id@host:port] [local]
@@ -282,16 +282,16 @@ pig build proxy [id@host:port] [local]
 
 **Parameters**:
 
-- `id@host:port`: The remote v2ray proxy specification in the format `user-id@host:port`
-- `local`: The local address for v2ray to bind to (default: “127.0.0.1:12345”)
+- `id@host:port`: The remote `v2ray` proxy specification in the format `user-id@host:port`
+- `local`: The local address for `v2ray` to bind to (default: “127.0.0.1:12345”)
 
 This command:
 
 1. Installs proxy software if not already present (`/usr/local/bin/v2ray`)
-2. Configures the proxy with specified remote and local settings
+2. Configure the proxy with specified remote and local settings
 3. Creates environment setup scripts in `/etc/profile.d/proxy.sh`
-4. Configures the proxy service
-5. Tests the proxy connectivity via curl google
+4. Configure the proxy service
+5. Test the proxy connectivity via curl google
 
 You can load the proxy environment variables by running:
 

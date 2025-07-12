@@ -1,0 +1,23 @@
+---
+title: 为什么选择 Pig？
+description: 为什么我们还需要一个新的包管理器？尤其是针对 Postgres 扩展？
+icon: CircleHelp
+---
+
+你是否曾因安装或升级 PostgreSQL 扩展而头疼？翻查过时的 readme、晦涩难懂的 configure 脚本，或是在 GitHub 上苦寻分支与补丁？
+事实上，Postgres 丰富的扩展生态，往往意味着复杂的部署流程——在多发行版、多架构环境下尤为棘手。
+
+这正是 **Pig** 诞生的初衷。Pig 由 Go 语言开发，致力于一站式管理 Postgres 及其 [420+](/zh/list/) 扩展。
+无论是 TimescaleDB、Citus、PGVector，还是 20+ 款 Rust 扩展，亦或 [自建 Supabase](/zh/app/supabase) 所需的全部组件——Pig 统一的 CLI 让一切触手可及。
+它彻底告别源码编译与杂乱仓库，直接提供版本对齐的 RPM/DEB 包，完美兼容 Debian、Ubuntu、RedHat 等主流发行版，支持 x86 与 Arm 架构，无需猜测，无需折腾。
+
+Pig 并非重复造轮子，而是充分利用系统原生包管理器（APT、YUM、DNF），严格遵循 PGDG 官方打包规范，确保无缝集成。
+你无需在“标准做法”与“快捷方式”之间权衡；Pig 尊重现有仓库，遵循操作系统最佳实践，与原有软件包和谐共存。
+
+想让你的 Postgres 如虎添翼、远离繁琐？欢迎访问 [GitHub](https://github.com/pgsty/pig) 获取文档、安装指南，以及庞大的[扩展列表](/zh/list/)。让本地 Postgres 实例一键进化为专业模块平台——无需黑魔法。
+如果说[Postgres 的未来是无可阻挡的可扩展性](https://medium.com/@fengruohang/postgres-is-eating-the-database-world-157c204dcfc4)，
+那么 Pig 就是帮你解锁未来的神灯。毕竟，从未有人抱怨“扩展太多”。
+
+![](/img/pigsty/ecosystem.gif)
+
+> 《[ANNOUNCE pig: The Postgres Extension Wizard](https://www.postgresql.org/about/news/announce-pig-the-postgres-extension-wizard-2988/)》

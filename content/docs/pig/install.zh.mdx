@@ -1,0 +1,113 @@
+---
+title: 安装
+description: 如何下载与安装 Pigsty CLI 工具 `pig`
+icon: Download
+---
+
+
+import { File, Folder, Files } from 'fumadocs-ui/components/files';
+import { Badge } from "@/components/ui/badge";
+import { Package, FileTerminal } from "lucide-react";
+
+--------
+
+## 脚本安装
+
+安装 `pig` 最简单的方式是运行以下安装脚本：
+
+```bash tab="默认"
+curl -fsSL https://repo.pigsty.io/pig | bash
+```
+```bash tab="镜像"
+curl -fsSL https://repo.pigsty.cc/pig | bash
+```
+
+该脚本会从 pigsty [软件仓库](/zh/repo/) 下载最新版 `pig` 的 RPM / DEB 包，并通过 `rpm` 或 `dpkg` 进行安装。
+
+
+--------
+
+## 直接下载
+
+你也可以直接从 Pigsty 仓库下载 `pig` 安装包（`RPM`/`DEB`/ 压缩包）：
+
+<Files>
+    <Folder name="https://repo.pigsty.io" defaultOpen>
+        <Folder name="pkg" defaultOpen>
+            <Folder name="pig" defaultOpen>
+                <a href={"https://repo.pigsty.io/pkg/pig/latest"}><File name="latest" icon={<FileTerminal className="text-orange-500" />} /></a>
+                <Folder name="v0.5.0" defaultOpen>
+                    <a href={"https://repo.pigsty.io/pkg/pig/v0.5.0/pig_0.5.0-1_amd64.deb"}><File name="pig_0.5.0-1_amd64.deb" icon={<Package className="text-sky-600" />} /></a>
+                    <a href={"https://repo.pigsty.io/pkg/pig/v0.5.0/pig_0.5.0-1_arm64.deb"}><File name="pig_0.5.0-1_arm64.deb" icon={<Package className="text-sky-600" />} /></a>
+                    <a href={"https://repo.pigsty.io/pkg/pig/v0.5.0/pig-0.5.0-1.aarch64.rpm"}><File name="pig-0.5.0-1.aarch64.rpm" icon={<Package className="text-sky-600" />} /></a>
+                    <a href={"https://repo.pigsty.io/pkg/pig/v0.5.0/pig-0.5.0-1.x86_64.rpm"}><File name="pig-0.5.0-1.x86_64.rpm" icon={<Package className="text-sky-600" />} /></a>
+                    <a href={"https://repo.pigsty.io/pkg/pig/v0.5.0/pig-v0.5.0.linux-amd64.tar.gz"}><File name="pig-v0.5.0.linux-amd64.tar.gz" icon={<Package className="text-sky-600" />} /></a>
+                    <a href={"https://repo.pigsty.io/pkg/pig/v0.5.0/pig-v0.5.0.linux-arm64.tar.gz"}><File name="pig-v0.5.0.linux-arm64.tar.gz" icon={<Package className="text-sky-600" />} /></a>
+                </Folder>
+                <Folder name="v0.4.1" defaultOpen></Folder>
+                <Folder name="..." defaultOpen></Folder>
+            </Folder>
+        </Folder>
+        <a href={"https://repo.pigsty.io/pig"}><File name="pig" icon={<FileTerminal className="text-orange-500" />} /></a>
+    </Folder>
+</Files>
+
+
+
+--------
+
+## 通过 APT / YUM 安装
+
+`pig` 软件包同样可通过 [`pigsty-infra`](/zh/repo/infra) 仓库获取。
+你可以将该仓库添加到系统后，使用操作系统的包管理器进行安装：
+
+```bash tab="yum"
+sudo tee /etc/yum.repos.d/pigsty-infra.repo > /dev/null <<-'EOF'
+[pigsty-infra]
+name=Pigsty Infra for $basearch
+baseurl=https://repo.pigsty.io/yum/infra/$basearch
+enabled = 1
+gpgcheck = 0
+module_hotfixes=1
+EOF
+
+sudo yum makecache;
+sudo yum install -y pig
+```
+
+```bash tab="apt"
+sudo tee /etc/apt/sources.list.d/pigsty-infra.list > /dev/null <<EOF
+deb [trusted=yes] https://repo.pigsty.io/apt/infra generic main
+EOF
+
+sudo apt update;
+sudo apt install -y pig
+```
+
+
+
+--------
+
+## 自我升级
+
+安装完成后，你可以通过如下命令将 `pig` 升级到最新版：
+
+```bash
+pig update   # 将 pig 自身升级到最新版
+```
+
+
+--------
+
+## 源码构建
+
+你也可以通过源码自行构建 `pig`。`pig` 是用 Go 语言开发的，源码托管在 [GitHub](https://github.com/pgsty/pig)
+
+- https://github.com/pgsty/pig
+
+```bash
+git clone https://github.com/pgsty/pig.git
+cd pig
+go build
+```
+

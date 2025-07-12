@@ -1,10 +1,9 @@
 ---
 title: PIG CLI
-description: PostgreSQL与扩展生态包管理器
+description: PostgreSQL 与扩展生态包管理器
 icon: PiggyBank
 full: true
 ---
-
 
 import {
     Terminal,
@@ -17,12 +16,11 @@ import {
     Zap
 } from 'lucide-react';
 
+> “Postgres Install Genius，PostgreSQL 生态中缺失的扩展包管理器”
 
-> "Postgres Install Genius, the missing extension package manager for PostgreSQL ecosystem"
+## 快速上手
 
-## 快速上手 Start
-
-使用以下命令 [快速上手](/cn/pig/start) PIG 包管理器：
+使用以下命令即可[快速上手](/zh/pig/start) PIG 包管理器：
 
 ```bash tab="default"
 curl -fsSL https://repo.pigsty.io/pig | bash
@@ -31,64 +29,59 @@ curl -fsSL https://repo.pigsty.io/pig | bash
 curl -fsSL https://repo.pigsty.cc/pig | bash
 ```
 
-Then it’s ready to use, assume you want to install the [**`pg_duckdb`**](/cn/e/pg_duckdb/) extension:
+安装完成后，即可使用。例如，若需安装 [**`pg_duckdb`**](/zh/e/pg_duckdb/) 扩展：
 
 ```bash
-$ pig repo add pigsty pgdg -u  # add pgdg & pigsty repo, then update repo cache
-$ pig ext install pg17         # install PostgreSQL 17 kernels with native PGDG packages
-$ pig ext install pg_duckdb    # install the pg_duckdb extension (for current pg17)
+$ pig repo add pigsty pgdg -u  # 添加 pgdg 与 pigsty 源，并更新仓库缓存
+$ pig ext install pg17         # 安装 PostgreSQL 17 内核（原生 PGDG 包）
+$ pig ext install pg_duckdb    # 安装 pg_duckdb 扩展（针对当前 pg17）
 ```
 
 --------
 
 <Cards>
-    <Card icon={<Zap className="text-green-500"/>} title='快速上手' href={"/cn/pig/start"}>
+    <Card icon={<Zap className="text-green-500"/>} title='快速上手' href={"/zh/pig/start"}>
         PIG CLI 快速上手
     </Card>
-    <Card icon={<Download className="text-blue-600"/>} title='安装' href={"/cn/pig/install"}>
+    <Card icon={<Download className="text-blue-600"/>} title='安装' href={"/zh/pig/install"}>
         安装 PostgreSQL 扩展
     </Card>
-    <Card icon={<HelpCircle className="text-purple-600"/>} title='特性' href={"/cn/pig/why"}>
-        为什么我们需要一个PostgreSQL包管理器？
+    <Card icon={<HelpCircle className="text-purple-600"/>} title='特性' href={"/zh/pig/why"}>
+        为什么需要 PostgreSQL 包管理器？
     </Card>
-    <Card icon={<Rocket className="text-orange-500"/>} title='发布说明' href={"/cn/pig/release"}>
-        PIG 命令行工具的发布说明
+    <Card icon={<Rocket className="text-orange-500"/>} title='发布说明' href={"/zh/pig/release"}>
+        PIG 命令行工具发布说明
     </Card>
 </Cards>
-
-
-
 
 --------
 
 ## 命令
 
-你可以执行 `pig help <command>` 来获取关于子命令的帮助信息。
-
+你可以执行 `pig help <command>` 获取子命令的详细帮助。
 
 <Cards>
-    <Card icon={<Terminal className="text-slate-600"/>} title='pig' href={"/cn/pig/pig"}>
-        Main CLI interface for the command line tool
+    <Card icon={<Terminal className="text-slate-600"/>} title='pig' href={"/zh/pig/pig"}>
+        主命令行接口
     </Card>
-    <Card icon={<Package className="text-indigo-600"/>} title='pig repo' href={"/cn/pig/repo"}>
-        Manage repositories for your linux distribution
+    <Card icon={<Package className="text-indigo-600"/>} title='pig repo' href={"/zh/pig/repo"}>
+        管理 Linux 发行版的软件仓库
     </Card>
-    <Card icon={<Puzzle className="text-emerald-600"/>} title='pig ext' href={"/cn/pig/ext"}>
-        Install, remove, search, scan postgres extensions
+    <Card icon={<Puzzle className="text-emerald-600"/>} title='pig ext' href={"/zh/pig/ext"}>
+        安装、移除、搜索、扫描 PostgreSQL 扩展
     </Card>
-    <Card icon={<Hammer className="text-amber-600"/>} title='pig build' href={"/cn/pig/build"}>
-        Setup building env for extensions and build them
+    <Card icon={<Hammer className="text-amber-600"/>} title='pig build' href={"/zh/pig/build"}>
+        配置扩展构建环境并编译扩展
     </Card>
 </Cards>
-
 
 --------
 
 ## 源代码
 
-`pig` 命令行工具由 [Vonng](https://vonng.com/en/) (Ruohang Feng rh@vonng.com) 开发，使用 [Apache 2.0](https://github.com/pgsty/pig/?tab=Apache-2.0-1-ov-file#readme) 许可证开源。
+`pig` 命令行工具由 [Vonng](https://vonng.com/en/)（冯若航 rh@vonng.com）开发，并以 [Apache 2.0](https://github.com/pgsty/pig/?tab=Apache-2.0-1-ov-file#readme) 许可证开源。
 
-更多信息可以参见 [pigsty](https://pgsty.com) 项目，它可以更为丝滑地完成所有扩展的一键交付：
+更多信息请参见 [pigsty](https://pgsty.com) 项目，可一键高效交付所有扩展：
 
 - https://github.com/pgsty/pig
 - https://github.com/pgsty/pigsty

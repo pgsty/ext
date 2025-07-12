@@ -1,6 +1,6 @@
 ---
-title: INFRA Repo
-description: Packages that are generic to any PostgreSQL version and Linux major version.
+title: INFRA 仓库
+description: 可观测性/PostgreSQL工具软件仓库，Linux发行版大版本无关的软件包
 icon: Landmark
 ---
 
@@ -42,7 +42,7 @@ Prebuilt RPM / DEB packages for RHEL / Debian / Ubuntu distros available for `x8
 
 --------
 
-## Quick Start
+## 快速上手
 
 You can add the `pigsty-infra` repo with the [`pig`](/pig/) CLI tool, it will automatically choose from `apt/yum/dnf`.
 
@@ -66,7 +66,7 @@ pig repo add all            # add infra, node, pgsql repo to your system
 pig repo set all            # remove existing repo, add above repos and update cache
 ```
 
-### APT Repo
+### APT 仓库
 
 On **Debian / Ubuntu** compatible Linux distros, you can add the [GPG Key](/repo/gpg) and APT repo file manually with:
 
@@ -99,7 +99,7 @@ EOF
 sudo apt update
 ```
 
-### YUM Repo
+### YUM 仓库
 
 On **RHEL** compatible Linux distros, you can add the [GPG Key](/repo/gpg) and APT repo file manually with:
 
@@ -150,9 +150,9 @@ sudo yum makecache;
 
 --------
 
-## Content
+## 内容
 
-### Prometheus Stack
+### Prometheus 技术栈
 
 |                                    Name                                     | Version | License | Comment |
 |:---------------------------------------------------------------------------:|:-------:|:-------:|:--------|
@@ -174,7 +174,7 @@ sudo yum makecache;
 |       [mongodb_exporter](https://github.com/percona/mongodb_exporter)       | 0.44.0  |         |         |
 |                  [mtail](https://github.com/google/mtail)                   |  3.0.8  |         |         |
 
-### Grafana Stack
+### Grafana 技术栈
 
 |                                                 Name                                                  | Version | License | Comment                |
 |:-----------------------------------------------------------------------------------------------------:|:-------:|:-------:|:-----------------------|
@@ -187,7 +187,7 @@ sudo yum makecache;
 | [grafana-victoriametrics-ds](https://github.com/VictoriaMetrics/victoriametrics-datasource/releases/) | 0.16.0  |         |                        |
 |        [grafana-plugins](https://github.com/pgsty/infra-pkg/tree/main/noarch/grafana-plugins)         | 12.0.0  |         |                        |
 
-### Databases
+### 数据库组件
 
 PostgreSQL related tools, DBMS, and other utils
 
@@ -202,7 +202,7 @@ PostgreSQL related tools, DBMS, and other utils
 | [tigerbeetle](https://github.com/tigerbeetle/tigerbeetle) |    0.16.48     |         | Financial OLTP            |
 |     [IvorySQL](https://github.com/IvorySQL/IvorySQL)      |      4.5       |         | Oracle Compatible PG 17.5 |
 
-### DB Utils
+### 数据库工具
 
 Pig the package manager, PostgreSQL tools, DBMS, and other utils
 
@@ -223,10 +223,9 @@ Pig the package manager, PostgreSQL tools, DBMS, and other utils
 
 ------
 
-## Changelog
+## 变更日志
 
 ### 2025-07-04
-
 
 | Name                       | Old            | New            | Comment |
 |:---------------------------|:---------------|:---------------|:--------|
