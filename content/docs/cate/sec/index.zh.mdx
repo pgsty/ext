@@ -14,11 +14,11 @@ SEC 分类包含 **26** 个 PostgreSQL 扩展。
 | ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
 | 7000 | [`passwordcheck_cracklib`](/zh/e/passwordcheck_cracklib) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 3.1.0 | 使用cracklib加固PG用户密码 |
-| 7010 | [`supautils`](/zh/e/supautils) | [`supautils`](/zh/e/supautils) | 2.9.2 | 用于在云环境中确保数据库集群的安全 |
+| 7010 | [`supautils`](/zh/e/supautils) | [`supautils`](/zh/e/supautils) | 2.10.0 | 用于在云环境中确保数据库集群的安全 |
 | 7020 | [`pgsodium`](/zh/e/pgsodium) | [`pgsodium`](/zh/e/pgsodium) | 3.1.9 | 表数据加密存储 TDE |
 | 7030 | [`supabase_vault`](/zh/e/supabase_vault) | [`pg_vault`](/zh/e/supabase_vault) | 0.3.1 | 在 Vault 中存储加密凭证的扩展 (supabase) |
 | 7040 | [`pg_session_jwt`](/zh/e/pg_session_jwt) | [`pg_session_jwt`](/zh/e/pg_session_jwt) | 0.3.1 | 使用JWT进行会话认证 |
-| 7050 | [`anon`](/zh/e/anon) | [`pg_anon`](/zh/e/anon) | 2.1.1 | 数据匿名化处理工具 |
+| 7050 | [`anon`](/zh/e/anon) | [`pg_anon`](/zh/e/anon) | 2.3.0 | 数据匿名化处理工具 |
 | 7060 | [`pg_tde`](/zh/e/pg_tde) | [`pg_tde`](/zh/e/pg_tde) | 1.0 | Percona加密存储引擎 |
 | 7070 | [`pgsmcrypto`](/zh/e/pgsmcrypto) | [`pgsmcrypto`](/zh/e/pgsmcrypto) | 0.1.0 | 为PostgreSQL提供商密算法支持：SM2,SM3,SM4 |
 | 7080 | [`pgaudit`](/zh/e/pgaudit) | [`pgaudit`](/zh/e/pgaudit) | 17.1 | 提供审计功能 |
@@ -28,7 +28,7 @@ SEC 分类包含 **26** 个 PostgreSQL 扩展。
 | 7120 | [`pgcryptokey`](/zh/e/pgcryptokey) | [`pgcryptokey`](/zh/e/pgcryptokey) | 0.85 | PG密钥管理 |
 | 7130 | [`pg_jobmon`](/zh/e/pg_jobmon) | [`pg_jobmon`](/zh/e/pg_jobmon) | 1.4.1 | 记录和监控函数 |
 | 7140 | [`logerrors`](/zh/e/logerrors) | [`logerrors`](/zh/e/logerrors) | 2.1.3 | 用于收集日志文件中消息统计信息的函数 |
-| 7150 | [`login_hook`](/zh/e/login_hook) | [`login_hook`](/zh/e/login_hook) | 1.6 | 在用户登陆时执行login_hook.login()函数 |
+| 7150 | [`login_hook`](/zh/e/login_hook) | [`login_hook`](/zh/e/login_hook) | 1.7 | 在用户登陆时执行login_hook.login()函数 |
 | 7160 | [`set_user`](/zh/e/set_user) | [`set_user`](/zh/e/set_user) | 4.1.0 | 增加了日志记录的 SET ROLE |
 | 7170 | [`pg_snakeoil`](/zh/e/pg_snakeoil) | [`pg_snakeoil`](/zh/e/pg_snakeoil) | 1.4 | PostgreSQL动态链接库反病毒功能 |
 | 7180 | [`pgextwlist`](/zh/e/pgextwlist) | [`pgextwlist`](/zh/e/pgextwlist) | 1.17 | PostgreSQL扩展白名单功能 |
@@ -65,7 +65,7 @@ SEC 分类包含 **26** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="supautils - 2.9.2">
+<Callout title="supautils - 2.10.0">
     <p>用于在云环境中确保数据库集群的安全</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/supautils) | [官网](https://github.com/supabase/supautils) | 属性 |
@@ -157,7 +157,7 @@ SEC 分类包含 **26** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="anon - 2.1.1">
+<Callout title="anon - 2.3.0">
     <p>数据匿名化处理工具</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/anon) | [官网](https://gitlab.com/dalibo/postgresql_anonymizer/) | 属性 |
@@ -387,7 +387,7 @@ SEC 分类包含 **26** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="login_hook - 1.6">
+<Callout title="login_hook - 1.7">
     <p>在用户登陆时执行login_hook.login()函数</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/login_hook) | [官网](https://github.com/splendiddata/login_hook) | 属性 |

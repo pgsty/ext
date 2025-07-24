@@ -13,12 +13,12 @@ STAT 分类包含 **34** 个 PostgreSQL 扩展。
 
 | ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
-| 6000 | [`pg_profile`](/zh/e/pg_profile) | [`pg_profile`](/zh/e/pg_profile) | 4.8 | PostgreSQL 数据库负载记录与AWR报表工具 |
+| 6000 | [`pg_profile`](/zh/e/pg_profile) | [`pg_profile`](/zh/e/pg_profile) | 4.10 | PostgreSQL 数据库负载记录与AWR报表工具 |
 | 6010 | [`pg_tracing`](/zh/e/pg_tracing) | [`pg_tracing`](/zh/e/pg_tracing) | 0.1.3 | PostgreSQL分布式Tracing |
-| 6210 | [`pg_show_plans`](/zh/e/pg_show_plans) | [`pg_show_plans`](/zh/e/pg_show_plans) | 2.1.3 | 打印所有当前正在运行查询的执行计划 |
+| 6210 | [`pg_show_plans`](/zh/e/pg_show_plans) | [`pg_show_plans`](/zh/e/pg_show_plans) | 2.1.6 | 打印所有当前正在运行查询的执行计划 |
 | 6220 | [`pg_stat_kcache`](/zh/e/pg_stat_kcache) | [`pg_stat_kcache`](/zh/e/pg_stat_kcache) | 2.3.0 | 内核统计信息收集 |
-| 6230 | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | 2.1.1 | 提供查询聚合统计、客户端信息、执行计划详细信息和直方图 |
-| 6240 | [`pg_qualstats`](/zh/e/pg_qualstats) | [`pg_qualstats`](/zh/e/pg_qualstats) | 2.1.1 | 收集有关 quals 的统计信息的扩展 |
+| 6230 | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | 2.2.0 | 提供查询聚合统计、客户端信息、执行计划详细信息和直方图 |
+| 6240 | [`pg_qualstats`](/zh/e/pg_qualstats) | [`pg_qualstats`](/zh/e/pg_qualstats) | 2.1.2 | 收集有关 quals 的统计信息的扩展 |
 | 6250 | [`pg_store_plans`](/zh/e/pg_store_plans) | [`pg_store_plans`](/zh/e/pg_store_plans) | 1.8 | 跟踪所有执行的 SQL 语句的计划统计信息 |
 | 6260 | [`pg_track_settings`](/zh/e/pg_track_settings) | [`pg_track_settings`](/zh/e/pg_track_settings) | 2.1.2 | 跟踪设置更改 |
 | 6270 | [`pg_wait_sampling`](/zh/e/pg_wait_sampling) | [`pg_wait_sampling`](/zh/e/pg_wait_sampling) | 1.1.8 | 基于采样的等待事件统计 |
@@ -28,7 +28,7 @@ STAT 分类包含 **34** 个 PostgreSQL 扩展。
 | 6310 | [`pgnodemx`](/zh/e/pgnodemx) | [`pgnodemx`](/zh/e/pgnodemx) | 1.7 | 使用SQL查询获取操作系统指标 |
 | 6320 | [`pg_proctab`](/zh/e/pg_proctab) | [`pgnodemx`](/zh/e/pgnodemx) | 1.7 | 通过SQL接口访问操作系统进程表 |
 | 6330 | [`pg_sqlog`](/zh/e/pg_sqlog) | [`pg_sqlog`](/zh/e/pg_sqlog) | 1.6 | 提供访问PostgreSQL日志的SQL接口 |
-| 6340 | [`bgw_replstatus`](/zh/e/bgw_replstatus) | [`bgw_replstatus`](/zh/e/bgw_replstatus) | 1.0.7 | 用于汇报本机主从状态的后台工作进程 |
+| 6340 | [`bgw_replstatus`](/zh/e/bgw_replstatus) | [`bgw_replstatus`](/zh/e/bgw_replstatus) | 1.0.8 | 用于汇报本机主从状态的后台工作进程 |
 | 6350 | [`pgmeminfo`](/zh/e/pgmeminfo) | [`pgmeminfo`](/zh/e/pgmeminfo) | 1.0.0 | 显示内存使用情况 |
 | 6360 | [`toastinfo`](/zh/e/toastinfo) | [`toastinfo`](/zh/e/toastinfo) | 1.5 | 显示TOAST字段的详细信息 |
 | 6370 | [`explain_ui`](/zh/e/explain_ui) | [`pg_explain_ui`](/zh/e/explain_ui) | 0.0.1 | 快速跳转至PEV查阅可视化执行计划 |
@@ -50,7 +50,7 @@ STAT 分类包含 **34** 个 PostgreSQL 扩展。
 
 --------
 
-<Callout title="pg_profile - 4.8">
+<Callout title="pg_profile - 4.10">
     <p>PostgreSQL 数据库负载记录与AWR报表工具</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pg_profile) | [官网](https://github.com/zubkov-andrei/pg_profile) | 属性 |
@@ -96,7 +96,7 @@ STAT 分类包含 **34** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="pg_show_plans - 2.1.3">
+<Callout title="pg_show_plans - 2.1.6">
     <p>打印所有当前正在运行查询的执行计划</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pg_show_plans) | [官网](https://github.com/cybertec-postgresql/pg_show_plans) | 属性 |
@@ -142,7 +142,7 @@ STAT 分类包含 **34** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="pg_stat_monitor - 2.1.1">
+<Callout title="pg_stat_monitor - 2.2.0">
     <p>提供查询聚合统计、客户端信息、执行计划详细信息和直方图</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pg_stat_monitor) | [官网](https://github.com/percona/pg_stat_monitor) | 属性 |
@@ -165,7 +165,7 @@ STAT 分类包含 **34** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="pg_qualstats - 2.1.1">
+<Callout title="pg_qualstats - 2.1.2">
     <p>收集有关 quals 的统计信息的扩展</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pg_qualstats) | [官网](https://github.com/powa-team/pg_qualstats) | 属性 |
@@ -395,7 +395,7 @@ STAT 分类包含 **34** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="bgw_replstatus - 1.0.7">
+<Callout title="bgw_replstatus - 1.0.8">
     <p>用于汇报本机主从状态的后台工作进程</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/bgw_replstatus) | [官网](https://github.com/mhagander/bgw_replstatus) | 属性 |
