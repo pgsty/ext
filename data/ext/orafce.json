@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "4.14.3",
+  "deb_ver": "4.14.4",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-orafce",
   "deb_deps": [],

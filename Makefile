@@ -56,20 +56,16 @@ serve:
 dump:
 	psql $(PGURL) -c "COPY (SELECT * FROM pgext.category ORDER BY id) TO STDOUT CSV HEADER;"   > data/category.csv
 	psql $(PGURL) -c "COPY (SELECT * FROM pgext.repository ORDER BY id) TO STDOUT CSV HEADER;" > data/repository.csv
-
-
+	psql $(PGURL) -c "COPY (SELECT * FROM pgext.extension ORDER BY id) TO STDOUT CSV HEADER;"   > data/extension.csv
+	psql $(PGURL) -c "COPY (SELECT * FROM pgext.matrix ORDER BY pg,os,pkg) TO STDOUT CSV HEADER;"     > data/matrix.csv
+	psql $(PGURL) -c "COPY (SELECT id,name,pkg AS alias,category,url,license,tags,version,repo,lang,has_bin AS utility,lead,has_lib AS has_solib,need_ddl,need_load,trusted,relocatable,schemas,pg_ver,requires,rpm_ver,rpm_repo,rpm_pkg,rpm_pg,rpm_deps,deb_ver,deb_repo,deb_pkg,deb_deps,deb_pg,NULL as bad_case,en_desc,zh_desc,comment FROM pgext.extension ORDER BY id) TO STDOUT CSV HEADER"   > data/pigsty.csv
+	psql $(PGURL) -c "COPY (select id,name,pkg as alias,category,lead,rpm_repo,rpm_pkg,rpm_pg,deb_repo,deb_pkg,deb_pg FROM pgext.extension ORDER BY id) TO STDOUT CSV HEADER;" > data/ext.csv
 
 load:
 	cat data/category.csv   | psql $(PGURL) -c "TRUNCATE pgext.category; COPY pgext.category FROM STDIN CSV HEADER;"
 	cat data/repository.csv | psql $(PGURL) -c "TRUNCATE pgext.repository; COPY pgext.repository FROM STDIN CSV HEADER;"
 
-save: save-data
-save-data:
-	psql $(PGURL) -c "COPY (SELECT * FROM ext.pigsty ORDER BY id) TO '/Users/vonng/pgsty/extension/data/pigsty.csv' CSV HEADER;"
-	psql $(PGURL) -c "COPY (SELECT * FROM ext.extension ORDER BY id) TO '/Users/vonng/pgsty/extension/data/extension.csv' CSV HEADER;"
-	psql $(PGURL) -c "COPY (select id,name,alias,category,lead,rpm_repo,rpm_pkg,rpm_pg,deb_repo,deb_pkg,deb_pg FROM ext.pigsty ORDER BY id) TO '/Users/vonng/pgsty/extension/data/ext.csv' CSV HEADER;"
-	psql $(PGURL) -c "COPY (select * FROM ext.cate ORDER BY id) TO '/Users/vonng/pgsty/extension/data/cate.csv' CSV HEADER;"
-	psql $(PGURL) -c "COPY (select * FROM ext.repo ORDER BY id) TO '/Users/vonng/pgsty/extension/data/repo.csv' CSV HEADER;"
+
 # load extension data from data dir
 #load:
 #	psql $(PGURL) -c "TRUNCATE ext.extension; COPY ext.extension FROM '/Users/vonng/pgsty/extension/data/extension.csv' CSV HEADER;"

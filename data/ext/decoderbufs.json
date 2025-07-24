@@ -8,7 +8,7 @@
   "url": "https://github.com/debezium/postgres-decoderbufs",
   "license": "MIT",
   "tags": [],
-  "version": "3.1.1",
+  "version": "3.2.0",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "3.1.1",
+  "rpm_ver": "3.2.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgres-decoderbufs_$v*",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "3.1.0",
+  "deb_ver": "3.2.0",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-decoderbufs",
   "deb_deps": [],
@@ -74,7 +74,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -89,7 +89,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -104,8 +104,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 2
+      "pkg_ver": "3.2.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -119,8 +119,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 2
+      "pkg_ver": "3.2.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -134,8 +134,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 2
+      "pkg_ver": "3.2.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -149,8 +149,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 2
+      "pkg_ver": "3.2.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -164,7 +164,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -179,7 +179,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -194,7 +194,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -209,7 +209,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -224,7 +224,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -239,7 +239,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -254,8 +254,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 16,
@@ -269,8 +269,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 16,
@@ -284,8 +284,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 16,
@@ -299,8 +299,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 16,
@@ -314,7 +314,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -329,7 +329,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -344,7 +344,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -359,7 +359,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -374,7 +374,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -389,7 +389,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -404,8 +404,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 15,
@@ -419,8 +419,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 15,
@@ -434,8 +434,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 15,
@@ -449,8 +449,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 6
+      "pkg_ver": "3.2.0",
+      "count": 7
     },
     {
       "pg": 15,
@@ -464,7 +464,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -479,7 +479,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -494,7 +494,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -509,7 +509,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -524,7 +524,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -539,7 +539,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -554,26 +554,26 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 10
-    },
-    {
-      "pg": 14,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "decoderbufs",
-      "ext": "decoderbufs",
-      "pname": "postgres-decoderbufs_14",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 11
     },
     {
       "pg": 14,
+      "os": "el8.x86_64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "x86_64",
+      "pkg": "decoderbufs",
+      "ext": "decoderbufs",
+      "pname": "postgres-decoderbufs_14",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "3.2.0",
+      "count": 12
+    },
+    {
+      "pg": 14,
       "os": "el9.aarch64",
       "type": "rpm",
       "os_code": "el9",
@@ -584,8 +584,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 10
+      "pkg_ver": "3.2.0",
+      "count": 11
     },
     {
       "pg": 14,
@@ -599,8 +599,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 10
+      "pkg_ver": "3.2.0",
+      "count": 11
     },
     {
       "pg": 14,
@@ -614,7 +614,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -629,7 +629,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -644,7 +644,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -659,7 +659,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -674,7 +674,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -689,7 +689,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -704,8 +704,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 10
+      "pkg_ver": "3.2.0",
+      "count": 11
     },
     {
       "pg": 13,
@@ -719,8 +719,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 11
+      "pkg_ver": "3.2.0",
+      "count": 12
     },
     {
       "pg": 13,
@@ -734,8 +734,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 10
+      "pkg_ver": "3.2.0",
+      "count": 11
     },
     {
       "pg": 13,
@@ -749,8 +749,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
-      "count": 10
+      "pkg_ver": "3.2.0",
+      "count": 11
     },
     {
       "pg": 13,
@@ -764,7 +764,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -779,7 +779,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -794,7 +794,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     },
     {
@@ -809,11 +809,21 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.1.1",
+      "pkg_ver": "3.2.0",
       "count": 1
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "postgres-decoderbufs_13",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_13-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24588,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/postgres-decoderbufs_13-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "c4772747956655af529963419f22f6b6fbca96c0d8ed60963ebbbe3d63d610d6"
+    },
     {
       "os": "el8.aarch64",
       "pg": 13,
@@ -913,6 +923,16 @@
       "size": 22780,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/postgres-decoderbufs_13-2.1.2-1.rhel8.aarch64.rpm",
       "sha256": "0bea20a8af46f94cc09ff5181a23e4cc2e9ab512db65b330b47696a6727e7493"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "postgres-decoderbufs_13",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_13-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 24932,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/postgres-decoderbufs_13-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "9b7d76cd8fc89799ce25a31373fb813828ab65b0761d792ea847e14754271bf3"
     },
     {
       "os": "el8.x86_64",
@@ -1028,6 +1048,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "postgres-decoderbufs_13",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_13-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24364,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/postgres-decoderbufs_13-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "486f92e794c5c2df4e2627c6d6a3fa3fb002afd7507648ca4019b7cda4737e4f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "postgres-decoderbufs_13",
       "ver": "3.1.1-1PGDG.rhel9",
       "file": "postgres-decoderbufs_13-3.1.1-1PGDG.rhel9.aarch64.rpm",
       "size": 24344,
@@ -1123,6 +1153,16 @@
       "size": 22884,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/postgres-decoderbufs_13-2.1.2-1.rhel9.aarch64.rpm",
       "sha256": "1ec56fa4c7e4b2d60a64d435ead2f8b287b230fb386fa4d6cd7ecffe097ab33e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "postgres-decoderbufs_13",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_13-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 24666,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/postgres-decoderbufs_13-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "02426dacbaf62d93177b9525985e41788a881d7358ac2997b18d270ecd357f50"
     },
     {
       "os": "el9.x86_64",
@@ -1228,6 +1268,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "postgres-decoderbufs_14",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_14-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24636,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/postgres-decoderbufs_14-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "68f3cf569e27dccc53c94ad7bf0d7c01ffba1e28aebcf713f944f7170dc20638"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "postgres-decoderbufs_14",
       "ver": "3.1.1-1PGDG.rhel8",
       "file": "postgres-decoderbufs_14-3.1.1-1PGDG.rhel8.aarch64.rpm",
       "size": 24456,
@@ -1323,6 +1373,16 @@
       "size": 22824,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/postgres-decoderbufs_14-2.1.2-1.rhel8.aarch64.rpm",
       "sha256": "efc5e41178ee61d695506a1eb906ea63adfbb80afd8fb83a684a16d9440ab814"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "postgres-decoderbufs_14",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_14-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 25028,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/postgres-decoderbufs_14-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "5e4fa625f49798213b8d018d2e2b8a4d7c2aca328a80d7de27baf318c8664d3f"
     },
     {
       "os": "el8.x86_64",
@@ -1438,6 +1498,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "postgres-decoderbufs_14",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_14-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24377,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/postgres-decoderbufs_14-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "6e7ad29ef48689e54c8fed8612f8b488713615eb8599d2cd6f27daaad88a1b90"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "postgres-decoderbufs_14",
       "ver": "3.1.1-1PGDG.rhel9",
       "file": "postgres-decoderbufs_14-3.1.1-1PGDG.rhel9.aarch64.rpm",
       "size": 24361,
@@ -1533,6 +1603,16 @@
       "size": 22924,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/postgres-decoderbufs_14-2.1.2-1.rhel9.aarch64.rpm",
       "sha256": "c63b33c0333bc10695a464c9e386c7df892ec5767fbb3bd2ce4582fa9effc7de"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "postgres-decoderbufs_14",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_14-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 24705,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/postgres-decoderbufs_14-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "4b40141275a61cff1e43c13ba7e10e66765bb971b466ec3e9812685319e0d799"
     },
     {
       "os": "el9.x86_64",
@@ -1638,6 +1718,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "postgres-decoderbufs_15",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_15-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24656,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/postgres-decoderbufs_15-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "7928515a1458195baf808aa77a3a1d7779cf0f22220bd81e07c66d1cb6faa94c"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "postgres-decoderbufs_15",
       "ver": "3.1.1-1PGDG.rhel8",
       "file": "postgres-decoderbufs_15-3.1.1-1PGDG.rhel8.aarch64.rpm",
       "size": 24488,
@@ -1693,6 +1783,16 @@
       "size": 23172,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/postgres-decoderbufs_15-2.4.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "956fd874ad66c8c87e38d872984c7e876e7450a35161609a6eb5241c5795b3e9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "postgres-decoderbufs_15",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_15-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 25036,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/postgres-decoderbufs_15-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "b05c7bb73266a987fa3fb68e8acdaea496945e63ffd10336525069303a25f7db"
     },
     {
       "os": "el8.x86_64",
@@ -1758,6 +1858,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "postgres-decoderbufs_15",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_15-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24388,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/postgres-decoderbufs_15-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "e9dae53f4ec355504af492838480d49a711019ba252e688d9c7d3ec2817ca6a4"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "postgres-decoderbufs_15",
       "ver": "3.1.1-1PGDG.rhel9",
       "file": "postgres-decoderbufs_15-3.1.1-1PGDG.rhel9.aarch64.rpm",
       "size": 24362,
@@ -1813,6 +1923,16 @@
       "size": 23137,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/postgres-decoderbufs_15-2.4.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "665877b0ac4e44fe8bbb6fbc54f27dad7999bdf18815c87fddb7ac688935126a"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "postgres-decoderbufs_15",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_15-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 24696,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/postgres-decoderbufs_15-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "c142ecf852fc516e26e64984196adfade774d31a1e4f256f73c3325d3e0ab488"
     },
     {
       "os": "el9.x86_64",
@@ -1878,6 +1998,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "postgres-decoderbufs_16",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_16-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24528,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/postgres-decoderbufs_16-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "177542885140615a657a1a70ab2e4ccaef9343eef76e098c120b3e3032f6847f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "postgres-decoderbufs_16",
       "ver": "3.1.1-1PGDG.rhel8",
       "file": "postgres-decoderbufs_16-3.1.1-1PGDG.rhel8.aarch64.rpm",
       "size": 24360,
@@ -1933,6 +2063,16 @@
       "size": 23044,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/postgres-decoderbufs_16-2.4.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "e15ab87564d9fb07383342cb36cd94c001d9c5bda5fda2586aedfee37583511e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "postgres-decoderbufs_16",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_16-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 24840,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/postgres-decoderbufs_16-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "2867607445d78d7fa45289659991ac8d75c2b1bb3a13f1e82981f85a7b332fb6"
     },
     {
       "os": "el8.x86_64",
@@ -1998,6 +2138,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "postgres-decoderbufs_16",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_16-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 23643,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/postgres-decoderbufs_16-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "2c4657bee3075347850dda40c048f982e74ca2313dc157d2cfc11dda442c443a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "postgres-decoderbufs_16",
       "ver": "3.1.1-1PGDG.rhel9",
       "file": "postgres-decoderbufs_16-3.1.1-1PGDG.rhel9.aarch64.rpm",
       "size": 23602,
@@ -2053,6 +2203,16 @@
       "size": 22383,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/postgres-decoderbufs_16-2.4.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "c653ba005b29d3a8e7147b44a1d08714195c35e0be8bfba5988bad38b820eecc"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "postgres-decoderbufs_16",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_16-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 23923,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/postgres-decoderbufs_16-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "0594d73c1a52f2a8f72cecbf8d8768896b201b3b80e0de6a7b726650b3673ca6"
     },
     {
       "os": "el9.x86_64",
@@ -2118,6 +2278,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "postgres-decoderbufs_17",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_17-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24468,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/postgres-decoderbufs_17-3.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "8a7121f3543fdf2c1ae134f615eb0c4752fd3557ec450b6cfc2c33d9ff769407"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "postgres-decoderbufs_17",
       "ver": "3.1.1-1PGDG.rhel8",
       "file": "postgres-decoderbufs_17-3.1.1-1PGDG.rhel8.aarch64.rpm",
       "size": 24292,
@@ -2133,6 +2303,16 @@
       "size": 24124,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/postgres-decoderbufs_17-3.0.2-1PGDG.rhel8.aarch64.rpm",
       "sha256": "48832ec6b77f2d37795a921deaad6a482e7f0064c41e84feb6a7f206c92166bf"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "postgres-decoderbufs_17",
+      "ver": "3.2.0-1PGDG.rhel8",
+      "file": "postgres-decoderbufs_17-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 24840,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/postgres-decoderbufs_17-3.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "012d31335188d83cb455900f927f0157422021f3d7a28d0e3702ac2476bc52c7"
     },
     {
       "os": "el8.x86_64",
@@ -2158,6 +2338,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "postgres-decoderbufs_17",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_17-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 23633,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/postgres-decoderbufs_17-3.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "3a7f82639d5afdf11149465f4260118cc325718c871fc0d6a759825a612af1e2"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "postgres-decoderbufs_17",
       "ver": "3.1.1-1PGDG.rhel9",
       "file": "postgres-decoderbufs_17-3.1.1-1PGDG.rhel9.aarch64.rpm",
       "size": 23586,
@@ -2173,6 +2363,16 @@
       "size": 23781,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/postgres-decoderbufs_17-3.0.2-1PGDG.rhel9.aarch64.rpm",
       "sha256": "52aed166c89f2101a345b195f2ef3cddcf136dc21af2ee412380ad0808e852a1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "postgres-decoderbufs_17",
+      "ver": "3.2.0-1PGDG.rhel9",
+      "file": "postgres-decoderbufs_17-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 23938,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/postgres-decoderbufs_17-3.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "9b536ca1536a442fc75a4fd4c70977d3230c6fd8657330d89749c1093dc7dbb3"
     },
     {
       "os": "el9.x86_64",
@@ -2198,301 +2398,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-13-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "size": 39436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "829974c4bf95c4a5cc6e6004e3142238b5fcc65d2779c3244318bf230bd5f9f6"
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-13-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "size": 39548,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "sha256": "72b27dc938e12ca158861111fc987173dcbd4286ab55be67befeb35a898eeafd"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-13-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "size": 39656,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "9f1b00503b9f2bf3b40539066cada325b7ec92c84e818ea385ae937e57746d91"
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-13-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "size": 39800,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "sha256": "e31b0f652333bc639375099bfb9e1ea2d1e3cb10ece806192ba51ad62f25661c"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-13-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 43636,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "1109e34b70ee1fc0e053f3b3d6adb0ad03fb84903f87a8f70a422fb4a96cc039"
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-13-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "size": 43708,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "7f862b3267b9ee6b214564ee9d366561acfad523b7f839b127f740f7fe6e6091"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-13-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 44164,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "c4b8c662e0b63e7d9b2650622affa226688734fdcd0ea0dade4d2e5fd974cdfd"
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-13-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "size": 44276,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "d175a7a284f1d525311772e1f6d0a758d7982ea36567435f57194596273c58bd"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-13-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-13-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "size": 39628,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "1c60af14c26d956fac3833d3971b89f2939f55226515807b06a431ddeb3d5b70"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 13,
+      "name": "postgresql-13-decoderbufs",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-13-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "size": 39912,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "92913480fbfca7caffd1751711c098c11761a66955e900d9b3f0c4cde8dc2fe8"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-decoderbufs",
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-14-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "size": 39480,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "sha256": "2fe41bc975e7cd6e26531c00b616200fa0305b85aad9d4fd67e4fa2db3e5a8f4"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-decoderbufs",
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-14-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "size": 39992,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "sha256": "254acb6e42cdf68963523c49258fdfea949a823f9d1f9d3961384a81dea5330a"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-decoderbufs",
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-14-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "size": 43860,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "1335425827b5f475b8b0e59027d6a93b3cf8153719885b95a9d04c535acb2adc"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-decoderbufs",
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-14-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "size": 44540,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "69bc9accf6ba8b02cfd6eff40e27531d987871ffddf4f239dc21b184801f986f"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-decoderbufs",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-14-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "size": 39620,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "3e45149f9b5bb9d497b98605f6d960b949c0559cfa637491f83ed84c0a173bc6"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-decoderbufs",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-14-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "size": 40120,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "ce562aa6fc0c0793b74092001d6da40c2058095353452323bc2654d96c708aa5"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-decoderbufs",
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-15-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "size": 39392,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "sha256": "bca9f6afd979274d96d61d7ed754f28dcdb9f1280eb1f1293ca891bdee97777a"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 15,
+      "name": "postgresql-15-decoderbufs",
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-15-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "size": 40012,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "sha256": "9d2270dd7b03a136fb6d3db2a38092de0562aa07df669ca3d8ec3aa372694354"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-decoderbufs",
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-15-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "size": 45664,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "96301dd0841b36348a853d452c8ec7ff8fb89c30bd95685d7b6e997d559b7ccb"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 15,
+      "name": "postgresql-15-decoderbufs",
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-15-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "size": 46332,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "ed0488845f1562e19525e871b4a133bf7b9741a6ad9a851abba8dc1f1e5d12bd"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-decoderbufs",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-15-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "size": 39648,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "aaeb8d4ab637e51aa05248f88412bbd38fb45206b449324430a42b93ed041bb6"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 15,
+      "name": "postgresql-15-decoderbufs",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-15-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "size": 40100,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "b68d049720eebc8e91467008d8751d21d324faff3f59fc2d6328606ae02a5c4d"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-decoderbufs",
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-16-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "size": 39376,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "sha256": "24d7e898d1114fb3ce8eab4f7b490794dc0e6456bf51fa31d15b4bfc1a6886ea"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-decoderbufs",
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-16-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "size": 39940,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "sha256": "3a8dce97a7b1908ebc0bac4191743bd6b464174d5b521e2ca97829f950bb428d"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-decoderbufs",
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-16-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "size": 45224,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "a37d130b406b8cb7cd7e3fa37e6c872d5168bd5b6ca8653318274729a958555e"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-decoderbufs",
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-16-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "size": 45788,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "c765a7f538ab8bd1412f2610eb0cc68d4a43da92e9efea5030169e54eb612f9e"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-decoderbufs",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-16-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "size": 38992,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "6b5e32a13bec9838fd43d35ac41a5368b8aa19255425bd828abfd034365ac8d4"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-decoderbufs",
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-16-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
       "size": 39516,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "ca8b0336f12d127bfc6f0ebc402e6c23c3cf68d6f33becbee33acc188b334871"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 13,
-      "name": "postgresql-13-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-13-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 39836,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-13-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "9ff3d6d25a3938a9e3cb0d97d11a422057ba6c62a32105e9cdeff3f39c418da1"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 14,
-      "name": "postgresql-14-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-14-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "size": 39368,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "a02a070166d3ec883b104271211d44c1ead804c4d925b1f4a2b59b0e54faa622"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 14,
-      "name": "postgresql-14-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-14-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "size": 39904,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "8a0f5acd3c0266d5709611a3277fb49cf7afaf769bdb58270e1da064a5f34648"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 14,
-      "name": "postgresql-14-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-14-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 43756,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "b68698cfe64ab1ae3b7c22ae11846c00642585df6a855e1661f405718f60bdf5"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 14,
-      "name": "postgresql-14-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-14-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 44444,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "b905e4708fdcb5ed40ad4ba3caa38385d564d4bd6e0052be9c6b2b9c63aa37f9"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 14,
-      "name": "postgresql-14-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-14-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 39492,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "11e5a4a0b4e4ea356a3750408f5fb05e6d68b06edfc4e8568eb39a63bc85bc1c"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 14,
-      "name": "postgresql-14-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-14-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 40036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-14-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "b25cf15b7b848e7dfa626f5f48ba961bcd1e487f2c301e520155c37b0e90fa31"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 15,
-      "name": "postgresql-15-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-15-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "size": 39356,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "d9a709837a29c5ed3c0b843a78a3467780da39d638788d01ae248e88b2109fa3"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-15-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "size": 39996,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "7c97b0f8b29440251dbcb6cea10fe09c4cf78b5530c021ecfd9b1cf89d9cb45e"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 15,
-      "name": "postgresql-15-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-15-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 45564,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "8a59890108c06c9936168fc8d17df2f00510817ed2009a1c310767305bbb5781"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-15-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 46260,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "85ff515b660cfc8ff25f8fce50f9802771f9a6bd08d869df5fd8fe57e4838886"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 15,
-      "name": "postgresql-15-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-15-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 39520,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "0297e7d3d2713625e5ee9d013b0807bfffa3df3f39233f1b3f3748583c429750"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-15-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 40048,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-15-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "ffcf8274ac95fb62130ca768151078a1d3864a99f78f2ef34cd055e32ded161d"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-16-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "size": 39260,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "7055ef24de904d856ccfce2125e6684f0ed07880afc315ec2e202b6f211adbaa"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-16-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "size": 39832,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "7b45325d1efae0306bf55b2135e5a291f8c75808c4e2dff014b9b11f74a67b8f"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-16-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 45100,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "aa48ffd662f09cab0ebde4e2bfb1227a1d8cce170116b49ddc525855782c8088"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-16-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 45680,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "468dfcc927d4dd1fbb774ff031862529a293cf33ae919c0cd21de260884f94b8"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-16-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 39000,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "88d00483d6a56106289f410a2a1574aebd93ec4635d2df9c0c120504145ee3b3"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-16-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 39448,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "39e38fbefe75c987b63cbde04fe742411d4a57c56ee2487995794bfa636f4c9b"
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-16-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "740a1811f5f52a267e2f36173ac9bf36ccea7e50781bc7a06da1ec54cc480438"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-17-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "size": 39192,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "088c2838602874f84b76dac14e9d2a3e7842dd3f2c368bba6c6d5d9bab6696b1"
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-17-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "size": 39272,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.2.0-1.pgdg120+1_arm64.deb",
+      "sha256": "f92fa0402bb4431e4249e13c35fdc859da6feef0dc0c91a0011bc66e0974c616"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-decoderbufs",
-      "ver": "3.1.1-1.pgdg120+1",
-      "file": "postgresql-17-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "size": 39796,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "db35edd128433f5f95c647b0b044175a293695566f4511682c86f4c94d5f58df"
+      "ver": "3.2.0-1.pgdg120+1",
+      "file": "postgresql-17-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "size": 39816,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.2.0-1.pgdg120+1_amd64.deb",
+      "sha256": "64c5a67b987c132199f7cf4a696bb9004ba9d5c59d7e7b3f6813ec1719ba880e"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-17-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 45648,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "f08a477ed3a8a66ec1a5c48e126b06a837bce79f9825dedff029c849f4fd86f8"
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-17-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "size": 45748,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.2.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "0c155907ff6ac5398f352c5b525099bef43513b24377d227be7e2af546b4803e"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-decoderbufs",
-      "ver": "3.1.1-1.pgdg22.04+1",
-      "file": "postgresql-17-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
+      "ver": "3.2.0-1.pgdg22.04+1",
+      "file": "postgresql-17-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
       "size": 46268,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "502662abf6db317aff10a18b4dc363c421a3353e6fac464b7c13c6be46459a4a"
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.2.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "68508a14b2cee460f072f5e10d2d3b8af216394e5de67e39830fdae66e755bf0"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-17-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 38920,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "de75018dd4134275524c440c10d308ff52d11b92670098c97f744a202803f4e3"
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-17-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "size": 39036,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.2.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "23a76110e879e4dcb9a736e036b39776acdbf8c03b710f073016c53e0b575d3b"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-decoderbufs",
-      "ver": "3.1.1-1.pgdg24.04+1",
-      "file": "postgresql-17-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 39404,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "27063a5191d6cdd093a94ee29b7dee5aef1cd1f684e7f842a34d1d21a3ab3d2a"
+      "ver": "3.2.0-1.pgdg24.04+1",
+      "file": "postgresql-17-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "size": 39456,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgres-decoderbufs/postgresql-17-decoderbufs_3.2.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "98096187807ce2482c0fca029b14ac19a6a318e7f7966c5681cc22e365ea7a6f"
     }
   ]
 }

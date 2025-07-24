@@ -8,7 +8,7 @@
   "url": "https://github.com/zubkov-andrei/pg_profile",
   "license": "BSD 2-Clause",
   "tags": [],
-  "version": "4.8",
+  "version": "4.10",
   "repo": "MIXED",
   "lang": "C",
   "contrib": false,
@@ -33,7 +33,7 @@
   ],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "4.8",
+  "rpm_ver": "4.10",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_profile_$v*",
   "rpm_pg": [
@@ -44,7 +44,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "4.7",
+  "deb_ver": "4.10",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-pg-profile",
   "deb_deps": [],
@@ -77,7 +77,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -92,7 +92,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -107,8 +107,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 2
+      "pkg_ver": "4.10",
+      "count": 3
     },
     {
       "pg": 17,
@@ -122,8 +122,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 2
+      "pkg_ver": "4.10",
+      "count": 3
     },
     {
       "pg": 17,
@@ -137,8 +137,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 2
+      "pkg_ver": "4.10",
+      "count": 3
     },
     {
       "pg": 17,
@@ -152,8 +152,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 2
+      "pkg_ver": "4.10",
+      "count": 3
     },
     {
       "pg": 17,
@@ -167,7 +167,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -182,7 +182,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -197,7 +197,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -212,7 +212,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -227,7 +227,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -242,7 +242,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -257,8 +257,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 16,
@@ -272,8 +272,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 16,
@@ -287,8 +287,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 16,
@@ -302,8 +302,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 16,
@@ -317,7 +317,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -332,7 +332,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -347,7 +347,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -362,7 +362,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -377,7 +377,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -392,7 +392,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -407,8 +407,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 15,
@@ -422,8 +422,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 15,
@@ -437,8 +437,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 15,
@@ -452,8 +452,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 15,
@@ -467,7 +467,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -482,7 +482,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -497,7 +497,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -512,7 +512,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -527,7 +527,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -542,7 +542,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -557,8 +557,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 14,
@@ -572,8 +572,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 14,
@@ -587,8 +587,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 14,
@@ -602,8 +602,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 14,
@@ -617,7 +617,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -632,7 +632,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -647,7 +647,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -662,7 +662,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -677,7 +677,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -692,7 +692,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -707,8 +707,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 13,
@@ -722,8 +722,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 13,
@@ -737,8 +737,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 13,
@@ -752,8 +752,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.8",
-      "count": 4
+      "pkg_ver": "4.10",
+      "count": 5
     },
     {
       "pg": 13,
@@ -767,7 +767,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -782,7 +782,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -797,7 +797,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     },
     {
@@ -812,11 +812,21 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "4.8",
+      "pkg_ver": "4.10",
       "count": 1
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pg_profile_13",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_13-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219320,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_profile_13-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "ed1c79f370686f961dbf38d1e51f7b6bfca7792eda2805540dd1e177e7aadd5c"
+    },
     {
       "os": "el8.aarch64",
       "pg": 13,
@@ -856,6 +866,16 @@
       "size": 112296,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_profile_13-4.4-1PGDG.rhel8.noarch.rpm",
       "sha256": "cfec33a989c35086582d7a6495cd94cf922694f7dbc78e782e6de7a9e5429cb5"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pg_profile_13",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_13-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219368,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pg_profile_13-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "f62d3bcf09d4bda2c79e1dcc63a2e8da08f5bdf1afcc3c66a2c82577cd1382b1"
     },
     {
       "os": "el8.x86_64",
@@ -901,6 +921,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "pg_profile_13",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_13-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201529,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_profile_13-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "8ce616ed53bdfd4559818d66e0cf977ed5fbb8694c1590c48fcf51aac2cd5d3e"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pg_profile_13",
       "ver": "4.8-1PGDG.rhel9",
       "file": "pg_profile_13-4.8-1PGDG.rhel9.noarch.rpm",
       "size": 119807,
@@ -936,6 +966,16 @@
       "size": 101374,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_profile_13-4.4-1PGDG.rhel9.noarch.rpm",
       "sha256": "fb9151c6057b816a86d103d01384e5a30bfdea6a4ee750812e618f3147ed7d97"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pg_profile_13",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_13-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201576,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pg_profile_13-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "fabfd1fa3d646902ffbda35b92ccb25e48bfaf973b274d806de36c5181918675"
     },
     {
       "os": "el9.x86_64",
@@ -981,6 +1021,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pg_profile_14",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_14-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219320,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_profile_14-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "59076be7a1d6ce3641cf9d1a76d178a1ffcb5d6e59188076a7c64646c11aa70e"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pg_profile_14",
       "ver": "4.8-1PGDG.rhel8",
       "file": "pg_profile_14-4.8-1PGDG.rhel8.noarch.rpm",
       "size": 133992,
@@ -1016,6 +1066,16 @@
       "size": 112292,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_profile_14-4.4-1PGDG.rhel8.noarch.rpm",
       "sha256": "7c3d64e89e58e2e98afe22ec44af4e44f5692b38bbc05174e20b2a35edc94ca9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pg_profile_14",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_14-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219368,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pg_profile_14-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "730a2649808e6d49e076fb6f91b3f4890ac0a93631b7a18de316b7b0a39450ec"
     },
     {
       "os": "el8.x86_64",
@@ -1061,6 +1121,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pg_profile_14",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_14-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201530,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_profile_14-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "beec86ff4421487b0cf13683779475391672321440005b8e9ed2fea431bd53d7"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pg_profile_14",
       "ver": "4.8-1PGDG.rhel9",
       "file": "pg_profile_14-4.8-1PGDG.rhel9.noarch.rpm",
       "size": 119806,
@@ -1096,6 +1166,16 @@
       "size": 101382,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_profile_14-4.4-1PGDG.rhel9.noarch.rpm",
       "sha256": "780124deb12f45367a8e997a5b80a2c6c31b11f7e149de791273c834f255c1ac"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pg_profile_14",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_14-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201582,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pg_profile_14-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "a33f169e49f40245195e3027c2d57ca3726826ea56ff24bcd269597f6afaf4cb"
     },
     {
       "os": "el9.x86_64",
@@ -1141,6 +1221,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pg_profile_15",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_15-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219320,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_profile_15-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "248e95a6dcfc5111b5412a6012ab9cc985a18769df2f9249a9b0b7ffce977819"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pg_profile_15",
       "ver": "4.8-1PGDG.rhel8",
       "file": "pg_profile_15-4.8-1PGDG.rhel8.noarch.rpm",
       "size": 133992,
@@ -1176,6 +1266,16 @@
       "size": 112296,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_profile_15-4.4-1PGDG.rhel8.noarch.rpm",
       "sha256": "6ba296c58387675a1feb4a401dbaf7a3507c061ab29f88c8683f4c09ad0a016f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pg_profile_15",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_15-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219364,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pg_profile_15-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "66a599c7d5bdf1bc29f1a0c251d014673582e83f26f4ec4a80fb7be4f8332231"
     },
     {
       "os": "el8.x86_64",
@@ -1221,6 +1321,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pg_profile_15",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_15-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201517,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_profile_15-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "08336d814fa4fce814078f0820234cdda6857ea2eea6455e852211d745019115"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pg_profile_15",
       "ver": "4.8-1PGDG.rhel9",
       "file": "pg_profile_15-4.8-1PGDG.rhel9.noarch.rpm",
       "size": 119764,
@@ -1256,6 +1366,16 @@
       "size": 101353,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_profile_15-4.4-1PGDG.rhel9.noarch.rpm",
       "sha256": "37e301e47b23165d917b017c34c3d126c47ea12b7fc8b0824b49090ebcb6f27d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pg_profile_15",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_15-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201590,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pg_profile_15-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "4a39358973e8e6e0dbf6332d7c1b41175b146f1eec7de32e833552db24c21ab4"
     },
     {
       "os": "el9.x86_64",
@@ -1301,6 +1421,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pg_profile_16",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_16-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219320,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_profile_16-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "9fe576dfbfb1bed1fdee5fb87a28376631c954be2fd2b2fddd4ac35462e2cb95"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pg_profile_16",
       "ver": "4.8-1PGDG.rhel8",
       "file": "pg_profile_16-4.8-1PGDG.rhel8.noarch.rpm",
       "size": 133992,
@@ -1336,6 +1466,16 @@
       "size": 112292,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_profile_16-4.4-1PGDG.rhel8.noarch.rpm",
       "sha256": "6516276a6e25647f7f0556209bf59b3f3d24b3ca26e8c56be70ad2aa7a50caad"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pg_profile_16",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_16-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219368,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pg_profile_16-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "a003edc2fb43864751b331d6139b92f9a443b94785edcc615b0a949ca4474d6d"
     },
     {
       "os": "el8.x86_64",
@@ -1381,6 +1521,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pg_profile_16",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_16-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201517,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_profile_16-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "224c8391001376dd8a2739264171bb4306c6f7303d88388b84456213bc2881d7"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pg_profile_16",
       "ver": "4.8-1PGDG.rhel9",
       "file": "pg_profile_16-4.8-1PGDG.rhel9.noarch.rpm",
       "size": 119763,
@@ -1416,6 +1566,16 @@
       "size": 101374,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_profile_16-4.4-1PGDG.rhel9.noarch.rpm",
       "sha256": "c70c85829c892f685f5c7ae1ed5fb57a0c3fe747a7e694a4d4f515532697f8fc"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pg_profile_16",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_16-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201586,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pg_profile_16-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "b296173d5bcf5542e1206b05b040a6d5acca21f90c970243b2cdb175dd8ee2b3"
     },
     {
       "os": "el9.x86_64",
@@ -1461,6 +1621,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pg_profile_17",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_17-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219320,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_profile_17-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "87b8a0437409b8914667c00248a644dedef02a63e026d3660c3691e54c31b45f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pg_profile_17",
       "ver": "4.8-1PGDG.rhel8",
       "file": "pg_profile_17-4.8-1PGDG.rhel8.noarch.rpm",
       "size": 133996,
@@ -1476,6 +1646,16 @@
       "size": 133452,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_profile_17-4.7-1PGDG.rhel8.noarch.rpm",
       "sha256": "c652fe385ffe3e83bc81abb2b8783166f9c98cfa66d41869dd9de3d8060888ff"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pg_profile_17",
+      "ver": "4.10-1PGDG.rhel8",
+      "file": "pg_profile_17-4.10-1PGDG.rhel8.noarch.rpm",
+      "size": 219368,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pg_profile_17-4.10-1PGDG.rhel8.noarch.rpm",
+      "sha256": "be30a856025d5efd2caff15b325ec7c978cb6283215616deb266d0f8de2925f3"
     },
     {
       "os": "el8.x86_64",
@@ -1501,6 +1681,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pg_profile_17",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_17-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201502,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_profile_17-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "b14d46291436f4eab3791320850748f95b97826059c3738c1bd18254ae134a3b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pg_profile_17",
       "ver": "4.8-1PGDG.rhel9",
       "file": "pg_profile_17-4.8-1PGDG.rhel9.noarch.rpm",
       "size": 119764,
@@ -1516,6 +1706,16 @@
       "size": 118498,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_profile_17-4.7-1PGDG.rhel9.noarch.rpm",
       "sha256": "55b4cbe2ff7cc1c4ba35df298781e2d365bd06629c15cfb464fa11ff07f58488"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pg_profile_17",
+      "ver": "4.10-1PGDG.rhel9",
+      "file": "pg_profile_17-4.10-1PGDG.rhel9.noarch.rpm",
+      "size": 201586,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pg_profile_17-4.10-1PGDG.rhel9.noarch.rpm",
+      "sha256": "edbd3f4d9f576c24175f5ad715e527e63b4bea269c1f0b032973dd75e3e8de3e"
     },
     {
       "os": "el9.x86_64",
@@ -1541,301 +1741,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-13-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "size": 116096,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-13-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "04be1b00584f2aac94c94bb90894804eae9a0c706c3435543eca02a00134b0c1"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-13-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "size": 196960,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-13-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "ef73e54be3931e20402bc9f643bea00b8b791bd3a8e57bf9c6540dbece06f30b"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-13-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "size": 116132,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-13-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "2f36072113eca63507aac5b7cdd439d1538bcb05aa73d17a605ef82025cf29de"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-13-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "size": 196852,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-13-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "3cba78c87b433f50c205ec3487cb823a30511b60a6b1457e5c0ac15cf47105b2"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-13-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "size": 114378,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-13-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "sha256": "36c0bdce74161771a94c59e96df0c7526ffd073546b95d168d0ae1ca9903ab0c"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-13-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "size": 197892,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-13-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "sha256": "9a4d8f901d5d8efd913830d93767973032c0b8439ab72c0b55fa62b38d520859"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-13-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "size": 114404,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-13-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "sha256": "52d0824651862a69199b35e76b4ff9f2bf15f9ad20942fd1435ef8ed6b90d295"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-13-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "size": 197872,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-13-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "sha256": "39befcdb83b83ed8f6c908cefc853e92d9e7c8b7c6930baa40bbceed5b6bc76f"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-13-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "size": 114346,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-13-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "sha256": "011cb444f7089c9a0881793bc6d63d915697d644717eb13f7b80b9265fbde640"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-13-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "size": 196134,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-13-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "sha256": "b3b60bc222ca9b5039cd9d2c6c0e2e0cdc12d86932a947072194e3bdf656bf81"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-13-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "size": 114408,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-13-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "sha256": "9bf49547252a5d68fe02322032697674d27b0e524dde8240786559ef380a0a54"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-13-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "size": 196184,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-13-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "sha256": "e07318b511c1dc364a22f47ba186c4f84606af9bf336cb5fe8cd02e1e487dda7"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-14-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "size": 116104,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-14-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "e7382d07319e1aaf264b66704d93b2b06059be758afcdf8a00e839d20f4e3bf1"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-14-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "size": 196888,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-14-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "78fc8cdd1447dec553821240bf9f5c9d4689ef853e42e4ef5c903b99e0a178bd"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-14-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "size": 116120,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-14-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "f74891fa95946b52a112569f7130aba1fb88a76cf57dd9713d9148e39316209d"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-14-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "size": 196908,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-14-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "027a071f31fc28133571956e6d36619b82a4150c3c15788f0f3ac63f5a953c43"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-14-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "size": 114380,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-14-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "sha256": "7b98e2ccb155c81dadf8caec0039870efac6aa60a1ae48141a7dbb1aac0d5500"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-14-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "size": 197850,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-14-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "sha256": "e347c1d28f98d5558ae8f6749977314b44d67fa31f7f56c12db8998160a8b9d0"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-14-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "size": 114364,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-14-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "sha256": "49bbd46a9bd0d0fbb746e994968fc859454122637c579cf938a498988ad37949"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-14-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "size": 197852,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-14-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "sha256": "b5d4a31c177bf2d9537aeab708391f8b2de2a807cea68c1fb284d53f3c4d4bfd"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-14-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "size": 114328,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-14-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "sha256": "ecf051ba52f3757ea96b0587c0c8ac39b4b2ba245b51fa888652aceb110fed06"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-14-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "size": 196158,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-14-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "sha256": "7301992ae37d728756ab8cf63e9353a9e459f9c56851ae6abfd7a657283890a5"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-14-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "size": 114372,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-14-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "sha256": "6bb58cb11eb2b2560a7faf5954599b28a387986e32eff03fc1c5c65b3a13ca07"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-14-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "size": 196162,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-14-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "sha256": "7fc949b1cbe96a9634176518d85ce5f968eb634055468944f2c3fed657e7bcdf"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "size": 116124,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-15-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "07999aa4512bef9cf9a588d8dde6624099762f113f958317212b58e62b6606d9"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-15-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "size": 196920,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-15-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "13259cda5fae998ec85b49bcb7d239cd717bee33bcb8c02a4f97fc88db89f47a"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "size": 116112,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-15-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "61c1325f30a9745a747e5372036e06bee64ac446c789037241ea848df326aed7"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-15-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "size": 196916,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-15-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "cf86b9c2567fa294eb13466554686d17acc896250297b20cb886cb77f38c745f"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "size": 114378,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-15-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "sha256": "15c014d01b178efe1cc532385c6754eac828c6ec20aeb4383e05f89870189529"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-15-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "size": 197816,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-15-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "sha256": "b8d626ac0e0f37f60c480a540ca64c55cafd37af5db04697f26c9db16e3dc134"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "size": 114372,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-15-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "sha256": "b5a26bb276283825a51c8ee30fc62c4712773683b018ab6d91dd0ba86deac749"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-15-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "size": 197864,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-15-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "sha256": "d1c0eecdda9cbb8639ca664f48cec186c25c3e631777fe5e7aa65beec7c3a89c"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-15-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "size": 114318,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-15-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "sha256": "3b3a0cc5b04641b19a4a685d7810b333d6dc212a348afaebd21386a46b0fea0f"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-15-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "size": 196114,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-15-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "sha256": "ff99c48295183cbd64cbe7272006a0794a1e744245ab73f71f9189d1da8e164c"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-15-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "size": 114386,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-15-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "sha256": "ba90bd596baededf725f4137b1060acb0d504b4e572c6f4c80bf47d31445ee82"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-15-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "size": 196204,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-15-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "sha256": "bb93285c4491f96c30f9084605c2a8cc45c0d0abee39876310c24d2fc2e78534"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "size": 116148,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-16-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "8eb1618fe5a572e374e2ab25fe8d63d887c985bb24fba3e677ae58bd535a478e"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-16-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "size": 196872,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-16-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "15a154381fed72fedd32d50e8b28508bedbb8e84a38b22172bde6c8cf6604f07"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "size": 116108,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-16-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "d4e9a0a4214c20897a517c0ff996d0d1892abc775b7c9a961a34684fd760324b"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-16-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "size": 196868,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-16-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "79e9b54ea98a98cc02a9667d5786663887361eb4669f8163cc0218b10c489b6c"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "size": 114384,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-16-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "sha256": "8ab5d678ed5c22c2862eff3685ecf911df2f08798212da3a8e9dfbde20804f99"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-16-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "size": 197856,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-16-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "sha256": "3470e6b1c1228f0379a5a57c18b42491cbb176edf20d554d15cf611951c36470"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "size": 114362,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-16-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "sha256": "64e2b98e1e16333e3b75ccebc74c7a6168541026aa3437de9737d3e182d44c14"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-16-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "size": 197852,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-16-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "sha256": "d710206df049f4a14fdd3c169afeb8431a4ab3a012495dc85e525e03ecc321ff"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-16-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "size": 114334,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-16-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "sha256": "03ea4d7f06290702feb0e1f91557f559cff3fdbe663cce42b36840dd75846cdf"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-16-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "size": 196122,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-16-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "sha256": "7a11a0f82212ba14fba35845699be0e4719d5ba869bc523e76498eaf6c580bd4"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-16-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "size": 114388,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-16-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "sha256": "f722fdc5066fb0f43ca3c8194dee3ff1b56634cf7269b7356b4a1115884db190"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-16-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "size": 196134,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-16-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "sha256": "8cfc5430d05cf7b7a7621574611fbb4440e14d91aeeff53eaee210f4d5495b0a"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "size": 116152,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-17-pg-profile_4.8-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "b38028106e520b2e5d284a0a00a4b1626ae5b0400611180a5ea99ed0687c8324"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-17-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "size": 196908,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-17-pg-profile_4.10-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "3f3b3a7c0f6eb213bb83f113382ed834be6e36959e9b48c87b07da638dc590d9"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-profile",
-      "ver": "4.8-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "size": 116116,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-17-pg-profile_4.8-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "c07569ab800d88f4b0df38b27fa6d3135042ba84fcebea2e6f11f7e46ba905de"
+      "ver": "4.10-1PIGSTY~bookworm",
+      "file": "postgresql-17-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "size": 196884,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-profile/postgresql-17-pg-profile_4.10-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "626d302ff98233252e955435b85764f1afe812fd4233fe8f4aef4cb1bd6ad66c"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "size": 114380,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-17-pg-profile_4.8-1PIGSTY~jammy_arm64.deb",
-      "sha256": "20b661769e8e3c96fe5a4f2feb9d538a94545ff75d6ce1219952bc0549cabdad"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-17-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "size": 197832,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-17-pg-profile_4.10-1PIGSTY~jammy_arm64.deb",
+      "sha256": "1da71403338e19111b1f9ca492bd9c090e46bc908a5a8c5205a4297de1dfb1f2"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-profile",
-      "ver": "4.8-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "size": 114368,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-17-pg-profile_4.8-1PIGSTY~jammy_amd64.deb",
-      "sha256": "a44937e7594955b21aa98953bf55ae50a68a913e2d6a8f10f6fdd8df8699c70c"
+      "ver": "4.10-1PIGSTY~jammy",
+      "file": "postgresql-17-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "size": 197812,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-profile/postgresql-17-pg-profile_4.10-1PIGSTY~jammy_amd64.deb",
+      "sha256": "e5a6fc9c01914ca5b001023aa526b24ed0b5f0514bf63efa9cf4b474b85accff"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-17-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "size": 114308,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-17-pg-profile_4.8-1PIGSTY~noble_arm64.deb",
-      "sha256": "b214a86732b088dd8a642bad0fccf4473cb987febb3d88f70fd71e50aff2aaca"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-17-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "size": 196156,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-17-pg-profile_4.10-1PIGSTY~noble_arm64.deb",
+      "sha256": "b4110be80bae9dbcc74dba6d69d518a1d825e0a17ab8089220bd2203fc8011b6"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-profile",
-      "ver": "4.8-1PIGSTY~noble",
-      "file": "postgresql-17-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "size": 114388,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-17-pg-profile_4.8-1PIGSTY~noble_amd64.deb",
-      "sha256": "45989f035971f21e0f4622cbac2af992b3344f4742f49b082149e65bddfd0662"
+      "ver": "4.10-1PIGSTY~noble",
+      "file": "postgresql-17-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "size": 196138,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-profile/postgresql-17-pg-profile_4.10-1PIGSTY~noble_amd64.deb",
+      "sha256": "72f51442af2285c2d7103c33d618ca1a78d4b745a7e0fb3c48d5250a38caf6b6"
     }
   ]
 }

@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "17.0",
+  "rpm_ver": "17.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgaudit_$v*",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "17.0",
+  "deb_ver": "17.1",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pgaudit",
   "deb_deps": [],

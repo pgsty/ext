@@ -8,7 +8,7 @@
   "url": "https://github.com/microsoft/documentdb",
   "license": "MIT",
   "tags": [],
-  "version": "0.103",
+  "version": "0.105",
   "repo": "PIGSTY",
   "lang": "C",
   "contrib": false,
@@ -28,7 +28,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "0.103",
+  "rpm_ver": "0.105",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "documentdb_$v*",
   "rpm_pg": [
@@ -42,7 +42,7 @@
     "pgvector_$v",
     "rum_$v"
   ],
-  "deb_ver": "0.103",
+  "deb_ver": "0.105",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-documentdb",
   "deb_deps": [
@@ -59,8 +59,8 @@
   "extra": {},
   "en_desc": "Multi-Node API surface for DocumentDB",
   "zh_desc": "DocumentDB多节点模式的API层",
-  "comment": null,
-  "mtime": "2025-02-20",
+  "comment": "FerretDB Fork, work with FerretDB 2.4",
+  "mtime": "2025-07-24",
   "siblings": [
     "documentdb",
     "documentdb_core",
@@ -79,7 +79,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -94,7 +94,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -109,8 +109,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 2
+      "pkg_ver": "0.105",
+      "count": 3
     },
     {
       "pg": 17,
@@ -124,8 +124,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 3
+      "pkg_ver": "0.105",
+      "count": 4
     },
     {
       "pg": 17,
@@ -139,8 +139,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 2
+      "pkg_ver": "0.105",
+      "count": 3
     },
     {
       "pg": 17,
@@ -154,8 +154,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 3
+      "pkg_ver": "0.105",
+      "count": 4
     },
     {
       "pg": 17,
@@ -169,7 +169,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -184,7 +184,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -199,7 +199,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -214,7 +214,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -229,7 +229,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -244,7 +244,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -259,8 +259,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 2
+      "pkg_ver": "0.105",
+      "count": 3
     },
     {
       "pg": 16,
@@ -274,8 +274,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 3
+      "pkg_ver": "0.105",
+      "count": 4
     },
     {
       "pg": 16,
@@ -289,8 +289,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 2
+      "pkg_ver": "0.105",
+      "count": 3
     },
     {
       "pg": 16,
@@ -304,8 +304,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 3
+      "pkg_ver": "0.105",
+      "count": 4
     },
     {
       "pg": 16,
@@ -319,7 +319,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -334,7 +334,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -349,7 +349,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -364,7 +364,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -379,7 +379,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.103",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -394,7 +394,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.103",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -409,8 +409,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 2
+      "pkg_ver": "0.105",
+      "count": 3
     },
     {
       "pg": 15,
@@ -424,8 +424,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 3
+      "pkg_ver": "0.105",
+      "count": 4
     },
     {
       "pg": 15,
@@ -439,8 +439,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 2
+      "pkg_ver": "0.105",
+      "count": 3
     },
     {
       "pg": 15,
@@ -454,8 +454,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
-      "count": 3
+      "pkg_ver": "0.105",
+      "count": 4
     },
     {
       "pg": 15,
@@ -469,7 +469,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -484,7 +484,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -499,7 +499,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -514,7 +514,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.104",
+      "pkg_ver": "0.105",
       "count": 1
     },
     {
@@ -823,6 +823,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "documentdb_15",
+      "ver": "0.105-0PIGSTY.el8",
+      "file": "documentdb_15-0.105-0PIGSTY.el8.aarch64.rpm",
+      "size": 2494164,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_15-0.105-0PIGSTY.el8.aarch64.rpm",
+      "sha256": "2cfababbd024cbb6622c4b81b2bd18fb4dd9af39a55b44df8946470b3b1102a8"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "documentdb_15",
       "ver": "0.104-0PIGSTY.el8",
       "file": "documentdb_15-0.104-0PIGSTY.el8.aarch64.rpm",
       "size": 2477056,
@@ -838,6 +848,16 @@
       "size": 2452652,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_15-0.103-0PIGSTY.el8.aarch64.rpm",
       "sha256": "35589f32f6abca8e4f40b315dca5effd42d8af0e787bdc87efa701a0c0bc0a69"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "documentdb_15",
+      "ver": "0.105-0PIGSTY.el8",
+      "file": "documentdb_15-0.105-0PIGSTY.el8.x86_64.rpm",
+      "size": 2603252,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/documentdb_15-0.105-0PIGSTY.el8.x86_64.rpm",
+      "sha256": "82029513d79ad8a6c0fef70c8093467db7a34cecd53c4982f67752dde90ff1d5"
     },
     {
       "os": "el8.x86_64",
@@ -873,6 +893,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "documentdb_15",
+      "ver": "0.105-0PIGSTY.el9",
+      "file": "documentdb_15-0.105-0PIGSTY.el9.aarch64.rpm",
+      "size": 2514219,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_15-0.105-0PIGSTY.el9.aarch64.rpm",
+      "sha256": "702d857bb34dd71dda8bcf71d0e2c27fdb5296121184b28857b47519700a6c94"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "documentdb_15",
       "ver": "0.104-0PIGSTY.el9",
       "file": "documentdb_15-0.104-0PIGSTY.el9.aarch64.rpm",
       "size": 2498426,
@@ -888,6 +918,16 @@
       "size": 2462138,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_15-0.103-0PIGSTY.el9.aarch64.rpm",
       "sha256": "2877ed0180feec056200424bfe18aafb1f4691e862c3ef03aa66796e40a17874"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "documentdb_15",
+      "ver": "0.105-0PIGSTY.el9",
+      "file": "documentdb_15-0.105-0PIGSTY.el9.x86_64.rpm",
+      "size": 2569588,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/documentdb_15-0.105-0PIGSTY.el9.x86_64.rpm",
+      "sha256": "9883ee107fc2f0ec14f8c982c230dc3ce54194e6baf01d5270ce386970bdac06"
     },
     {
       "os": "el9.x86_64",
@@ -923,6 +963,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "documentdb_16",
+      "ver": "0.105-0PIGSTY.el8",
+      "file": "documentdb_16-0.105-0PIGSTY.el8.aarch64.rpm",
+      "size": 2495324,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_16-0.105-0PIGSTY.el8.aarch64.rpm",
+      "sha256": "69c25615e428583ebe71c6c04e1c27e8945c861da859cb0b49dfd3619dbb4be1"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "documentdb_16",
       "ver": "0.104-0PIGSTY.el8",
       "file": "documentdb_16-0.104-0PIGSTY.el8.aarch64.rpm",
       "size": 2478652,
@@ -938,6 +988,16 @@
       "size": 2453348,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_16-0.103-0PIGSTY.el8.aarch64.rpm",
       "sha256": "3bcf5d4b4e12efa2b2ec244b8ff4478a86522fa2fc3e60dd468c908b5b8d161a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "documentdb_16",
+      "ver": "0.105-0PIGSTY.el8",
+      "file": "documentdb_16-0.105-0PIGSTY.el8.x86_64.rpm",
+      "size": 2604420,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/documentdb_16-0.105-0PIGSTY.el8.x86_64.rpm",
+      "sha256": "31be23a26ca4b567194ac74737ca2b55958035d667c8b902007307c05c16b497"
     },
     {
       "os": "el8.x86_64",
@@ -973,6 +1033,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "documentdb_16",
+      "ver": "0.105-0PIGSTY.el9",
+      "file": "documentdb_16-0.105-0PIGSTY.el9.aarch64.rpm",
+      "size": 2514862,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_16-0.105-0PIGSTY.el9.aarch64.rpm",
+      "sha256": "ffe1f098c2e3a28fe7995a0d75e97ace70ed31b18bc16a26dcd9a13636c0cdbc"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "documentdb_16",
       "ver": "0.104-0PIGSTY.el9",
       "file": "documentdb_16-0.104-0PIGSTY.el9.aarch64.rpm",
       "size": 2501039,
@@ -988,6 +1058,16 @@
       "size": 2462151,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_16-0.103-0PIGSTY.el9.aarch64.rpm",
       "sha256": "dd0a6d6fdf86e594921a085a2754f8343acd8337d5cd77f68d17cfd8eeeab8d0"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "documentdb_16",
+      "ver": "0.105-0PIGSTY.el9",
+      "file": "documentdb_16-0.105-0PIGSTY.el9.x86_64.rpm",
+      "size": 2570795,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/documentdb_16-0.105-0PIGSTY.el9.x86_64.rpm",
+      "sha256": "1e9e1da626ed0e5e17e1ef24a1d5ee3cae9dbd29410d0ae62b78d638c24435b0"
     },
     {
       "os": "el9.x86_64",
@@ -1023,6 +1103,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "documentdb_17",
+      "ver": "0.105-0PIGSTY.el8",
+      "file": "documentdb_17-0.105-0PIGSTY.el8.aarch64.rpm",
+      "size": 2493984,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_17-0.105-0PIGSTY.el8.aarch64.rpm",
+      "sha256": "4e2c0239cf923e52f28c40ae996be4e267f55246c0168f9740ea5caaa5c0e31a"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "documentdb_17",
       "ver": "0.104-0PIGSTY.el8",
       "file": "documentdb_17-0.104-0PIGSTY.el8.aarch64.rpm",
       "size": 2477796,
@@ -1038,6 +1128,16 @@
       "size": 2451660,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_17-0.103-0PIGSTY.el8.aarch64.rpm",
       "sha256": "2b728a65ab4195d2db02eedb467b4867e5b944e1a967600621110b3c9dc7f08a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "documentdb_17",
+      "ver": "0.105-0PIGSTY.el8",
+      "file": "documentdb_17-0.105-0PIGSTY.el8.x86_64.rpm",
+      "size": 2603044,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/documentdb_17-0.105-0PIGSTY.el8.x86_64.rpm",
+      "sha256": "ed46d6fd785436a3a2b9cbb8df8ce5a2fa03feaf32b5a2e9f8692eb59540526e"
     },
     {
       "os": "el8.x86_64",
@@ -1073,6 +1173,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "documentdb_17",
+      "ver": "0.105-0PIGSTY.el9",
+      "file": "documentdb_17-0.105-0PIGSTY.el9.aarch64.rpm",
+      "size": 2513150,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_17-0.105-0PIGSTY.el9.aarch64.rpm",
+      "sha256": "46dde07651a5b1482b7107a67ff95a3531494ef516c6525fec747d238690ee5a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "documentdb_17",
       "ver": "0.104-0PIGSTY.el9",
       "file": "documentdb_17-0.104-0PIGSTY.el9.aarch64.rpm",
       "size": 2497301,
@@ -1088,6 +1198,16 @@
       "size": 2462117,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_17-0.103-0PIGSTY.el9.aarch64.rpm",
       "sha256": "a3e8c4d0514ff3d02d11122027e1822634e62cd3f74bddfb6b6c324b7449f6ef"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "documentdb_17",
+      "ver": "0.105-0PIGSTY.el9",
+      "file": "documentdb_17-0.105-0PIGSTY.el9.x86_64.rpm",
+      "size": 2569170,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/documentdb_17-0.105-0PIGSTY.el9.x86_64.rpm",
+      "sha256": "9145567495ec5cc53ebe3b3629a9864ac1b95fd3bdebd7511e885dca6c62156c"
     },
     {
       "os": "el9.x86_64",
@@ -1123,181 +1243,181 @@
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-documentdb",
-      "ver": "0.103-0PIGSTY~bookworm",
-      "file": "postgresql-15-documentdb_0.103-0PIGSTY~bookworm_arm64.deb",
-      "size": 3983712,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-15-documentdb_0.103-0PIGSTY~bookworm_arm64.deb",
-      "sha256": "1438d7c857d641f61d398c5dd6de1783ac6a376d76796fb72f4099c52b235bcc"
+      "ver": "0.105-0PIGSTY~bookworm",
+      "file": "postgresql-15-documentdb_0.105-0PIGSTY~bookworm_arm64.deb",
+      "size": 4117100,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-15-documentdb_0.105-0PIGSTY~bookworm_arm64.deb",
+      "sha256": "1239243b42b5a82cf67e9ebc98a464efc4fecc3f6ace205b6d99a7e90558a5db"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-documentdb",
-      "ver": "0.103-0PIGSTY~bookworm",
-      "file": "postgresql-15-documentdb_0.103-0PIGSTY~bookworm_amd64.deb",
-      "size": 4100260,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-15-documentdb_0.103-0PIGSTY~bookworm_amd64.deb",
-      "sha256": "894b67abe12e30109272b6f493d3f2c0625be50c8eeced8acd1e76c49f513976"
+      "ver": "0.105-0PIGSTY~bookworm",
+      "file": "postgresql-15-documentdb_0.105-0PIGSTY~bookworm_amd64.deb",
+      "size": 4252864,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-15-documentdb_0.105-0PIGSTY~bookworm_amd64.deb",
+      "sha256": "92636d92ed17545d377344e57a8332a461fc695d4bccfe8be9324aeb6cb1928f"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-documentdb",
-      "ver": "0.104-0PIGSTY~jammy",
-      "file": "postgresql-15-documentdb_0.104-0PIGSTY~jammy_arm64.deb",
-      "size": 4660404,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-15-documentdb_0.104-0PIGSTY~jammy_arm64.deb",
-      "sha256": "13b2197aec57641cf85148272abd9c84d8051e84a794ed9f980657557232415f"
+      "ver": "0.105-0PIGSTY~jammy",
+      "file": "postgresql-15-documentdb_0.105-0PIGSTY~jammy_arm64.deb",
+      "size": 4722758,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-15-documentdb_0.105-0PIGSTY~jammy_arm64.deb",
+      "sha256": "5acaec36bd3eaf19676ba0305a28159a4140d09c52d3490eacdecc2579a1f503"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-documentdb",
-      "ver": "0.104-0PIGSTY~jammy",
-      "file": "postgresql-15-documentdb_0.104-0PIGSTY~jammy_amd64.deb",
-      "size": 4732374,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-15-documentdb_0.104-0PIGSTY~jammy_amd64.deb",
-      "sha256": "bcc09a0621cb27bbbcf378cc90eb1ea8f038ea9b2263afe5266578063abdb46c"
+      "ver": "0.105-0PIGSTY~jammy",
+      "file": "postgresql-15-documentdb_0.105-0PIGSTY~jammy_amd64.deb",
+      "size": 4788148,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-15-documentdb_0.105-0PIGSTY~jammy_amd64.deb",
+      "sha256": "ff019ad72c467865f39aeeb69a2d79ff9bce0a70d82f391c3b4929d961426de9"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-documentdb",
-      "ver": "0.104-0PIGSTY~noble",
-      "file": "postgresql-15-documentdb_0.104-0PIGSTY~noble_arm64.deb",
-      "size": 4280588,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-15-documentdb_0.104-0PIGSTY~noble_arm64.deb",
-      "sha256": "1502e894146d6fa05dbeafbb60b93bc84f18c4d659aa76c8be487f77a113de44"
+      "ver": "0.105-0PIGSTY~noble",
+      "file": "postgresql-15-documentdb_0.105-0PIGSTY~noble_arm64.deb",
+      "size": 4338618,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-15-documentdb_0.105-0PIGSTY~noble_arm64.deb",
+      "sha256": "abf2660542ad3fac69eecb6cd196099ba8976717c3b1cade9005b5ced6ce297e"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-documentdb",
-      "ver": "0.104-0PIGSTY~noble",
-      "file": "postgresql-15-documentdb_0.104-0PIGSTY~noble_amd64.deb",
-      "size": 4343206,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-15-documentdb_0.104-0PIGSTY~noble_amd64.deb",
-      "sha256": "a4f7b0b8323e72edf8a01a3a33346d6250e3e8bcb4567eb39c26a9f4fc8cece1"
+      "ver": "0.105-0PIGSTY~noble",
+      "file": "postgresql-15-documentdb_0.105-0PIGSTY~noble_amd64.deb",
+      "size": 4396194,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-15-documentdb_0.105-0PIGSTY~noble_amd64.deb",
+      "sha256": "7a97928d5944ae825467f11b6c7161b976f8ef93b5b72da804e7244bbc334c0e"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-documentdb",
-      "ver": "0.104-0PIGSTY~bookworm",
-      "file": "postgresql-16-documentdb_0.104-0PIGSTY~bookworm_arm64.deb",
-      "size": 4073756,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-16-documentdb_0.104-0PIGSTY~bookworm_arm64.deb",
-      "sha256": "1df35bd0294ddd0a91b44b2b4064ea5de8a8bc4161a1b1e2faf36336be159d0c"
+      "ver": "0.105-0PIGSTY~bookworm",
+      "file": "postgresql-16-documentdb_0.105-0PIGSTY~bookworm_arm64.deb",
+      "size": 4123700,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-16-documentdb_0.105-0PIGSTY~bookworm_arm64.deb",
+      "sha256": "2fd1864a96ff04576fd08cd072f1affbbe8288bbab36f2c1649398c411de09a7"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-documentdb",
-      "ver": "0.104-0PIGSTY~bookworm",
-      "file": "postgresql-16-documentdb_0.104-0PIGSTY~bookworm_amd64.deb",
-      "size": 4202500,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-16-documentdb_0.104-0PIGSTY~bookworm_amd64.deb",
-      "sha256": "6cb3fc01c344a0d76138c5c1b591e57e1a91a83c6c7556816fe485a8301c42e0"
+      "ver": "0.105-0PIGSTY~bookworm",
+      "file": "postgresql-16-documentdb_0.105-0PIGSTY~bookworm_amd64.deb",
+      "size": 4254100,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-16-documentdb_0.105-0PIGSTY~bookworm_amd64.deb",
+      "sha256": "9a7c6710c2c04620ae88c86afbc6bae16824f75cc18969258ceabb4ed12b5b12"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-documentdb",
-      "ver": "0.104-0PIGSTY~jammy",
-      "file": "postgresql-16-documentdb_0.104-0PIGSTY~jammy_arm64.deb",
-      "size": 4657644,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-16-documentdb_0.104-0PIGSTY~jammy_arm64.deb",
-      "sha256": "5dd8508dfc882f2c4426b38fc681746b40e986bc0310720c5620c1d4c8db218f"
+      "ver": "0.105-0PIGSTY~jammy",
+      "file": "postgresql-16-documentdb_0.105-0PIGSTY~jammy_arm64.deb",
+      "size": 4715202,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-16-documentdb_0.105-0PIGSTY~jammy_arm64.deb",
+      "sha256": "80c262cffa870c07146ee2d23a4b7551ea83b41992e5f46b49e719c2e8faaf3d"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-documentdb",
-      "ver": "0.104-0PIGSTY~jammy",
-      "file": "postgresql-16-documentdb_0.104-0PIGSTY~jammy_amd64.deb",
-      "size": 4726096,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-16-documentdb_0.104-0PIGSTY~jammy_amd64.deb",
-      "sha256": "a0152c182642ee238ca76c29527377be45898a2544d940c01714dda0967f9cd4"
+      "ver": "0.105-0PIGSTY~jammy",
+      "file": "postgresql-16-documentdb_0.105-0PIGSTY~jammy_amd64.deb",
+      "size": 4784254,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-16-documentdb_0.105-0PIGSTY~jammy_amd64.deb",
+      "sha256": "632aa7f8fba2a076c8fee8039b78dd2c84853b89e64b2ed06c1a1a6e44852649"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-documentdb",
-      "ver": "0.104-0PIGSTY~noble",
-      "file": "postgresql-16-documentdb_0.104-0PIGSTY~noble_arm64.deb",
-      "size": 4315682,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-16-documentdb_0.104-0PIGSTY~noble_arm64.deb",
-      "sha256": "2f0f09a8ce175196ed943e0c17c9d52ecb971ad5901dc475fb4298ff6b7bf8cd"
+      "ver": "0.105-0PIGSTY~noble",
+      "file": "postgresql-16-documentdb_0.105-0PIGSTY~noble_arm64.deb",
+      "size": 4341104,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-16-documentdb_0.105-0PIGSTY~noble_arm64.deb",
+      "sha256": "b570c2bcbdf4878eb6e847f8ced611a1ab52e82fe117a774c257fb8773ef3b09"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-documentdb",
-      "ver": "0.104-0PIGSTY~noble",
-      "file": "postgresql-16-documentdb_0.104-0PIGSTY~noble_amd64.deb",
-      "size": 4371064,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-16-documentdb_0.104-0PIGSTY~noble_amd64.deb",
-      "sha256": "2661b25205f86215917a053d35b405b19f3e2b7f78b47656d4c1c91e4edfe48a"
+      "ver": "0.105-0PIGSTY~noble",
+      "file": "postgresql-16-documentdb_0.105-0PIGSTY~noble_amd64.deb",
+      "size": 4400242,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-16-documentdb_0.105-0PIGSTY~noble_amd64.deb",
+      "sha256": "1eb18508fc39392304b07440aaf90bb7cdd44913e92d4d81bf063dfa5610c703"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-documentdb",
-      "ver": "0.104-0PIGSTY~bookworm",
-      "file": "postgresql-17-documentdb_0.104-0PIGSTY~bookworm_arm64.deb",
-      "size": 4075504,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-17-documentdb_0.104-0PIGSTY~bookworm_arm64.deb",
-      "sha256": "9459cdbff201fd6cefac98df92e7967ce8185f3377badd53c4415b47b1ace38b"
+      "ver": "0.105-0PIGSTY~bookworm",
+      "file": "postgresql-17-documentdb_0.105-0PIGSTY~bookworm_arm64.deb",
+      "size": 4117728,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-17-documentdb_0.105-0PIGSTY~bookworm_arm64.deb",
+      "sha256": "177c37c07148857df2524217a9600e616b4f93d6618eb8df8791271a26026896"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-documentdb",
-      "ver": "0.104-0PIGSTY~bookworm",
-      "file": "postgresql-17-documentdb_0.104-0PIGSTY~bookworm_amd64.deb",
-      "size": 4201212,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-17-documentdb_0.104-0PIGSTY~bookworm_amd64.deb",
-      "sha256": "5fd683b09e78101410b4094841d31fa0612e2b0f502732deb7bd2780c84a2a70"
+      "ver": "0.105-0PIGSTY~bookworm",
+      "file": "postgresql-17-documentdb_0.105-0PIGSTY~bookworm_amd64.deb",
+      "size": 4254072,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/d/documentdb/postgresql-17-documentdb_0.105-0PIGSTY~bookworm_amd64.deb",
+      "sha256": "7cce15c58a7a677aa8b675d73e2f0379733c300abbf1a5bbeb6d711bd05548be"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-documentdb",
-      "ver": "0.104-0PIGSTY~jammy",
-      "file": "postgresql-17-documentdb_0.104-0PIGSTY~jammy_arm64.deb",
-      "size": 4660364,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-17-documentdb_0.104-0PIGSTY~jammy_arm64.deb",
-      "sha256": "dd01fe5fbd0bc4edb477357fee2e31cbe28d8f930e0d0d3ac819c9d0d8e2c175"
+      "ver": "0.105-0PIGSTY~jammy",
+      "file": "postgresql-17-documentdb_0.105-0PIGSTY~jammy_arm64.deb",
+      "size": 4721424,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-17-documentdb_0.105-0PIGSTY~jammy_arm64.deb",
+      "sha256": "29325ffdba24cc71c30e3d8f01c11e9a73cbdcd93d3869d528a079925923eab7"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-documentdb",
-      "ver": "0.104-0PIGSTY~jammy",
-      "file": "postgresql-17-documentdb_0.104-0PIGSTY~jammy_amd64.deb",
-      "size": 4732342,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-17-documentdb_0.104-0PIGSTY~jammy_amd64.deb",
-      "sha256": "1605462720566b306bf4866b18a049a6239701b341d5ec4cc4d77ca48c6c8743"
+      "ver": "0.105-0PIGSTY~jammy",
+      "file": "postgresql-17-documentdb_0.105-0PIGSTY~jammy_amd64.deb",
+      "size": 4787828,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/d/documentdb/postgresql-17-documentdb_0.105-0PIGSTY~jammy_amd64.deb",
+      "sha256": "e9999b5b2e5ee270fa966915e5f597a7d2a3dee59be4be0fc1baa039139d1fcf"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-documentdb",
-      "ver": "0.104-0PIGSTY~noble",
-      "file": "postgresql-17-documentdb_0.104-0PIGSTY~noble_arm64.deb",
-      "size": 4280320,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-17-documentdb_0.104-0PIGSTY~noble_arm64.deb",
-      "sha256": "826df93b69298890db278352701146c2e7ac500811c20833d72dc3b5714766fb"
+      "ver": "0.105-0PIGSTY~noble",
+      "file": "postgresql-17-documentdb_0.105-0PIGSTY~noble_arm64.deb",
+      "size": 4338666,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-17-documentdb_0.105-0PIGSTY~noble_arm64.deb",
+      "sha256": "1ac74e4457aa3296d61c8784e997366962fea64ed64bfff9287ad78e8152e9c5"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-documentdb",
-      "ver": "0.104-0PIGSTY~noble",
-      "file": "postgresql-17-documentdb_0.104-0PIGSTY~noble_amd64.deb",
-      "size": 4343160,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-17-documentdb_0.104-0PIGSTY~noble_amd64.deb",
-      "sha256": "05c6ff50071ed3e98bb9eec3f04b4a2347e5c9b853fdb05facc1c00d07304b7e"
+      "ver": "0.105-0PIGSTY~noble",
+      "file": "postgresql-17-documentdb_0.105-0PIGSTY~noble_amd64.deb",
+      "size": 4395912,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/d/documentdb/postgresql-17-documentdb_0.105-0PIGSTY~noble_amd64.deb",
+      "sha256": "fbec8d4f2aa9242543e6d9b95e544182299a33315915b7b50d7ff23180ceaee1"
     }
   ]
 }

@@ -46,7 +46,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "3.5.2",
+  "deb_ver": "3.5.3",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-postgis-3 postgresql-$v-postgis-3-scripts",
   "deb_deps": [],

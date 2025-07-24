@@ -10,7 +10,7 @@
   "tags": [
     "oriole"
   ],
-  "version": "1.4",
+  "version": "1.5",
   "repo": "PIGSTY",
   "lang": "C",
   "contrib": false,
@@ -28,7 +28,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.4",
+  "rpm_ver": "1.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "orioledb_$v*",
   "rpm_pg": [
@@ -37,7 +37,7 @@
   "rpm_deps": [
     "oriolepg_$v"
   ],
-  "deb_ver": "1.4",
+  "deb_ver": "1.5",
   "deb_repo": "PIGSTY",
   "deb_pkg": "oriolepg-$v-orioledb",
   "deb_deps": [
@@ -51,7 +51,7 @@
   "en_desc": "OrioleDB, the next generation transactional engine",
   "zh_desc": "OrioleDB，下一代事务处理引擎",
   "comment": "only works on orioledb patched postgres kernel",
-  "mtime": "2025-07-05",
+  "mtime": "2025-07-24",
   "siblings": [
     "orioledb"
   ],
@@ -68,7 +68,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
+      "pkg_ver": "1.5",
       "count": 1
     },
     {
@@ -83,7 +83,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
+      "pkg_ver": "1.5",
       "count": 1
     },
     {
@@ -98,8 +98,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 2
+      "pkg_ver": "1.5",
+      "count": 1
     },
     {
       "pg": 17,
@@ -113,8 +113,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 2
+      "pkg_ver": "1.5",
+      "count": 1
     },
     {
       "pg": 17,
@@ -128,8 +128,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 2
+      "pkg_ver": "1.5",
+      "count": 1
     },
     {
       "pg": 17,
@@ -143,8 +143,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 2
+      "pkg_ver": "1.5",
+      "count": 1
     },
     {
       "pg": 17,
@@ -158,7 +158,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
+      "pkg_ver": "1.5",
       "count": 1
     },
     {
@@ -173,7 +173,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
+      "pkg_ver": "1.5",
       "count": 1
     },
     {
@@ -188,7 +188,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
+      "pkg_ver": "1.5",
       "count": 1
     },
     {
@@ -203,7 +203,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
+      "pkg_ver": "1.5",
       "count": 1
     },
     {
@@ -812,141 +812,101 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "orioledb_17",
-      "ver": "1.4-0.beta11PIGSTY.el8",
-      "file": "orioledb_17-1.4-0.beta11PIGSTY.el8.aarch64.rpm",
-      "size": 1271044,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/orioledb_17-1.4-0.beta11PIGSTY.el8.aarch64.rpm",
-      "sha256": "f5363b83f6e857aeb290d329f4b801c0166b5cfe9b4e2ac53b2a86534875386c"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "orioledb_17",
-      "ver": "1.4-0.beta10PIGSTY.el8",
-      "file": "orioledb_17-1.4-0.beta10PIGSTY.el8.aarch64.rpm",
-      "size": 1316084,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/orioledb_17-1.4-0.beta10PIGSTY.el8.aarch64.rpm",
-      "sha256": "153be08025f2aeb2ede3e8ffd1e8b4480d82c99b5b8bbadab571f00084ef8ddf"
+      "ver": "1.5-0.beta12PIGSTY.el8",
+      "file": "orioledb_17-1.5-0.beta12PIGSTY.el8.aarch64.rpm",
+      "size": 1347980,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/orioledb_17-1.5-0.beta12PIGSTY.el8.aarch64.rpm",
+      "sha256": "3c9c0997dca6c15637832ccaae35814e3f700f5ef5319e544656201af184829b"
     },
     {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "orioledb_17",
-      "ver": "1.4-0.beta11PIGSTY.el8",
-      "file": "orioledb_17-1.4-0.beta11PIGSTY.el8.x86_64.rpm",
-      "size": 1304932,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/orioledb_17-1.4-0.beta11PIGSTY.el8.x86_64.rpm",
-      "sha256": "91623066ab9e7b197accbe8a19f56118902e1754dc00f4df0af68a5a0fcbf50c"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "orioledb_17",
-      "ver": "1.4-0.beta10PIGSTY.el8",
-      "file": "orioledb_17-1.4-0.beta10PIGSTY.el8.x86_64.rpm",
-      "size": 1352808,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/orioledb_17-1.4-0.beta10PIGSTY.el8.x86_64.rpm",
-      "sha256": "2abc7348df17639e5d371a4cea757175e8816c37d34b04db4e668cd5b354da26"
+      "ver": "1.5-0.beta12PIGSTY.el8",
+      "file": "orioledb_17-1.5-0.beta12PIGSTY.el8.x86_64.rpm",
+      "size": 1383368,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/orioledb_17-1.5-0.beta12PIGSTY.el8.x86_64.rpm",
+      "sha256": "8740dda09b64a320aac2659572a1edaac2ce6f1fe052907f021e411ee9b569df"
     },
     {
       "os": "el9.aarch64",
       "pg": 17,
       "name": "orioledb_17",
-      "ver": "1.4-0.beta11PIGSTY.el9",
-      "file": "orioledb_17-1.4-0.beta11PIGSTY.el9.aarch64.rpm",
-      "size": 1333410,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/orioledb_17-1.4-0.beta11PIGSTY.el9.aarch64.rpm",
-      "sha256": "049b1f78cc5e78b0bc1f67cfd048c165f5b517f6f4ce374f33a36d13e41cabec"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 17,
-      "name": "orioledb_17",
-      "ver": "1.4-0.beta10PIGSTY.el9",
-      "file": "orioledb_17-1.4-0.beta10PIGSTY.el9.aarch64.rpm",
-      "size": 1333359,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/orioledb_17-1.4-0.beta10PIGSTY.el9.aarch64.rpm",
-      "sha256": "a86017953d576ddb364fef763ab56a769c31e41dba65f2475244ac48fdac0346"
+      "ver": "1.5-0.beta12PIGSTY.el9",
+      "file": "orioledb_17-1.5-0.beta12PIGSTY.el9.aarch64.rpm",
+      "size": 1364460,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/orioledb_17-1.5-0.beta12PIGSTY.el9.aarch64.rpm",
+      "sha256": "ad9b80ba9563c90a9b3dca08ebc122b3961a32300d28de76e8471cbf9ff8c3d5"
     },
     {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "orioledb_17",
-      "ver": "1.4-0.beta11PIGSTY.el9",
-      "file": "orioledb_17-1.4-0.beta11PIGSTY.el9.x86_64.rpm",
-      "size": 1354127,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/orioledb_17-1.4-0.beta11PIGSTY.el9.x86_64.rpm",
-      "sha256": "8b2be10ae573666191650b6c73422b1ca0a580b3646a1b6aa6cc96dbf8a46e14"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "orioledb_17",
-      "ver": "1.4-0.beta10PIGSTY.el9",
-      "file": "orioledb_17-1.4-0.beta10PIGSTY.el9.x86_64.rpm",
-      "size": 1354019,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/orioledb_17-1.4-0.beta10PIGSTY.el9.x86_64.rpm",
-      "sha256": "25fb3eff7b9ee48149c43bc25f6151f9fbc1c09bf03919e46d959208d3dde586"
+      "ver": "1.5-0.beta12PIGSTY.el9",
+      "file": "orioledb_17-1.5-0.beta12PIGSTY.el9.x86_64.rpm",
+      "size": 1385951,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/orioledb_17-1.5-0.beta12PIGSTY.el9.x86_64.rpm",
+      "sha256": "b6f7ddd39fdd9f140e009ddafcdece7779d59eaacd5af479210572618741fc4b"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "oriolepg-17-orioledb",
-      "ver": "1.4-0.beta11PIGSTY~bookworm",
-      "file": "oriolepg-17-orioledb_1.4-0.beta11PIGSTY~bookworm_arm64.deb",
-      "size": 1429792,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.4-0.beta11PIGSTY~bookworm_arm64.deb",
-      "sha256": "9a61a30622413595130f6783aeeaeb16b0e9266bfd6d3173869a34e4c822f8f0"
+      "ver": "1.5-0.beta12PIGSTY~bookworm",
+      "file": "oriolepg-17-orioledb_1.5-0.beta12PIGSTY~bookworm_arm64.deb",
+      "size": 1505856,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.5-0.beta12PIGSTY~bookworm_arm64.deb",
+      "sha256": "8bd4cfc29fbdc9d8b181df7cdb22e302e0ad7e5aadaaf380aa6049baa193053b"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "oriolepg-17-orioledb",
-      "ver": "1.4-0.beta11PIGSTY~bookworm",
-      "file": "oriolepg-17-orioledb_1.4-0.beta11PIGSTY~bookworm_amd64.deb",
-      "size": 1472604,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.4-0.beta11PIGSTY~bookworm_amd64.deb",
-      "sha256": "87829c66d043633e39d3d0956027b52a4236c46633ae2ce7defa1e3b00b45152"
+      "ver": "1.5-0.beta12PIGSTY~bookworm",
+      "file": "oriolepg-17-orioledb_1.5-0.beta12PIGSTY~bookworm_amd64.deb",
+      "size": 1551136,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.5-0.beta12PIGSTY~bookworm_amd64.deb",
+      "sha256": "f6972e98a0e638ce117c0623a009c3921be2e45f4eae3d76b136eed1f3ec4bc4"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "oriolepg-17-orioledb",
-      "ver": "1.4-0.beta11PIGSTY~jammy",
-      "file": "oriolepg-17-orioledb_1.4-0.beta11PIGSTY~jammy_arm64.deb",
-      "size": 1531790,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.4-0.beta11PIGSTY~jammy_arm64.deb",
-      "sha256": "cd6b9c5aeddccfecc10e29158b55d3998876c176ca689dd5667cc32580fe4b6b"
+      "ver": "1.5-0.beta12PIGSTY~jammy",
+      "file": "oriolepg-17-orioledb_1.5-0.beta12PIGSTY~jammy_arm64.deb",
+      "size": 1611030,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.5-0.beta12PIGSTY~jammy_arm64.deb",
+      "sha256": "083109f6e87b238ef6d45e9ce6123fc1df5d9dc355547b1843a735d5f03a8e0d"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "oriolepg-17-orioledb",
-      "ver": "1.4-0.beta11PIGSTY~jammy",
-      "file": "oriolepg-17-orioledb_1.4-0.beta11PIGSTY~jammy_amd64.deb",
-      "size": 1550672,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.4-0.beta11PIGSTY~jammy_amd64.deb",
-      "sha256": "8d0a53963c9f657275e86381910a66002143240f8de5d8a8c90575cb1a436f66"
+      "ver": "1.5-0.beta12PIGSTY~jammy",
+      "file": "oriolepg-17-orioledb_1.5-0.beta12PIGSTY~jammy_amd64.deb",
+      "size": 1631610,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.5-0.beta12PIGSTY~jammy_amd64.deb",
+      "sha256": "796ee4b3fa728d1c289cc68f7c5a29baee3d199e105bcac94be33854b25c1cfa"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "oriolepg-17-orioledb",
-      "ver": "1.4-0.beta11PIGSTY~noble",
-      "file": "oriolepg-17-orioledb_1.4-0.beta11PIGSTY~noble_arm64.deb",
-      "size": 1325654,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.4-0.beta11PIGSTY~noble_arm64.deb",
-      "sha256": "bd35f9e801e648e1e87ca7846887cd8040066cc7eb42079832b8dce4b770755c"
+      "ver": "1.5-0.beta12PIGSTY~noble",
+      "file": "oriolepg-17-orioledb_1.5-0.beta12PIGSTY~noble_arm64.deb",
+      "size": 1397068,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.5-0.beta12PIGSTY~noble_arm64.deb",
+      "sha256": "ff65e7a585ac95b6427d0355bc40475250392f7379aa778fb88abc906e812d95"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "oriolepg-17-orioledb",
-      "ver": "1.4-0.beta11PIGSTY~noble",
-      "file": "oriolepg-17-orioledb_1.4-0.beta11PIGSTY~noble_amd64.deb",
-      "size": 1345322,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.4-0.beta11PIGSTY~noble_amd64.deb",
-      "sha256": "21a689221c28eb73c1e3f4a9617058930c66622184e2a4e02f5b276b95090815"
+      "ver": "1.5-0.beta12PIGSTY~noble",
+      "file": "oriolepg-17-orioledb_1.5-0.beta12PIGSTY~noble_amd64.deb",
+      "size": 1416532,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/o/oriolepg-17-orioledb/oriolepg-17-orioledb_1.5-0.beta12PIGSTY~noble_amd64.deb",
+      "sha256": "5105c1fc1ece40be635a645521d1bc5a7058baec5e88114a0d0650fd274a9457"
     }
   ]
 }

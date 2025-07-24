@@ -10,7 +10,7 @@
   "tags": [
     "oracle"
   ],
-  "version": "4.3",
+  "version": "4.4",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "4.1",
+  "deb_ver": "4.4",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pgtt",
   "deb_deps": [],

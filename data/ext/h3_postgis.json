@@ -45,7 +45,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "4.2.2",
+  "deb_ver": "4.2.3",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-h3",
   "deb_deps": [],

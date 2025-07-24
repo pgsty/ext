@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "4.2.4",
+  "rpm_ver": "4.2.5",
   "rpm_repo": "PGDG",
   "rpm_pkg": "plprofiler_$v*",
   "rpm_pg": [

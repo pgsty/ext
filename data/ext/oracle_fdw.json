@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "2.7.0",
+  "deb_ver": "2.8.0",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-oracle-fdw",
   "deb_deps": [],

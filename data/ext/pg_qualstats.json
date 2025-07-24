@@ -8,7 +8,7 @@
   "url": "https://github.com/powa-team/pg_qualstats",
   "license": "BSD 3-Clause",
   "tags": [],
-  "version": "2.1.1",
+  "version": "2.1.2",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "2.1.1",
+  "deb_ver": "2.1.2",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pg-qualstats",
   "deb_deps": [],
@@ -74,7 +74,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -89,7 +89,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -164,7 +164,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -179,7 +179,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -194,7 +194,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -209,7 +209,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -224,7 +224,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -239,7 +239,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -314,7 +314,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -329,7 +329,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -344,7 +344,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -359,7 +359,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -374,7 +374,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -389,7 +389,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -464,7 +464,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -479,7 +479,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -494,7 +494,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -509,7 +509,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -524,7 +524,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -539,7 +539,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -614,7 +614,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -629,7 +629,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -644,7 +644,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -659,7 +659,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -674,7 +674,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -689,7 +689,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -764,7 +764,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -779,7 +779,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -794,7 +794,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     },
     {
@@ -809,7 +809,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.1.1",
+      "pkg_ver": "2.1.2",
       "count": 1
     }
   ],
@@ -1368,301 +1368,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-13-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "size": 62628,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "5df63e26fcf7d0fc6a6e16cf3b1a0d39a53949150fc02037e913af3c26d399ba"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-13-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "size": 56924,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "sha256": "608525d1981a253d56e8e4ad4394ca836950917005cbce3aba1d4578d5996268"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-13-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "size": 64100,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "d936cf4c9ee2506b5914dfe56efa64f46e536bc04ccf8fa3d7fc12e57709ffa1"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-13-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "size": 58036,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "sha256": "97e857c69de60cd1c7d35b83cce9f02f4f44aabd9fdc5d1a6936d6d80120b774"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-13-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 60624,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "8d8d7ef5165336fcb11981257870af3ba00dad445dc19a18402678e776ef7c52"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-13-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "size": 60664,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "01f4207521214126438ace43e21d4d311c0865262f590568b47577ba670951ea"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-13-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 61744,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "f7c715e94988f829b5faba9872949303540439642ef56c36ece867aaefce979f"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-13-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "size": 61824,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "b90c4de1140ac01eefe47545c1c6c6fdeb70978f8a056956de6af81eb8ded522"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-13-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 56316,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "5f1ae987b5b136e63ba45f9f51a302f216dbe91d8606875096acd7c012257b92"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-13-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "size": 54560,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "3eeae28a1bd32ad9b31ff19e15de12b16dc0177726a92189d43fbf9b2d713e32"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-13-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 57268,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "14b24d19339c29869d238ac68932bb0d1956be80b492a897bdbc5954cb7139e6"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-13-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "size": 55612,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-13-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "7347416cb3d4c84dcdc1dc9247f2b66f0679aec1a451fc63dd616bdd32a6efc2"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-14-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "size": 62824,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "2c0ffa9fa5f4e0bf099cf5fb5f4ba1a7416a91a0faaaeb54e5f65ea2b465acb6"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-14-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "size": 56988,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "sha256": "7422cba7e09a09ed1a1dc612c9cd5bc50fd7a4d4730e4431f1a9176211ba3e12"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-14-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "size": 64236,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "b8f71e990a316dce89de6f90c37c702785e68738c80a05c6733e95f52cbffe04"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-14-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "size": 58112,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "sha256": "055e9f108aae322afe9ad8b28b1b3ab3db775e6c734b90423d76bbb7d18322fd"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-14-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 60384,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "6ff1154d7499c2f44e95a39e7f3988a589bcc9fde88fbfc549cb442a5779d2a9"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-14-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "size": 60408,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "c9c88f5fc86eddb0352632b01805d8bcf4d2d77f2e9cdbb38624c151addacfac"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-14-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 61800,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "65cf77c104717aa6b8adaea91cd64ecc207480412e90524c4c33edbca2107b4b"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-14-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "size": 61844,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "c9d4ad44d0136f6db22ae4df8962edf9359812713459f7d6e50c3ba4a4feddb7"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-14-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 56248,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "0b7b4c345ab2cdb022c4ffadcaccebc4c7227c065c0bd8b4400d41b456dc4478"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-14-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "size": 54548,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "aa8074856061ccc4c7df5dceb3812f0922f90a2ce5e5b87202556a0a4f8ffda4"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-14-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 57256,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "94a44c4d791a6e189b2d6a869c01f9602676296b3f762b04e515a772a0459dad"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-14-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "size": 55540,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-14-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "6b81d5ff5d4efc14e67b3bf476b1efbc153794bab835f0ccd13aa0a02c2e197b"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-15-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "size": 62544,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "1eb7f778811a3303e928c2ded31df74c45dfbb6a23da980b8c126e6b7f37a5a7"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-15-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "size": 56724,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "sha256": "3675ff3f321ad840b48afc36aa0b6a84e76968e575cd55c0b7b2dc0620984d57"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-15-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "size": 63688,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "4e8400e8194572d483527385127c9a486e006d331ee88966f3b2cb563621b849"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-15-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "size": 57720,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "sha256": "f987e60aee2e11fae751242750c7f3051016fd93409f0fd7ce7ebefc7b7eb0f8"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-15-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 59876,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "e8f0c662f86386a789ef9e9d8dc90fc7ef50b7538b2e71337d6c80d5d7113c21"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-15-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "size": 59956,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "095d50657bae9f8c158cfc5f32b40a41a82e341d2a27fff65a4f6d44f72fd658"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-15-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 61540,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "be79976edca4a21f9e2c745eda7693f8a6c27dcf65cff0bf19c934ee4c39f792"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-15-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "size": 61612,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "b6cd8a9d05cc3d3a17e82666b5e7a342f034ba2b4226eb9379d1e8de11dc3ac2"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-15-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 55908,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "8b71e342e6aff8f285348d2b0cb929be605356128c6ccd7a062d4ce37016d259"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-15-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "size": 54156,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "c39c8d7177b7e56e812aa87b0cbad642fe9c36120f921520d239472ab763e2ac"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-15-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 56972,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "4e97d59769b3ff17528d0fb6ea16608abcaa969a336dec7e41476c6559bb420d"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-15-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "size": 55172,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-15-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "662b97bfc32afe0da8e6e0559a718798e1979394ffd06a15ce895a0d8f08d9cb"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-16-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "size": 62540,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "a440a1f064b4852e2dfc8689c0e4408ef36b045dfafc26117d82c93040afadcc"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-16-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "size": 56740,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "sha256": "71949e8b8de4dd4f7dc0284df5929c798c29c1c6f9c26647bc3699f5c36cf3c6"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-16-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "size": 63636,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "493e0bcea5e8fa30f1c24e7212e4c5ae4c0066909ed6ffbfd3b14a9a0970ad43"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-16-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "size": 57644,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "sha256": "212309c40fcfe52b3e7d693157833400ee22bdd0eeb3c9661026990854523ceb"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-16-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 59856,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "edbb7e89dd1d46fbb74ace639b1c7218dda65d91bde8557ac52a3d0339051f53"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-16-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "size": 60004,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "46546356fb3f3567c4becd315211f69b8febd6dbf8d7dfe02d02efc28a242df1"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-16-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 61428,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "2a79acd3e4189bf480ccd52cbab0207607601e8d3da04b242587efd17fcf71fe"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-16-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "size": 61492,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "8243a3e35d645fbb70c346158d96fe1d297f6000bc07f63065b4d044f4b3a383"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-16-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 55872,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "d5d6343a6fc2f65440fb8f8c01fe311492706bf131022c742b81f592c278df93"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-16-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "size": 54204,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "d9c0e6b950726590b264de6d8ea64b2cf53949afe614194eeb907949abd8d327"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-16-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 56964,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "7f6ec7b8d122ba23d9832d87616520b3242eec24235c86fb018f4368460b96c5"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-16-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "size": 55096,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-16-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "fcdd639443052fa52575f99d43a2cebf5eb4897588c9d25c26d6f444b7e2230f"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-17-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "size": 62504,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.1-1.pgdg120+1_arm64.deb",
-      "sha256": "c02e73343b0721abed6d1a8d89a855f9e04bcc9d2056363715e575dbf9252049"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-17-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "size": 56576,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.2-1.pgdg120+1_arm64.deb",
+      "sha256": "32517bcb5db2bc94802abbcde943d122070ce1924136433e27d6b4a5e1de0b5d"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-qualstats",
-      "ver": "2.1.1-1.pgdg120+1",
-      "file": "postgresql-17-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "size": 63660,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.1-1.pgdg120+1_amd64.deb",
-      "sha256": "9765c3c0bcb8a288ba6d6dfeb0c4bb89d7d33a2ee527097928e4c3dc9fd90daf"
+      "ver": "2.1.2-1.pgdg120+1",
+      "file": "postgresql-17-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "size": 57608,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.2-1.pgdg120+1_amd64.deb",
+      "sha256": "0332500c9231734a67cf72b82d042a06ffec19e9c73a073ee3bcf0b1c2c79727"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-17-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "size": 59836,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.1-1.pgdg22.04+1_arm64.deb",
-      "sha256": "e78591ccbdc5d50fdd1b95561fc675d033b76488b209fe618e59ab88dcba1c2d"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-17-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "size": 59908,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "ee17cb9151489fe01ff10fbd30937bf238ae61c6f9f3c59cb0f218f753ab5423"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-qualstats",
-      "ver": "2.1.1-1.pgdg22.04+1",
-      "file": "postgresql-17-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "size": 61524,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.1-1.pgdg22.04+1_amd64.deb",
-      "sha256": "9d22ff0231c8053ce96a95fea6be26c0211f00e1d9fec96c3944a58dd21d5fd6"
+      "ver": "2.1.2-1.pgdg22.04+1",
+      "file": "postgresql-17-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "size": 61592,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "3e83ee41c92b91111dd917b7e39b33451f2faa9cee798aa8db12534418bb638c"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-17-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "size": 55896,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.1-1.pgdg24.04+1_arm64.deb",
-      "sha256": "5e40edfd9bdc9929ca14f2617293022c6c0e6c954da8c3a2d911b32bb47bbdba"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-17-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "size": 54080,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "c27dde32183c08cf33980bfb3c33890a3044269774c3cba1b849468885ce36aa"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-qualstats",
-      "ver": "2.1.1-1.pgdg24.04+1",
-      "file": "postgresql-17-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "size": 56892,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.1-1.pgdg24.04+1_amd64.deb",
-      "sha256": "e8aa1830441d5c790ab036f85b09e260d609d7fc9ca073543af3bc9ffe68ebf9"
+      "ver": "2.1.2-1.pgdg24.04+1",
+      "file": "postgresql-17-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "size": 55076,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-qualstats/postgresql-17-pg-qualstats_2.1.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "64b14b72edd6a91aab5c8e97f0b8a98a3b5964082045ca587060d00689b2e129"
     }
   ]
 }

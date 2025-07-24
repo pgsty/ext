@@ -32,7 +32,7 @@
     "pgfaceting"
   ],
   "see_also": [],
-  "rpm_ver": "0.5",
+  "rpm_ver": "0.5.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_roaringbitmap_$v*",
   "rpm_pg": [
@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "0.5",
+  "deb_ver": "0.5.4",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-roaringbitmap",
   "deb_deps": [],

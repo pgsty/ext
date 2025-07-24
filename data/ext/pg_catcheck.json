@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.4.0",
+  "deb_ver": "1.6.0",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pg-catcheck",
   "deb_deps": [],

@@ -8,7 +8,7 @@
   "url": "https://pgpool.net/",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "4.6.0",
+  "version": "4.6.2",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "4.6.0",
+  "rpm_ver": "4.6.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgpool-II-pg$v-extensions",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "4.6.0",
+  "deb_ver": "4.6.2",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pgpool2",
   "deb_deps": [],

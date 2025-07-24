@@ -8,7 +8,7 @@
   "url": "https://github.com/pgspider/sqlite_fdw",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "2.4.0",
+  "version": "2.5.0",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,

@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.17",
+  "rpm_ver": "1.19",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgextwlist_$v*",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.17",
+  "deb_ver": "1.19",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-pgextwlist",
   "deb_deps": [],

@@ -106,7 +106,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -121,7 +121,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -136,7 +136,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -151,7 +151,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -256,7 +256,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -271,7 +271,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -286,7 +286,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -301,7 +301,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -406,7 +406,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -421,7 +421,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -436,7 +436,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -451,7 +451,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -556,7 +556,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 14,
@@ -571,7 +571,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 14,
@@ -586,7 +586,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 14,
@@ -601,7 +601,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 14,
@@ -706,7 +706,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 13,
@@ -721,7 +721,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 13,
@@ -736,7 +736,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 13,
@@ -751,7 +751,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.7",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 13,
@@ -826,6 +826,16 @@
       "sha256": "1bd9e27143d13e9de2e40a528cbf0f15294c69ec605e5dad07f17a3d40c91fd6"
     },
     {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgnodemx_13",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_13-1.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 43220,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgnodemx_13-1.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "df30d50c91892e376aa64f8e84dcd0aa12a16fcfe6b1cbe94e899e4e8a45e757"
+    },
+    {
       "os": "el8.x86_64",
       "pg": 13,
       "name": "pgnodemx_13",
@@ -834,6 +844,16 @@
       "size": 35952,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgnodemx_13-1.7-1PIGSTY.el8.x86_64.rpm",
       "sha256": "d40cb5bc1e991196c1562584464a688d07df31c9a2c072eef3e164f9677f59db"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgnodemx_13",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_13-1.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 43760,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgnodemx_13-1.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "27dbe157c278809d1e7d91024076d7a83cd87ae39a32bc1d37de53a948447fca"
     },
     {
       "os": "el9.aarch64",
@@ -846,6 +866,16 @@
       "sha256": "739235bd8d33eb54d51e89399ce2359240e21434d4178a6fdbdc876eb917d3fc"
     },
     {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgnodemx_13",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_13-1.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 44398,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgnodemx_13-1.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "a74052c5cdadda072892c22b6eedf4e3a6fb7f7c7ad96bcccd193e38fcc5cfe1"
+    },
+    {
       "os": "el9.x86_64",
       "pg": 13,
       "name": "pgnodemx_13",
@@ -854,6 +884,16 @@
       "size": 37626,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgnodemx_13-1.7-1PIGSTY.el9.x86_64.rpm",
       "sha256": "e05133bee88bba75ac0a6a69d65059276272e44a3170ca491297d8e50077e997"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgnodemx_13",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_13-1.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 45166,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgnodemx_13-1.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "0dc23683a2c3a1d2f5355394c489eaa4805a3d22364c71242a05f2053f1a7672"
     },
     {
       "os": "el8.aarch64",
@@ -866,6 +906,16 @@
       "sha256": "740b9f6688c25581c7bd1faf79ff0f8771d0516279c8c624c9234e3c5f543f81"
     },
     {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgnodemx_14",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_14-1.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 43176,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgnodemx_14-1.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "0ed7876af9253c650be267350f5ddf016382d34cb643592191c1e3a901dbf1f4"
+    },
+    {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "pgnodemx_14",
@@ -874,6 +924,16 @@
       "size": 36244,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgnodemx_14-1.7-1PIGSTY.el8.x86_64.rpm",
       "sha256": "5cbc81ecf3e4d1a145aee40bae44feef0972599414ce6212c76e3b4b019042cd"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgnodemx_14",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_14-1.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 44052,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgnodemx_14-1.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "2e20de41b0b9dbfe9fc525639011050ddbb88749d011c3414702d3f2cd5c4223"
     },
     {
       "os": "el9.aarch64",
@@ -886,6 +946,16 @@
       "sha256": "2de2e4f13e51f3a509bf4116d86b54e037803b670d3e8210a8538705d59d282c"
     },
     {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgnodemx_14",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_14-1.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 44405,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgnodemx_14-1.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "79aaa4e459af7bcce504438faf37b9ef1813d16b09b3bb6b30cc95197616c8af"
+    },
+    {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "pgnodemx_14",
@@ -894,6 +964,16 @@
       "size": 37189,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgnodemx_14-1.7-1PIGSTY.el9.x86_64.rpm",
       "sha256": "ce7d1facfe0c1ef772b996d522ae22acd747a9db1bf3d545ace2383bb71ce32e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgnodemx_14",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_14-1.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 44876,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgnodemx_14-1.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "2a1a1e388e754837e8ce772b502797e99e91577d1981311e5aa2c0d40b068b6f"
     },
     {
       "os": "el8.aarch64",
@@ -906,6 +986,16 @@
       "sha256": "7c7fc706176d3b56e0fad70d675936720e147ad3cf2a2f91615eb0f034051cac"
     },
     {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgnodemx_15",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_15-1.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 43216,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgnodemx_15-1.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "546519df158f1ec86d451252f62371168538ba9dc7fdf7036e7e414bca010d8c"
+    },
+    {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "pgnodemx_15",
@@ -914,6 +1004,16 @@
       "size": 36332,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgnodemx_15-1.7-1PIGSTY.el8.x86_64.rpm",
       "sha256": "742d5c1439bc142feaeb22365220b5e27f77b4609db8638a0057a6c180e6c8bd"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgnodemx_15",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_15-1.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 44124,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgnodemx_15-1.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "2c897f0086bdd3ef45fde9aa0f05ee8f66cfcf446a3f7a1d41c72de7cb3e32f5"
     },
     {
       "os": "el9.aarch64",
@@ -926,6 +1026,16 @@
       "sha256": "77abe93acea442ea2cb487be1b07808b9779662030d9a8060dbc7913383ed1f8"
     },
     {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgnodemx_15",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_15-1.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 44463,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgnodemx_15-1.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "cd284b9fad179766d047a6d498dfd5d6ce0286a96abaf658026f7d5143b506ba"
+    },
+    {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "pgnodemx_15",
@@ -934,6 +1044,16 @@
       "size": 37405,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgnodemx_15-1.7-1PIGSTY.el9.x86_64.rpm",
       "sha256": "6b5e5d5da14399b77fed9df05bf74dda991316edaef9ffc7bc7d28056ec4c3f8"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgnodemx_15",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_15-1.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 44963,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgnodemx_15-1.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "4e8236de93cd76c05353a93e9a6f2374a0400bd647a09b5662123e58d9d12204"
     },
     {
       "os": "el8.aarch64",
@@ -946,6 +1066,16 @@
       "sha256": "8c45e321bfa78dff11663af9cb20d70966b0d697025e5e5ed63d1f7fc0741546"
     },
     {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgnodemx_16",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_16-1.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 42136,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgnodemx_16-1.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "494955584cb05a02c94091223a67211d572b3ad1308ea8bc380383b6b6cbb4b8"
+    },
+    {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "pgnodemx_16",
@@ -954,6 +1084,16 @@
       "size": 35076,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgnodemx_16-1.7-1PIGSTY.el8.x86_64.rpm",
       "sha256": "e698ba96c3a71ccb0fd8a22f2f31823b079d2b4cf61d62c55d2920fbbaa1065f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgnodemx_16",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_16-1.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 42828,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgnodemx_16-1.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "b17c0ce6233c3a250133836dd5160e10599134d9746a064617cfa745bab3c277"
     },
     {
       "os": "el9.aarch64",
@@ -966,6 +1106,16 @@
       "sha256": "6f97b083bdfb4c54ceeeccd16eefbfc4ebf33e5bab148fe7b6e1b5a01d5e8c2f"
     },
     {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgnodemx_16",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_16-1.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 42128,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgnodemx_16-1.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "94740d1342757e9e9f2d8a69eaa522531e3410657a5818dcd7ccc08c8b894721"
+    },
+    {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "pgnodemx_16",
@@ -974,6 +1124,16 @@
       "size": 35393,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgnodemx_16-1.7-1PIGSTY.el9.x86_64.rpm",
       "sha256": "f45f0693ef9867a60f08ae3b92eb4c9dded94d456c676e4362a5952e6e94d2f3"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgnodemx_16",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_16-1.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 42563,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgnodemx_16-1.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "bf5f076619579b0659d22a335b32e7403fb87c704a9cc164885a4d6ef6641109"
     },
     {
       "os": "el8.aarch64",
@@ -986,6 +1146,16 @@
       "sha256": "92b225cdd34bccc4b75ff280470a6fba1b21d8166abb459823c2066099481806"
     },
     {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgnodemx_17",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_17-1.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 42140,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgnodemx_17-1.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "34b3e54ddfaf653697eb02572d661a19b6595a9aed3a26182620d8d4fb4360c3"
+    },
+    {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "pgnodemx_17",
@@ -994,6 +1164,16 @@
       "size": 35056,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgnodemx_17-1.7-1PIGSTY.el8.x86_64.rpm",
       "sha256": "2255e3b342655f3ac8104278a25c0dd5f54e86d7bdc9371d8d74535284dbf0d5"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgnodemx_17",
+      "ver": "1.7-1PGDG.rhel8",
+      "file": "pgnodemx_17-1.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 42820,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgnodemx_17-1.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "601f15277533a8d1fd2195ad802049b129e9290c09609f87a3f539f8c6c32f1f"
     },
     {
       "os": "el9.aarch64",
@@ -1006,6 +1186,16 @@
       "sha256": "f4ecfdfd133a5de863a35998e3ea1939f3d2b986183d08d23758bb0c1e8ae37c"
     },
     {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgnodemx_17",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_17-1.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 42139,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgnodemx_17-1.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "abc7ce65b5fc03ab0cbd82c74baf32436d68eeef41885d651c908ef8fb99d5c0"
+    },
+    {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "pgnodemx_17",
@@ -1014,6 +1204,16 @@
       "size": 35402,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgnodemx_17-1.7-1PIGSTY.el9.x86_64.rpm",
       "sha256": "9566b739f612c534597fa6bb546ba69c4272ce602bb5cd7145a0655072524dfb"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgnodemx_17",
+      "ver": "1.7-1PGDG.rhel9",
+      "file": "pgnodemx_17-1.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 42563,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgnodemx_17-1.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "a5aaf72173a2c371dbe28198f650ab43c6b3873c6909ecec5dd87b42487e90f0"
     },
     {
       "os": "d12.aarch64",

@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.1.6",
+  "deb_ver": "1.1.7",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-ogr-fdw",
   "deb_deps": [],

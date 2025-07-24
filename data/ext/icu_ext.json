@@ -8,7 +8,7 @@
   "url": "https://github.com/dverite/icu_ext",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "1.9.0",
+  "version": "1.10.0",
   "repo": "MIXED",
   "lang": "C",
   "contrib": false,
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.9.0",
+  "deb_ver": "1.10.0",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-icu-ext",
   "deb_deps": [],

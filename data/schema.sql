@@ -472,7 +472,7 @@ DECLARE
 BEGIN
     -- Single UPDATE statement that combines all three operations:
     -- 1. Calculate count from availability
-    -- 2. Get latest package info (pkg_repo, pkg_ver)
+    -- 2. Get the latest package info (pkg_repo, pkg_ver)
     -- 3. Handle NULL cases
     WITH availability_stats AS (
         SELECT 
@@ -573,4 +573,4 @@ COMMENT ON FUNCTION pgext.update_matrix() IS 'Update matrix table with package c
 SELECT pgext.init_matrix();
 SELECT pgext.reload_package();
 SELECT pgext.update_matrix();
--- VACUUM FULL pgext.matrix;
+VACUUM FULL pgext.matrix;

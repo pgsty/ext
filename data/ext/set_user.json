@@ -818,301 +818,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-13-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "size": 38092,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "sha256": "076c11972cf50dfe080daab8e39412fe7cb4fd12bdd02546998550acae070185"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-13-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "size": 34932,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "sha256": "e0252df94a65c42c6044520d2115ca1985b394372b1ffd1c9c8688b2b9b5bf59"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-13-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "size": 38280,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "sha256": "f7fa8f68593818fe5b1c74c5d0cff9d1b21e8cc0f547dc16bf820a5e6dffba36"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-13-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "size": 35108,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "sha256": "8caf590525d13a95fe50a3e488c2b64cc604ede5470054125b6b257b05f65949"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-13-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "size": 37236,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "f64dc81c294eda398073f1ad67126e0ad5916bfd9281e14557222a6b9b749d11"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-13-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "size": 37220,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "sha256": "7798384ed3a039d07421d3df50367f083989329fcd3f984db7209a146e750516"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-13-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "size": 37956,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "5aa2e9fd866db87e076b7d45c272ca8796aa0bd9d8a30f2dbb5ba79267e6b2c5"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-13-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "size": 37944,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "sha256": "5f7577478cf30262a9c6cfb9d9556a6aa1af2fe862c5e58f344e53086749b74d"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-13-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "size": 34976,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "0d7858fdcd03295f7038eb07a689f1a85ce76ba98041eb026f1e7452196c3157"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-13-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "size": 34396,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "sha256": "f51664c72464df8789951c0dc24464cd6a2be282ef6f74dd1a6ae0ad0aec4fc8"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-13-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "size": 35392,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "b5e138218e537e55306cbc4aa150f70d4e9a46cc63a1ca0cf7f6ad3d0973c608"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-13-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "size": 34784,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-13-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "sha256": "66a445e290ab2c4008d62581b3ce020e78a3643142bbdbb1dc28f21d5b9aa466"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-14-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "size": 39112,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "sha256": "95a05bbb8a140b336df2e7c7c878126e39ef29501d371e28979448c81c391b03"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-14-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "size": 34812,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "sha256": "d2b83d555f3f549c29d273782a55142694d8ce59c359406fa320bbef58a41112"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-14-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "size": 39608,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "sha256": "39abe1f66beecdd616824aa58a25a6b538408e00a92edc6767f7526a6fc9a08f"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-14-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "size": 35304,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "sha256": "5ad5176431749efaf62742f68f6c703d883273afc3c01225e89c1a42f49454c4"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-14-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "size": 38520,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "8191fdf49dac4c2c1ccf2c14e169dd27a845960fb36c492966b82433bf56b75c"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-14-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "size": 38512,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "sha256": "fb614ea9385ffe5a6f428149f55450f34800edb55f292e8e241802f3a0841f7e"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-14-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "size": 38864,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "96835a2f0eafe4da0ed33ad7d282ec965c0c1f904d21100eb984ffc32581696f"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-14-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "size": 38888,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "sha256": "588968467387b939e5ba12a75992b5e5a9932c06049172d78ed2e071dd6f4878"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-14-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "size": 35112,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "a4d4bb97f00c0d487e88cf3a2710dc5758394df1cf09880cdbb96c0674806c1c"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-14-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "size": 34388,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "sha256": "aefc2932591322c03f5a187f818083c8618ec6b31cefcd9b9f7c09230cf51f38"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-14-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "size": 35608,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "8b0ebc65d57008718aec394a47f712d799d2da715f33d9531909c8a6831b8d8e"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-14-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "size": 34880,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-14-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "sha256": "25c2428e0d1b1558a070f708df20906243d6f8859e0a2bf15593669903ccf45a"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-15-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "size": 39168,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "sha256": "498b5b793a1f6a4b72726cccf7cd3ec7d0ebc4cc896fc21c5c9b9d3ba9a569b9"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-15-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "size": 34916,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "sha256": "d3c69262cff3294f9186caf276082a846de4b21700a12a6f72d2fa0447a7ff3f"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-15-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "size": 39544,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "sha256": "3e9d8495f29fcc3cc95d23d3171d5ecfcdc44dcc5c348838eef5cb598784a8c3"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-15-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "size": 35296,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "sha256": "aacb2c742d2884ba0f1f8e821deba993fd874a3d086a13f3df5e407ac1009020"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-15-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "size": 38592,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "22504b423d8dd180c8b6d864f96b3d25c4fed872b5da43a70afe320a9bc1b4e4"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-15-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "size": 38616,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "sha256": "8e02778ed17ac15b25b3563b01af388bea6ace923a94d3d805ce88cf52ecb8a7"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-15-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "size": 38884,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "6891d759a5886e5864f4d9ad0913d338293de6692b0ff86c9e4ad70ce67624fd"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-15-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "size": 38908,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "sha256": "ce06b85757c9a8c08afecdcb901d28612c9d9aaa5859ac746e042aa38792b824"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-15-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "size": 35136,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "c83cc8279d42796f326949224b8457f012f198111955e3de9a5d3943c0bfebdd"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-15-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "size": 34408,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "sha256": "6f1ee3f1902ea4c676295e7d3c507ec52f691d3c9c1a6df8d6141d8cf9998441"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-15-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "size": 35604,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "b1f0a4e75c0c6cf217621091e1001d0588b9292de8fd7f3e60bf31c39a99f895"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-15-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "size": 34856,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-15-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "sha256": "f66cf60ec5db6bf6b5f07d45d5eb4fd2878823b8b802c297eea9c5e82ef70ab0"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-16-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "size": 39468,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "sha256": "def53abbe5cc702205ace45e448c9c9fd478c1fa7cfac32517a95710f2236b60"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-16-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "size": 35248,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "sha256": "ee3b06fb9f8197fb22cf412f5099e619e80dc3e7808f0a9be88ceecef23b8a28"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-16-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "size": 39964,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "sha256": "be547a6bd99a7098dded967473e4976a78baf7df5b19cafd276f3de67cc008f2"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-16-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "size": 35640,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "sha256": "439a663de93ec538815cc828bdcdbde62a710d08ae7df792b6c008349f330421"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-16-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "size": 38868,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "a5ddd81e571c6668c18cd61b05a7662c8872ce88e583e91e9d858383b5e864b1"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-16-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "size": 38848,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "sha256": "9c5ebdf59b2ee0475f823d010b862081df3cb721b4cf06b35fc9259b2ab6dd1b"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-16-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "size": 39288,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "48bc0989306161a2be061903eb87848cc4168066799ba473842eee0f7a480af5"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-16-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "size": 39280,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "sha256": "5c98ed5aa1421bd20a16652dde12b9154af7c2a7effed0d4a1567235d1711f51"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-16-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "size": 35420,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "348ec3f856b43f28d228538b7fc65d6d6dcc9ad954887959404fb4a561177040"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-16-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "size": 34736,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "sha256": "2917730cf9801f7b5f0389c46a8629b2babce69b3d669a71acc54d6185181ac5"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-16-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "size": 36004,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "e69868ca37670978a600463324e942161945399210325c7851d90886b2228fb6"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-16-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "size": 35256,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-16-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "sha256": "c2deb14c37cbdb00099929de3308081e943304b74d03a957367ab0750cc3f9fe"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-17-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "size": 39920,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg120+1_arm64.deb",
-      "sha256": "da22b54ba5b50f8d5be8a01a41bf2da5ff6cac0268f6c966bf9cecd125919bcb"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-17-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "size": 35252,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg120+2_arm64.deb",
+      "sha256": "137e0a27f3ee222eb0e6121dcf9b8366a82f023a2cc962317d6a1ae114f51f50"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-set-user",
-      "ver": "4.1.0-1.pgdg120+1",
-      "file": "postgresql-17-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "size": 40420,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg120+1_amd64.deb",
-      "sha256": "eb1adab19af820cb46bd80a73d32c72484ee075e3fa15cb13c902eb48bac946e"
+      "ver": "4.1.0-1.pgdg120+2",
+      "file": "postgresql-17-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "size": 35684,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg120+2_amd64.deb",
+      "sha256": "7236a97ae53d3f0751b6e189f7cc3ded1bf5e24db4d7fa9441143dc903dccb4e"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-17-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "size": 39336,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "93ab66973034d9e38b607cc9ab8d2fd2593d35a7f1f2204624f49bbfe592c495"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-17-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "size": 39332,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg22.04+2_arm64.deb",
+      "sha256": "1b4476358a09773fa817f1d0e3faba6a53092150dba95915678d16fc17ca146e"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-set-user",
-      "ver": "4.1.0-1.pgdg22.04+1",
-      "file": "postgresql-17-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "size": 39736,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "b266a85279817bdc1ac01a2fccf81a2b09d35889639bdb98cc2e92254f2118a0"
+      "ver": "4.1.0-1.pgdg22.04+2",
+      "file": "postgresql-17-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "size": 39740,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg22.04+2_amd64.deb",
+      "sha256": "c9a6e3edf775f9c29c22344fc01ca9047e0f7cbcf835675cc5442efedbf167eb"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-17-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "size": 35436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "a9188c48f9805029ea45d35728be2456670d0bb3eb6b34464d9be0ed8683c00b"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-17-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "size": 34744,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg24.04+2_arm64.deb",
+      "sha256": "6540f2343dffa6b007eb487a6bd91b075f2cb1b0aad811b8bf58cfdc31763831"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-set-user",
-      "ver": "4.1.0-1.pgdg24.04+1",
-      "file": "postgresql-17-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "size": 36040,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "23252885543df51a24c2b58fa70fec70f46437844158e0ff29774933f942024c"
+      "ver": "4.1.0-1.pgdg24.04+2",
+      "file": "postgresql-17-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "size": 35312,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/postgresql-set-user/postgresql-17-set-user_4.1.0-1.pgdg24.04+2_amd64.deb",
+      "sha256": "6d9bd9d60efa457e524d00d844afce7542af826ffe24b9696620a3ca869e7d4f"
     },
     {
       "os": "el8.aarch64",

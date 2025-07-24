@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "8.4.7",
+  "deb_ver": "8.4.8",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-plr",
   "deb_deps": [],
@@ -1362,6 +1362,16 @@
       "name": "plr_16",
       "ver": "8.4.6-1PGDG.rhel9",
       "file": "plr_16-8.4.6-1PGDG.rhel9.x86_64.rpm",
+      "size": 74569,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/plr_16-8.4.6-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "e1ed80a8fa750f22918986214839eb0261c3c2c00b5ccac55515142595efea21"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "plr_16",
+      "ver": "8.4.6-1PGDG.rhel9",
+      "file": "plr_16-8.4.6-1PGDG.rhel9.x86_64.rpm",
       "size": 75320,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/plr_16-8.4.6-1PGDG.rhel9.x86_64.rpm",
       "sha256": "4c861f550daa6c5532447bf43f87e382df10c52e104016d49393e31c655fba74"
@@ -1375,16 +1385,6 @@
       "size": 75177,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/plr_16-8.4.6-1PGDG.rhel9.x86_64.rpm",
       "sha256": "c7f7848f022387854ed9ac543c5b23bf5f5abe2868c0f9e432456f72ce6ba9e4"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "plr_16",
-      "ver": "8.4.6-1PGDG.rhel9",
-      "file": "plr_16-8.4.6-1PGDG.rhel9.x86_64.rpm",
-      "size": 74569,
-      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/plr_16-8.4.6-1PGDG.rhel9.x86_64.rpm",
-      "sha256": "e1ed80a8fa750f22918986214839eb0261c3c2c00b5ccac55515142595efea21"
     },
     {
       "os": "el9.x86_64",

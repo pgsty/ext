@@ -8,7 +8,7 @@
   "url": "https://github.com/mhagander/bgw_replstatus",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "1.0.7",
+  "version": "1.0.8",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.0.6",
+  "rpm_ver": "1.0.8",
   "rpm_repo": "PGDG",
   "rpm_pkg": "bgw_replstatus_$v*",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.0.7",
+  "deb_ver": "1.0.8",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-bgw-replstatus",
   "deb_deps": [],
