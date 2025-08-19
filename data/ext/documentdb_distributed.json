@@ -56,7 +56,9 @@
     "15"
   ],
   "source": null,
-  "extra": {},
+  "extra": {
+    "lib": "pg_documentdb,pg_documentdb_core"
+  },
   "en_desc": "Multi-Node API surface for DocumentDB",
   "zh_desc": "DocumentDB多节点模式的API层",
   "comment": "FerretDB Fork, work with FerretDB 2.4",

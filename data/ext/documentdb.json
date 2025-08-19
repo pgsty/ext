@@ -63,7 +63,9 @@
     "15"
   ],
   "source": null,
-  "extra": {},
+  "extra": {
+    "lib": "pg_documentdb,pg_documentdb_core"
+  },
   "en_desc": "API surface for DocumentDB for PostgreSQL",
   "zh_desc": "微软DocumentDB的API层",
   "comment": "FerretDB Fork, work with FerretDB 2.4",

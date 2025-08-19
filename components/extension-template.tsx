@@ -544,8 +544,8 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
           <DynamicCodeBlock
             lang="ini"
             code={isChinese ? 
-              `# postgresql.conf\nshared_preload_libraries = '${ext.name}'  # 添加到现有扩展中（如果有的话）` :
-              `# postgresql.conf\nshared_preload_libraries = '${ext.name}'  # add to existing extensions if any`}
+              `# postgresql.conf\nshared_preload_libraries = '${ext.extra?.lib || ext.name}'  # 添加到现有扩展中（如果有的话）` :
+              `# postgresql.conf\nshared_preload_libraries = '${ext.extra?.lib || ext.name}'  # add to existing extensions if any`}
           />
           
           <div>
@@ -680,8 +680,8 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
         <DynamicCodeBlock
           lang="ini"
           code={isChinese ?
-            `shared_preload_libraries = '${ext.name}'  # 添加到 pg 配置` :
-            `shared_preload_libraries = '${ext.name}'  # add to pg config`}
+            `shared_preload_libraries = '${ext.extra?.lib || ext.name}'  # 添加到 pg 配置` :
+            `shared_preload_libraries = '${ext.extra?.lib || ext.name}'  # add to pg config`}
         />
 
       </div>
