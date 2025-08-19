@@ -23,6 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # others
+.claude/
 .env*.local
 .vercel
 next-env.d.ts
@@ -40,3 +41,4 @@ bin/__pycache__/
 data/raw
 data/ext.csv
 data/matrix.csv
+public/
