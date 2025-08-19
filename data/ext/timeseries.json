@@ -5,7 +5,7 @@
   "lead_ext": "timeseries",
   "category": "TIME",
   "state": "available",
-  "url": "https://github.com/tembo-io/pg_timeseries",
+  "url": "https://github.com/ChuckHend/pg_timeseries",
   "license": "PostgreSQL",
   "tags": [],
   "version": "0.1.6",

@@ -107,7 +107,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 17,
@@ -122,7 +122,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 17,
@@ -137,7 +137,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 17,
@@ -152,7 +152,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 17,
@@ -257,7 +257,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 16,
@@ -272,7 +272,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 16,
@@ -287,7 +287,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 16,
@@ -302,7 +302,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 16,
@@ -407,7 +407,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 15,
@@ -422,7 +422,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 15,
@@ -437,7 +437,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 15,
@@ -452,7 +452,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 15,
@@ -557,7 +557,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 14,
@@ -572,7 +572,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 14,
@@ -587,7 +587,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 14,
@@ -602,7 +602,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.5.3",
-      "count": 4
+      "count": 1
     },
     {
       "pg": 14,
@@ -1067,36 +1067,6 @@
       "sha256": "e709b6a28044d4073a91061bf5ff55719ad18d19f6c0e67ae2df0ec21fc96456"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_14-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 163600,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_14-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "f151b9aa68b0aaa792bf151ef0ca6b08da5be590f16706fde4518b57a1e2645e"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_14-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "size": 165124,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_14-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "f2399a0628e4e1b86bf188599589d604aeb9d75e3594b6550f549a1d6ee3c83a"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_14-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "size": 161312,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_14-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "506bebe27d55dc0dd39e85c1064ad37d9af592cb3d1ba454c337ce0ee240e203"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "wrappers_14",
@@ -1105,36 +1075,6 @@
       "size": 171548,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_14-0.5.3-1PIGSTY.el8.x86_64.rpm",
       "sha256": "08cba64a6355928bb4cf165dff2749d7c5694ef93f37b763a4cc72d61045fe82"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_14-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 174504,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_14-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "552b41c1bf7d14c76775fc218eb681c53df3dafe2a592b3f21aa51a1e2fca35a"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_14-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "size": 175588,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_14-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "4703a66444676b4ff1bc220726395a99846a45fcf0689572f750ef4c80606cb3"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_14-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "size": 173964,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_14-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "981ea6c5e7959b8daf6af1bf1a28e0bdc988a4620fcd071adfdd9d56d5d5629a"
     },
     {
       "os": "el9.aarch64",
@@ -1147,36 +1087,6 @@
       "sha256": "9a68a8469885341faba609bb5bc8d904d905818d51997c90ed7227b0f3f6ca78"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_14-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 175407,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_14-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "9deae56f0880e1da60f048da6054966b1590297159ef4b1b4a84e47ed2d614e4"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_14-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "size": 177438,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_14-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "8a3f441e044b8307da798314d0d1f1af2ba900ccef43ff6e28d392f1730693f3"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_14-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "size": 172638,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_14-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "cc062f60e4c6564d83b515f893f9163bff333a794fd2d7b48b649e9d65c42feb"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "wrappers_14",
@@ -1185,36 +1095,6 @@
       "size": 175363,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_14-0.5.3-1PIGSTY.el9.x86_64.rpm",
       "sha256": "c2aa48745e7e8e8b60aa9ead7c3687648f802fc93d1007136b52a27166784820"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_14-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 178789,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_14-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "7d953167fa7b1c9d3cbfa77d6ca6f7ba84ea6e5030197920c8d8455431588a7c"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_14-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "size": 179204,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_14-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "ca8c9b340a230c71851a0f264d9005a22f2a2c0375f5bcb27a6fa4457b46cb1f"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 14,
-      "name": "wrappers_14",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_14-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "size": 177873,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_14-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "22a1f87d6ec1bc958f1d640b5dfe058f34262fa5122d9d0e345e0e83275fffe0"
     },
     {
       "os": "el8.aarch64",
@@ -1227,36 +1107,6 @@
       "sha256": "eeca86bf56cf8d185f6296a8d830df555afaed6638e6afd623b9e5595fbeebf5"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_15-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 163624,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_15-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "6ca29ede167f59378210550e9bb7d2673ad10abc31b9eea69dffea9c99acfa4f"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_15-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "size": 165176,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_15-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "6a83e9bad03dd0fc394e3bf0c3f53870bac8958dde9aab334a6145e93b8efa04"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_15-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "size": 161300,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_15-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "8361f0df2827a14de5143bac76d7c470194ccaa4a568640885af47028c9cc843"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "wrappers_15",
@@ -1265,36 +1115,6 @@
       "size": 171528,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_15-0.5.3-1PIGSTY.el8.x86_64.rpm",
       "sha256": "7c660f757b2a3c44b0c11c1418344b59679d0b94df59abdee1746d93fcc932d6"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_15-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 174460,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_15-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "b5918f9efb1f4cffe77feb41d5304b8517dff55a7fc7eb2153c824894e3d2ec0"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_15-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "size": 175584,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_15-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "99d98eac5622acde0916d384bdd6f2ba1df74cb5d53cd80e957a600e864b4393"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_15-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "size": 173948,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_15-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "e9c6d404a5cc5a693fff302da05a235335f6d5cfdad796a1f259a738c0c6855c"
     },
     {
       "os": "el9.aarch64",
@@ -1307,36 +1127,6 @@
       "sha256": "f50d820b11ce903298d9cb244e500969de7729a4ee04d9d03f149b3c4eeb75b8"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_15-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 175445,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_15-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "66d63031e2c0db7762e3b3943311c632d4bf8f0d5036b937059e7d945b2fddf0"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_15-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "size": 177460,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_15-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "f3689d4a819ea5aceba3685b551578e4097237ba033c1dc0996a6fe5a4437bb4"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_15-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "size": 172614,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_15-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "ce3e69c3f7868d1bfe876a59084ad0861982bf09da65d73e3c99ab55c7c71be2"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "wrappers_15",
@@ -1345,36 +1135,6 @@
       "size": 175332,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_15-0.5.3-1PIGSTY.el9.x86_64.rpm",
       "sha256": "bd9599605048d24764c06b1eb2778561dde2c2f84104d8adb2fecca7f373482c"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_15-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 178396,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_15-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "d978d1230b57ace5fbcc2dd775ed3af0d319978d0288af62ebaed070cb4e3845"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_15-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "size": 179220,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_15-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "4543bd601cf6d4366870c86268a43a6a6666d3d7990aae94562e62d776e3da8c"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 15,
-      "name": "wrappers_15",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_15-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "size": 177951,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_15-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "646cbf563acd8789d221fd43432deecfacfa8953ac313972b4728ab2f718857d"
     },
     {
       "os": "el8.aarch64",
@@ -1387,36 +1147,6 @@
       "sha256": "6aac99a2873f34cb5bff4a3533ba69fef3b7e6f73eec6c33471d527fdc730b3f"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_16-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 163612,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_16-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "b5ab8fec0d15b308bbfbbdadfd19fd53e37dfa9e9e8f0e4e6619c46c1e12606c"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_16-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "size": 165192,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_16-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "3ae0ac952491af1e96a2652c280859b375496f317645e8d940812a1eda1ff1e2"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_16-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "size": 161288,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_16-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "a671b9c0abcb4f466581a9b54d959b2de5e1e60d18622dd4f08e1bf2f5d10a41"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "wrappers_16",
@@ -1425,36 +1155,6 @@
       "size": 171616,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_16-0.5.3-1PIGSTY.el8.x86_64.rpm",
       "sha256": "401163baf5ea61c621b94dd9a325c97f5c1903e606526cbd32f0337b39712d42"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_16-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 174456,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_16-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "66c76d61ef8081c4a9f91e2178e67b2ce7e29fca64ab1b51043e9796f1e336ce"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_16-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "size": 175584,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_16-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "9626f41680b0c65d544abe11d6981baa6ed0dfc22790108efb38daa033c2f5d6"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_16-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "size": 173940,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_16-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "24f103445f7ab9ff350b90f87fdfc1accfb810738772ab2913f471610eb084f9"
     },
     {
       "os": "el9.aarch64",
@@ -1467,36 +1167,6 @@
       "sha256": "2eb62c1c32a1b0b7ed18e7018c94ef334b555b4b140138dd8ddd10e745fb7d82"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_16-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 175438,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_16-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "c2e209e4f08b31b26fa35ddf8e3731c02d9b0d13a92ae0db53e1b65d488ea769"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_16-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "size": 177483,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_16-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "9c46b2caf30776f3f3c18eff2667be17b5e22b8405023235dfdfe70a1d1258a5"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_16-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "size": 172601,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_16-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "7e0c9b70bdeae40623979d9037741aeb2543d61534b37546e8782e1f7c56e72d"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "wrappers_16",
@@ -1505,36 +1175,6 @@
       "size": 175459,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_16-0.5.3-1PIGSTY.el9.x86_64.rpm",
       "sha256": "c7a6728f0de3cca294186e68fc7bfa8593eb50b0c15c46a6073a488cebc486c4"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_16-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 178417,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_16-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "d943e57dd7c6f6e4c05c76276f08e0381c8b21450938b1c2289f2a6032709b83"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_16-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "size": 179309,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_16-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "6804e6bec424b9ad5929c73d95a969250a78f70a6fb71208be4aa31abc83e692"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "wrappers_16",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_16-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "size": 177983,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_16-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "273c2aafc8d802044108c4bc2cedf389c87a6ea5b507705bd088483c58544398"
     },
     {
       "os": "el8.aarch64",
@@ -1547,36 +1187,6 @@
       "sha256": "90905812cc617bdb1e4bafa7b02d172b9314dc0d8d1f027bb6bc8dba48c59337"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_17-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 163616,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_17-0.5.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "1e8b79c93a7709515e0d55addbda6a9ea2f85768aa939a8f790336a0505b968e"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_17-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "size": 165196,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_17-0.4.6-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "4a5a4b09f74ac3e9f17c7b05fdc6260daeb204dd077296f74818d303fccb0654"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_17-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "size": 161288,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_17-0.4.5-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "7ea4382f57a335cf3a214ef7bf5a9ff96ac1f0f831e8c3b11055f18d00c6d674"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "wrappers_17",
@@ -1585,36 +1195,6 @@
       "size": 171620,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_17-0.5.3-1PIGSTY.el8.x86_64.rpm",
       "sha256": "7dcd142b603b1bf3d8a70e58673a5438d986364af1899da061507355a4822a0d"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.5.0-1PIGSTY.el8",
-      "file": "wrappers_17-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 174440,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_17-0.5.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "fa119a9b32f21afc6247fe067023b5d20d957c7be9069363d2abe4baa0db2313"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.6-1PIGSTY.el8",
-      "file": "wrappers_17-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "size": 175576,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_17-0.4.6-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "fd4ea14a2357eded491d51aa4c9b00b53385c008d89f5f7361b1fc35a209cc17"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.5-1PIGSTY.el8",
-      "file": "wrappers_17-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "size": 173912,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_17-0.4.5-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "94d374199a22d608299b98fe8da798ce3198dab3b9e2a5a6562ba4a740cd59c5"
     },
     {
       "os": "el9.aarch64",
@@ -1627,36 +1207,6 @@
       "sha256": "ca530db399a31582769ead2c69b418065c41c7df195b91be45ab59057f67ce0f"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_17-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 175436,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_17-0.5.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "f0fb81e64b29be5ea3b4b66f4573e639a5a7cf5e686318cee00d4cad7f065aee"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_17-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "size": 177480,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_17-0.4.6-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "edfc4f444fe82869d290a6cd1dfd3e1584a5acb957123145eb2e1c578900a61f"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_17-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "size": 172613,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_17-0.4.5-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "60af3f29b2111dbd4a1a6d024d498f830ce4b1d9d057ebfeb7990a38972d2cb4"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "wrappers_17",
@@ -1665,36 +1215,6 @@
       "size": 175438,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_17-0.5.3-1PIGSTY.el9.x86_64.rpm",
       "sha256": "bb50122038abfb66486e30775db072fe42e505be923ab7edc40417120c4214f0"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.5.0-1PIGSTY.el9",
-      "file": "wrappers_17-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 178436,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_17-0.5.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "6a45504ee4d19278d15397edcaf117611dd2f683b07b9249c5b98b4dc8ec5e9d"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.6-1PIGSTY.el9",
-      "file": "wrappers_17-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "size": 179520,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_17-0.4.6-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "e7d5db120f4ffdad236b4461a26cd17577116d114ef6dd94611922b49ca54d92"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "wrappers_17",
-      "ver": "0.4.5-1PIGSTY.el9",
-      "file": "wrappers_17-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "size": 177976,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_17-0.4.5-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "c76d280e39b665a2bf1dc158d1556624a25f50dc2b4812a3ced2899d8507df85"
     }
   ]
 }

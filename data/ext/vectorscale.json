@@ -115,7 +115,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 17,
@@ -130,7 +130,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 17,
@@ -145,7 +145,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 17,
@@ -160,7 +160,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 17,
@@ -265,7 +265,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 16,
@@ -280,7 +280,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 16,
@@ -295,7 +295,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 16,
@@ -310,7 +310,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 16,
@@ -415,7 +415,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 15,
@@ -430,7 +430,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 15,
@@ -445,7 +445,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 15,
@@ -460,7 +460,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 15,
@@ -565,7 +565,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 14,
@@ -580,7 +580,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 14,
@@ -595,7 +595,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 14,
@@ -610,7 +610,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 14,
@@ -715,7 +715,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 13,
@@ -730,7 +730,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 13,
@@ -745,7 +745,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 13,
@@ -760,7 +760,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.8.0",
-      "count": 3
+      "count": 1
     },
     {
       "pg": 13,
@@ -835,26 +835,6 @@
       "sha256": "d9d76c95bd45d6d9109ff7dbed24d2e75abfbce744e5b78c9b99fb57f71a02f5"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_13-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "size": 366476,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_13-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "5e83928226cb665d51c7f977d21a5b23ba31e8245d6a36a20d85cd6c1a6c9294"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_13-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 322480,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_13-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "0b3cd31056605c43ee83e3617d42dbac0a10a161c3e2487699e7b19c6357dda5"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 13,
       "name": "pgvectorscale_13",
@@ -863,26 +843,6 @@
       "size": 412824,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_13-0.8.0-1PIGSTY.el8.x86_64.rpm",
       "sha256": "88c0b79f98cffcf9c94b537215bcf28965d070d6eeb507f0482c2c261ea6c3c5"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_13-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "size": 405460,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_13-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "b084ad9cec030d122e9464862b1c47c40ab811157f5aeff01c6bf541754f7205"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_13-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 359344,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_13-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "8b4c25e08c9dd4742747ec5b9e1f21911f0689a3253096d9540a08d7345b2146"
     },
     {
       "os": "el9.aarch64",
@@ -895,26 +855,6 @@
       "sha256": "ae9135e0d56f31b490ece8d2acf89f03ad408ee62e214ffb2b076338d7dd7dfa"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_13-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "size": 392631,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_13-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "6d399d378ab175fb2241f6d4154d987c2aa142a23e99005286284dae3065d3c3"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_13-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 345312,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_13-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "1368209f6b7d04ac8e04911214ca28db29228ce5d73320bedca711b4d4924385"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 13,
       "name": "pgvectorscale_13",
@@ -923,26 +863,6 @@
       "size": 419951,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_13-0.8.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "2ebcb39c49fb5e7ccbb300257f41da330a61056a5d08a8fc311a1ec20ae90d3f"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_13-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "size": 412463,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_13-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "6c51d8b2267a18453b5a45c742df5c9f69af907f2d8877376be11db143d8651a"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 13,
-      "name": "pgvectorscale_13",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_13-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 366271,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_13-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "838744ccf16b1cb5892978348471226b0c8828b1b5a38f76ddb9050871794418"
     },
     {
       "os": "el8.aarch64",
@@ -955,26 +875,6 @@
       "sha256": "2bcd41584d6efad0f1eeda4794838c26f8999a6ec8d1c7df6314e304319e4d6c"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_14-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "size": 366372,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_14-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "9782edd6adc4b6de63327bd36726e98f68aaabc290a092cca067d312b0e4ada4"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_14-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 322300,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_14-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "3d37762624bc0a25634dbc5ce767251c2eba54b5c3f03c2da8807aa236ed9b44"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "pgvectorscale_14",
@@ -983,26 +883,6 @@
       "size": 412748,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_14-0.8.0-1PIGSTY.el8.x86_64.rpm",
       "sha256": "003772bd46ab6c22fe4d266a30a5eaa024fb152d4715705b435283c2127cb47a"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_14-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "size": 405496,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_14-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "de3ad0c6efb976d318c5e39d927a808afd71b92a56355dbbc3c2be2c521d310b"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_14-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 359360,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_14-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "faf2f81b030c6fc0dfe82ce001b89b31fd85c1ec4eade3ccad559f4427b35551"
     },
     {
       "os": "el9.aarch64",
@@ -1015,26 +895,6 @@
       "sha256": "9788af9c119a8393247acbc16116f0eb46316e9ef07c635cca624350b98c8c1e"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_14-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "size": 392720,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_14-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "203c828fe8c1c9942c9a252a265e76887432ee3a0c89af6fe8aaae21d8148f5f"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_14-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 345108,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_14-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "5b9c3a0e51bb77509f0ebe430985ee7ff29ca8b3e24262bfd5fed56cbd761279"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "pgvectorscale_14",
@@ -1043,26 +903,6 @@
       "size": 420009,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_14-0.8.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "040d1cf65e7cb6eeb570d7fa532c759d85e4c979ef7dae159a81346de6ed34e7"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_14-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "size": 412486,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_14-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "1138dc8211a001ad95a1e1da127fb8df81963d6a73d9e0a6c4d5563c04028865"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 14,
-      "name": "pgvectorscale_14",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_14-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 366112,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_14-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "d53d622d1b6c727022919c111dfad30cf64d0111aca62daa0ce8a5f7bcb408fe"
     },
     {
       "os": "el8.aarch64",
@@ -1075,26 +915,6 @@
       "sha256": "024f9993b0dae9f66518edfddfffa46c1d2c78958fb2b14fab4cf1e0a636505e"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_15-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "size": 367788,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_15-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "a784b1bf6f46996e420b80f406a8b4afd26e57c5e41a9a81c2cbdb5d55462112"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_15-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 322832,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_15-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "6d97368759d863e2174681a8062e836d451519a1c33592f76313da1d7ec7bddd"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "pgvectorscale_15",
@@ -1103,26 +923,6 @@
       "size": 413028,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_15-0.8.0-1PIGSTY.el8.x86_64.rpm",
       "sha256": "7badf5ac968352df69dba43edc80c2bb0c9a21cbdbbe9ad80a2ddeef082b8fa6"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_15-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "size": 406100,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_15-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "36ca237cf9121999450e6a5a7e45cdf36983d9c181b79eb302921ee3a803fe5d"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_15-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 359820,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_15-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "12bdd915205f1ffe46c9419b0d967044879ea0e82f06e5d61bb26e9c41379d89"
     },
     {
       "os": "el9.aarch64",
@@ -1135,26 +935,6 @@
       "sha256": "0f1d5e7b69f56a3fed75a193491950b7d19967ea061331476d06a449c4e31442"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_15-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "size": 393032,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_15-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "5e91bf61c1f7002cab0df32fdab0bab26ad50b5869e6b999fd379d071f6c5eee"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_15-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 345858,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_15-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "e55f1da76ef722d2b759b1491d8eb80fbda054ee9ad0b26bb549091348e93f76"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "pgvectorscale_15",
@@ -1163,26 +943,6 @@
       "size": 421249,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_15-0.8.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "2d545260d74e5e273171711f63cbaf07f1f541f5e5feb0a657c9d37318088b4c"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_15-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "size": 414385,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_15-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "56819d6c20519e13020ffa70274942d822b50c4d4ce67ef0739c2fdd8bc4e663"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 15,
-      "name": "pgvectorscale_15",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_15-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 365984,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_15-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "34492a944bfa07fb6fa00d4b344df6e3e43f920e8d9e452ce573a39fc35be6c1"
     },
     {
       "os": "el8.aarch64",
@@ -1195,26 +955,6 @@
       "sha256": "51e86236ac51f0622c271a9f377cb4319c50ae5be6b1b73d7cfb2d709a55e8b1"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_16-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "size": 366648,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_16-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "b0c3e7c78dd3b1bec25437a60782f5ac66a36c95e37d7560aaf330f745776acf"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_16-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 322808,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_16-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "24c0a13a0ae21d02b8674c89485f02e45f9af00fea6e8e98c813c0faf61363a7"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "pgvectorscale_16",
@@ -1223,26 +963,6 @@
       "size": 413224,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_16-0.8.0-1PIGSTY.el8.x86_64.rpm",
       "sha256": "5d4cd3f90fb56403c8cf60f681e898c4854eca239844ff700dc850157c8b0491"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_16-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "size": 406056,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_16-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "0115521c4b922310e4132dceff50ca016b61e83d848b62052ef51b6d21be48d0"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_16-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 359768,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_16-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "6484dd7b37e0bc03b0bb58b2844bee0f0703d7ea116a4c3d850cb6fcdb990fa6"
     },
     {
       "os": "el9.aarch64",
@@ -1255,26 +975,6 @@
       "sha256": "be2d2c1076e24bb9a4716c2a74a37c48b05734ed3d0e901b2e8b7bcbb557ee81"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_16-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "size": 393342,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_16-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "7a5c1b58da5e5cc06e8dd99b2f6618860368e71e5e679c8bffdaaecd25e95d3a"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_16-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 345601,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_16-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "a24bd15191d9e923f9f8369902fab3a45d89366b640eaa63d0bcf08b94062534"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "pgvectorscale_16",
@@ -1283,26 +983,6 @@
       "size": 420260,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_16-0.8.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "5c16a5b7f77fa38fb936ae2f8697ee699d5634afaa0edb9e46483168e712d97d"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_16-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "size": 412840,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_16-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "af2763f369daa3197037ec3dc8d4c4cd9528aabc3fc5ad97dca45caf814abc03"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "pgvectorscale_16",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_16-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 366491,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_16-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "27b6df801d83b37221be7177449e6c3ba4a51931752499d35fb98f35dfa77ab7"
     },
     {
       "os": "el8.aarch64",
@@ -1315,26 +995,6 @@
       "sha256": "de77deb628251bb0ef5fdef2bef89b8aff644dddf52acd9f2f60506484ec2e51"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_17-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "size": 367340,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_17-0.7.1-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "da205c53bbc3083215d99f940d19fb5fca734ae3c0b195bfa196dcac5f808027"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_17-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 322732,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvectorscale_17-0.6.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "4433ee06445bf401f2f63f126b5d1f40fc5eae8309306b79193e1aba0ea169cb"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "pgvectorscale_17",
@@ -1343,26 +1003,6 @@
       "size": 413224,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_17-0.8.0-1PIGSTY.el8.x86_64.rpm",
       "sha256": "1bc97de7fb6ba9520650b261ad68dc46c060c194ccc96c5b7b1be24f5ed27e57"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.7.1-1PIGSTY.el8",
-      "file": "pgvectorscale_17-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "size": 406044,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_17-0.7.1-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "0928c0f8c42dd8ca02b79138d5d0a557ed1d642d14c9d6093f6153d65cbcdc27"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.6.0-1PIGSTY.el8",
-      "file": "pgvectorscale_17-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 359584,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgvectorscale_17-0.6.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "34d3b4d02ec5fb44942eb95195e5dd4292e879e37d615f0c4cd1dcf83603b0f3"
     },
     {
       "os": "el9.aarch64",
@@ -1375,26 +1015,6 @@
       "sha256": "df2e541dd1357a78f0068b74ec18bf431fe5d719143ba9acdb3cdf66ab3cb12a"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_17-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "size": 392978,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_17-0.7.1-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "8be4ef962cd0176d85d35ea23fc284fa3a8860b68454830761cb9ae833b9a091"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_17-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 345636,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvectorscale_17-0.6.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "e113aa80f41921e6d37374c87eca080269767233d891806a67c083f501df2835"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "pgvectorscale_17",
@@ -1403,26 +1023,6 @@
       "size": 421299,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_17-0.8.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "fb73cd030e372c153cda92e841cc34f45e23163c71f002985338f0f51ff30d54"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.7.1-1PIGSTY.el9",
-      "file": "pgvectorscale_17-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "size": 414663,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_17-0.7.1-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "c15cb31fcaa1b73f68b95ffa2baabe931619986970119f17dbeedcb492eb330c"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "pgvectorscale_17",
-      "ver": "0.6.0-1PIGSTY.el9",
-      "file": "pgvectorscale_17-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 366652,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvectorscale_17-0.6.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "21a040d38069aed62942d445b37d02f23c577ef7acac251b39561aabbd405805"
     },
     {
       "os": "d12.aarch64",

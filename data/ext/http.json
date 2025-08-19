@@ -10,7 +10,7 @@
   "tags": [
     "supabase"
   ],
-  "version": "1.6.3",
+  "version": "1.7.0",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -32,7 +32,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.6.3",
+  "rpm_ver": "1.7.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgsql_http_$v*",
   "rpm_pg": [
@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.6.3",
+  "deb_ver": "1.7.0",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-http",
   "deb_deps": [],
@@ -76,7 +76,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -91,7 +91,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -106,8 +106,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 3
+      "pkg_ver": "1.7.0",
+      "count": 4
     },
     {
       "pg": 17,
@@ -121,8 +121,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 3
+      "pkg_ver": "1.7.0",
+      "count": 4
     },
     {
       "pg": 17,
@@ -136,8 +136,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 3
+      "pkg_ver": "1.7.0",
+      "count": 4
     },
     {
       "pg": 17,
@@ -151,8 +151,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 3
+      "pkg_ver": "1.7.0",
+      "count": 4
     },
     {
       "pg": 17,
@@ -166,7 +166,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -181,7 +181,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -196,7 +196,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -211,7 +211,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -226,7 +226,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -241,7 +241,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -256,8 +256,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 16,
@@ -271,8 +271,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 16,
@@ -286,8 +286,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 16,
@@ -301,8 +301,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 16,
@@ -316,7 +316,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -331,7 +331,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -346,7 +346,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -361,7 +361,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -376,7 +376,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -391,7 +391,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -406,8 +406,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 15,
@@ -421,8 +421,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 15,
@@ -436,8 +436,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 15,
@@ -451,8 +451,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 15,
@@ -466,7 +466,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -481,7 +481,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -496,7 +496,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -511,7 +511,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -526,7 +526,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -541,7 +541,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -556,8 +556,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 14,
@@ -571,8 +571,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 14,
@@ -586,8 +586,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 14,
@@ -601,8 +601,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 14,
@@ -616,7 +616,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -631,7 +631,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -646,7 +646,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -661,7 +661,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -676,7 +676,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -691,7 +691,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -706,8 +706,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 13,
@@ -721,8 +721,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 13,
@@ -736,8 +736,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 13,
@@ -751,8 +751,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
-      "count": 4
+      "pkg_ver": "1.7.0",
+      "count": 5
     },
     {
       "pg": 13,
@@ -766,7 +766,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -781,7 +781,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -796,7 +796,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     },
     {
@@ -811,11 +811,21 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.3",
+      "pkg_ver": "1.7.0",
       "count": 1
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgsql_http_13",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_13-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24012,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgsql_http_13-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "89cdde9d12006ccc3286df4384ed270563100e8151c02f6d9e41c9afaa32dfbb"
+    },
     {
       "os": "el8.aarch64",
       "pg": 13,
@@ -855,6 +865,16 @@
       "size": 22656,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgsql_http_13-1.6.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "97e0f122bfedb8d2d14bc3660898dd4ce53ba8f56b3ff69f564c4b5dc70497e7"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgsql_http_13",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_13-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 24560,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgsql_http_13-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "f5afd1745049715ba28dc473e5886993ad1bad4ca8ee927dcedc6b66cd38001f"
     },
     {
       "os": "el8.x86_64",
@@ -900,6 +920,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "pgsql_http_13",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_13-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24867,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgsql_http_13-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "9f06667c071b268ef48b48a46c040db17865d9f25222e3708c38ca5a559441b4"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgsql_http_13",
       "ver": "1.6.3-1PGDG.rhel9",
       "file": "pgsql_http_13-1.6.3-1PGDG.rhel9.aarch64.rpm",
       "size": 23822,
@@ -935,6 +965,16 @@
       "size": 23274,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgsql_http_13-1.6.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "4aa5e8d5ea8822400076cb1d1db29190c2a28cbe7e61aa6ac462f94152207a2f"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgsql_http_13",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_13-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 26021,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgsql_http_13-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "53ce837e5fcfd9e2d9267ffc9f28521cac39df35be84c22018dd6e04035ea52e"
     },
     {
       "os": "el9.x86_64",
@@ -980,6 +1020,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pgsql_http_14",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_14-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24032,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgsql_http_14-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "a83d653117a05e7e1913740666425cc9edfe1c8db90bd91bad86ded1174779d7"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgsql_http_14",
       "ver": "1.6.3-1PGDG.rhel8",
       "file": "pgsql_http_14-1.6.3-1PGDG.rhel8.aarch64.rpm",
       "size": 22984,
@@ -1015,6 +1065,16 @@
       "size": 22704,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgsql_http_14-1.6.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "a9a8b5098eb6263086e5f6e77eed0d877cc8396059dbbbe500783fa49792ba13"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgsql_http_14",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_14-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 25028,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgsql_http_14-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "f2acc4d0271173f92c7acd34511c575d18de008b41e9613ac26811cfa299380b"
     },
     {
       "os": "el8.x86_64",
@@ -1060,6 +1120,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pgsql_http_14",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_14-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24391,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgsql_http_14-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "907c670210ec54d23b4e00301704e59c477dbefd4909a9f3b80175d51e8d1ca2"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgsql_http_14",
       "ver": "1.6.3-1PGDG.rhel9",
       "file": "pgsql_http_14-1.6.3-1PGDG.rhel9.aarch64.rpm",
       "size": 23618,
@@ -1095,6 +1165,16 @@
       "size": 23351,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgsql_http_14-1.6.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "2471e849cb54f7fa0cf1a3152df1e0d39564b685d5d833bc4616650a9e287c03"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgsql_http_14",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_14-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 26142,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgsql_http_14-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "d256033e7344c1d355ffad5dfd5d8ae39c60d8a2e0f67375d34aacd9c153cb84"
     },
     {
       "os": "el9.x86_64",
@@ -1140,6 +1220,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pgsql_http_15",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_15-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 24040,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgsql_http_15-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "a48f3b348e099cb96ac6fd438bc4882d3bd7feb78fb108da45665299f4c954f7"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgsql_http_15",
       "ver": "1.6.3-1PGDG.rhel8",
       "file": "pgsql_http_15-1.6.3-1PGDG.rhel8.aarch64.rpm",
       "size": 22976,
@@ -1175,6 +1265,16 @@
       "size": 22716,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgsql_http_15-1.6.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "1ae803e073269a7aed96f7b108b95792776976d12d1fb85a259181741899fa4c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgsql_http_15",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_15-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 25020,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgsql_http_15-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "bb2c169b0a927524a3a7d6ae2d402d7621200796029d90d246f871d14e01c1bb"
     },
     {
       "os": "el8.x86_64",
@@ -1220,6 +1320,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pgsql_http_15",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_15-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24402,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgsql_http_15-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "62c12bf1c0dc64530c8d23b3d73268d3a768509b87805fe32acfdaf9ce95677b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgsql_http_15",
       "ver": "1.6.3-1PGDG.rhel9",
       "file": "pgsql_http_15-1.6.3-1PGDG.rhel9.aarch64.rpm",
       "size": 23626,
@@ -1255,6 +1365,16 @@
       "size": 23354,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgsql_http_15-1.6.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "e693fc70148e8b828ba18498759fb10530c2478fbe8f10beb258580d17143f9c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgsql_http_15",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_15-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 26144,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgsql_http_15-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "837bd3be7956efa63e2cb6eb298299c6d2d338438f78b9e99e9db56cfed6e7a4"
     },
     {
       "os": "el9.x86_64",
@@ -1300,6 +1420,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pgsql_http_16",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_16-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 23780,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgsql_http_16-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "8fedf6367c27e15a73388356691a778477eb4dafa82a5b8dbfba05ca7c06fd49"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgsql_http_16",
       "ver": "1.6.3-1PGDG.rhel8",
       "file": "pgsql_http_16-1.6.3-1PGDG.rhel8.aarch64.rpm",
       "size": 22856,
@@ -1335,6 +1465,16 @@
       "size": 22476,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgsql_http_16-1.6.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "e9d2ba4ad6ad7595e6a0fd3027daf807cb8534934623a741837893b5603e7c5d"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgsql_http_16",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_16-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 24696,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgsql_http_16-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "13fd06743d9a48916335a44941c280254c96a6cc25903df88ce13aa84a1c6701"
     },
     {
       "os": "el8.x86_64",
@@ -1380,6 +1520,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pgsql_http_16",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_16-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24145,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgsql_http_16-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "df5d1d85544e28a9b1c5bb8ba469db6ea360032a3cdf16107e3bb23917f04064"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgsql_http_16",
       "ver": "1.6.3-1PGDG.rhel9",
       "file": "pgsql_http_16-1.6.3-1PGDG.rhel9.aarch64.rpm",
       "size": 23479,
@@ -1415,6 +1565,16 @@
       "size": 22780,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgsql_http_16-1.6.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "2aa9c44db5f55b928aaf52c77dadbe18b8f47e17e47f65b6bbf0a64b1c29bfd3"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgsql_http_16",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_16-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 25819,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgsql_http_16-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "16954d5219ebc9b223d9dad397fa5cf7465fa1dacb08de3c77b7a12751441ec1"
     },
     {
       "os": "el9.x86_64",
@@ -1460,6 +1620,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pgsql_http_17",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_17-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 23780,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgsql_http_17-1.7.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "c3b5f6b32a9883ac225b63040a5a8115eff74a8c8650b458f6a38eeb759be7c9"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgsql_http_17",
       "ver": "1.6.3-1PGDG.rhel8",
       "file": "pgsql_http_17-1.6.3-1PGDG.rhel8.aarch64.rpm",
       "size": 22860,
@@ -1485,6 +1655,16 @@
       "size": 22580,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgsql_http_17-1.6.0-2PGDG.rhel8.aarch64.rpm",
       "sha256": "66fa1a453487672f62b762de24da13d32e64e832a8b89fbefbc1b28c3e85b5c5"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgsql_http_17",
+      "ver": "1.7.0-1PGDG.rhel8",
+      "file": "pgsql_http_17-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 24704,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgsql_http_17-1.7.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "ab54255a983d16f48acec285553517c7eb0c17ec65393162d4cd7f98b473bbaf"
     },
     {
       "os": "el8.x86_64",
@@ -1520,6 +1700,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pgsql_http_17",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_17-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 24302,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgsql_http_17-1.7.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "a591c3fbd20585d8af078e097830e827e8c0495d159466fbf0f7911d92ba9d2f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgsql_http_17",
       "ver": "1.6.3-1PGDG.rhel9",
       "file": "pgsql_http_17-1.6.3-1PGDG.rhel9.aarch64.rpm",
       "size": 23445,
@@ -1545,6 +1735,16 @@
       "size": 22988,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgsql_http_17-1.6.0-2PGDG.rhel9.aarch64.rpm",
       "sha256": "7124f724c83427efa6879f95b2c49486b72997a32bcd002b0d15972c34e98bc5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgsql_http_17",
+      "ver": "1.7.0-1PGDG.rhel9",
+      "file": "pgsql_http_17-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 25817,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgsql_http_17-1.7.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "39ef433d359beafb410e422852d5dbf39b3642311657e22f49e27a32224ecf57"
     },
     {
       "os": "el9.x86_64",
@@ -1580,301 +1780,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-13-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "size": 47644,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "sha256": "be8a48e3cee68c1a5a39732cd319f0b40ffea1925749872b09405dda6753066a"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-13-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "size": 44896,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "sha256": "bf1d6360d4fe2e912878e46a947eda62aa7b9efbef443febb3148e8d572589ea"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-13-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "size": 48788,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "sha256": "94ff43cabb45eb887824249c257e2ee6db1647a04085b13406885d73f512a97a"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-13-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "size": 46296,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "sha256": "4b8023169883456a0f2204196ea212eb5ecddb8e4fb45aeacc44eee1b972d9f1"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-13-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "size": 47732,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "sha256": "75cde39e3113786534641dd456ae071dddcd4555f45b1921c5e15ad35496b24c"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-13-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "size": 49312,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "sha256": "9c5ee25f366e74565cdd98281cca41eef0dad61bdf24a37e84ec12b1d94397ae"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-13-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "size": 49012,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "sha256": "67bcd33aab6394b88eb53bfbd0fd5a56743a067b8e96079d53b2e84f1ebb253e"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-13-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "size": 50676,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "sha256": "468ec3ecf137eb6473d70b8de5c569c05746fdfdefde156e12b621e0caf624be"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-13-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "size": 43596,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "sha256": "a0b3067a119741ac7e72528a84d4d30188aa96e4ca95f48ef40fdc25495883b1"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-13-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "size": 44680,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "sha256": "a8db5999170cd7b77570df4cf64136f651c45f3ea448e754e7aae86650bc9b86"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-13-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "size": 45216,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "sha256": "27ac4ab03422436a18784394b1d7d965f280a2e167cf1539fa67f2e326c0eaa0"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-13-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "size": 46384,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-13-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "sha256": "c3d484972216530272342d29e86e206b20630c8e6e83d5b429543626e260015d"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-14-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "size": 47912,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "sha256": "a7ad853858358444cd33a0db41cb4091d51720bc710ba42c2719ed3f3557a982"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-14-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "size": 44936,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "sha256": "d2b4fecc7d665993a2bdd7da1796c52544feacf729d234641c5de161d0eb3432"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-14-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "size": 49208,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "sha256": "1d5420ff4648a9eca8d36cffbc39186a46e1db9ee3e8825ec115e9e850e3a1d3"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-14-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "size": 46304,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "sha256": "561770d4bd5e1e9091ea8f28216625cac5b02e249de45aa91c27e69a399c90c4"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-14-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "size": 47764,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "sha256": "406f507bf338b9fcbe5cfac11d703b68914a29028f795dc1dd05da6ccb21969a"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-14-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "size": 49280,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "sha256": "1fd00978a15a5e16966dbe95049ae22a9bef32e3ab1de07ca7b8a52a3104735c"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-14-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "size": 49392,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "sha256": "6ad916b633b811f27d2e5f4c2ef94055f89be5bbc039e49905367831a6dff9c6"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-14-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "size": 51088,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "sha256": "74a0088b9cc4a058abc6c345883645d92aa410b142182a3d53de15351f4ab700"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-14-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "size": 43740,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "sha256": "e4647761da43f3bb471d70aaf5183b16da74d56aeadcdc40f5a1294d8ef78836"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-14-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "size": 45020,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "sha256": "e1533daf5325e9098179be78149323429e5ce529c48c7e9b45f8738d350b2940"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-14-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "size": 45280,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "sha256": "ae5c27d9f2870acfd2c8a389cde3f74007ddb5eed49f3a00ac2aaf5061e44ee4"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-14-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "size": 46544,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-14-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "sha256": "e031a88a16fd2b1816dc92d6074f1e2ce1054cdd878d4ab44d3669f406685fe1"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-15-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "size": 48004,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "sha256": "e214e3b01b13de1d60a274d0f2aefdd182194fe6ef41b5e38a1a0bc89899afe9"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-15-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "size": 45000,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "sha256": "8d4a1c60765520a672d1ee692ced3f36edd5b42ea373ea994be2bedd957c753b"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-15-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "size": 49284,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "sha256": "a3b9b3f2df2497b70d9c11d538995fd583d5ab14735d9a10a739dee4d2933033"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-15-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "size": 46384,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "sha256": "cb555276dbe14116f9b1595dc68a747ddb98a29f1e609014011d158eb9007d52"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-15-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "size": 47840,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "sha256": "f6f3c1f271f5ad6e44d33b089ee53b7d379d18c813ed1455f291c735bf1ad5dd"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-15-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "size": 49264,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "sha256": "289dd03740e7270b3a6286394a25fd845b9d37ac459d37673bbc5cb15c4594ed"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-15-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "size": 49460,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "sha256": "be9400d69c5a3901bf0e24150e968f4180126dedbac0a9944d3ac6b7ccfceb80"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-15-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "size": 51224,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "sha256": "451d131d77fc78b592b43729116f621e32a0aa4e2c972feac58b14c6d163b9e9"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-15-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "size": 43788,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "sha256": "b5888f355072dd376c51419872f0fc23d4deb8581dd532540d93ac8b05e8b7c2"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-15-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "size": 45008,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "sha256": "77935b2a7e1df7cbceb97ab95f710444917d6c8b08181992200bcc0e457427f8"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-15-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "size": 45380,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "sha256": "6fefc12918132a087b6db7c997a04b30985a1de6e4b4a538315e208ba8cb06b4"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-15-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "size": 46624,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-15-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "sha256": "a79e4b5f075172e672a3dc0318ecf2e8b7a5fa7bb51069c8aa1f2c5685dff651"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-16-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "size": 47456,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "sha256": "9251ac7a599eb25add7a1a531f2846eab546e885fbe7a0526de78dbde7de092f"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-16-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "size": 44060,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "sha256": "c46ccd9af567c5eb4d3a982b70179c5e9278431f8324578e849480a5d131443d"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-16-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "size": 48696,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "sha256": "0693100f5bdbf1d8ae1dc4225ccbfddb6c36a4b29542b18a38d49eb835c63d09"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-16-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "size": 45512,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "sha256": "11383f18e696bbc57a81c0b76362f03617bbf74d12bb9dfc4032a4f69f0a485a"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-16-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "size": 47356,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "sha256": "d6fbe846acee1c8443c35e7f739a101c8f52a54c15108e9b0e0e3dc5ee80cbc5"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-16-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "size": 48288,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "sha256": "dfd2537573474b9085fa503908d5096020c893d8e2059e578f6a8a25415e0fe4"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-16-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "size": 48768,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "sha256": "a3ce6dde80108145604bdb82a029fd7e88a98fddd610fe61dbbacb49e9bb65a4"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-16-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "size": 49948,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "sha256": "2355a84e78ad198591b8e8b18622922fa29c38773d0997d1e22a0458cc5d26c6"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-16-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "size": 43340,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "sha256": "4c012d9d55590db624475ed09e183a5f0317068f3f681d21990a8ce44c6fbe71"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-16-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "size": 44088,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "sha256": "9a252bfa28b1f8ba3fb1b067d3fd477785a5068033ad37eab1d2b59f608b0079"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-16-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "size": 44864,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "sha256": "3864ec0e65094386de0b21b9037166a668d93798dc93eefde33cc0e52592e6f0"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-16-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "size": 45580,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-16-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "sha256": "6797d47fd5cbcb2af6601a559c8a04642cfcebc27dcdb4bd3daa1444851d67ba"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-17-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "size": 47548,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.6.3-1.pgdg120+1_arm64.deb",
-      "sha256": "bebc2fce66cd61a379a72fd622218baf683f39d4b2db25c463f6030d9f583501"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-17-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "size": 44036,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.7.0-2.pgdg120+1_arm64.deb",
+      "sha256": "d326c176bf8582f2608b29c685dcc93462bf11e5f08bd428c4fcbaaa69fc7085"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-http",
-      "ver": "1.6.3-1.pgdg120+1",
-      "file": "postgresql-17-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "size": 48740,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.6.3-1.pgdg120+1_amd64.deb",
-      "sha256": "4c45fbb39ff73cab58a3268a9f5ba257c634b282fa4f700cefe0f15eb92dcc90"
+      "ver": "1.7.0-2.pgdg120+1",
+      "file": "postgresql-17-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "size": 45528,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.7.0-2.pgdg120+1_amd64.deb",
+      "sha256": "15b4196460267ec79f84c45448f58f3ccca58d05f0c6c4c8c8e6c5cd396579d7"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-17-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "size": 47412,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.6.3-1.pgdg22.04+1_arm64.deb",
-      "sha256": "56f1779737138c597e35edd9c3f3c679fefc6ba871f9c9ad7c4edb7818a7fba7"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-17-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "size": 48396,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.7.0-2.pgdg22.04+1_arm64.deb",
+      "sha256": "5783af10a820ac7db4ab976226dcc17fa31904de47aebf559fe6ef34ed480953"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-http",
-      "ver": "1.6.3-1.pgdg22.04+1",
-      "file": "postgresql-17-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "size": 48860,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.6.3-1.pgdg22.04+1_amd64.deb",
-      "sha256": "41c26db8caa59d674f1c1aed01eaa8052a87933bc88abd7eb4462c83a7be8b6e"
+      "ver": "1.7.0-2.pgdg22.04+1",
+      "file": "postgresql-17-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "size": 50056,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.7.0-2.pgdg22.04+1_amd64.deb",
+      "sha256": "1c0578c4adac7c4a2befe5de88dfed6ab641d062c6a5ed60f8d811508aa6bbb5"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-17-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "size": 43332,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.6.3-1.pgdg24.04+1_arm64.deb",
-      "sha256": "f457fd3236b9465785ebf3af0841a596bcdd6ea9a6933d8802eee4cbb8355b57"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-17-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "size": 44124,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.7.0-2.pgdg24.04+1_arm64.deb",
+      "sha256": "190352e2936454c62d222555db381375bc18f5562b48a918654209bb3a057f7d"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-http",
-      "ver": "1.6.3-1.pgdg24.04+1",
-      "file": "postgresql-17-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "size": 44828,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.6.3-1.pgdg24.04+1_amd64.deb",
-      "sha256": "81af2ac23e63af626a0a8bfb7a45309d9223537c3f02c88cda446bb1d3af9267"
+      "ver": "1.7.0-2.pgdg24.04+1",
+      "file": "postgresql-17-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "size": 45676,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-http/postgresql-17-http_1.7.0-2.pgdg24.04+1_amd64.deb",
+      "sha256": "ea860a73628c7460626d01849bcd1629c90ddd5a4dba8fcfdbd3088109a8bcac"
     }
   ]
 }

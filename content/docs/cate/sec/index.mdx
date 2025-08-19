@@ -22,7 +22,7 @@ SEC category contains **26** PostgreSQL extensions.
 | 7060 | [`pg_tde`](/e/pg_tde) | [`pg_tde`](/e/pg_tde) | 1.0 | Percona pg_tde access method |
 | 7070 | [`pgsmcrypto`](/e/pgsmcrypto) | [`pgsmcrypto`](/e/pgsmcrypto) | 0.1.0 | PostgreSQL SM Algorithm Extension |
 | 7080 | [`pgaudit`](/e/pgaudit) | [`pgaudit`](/e/pgaudit) | 17.1 | provides auditing functionality |
-| 7090 | [`pgauditlogtofile`](/e/pgauditlogtofile) | [`pgauditlogtofile`](/e/pgauditlogtofile) | 1.6.4 | pgAudit addon to redirect audit log to an independent file |
+| 7090 | [`pgauditlogtofile`](/e/pgauditlogtofile) | [`pgauditlogtofile`](/e/pgauditlogtofile) | 1.7.1 | pgAudit addon to redirect audit log to an independent file |
 | 7100 | [`pg_auth_mon`](/e/pg_auth_mon) | [`pg_auth_mon`](/e/pg_auth_mon) | 3.0 | monitor connection attempts per user |
 | 7110 | [`credcheck`](/e/credcheck) | [`credcheck`](/e/credcheck) | 3.0 | credcheck - postgresql plain text credential checker |
 | 7120 | [`pgcryptokey`](/e/pgcryptokey) | [`pgcryptokey`](/e/pgcryptokey) | 0.85 | cryptographic key management |
@@ -249,7 +249,7 @@ SEC category contains **26** PostgreSQL extensions.
     </div>
 </Callout>
 
-<Callout title="pgauditlogtofile - 1.6.4">
+<Callout title="pgauditlogtofile - 1.7.1">
     <p>pgAudit addon to redirect audit log to an independent file</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [Extension](/e/pgauditlogtofile) | [Website](https://github.com/fmbiete/pgauditlogtofile) | Attributes |
@@ -300,7 +300,7 @@ SEC category contains **26** PostgreSQL extensions.
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [Extension](/e/credcheck) | [Website](https://github.com/MigOpsRepos/credcheck) | Attributes |
 |:----:|:---------:|:---------:|
-| Package  | [`credcheck`](/e/credcheck) |  |
+| Package  | [`credcheck`](/e/credcheck) | <Badge variant="red-subtle">LOAD</Badge> |
 | RPM  | `credcheck_$v*` | <Badge variant="blue-subtle">DDL</Badge> |
 | DEB  | `postgresql-$v-credcheck` | <Badge variant="green-subtle">LIB</Badge> |
 | Language | <a href="/list/lang#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> |  |

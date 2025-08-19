@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "3.7.3",
+  "deb_ver": "3.8.0",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pgrouting postgresql-$v-pgrouting-scripts",
   "deb_deps": [],
@@ -3010,301 +3010,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-13-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "size": 731956,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "ad0cd7d98de513ec846b0ceff829d0f91362f203de07bc6e2f88ac37fe644f56"
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-13-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "size": 732004,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "sha256": "cfb1ab913e364bf8ba6115152b5df5a422d55d92a8d413d86cdf4e6b6ce7ff46"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-13-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "size": 866132,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "6353f5393d294d2246b20a84926acfaa364c4ffcc1050746ad1efd07844d486a"
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-13-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "size": 865524,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "sha256": "3b6022e1f9f10f42d9acfff33660c0c58a8e0a72db25435f06c1466ae3091d37"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-13-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 559108,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "29ce53ba9fbd9ce2629f9c2cdb0513fb89bfabe7314d4d4c7953108ab1bfa413"
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-13-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "size": 559140,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "0ee605da1981b99b844dcc37cc2f73313a4a6ae0605fa54476f82c336ce48f8d"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-13-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 657640,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "888b90c904cd0083c4a148e2d133bb982eef8ec0d57a98c654acdad989cbcbb2"
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-13-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "size": 657644,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "6ea627d3f0dd6d4e6de8129820724726feee9c0aa5d88985395f2722958d89fe"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-13-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 559676,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "d82b1b1d5e7c8dc3a5b5515f296980e3c36b82ad698d0e7c494c9df755782039"
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-13-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "size": 559764,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "f8a9040446c9fbaf2aab8a87961c78b6fb5b5677a696001ad1ad61ad66e386fb"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-13-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 648316,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "cd42378887f9c1654d1f926bb6ea489d270a6ee014151b82dc8255aa13d4a280"
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-13-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "size": 648388,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-13-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "b319fb971b06f4d7db47192f476e2556c9ad5de5f382e09e37e61a8968964c87"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-14-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "size": 731736,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "5e086afd6354525e34e00fdd95bf4243cf0346810212d5f27bfd04514592b199"
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-14-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "size": 731824,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "sha256": "f076c26476cb46b0453b4dbbd785c89160392210dfff3a9a83001f7c46212e6f"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-14-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "size": 866088,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "74e39d3e012e7eaf8e03b4143ed2338cb38168da00b08505d05e9244749b6f39"
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-14-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "size": 866312,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "sha256": "30c2419a981126b811ffa79066f21a917ac54516026ac1c04cef5a3d2c63a74b"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-14-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 559300,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "f5f18ceada7be88da1b716422066fa1d6970de8575235c63b6910560eab946d3"
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-14-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "size": 559368,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "fbd90cc3a88fa2e4a2a1b5d1ccdcb2d39424954e259309b21eb22ff7bf541d40"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-14-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 657560,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "a1723a4a0998e130737a24b10ef3b3393c0aad70c0471bc300baceecc5fc6595"
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-14-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "size": 657708,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "10b509e27c2f5ef4cb24377f0204e82a8846b492ce0615f1a79c234d4c0105b2"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-14-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 559356,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "f67f23d18811a3a7ca520c7a0e19f008c86ac2d1f039926c7e814bf666a50940"
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-14-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "size": 559380,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "1456f80e16a7bc8cd56eed8d13642e2de7d699320c2029cb422848e45d367282"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-14-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 648192,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "bf2bc6e81aab78a523508379a6d1ea9a892ca47bf54f1d3a622d73bdfa989ca8"
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-14-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "size": 648564,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-14-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "dd53036ce81b9a1988eb43272d01a5c65a591f011b93581c92c9c5f28588e1e0"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-15-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "size": 731632,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "a4592477a0446001a45e016b11f2fe282dbf3080ba980eb04736ff76f11dc2e5"
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-15-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "size": 731740,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "sha256": "2ac1213369621ff14f824c740c7715e86745530a2915255223dbb08d366b08a1"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-15-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "size": 865860,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "56e7fab3eaa983f7367cf366ef4fa126330770eac29d333527e55e2a964ca1bc"
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-15-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "size": 865628,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "sha256": "5dd8246bef18c2256ad77bb8b7f9be699712d56852b6e7ecb21eda3c37a403a5"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-15-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 559396,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "c64c66e3b0c8cf6afc11190b06bc4ac42b33600e17454fcdd3095f5b323609e8"
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-15-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "size": 559436,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "152dad626fe4fe33d7e2fce7b595d2756c1d956d2d9815740972185c59837f30"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-15-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 657480,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "9ee7e193289d7036c29370c2c92494b3773a6058ebb0f01879383215ef9618c2"
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-15-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "size": 657588,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "4d9f9f7fbfcc0c2ff56dd0b6c4d92001f6185baad5f5140d5b15a490e5fe31c8"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-15-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-15-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "size": 559436,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "5d96229b24a07662abdec018c7dc8b389d37ee8525fd26b969ba57884504dab4"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 15,
+      "name": "postgresql-15-pgrouting",
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-15-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "size": 648268,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "1734e5283ce01ddc510ec2c21526d4f5bfbc27390ccd549114bdeb0db175e938"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-pgrouting",
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-16-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "size": 731720,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "sha256": "162870fec0b9ef996f4fc20ca8b71d4f5437b5004110a3854f3118ebeee87c58"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-pgrouting",
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-16-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "size": 865716,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "sha256": "d744803d6c4f40a10230e44dfe152ff0e6ff291434c93ad93fbe761c347cc0fe"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-pgrouting",
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-16-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "size": 559512,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "0d479444d412598c093c06115829c3332c4dd799e75a43019bd9340423e9ee34"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-pgrouting",
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-16-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "size": 657484,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "e51cd39d50a6801ab820d494c105dc7afef3df31d7cbcdc0f79a15d85bf8d9d5"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-pgrouting",
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-16-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "size": 559484,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "320d1900ade6efaef229e26600d4ff467786af1cfd072b22c4e9147f1b5bcad1"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-pgrouting",
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-16-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "size": 648184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "eca41095e16a122584ab44b52968f364f023cf5b2c22b5d10f5acb6c8e46edc7"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 17,
+      "name": "postgresql-17-pgrouting",
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-17-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "size": 731648,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1.pgdg120+1_arm64.deb",
+      "sha256": "9c4687337f40430f6ff06015bc7896ed860bc3fa83af42f517978e444fcc0e25"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 17,
+      "name": "postgresql-17-pgrouting",
+      "ver": "3.8.0-1.pgdg120+1",
+      "file": "postgresql-17-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "size": 867232,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1.pgdg120+1_amd64.deb",
+      "sha256": "60cccff046a85de7c72934154c5ee56cc3452b5eb66596f03fbfd6e905941bf3"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 17,
+      "name": "postgresql-17-pgrouting",
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-17-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "size": 559344,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "cf55c7f0dea488c76995847bfeec34004c7809636c770f51205615a6348cc55c"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 17,
+      "name": "postgresql-17-pgrouting",
+      "ver": "3.8.0-1.pgdg22.04+1",
+      "file": "postgresql-17-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "size": 657592,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "3e97083794e601500e532c14a1e2c52a68bf51596be87a99bac30aefea26570f"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 17,
+      "name": "postgresql-17-pgrouting",
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-17-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
       "size": 559472,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "bdff15b2fa828ec5990dc9128e14a7726fbcaf79bba81147c179863c63b36384"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-15-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 648244,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-15-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "ae00bafaff61ebd71c49e2f5e04e567d33a4c34533b52ceef136e44b4556ebf8"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-16-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "size": 731636,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "4335ee2d0a1c25654264fe604ae61d372350d9f876b7ab164b2413bc5d46af21"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-16-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "size": 865800,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "a7c38c4c5f2c05619f3e39c2cda5644640a7e5dda3eaf2d5ec22aa8f1b947716"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-16-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 559464,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "30bcf646cc026d61a59e7ae6f034ffa4b500bf550eee4f87b5d557d70a43f5dc"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-16-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 657612,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "fc29141b5cc9c381cfa846d9aec6fb5f9d64303b7f18e615bd08d20526ac0b8d"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-16-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 559432,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "7f3398147ac97405327ef8eaa9ede2e34b1773f7fedd91fef29bf56ac44b1827"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-16-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 647932,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-16-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "d2fcd812a6db83cc0e5e01cec721279d32d00672ddbda3d75b4a9c41357e49b1"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 17,
-      "name": "postgresql-17-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-17-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "size": 731748,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "bf51c2ac0406c2a1e86b0c428ac144b6c5132a7d8606f2131d25dbeedfd2ac20"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 17,
-      "name": "postgresql-17-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg120+1",
-      "file": "postgresql-17-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "size": 865672,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "a31d716bb5a75a2a28d9abe77588fb87c02879aaf4fa4fa5be207a481c967594"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 17,
-      "name": "postgresql-17-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-17-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 559432,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "a775c068ac521f141a8cb44b7abc580b8ccf16e24d1988fe92de8a681403b041"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 17,
-      "name": "postgresql-17-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg22.04+1",
-      "file": "postgresql-17-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 657452,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "d46f58c26e9c1f24b7baa5a0d6a75f32ce3b75004b0b53ee490c4b48621c2d43"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 17,
-      "name": "postgresql-17-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-17-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 559400,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "b7519259d5542dd6fd33b969319ce4fd7a4bcd2bbd48dd6e0256172975e01d02"
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "81fb2178f3f63145ba615face3ff753632e77c0da4dae73af1a12616c8e1e2fc"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pgrouting",
-      "ver": "3.8.0-1~exp1.pgdg24.04+1",
-      "file": "postgresql-17-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 647960,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "8e2323c8556aefaa6069ade30f1ec41a7ed0dfa21b3734592ffcbefb9d5b243b"
+      "ver": "3.8.0-1.pgdg24.04+1",
+      "file": "postgresql-17-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "size": 648072,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgrouting/postgresql-17-pgrouting_3.8.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "fb9a3ce7be6bfaf2684f3a89272b9246af1832a2f35369d377c3385cca28e9ab"
     }
   ]
 }

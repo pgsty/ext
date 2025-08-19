@@ -8,7 +8,7 @@
   "url": "https://github.com/okbob/plpgsql_check",
   "license": "MIT",
   "tags": [],
-  "version": "2.8.1",
+  "version": "2.8.2",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -32,7 +32,7 @@
   ],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "2.8.0",
+  "rpm_ver": "2.8.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "plpgsql_check_$v*",
   "rpm_pg": [
@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "2.8.1",
+  "deb_ver": "2.8.2",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-plpgsql-check",
   "deb_deps": [],
@@ -76,7 +76,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -91,7 +91,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -106,8 +106,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 5
+      "pkg_ver": "2.8.2",
+      "count": 6
     },
     {
       "pg": 17,
@@ -121,8 +121,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 5
+      "pkg_ver": "2.8.2",
+      "count": 6
     },
     {
       "pg": 17,
@@ -136,8 +136,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 5
+      "pkg_ver": "2.8.2",
+      "count": 6
     },
     {
       "pg": 17,
@@ -151,8 +151,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 5
+      "pkg_ver": "2.8.2",
+      "count": 6
     },
     {
       "pg": 17,
@@ -166,7 +166,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -181,7 +181,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -196,7 +196,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -211,7 +211,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -226,7 +226,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -241,7 +241,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -256,8 +256,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 19
+      "pkg_ver": "2.8.2",
+      "count": 20
     },
     {
       "pg": 16,
@@ -271,8 +271,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 19
+      "pkg_ver": "2.8.2",
+      "count": 20
     },
     {
       "pg": 16,
@@ -286,8 +286,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 19
+      "pkg_ver": "2.8.2",
+      "count": 20
     },
     {
       "pg": 16,
@@ -301,8 +301,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 19
+      "pkg_ver": "2.8.2",
+      "count": 20
     },
     {
       "pg": 16,
@@ -316,7 +316,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -331,7 +331,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -346,7 +346,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -361,7 +361,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -376,7 +376,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -391,7 +391,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -406,26 +406,26 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 26
-    },
-    {
-      "pg": 15,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "plpgsql_check",
-      "ext": "plpgsql_check",
-      "pname": "plpgsql_check_15",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
+      "pkg_ver": "2.8.2",
       "count": 27
     },
     {
       "pg": 15,
+      "os": "el8.x86_64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "x86_64",
+      "pkg": "plpgsql_check",
+      "ext": "plpgsql_check",
+      "pname": "plpgsql_check_15",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "2.8.2",
+      "count": 28
+    },
+    {
+      "pg": 15,
       "os": "el9.aarch64",
       "type": "rpm",
       "os_code": "el9",
@@ -436,8 +436,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 26
+      "pkg_ver": "2.8.2",
+      "count": 27
     },
     {
       "pg": 15,
@@ -451,8 +451,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 27
+      "pkg_ver": "2.8.2",
+      "count": 28
     },
     {
       "pg": 15,
@@ -466,7 +466,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -481,7 +481,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -496,7 +496,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -511,7 +511,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -526,7 +526,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -541,7 +541,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -556,8 +556,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 26
+      "pkg_ver": "2.8.2",
+      "count": 27
     },
     {
       "pg": 14,
@@ -571,8 +571,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 37
+      "pkg_ver": "2.8.2",
+      "count": 38
     },
     {
       "pg": 14,
@@ -586,8 +586,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 26
+      "pkg_ver": "2.8.2",
+      "count": 27
     },
     {
       "pg": 14,
@@ -601,8 +601,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.0",
-      "count": 34
+      "pkg_ver": "2.8.2",
+      "count": 35
     },
     {
       "pg": 14,
@@ -616,7 +616,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -631,7 +631,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -646,7 +646,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -661,7 +661,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "2.8.1",
+      "pkg_ver": "2.8.2",
       "count": 1
     },
     {
@@ -2060,6 +2060,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "plpgsql_check_14",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_14-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 108652,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/plpgsql_check_14-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "b035ba6119565a41c5c68df8135c1fa102e7d79f8c2db771cde8f716cfd75452"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "plpgsql_check_14",
       "ver": "2.8.0-1PGDG.rhel8",
       "file": "plpgsql_check_14-2.8.0-1PGDG.rhel8.aarch64.rpm",
       "size": 107372,
@@ -2315,6 +2325,16 @@
       "size": 90764,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/plpgsql_check_14-2.2.3-1.rhel8.aarch64.rpm",
       "sha256": "947d6fe4c7e0b48a2d9cc9685d32462813cbb7da0e857080de92fff1f32a5e22"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "plpgsql_check_14",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_14-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 118048,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/plpgsql_check_14-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "ffaaf1315a1dbe038a6230cf0cdfc906c6ccc3cd9b292ada4cd703df13d518cc"
     },
     {
       "os": "el8.x86_64",
@@ -2690,6 +2710,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "plpgsql_check_14",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_14-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 109979,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/plpgsql_check_14-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "77940547e20ebb18cf0d9a82343837272cf0ecdf512c7f3895ba9d540c3d009f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "plpgsql_check_14",
       "ver": "2.8.0-1PGDG.rhel9",
       "file": "plpgsql_check_14-2.8.0-1PGDG.rhel9.aarch64.rpm",
       "size": 109103,
@@ -2945,6 +2975,16 @@
       "size": 93099,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/plpgsql_check_14-2.2.3-1.rhel9.aarch64.rpm",
       "sha256": "687facfae1aa1f7ef0140667804e43a3648c0f09aa44fcf8a350d5c57df658e8"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "plpgsql_check_14",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_14-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 115541,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/plpgsql_check_14-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "cba4bd1465faee540040e2e2f9ba9778e471b8632391837e26bf2e54670c7518"
     },
     {
       "os": "el9.x86_64",
@@ -3290,6 +3330,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "plpgsql_check_15",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_15-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 108660,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/plpgsql_check_15-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "f9fc7b7e04bfdad45b40c42f0056eed79af11677a57021fb30ecaec1bbda86b8"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "plpgsql_check_15",
       "ver": "2.8.0-1PGDG.rhel8",
       "file": "plpgsql_check_15-2.8.0-1PGDG.rhel8.aarch64.rpm",
       "size": 107348,
@@ -3545,6 +3595,16 @@
       "size": 90852,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/plpgsql_check_15-2.2.3-1.rhel8.aarch64.rpm",
       "sha256": "429b29236c1c74772927c0cbeb3484dd612f2a4ee291f47c75a7a73800c54301"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "plpgsql_check_15",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_15-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 117948,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/plpgsql_check_15-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "0385e4e9a219823be104a5ace53dcef33a8bd873d6ba8d59502606ecd741b42a"
     },
     {
       "os": "el8.x86_64",
@@ -3820,6 +3880,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "plpgsql_check_15",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_15-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 109968,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/plpgsql_check_15-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "44f59284e0ac5dbdad5675d284610d8d4318bada3564c385a8e3304bc690cc87"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "plpgsql_check_15",
       "ver": "2.8.0-1PGDG.rhel9",
       "file": "plpgsql_check_15-2.8.0-1PGDG.rhel9.aarch64.rpm",
       "size": 109101,
@@ -4075,6 +4145,16 @@
       "size": 93182,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/plpgsql_check_15-2.2.3-1.rhel9.aarch64.rpm",
       "sha256": "0a3f3f678c94332eefcb8edc5d9c51167dbe62fce0224c3a70ae2a9f0393f787"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "plpgsql_check_15",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_15-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 115578,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/plpgsql_check_15-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "42141aaaa9322547bff9386e4b37d51f8443b265ea17d83a24a2f67bf6a6f9b1"
     },
     {
       "os": "el9.x86_64",
@@ -4350,6 +4430,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "plpgsql_check_16",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_16-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 107020,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/plpgsql_check_16-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "e8d4192826c4b35de1fb38b872b8889b51a145933560ff4322ca8e436ac3f0a5"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "plpgsql_check_16",
       "ver": "2.8.0-1PGDG.rhel8",
       "file": "plpgsql_check_16-2.8.0-1PGDG.rhel8.aarch64.rpm",
       "size": 106060,
@@ -4535,6 +4625,16 @@
       "size": 95264,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/plpgsql_check_16-2.5.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "f42b9d0d8be74fd950d636f406a087e5d8f39bce814c49f20dc6271920fe8f88"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "plpgsql_check_16",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_16-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 115948,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/plpgsql_check_16-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "3f865f521499da3c3c5def01b4c552b921bd95ce96fcb5f10e59a5b978a25776"
     },
     {
       "os": "el8.x86_64",
@@ -4730,6 +4830,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "plpgsql_check_16",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_16-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 106001,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/plpgsql_check_16-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "d4d9d79b84eeb849d309c5227f482fe6b2f276eb7afa111b89b2a5ff1755560a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "plpgsql_check_16",
       "ver": "2.8.0-1PGDG.rhel9",
       "file": "plpgsql_check_16-2.8.0-1PGDG.rhel9.aarch64.rpm",
       "size": 105158,
@@ -4915,6 +5025,16 @@
       "size": 97016,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/plpgsql_check_16-2.5.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "740efe5e8a6a0959d86868741367acc4d24f7da90ae983096352668ce3d9bbd5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "plpgsql_check_16",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_16-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 111538,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/plpgsql_check_16-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "abc136d32d4fe7261e11d1497e3513af982119e9784dd36f45eb89ad112c112b"
     },
     {
       "os": "el9.x86_64",
@@ -5110,6 +5230,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "plpgsql_check_17",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_17-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 106976,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/plpgsql_check_17-2.8.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "ecd9b36584a8c38f6ed6c1b5a4ed2e88d30a1f1d255fbdc2308b97f24cd0eb95"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "plpgsql_check_17",
       "ver": "2.8.0-1PGDG.rhel8",
       "file": "plpgsql_check_17-2.8.0-1PGDG.rhel8.aarch64.rpm",
       "size": 105972,
@@ -5155,6 +5285,16 @@
       "size": 99536,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/plpgsql_check_17-2.7.11-1PGDG.rhel8.aarch64.rpm",
       "sha256": "69ef66ccfc31991ca23e570d1749d2d3e26a652b3a31458febc3776f3744623f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "plpgsql_check_17",
+      "ver": "2.8.2-1PGDG.rhel8",
+      "file": "plpgsql_check_17-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 116064,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/plpgsql_check_17-2.8.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "438d6e1c367e3155f10b4aca4eddd2089ed993daccdf7a831a64bf2c3c301fe4"
     },
     {
       "os": "el8.x86_64",
@@ -5210,6 +5350,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "plpgsql_check_17",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_17-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 105953,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/plpgsql_check_17-2.8.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "f0c887651853a978d551599ba9420eb27a14c39f070d6fbe764dfde2d231a8a9"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "plpgsql_check_17",
       "ver": "2.8.0-1PGDG.rhel9",
       "file": "plpgsql_check_17-2.8.0-1PGDG.rhel9.aarch64.rpm",
       "size": 105216,
@@ -5255,6 +5405,16 @@
       "size": 100638,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/plpgsql_check_17-2.7.11-1PGDG.rhel9.aarch64.rpm",
       "sha256": "0fb97dc457d9c6e0ff69cc0f9711a88f1a0c0aa46f6aa648efb0bc050b6d8f40"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "plpgsql_check_17",
+      "ver": "2.8.2-1PGDG.rhel9",
+      "file": "plpgsql_check_17-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 111521,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/plpgsql_check_17-2.8.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "433a207e2866ce086922d8cf711b088ac56fd3c3d973f6b12baba1b08976b653"
     },
     {
       "os": "el9.x86_64",
@@ -5370,241 +5530,241 @@
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-14-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "size": 288932,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "sha256": "dcfba37ae5ff2c8ce50e2db3249f15275a7dc8058014ced60683d5dc618ef8b3"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-14-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "size": 290976,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "sha256": "ae814ea40d1a28d9390aa04848fa012587b84dc28ee04e951f0776f7eec26009"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-14-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "size": 300300,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "sha256": "ca0ee5848896ba083590ec575a05a41ec3e85ef42c907b1673f911dd45bc411d"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-14-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "size": 302612,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "sha256": "ba6a83b7cf9e4afded285b9782f04f8de1a7125155af1a00e5ba021ab5f7ab75"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-14-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "size": 347848,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "sha256": "03d72f4a4dd124286f5b4982d491919903fff190558384d3e23956017669cede"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-14-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "size": 350456,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "6f82968f80c88103bc9f836ac563b852f58bc42481dfc7cc6c8dd730b4cd164b"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-14-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "size": 358728,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "sha256": "91ddb551c373521d8b1b803e082bba3a64ca5445effec5c5742187436c43d603"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-14-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "size": 361796,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "76e601c5af17e008ffb02b2a7aff36065faae5278a6fb8de17388c9c51c1d522"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-14-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "size": 289236,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "sha256": "06f83410a75fef121eaf335da43263dd310057046fd457eef414a7756c702e83"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-14-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "size": 290488,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "512745f1f6e074ecd8f0d4a58afac701e134f4901396ba1b4978c916ba81559f"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-14-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "size": 300156,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "sha256": "4ff458d853ea6e11524f1e5a5ce53022ebee6d5cc18fbc08f1da1bcad3e4473c"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-14-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "size": 302592,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-14-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "0c46088b16f0550dfb69604943593202f83880bc52bd2b4513b67521d41d4ae0"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-15-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "size": 289160,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "sha256": "105c7109018a76026a4542e61d704158f13feb981ebeb59d2eaef27e8bc38b3e"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-15-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "size": 290852,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "sha256": "42fc00549df104995f59d713eecb29c1e5278b1df1cc0acf5745e5a6da3f7f61"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-15-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "size": 300304,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "sha256": "0d950487f4d736a9a3c523fede62b38f74cae53c783f53289e581c20668b9000"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-15-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "size": 302912,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "sha256": "840785b563e3cfe64bbc6c9334ccd61a5cc9a5ace55b732471ab39d298be64da"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-15-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "size": 364076,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "sha256": "7635e877d9e3323c531bec7d5db7f4cadefd0ce8ef1bd6f1cb19ab231573664d"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-15-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "size": 366748,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "b2a7cbbfdcd884d9f11c5ed2c4c6ac8ce7ea5cca9aa6c7f333bba14854753582"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-15-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "size": 375116,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "sha256": "ad052ceeee14c082456cd8ca5251a88ba2a4f2218c8f4fdbcd25e0c3c702f154"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-15-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "size": 378112,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "d9856553656b51ae297aa8e3d589ace9ed3ba164b47565f175ddcd774e48fdcb"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-15-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "size": 289280,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "sha256": "18c89aeb4a1dc359cf4a77d504f4ed5f8928d8f533a38ca2b0824ebf6c3426da"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-15-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "size": 291048,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "36eb657c04d991cfbae7f51347e2cce3b0ac97fee52c6d17d08592b988bdb87f"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-15-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "size": 300424,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "sha256": "04359e02cb8bcb1a6b3551143063dabc961bc63b6b12654999e2e0a92de17afe"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-15-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "size": 302792,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-15-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "95c8af60ca1cf4b57d4b039fe10e07f7050438c3c920abbd5cd1b1a545bdbca1"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-16-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "size": 285572,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "sha256": "cb4aabe1e5cf25029e66cbdab30c7906cdc3d7c855f7a0fe340bbe28f7b1e0e4"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-16-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "size": 287744,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "sha256": "9c00dee010b4675497d0c39b2fa20edc6000388ace0c52ad8bb560bd1c22142b"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-16-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "size": 296852,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "sha256": "35c7cac3964d736ef16b5a6fcf6808a111e0c0e15e41b752862c6900ab6f8467"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-16-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "size": 299112,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "sha256": "f9fe6829901b98573bc114699bdd0e1d914bccb05ce9d2838d6cda9ffc05fcc0"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-16-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "size": 360000,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "sha256": "ca685260ab8b47357ee4e7561d06ffdec5bbcae1432c86493ab1f0e6e80865ad"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-16-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "size": 363044,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "0484f198a100898aa1fb162478f52e84ec5c5373e49387f76e677bcc2c85640d"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-16-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "size": 371096,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "sha256": "7795585e4d2373a21ea691b2e787eef50353019f6314a3ce3599afa1770d6fe5"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-16-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "size": 374380,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "5ae5c9662af6a1663587c756074e679c4052ed18c15e4fa5842139f1613719d4"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-16-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "size": 284572,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "sha256": "f877643434ac9587f5b3569c31a76b574cff88c78634249b8908182f0ace6659"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-16-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "size": 286872,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "0169fff970b811c803cd45ee8fd179ab14c55b5d7c06a4f2bc7565adf7057b75"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-16-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "size": 296200,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "sha256": "da767ce041a9c4dce7471a7b79ac89df19c1bc30651fb1910de9ebfc3fd18c89"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-16-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "size": 298516,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-16-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "2a3d2b4abb8b56103c750fdd4181e867e9b2c59b331c6a51a566bff239abceee"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-17-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "size": 285668,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.1-1.pgdg120+2_arm64.deb",
-      "sha256": "127a4caac110c1b6e4d9336cfd3f916b3b8b30e21433c27d62f81f4e7dedb794"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-17-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "size": 287864,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.2-1.pgdg120+1_arm64.deb",
+      "sha256": "df192180470841a98d2d19f991a5520471cf3aa47a9a7947c522bc522699ad55"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-plpgsql-check",
-      "ver": "2.8.1-1.pgdg120+2",
-      "file": "postgresql-17-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "size": 297068,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.1-1.pgdg120+2_amd64.deb",
-      "sha256": "4e1d9de2b53660d8416cf674c16c933c5d232abe6ba4bccd9acc25004ed5f4f8"
+      "ver": "2.8.2-1.pgdg120+1",
+      "file": "postgresql-17-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "size": 299264,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.2-1.pgdg120+1_amd64.deb",
+      "sha256": "4dd8f4e392a5b7d6920c3a1b34754e36b653d4b2f0c5a46e1af0564cda5380eb"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-17-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "size": 366716,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.1-1.pgdg22.04+2_arm64.deb",
-      "sha256": "be107df452d48ccf9f80425ac3493c91aa0d2c64a0f324e8eab20b9bc7c45f9e"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-17-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "size": 368876,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.2-1.pgdg22.04+1_arm64.deb",
+      "sha256": "494c6ddb8790196651790dbee90a2f56d71530571dbfd045ad91ad69357a9489"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-plpgsql-check",
-      "ver": "2.8.1-1.pgdg22.04+2",
-      "file": "postgresql-17-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "size": 377792,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.1-1.pgdg22.04+2_amd64.deb",
-      "sha256": "4007908098636281b8b361b67ca408e0f210f55f965bcb10a8f17c7e69a0d7f0"
+      "ver": "2.8.2-1.pgdg22.04+1",
+      "file": "postgresql-17-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "size": 380224,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.2-1.pgdg22.04+1_amd64.deb",
+      "sha256": "8d4621985a54f5d97fb8c106a9fd4a4961c9bd226964949a068eea71b97d15a3"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-17-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "size": 284616,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.1-1.pgdg24.04+2_arm64.deb",
-      "sha256": "297288a79d71d9296196ee5bbf19d2d4642754a49c1c643aaad2c2f6dde6471e"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-17-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "size": 286924,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.2-1.pgdg24.04+1_arm64.deb",
+      "sha256": "329919e35459da402c663acd4426a8461d0178e8558912fd794e4a3196e0e8b1"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-plpgsql-check",
-      "ver": "2.8.1-1.pgdg24.04+2",
-      "file": "postgresql-17-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "size": 296440,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.1-1.pgdg24.04+2_amd64.deb",
-      "sha256": "c20db071559d78931f05e2fde96e26634e3ec730ef642e6938dbc2a12efa22ca"
+      "ver": "2.8.2-1.pgdg24.04+1",
+      "file": "postgresql-17-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "size": 298500,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/plpgsql-check/postgresql-17-plpgsql-check_2.8.2-1.pgdg24.04+1_amd64.deb",
+      "sha256": "e4355266ea05957a4485bb89e25350c2106ab0ff234ec2a1cfbaf615a3ece294"
     }
   ]
 }

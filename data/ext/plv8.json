@@ -107,7 +107,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 17,
@@ -122,7 +122,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 17,
@@ -136,7 +136,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "3.2.3",
+      "pkg_ver": "3.2.4",
       "count": 1
     },
     {
@@ -152,7 +152,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 17,
@@ -257,7 +257,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 16,
@@ -272,7 +272,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 16,
@@ -287,7 +287,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 16,
@@ -302,7 +302,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 16,
@@ -407,7 +407,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 15,
@@ -422,7 +422,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 15,
@@ -437,7 +437,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 15,
@@ -452,7 +452,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 15,
@@ -557,7 +557,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 14,
@@ -572,7 +572,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 14,
@@ -587,7 +587,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 14,
@@ -602,7 +602,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 14,
@@ -707,7 +707,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 13,
@@ -722,7 +722,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 13,
@@ -737,7 +737,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 13,
@@ -752,7 +752,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "3.2.4",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 13,
@@ -827,16 +827,6 @@
       "sha256": "f218957b7c349b820cebafbdeba5be81ed928867a4dc21fe679fe460e7e45b5e"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 13,
-      "name": "plv8_13",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_13-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 7313448,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/plv8_13-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "acb668d09c34fdaf4f186e67c6a4815e393dee6be400e16d33fcde18b9f842fc"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 13,
       "name": "plv8_13",
@@ -845,16 +835,6 @@
       "size": 7859140,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_13-3.2.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "74aaa4b5ef717d9ea7de3ee0a563cc54a0da33ffc7e542640b64b3c15363917c"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 13,
-      "name": "plv8_13",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_13-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 7858892,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_13-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "8ff88589e9d570dc8089797ed444ccea6c2a27009a5184e1476b6c5337696104"
     },
     {
       "os": "el9.aarch64",
@@ -867,16 +847,6 @@
       "sha256": "cc4c80b625fb2c3dadeb3de18279145b0a1db427c70546f273e60c3a3baa66bd"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 13,
-      "name": "plv8_13",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_13-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 7682371,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/plv8_13-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "31d6ef815371ef92799342464215cf2cad0c2240c3507e5246bff3182804e332"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 13,
       "name": "plv8_13",
@@ -885,16 +855,6 @@
       "size": 7933692,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_13-3.2.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "45d70c4fc14d4f6c3bcaef7aff798695b26acbf60e271f371ba7af87dad73a23"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 13,
-      "name": "plv8_13",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_13-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 7933562,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_13-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "ba071e6985aef456408a22f7f03e9727ec8307376f5881e1eb6702749b984f9b"
     },
     {
       "os": "el8.aarch64",
@@ -907,16 +867,6 @@
       "sha256": "52e5f4892ebaf3cf3ed04ee966a08929d7b432e8e5b3d142a8ed084b94558a34"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 14,
-      "name": "plv8_14",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_14-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 7313500,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/plv8_14-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "35b2013770efbc2f6861f6a4f2c5c44f73153c7f218fc088bd4620d4385dd0db"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "plv8_14",
@@ -925,16 +875,6 @@
       "size": 7859228,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_14-3.2.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "7c46a1abcb1e63a1fd4d9316c483bac7e50c6f5a2b2db78ccadd80328e732941"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 14,
-      "name": "plv8_14",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_14-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 7859072,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_14-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "9d77367946135f4e9e07292de6d81e117d3991c1deb38602f2181c4a4186f96a"
     },
     {
       "os": "el9.aarch64",
@@ -947,16 +887,6 @@
       "sha256": "a4d2d00ca0927dbb6e656ab869c2b65f208358e9d0363f313518f29e213f9d5c"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 14,
-      "name": "plv8_14",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_14-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 7679857,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/plv8_14-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "4682b70af3369dcfffac4bcebbe166e1de14c5ee0360bad48b805d8bdf20ef9f"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "plv8_14",
@@ -965,16 +895,6 @@
       "size": 7948797,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_14-3.2.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "b95808429c16cf6ebaae9e564e1183c8bba9ea1933fa4a19b51a7a45403b6eed"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 14,
-      "name": "plv8_14",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_14-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 7947810,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_14-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "8059eff26b29d6eb67f8a4e96a8a17d8babee596e46d2bbc52993323ddcf8620"
     },
     {
       "os": "el8.aarch64",
@@ -987,16 +907,6 @@
       "sha256": "f88efc584531dc45618f5613903185709f5b67b69b519c9b1f067f890b1a49fb"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 15,
-      "name": "plv8_15",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_15-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 7313460,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/plv8_15-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "ea8c1d85d7231cf7b9bdc1357742f561f6fd463c7a71ad34706024afa8066cf4"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "plv8_15",
@@ -1005,16 +915,6 @@
       "size": 7860544,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_15-3.2.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "9e8843c312a7adbc7b5b067071dd7103cf0c59e58bf693d1ce618eb7d01afe34"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 15,
-      "name": "plv8_15",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_15-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 7858516,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_15-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "8f1901b37e8df1750488ee3b7d38b1f4dca451b371437ec39b45f2fc03a3a779"
     },
     {
       "os": "el9.aarch64",
@@ -1027,16 +927,6 @@
       "sha256": "a53f3edc6c99d7b8d70a1ff35425f669220889a7645ec912ebe3b5f8562ff0f9"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 15,
-      "name": "plv8_15",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_15-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 7676993,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/plv8_15-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "1699759f9402405f7e84c7d5d1959d9d755c178a4d30297751c7ae7fa8b328c9"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "plv8_15",
@@ -1045,16 +935,6 @@
       "size": 7949961,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_15-3.2.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "3cc1834537a2bd78460bb8751df49ae947c5cba22018a11c2d4d0fdd2fc4f956"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 15,
-      "name": "plv8_15",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_15-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 7935269,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_15-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "f102f232076c1cb04162f69f21d1cf8ac83bb781ce75f61ebe9d93110daae2c6"
     },
     {
       "os": "el8.aarch64",
@@ -1067,16 +947,6 @@
       "sha256": "5434b17af43d10c96043472b9634463c66d87b91c30cddb5d43c374c13c6e836"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 16,
-      "name": "plv8_16",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_16-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 7312840,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/plv8_16-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "65182131b8041db086f3805ed20f9a13e3a93d539d408bb2a88bd80aff73ea0c"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "plv8_16",
@@ -1085,16 +955,6 @@
       "size": 7859484,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_16-3.2.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "e3edd7b7d870a7c39b83c748a79586990f18cc69bee0bf3725c9ce4982d95d23"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 16,
-      "name": "plv8_16",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_16-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 7859048,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_16-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "d55331cb0c6191141ffddf44a689a3af95154189f94a6fd0302d2fd254b0cd1b"
     },
     {
       "os": "el9.aarch64",
@@ -1107,16 +967,6 @@
       "sha256": "d94ad6e7fdcc7c26b599bfd7bce581471ba26ef9092c1b0530c975a85882c168"
     },
     {
-      "os": "el9.aarch64",
-      "pg": 16,
-      "name": "plv8_16",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_16-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 7675913,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/plv8_16-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "5805500235576abad8959d36f73f4d830499efb52bf5ae8a01320bb39d792bfd"
-    },
-    {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "plv8_16",
@@ -1125,16 +975,6 @@
       "size": 7934899,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_16-3.2.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "c532d6cdd00facf92ce449e948e38f3a348aa065222970ce9441976e4d510679"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "plv8_16",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_16-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 7947952,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_16-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "fbb04e792bdd541132dadf6fe5506cfa59857026d962c4b42dcb60c3f6c9f74e"
     },
     {
       "os": "el8.aarch64",
@@ -1147,16 +987,6 @@
       "sha256": "283302e1db0ec21bd6c044549ccdee06c9bb8d00690e96c0f93dc4ac62e0207c"
     },
     {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "plv8_17",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_17-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 7312984,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/plv8_17-3.2.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "e1d4ff066a3220ed74d642eb1af2c065af7e6d5e090212610fbf937ccdafa4fb"
-    },
-    {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "plv8_17",
@@ -1167,24 +997,14 @@
       "sha256": "5522544f0694240a28d49e3dc902465e121faca440b0ac81ccd977e7a5c0dbe8"
     },
     {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "plv8_17",
-      "ver": "3.2.3-1PIGSTY.el8",
-      "file": "plv8_17-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 7859048,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plv8_17-3.2.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "9b62bd3e750b6e073bea1d69cec44f01d4ae67ae58ef5105c61ee59c8b714e76"
-    },
-    {
       "os": "el9.aarch64",
       "pg": 17,
       "name": "plv8_17",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_17-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 7681502,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/plv8_17-3.2.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "2729471341fd3ddf156611f5f274b8573f24f067bae8dcb46943e23fe9a2724a"
+      "ver": "3.2.4-1PIGSTY.el9",
+      "file": "plv8_17-3.2.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 7674596,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/plv8_17-3.2.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "024ae8dd705e1c7afef4050eb8cbada4a51a48587ed1b23d4c58488af7354d6b"
     },
     {
       "os": "el9.x86_64",
@@ -1195,16 +1015,6 @@
       "size": 7934957,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_17-3.2.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "e188a5f03f3e88f87f27005eb4be6479003b7a17db83f64b21b602238c36f5b2"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "plv8_17",
-      "ver": "3.2.3-1PIGSTY.el9",
-      "file": "plv8_17-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 7953238,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plv8_17-3.2.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "0f838101597128756a21df2355190a7044116ffeae079769bd9d89132c582b59"
     },
     {
       "os": "d12.aarch64",

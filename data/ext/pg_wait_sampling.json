@@ -8,7 +8,7 @@
   "url": "https://github.com/postgrespro/pg_wait_sampling",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "1.1.8",
+  "version": "1.1.9",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.1.8",
+  "rpm_ver": "1.1.9",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_wait_sampling_$v*",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.1.8",
+  "deb_ver": "1.1.9",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pg-wait-sampling",
   "deb_deps": [],
@@ -74,7 +74,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -89,7 +89,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -104,8 +104,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 3
+      "pkg_ver": "1.1.9",
+      "count": 4
     },
     {
       "pg": 17,
@@ -119,8 +119,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 3
+      "pkg_ver": "1.1.9",
+      "count": 4
     },
     {
       "pg": 17,
@@ -134,8 +134,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 3
+      "pkg_ver": "1.1.9",
+      "count": 4
     },
     {
       "pg": 17,
@@ -149,8 +149,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 3
+      "pkg_ver": "1.1.9",
+      "count": 4
     },
     {
       "pg": 17,
@@ -164,7 +164,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -179,7 +179,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -194,7 +194,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -209,7 +209,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -224,7 +224,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -239,7 +239,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -254,8 +254,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 16,
@@ -269,8 +269,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 16,
@@ -284,8 +284,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 16,
@@ -299,8 +299,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 16,
@@ -314,7 +314,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -329,7 +329,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -344,7 +344,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -359,7 +359,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -374,7 +374,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -389,7 +389,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -404,8 +404,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 15,
@@ -419,8 +419,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 15,
@@ -434,8 +434,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 15,
@@ -449,8 +449,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 15,
@@ -464,7 +464,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -479,7 +479,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -494,7 +494,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -509,7 +509,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -524,7 +524,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -539,7 +539,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -554,26 +554,26 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
-    },
-    {
-      "pg": 14,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pg_wait_sampling",
-      "ext": "pg_wait_sampling",
-      "pname": "pg_wait_sampling_14",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 5
     },
     {
       "pg": 14,
+      "os": "el8.x86_64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "x86_64",
+      "pkg": "pg_wait_sampling",
+      "ext": "pg_wait_sampling",
+      "pname": "pg_wait_sampling_14",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.1.9",
+      "count": 6
+    },
+    {
+      "pg": 14,
       "os": "el9.aarch64",
       "type": "rpm",
       "os_code": "el9",
@@ -584,8 +584,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 14,
@@ -599,8 +599,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 14,
@@ -614,7 +614,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -629,7 +629,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -644,7 +644,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -659,7 +659,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -674,7 +674,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -689,7 +689,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -704,8 +704,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 13,
@@ -719,8 +719,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 6
+      "pkg_ver": "1.1.9",
+      "count": 7
     },
     {
       "pg": 13,
@@ -734,8 +734,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 13,
@@ -749,8 +749,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
-      "count": 4
+      "pkg_ver": "1.1.9",
+      "count": 5
     },
     {
       "pg": 13,
@@ -764,7 +764,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -779,7 +779,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -794,7 +794,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     },
     {
@@ -809,11 +809,21 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.1.8",
+      "pkg_ver": "1.1.9",
       "count": 1
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pg_wait_sampling_13",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_13-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "size": 25008,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_wait_sampling_13-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "7a5c46bf5b46850cf751d7117431066ef856a63710bd3376596eeafa5da6f96a"
+    },
     {
       "os": "el8.aarch64",
       "pg": 13,
@@ -853,6 +863,16 @@
       "size": 47680,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_wait_sampling_13-1.1.4-1.rhel8.aarch64.rpm",
       "sha256": "893227996f96530743dc7a6345f5516d4e4143ccc76bf51f8abc62be0804938e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pg_wait_sampling_13",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_13-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "size": 25004,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pg_wait_sampling_13-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "475d7a8d1ead3faab42dfa188bde2f32b5af6d1c74ff45a10e8fb5f1a643ba5c"
     },
     {
       "os": "el8.x86_64",
@@ -918,6 +938,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "pg_wait_sampling_13",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_13-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "size": 24721,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_wait_sampling_13-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "5c123840b1d51393683c932dcfe9e3bf1716f58a14371208bbfb06bec582ce4d"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pg_wait_sampling_13",
       "ver": "1.1.8-1PGDG.rhel9",
       "file": "pg_wait_sampling_13-1.1.8-1PGDG.rhel9.aarch64.rpm",
       "size": 24756,
@@ -953,6 +983,16 @@
       "size": 48706,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_wait_sampling_13-1.1.4-1.rhel9.aarch64.rpm",
       "sha256": "0cfe031b99991f1670a6f620d91ee76b9107d652ac4075aa961025914ea23f6c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pg_wait_sampling_13",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_13-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "size": 24832,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pg_wait_sampling_13-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "ec56f8f26addecf20b14949b6b45e8c87392cc7f19c9723cc7f9d92da899a8df"
     },
     {
       "os": "el9.x86_64",
@@ -998,6 +1038,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pg_wait_sampling_14",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_14-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "size": 25032,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_wait_sampling_14-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "73496ed7f563c52d73c7352ced75023d5bb59cc98cf8ffd6ddfbce6bb9541136"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pg_wait_sampling_14",
       "ver": "1.1.8-1PGDG.rhel8",
       "file": "pg_wait_sampling_14-1.1.8-1PGDG.rhel8.aarch64.rpm",
       "size": 24840,
@@ -1033,6 +1083,16 @@
       "size": 47808,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_wait_sampling_14-1.1.4-1.rhel8.aarch64.rpm",
       "sha256": "bf7d1141f59ee5570b2bc04dd9dd277d7a4784db5d7662af6e61d690ffe60cd8"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pg_wait_sampling_14",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_14-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "size": 25188,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pg_wait_sampling_14-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "8473b65f9227c72b71dcc598f61e13a9802f8bd2376551d8e62cca3384f3e4b6"
     },
     {
       "os": "el8.x86_64",
@@ -1088,6 +1148,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pg_wait_sampling_14",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_14-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "size": 24747,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_wait_sampling_14-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "bd4594297998f4b3c6be806baac7b879651fe78b672577413b7ecfc3a776e370"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pg_wait_sampling_14",
       "ver": "1.1.8-1PGDG.rhel9",
       "file": "pg_wait_sampling_14-1.1.8-1PGDG.rhel9.aarch64.rpm",
       "size": 24764,
@@ -1123,6 +1193,16 @@
       "size": 48828,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_wait_sampling_14-1.1.4-1.rhel9.aarch64.rpm",
       "sha256": "95e9296ca590e6f92c635f64633e850874f80ce3fed6f8de56c40202d74b3927"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pg_wait_sampling_14",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_14-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "size": 24910,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pg_wait_sampling_14-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "012f9a1f18e6597650394225e294792f29908ae673670f24373aa7acffde9fac"
     },
     {
       "os": "el9.x86_64",
@@ -1168,6 +1248,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pg_wait_sampling_15",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_15-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "size": 25020,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_wait_sampling_15-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "ff6c86cc1eb44301cb7faf8f5fa5ac8c2244c72230a25a844c48a4684172a3d1"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pg_wait_sampling_15",
       "ver": "1.1.8-1PGDG.rhel8",
       "file": "pg_wait_sampling_15-1.1.8-1PGDG.rhel8.aarch64.rpm",
       "size": 24828,
@@ -1203,6 +1293,16 @@
       "size": 47780,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_wait_sampling_15-1.1.4-1.rhel8.aarch64.rpm",
       "sha256": "3aa89187a60273047cef6b870a7e833e4409927f44f17663a42df08e64a1bbe4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pg_wait_sampling_15",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_15-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "size": 25208,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pg_wait_sampling_15-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "323416331c75d0642ff8224ea93262f28449b05c69eaca95541eaaed425434ba"
     },
     {
       "os": "el8.x86_64",
@@ -1248,6 +1348,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pg_wait_sampling_15",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_15-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "size": 24684,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_wait_sampling_15-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "7ab4ba2251f6496a84b8c907768b1ff05e9cfe71fc77630fea36272f3c866822"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pg_wait_sampling_15",
       "ver": "1.1.8-1PGDG.rhel9",
       "file": "pg_wait_sampling_15-1.1.8-1PGDG.rhel9.aarch64.rpm",
       "size": 24732,
@@ -1283,6 +1393,16 @@
       "size": 48795,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_wait_sampling_15-1.1.4-1.rhel9.aarch64.rpm",
       "sha256": "d44e7396b00f6e7fef355c5e9d4e31753f2059174967500af72e8f4f76eff970"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pg_wait_sampling_15",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_15-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "size": 24901,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pg_wait_sampling_15-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "c0e19abdfc63d2b0e26d1cf5c766fd0c0bb6c15eaa05f3bb3f472dc82746e4bb"
     },
     {
       "os": "el9.x86_64",
@@ -1328,6 +1448,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pg_wait_sampling_16",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_16-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "size": 24712,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_wait_sampling_16-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "fbd09c0d62dd17854c93429ddad938a53c0fb26c2204c07543ac34eb93f2f915"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pg_wait_sampling_16",
       "ver": "1.1.8-1PGDG.rhel8",
       "file": "pg_wait_sampling_16-1.1.8-1PGDG.rhel8.aarch64.rpm",
       "size": 24512,
@@ -1363,6 +1493,16 @@
       "size": 22444,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_wait_sampling_16-1.1.5-1PGDG.rhel8.aarch64.rpm",
       "sha256": "feff8a0106b02385ae52ca9fab73eb996f5a9227f3a85b398631eef2547c178a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pg_wait_sampling_16",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_16-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "size": 24944,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pg_wait_sampling_16-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "45f326ac5ef3947eec4e6923ba88c7afb548b92636cc79b6e4650703656129a4"
     },
     {
       "os": "el8.x86_64",
@@ -1408,6 +1548,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pg_wait_sampling_16",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_16-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "size": 24452,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_wait_sampling_16-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "c32bb17e285f77e1eddacff2a8ebc0942ff43eb5738fa19a3c256c6f2b0a2e9d"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pg_wait_sampling_16",
       "ver": "1.1.8-1PGDG.rhel9",
       "file": "pg_wait_sampling_16-1.1.8-1PGDG.rhel9.aarch64.rpm",
       "size": 24459,
@@ -1443,6 +1593,16 @@
       "size": 22379,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_wait_sampling_16-1.1.5-1PGDG.rhel9.aarch64.rpm",
       "sha256": "69e02adfe6efee3719fabec8d837d97b0c976abd779aa61b6bf8e3b2432f7246"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pg_wait_sampling_16",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_16-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "size": 24537,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pg_wait_sampling_16-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "b84d14f0faa8011a32b5195b4442ee72ecddc5bfbda07ab73770a7af42bf1990"
     },
     {
       "os": "el9.x86_64",
@@ -1488,6 +1648,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pg_wait_sampling_17",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_17-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "size": 24716,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_wait_sampling_17-1.1.9-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "d7edac4ae97ed694a8c74db7d3925a41f2abebc24c757b7fc4f31f55e5498c43"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pg_wait_sampling_17",
       "ver": "1.1.8-1PGDG.rhel8",
       "file": "pg_wait_sampling_17-1.1.8-1PGDG.rhel8.aarch64.rpm",
       "size": 24516,
@@ -1513,6 +1683,16 @@
       "size": 24564,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_wait_sampling_17-1.1.6-1PGDG.rhel8.aarch64.rpm",
       "sha256": "3528b299c45459219c0bfb3515f6bc71a2eeaf7fc889b6c24d8231807087fd03"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pg_wait_sampling_17",
+      "ver": "1.1.9-1PGDG.rhel8",
+      "file": "pg_wait_sampling_17-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "size": 24940,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pg_wait_sampling_17-1.1.9-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "997b1a50547ccab3f8f1775520c0d43bedc951d242f1f8d6a79d47817d3f942a"
     },
     {
       "os": "el8.x86_64",
@@ -1548,6 +1728,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pg_wait_sampling_17",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_17-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "size": 24459,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_wait_sampling_17-1.1.9-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "3a1639e4959737fe443b04254003880a9c7ae82afd87afaf56253e3ceaa1b6e5"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pg_wait_sampling_17",
       "ver": "1.1.8-1PGDG.rhel9",
       "file": "pg_wait_sampling_17-1.1.8-1PGDG.rhel9.aarch64.rpm",
       "size": 24479,
@@ -1573,6 +1763,16 @@
       "size": 24636,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_wait_sampling_17-1.1.6-1PGDG.rhel9.aarch64.rpm",
       "sha256": "6ecd69e0797642c102a222f9fa5e184d8d22affc1dcb0e7ec8244e256e8b6b17"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pg_wait_sampling_17",
+      "ver": "1.1.9-1PGDG.rhel9",
+      "file": "pg_wait_sampling_17-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "size": 24508,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pg_wait_sampling_17-1.1.9-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "b35b4cdbe1bf2bf0cb53a84dc6a4b269a03c394e9dfea36964dad4ba0e9f50b2"
     },
     {
       "os": "el9.x86_64",
@@ -1608,301 +1808,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-13-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "size": 38652,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "sha256": "5ab31369a37602179fac5ef53a093d337b0b347e37e6153c082f5c9ff15f4902"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 13,
-      "name": "postgresql-13-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-13-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "size": 38636,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "sha256": "f2427f384425e4f864ac4a74565d5f32b44967ff5f32809ae793439622fdae3c"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 13,
-      "name": "postgresql-13-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-13-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "size": 43272,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "sha256": "9aaa04e644e3a6b0f4604dd0f9d88682ba61b817eceb194ad9878fa6d9bca2c6"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 13,
-      "name": "postgresql-13-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-13-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "size": 43800,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "sha256": "4924aa5a86142ecd62b7a3c6259fd646ecc0a7c20d79944dc8030f6fbaf2ab73"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 13,
-      "name": "postgresql-13-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-13-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "size": 38808,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "sha256": "62ef6952d3dd411abd0fb79d0af6a423c91644aec3374edb1254b7fb6e913098"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 13,
-      "name": "postgresql-13-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-13-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "size": 38752,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "sha256": "ca59b334fd6d4f30c4c9c41606b46c3bf28a76083a5dfb36461e82c44618ac40"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 14,
-      "name": "postgresql-14-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-14-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "size": 38788,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "sha256": "09d3ecef95040c05e9d877fd14966568dc1c7caa2de060ada8e42b43c4521578"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 14,
-      "name": "postgresql-14-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-14-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "size": 39044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "sha256": "f7e18acff121820e94c4c59b45445eb3610c8b13ce0798770ca1e9696c03d4b3"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 14,
-      "name": "postgresql-14-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-14-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "size": 43652,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "sha256": "b2fcd3f1daaa10749946086a27faef13d046e8523c7dca58019a4b88a35bc43c"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 14,
-      "name": "postgresql-14-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-14-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "size": 44176,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "sha256": "8ff306a6009110e1bf7ce1d9f475227babded8b5916e34c7bf09f97125c77541"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 14,
-      "name": "postgresql-14-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-14-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "size": 39004,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "sha256": "f5f78c3fa1a20ec2466ff346a94ac8749f56617163338a3c3b8d09b91269e83e"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 14,
-      "name": "postgresql-14-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-14-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "size": 39128,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "sha256": "3aff40f5960773481c54f7a738c44b86000352ece8c606bb7fa2610fb3a84fb6"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 15,
-      "name": "postgresql-15-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-15-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "size": 38920,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "sha256": "28b38a907cb9e7197c42d267f663db40f4e9fb97f18ba1cd48e1a2d84f967bde"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-15-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "size": 39128,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "sha256": "b0dead6e4c60ef7072bc9d5ab38364b91cd401b2371facde613fb3cbdc7dc639"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 15,
-      "name": "postgresql-15-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-15-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "size": 43748,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "sha256": "8f6714d1ee0b6f8d75a150068b41da654a60da0321405cd45df87ee057eacd93"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-15-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "size": 44392,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "sha256": "858980ce8629d003eaf55772340e917a3157ca6deddf4710721d9957697537d3"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 15,
-      "name": "postgresql-15-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-15-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-13-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
       "size": 38908,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "sha256": "14e22436e4cd683d01ecd1499cfdc71d206b79ecbd011d8654728d0013c6d8b1"
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "sha256": "1f5cc5eeb8a26ff1b0cc4875816ff2b52bcad30d5244ed7e518e9962ffad7101"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 13,
+      "name": "postgresql-13-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-13-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "size": 38808,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "sha256": "174ce07800550d6e193fbf18025717d9db337d936c355c54c15c6d1f0ae230f4"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 13,
+      "name": "postgresql-13-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-13-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "size": 43492,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "sha256": "3a29f09ebeb337eb932acacd9fccc4920110cbc402f817e702cc1367ae41ff5c"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 13,
+      "name": "postgresql-13-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-13-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "size": 44152,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "sha256": "b6deaf5aafe1fedbdb2c1c7de5756b1aaac424499e3833809daac5174692c65e"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 13,
+      "name": "postgresql-13-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-13-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "size": 38996,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "sha256": "29c9e4853feb8a1d8c6b27ccfc69e88d443d6c369ab0fbdcbb9aa469d4956482"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 13,
+      "name": "postgresql-13-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-13-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "size": 38916,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-13-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "sha256": "86e02ce35197144405a85515e478bac1db3437b9244a50eed7b57a09d93432c3"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-14-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "size": 39008,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "sha256": "ace687862f2bceda5bb9ff429a983740adf99ce9b262a6450e59266aac9d6542"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-14-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "size": 39332,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "sha256": "6202a55eaf81c08b17b4528ce37bc7c94ad2fb3ea3dbfe991536720bb1b99c93"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-14-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "size": 43912,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "sha256": "233cf61ec25591b416b168d4b5c1d7a889422c014ba411e0ae73202b82adefe5"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-14-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "size": 44400,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "sha256": "44a94336026aaacaaa09d257b33b3012322aa493f40e525e7c53d825c37ac487"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-14-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "size": 39184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "sha256": "60cdd233c1c5b0c2bc952c4d8423e33bc52d98b97dc1c1fd0862cbbfe69528cc"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-14-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "size": 39360,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-14-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "sha256": "93be225c3499e80a178c9f2fb4c6b33a14093d882fd157629d3f59d8258e66d3"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-15-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "size": 39012,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "sha256": "83491e16367e92ccd9b3fb512942e6833352ac531ce3bb42ca5339471c2da62b"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 15,
+      "name": "postgresql-15-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-15-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "size": 39380,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "sha256": "bb909f2cfd38f9e84fd46638984114938d9c3707ea465f97b24f6cbe53ad5c06"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-15-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "size": 43892,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "sha256": "dd1f79f24aca0f6bfd679138104a8ed5c4f128c117d2b272687631a5e9bf791b"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 15,
+      "name": "postgresql-15-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-15-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "size": 44520,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "sha256": "b02ca9f9eb40cc7f8461e4ac71d0e17e39e71d29636cbc68c71928d10cc08460"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-pg-wait-sampling",
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-15-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "size": 39144,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "sha256": "0ac1320edc939ed553ad9a78eb99120f1273d31c15548c7d0f6e0bf959fea059"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-15-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "size": 39312,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "sha256": "f73444b25b18f172fd502a3d97ed09b9b9af6547a0492c582ff8eae22a46b60f"
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-15-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "size": 39580,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-15-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "sha256": "70c6b7b3fa01ba79592e30c1ebd9ea15f731df57310acb10bf61cc91e54b9dab"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-16-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "size": 38580,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "sha256": "f982aa04a28daeba3f1f478793ec65e30f14e71d5fa733e60065d6c7201ab9e9"
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-16-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "size": 38812,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "sha256": "77b421bc546dfe5ae1e0cf31347a16337d034f43e60535bdc4786c25ad21f665"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-16-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "size": 39036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "sha256": "4779ce1b49c8fdf7d7acfe2429ecbe54f6110805bd5f2f8368e2f1606cfbf4cb"
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-16-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "size": 39152,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "sha256": "a74e19833b4ec4196476341dd4ac922e8ea3ca1ccace32649644c39b1ffd1bd9"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-16-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "size": 43456,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "sha256": "7a451d228713014f060c7768c0b70ee9a50caa6d41b083d4dc68d98ea7b58795"
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-16-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "size": 43688,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "sha256": "16b3409e36f1057d3053e450a7b84746645c661722fa0d65946cb947d2d66fa8"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-16-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "size": 44052,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "sha256": "a75fd01e1a6bce5f1b86147d865e2234004134ce26501caca6c058a3b97f06f5"
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-16-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "size": 44292,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "sha256": "b1e0ed6c0c7b1a97c675e36ffc1887a2006402e238a362c416bcc8c9d8ea79aa"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-16-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "size": 38532,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "sha256": "7ab002c819bcf01d8d9524033ff158ea49fb56bec62ea813c2a6f026f8e58aa0"
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-16-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "size": 38800,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "sha256": "736a147a10a0e50cc6063091431144fb43dfa2afcfbcf095955e99a2e5858662"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-16-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "size": 39104,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "sha256": "9f4c5d8b2c91dded0ee6ce1b14ea63aa7c67e2acfaa508ee59405e3b1c791917"
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-16-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "size": 39240,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-16-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "sha256": "7d33915512fc5c9ae2cc52d6b445aa99a14c84f2d28d45d384b28279069b81f3"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-17-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "size": 38636,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.8-1.pgdg120+1_arm64.deb",
-      "sha256": "061ba92955c3835ebfa8a0f4e6e698fad8742349f7de166c1caaee955a29343c"
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-17-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "size": 38984,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.9-1.pgdg120+1_arm64.deb",
+      "sha256": "75e4edff9ae703312ef36a0b5aaf93d53ad3525b4e02d2efd7c840a67a145d85"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg120+1",
-      "file": "postgresql-17-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "size": 38880,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.8-1.pgdg120+1_amd64.deb",
-      "sha256": "f01746c7c02d222adb7d4b74139e1633241465178bc93fb8174135ab8d024afd"
+      "ver": "1.1.9-1.pgdg120+1",
+      "file": "postgresql-17-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "size": 39136,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.9-1.pgdg120+1_amd64.deb",
+      "sha256": "f32b67adc6561063a65b3dc5796d580fa0e2a2281d59998abec645d386e47566"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-17-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "size": 43520,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.8-1.pgdg22.04+1_arm64.deb",
-      "sha256": "201fc87008e78b0889346d390b37cba1a40be449abd7137a1f9c3adbf1232e18"
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-17-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "size": 43692,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.9-1.pgdg22.04+1_arm64.deb",
+      "sha256": "37602cd9f506aa24a07be4229e3179e2fc7ab4144d578401defb2ffa2febaf82"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg22.04+1",
-      "file": "postgresql-17-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "size": 44104,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.8-1.pgdg22.04+1_amd64.deb",
-      "sha256": "cddf2521d666b64296bd076084e8d3003b1cf9c0b37739c499355d672a1218b1"
+      "ver": "1.1.9-1.pgdg22.04+1",
+      "file": "postgresql-17-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "size": 44312,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.9-1.pgdg22.04+1_amd64.deb",
+      "sha256": "782fd2a3f9a34b6405b3550d32201ecf20dad601117cb9a0793e2a10d0c160dc"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-17-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "size": 38608,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.8-1.pgdg24.04+1_arm64.deb",
-      "sha256": "4eb0e899cfd374cfaa3d02bbea827ca611c6ef6968c6e5527e0a05984410e760"
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-17-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "size": 38936,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.9-1.pgdg24.04+1_arm64.deb",
+      "sha256": "08635ad27a8bf8f50037f2d7b3cbbe882392472dcfb594d34599ad50398523e7"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-wait-sampling",
-      "ver": "1.1.8-1.pgdg24.04+1",
-      "file": "postgresql-17-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "size": 38916,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.8-1.pgdg24.04+1_amd64.deb",
-      "sha256": "5172b0a8aaaebfb0857fa5b63826521fd7482e325e1dadc861a3e0cc49008e2a"
+      "ver": "1.1.9-1.pgdg24.04+1",
+      "file": "postgresql-17-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "size": 39220,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-wait-sampling/postgresql-17-pg-wait-sampling_1.1.9-1.pgdg24.04+1_amd64.deb",
+      "sha256": "96e663253f68513195a179960d73fcad0be4af415c785d60deb3c2f2fba220d6"
     }
   ]
 }

@@ -32,7 +32,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "4.3",
+  "rpm_ver": "4.4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgtt_$v*",
   "rpm_pg": [
@@ -106,8 +106,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 3
+      "pkg_ver": "4.4",
+      "count": 4
     },
     {
       "pg": 17,
@@ -121,8 +121,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 3
+      "pkg_ver": "4.4",
+      "count": 4
     },
     {
       "pg": 17,
@@ -136,8 +136,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 3
+      "pkg_ver": "4.4",
+      "count": 4
     },
     {
       "pg": 17,
@@ -151,8 +151,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 3
+      "pkg_ver": "4.4",
+      "count": 4
     },
     {
       "pg": 17,
@@ -256,8 +256,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 5
+      "pkg_ver": "4.4",
+      "count": 6
     },
     {
       "pg": 16,
@@ -271,8 +271,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 5
+      "pkg_ver": "4.4",
+      "count": 6
     },
     {
       "pg": 16,
@@ -286,8 +286,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 5
+      "pkg_ver": "4.4",
+      "count": 6
     },
     {
       "pg": 16,
@@ -301,8 +301,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 5
+      "pkg_ver": "4.4",
+      "count": 6
     },
     {
       "pg": 16,
@@ -406,8 +406,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
+      "pkg_ver": "4.4",
+      "count": 8
     },
     {
       "pg": 15,
@@ -421,8 +421,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
+      "pkg_ver": "4.4",
+      "count": 8
     },
     {
       "pg": 15,
@@ -436,8 +436,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
+      "pkg_ver": "4.4",
+      "count": 8
     },
     {
       "pg": 15,
@@ -451,8 +451,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
+      "pkg_ver": "4.4",
+      "count": 8
     },
     {
       "pg": 15,
@@ -556,8 +556,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
+      "pkg_ver": "4.4",
+      "count": 8
     },
     {
       "pg": 14,
@@ -571,41 +571,41 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
+      "pkg_ver": "4.4",
+      "count": 10
+    },
+    {
+      "pg": 14,
+      "os": "el9.aarch64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "aarch64",
+      "pkg": "pgtt",
+      "ext": "pgtt",
+      "pname": "pgtt_14",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.4",
+      "count": 8
+    },
+    {
+      "pg": 14,
+      "os": "el9.x86_64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "x86_64",
+      "pkg": "pgtt",
+      "ext": "pgtt",
+      "pname": "pgtt_14",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.4",
       "count": 9
     },
     {
       "pg": 14,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pgtt",
-      "ext": "pgtt",
-      "pname": "pgtt_14",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
-    },
-    {
-      "pg": 14,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pgtt",
-      "ext": "pgtt",
-      "pname": "pgtt_14",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 8
-    },
-    {
-      "pg": 14,
       "os": "u22.aarch64",
       "type": "deb",
       "os_code": "u22",
@@ -706,8 +706,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
+      "pkg_ver": "4.4",
+      "count": 8
     },
     {
       "pg": 13,
@@ -721,8 +721,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 12
+      "pkg_ver": "4.4",
+      "count": 13
     },
     {
       "pg": 13,
@@ -736,8 +736,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 7
+      "pkg_ver": "4.4",
+      "count": 8
     },
     {
       "pg": 13,
@@ -751,8 +751,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "4.3",
-      "count": 8
+      "pkg_ver": "4.4",
+      "count": 9
     },
     {
       "pg": 13,
@@ -816,6 +816,16 @@
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgtt_13",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_13-4.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 38284,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgtt_13-4.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "239271b68a1b4af837479136f6de8c42681969355efdcd8984e1481cb6afe549"
+    },
     {
       "os": "el8.aarch64",
       "pg": 13,
@@ -885,6 +895,16 @@
       "size": 68608,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgtt_13-2.9-1.rhel8.aarch64.rpm",
       "sha256": "7c90992ddb1bdfcf124b16dca2af59fb96c746c5d58876234f201af26fe9d357"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgtt_13",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_13-4.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 39580,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgtt_13-4.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "e42c1df1aa3138c8c030453d7366ac8158b05681051ed7363e900e9b92012a03"
     },
     {
       "os": "el8.x86_64",
@@ -1010,6 +1030,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "pgtt_13",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_13-4.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 38053,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgtt_13-4.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "505dd4f577f5b74ee74513235b747a1c1fd66e06bcca5c091c99e093cbd973dc"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgtt_13",
       "ver": "4.3-1PGDG.rhel9",
       "file": "pgtt_13-4.3-1PGDG.rhel9.aarch64.rpm",
       "size": 37587,
@@ -1075,6 +1105,16 @@
       "size": 70194,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgtt_13-2.9-1.rhel9.aarch64.rpm",
       "sha256": "c2988cca99177d4c048fff00981c324a17fa7f57daecef196a9882ca40f13050"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgtt_13",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_13-4.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 39535,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgtt_13-4.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "497f8c6148eb761efefe96d23f18133ba000418f59d5541c8df64a268b54c4c7"
     },
     {
       "os": "el9.x86_64",
@@ -1160,6 +1200,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pgtt_14",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_14-4.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 38368,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgtt_14-4.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "6546389e797b75dae44f4e623820d335ddb52e631466dc768a31a2a68e879611"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgtt_14",
       "ver": "4.3-1PGDG.rhel8",
       "file": "pgtt_14-4.3-1PGDG.rhel8.aarch64.rpm",
       "size": 37916,
@@ -1225,6 +1275,16 @@
       "size": 69108,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgtt_14-2.9-1.rhel8.aarch64.rpm",
       "sha256": "acc16c986e9338fc7e42ce45e63fbf94ebadbac07b034f64cb9485c60a7a8e8a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgtt_14",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_14-4.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 39856,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgtt_14-4.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "a5611e6dde3acfdc382a0c3c373ccfaafafe77ba9a91b251823bc2f883bb06d2"
     },
     {
       "os": "el8.x86_64",
@@ -1320,6 +1380,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pgtt_14",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_14-4.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 38103,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgtt_14-4.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "6b0808edbbc3ea0820f3a0a08cb3d59963fb7996c99c0a7863d77687f7734b88"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgtt_14",
       "ver": "4.3-1PGDG.rhel9",
       "file": "pgtt_14-4.3-1PGDG.rhel9.aarch64.rpm",
       "size": 37640,
@@ -1385,6 +1455,16 @@
       "size": 70810,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgtt_14-2.9-1.rhel9.aarch64.rpm",
       "sha256": "2b27406529242d983329bc221f58d1ea750c31fa8acb5a4690ad8751318e84b8"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgtt_14",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_14-4.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 39589,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgtt_14-4.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "61c09f3ace8e6ccf88a8f98a5322a7673002d91f333d3713ecccd56dac8d8197"
     },
     {
       "os": "el9.x86_64",
@@ -1470,6 +1550,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pgtt_15",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_15-4.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 38368,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgtt_15-4.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "b0ca3c2777d8591841ef99db499cb46f949b244a52d579c0c0eea13032bc28a6"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgtt_15",
       "ver": "4.3-1PGDG.rhel8",
       "file": "pgtt_15-4.3-1PGDG.rhel8.aarch64.rpm",
       "size": 37924,
@@ -1535,6 +1625,16 @@
       "size": 69276,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgtt_15-2.9-1.rhel8.aarch64.rpm",
       "sha256": "f83e4434c5073c09deed2fbee9b5dce613e5aa75f8b980dc821b7d5a1512b9b0"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgtt_15",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_15-4.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 39868,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgtt_15-4.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "17d9b6d06c0227618e1885366082f686fc3485372eb8eeb63e0f238e85831461"
     },
     {
       "os": "el8.x86_64",
@@ -1610,6 +1710,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pgtt_15",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_15-4.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 38098,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgtt_15-4.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "aa4dfaf1aefcf3590682008633d2946a256afb198fe96868cf6aa75298be1815"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgtt_15",
       "ver": "4.3-1PGDG.rhel9",
       "file": "pgtt_15-4.3-1PGDG.rhel9.aarch64.rpm",
       "size": 37637,
@@ -1675,6 +1785,16 @@
       "size": 70975,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgtt_15-2.9-1.rhel9.aarch64.rpm",
       "sha256": "9f9ddbd374bcc5fcc5690948efa6ec7bc647cdb8d0a8c17f67223c7464d7972f"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgtt_15",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_15-4.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 39604,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgtt_15-4.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "656a51804c9943a170439c3c23e590be48f87cf265b8d8f896b6ce1b69aad5fe"
     },
     {
       "os": "el9.x86_64",
@@ -1750,6 +1870,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pgtt_16",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_16-4.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 38120,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgtt_16-4.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "b36e903b06347f3e17bc20c915337a3ba3e756a4e7b3cb55da09a7d7a5a61879"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgtt_16",
       "ver": "4.3-1PGDG.rhel8",
       "file": "pgtt_16-4.3-1PGDG.rhel8.aarch64.rpm",
       "size": 37672,
@@ -1795,6 +1925,16 @@
       "size": 32828,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgtt_16-3.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "ae54da91fd1f13b546f52b8cad2d1a4696215c026251548e5d6dd9d81ca4e87f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgtt_16",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_16-4.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 39636,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgtt_16-4.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "114464fe10a23c3caf1eb556f50d87048e4c506f1fae4419d72ceba994706675"
     },
     {
       "os": "el8.x86_64",
@@ -1850,6 +1990,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pgtt_16",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_16-4.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 37257,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgtt_16-4.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "177275aa75c6ed72bdf64116f1dc9aeec4428f8efb4a3578505c7823141e766d"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgtt_16",
       "ver": "4.3-1PGDG.rhel9",
       "file": "pgtt_16-4.3-1PGDG.rhel9.aarch64.rpm",
       "size": 36795,
@@ -1895,6 +2045,16 @@
       "size": 32511,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgtt_16-3.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "b0c672ee0e275da3935857f89370bf298452656fbfcdbaf65b8d1372da90312c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgtt_16",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_16-4.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 38663,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgtt_16-4.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "5a6d611626a54d05bc973999a2f96cbed2cb2da9eae0a24721e8310c1596366d"
     },
     {
       "os": "el9.x86_64",
@@ -1950,6 +2110,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pgtt_17",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_17-4.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 38076,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgtt_17-4.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "a484915195cafb11ccd7cd953fef93a6d4d0a92a1ba1c4d54f3b92c2cfd19629"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgtt_17",
       "ver": "4.3-1PGDG.rhel8",
       "file": "pgtt_17-4.3-1PGDG.rhel8.aarch64.rpm",
       "size": 37616,
@@ -1975,6 +2145,16 @@
       "size": 36292,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgtt_17-4.0-2PGDG.rhel8.aarch64.rpm",
       "sha256": "455a3b8da18dd81fdd0d57c11c02cd1a581565cd2640a25ea557064b445ecb59"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgtt_17",
+      "ver": "4.4-1PGDG.rhel8",
+      "file": "pgtt_17-4.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 39560,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgtt_17-4.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "698bf2e12c7c4ee0a1a7b391afb07c0229a1b692386db54756aace1790961ea5"
     },
     {
       "os": "el8.x86_64",
@@ -2010,6 +2190,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pgtt_17",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_17-4.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 37219,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgtt_17-4.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "792a5819621ac86579b26bbc695c829912cc56f0883b2f66c41d710cbebb05d4"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgtt_17",
       "ver": "4.3-1PGDG.rhel9",
       "file": "pgtt_17-4.3-1PGDG.rhel9.aarch64.rpm",
       "size": 36754,
@@ -2035,6 +2225,16 @@
       "size": 35791,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgtt_17-4.0-2PGDG.rhel9.aarch64.rpm",
       "sha256": "cf95c66e801727625026f75249f594f0250eaa789e86a4e74ffe371ffd0a0b49"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgtt_17",
+      "ver": "4.4-1PGDG.rhel9",
+      "file": "pgtt_17-4.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 38585,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgtt_17-4.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "795982bb6ea52f1b7de3408e8113db4ecf49dd0a5a28c171bdc102488d75ec70"
     },
     {
       "os": "el9.x86_64",

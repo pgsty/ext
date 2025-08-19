@@ -8,7 +8,7 @@
   "url": "https://git.osgeo.org/gitea/postgis/postgis",
   "license": "GPL-2.0",
   "tags": [],
-  "version": "3.5.2",
+  "version": "3.5.3",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -34,7 +34,7 @@
     "h3_postgis"
   ],
   "see_also": [],
-  "rpm_ver": "3.5.2",
+  "rpm_ver": "3.5.3",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgis35_$v*",
   "rpm_pg": [
@@ -145,7 +145,7 @@
       "hide": false,
       "pkg_repo": "pgdg",
       "pkg_ver": "3.5.3",
-      "count": 5
+      "count": 6
     },
     {
       "pg": 17,
@@ -159,8 +159,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.5.2",
-      "count": 4
+      "pkg_ver": "3.5.3",
+      "count": 5
     },
     {
       "pg": 17,
@@ -295,7 +295,7 @@
       "hide": false,
       "pkg_repo": "pgdg",
       "pkg_ver": "3.5.3",
-      "count": 5
+      "count": 6
     },
     {
       "pg": 16,
@@ -309,8 +309,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.5.2",
-      "count": 4
+      "pkg_ver": "3.5.3",
+      "count": 5
     },
     {
       "pg": 16,
@@ -445,7 +445,7 @@
       "hide": false,
       "pkg_repo": "pgdg",
       "pkg_ver": "3.5.3",
-      "count": 5
+      "count": 6
     },
     {
       "pg": 15,
@@ -459,8 +459,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.5.2",
-      "count": 4
+      "pkg_ver": "3.5.3",
+      "count": 5
     },
     {
       "pg": 15,
@@ -595,7 +595,7 @@
       "hide": false,
       "pkg_repo": "pgdg",
       "pkg_ver": "3.5.3",
-      "count": 5
+      "count": 6
     },
     {
       "pg": 14,
@@ -609,8 +609,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.5.2",
-      "count": 4
+      "pkg_ver": "3.5.3",
+      "count": 5
     },
     {
       "pg": 14,
@@ -744,8 +744,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.5.2",
-      "count": 4
+      "pkg_ver": "3.5.3",
+      "count": 5
     },
     {
       "pg": 13,
@@ -759,8 +759,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.5.2",
-      "count": 4
+      "pkg_ver": "3.5.3",
+      "count": 5
     },
     {
       "pg": 13,
@@ -888,6 +888,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "postgis35_13",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_13-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "size": 4163828,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/postgis35_13-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "sha256": "66aa48e6411161c8efc6a7c57d0dabe572338e1488565c54469193dde01aa957"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "postgis35_13",
       "ver": "3.5.2-1PGDG.rhel9",
       "file": "postgis35_13-3.5.2-1PGDG.rhel9.aarch64.rpm",
       "size": 4162078,
@@ -923,6 +933,16 @@
       "size": 4147024,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/postgis35_13-3.5.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "7c8b8265cb869f7b417788a645fc29a55bdf2a8da16f87c092a21c6cd24cc3fd"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "postgis35_13",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_13-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "size": 4196749,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/postgis35_13-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "sha256": "9021e11537aa6f07081c29a3856933a5121a327e767c3cc3156e5befe7e6dc01"
     },
     {
       "os": "el9.x86_64",
@@ -1028,6 +1048,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "postgis35_14",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_14-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "size": 4163085,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/postgis35_14-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "sha256": "416a2794d5ea64cb12650a82f6ec3560a7dcf4819861818c643ce3895c196df6"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "postgis35_14",
       "ver": "3.5.3-1PGDG.rhel9",
       "file": "postgis35_14-3.5.3-1PGDG.rhel9.aarch64.rpm",
       "size": 4164327,
@@ -1073,6 +1103,16 @@
       "size": 4145564,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/postgis35_14-3.5.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "86c8074524e21c6484afa6e024f4cd3011c11fa010569a55a46a0518135adc57"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "postgis35_14",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_14-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "size": 4198915,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/postgis35_14-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "sha256": "3f8a4dfdf5259331fb8f94f9abc8bcd4cf66ec68eb6bb6ca7cbddf7c144c8c9b"
     },
     {
       "os": "el9.x86_64",
@@ -1178,6 +1218,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "postgis35_15",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_15-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "size": 4161816,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/postgis35_15-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "sha256": "8bb3f99adcec6055cf198961a52e75177c886336b1994df838b162ff0676e1fc"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "postgis35_15",
       "ver": "3.5.3-1PGDG.rhel9",
       "file": "postgis35_15-3.5.3-1PGDG.rhel9.aarch64.rpm",
       "size": 4164033,
@@ -1223,6 +1273,16 @@
       "size": 4147082,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/postgis35_15-3.5.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "f6677f7eb375ed677c4b765035420248b9d01d21108352b81b39c58f8d2dd7de"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "postgis35_15",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_15-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "size": 4200161,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/postgis35_15-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "sha256": "bb16d0f0dacfd1a32d5627f0870fed71ed3dbe40574f8b714ce68e89d2540fde"
     },
     {
       "os": "el9.x86_64",
@@ -1328,6 +1388,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "postgis35_16",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_16-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "size": 4150289,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/postgis35_16-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "sha256": "896031ccb17720faad44bbbe34592d01d0ab1a8bff22a628d8e4df78b9111440"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "postgis35_16",
       "ver": "3.5.3-1PGDG.rhel9",
       "file": "postgis35_16-3.5.3-1PGDG.rhel9.aarch64.rpm",
       "size": 4152048,
@@ -1373,6 +1443,16 @@
       "size": 4134921,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/postgis35_16-3.5.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "7097d685bf2fa7e99302edb6e049239a07c667cee66e1da7ab16cbc628478723"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "postgis35_16",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_16-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "size": 4189435,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/postgis35_16-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "sha256": "24f0412a7033c2d60609fb37b3e06645181966a52c2f2e5aed30b5498d28026e"
     },
     {
       "os": "el9.x86_64",
@@ -1478,6 +1558,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "postgis35_17",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_17-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "size": 4150296,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/postgis35_17-3.5.3-4PGDG.rhel9.aarch64.rpm",
+      "sha256": "d195cab111b6957773a4cfdb91db770bd47a564e74931821b52c022029a4bd45"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "postgis35_17",
       "ver": "3.5.3-1PGDG.rhel9",
       "file": "postgis35_17-3.5.3-1PGDG.rhel9.aarch64.rpm",
       "size": 4151765,
@@ -1523,6 +1613,16 @@
       "size": 4134855,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/postgis35_17-3.5.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "b269d5613edef7cf0a1d6ab667686f6597da53a7048b54e6591a0596a6e5a453"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "postgis35_17",
+      "ver": "3.5.3-4PGDG.rhel9",
+      "file": "postgis35_17-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "size": 4189355,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/postgis35_17-3.5.3-4PGDG.rhel9.x86_64.rpm",
+      "sha256": "8222aa5a5d5e5a2d92183e6053fdb202941fe7953f735c03c31409995b0c5bdb"
     },
     {
       "os": "el9.x86_64",

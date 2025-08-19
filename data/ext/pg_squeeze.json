@@ -8,7 +8,7 @@
   "url": "https://github.com/cybertec-postgresql/pg_squeeze",
   "license": "BSD 2-Clause",
   "tags": [],
-  "version": "1.8.0",
+  "version": "1.9.0",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -32,7 +32,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.8.0",
+  "rpm_ver": "1.9.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_squeeze_$v*",
   "rpm_pg": [
@@ -43,7 +43,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.8.0",
+  "deb_ver": "1.9.0",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-squeeze",
   "deb_deps": [],
@@ -76,7 +76,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -91,7 +91,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -166,7 +166,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -181,7 +181,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -196,7 +196,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -211,7 +211,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -226,7 +226,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -241,7 +241,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -316,7 +316,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -331,7 +331,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -346,7 +346,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -361,7 +361,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -376,7 +376,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -391,7 +391,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -466,7 +466,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -481,7 +481,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -496,7 +496,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -511,7 +511,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -526,7 +526,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -541,7 +541,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -616,7 +616,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -631,7 +631,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -646,7 +646,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -661,7 +661,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -676,7 +676,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -691,7 +691,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -766,7 +766,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -781,7 +781,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -796,7 +796,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     },
     {
@@ -811,7 +811,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.8.0",
+      "pkg_ver": "1.9.0",
       "count": 1
     }
   ],
@@ -1750,301 +1750,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-13-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "size": 133816,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "sha256": "dfc19b5ccaec7c03211031e3a71480f6af599b59e501b0e89b8d97fe5aff00b3"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-13-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "size": 112508,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "sha256": "a8c8c3ee808f21e4ef563039d85944ebf24ba2d3efd672f7bfc6ad00353d9de4"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-13-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "size": 139200,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "sha256": "c78931a10f3f1bb806f268bad2182336a1c13593cae59ca6242e7638dad10333"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-13-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "size": 117372,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "sha256": "d3875e12559b5196794e7d1d705a9b283a6c6403bf6085ac3215848b60ac4f9e"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-13-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "size": 134040,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "170b078cba001b83223d86d445b1de21ae001ea5a2ffe8973bbb8824804317e0"
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-13-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "size": 134140,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "7d79526e7119e41c8522a86d41ded395752c31bef9cab4ea72a74057aa13933d"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-13-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "size": 139452,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "ac9e990010051d67cae84daa2d330d7c1ad28082ed4ec9f4e5ab5aae172231de"
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-13-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "size": 139468,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "c8cc607961a8c0428bf5ffaa7cb57386b082fa69a7d0cff7d7eed144231e636e"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-13-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "size": 114548,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "517c017f8dbc9462f40cc931d22d39f170c52eebeb386cdb795e6317ad86d1d8"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-13-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "size": 112264,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "65f690937e2fa9c4b291b379192fceb5a516b4ded761a11a9d069cc58250405d"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-13-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "size": 120252,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "a443bb8d064bf6ae8365b216b33adae29eea3f702e4c5cc0822c0b602917dcc1"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-13-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "size": 117608,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-13-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "39e54f8eddc3c883ef1401007accbd7f1a75e2c4c262407ef2375332330aef77"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-14-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "size": 135628,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "sha256": "bcdb7841f1223b224d7fa997ce528312fd88d01d263e43e259b01361ff3ab09f"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-14-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "size": 113652,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "sha256": "fd5e077d4fa2916c1fcbff26dc8b0dc5f35996dcf6d2c0b6f8d975cbb5e76818"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-14-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "size": 140744,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "sha256": "6aeaf6bd562999c6992dd00e56da713784b67579419f99e60d12482acd924a50"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-14-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "size": 118288,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "sha256": "a977610e202637dac21280eed0e4db30cdf2822d5d5f67ffaed59931f8c72fe9"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-14-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "size": 135724,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "840571fdcd72bd81876e4a33e41bb7c36c4aa3ea5e651c1bdec852dfcc7488ef"
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-14-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "size": 135768,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "a784fdc26aa263de3c45e2d5e477544ff49a70f67a1570c27296c83d6e27bd6f"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-14-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "size": 140508,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "641c90d22973439f4123b2d55c2564a151c448dd086eb25c5d2d884ec178e3f7"
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-14-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "size": 140648,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "d72bb46c69d7bf22bb36f42efe794b5990b1e0942abf274d4d52ca7b507bf747"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-14-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "size": 115760,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "07f15221fbc04777bfd4490787a3801e9b68797f710a089d37bb0f3dfbdcbf18"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-14-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "size": 113256,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "655311ebc48824b9dccfb64bd279224da943e35973f89cc37bb7fa67d42d4526"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-14-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "size": 120876,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "ff7c3b8a4088467783fd91208dcbe04f330d73c4cf901731ddc560f7ad037d69"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-14-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "size": 118256,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-14-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "0415883f54af7560301810f9a9e0b5074bf0fb4f8f3e344608985f2c0f8cbe4d"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-15-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "size": 135600,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "sha256": "96103c6f6a25982a411033f8b3a692c01e92e525196aa30ee566d0f97f4f99a1"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-15-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "size": 113016,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "sha256": "da626f61efdfe233aed6c2726cea358748157263c4acfb73b79fc1f2e9096fe9"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-15-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "size": 140152,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "sha256": "8ef0f5be1c7f5f1cc70da50af483db4c26a432da21efc21b8422e2cbd345a3d7"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-15-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "size": 117952,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "sha256": "7c807771db6aa9ed75e32e11c5010c48763d71a7b1e2bf90382e7178cc04757a"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-15-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "size": 135444,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "17c7ba2002fcab8dfd7d4d703ef1118063978ab4814da431d7b368a302cf1838"
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-15-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "size": 135552,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "adc7861c1053ccf14abdbfeb01f267e2b79a33c69f4940305664afbcb17e814e"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-15-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "size": 140488,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "654941e5399b239fa566f467cf012a90c4bd0eaa7c852f66cb707e03954fe69a"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 15,
-      "name": "postgresql-15-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-15-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "size": 115236,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "6931c7d979f17f57a48b28abbae55296efb87abbc54947d41a779e7c21504aa5"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-15-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "size": 120516,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "7f7163f1c5c86dd2f9dced9032729196dcd126d2ca54348d3fb521f5b0449d84"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-16-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "size": 135416,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "sha256": "49ab7533401eb4944c1a6c718982d0822473203c808de9a60353b372ddd4229a"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-16-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "size": 140328,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "sha256": "11c8676317d1b95870b5f8e57b4469ead9d5064381b8f1b454b854ec19ec6725"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 16,
-      "name": "postgresql-16-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-16-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "size": 135416,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "52d153f28a3e2eaeea0e31610bd70e727bec8756010ccfb8720b65fe6bf716c9"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-16-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-15-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
       "size": 140432,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "fe2a257bcebf6940550a903bb16cf7341791f6a36523216b6f35fa6a37fa2e51"
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "deb34bb8b67170c6a1362e5f2c194a97aa7895298682c77da7081f4152958bf3"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-squeeze",
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-15-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "size": 112984,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "4fdd544d6be426426caef8ec67d1718ce6353a8c0ec5bc25aa1cf85dc5d5cc39"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 15,
+      "name": "postgresql-15-squeeze",
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-15-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "size": 117884,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-15-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "79e62be83a830863b0936040db6cd69101cb9d043be5ff4553359db228877631"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-squeeze",
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-16-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "size": 113184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "sha256": "9ceeba9c7f94b50b25293136c568a7a90a86962f10ecfcf8fd5b523fe63a89cb"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-squeeze",
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-16-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "size": 117824,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "sha256": "0e3e39cced3f7e255adb6dcf98b06caa65eb3b4895511cb428949ba8a5046362"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-squeeze",
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-16-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "size": 135396,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "9b1568fc6aaa46890b678f07d9beb01a47aa74464a851c488f3367e66aa38438"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 16,
+      "name": "postgresql-16-squeeze",
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-16-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "size": 140344,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "85872c85998573c7778d4ea571aa7a58dcac1138cfe3db495f9544c50f37d40f"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-16-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "size": 115232,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "c53bdd174aa4c60170d3649cb14dfbf325d6131b420093255793a325039b2ca7"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-16-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "size": 112784,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "5f30b07b93f647503ebb42694e30c2af954bc5a3f33551b2069c6e3d2887a877"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-16-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "size": 120044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "8f41886461c716f8dfcd143e7c9624dbd002e0bfe2c9d59baf402f12045c5712"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-16-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "size": 117664,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-16-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "3e3a2f045ab260da1656fbc7a14154a3b64f42f85f73bc3d196ceb0c03cc5ff1"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-17-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "size": 137460,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.8.0-1.pgdg120+1_arm64.deb",
-      "sha256": "9075add4a65df2b36d5bf4cb78b3b134dcd4a637e2071ba07694af828fdac250"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-17-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "size": 113544,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.9.0-1.pgdg120+1_arm64.deb",
+      "sha256": "0f24af16b365cb9012b5dee0c86d11c8fcb05e98850990e1c18c20ffff9fa20e"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-squeeze",
-      "ver": "1.8.0-1.pgdg120+1",
-      "file": "postgresql-17-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "size": 142464,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.8.0-1.pgdg120+1_amd64.deb",
-      "sha256": "45ced210cffb121d98c5c3535a1cfde636cd0830a5203dfde2ccc2ff56c996dc"
+      "ver": "1.9.0-1.pgdg120+1",
+      "file": "postgresql-17-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "size": 118188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.9.0-1.pgdg120+1_amd64.deb",
+      "sha256": "a5a99884c8515f17ecb82dad6f398173f1f283ac2b1722313865ce3cc6051f9f"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-17-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "size": 137300,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.8.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "55241a0bfeae0dc62d332528cbd704d9087ddce996dcfb149beb91e583edb5ce"
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-17-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "size": 137416,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.9.0-1.pgdg22.04+1_arm64.deb",
+      "sha256": "7d628da17171eade241651d219ef7056059e2fb3a329ec700c551151f20228f7"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-squeeze",
-      "ver": "1.8.0-1.pgdg22.04+1",
-      "file": "postgresql-17-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "size": 142576,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.8.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "286714ecbb58de21019cb3d81cdcfab108b35a393e252e0cba8c7e39871b96bc"
+      "ver": "1.9.0-1.pgdg22.04+1",
+      "file": "postgresql-17-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "size": 142540,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.9.0-1.pgdg22.04+1_amd64.deb",
+      "sha256": "db2b95ef62ca3e06f3db4259865c05626d50641abd31066c40f0532e09167e48"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-17-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "size": 115428,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.8.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "fc6b6b2b46b905efb926d228ed67917d0b6ab06236e949d762d864b9e86c34eb"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-17-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "size": 112836,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.9.0-1.pgdg24.04+1_arm64.deb",
+      "sha256": "e1b1292774dfb7613ca33c2e55fc0f4ca6a5377cf53d013e6e0dd5c10c656353"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-squeeze",
-      "ver": "1.8.0-1.pgdg24.04+1",
-      "file": "postgresql-17-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "size": 120400,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.8.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "cb659981c808921500b1dddb68d7b75c66089e5a41e1ef88f1331de24d3cdb93"
+      "ver": "1.9.0-1.pgdg24.04+1",
+      "file": "postgresql-17-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "size": 117864,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-squeeze/postgresql-17-squeeze_1.9.0-1.pgdg24.04+1_amd64.deb",
+      "sha256": "9eb0677c131a5cca58a7f3d2c098858793c724e31c2e9191d8f0405dc199502e"
     }
   ]
 }

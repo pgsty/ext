@@ -120,7 +120,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "1.0.3",
-      "count": 2
+      "count": 1
     },
     {
       "pg": 17,
@@ -993,16 +993,6 @@
       "size": 15808,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/lower_quantile_17-1.0.3-1PIGSTY.el8.x86_64.rpm",
       "sha256": "e3a7cfe99ae03468576f8dc3f76ac8e8b94d96c2726cc149d459ddf3daddf3e8"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "lower_quantile_17",
-      "ver": "1.0.0-1PIGSTY.el8",
-      "file": "lower_quantile_17-1.0.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 15132,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/lower_quantile_17-1.0.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "a2b894953a42bb19028c3145f76b073a15896083d4bb9c0fdd029a10edd89499"
     },
     {
       "os": "el9.aarch64",

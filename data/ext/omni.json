@@ -58,7 +58,7 @@
   "extra": {},
   "en_desc": "Advanced adapter for Postgres extensions",
   "zh_desc": "PostgreSQL即平台，Omnigres主扩展与加载器",
-  "comment": null,
+  "comment": "shared lib name is omni--0.2.9.so (with version)",
   "mtime": "2025-02-20",
   "siblings": [
     "omni",

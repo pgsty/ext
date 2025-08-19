@@ -1938,301 +1938,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "size": 91044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "1c3da905d8ac30b8d5c727b717c691cf61a3adf84e991c4f0f6e24307d826f42"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-13-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "size": 91172,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "sha256": "9c6a7abdfcb49dc85766b74b2ca8da71bb54c9a0955e60b0493791f0104ce042"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "size": 93460,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "4aa36b2fc3cc046735e512faf14d81c9f07e481e888e6e8940722a9253abcba7"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-13-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "size": 92988,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "sha256": "e8442af32c252aaefe9c10f0397f9d682dc0b6d764cc1204b2a71bf5226cf95e"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 106692,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "00070670c07a140329d4375ef6f0e77b0653ef968378c35178549eb96e88c216"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-13-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "size": 106664,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "sha256": "567a789396875316371b23c684f927e40b5b7308693967fe270977731e31bdfe"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 109252,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "31c62124162f7cbee598b8a06abb333ab8b5dc59d8c3949f3ffa8c9ac6ab0f62"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-13-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "size": 109336,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "sha256": "baebfa6d3d87ffa5a50028e2973d54ff2d13fa146eab2a34b43e0010f6c19fbf"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 90904,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "dc8c77295f41e565f40fd1264f5c1e2e780db41d3de642b60915fcbb592775b8"
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-13-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "size": 90836,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "sha256": "f6f3d17642c2ae9d238bb0437c2eb37bf95d77909a846f17e8a1157eecab445a"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 92748,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "4869e197cacafcdd8eaad07408d2c5ec89b6c8271b6cbbc1020f5affda9c463c"
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-13-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "size": 92808,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-13-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "sha256": "73f448a38f172d95283d39fc1d044a22d64528f67ee634328f55dc581f197772"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "size": 90832,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "85b796010b10764146b8d14a48137ce38904f14f51ebb945fd92da4f5ecc16b5"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-14-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "size": 90700,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "sha256": "715d4dd894a81d44f3b477e3f0d3b62354bd053eb8e7851fecb7a2b019fb5f3c"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "size": 92928,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "f49bc702c45f3d450acf85b486e500f5b239fa03065c965666270ee646326a42"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-14-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "size": 93108,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "sha256": "306cd22efd3870136c26125cfdb50917d63bd08bff5fc5d4c535b27e881ba2c1"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 106832,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "2d77ca94c84f154930f5bd0f32d76b56ddd6d0d6bed9977b5c19b95517cc7343"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-14-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "size": 106748,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "sha256": "24b871d8b31736e76859cc61ea48ca74982d053c8fcc3be7960d5812039041c6"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 109456,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "592febeb1a355fc61fd5dc313127614189b06c3e026f5329f105c70f6d7cd38f"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-14-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "size": 109684,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "sha256": "a903d6f79a518300b3246c085330ffec27a2993e0271d12fc5a83252afd7d941"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 90492,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "1bda144cd50aecb1c898284f3f8e2f403dfb8189e9d8dd1dcc9760ee3d7cddcc"
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-14-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "size": 90868,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "sha256": "3e1ecc3fb37949c7d4d6c13040758446c2a0df55fd35f7f3b242191e05efc8dd"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 92732,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "e6353fd770fdb662b6e166347cbc72acc9f1ce7c495344485d17557dde055633"
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-14-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "size": 92684,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-14-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "sha256": "d76697230a7712e4e3b32f463884630a5a98e1e9dcc8ff0f01113b4ffe44759a"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "size": 90816,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "a12b7058cf1af7a5628fa0009e790d1af479296747617ef46d8037e513384477"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-15-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "size": 90864,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "sha256": "1753448e9ac581db8784f86be5d9313252c240e93f454e4af89e7a2c9f95d04f"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "size": 92772,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "38124b1d4d25a0a9a8921b371b886cfe0421b4a7eba965996cde954969cd4115"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-15-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "size": 92996,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "sha256": "6dd7042fb62792390c72b8ab78d3c66f4d9dc07da0dbfe42aa106392f7ff968e"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 106820,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "6a495c8b6de87550106ee881ef62135ed8fd7b2eca590aa6d8d924aa84d43481"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-15-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "size": 106756,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "sha256": "4844aa9143d247fd015f4bbd3a6257358b7d682dade94034ca47784184e6a57b"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 109388,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "3598a205652ded8e3f1b914df5aa0c4fea0d282bce36adffc1c658b4a6248e75"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-15-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "size": 109608,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "sha256": "583005b2edd48072135e1ec9cdadae1c5990d964e6576e17ffefb2d428ed458f"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 90784,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "dff2161a0de11a1510686add8a01bc2fad537edd8b0d582e781b88e1d4e41fb3"
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-15-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "size": 90420,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "sha256": "4aa2afa29bab1e99c6f577300ec96c5c76794719b06560189623e583987cdb5f"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 92728,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "75471b2c7d38cd656ebd4fb621f732aa5d9307db5acdac60a78dc7cd9f6e4aec"
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-15-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "size": 92620,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-15-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "sha256": "5f163f45f6b36e174aa5d03794758c043813f7632463d75716fddace3173ca33"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "size": 90564,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "53616614a12871280e7faa928ccd2382a5795cf763ac388814ab29c31b11d7d2"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-16-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "size": 90204,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "sha256": "c72a42a710e0781845f62398f572c34e0bfc5170e18d3a200abaf48ea18d0daa"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "size": 92044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "84d95e8a041a017f3b45a424d57a83858df3ed3c3d788bc6fa921b20acda4aec"
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-16-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "size": 92232,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "sha256": "edd0090033dfee1eb2e032834efca13779c1c1cbad13c65245ef9c68fd1269f3"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 106016,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "a2be22affd84ee79ccae92c953f841e2d1ba53b91dda9073e31ec13c3ab3a95e"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-16-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "size": 105992,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "sha256": "f3dbc9baebc599e18c943a4d68323f33ac0d4128584e3dc5a0c8b03e79281af6"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 108296,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "1c55e80b2554376824d4d5aea3ac1e5b8a8368f4bbb1b77998fc89b20343a339"
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-16-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "size": 108620,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "sha256": "3adbd68a35df1ad58db8fc493667d0e963b8208b668848219e8a9eea3cb280dd"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 89456,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "ddcd8fe58e44fa06f290900ca9abe42ec0d3263a94a1a42ef538c1b5be179b8d"
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-16-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "size": 89508,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "sha256": "2a4d8b2c7068d3125013b403a9e2ed7749be2cb64c2ec5621491da5e7c4c7fe5"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-16-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "size": 91560,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "sha256": "623a93ceeb4a89239c6a6c26680fb724d380a4f000efc12a98e9d5f5f21f4f1f"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 17,
+      "name": "postgresql-17-ogr-fdw",
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-17-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "size": 90280,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1.pgdg12+1_arm64.deb",
+      "sha256": "cbd796b833ef757b4c0228c71905ffc969bf702fb57f30c0a4f7ce182daf952f"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 17,
+      "name": "postgresql-17-ogr-fdw",
+      "ver": "1.1.7-1.pgdg12+1",
+      "file": "postgresql-17-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "size": 91968,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1.pgdg12+1_amd64.deb",
+      "sha256": "1e89a3100cca2871619dde19b4245c497e87478992161a95da01e505a1df5cd0"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 17,
+      "name": "postgresql-17-ogr-fdw",
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-17-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "size": 106336,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1.pgdg22.04+1_arm64.deb",
+      "sha256": "cb9087abc67f967d4b7ce885bf6ffa04f9ae4eae44fd650c766502c3ab8d6cac"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 17,
+      "name": "postgresql-17-ogr-fdw",
+      "ver": "1.1.7-1.pgdg22.04+1",
+      "file": "postgresql-17-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "size": 108920,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1.pgdg22.04+1_amd64.deb",
+      "sha256": "599944900462385a590569edff64249355e082e98ce33a518d3ce1f9c9d873d1"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 17,
+      "name": "postgresql-17-ogr-fdw",
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-17-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "size": 89708,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1.pgdg24.04+1_arm64.deb",
+      "sha256": "61311ab478dc2070dc70a61b0cbc68e5d775f76efc9e5089518ab12c0b2aa784"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 17,
+      "name": "postgresql-17-ogr-fdw",
+      "ver": "1.1.7-1.pgdg24.04+1",
+      "file": "postgresql-17-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
       "size": 91476,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-16-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "aeeb7307cf4f2a7707437aa258419e92759d1b5b71b914eaf06d835b3ca96b64"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 17,
-      "name": "postgresql-17-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "size": 90356,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg120+1_arm64.deb",
-      "sha256": "aa85da342e059f3d7118b93f969a0a99a98b2ad539986aabce1bf4e30cca4fa9"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 17,
-      "name": "postgresql-17-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg120+1",
-      "file": "postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "size": 91912,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg120+1_amd64.deb",
-      "sha256": "23fd2a828017cd93d75b1e6e621a7457af1cdfcc93348194f28f3246a145edb6"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 17,
-      "name": "postgresql-17-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "size": 106328,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_arm64.deb",
-      "sha256": "aae77be5948af03824bd5dcb6db9eafcebf4fe57e367d3a4e63fdd3b884f99e6"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 17,
-      "name": "postgresql-17-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg22.04+1",
-      "file": "postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "size": 108844,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg22.04+1_amd64.deb",
-      "sha256": "acfc757ef38f71eb6478e55a5d4f9f1bee217c6ce5c4979bd33590c2d82807f3"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 17,
-      "name": "postgresql-17-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "size": 89652,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_arm64.deb",
-      "sha256": "417bf3cfd99b5de31d4b79081ce042fa813399164a64dd2983d0b203b333e3a4"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 17,
-      "name": "postgresql-17-ogr-fdw",
-      "ver": "1.1.7-1~exp1.pgdg24.04+1",
-      "file": "postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "size": 91640,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1~exp1.pgdg24.04+1_amd64.deb",
-      "sha256": "452ffe5e82e9b9a3b2957f0413daf65e0c90594aedb64484e99237e870636ba4"
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsql-ogr-fdw/postgresql-17-ogr-fdw_1.1.7-1.pgdg24.04+1_amd64.deb",
+      "sha256": "f377f3176c7735ee8dc51c98371a43cff669d5642d23ed5b07e8ab6198dc8190"
     }
   ]
 }

@@ -8,7 +8,7 @@
   "url": "https://github.com/fmbiete/pgauditlogtofile",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "1.6.4",
+  "version": "1.7.1",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.6.4",
+  "rpm_ver": "1.7.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgauditlogtofile_$v*",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.6.4",
+  "deb_ver": "1.7.1",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pgauditlogtofile",
   "deb_deps": [],
@@ -74,7 +74,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -89,7 +89,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -134,8 +134,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 3
+      "pkg_ver": "1.7.1",
+      "count": 5
     },
     {
       "pg": 17,
@@ -149,8 +149,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 3
+      "pkg_ver": "1.7.1",
+      "count": 5
     },
     {
       "pg": 17,
@@ -164,7 +164,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -179,7 +179,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -194,7 +194,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -209,7 +209,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -224,7 +224,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -239,7 +239,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -284,8 +284,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 5
+      "pkg_ver": "1.7.1",
+      "count": 7
     },
     {
       "pg": 16,
@@ -299,8 +299,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 5
+      "pkg_ver": "1.7.1",
+      "count": 7
     },
     {
       "pg": 16,
@@ -314,7 +314,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -329,7 +329,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -344,7 +344,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -359,7 +359,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -374,7 +374,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -389,7 +389,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -434,8 +434,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 7
+      "pkg_ver": "1.7.1",
+      "count": 8
     },
     {
       "pg": 15,
@@ -449,8 +449,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 7
+      "pkg_ver": "1.7.1",
+      "count": 8
     },
     {
       "pg": 15,
@@ -464,7 +464,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -479,7 +479,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -494,7 +494,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -509,7 +509,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -524,7 +524,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -539,7 +539,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -584,8 +584,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 7
+      "pkg_ver": "1.7.1",
+      "count": 8
     },
     {
       "pg": 14,
@@ -599,8 +599,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 9
+      "pkg_ver": "1.7.1",
+      "count": 10
     },
     {
       "pg": 14,
@@ -614,7 +614,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -629,7 +629,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -644,7 +644,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -659,7 +659,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -674,7 +674,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -689,7 +689,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -734,8 +734,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 7
+      "pkg_ver": "1.7.1",
+      "count": 8
     },
     {
       "pg": 13,
@@ -749,8 +749,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
-      "count": 9
+      "pkg_ver": "1.7.1",
+      "count": 10
     },
     {
       "pg": 13,
@@ -764,7 +764,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -779,7 +779,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -794,7 +794,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     },
     {
@@ -809,7 +809,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.4",
+      "pkg_ver": "1.7.1",
       "count": 1
     }
   ],
@@ -1038,6 +1038,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "pgauditlogtofile_13",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_13-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 26153,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgauditlogtofile_13-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "4a58622e85260e728b78a89442e3be9f4693ed42ac555ba235c2c994d64401cc"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgauditlogtofile_13",
       "ver": "1.6.4-1PGDG.rhel9",
       "file": "pgauditlogtofile_13-1.6.4-1PGDG.rhel9.aarch64.rpm",
       "size": 24202,
@@ -1103,6 +1113,16 @@
       "size": 18327,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgauditlogtofile_13-1.5.6-1.rhel9.aarch64.rpm",
       "sha256": "102c43a80e9620462f54c22e919fa533ef67c89c1564e0a574b0d6d14d56a547"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgauditlogtofile_13",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_13-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 26376,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgauditlogtofile_13-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "60299404b4cd6bf58e3884337b1e23bd9d2b5387964f595bc6896d326e6231e8"
     },
     {
       "os": "el9.x86_64",
@@ -1398,6 +1418,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pgauditlogtofile_14",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_14-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 26159,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgauditlogtofile_14-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "1a32b27ff63f27006371885076d8e3e0fea5de4a4134ee18360ce3c7235d15a2"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgauditlogtofile_14",
       "ver": "1.6.4-1PGDG.rhel9",
       "file": "pgauditlogtofile_14-1.6.4-1PGDG.rhel9.aarch64.rpm",
       "size": 24214,
@@ -1463,6 +1493,16 @@
       "size": 18314,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgauditlogtofile_14-1.5.6-1.rhel9.aarch64.rpm",
       "sha256": "6825dccca05bb1cd41a3831d7cd047a058d01044cad1dfe0ba84d92637dc4895"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgauditlogtofile_14",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_14-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 26418,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgauditlogtofile_14-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "22c3d8181e85a54ca526bc8efb26779cce3e61afbde47cdbbb6c96ea4413dc88"
     },
     {
       "os": "el9.x86_64",
@@ -1698,6 +1738,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pgauditlogtofile_15",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_15-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 26087,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgauditlogtofile_15-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "6887d8abea3a5af690801817c184ac9234767a1d0fe3f1baa5979ff027300520"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgauditlogtofile_15",
       "ver": "1.6.4-1PGDG.rhel9",
       "file": "pgauditlogtofile_15-1.6.4-1PGDG.rhel9.aarch64.rpm",
       "size": 24331,
@@ -1763,6 +1813,16 @@
       "size": 18411,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgauditlogtofile_15-1.5.6-2.rhel9.aarch64.rpm",
       "sha256": "8db2fcc1ca2af4a230548acb39a627ed4cf7ae64ba5f59a015f321c8e693cdbe"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgauditlogtofile_15",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_15-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 26513,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgauditlogtofile_15-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "70b3769daba7a4fe519944f95af6f8af6b37c532b1bac002218954bdc697be17"
     },
     {
       "os": "el9.x86_64",
@@ -1938,6 +1998,26 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pgauditlogtofile_16",
+      "ver": "1.7.1-2PGDG.rhel9",
+      "file": "pgauditlogtofile_16-1.7.1-2PGDG.rhel9.aarch64.rpm",
+      "size": 24684,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgauditlogtofile_16-1.7.1-2PGDG.rhel9.aarch64.rpm",
+      "sha256": "54d4109b9719c6f6b847d76b1854ac52f2b69cf9b173a03840b2c03c95f1c828"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgauditlogtofile_16",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_16-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 24594,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgauditlogtofile_16-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "87b7ccabc6e1710814eb930dcf68947fc4a390c3e2771367a1ca8399af0a9733"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgauditlogtofile_16",
       "ver": "1.6.4-1PGDG.rhel9",
       "file": "pgauditlogtofile_16-1.6.4-1PGDG.rhel9.aarch64.rpm",
       "size": 22664,
@@ -1983,6 +2063,26 @@
       "size": 19226,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgauditlogtofile_16-1.5.12-1PGDG.rhel9.aarch64.rpm",
       "sha256": "13854f6adf0cf5a842cffe66a2f657dc2a488ec45f1d4eb791d17e7f57842808"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgauditlogtofile_16",
+      "ver": "1.7.1-2PGDG.rhel9",
+      "file": "pgauditlogtofile_16-1.7.1-2PGDG.rhel9.x86_64.rpm",
+      "size": 24886,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgauditlogtofile_16-1.7.1-2PGDG.rhel9.x86_64.rpm",
+      "sha256": "69b25d17076f14f7cb79dd40070997c7b4bbf63de2a2aa1b3d3802fabc2050a7"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgauditlogtofile_16",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_16-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 25000,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgauditlogtofile_16-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "5b1e0401c5b7654112b0ec97c17952de7f86c980f0d4506edf1dcf0dbfd51671"
     },
     {
       "os": "el9.x86_64",
@@ -2098,6 +2198,26 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pgauditlogtofile_17",
+      "ver": "1.7.1-2PGDG.rhel9",
+      "file": "pgauditlogtofile_17-1.7.1-2PGDG.rhel9.aarch64.rpm",
+      "size": 24870,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgauditlogtofile_17-1.7.1-2PGDG.rhel9.aarch64.rpm",
+      "sha256": "2eb766a5dfa8d8d29005b815abbf13616ccdaa669f5ef1d21cac38b8e5262aee"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgauditlogtofile_17",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_17-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 24787,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgauditlogtofile_17-1.7.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "2508cb41c9c682d90881af17393f10cbbdd8c2464182622f414eb27a1436fda1"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgauditlogtofile_17",
       "ver": "1.6.4-1PGDG.rhel9",
       "file": "pgauditlogtofile_17-1.6.4-1PGDG.rhel9.aarch64.rpm",
       "size": 22790,
@@ -2123,6 +2243,26 @@
       "size": 22862,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgauditlogtofile_17-1.6.2-1PGDG.rhel9.aarch64.rpm",
       "sha256": "2e5f546a8a00dc7a3e4d562fecbc566993ef7954850dde64af134c54491587d6"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgauditlogtofile_17",
+      "ver": "1.7.1-2PGDG.rhel9",
+      "file": "pgauditlogtofile_17-1.7.1-2PGDG.rhel9.x86_64.rpm",
+      "size": 25029,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgauditlogtofile_17-1.7.1-2PGDG.rhel9.x86_64.rpm",
+      "sha256": "28622b627b2a61d54e621e796ed60c56b20cb53d1e183e6c4ed5c3450a8993f7"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgauditlogtofile_17",
+      "ver": "1.7.1-1PGDG.rhel9",
+      "file": "pgauditlogtofile_17-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 25207,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgauditlogtofile_17-1.7.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "415d2ac731a8573684e6ba29f63e46a15d1938d629c2b85fcb71ef87a58fb0e9"
     },
     {
       "os": "el9.x86_64",
@@ -2158,301 +2298,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-13-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "size": 45252,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "sha256": "a625bf3819acaeb4a1072b68247f369d70b3c8ada62016f91ccf59b9798a3d92"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-13-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "size": 49920,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "sha256": "a70bc69e6217706f599bfeadf85bfd4b316e4b49189590d36f8afc60fcd344d6"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-13-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "size": 46092,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "sha256": "f4da20e593352c6b94f1ba41df2c54f3aebd92361a53e5c99eee650c055ed61c"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-13-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "size": 50812,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "sha256": "87e93631a5900309e18c60a6a7ee8d2ef1ed6f82019716fef533289813a5833e"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-13-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "size": 45128,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "sha256": "c9b8f8c712cdf490ac5d079cf24f69d23065ad6d1963b49fb434146dfd2b8f0e"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-13-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "size": 54476,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "sha256": "f26c2655e06deb818c2950fc21576262e5e0a14ebb6167e0c04d7b2f95e72195"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-13-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "size": 46384,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "sha256": "e66eb88f6c48b323232edb283ded546ca04b3cb83418db56d2825d942a57fcb3"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-13-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "size": 55696,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "sha256": "57941e4c92d6ad71f1905fa22710791bc44b66e59eb0c826e502ae817357e32b"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-13-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "size": 42144,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "sha256": "9af562be984ef266e5d88de538b3f88ab94ac3613b1b9f5c0f5648b8dabe567c"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-13-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "size": 50020,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "sha256": "a164715ecc06349f5799888448abb3fb45c3b1b32e30a1bd1beb4751550c5207"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-13-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "size": 43080,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "sha256": "ea28d9e64cf73ccea9becb5811a2f786a9815435624e1388d3ef290f2f82cff6"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-13-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "size": 50860,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-13-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "sha256": "7922605221cc0ea79a0111d5069e6246096e2fdf20b6a4f864d505486b2e7933"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-14-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "size": 45340,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "sha256": "409c3ad7fbc88cec933b8f36c7af0943167abf67055b0c31496b2b97fb44871f"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-14-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "size": 50000,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "sha256": "f4a4a3aad10b1b42f161d10b231a8f9f9bc005ddc1bb481dac5f5f59af547871"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-14-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "size": 46308,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "sha256": "d31dac2afa521a944dfb70cd11654b9af681e0b55b47c0a670e7aaab3f615511"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-14-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "size": 50952,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "sha256": "92f2a6a57d2cba645eae5798cd99250ff0254df7d306a0dde6542e7ad9ed865e"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-14-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "size": 45332,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "sha256": "8814e83bff3221a0e7d7c3baa2b8e2334399054e870326b81257d589d25a0b1a"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-14-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "size": 54724,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "sha256": "2743b0976d1a803b87a4287e3cf54fc8865e0a076ff6d27a8304e7dc9c3a9628"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-14-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "size": 46512,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "sha256": "e56b103c33ed64e836d9ef8ee8d6eda407a82622dcd8289903c3e063b93c02d7"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-14-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "size": 55960,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "sha256": "8f5900ac27073635693f4e47fc9643cd5408bb1da8816e431bc13717a2fd50bd"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-14-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "size": 42172,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "sha256": "83eab6abec65b364f6891f8710670b3ad7f69e7843ca8b294694689e1243d3a1"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-14-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "size": 50044,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "sha256": "853c580f8f6e5036844f0666ad26aeac2dfe7bb668a0c3388bee284020f4e4ef"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-14-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "size": 43128,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "sha256": "8cef3e91bcbdebc187174830a73174e5a902432c9d975bca65fce61782bca60a"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-14-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "size": 51020,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-14-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "sha256": "04cea23bfd9610d910b25d029c86ed180478fc1675e754c866e47e605e089df1"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-15-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "size": 45592,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "sha256": "2b45a119472829c8f2fc651d91dc6e6220f9706765fba618378e913f13118571"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-15-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "size": 50308,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "sha256": "7d5a8e0a8154993f67cf92bb2e767d870b69d702c974c2903845d5f246615469"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-15-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "size": 46652,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "sha256": "0048d5e789fc1f5eb3ff4f728b90e0e9ccd8e76d2c3da1b8f69bc2726b514db7"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-15-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "size": 51264,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "sha256": "d0fbc2f0957cf734e26586df6b19f30b03458d24b5dfe94a52146bbcd3ae7c3a"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-15-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "size": 45600,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "sha256": "1e24cc9d96996c0875adef7d4a44bcd8c16855c9ada82729f45ba4e77ebce517"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-15-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "size": 55108,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "sha256": "d3d711f616ed39a3c46cfecaf9dcb5370db36b9dc4278b32c0300faec414fe51"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-15-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "size": 46760,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "sha256": "709e0bc1cabb6b1d45ca0ab563a7eab68faa00ac6869b1ad38573e7b3a2e32b6"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-15-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "size": 56256,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "sha256": "13e38326f804bc42fc296f5627f47e45b31f0232c00919710b754b67faeaa48a"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-15-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "size": 42480,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "sha256": "0710080e09502524d2953170718aa77f30654bf500340c2e611ce46126f0f298"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-15-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "size": 50416,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "sha256": "805f117e333e39760abb3777cf62e460d316240724ad14c4a58bdb03c088a887"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-15-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "size": 43564,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "sha256": "07bc7073e2fb174192da9017253e45d5b7a230c28a2524e61179b200bc78254a"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-15-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "size": 51324,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-15-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "sha256": "61efcced32cdab5091e0998320ee05485573ea392fe3a2b96ca206e73d6ac563"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-16-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "size": 44924,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "sha256": "c13051900e4d9bebde6f8125978c211bee43b0cce36bad68076ef2f94cb31399"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-16-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "size": 49648,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "sha256": "5136f4d1070dd1a0f540bb4a52430a9fc39df3faad0fd7b8fd2cc614c0ef0426"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-16-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "size": 45808,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "sha256": "0863b4ca35cd410fb824db10256c93473bddddd4fd7b325da65be7a72926fdcf"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-16-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "size": 50448,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "sha256": "83a77595d92d139932c1b4307d0ddd370dd582acb5c813dae7e88fba916b72f6"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-16-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "size": 44500,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "sha256": "d5ffc04850e6d22af23e43f75d7b739fb4aa36ac9944f22b1864c670ef4ee355"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-16-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "size": 53776,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "sha256": "d2494940f9c9736e6451025d6a2f14186a6c613c4c74d87430b05dd4fa8d11f6"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-16-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "size": 45544,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "sha256": "7b1f24f41537599e85955baf27601811df41d7156cdc62e3b8ffb8dac44fe09b"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-16-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "size": 55012,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "sha256": "376f7494b88d01a941ffe595ae9f60ebb1d72ab37b52ff4add648cd5c98d72ea"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-16-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "size": 41456,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "sha256": "e5dee59130aa21b80dd6833504290e9e373339680f8dda32505bf88bb7ff4d18"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-16-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "size": 49168,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "sha256": "d048d0f38feab2cf2cd51fa7ddb1fa4795d84638c60fde20600688a59cab4e75"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-16-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "size": 42492,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "sha256": "f49c118d7d1f204b74496160f64662f11f8d8bc9c15d5057813118bec370636b"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-16-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "size": 50084,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-16-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "sha256": "d4d2f2d7f763e7c6e4c12a6443f3b0872cc9094cfeae96797f64517c577be697"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-17-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "size": 44868,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.6.4-1.pgdg120+1_arm64.deb",
-      "sha256": "285acc38b990985a70a013a0a113882557efdc15ec9ea944bf19a8ff072a6b7e"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-17-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "size": 49624,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.7.1-1.pgdg120+1_arm64.deb",
+      "sha256": "01273f279536369789c306dfedaf04f9be8c544d1361178ca9a212726d420bf9"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg120+1",
-      "file": "postgresql-17-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "size": 45736,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.6.4-1.pgdg120+1_amd64.deb",
-      "sha256": "3bb71f6981556d6ea1e1a870f92add9d27bd72e21d6203596ff6d2c748366843"
+      "ver": "1.7.1-1.pgdg120+1",
+      "file": "postgresql-17-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "size": 50416,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.7.1-1.pgdg120+1_amd64.deb",
+      "sha256": "429050b9f5a9b648fde08f5f16010cd39e7a16e52b3727b20f6f508c02b383ce"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-17-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "size": 44576,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.6.4-1.pgdg22.04+1_arm64.deb",
-      "sha256": "3b199a812fed8d6a788d7689c8f9da1d79b1d6901f2338ccaf3cbbc6001316c3"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-17-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "size": 53736,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.7.1-1.pgdg22.04+1_arm64.deb",
+      "sha256": "2b865f79d006e66142d9702ed8248647a6e02ef424bd928613a0335636b1b25a"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg22.04+1",
-      "file": "postgresql-17-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "size": 45468,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.6.4-1.pgdg22.04+1_amd64.deb",
-      "sha256": "b3aded08afbbf3bb0599c23174ebe636827938b99f6e95ab3eb10a491364238f"
+      "ver": "1.7.1-1.pgdg22.04+1",
+      "file": "postgresql-17-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "size": 54896,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.7.1-1.pgdg22.04+1_amd64.deb",
+      "sha256": "3df23ceb50643e83b29befaab94c6e0ddfa565a9c1ac3f2c6421d5290d529980"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-17-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "size": 41480,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.6.4-1.pgdg24.04+1_arm64.deb",
-      "sha256": "8c042230d7847fa60e96723a6eb275f36613a345354d9ec1952de498a1183df4"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-17-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "size": 49204,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.7.1-1.pgdg24.04+1_arm64.deb",
+      "sha256": "de92e3ea2e271a8f2b453aa948a119a1aecfa7a4b2dfe61b104f16af949b7248"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pgauditlogtofile",
-      "ver": "1.6.4-1.pgdg24.04+1",
-      "file": "postgresql-17-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "size": 42444,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.6.4-1.pgdg24.04+1_amd64.deb",
-      "sha256": "76c205363dd1588a27c9e75969bdd34b0ee1d8b35a46df61769aff9fcc169f20"
+      "ver": "1.7.1-1.pgdg24.04+1",
+      "file": "postgresql-17-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "size": 50040,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgauditlogtofile/postgresql-17-pgauditlogtofile_1.7.1-1.pgdg24.04+1_amd64.deb",
+      "sha256": "b4d3cc73beddf7759d151206e6919d0188466e62d03db0fda07bcaff2b47eb58"
     }
   ]
 }

@@ -104,7 +104,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 7
+      "count": 6
     },
     {
       "pg": 17,
@@ -119,7 +119,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 7
+      "count": 6
     },
     {
       "pg": 17,
@@ -134,7 +134,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 7
+      "count": 6
     },
     {
       "pg": 17,
@@ -149,7 +149,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 7
+      "count": 6
     },
     {
       "pg": 17,
@@ -254,7 +254,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 14
+      "count": 13
     },
     {
       "pg": 16,
@@ -269,7 +269,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 14
+      "count": 13
     },
     {
       "pg": 16,
@@ -284,7 +284,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 14
+      "count": 13
     },
     {
       "pg": 16,
@@ -299,7 +299,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 14
+      "count": 13
     },
     {
       "pg": 16,
@@ -396,6 +396,36 @@
       "os": "el8.aarch64",
       "type": "rpm",
       "os_code": "el8",
+      "os_arch": "aarch64",
+      "pkg": "citus",
+      "ext": "citus",
+      "pname": "citus_15",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pigsty",
+      "pkg_ver": "13.1.0",
+      "count": 20
+    },
+    {
+      "pg": 15,
+      "os": "el8.x86_64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "x86_64",
+      "pkg": "citus",
+      "ext": "citus",
+      "pname": "citus_15",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pigsty",
+      "pkg_ver": "13.1.0",
+      "count": 21
+    },
+    {
+      "pg": 15,
+      "os": "el9.aarch64",
+      "type": "rpm",
+      "os_code": "el9",
       "os_arch": "aarch64",
       "pkg": "citus",
       "ext": "citus",
@@ -408,36 +438,6 @@
     },
     {
       "pg": 15,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "citus_15",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 22
-    },
-    {
-      "pg": 15,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "citus_15",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 22
-    },
-    {
-      "pg": 15,
       "os": "el9.x86_64",
       "type": "rpm",
       "os_code": "el9",
@@ -449,7 +449,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "13.1.0",
-      "count": 22
+      "count": 21
     },
     {
       "pg": 15,
@@ -2287,16 +2287,6 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "citus_15",
-      "ver": "13.0.3-9PIGSTY.el8",
-      "file": "citus_15-13.0.3-9PIGSTY.el8.aarch64.rpm",
-      "size": 932468,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/citus_15-13.0.3-9PIGSTY.el8.aarch64.rpm",
-      "sha256": "610cd7d9a7b902d230b6301bdeb0096183af09527ac15e94d24b57ad6b467a45"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 15,
-      "name": "citus_15",
       "ver": "13.0.3-1PGDG.rhel8",
       "file": "citus_15-13.0.3-1PGDG.rhel8.aarch64.rpm",
       "size": 793532,
@@ -2492,16 +2482,6 @@
       "size": 843972,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/citus_15-13.0.4-1PGDG.rhel8.x86_64.rpm",
       "sha256": "e667f8bc9c22c783e7d774fc00392d27919ef7e22506efdb12c134572ac2dd32"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 15,
-      "name": "citus_15",
-      "ver": "13.0.3-9PIGSTY.el8",
-      "file": "citus_15-13.0.3-9PIGSTY.el8.x86_64.rpm",
-      "size": 970544,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/citus_15-13.0.3-9PIGSTY.el8.x86_64.rpm",
-      "sha256": "72ee2082481d4dfc448c5ad35b84045ac06f4645059a1344aa2013e5ac322cfe"
     },
     {
       "os": "el8.x86_64",
@@ -2717,16 +2697,6 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "citus_15",
-      "ver": "13.0.3-9PIGSTY.el9",
-      "file": "citus_15-13.0.3-9PIGSTY.el9.aarch64.rpm",
-      "size": 834054,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/citus_15-13.0.3-9PIGSTY.el9.aarch64.rpm",
-      "sha256": "4c64768f9b5fa0e9f9349a2dbd6f69f170ffea4bcc0ed88a083bfdf3600e50bb"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 15,
-      "name": "citus_15",
       "ver": "13.0.3-1PGDG.rhel9",
       "file": "citus_15-13.0.3-1PGDG.rhel9.aarch64.rpm",
       "size": 799564,
@@ -2932,16 +2902,6 @@
       "size": 832805,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/citus_15-13.0.4-1PGDG.rhel9.x86_64.rpm",
       "sha256": "5207358468bc0552f4accdd7a0b65196d508ea12ae79c2c1b499c8f4a1b12306"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 15,
-      "name": "citus_15",
-      "ver": "13.0.3-9PIGSTY.el9",
-      "file": "citus_15-13.0.3-9PIGSTY.el9.x86_64.rpm",
-      "size": 868564,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/citus_15-13.0.3-9PIGSTY.el9.x86_64.rpm",
-      "sha256": "1c555be3f62bd9200cfb2cd9af3c25d2298ce70d84f489baf831acdb69313c88"
     },
     {
       "os": "el9.x86_64",
@@ -3157,16 +3117,6 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "citus_16",
-      "ver": "13.0.3-9PIGSTY.el8",
-      "file": "citus_16-13.0.3-9PIGSTY.el8.aarch64.rpm",
-      "size": 891032,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/citus_16-13.0.3-9PIGSTY.el8.aarch64.rpm",
-      "sha256": "1253709e78c9a386cf10362104f5e67d62bef576fd5a3445b13ed2093b59d5a4"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 16,
-      "name": "citus_16",
       "ver": "13.0.3-1PGDG.rhel8",
       "file": "citus_16-13.0.3-1PGDG.rhel8.aarch64.rpm",
       "size": 774548,
@@ -3292,16 +3242,6 @@
       "size": 819928,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/citus_16-13.0.4-1PGDG.rhel8.x86_64.rpm",
       "sha256": "ed0ca159e3a678f964b70bc6717223ac2c76507811d85eef0c83c28ee37f6a50"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 16,
-      "name": "citus_16",
-      "ver": "13.0.3-9PIGSTY.el8",
-      "file": "citus_16-13.0.3-9PIGSTY.el8.x86_64.rpm",
-      "size": 927168,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/citus_16-13.0.3-9PIGSTY.el8.x86_64.rpm",
-      "sha256": "c23701b2d9085328235edc541a340129587213e74491780e31f9ac0c31bdc785"
     },
     {
       "os": "el8.x86_64",
@@ -3437,16 +3377,6 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "citus_16",
-      "ver": "13.0.3-9PIGSTY.el9",
-      "file": "citus_16-13.0.3-9PIGSTY.el9.aarch64.rpm",
-      "size": 785738,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/citus_16-13.0.3-9PIGSTY.el9.aarch64.rpm",
-      "sha256": "6c17bbf8c9a9eecab11e31f6f7e92639e1f241f591f24e1c7f2b75cad865f14f"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 16,
-      "name": "citus_16",
       "ver": "13.0.3-1PGDG.rhel9",
       "file": "citus_16-13.0.3-1PGDG.rhel9.aarch64.rpm",
       "size": 761921,
@@ -3572,16 +3502,6 @@
       "size": 786982,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/citus_16-13.0.4-1PGDG.rhel9.x86_64.rpm",
       "sha256": "05003f71ed0f4e837fa5c0297b048fe9fe277f45d2ae4a35099b4358104ba8d8"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 16,
-      "name": "citus_16",
-      "ver": "13.0.3-9PIGSTY.el9",
-      "file": "citus_16-13.0.3-9PIGSTY.el9.x86_64.rpm",
-      "size": 812464,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/citus_16-13.0.3-9PIGSTY.el9.x86_64.rpm",
-      "sha256": "f50342fd1c049ca7dccf939aa89a59c35a67b2b6db4decf11e3c1fac62327c29"
     },
     {
       "os": "el9.x86_64",
@@ -3717,16 +3637,6 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "citus_17",
-      "ver": "13.0.3-9PIGSTY.el8",
-      "file": "citus_17-13.0.3-9PIGSTY.el8.aarch64.rpm",
-      "size": 896620,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/citus_17-13.0.3-9PIGSTY.el8.aarch64.rpm",
-      "sha256": "69f442eb5dc435c7835b85146a17302c3fe20e63b4e75f0ac09c9357429ba718"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 17,
-      "name": "citus_17",
       "ver": "13.0.3-1PGDG.rhel8",
       "file": "citus_17-13.0.3-1PGDG.rhel8.aarch64.rpm",
       "size": 779728,
@@ -3782,16 +3692,6 @@
       "size": 825256,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/citus_17-13.0.4-1PGDG.rhel8.x86_64.rpm",
       "sha256": "20a961864cd36cf16cb153e985dfdad5e7c1a710bb1d596efd35fdfab41ccd24"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 17,
-      "name": "citus_17",
-      "ver": "13.0.3-9PIGSTY.el8",
-      "file": "citus_17-13.0.3-9PIGSTY.el8.x86_64.rpm",
-      "size": 932796,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/citus_17-13.0.3-9PIGSTY.el8.x86_64.rpm",
-      "sha256": "e67155c2ef85233cdb5061fcb8561d9c7daa7ec708602d95ec7b09c17299129d"
     },
     {
       "os": "el8.x86_64",
@@ -3857,16 +3757,6 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "citus_17",
-      "ver": "13.0.3-9PIGSTY.el9",
-      "file": "citus_17-13.0.3-9PIGSTY.el9.aarch64.rpm",
-      "size": 791939,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/citus_17-13.0.3-9PIGSTY.el9.aarch64.rpm",
-      "sha256": "42af39ab0a3c865b079dbfdfa89cd780a000ccd18d52dd3a2a664781a0149820"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 17,
-      "name": "citus_17",
       "ver": "13.0.3-1PGDG.rhel9",
       "file": "citus_17-13.0.3-1PGDG.rhel9.aarch64.rpm",
       "size": 768014,
@@ -3922,16 +3812,6 @@
       "size": 792634,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/citus_17-13.0.4-1PGDG.rhel9.x86_64.rpm",
       "sha256": "b20616784ee5b51440feba1dba115dc0e2c4c6bd13d0dd81c8a3e6abc7318e3a"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 17,
-      "name": "citus_17",
-      "ver": "13.0.3-9PIGSTY.el9",
-      "file": "citus_17-13.0.3-9PIGSTY.el9.x86_64.rpm",
-      "size": 817789,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/citus_17-13.0.3-9PIGSTY.el9.x86_64.rpm",
-      "sha256": "788c7283fd9a1ed9e901f4314f96d4a15fc29ca74a75f73f24551696f068144b"
     },
     {
       "os": "el9.x86_64",

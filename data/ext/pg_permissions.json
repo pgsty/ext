@@ -8,7 +8,7 @@
   "url": "https://github.com/cybertec-postgresql/pg_permissions",
   "license": "BSD 2-Clause",
   "tags": [],
-  "version": "1.3",
+  "version": "1.4",
   "repo": "MIXED",
   "lang": "SQL",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "1.3",
+  "rpm_ver": "1.4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_permissions_$v",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.3",
+  "deb_ver": "1.4",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-pg-permissions",
   "deb_deps": [],
@@ -74,7 +74,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -89,7 +89,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -104,8 +104,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 1
+      "pkg_ver": "1.4",
+      "count": 2
     },
     {
       "pg": 17,
@@ -119,8 +119,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 1
+      "pkg_ver": "1.4",
+      "count": 2
     },
     {
       "pg": 17,
@@ -134,8 +134,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 1
+      "pkg_ver": "1.4",
+      "count": 2
     },
     {
       "pg": 17,
@@ -149,8 +149,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 1
+      "pkg_ver": "1.4",
+      "count": 2
     },
     {
       "pg": 17,
@@ -164,7 +164,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -179,7 +179,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -194,7 +194,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -209,7 +209,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -224,7 +224,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -239,7 +239,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -254,8 +254,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 16,
@@ -269,8 +269,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 16,
@@ -284,8 +284,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 16,
@@ -299,8 +299,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 16,
@@ -314,7 +314,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -329,7 +329,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -344,7 +344,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -359,7 +359,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -374,7 +374,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -389,7 +389,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -404,8 +404,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 15,
@@ -419,8 +419,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 15,
@@ -434,8 +434,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 15,
@@ -449,8 +449,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 15,
@@ -464,7 +464,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -479,7 +479,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -494,7 +494,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -509,7 +509,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -524,7 +524,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -539,7 +539,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -554,8 +554,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 14,
@@ -569,8 +569,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 14,
@@ -584,8 +584,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 14,
@@ -599,8 +599,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 14,
@@ -614,7 +614,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -629,7 +629,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -644,7 +644,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -659,7 +659,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -674,7 +674,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -689,7 +689,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -704,8 +704,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 13,
@@ -719,8 +719,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 13,
@@ -734,8 +734,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 13,
@@ -749,8 +749,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
-      "count": 3
+      "pkg_ver": "1.4",
+      "count": 4
     },
     {
       "pg": 13,
@@ -764,7 +764,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -779,7 +779,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -794,7 +794,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     },
     {
@@ -809,11 +809,21 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.3",
+      "pkg_ver": "1.4",
       "count": 2
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pg_permissions_13",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_13-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14032,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_permissions_13-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "2f95f7ef373d47bf8383f16cd81ed07a241ea6705bcfc523e0d35ea091ea0ce9"
+    },
     {
       "os": "el8.aarch64",
       "pg": 13,
@@ -843,6 +853,16 @@
       "size": 12524,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_permissions_13-1.1-2.rhel8.noarch.rpm",
       "sha256": "450d61e420cdf28226bfd345d84a4e65723c0a974ad4f874024649774870975b"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pg_permissions_13",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_13-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14080,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pg_permissions_13-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "c64335a8acb4735f08a73f6f01b4aba113512dd16f7eeec5beb7e6b80252d9c9"
     },
     {
       "os": "el8.x86_64",
@@ -878,6 +898,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "pg_permissions_13",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_13-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13551,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_permissions_13-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "b26718d907376e225419beb4eb6b813f90a22a206141fc57f184b967c00da0d2"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pg_permissions_13",
       "ver": "1.3-2PGDG.rhel9",
       "file": "pg_permissions_13-1.3-2PGDG.rhel9.noarch.rpm",
       "size": 13476,
@@ -903,6 +933,16 @@
       "size": 12256,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_permissions_13-1.1-2.rhel9.noarch.rpm",
       "sha256": "b61ac6dd349cdbf45fe73119eed71bf08a2b7bd6e27797b6479810a42025f150"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pg_permissions_13",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_13-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13615,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pg_permissions_13-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "48b873dc908760537819a8d8d5ff9dfc13a4b71cfae58db2ad21874d497ee760"
     },
     {
       "os": "el9.x86_64",
@@ -938,6 +978,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pg_permissions_14",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_14-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14032,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_permissions_14-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "dbf4c3290137c8a5378cff7018820299134968257a33ebad873770e034cda1d0"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pg_permissions_14",
       "ver": "1.3-2PGDG.rhel8",
       "file": "pg_permissions_14-1.3-2PGDG.rhel8.noarch.rpm",
       "size": 13864,
@@ -963,6 +1013,16 @@
       "size": 12520,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_permissions_14-1.1-2.rhel8.noarch.rpm",
       "sha256": "3e5d35af89d0ab7a0d53b2a4c1e90e29113e3d301a61f070ad8f71d2c241047f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pg_permissions_14",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_14-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14080,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pg_permissions_14-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "58cf4fab47b4ffbbba3000832c08d88296772ed5185c65484703afbacc877678"
     },
     {
       "os": "el8.x86_64",
@@ -998,6 +1058,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pg_permissions_14",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_14-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13551,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_permissions_14-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "c2b2f04a284bb3d00be1dd1449bb3b0bb4b1dab5925b18047aa8a7579306b2cc"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pg_permissions_14",
       "ver": "1.3-2PGDG.rhel9",
       "file": "pg_permissions_14-1.3-2PGDG.rhel9.noarch.rpm",
       "size": 13478,
@@ -1023,6 +1093,16 @@
       "size": 12255,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_permissions_14-1.1-2.rhel9.noarch.rpm",
       "sha256": "c1e0ef2562e751e7a8519b4a5b32b16f0bdb6c6bf3a0cf5e4c3b86e6e715ba9e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pg_permissions_14",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_14-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13615,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pg_permissions_14-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "00c472017d8fb1b17be3e2f5511328b0a603fe697ea9b394b27c232f58252101"
     },
     {
       "os": "el9.x86_64",
@@ -1058,6 +1138,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pg_permissions_15",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_15-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14032,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_permissions_15-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "924a1a0421214c533873b0a8e3e71f0afa313a2db3e0d346e3cf14762b21ee0e"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pg_permissions_15",
       "ver": "1.3-2PGDG.rhel8",
       "file": "pg_permissions_15-1.3-2PGDG.rhel8.noarch.rpm",
       "size": 13864,
@@ -1083,6 +1173,16 @@
       "size": 12524,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_permissions_15-1.1-2.rhel8.noarch.rpm",
       "sha256": "c763dce67f4e2761ae855758ef8bc132f9f28454a547bdbae003416b8675bede"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pg_permissions_15",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_15-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14080,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pg_permissions_15-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "41cfe4c247a1825c69c95532b5efd6f02b63da81d97ec464b33e85b8db42fc8e"
     },
     {
       "os": "el8.x86_64",
@@ -1118,6 +1218,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pg_permissions_15",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_15-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13551,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_permissions_15-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "9ea2154a4e80142d53cf7277fa2135389f7d4a5fbd752192998bc8adac32d9cd"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pg_permissions_15",
       "ver": "1.3-2PGDG.rhel9",
       "file": "pg_permissions_15-1.3-2PGDG.rhel9.noarch.rpm",
       "size": 13476,
@@ -1143,6 +1253,16 @@
       "size": 12256,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_permissions_15-1.1-2.rhel9.noarch.rpm",
       "sha256": "5442cefaaae2bfa25882d23289927a85846e9dbc6bbff74c4b7ae413dc7c6be4"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pg_permissions_15",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_15-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13610,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pg_permissions_15-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "e0d1cb7f7b80cf4d96cc0f46cb588a044386846c1c87bc9a6958dab0826e4f5a"
     },
     {
       "os": "el9.x86_64",
@@ -1178,6 +1298,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pg_permissions_16",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_16-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14032,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_permissions_16-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "ecb154671b714c42a25c22a1985772bb53a61d959654f9037532b40ec54df65c"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pg_permissions_16",
       "ver": "1.3-2PGDG.rhel8",
       "file": "pg_permissions_16-1.3-2PGDG.rhel8.noarch.rpm",
       "size": 13864,
@@ -1203,6 +1333,16 @@
       "size": 12620,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_permissions_16-1.1-3.rhel8.noarch.rpm",
       "sha256": "caa8fb143ec0605d821120e0faaad48e97da60dfd8c46cdbe29698e7f8364848"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pg_permissions_16",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_16-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14080,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pg_permissions_16-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "26bb4761cca86d18d8cfeef0936e7a424dff6922ef8d11dffee602b91c78c436"
     },
     {
       "os": "el8.x86_64",
@@ -1238,6 +1378,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pg_permissions_16",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_16-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13546,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_permissions_16-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "31c07d4d7257eb99be3d5d3f3fb5095999b03def818b48ac1a34796af69137fe"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pg_permissions_16",
       "ver": "1.3-2PGDG.rhel9",
       "file": "pg_permissions_16-1.3-2PGDG.rhel9.noarch.rpm",
       "size": 13476,
@@ -1263,6 +1413,16 @@
       "size": 12354,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_permissions_16-1.1-3.rhel9.noarch.rpm",
       "sha256": "a4ff07e647630d9826936fc8f1d9097642d1b3575f666bcb05a3b48d6746997c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pg_permissions_16",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_16-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13616,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pg_permissions_16-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "75d364b72dde2524125b28cddfc25903a2ded01f0ce0cb950167d55086afe0f1"
     },
     {
       "os": "el9.x86_64",
@@ -1298,11 +1458,31 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pg_permissions_17",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_17-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14032,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_permissions_17-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "47f650e75f514bf531c4913ee66c20c8a9865659c3bb14f7b3c7780ea36ba8e2"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pg_permissions_17",
       "ver": "1.3-2PGDG.rhel8",
       "file": "pg_permissions_17-1.3-2PGDG.rhel8.noarch.rpm",
       "size": 13864,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_permissions_17-1.3-2PGDG.rhel8.noarch.rpm",
       "sha256": "7743383ba77cc989723525583d9f391a0847c9d01878b2e23f6dd5358b25cb45"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pg_permissions_17",
+      "ver": "1.4-1PGDG.rhel8",
+      "file": "pg_permissions_17-1.4-1PGDG.rhel8.noarch.rpm",
+      "size": 14080,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pg_permissions_17-1.4-1PGDG.rhel8.noarch.rpm",
+      "sha256": "4b6f99a28a76a3f8b0a6ccc7d701cd3cf473f82504b7fe42fa91f88daf91ef40"
     },
     {
       "os": "el8.x86_64",
@@ -1318,11 +1498,31 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pg_permissions_17",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_17-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13550,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_permissions_17-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "6300a16a535a28f10756d55e5672cc7d57406fb1adff33e108fff18990fe6b9c"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pg_permissions_17",
       "ver": "1.3-2PGDG.rhel9",
       "file": "pg_permissions_17-1.3-2PGDG.rhel9.noarch.rpm",
       "size": 13481,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_permissions_17-1.3-2PGDG.rhel9.noarch.rpm",
       "sha256": "bab43a8dfdc50f2547ab78ad26b2552ee7c8077d5dbe5cc414549778d43f9c06"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pg_permissions_17",
+      "ver": "1.4-1PGDG.rhel9",
+      "file": "pg_permissions_17-1.4-1PGDG.rhel9.noarch.rpm",
+      "size": 13615,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pg_permissions_17-1.4-1PGDG.rhel9.noarch.rpm",
+      "sha256": "b92d491a7181865460441c7763ead0a22ae16804d2b737b36690b7f754da5976"
     },
     {
       "os": "el9.x86_64",
@@ -1338,11 +1538,11 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-13-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8432,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "7eaa29f2ce52f1767aa9cc81fba8b542c1d0a93e0f2df5870cad70a6155fd7b9"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-13-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8580,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "60b4f379a54503bbae412cf4ba121a5abc6fb59baadbae672256c68eb657ef40"
     },
     {
       "os": "d12.aarch64",
@@ -1358,11 +1558,11 @@
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-13-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8432,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "7eaa29f2ce52f1767aa9cc81fba8b542c1d0a93e0f2df5870cad70a6155fd7b9"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-13-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8580,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "60b4f379a54503bbae412cf4ba121a5abc6fb59baadbae672256c68eb657ef40"
     },
     {
       "os": "d12.x86_64",
@@ -1378,11 +1578,11 @@
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-13-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "a26fc5de8712a0a9b297b83ac42c708664107ee832c7e148da548a9e01bab172"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-13-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8180,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "d81535aee79c768317760d3a3261004ef84cd6a523be44180c1bd4f5c070dd62"
     },
     {
       "os": "u22.aarch64",
@@ -1398,11 +1598,11 @@
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-13-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "a26fc5de8712a0a9b297b83ac42c708664107ee832c7e148da548a9e01bab172"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-13-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8180,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "d81535aee79c768317760d3a3261004ef84cd6a523be44180c1bd4f5c070dd62"
     },
     {
       "os": "u22.x86_64",
@@ -1418,11 +1618,11 @@
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-13-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "78f1a3cf0937d4408170611c2f7ba4fd3604fe3c3fc4c5a0df340e53d000e7d2"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-13-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "cd760749327db076126f0db3538d09912ac57ebfc4d453db30a7f9eeeb23ca61"
     },
     {
       "os": "u24.aarch64",
@@ -1438,11 +1638,11 @@
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-13-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "78f1a3cf0937d4408170611c2f7ba4fd3604fe3c3fc4c5a0df340e53d000e7d2"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-13-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-13-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "cd760749327db076126f0db3538d09912ac57ebfc4d453db30a7f9eeeb23ca61"
     },
     {
       "os": "u24.x86_64",
@@ -1458,11 +1658,11 @@
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-14-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8432,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "ff42533b9fb7c10a0bc0af97370d705635da9cf501ed9a49f6ae823387d716e6"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-14-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8584,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "ae6b813d336477d5525332bbc887a27bf03aab5db24515f84184a8622971a2d5"
     },
     {
       "os": "d12.aarch64",
@@ -1478,11 +1678,11 @@
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-14-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8432,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "ff42533b9fb7c10a0bc0af97370d705635da9cf501ed9a49f6ae823387d716e6"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-14-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8584,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "ae6b813d336477d5525332bbc887a27bf03aab5db24515f84184a8622971a2d5"
     },
     {
       "os": "d12.x86_64",
@@ -1498,11 +1698,11 @@
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-14-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8040,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "5564b1c45d4615580a637369e7bcaa86c07fd25bc66e81db431d2af50a1e72dc"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-14-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "d87700014c9fbdbe4b3cf1d99c65d9e7af72ab21a2043d17fee77d446048c4cf"
     },
     {
       "os": "u22.aarch64",
@@ -1518,11 +1718,11 @@
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-14-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8040,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "5564b1c45d4615580a637369e7bcaa86c07fd25bc66e81db431d2af50a1e72dc"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-14-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "d87700014c9fbdbe4b3cf1d99c65d9e7af72ab21a2043d17fee77d446048c4cf"
     },
     {
       "os": "u22.x86_64",
@@ -1538,11 +1738,11 @@
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-14-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8032,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "bc2b1633a25a83b1624462dbc2a8ccaea658b063420ee7a4af5977dc0be67e1c"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-14-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8192,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "4e16da5c0f0c9243e6cd91396ebf5cac235ab2d02c38b6b219ff8c2ab7845a83"
     },
     {
       "os": "u24.aarch64",
@@ -1558,11 +1758,11 @@
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-14-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8032,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "bc2b1633a25a83b1624462dbc2a8ccaea658b063420ee7a4af5977dc0be67e1c"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-14-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8192,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-14-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "4e16da5c0f0c9243e6cd91396ebf5cac235ab2d02c38b6b219ff8c2ab7845a83"
     },
     {
       "os": "u24.x86_64",
@@ -1578,11 +1778,11 @@
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-15-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "4f85c5a8ed6b4a381826b796ac7011ae4a246b487d7c50b206382d8c46756db9"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-15-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8584,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "0c039a6d7980441acd14b7a1684fe798907225a468974469d88abd8d98985657"
     },
     {
       "os": "d12.aarch64",
@@ -1598,11 +1798,11 @@
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-15-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "4f85c5a8ed6b4a381826b796ac7011ae4a246b487d7c50b206382d8c46756db9"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-15-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8584,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "0c039a6d7980441acd14b7a1684fe798907225a468974469d88abd8d98985657"
     },
     {
       "os": "d12.x86_64",
@@ -1618,11 +1818,11 @@
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-15-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "57794bd29196abdccf4ab7067e4aca2f9b3cd1ad98961cb40a2184a708ba3739"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-15-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "3e476cc4967aa1eaf692dcb9045032dc26bbab1489456bc9d90c914d806231c6"
     },
     {
       "os": "u22.aarch64",
@@ -1638,11 +1838,11 @@
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-15-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "57794bd29196abdccf4ab7067e4aca2f9b3cd1ad98961cb40a2184a708ba3739"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-15-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "3e476cc4967aa1eaf692dcb9045032dc26bbab1489456bc9d90c914d806231c6"
     },
     {
       "os": "u22.x86_64",
@@ -1658,11 +1858,11 @@
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-15-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8040,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "62d729be41af7637e9a70298558c6454e81e9a0755ebf08647b104c85bca0f25"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-15-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "0a2524cf81142e36d3b7b2e9d8dc31ebdcf25a4a71e89e2586d07388b4b78157"
     },
     {
       "os": "u24.aarch64",
@@ -1678,11 +1878,11 @@
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-15-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8040,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "62d729be41af7637e9a70298558c6454e81e9a0755ebf08647b104c85bca0f25"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-15-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-15-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "0a2524cf81142e36d3b7b2e9d8dc31ebdcf25a4a71e89e2586d07388b4b78157"
     },
     {
       "os": "u24.x86_64",
@@ -1698,11 +1898,11 @@
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-16-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "13917e7c16f9051fefcdcc83cea5d59b44429c05a65b8b31fd56dfd321a9a7c5"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-16-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8580,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "d089b9d54144f0d87a43d2ceb15f75171effafb26f07c71429cd832ea9157ec2"
     },
     {
       "os": "d12.aarch64",
@@ -1718,11 +1918,11 @@
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-16-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "13917e7c16f9051fefcdcc83cea5d59b44429c05a65b8b31fd56dfd321a9a7c5"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-16-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8580,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "d089b9d54144f0d87a43d2ceb15f75171effafb26f07c71429cd832ea9157ec2"
     },
     {
       "os": "d12.x86_64",
@@ -1738,11 +1938,11 @@
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-16-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "86f71f536302b950f138a1ea5b3dbaa99e2fb862bb6662e95e416e9fcc50ac83"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-16-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "100852b7e411d256dbe9b1b118d7431dcfbf89b5975db89ccb76457452978ef2"
     },
     {
       "os": "u22.aarch64",
@@ -1758,11 +1958,11 @@
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-16-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8044,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "86f71f536302b950f138a1ea5b3dbaa99e2fb862bb6662e95e416e9fcc50ac83"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-16-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "100852b7e411d256dbe9b1b118d7431dcfbf89b5975db89ccb76457452978ef2"
     },
     {
       "os": "u22.x86_64",
@@ -1778,11 +1978,11 @@
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-16-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "f60b1bedac0543e71160032aca5b73947ebc42a81651485db2af2fc4646f535b"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-16-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "7f3074f05b4376aee8745fcf9bc40236fceb772d92723f727ad73dc0219ccff5"
     },
     {
       "os": "u24.aarch64",
@@ -1798,11 +1998,11 @@
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-16-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "f60b1bedac0543e71160032aca5b73947ebc42a81651485db2af2fc4646f535b"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-16-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8188,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-16-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "7f3074f05b4376aee8745fcf9bc40236fceb772d92723f727ad73dc0219ccff5"
     },
     {
       "os": "u24.x86_64",
@@ -1818,11 +2018,11 @@
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-17-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "2dcfefa534c96e885928a82f2724b826a331144d49ced6ca81f2fdc77b88d30d"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-17-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8584,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "f590711658bac0761575e5393ac4ff389f53337a901ba47e2615e0180163ab06"
     },
     {
       "os": "d12.aarch64",
@@ -1838,11 +2038,11 @@
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-permissions",
-      "ver": "1.3-3.pgdg120+1",
-      "file": "postgresql-17-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "size": 8436,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.3-3.pgdg120+1_all.deb",
-      "sha256": "2dcfefa534c96e885928a82f2724b826a331144d49ced6ca81f2fdc77b88d30d"
+      "ver": "1.4-1.pgdg120+1",
+      "file": "postgresql-17-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "size": 8584,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.4-1.pgdg120+1_all.deb",
+      "sha256": "f590711658bac0761575e5393ac4ff389f53337a901ba47e2615e0180163ab06"
     },
     {
       "os": "d12.x86_64",
@@ -1858,11 +2058,11 @@
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-17-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8048,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "00b8411655cc21e0fb2fcc3f8d3865e0cd431fee211b326540cc4439fa5eb5d0"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-17-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "9fa4dc69a66fbf4696b282acbb86e600185535d6f55516775e7d16cd99d9b09c"
     },
     {
       "os": "u22.aarch64",
@@ -1878,11 +2078,11 @@
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-permissions",
-      "ver": "1.3-3.pgdg22.04+1",
-      "file": "postgresql-17-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "size": 8048,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.3-3.pgdg22.04+1_all.deb",
-      "sha256": "00b8411655cc21e0fb2fcc3f8d3865e0cd431fee211b326540cc4439fa5eb5d0"
+      "ver": "1.4-1.pgdg22.04+1",
+      "file": "postgresql-17-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "size": 8184,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.4-1.pgdg22.04+1_all.deb",
+      "sha256": "9fa4dc69a66fbf4696b282acbb86e600185535d6f55516775e7d16cd99d9b09c"
     },
     {
       "os": "u22.x86_64",
@@ -1898,11 +2098,11 @@
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-17-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "9d5d1d5d5a2d57a9ab251d0527ef9161052d2a3e4770492bc917b7af71477a41"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-17-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8192,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "9ea485f06632941b48f1903647a3c50433cc49bb98fb58548ed1811c80fbe8c4"
     },
     {
       "os": "u24.aarch64",
@@ -1918,11 +2118,11 @@
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-permissions",
-      "ver": "1.3-3.pgdg24.04+1",
-      "file": "postgresql-17-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "size": 8036,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.3-3.pgdg24.04+1_all.deb",
-      "sha256": "9d5d1d5d5a2d57a9ab251d0527ef9161052d2a3e4770492bc917b7af71477a41"
+      "ver": "1.4-1.pgdg24.04+1",
+      "file": "postgresql-17-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "size": 8192,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pg-permissions/postgresql-17-pg-permissions_1.4-1.pgdg24.04+1_all.deb",
+      "sha256": "9ea485f06632941b48f1903647a3c50433cc49bb98fb58548ed1811c80fbe8c4"
     },
     {
       "os": "u24.x86_64",

@@ -865,20 +865,20 @@
       "pg": 13,
       "name": "postgresql_faker_13",
       "ver": "0.5.3-1.rhel9",
-      "file": "postgresql_faker_13-0.5.3-1.rhel9.x86_64.rpm",
-      "size": 49764,
-      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/postgresql_faker_13-0.5.3-1.rhel9.x86_64.rpm",
-      "sha256": "81f6fb7737b40e2fe28ff4c02bd3e9aeb3eeda3e413a81ef78db5022c0d01516"
+      "file": "postgresql_faker_13-0.5.3-1.rhel9.noarch.rpm",
+      "size": 49034,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/postgresql_faker_13-0.5.3-1.rhel9.noarch.rpm",
+      "sha256": "8ef27ff184d1e8829122bd9003ab2275b76f250b6f3c2fe15c690aacca3a95cb"
     },
     {
       "os": "el9.x86_64",
       "pg": 13,
       "name": "postgresql_faker_13",
       "ver": "0.5.3-1.rhel9",
-      "file": "postgresql_faker_13-0.5.3-1.rhel9.noarch.rpm",
-      "size": 49034,
-      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/postgresql_faker_13-0.5.3-1.rhel9.noarch.rpm",
-      "sha256": "8ef27ff184d1e8829122bd9003ab2275b76f250b6f3c2fe15c690aacca3a95cb"
+      "file": "postgresql_faker_13-0.5.3-1.rhel9.x86_64.rpm",
+      "size": 49764,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/postgresql_faker_13-0.5.3-1.rhel9.x86_64.rpm",
+      "sha256": "81f6fb7737b40e2fe28ff4c02bd3e9aeb3eeda3e413a81ef78db5022c0d01516"
     },
     {
       "os": "el8.aarch64",
@@ -925,20 +925,20 @@
       "pg": 14,
       "name": "postgresql_faker_14",
       "ver": "0.5.3-1.rhel9",
-      "file": "postgresql_faker_14-0.5.3-1.rhel9.x86_64.rpm",
-      "size": 49762,
-      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/postgresql_faker_14-0.5.3-1.rhel9.x86_64.rpm",
-      "sha256": "14ff1d87ce003fa9602a90a911a3af50ce3dba1db68c10c8ec52f2a7b4341867"
+      "file": "postgresql_faker_14-0.5.3-1.rhel9.noarch.rpm",
+      "size": 49018,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/postgresql_faker_14-0.5.3-1.rhel9.noarch.rpm",
+      "sha256": "2ed58dc143eb36971cf6eafa55af9fe57a41609b5f8e507d5f6dac0029daf08e"
     },
     {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "postgresql_faker_14",
       "ver": "0.5.3-1.rhel9",
-      "file": "postgresql_faker_14-0.5.3-1.rhel9.noarch.rpm",
-      "size": 49018,
-      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/postgresql_faker_14-0.5.3-1.rhel9.noarch.rpm",
-      "sha256": "2ed58dc143eb36971cf6eafa55af9fe57a41609b5f8e507d5f6dac0029daf08e"
+      "file": "postgresql_faker_14-0.5.3-1.rhel9.x86_64.rpm",
+      "size": 49762,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/postgresql_faker_14-0.5.3-1.rhel9.x86_64.rpm",
+      "sha256": "14ff1d87ce003fa9602a90a911a3af50ce3dba1db68c10c8ec52f2a7b4341867"
     },
     {
       "os": "el8.aarch64",
