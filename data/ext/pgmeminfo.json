@@ -23,6 +23,7 @@
   "relocatable": false,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -36,6 +37,7 @@
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgmeminfo_$v*",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",

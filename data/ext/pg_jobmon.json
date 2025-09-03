@@ -21,6 +21,7 @@
   "relocatable": false,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -36,6 +37,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_jobmon_$v",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",

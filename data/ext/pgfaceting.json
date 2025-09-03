@@ -23,6 +23,7 @@
     "faceting"
   ],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -50,6 +51,7 @@
   "deb_pkg": "postgresql-$v-pgfaceting",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",

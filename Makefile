@@ -61,6 +61,9 @@ dump:
 	psql $(PGURL) -c "COPY (SELECT id,name,pkg AS alias,category,url,license,tags,version,repo,lang,has_bin AS utility,lead,has_lib AS has_solib,need_ddl,need_load,trusted,relocatable,schemas,pg_ver,requires,rpm_ver,rpm_repo,rpm_pkg,rpm_pg,rpm_deps,deb_ver,deb_repo,deb_pkg,deb_deps,deb_pg,NULL as bad_case,en_desc,zh_desc,comment FROM pgext.extension ORDER BY id) TO STDOUT CSV HEADER"   > data/pigsty.csv
 	psql $(PGURL) -c "COPY (select id,name,pkg as alias,category,lead,rpm_repo,rpm_pkg,rpm_pg,deb_repo,deb_pkg,deb_pg FROM pgext.extension ORDER BY id) TO STDOUT CSV HEADER;" > data/ext.csv
 
+loade:
+	cat data/extension.csv   | psql $(PGURL) -c "TRUNCATE pgext.extension; COPY pgext.extension FROM STDIN CSV HEADER;"
+
 load:
 	cat data/category.csv   | psql $(PGURL) -c "TRUNCATE pgext.category; COPY pgext.category FROM STDIN CSV HEADER;"
 	cat data/repository.csv | psql $(PGURL) -c "TRUNCATE pgext.repository; COPY pgext.repository FROM STDIN CSV HEADER;"

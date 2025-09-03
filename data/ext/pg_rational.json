@@ -21,6 +21,7 @@
   "relocatable": null,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -46,6 +47,7 @@
   "deb_pkg": "postgresql-$v-rational",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",

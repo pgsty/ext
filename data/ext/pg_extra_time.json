@@ -21,6 +21,7 @@
   "relocatable": true,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -34,6 +35,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_extra_time_$v",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",

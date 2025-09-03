@@ -21,6 +21,7 @@
   "relocatable": true,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -46,6 +47,7 @@
   "deb_pkg": "postgresql-$v-q3c",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",

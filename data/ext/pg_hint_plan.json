@@ -23,6 +23,7 @@
     "hint_plan"
   ],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -36,6 +37,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_hint_plan_$v*",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -48,6 +50,7 @@
   "deb_pkg": "postgresql-$v-pg-hint-plan",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",

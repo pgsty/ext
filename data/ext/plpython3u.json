@@ -23,6 +23,7 @@
     "pg_catalog"
   ],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -42,6 +43,7 @@
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -54,6 +56,7 @@
   "deb_pkg": "postgresql-$v",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",

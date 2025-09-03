@@ -21,6 +21,7 @@
   "relocatable": false,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -36,6 +37,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "plpgsql_check_$v*",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -48,6 +50,7 @@
   "deb_pkg": "postgresql-$v-plpgsql-check",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",

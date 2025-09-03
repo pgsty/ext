@@ -23,6 +23,7 @@
   "relocatable": null,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -36,6 +37,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_dbms_lock_$v",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
