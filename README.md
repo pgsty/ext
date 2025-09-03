@@ -1,7 +1,7 @@
 # PostgreSQL Extension Catalog
 
 [![Webite: ext.pgsty.com](https://img.shields.io/badge/website-pigsty.io-slategray?style=flat&logo=cilium&logoColor=white)](https://ext.pgsty.com)
-[![CLI: pig v0.5.0](https://img.shields.io/badge/pig-v0.4.2-slategray?style=flat&logo=cilium&logoColor=white)](https://github.com/pgsty/pig)
+[![CLI: pig v0.6.1](https://img.shields.io/badge/pig-v0.6.1-slategray?style=flat&logo=cilium&logoColor=white)](https://pig.pgsty.com)
 [![Extensions: 423](https://img.shields.io/badge/extensions-423-%233E668F?style=flat&logo=postgresql&logoColor=white&labelColor=3E668F)](https://pigsty.io/ext/list)
 [![License: Apache-2.0](https://img.shields.io/github/license/pgsty/extension?logo=opensourceinitiative&logoColor=green&color=slategray)](https://github.com/pgsty/pig/blob/main/LICENSE)
 

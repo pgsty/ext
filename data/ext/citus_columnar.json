@@ -102,9 +102,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 6
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 7
     },
     {
       "pg": 17,
@@ -117,9 +117,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 6
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 7
     },
     {
       "pg": 17,
@@ -132,9 +132,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 6
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 7
     },
     {
       "pg": 17,
@@ -147,9 +147,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 6
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 7
     },
     {
       "pg": 17,
@@ -252,9 +252,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 13
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 14
     },
     {
       "pg": 16,
@@ -267,9 +267,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 13
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 14
     },
     {
       "pg": 16,
@@ -282,9 +282,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 13
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 14
     },
     {
       "pg": 16,
@@ -297,9 +297,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 13
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 14
     },
     {
       "pg": 16,
@@ -402,9 +402,9 @@
       "pname": "citus_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 20
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 21
     },
     {
       "pg": 15,
@@ -417,9 +417,9 @@
       "pname": "citus_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 21
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 22
     },
     {
       "pg": 15,
@@ -432,9 +432,9 @@
       "pname": "citus_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 21
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 22
     },
     {
       "pg": 15,
@@ -447,9 +447,9 @@
       "pname": "citus_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
-      "count": 21
+      "pkg_repo": "pgdg",
+      "pkg_ver": "13.2.0",
+      "count": 22
     },
     {
       "pg": 15,
@@ -2257,6 +2257,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "citus_15",
+      "ver": "13.2.0-1PGDG.rhel8",
+      "file": "citus_15-13.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 835052,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/citus_15-13.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "5b4b9eedb761631c349c41fbf1013c41aa9edb27678cf20166a885f84781bea0"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "citus_15",
       "ver": "13.1.0-9PIGSTY.el8",
       "file": "citus_15-13.1.0-9PIGSTY.el8.aarch64.rpm",
       "size": 956320,
@@ -2452,6 +2462,16 @@
       "size": 735964,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/citus_15-11.1.3-1.rhel8.aarch64.rpm",
       "sha256": "805b8e5d0fa4d474f6cacd7b4d2f2dedce63c26089094737b403de56b499065c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "citus_15",
+      "ver": "13.2.0-1PGDG.rhel8",
+      "file": "citus_15-13.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 888176,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/citus_15-13.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "a29b2e324226139ea152450962b251bd3fcc5bb82d1416f176f3e0714e2305b0"
     },
     {
       "os": "el8.x86_64",
@@ -2667,6 +2687,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "citus_15",
+      "ver": "13.2.0-1PGDG.rhel9",
+      "file": "citus_15-13.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 839120,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/citus_15-13.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "cd0675397ff4b821e382ace18ea8746a4529b0bd395895a1644e060ef919f109"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "citus_15",
       "ver": "13.1.0-9PIGSTY.el9",
       "file": "citus_15-13.1.0-9PIGSTY.el9.aarch64.rpm",
       "size": 853146,
@@ -2872,6 +2902,16 @@
       "size": 741640,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/citus_15-11.1.2-1.rhel9.aarch64.rpm",
       "sha256": "aa0da97c0cbba403eeb12e725fb7350918c064c4701c7762aaea85ac92a00013"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "citus_15",
+      "ver": "13.2.0-1PGDG.rhel9",
+      "file": "citus_15-13.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 875947,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/citus_15-13.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "7763a0a49861eb3942743a802c2286fa6c35a404fb8650e5111de373b163d114"
     },
     {
       "os": "el9.x86_64",
@@ -3087,6 +3127,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "citus_16",
+      "ver": "13.2.0-1PGDG.rhel8",
+      "file": "citus_16-13.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 815084,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/citus_16-13.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "388dbadd3d97381bd974e6e826acba3d6428571826bd0ccc4351a6facb223f81"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "citus_16",
       "ver": "13.1.0-9PIGSTY.el8",
       "file": "citus_16-13.1.0-9PIGSTY.el8.aarch64.rpm",
       "size": 913296,
@@ -3212,6 +3262,16 @@
       "size": 767968,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/citus_16-12.1.0-2PGDG.rhel8.aarch64.rpm",
       "sha256": "ce250cbf996c92924940138966ae72db4f375bb48bbf00bcd18b1e1a3a15969c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "citus_16",
+      "ver": "13.2.0-1PGDG.rhel8",
+      "file": "citus_16-13.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 863888,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/citus_16-13.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "be68cabc3c8cfed314c43d22735f445d1efb72d93d56e20c76a77efe9736e3ca"
     },
     {
       "os": "el8.x86_64",
@@ -3347,6 +3407,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "citus_16",
+      "ver": "13.2.0-1PGDG.rhel9",
+      "file": "citus_16-13.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 801557,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/citus_16-13.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "1778e21d24349380ccfc3f323cae287d3866d6178c523f7ab76eac5d82494c63"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "citus_16",
       "ver": "13.1.0-9PIGSTY.el9",
       "file": "citus_16-13.1.0-9PIGSTY.el9.aarch64.rpm",
       "size": 804492,
@@ -3472,6 +3542,16 @@
       "size": 756645,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/citus_16-12.1.0-2PGDG.rhel9.aarch64.rpm",
       "sha256": "dc9b6b9315e59e917fe72af4259581e9dba21e36c73e23ce61e11d572b270326"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "citus_16",
+      "ver": "13.2.0-1PGDG.rhel9",
+      "file": "citus_16-13.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 829036,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/citus_16-13.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "235b38dbbfca1f5ecf265a2740635859eff1c8daa01c04121fbc79164fafbbbb"
     },
     {
       "os": "el9.x86_64",
@@ -3607,6 +3687,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "citus_17",
+      "ver": "13.2.0-1PGDG.rhel8",
+      "file": "citus_17-13.2.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 821840,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/citus_17-13.2.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "14cdb028e85415759df302ebbc92484c08549a814325170f027ce24313c4369f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "citus_17",
       "ver": "13.1.0-9PIGSTY.el8",
       "file": "citus_17-13.1.0-9PIGSTY.el8.aarch64.rpm",
       "size": 920488,
@@ -3662,6 +3752,16 @@
       "size": 777128,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/citus_17-13.0.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "2c10267a8c71e13ce845e580ef3a153b218925b8a8403edea1b9bcbeca0f3f03"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "citus_17",
+      "ver": "13.2.0-1PGDG.rhel8",
+      "file": "citus_17-13.2.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 871048,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/citus_17-13.2.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "560e7a06d3edcd65695910740595fdd6975d8f5dbc4dd65ff8424b1c1af47e52"
     },
     {
       "os": "el8.x86_64",
@@ -3727,6 +3827,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "citus_17",
+      "ver": "13.2.0-1PGDG.rhel9",
+      "file": "citus_17-13.2.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 808109,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/citus_17-13.2.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "831051b0bee8bbf5992278828958e619c42210bb097db23b681385a9bb13570a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "citus_17",
       "ver": "13.1.0-9PIGSTY.el9",
       "file": "citus_17-13.1.0-9PIGSTY.el9.aarch64.rpm",
       "size": 810674,
@@ -3782,6 +3892,16 @@
       "size": 764714,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/citus_17-13.0.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "81ab348e75d37a8d410adeb09045d672ffe3f78900357f996de25caa3d86ad4b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "citus_17",
+      "ver": "13.2.0-1PGDG.rhel9",
+      "file": "citus_17-13.2.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 835384,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/citus_17-13.2.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "9b7e66490fa2e5dd8eb07f06c94b8effe78411be2245a116e6a5b2edc02b1bf5"
     },
     {
       "os": "el9.x86_64",

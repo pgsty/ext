@@ -850,21 +850,21 @@
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-13-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "size": 242680,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-13-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "sha256": "a90cb4cc31df18d7e921684294831815b695edca81eeeffec5fe99cc0e31040c"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-13-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "size": 242836,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-13-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "sha256": "3f2c4140ca5b0dfc8da345b16376f30e62e187b13ae33279d98009a2de113e1a"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-13-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "size": 248688,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-13-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "sha256": "8a3f1ca3c764d681c0b36464641e9c4e6356fd2a2afb42fa6400b7d4ee32a38d"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-13-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "size": 248652,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-13-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "sha256": "23d34f8e09a5aab1d78d322288163d0032599f0a29fa5e692cb63b507d5304bd"
     },
     {
       "os": "d12.aarch64",
@@ -910,21 +910,21 @@
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-14-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "size": 242560,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-14-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "sha256": "01e95b5a393114e8d3ae737ba2c1ea0fe6482c1c351e2fb7a718ee0b3d9c0ffb"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-14-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "size": 242656,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-14-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "sha256": "5b90678f7d696a28f1f3c9a6e661285b2037a607a5ab7773b25587bd01ac0fdc"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-14-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "size": 248652,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-14-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "sha256": "31727d85d9fdb575be2403e43f3afeed7239dcabd407aa63ba7e56c4b8cd41dd"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-14-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "size": 248748,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-14-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "sha256": "1a24b738da49f849ea71babfc3db11a103c8515509c6e7b842684a245d4d0f4e"
     },
     {
       "os": "d12.aarch64",
@@ -970,21 +970,21 @@
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-15-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "size": 242552,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-15-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "sha256": "1ed96533d16b521f620e1ec03b28ed23b337702923c1b09d0d6018d01b96fb74"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-15-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "size": 242680,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-15-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "sha256": "7638e9a79c4ce07dfa7e38fbfbf80dbd7383d2aec30d597859c3ba808652c5f0"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-15-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "size": 248956,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-15-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "sha256": "8d366741f297b206f0dcd706fd06ad0fcd8644beac6309ef2ebc9b6e9a0aaa3a"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-15-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "size": 248884,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-15-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "sha256": "0e1100aee9ecb44cba27f4c8770eb57a2f3084cfe2771bf0963ee55e04a6b08c"
     },
     {
       "os": "d12.aarch64",
@@ -1030,41 +1030,41 @@
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-16-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "size": 242624,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-16-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "sha256": "07d47fed267d2d9761a41cd774d6a00ff9e9bf649371c8edfa20da409fb7c102"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-16-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "size": 242676,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-16-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "sha256": "fa8fd4bc6dfd40a00658c2304f1c135a7f85b7d35daac7a4095cb930ff02ef91"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-16-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "size": 248656,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-16-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "sha256": "043b394748a6a63be41c0ba85a1f3a885d3c7fd7ee432259f2fa3742088bcf9e"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-16-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "size": 249000,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-16-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "sha256": "52f293ada99c173d0e66333f05aec8a51ad7c577d3601718b3bca1ee9ae2597f"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-17-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "size": 242592,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-17-rdkit_202503.1-4.pgdg24.04+1_arm64.deb",
-      "sha256": "ff861de2ed70a736473d34729ac7c1fc5a1f88c62d31005dceec52b7486ea8de"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-17-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "size": 242884,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-17-rdkit_202503.1-5.pgdg24.04+1_arm64.deb",
+      "sha256": "be7db22defecd64a7d7bcb5726c52bc74aee540b5de8475b705dbaef81432e4d"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-rdkit",
-      "ver": "202503.1-4.pgdg24.04+1",
-      "file": "postgresql-17-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "size": 248684,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-17-rdkit_202503.1-4.pgdg24.04+1_amd64.deb",
-      "sha256": "3a4f79c60f9ebc79b3a62b440d96ae6317c330a9b622e9cfd10687bdbc778cce"
+      "ver": "202503.1-5.pgdg24.04+1",
+      "file": "postgresql-17-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "size": 248976,
+      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/r/rdkit/postgresql-17-rdkit_202503.1-5.pgdg24.04+1_amd64.deb",
+      "sha256": "9b42f462dc97e7129b4a0701b3c4abe23a581ea9df52a70916e90bbd98318f40"
     }
   ]
 }
