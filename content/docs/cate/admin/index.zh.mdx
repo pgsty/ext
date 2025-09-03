@@ -18,7 +18,7 @@ ADMIN 分类包含 **36** 个 PostgreSQL 扩展。
 | 5030 | [`pg_dirtyread`](/zh/e/pg_dirtyread) | [`pg_dirtyread`](/zh/e/pg_dirtyread) | 2.7 | 从表中读取尚未垃圾回收的行 |
 | 5040 | [`pgfincore`](/zh/e/pgfincore) | [`pgfincore`](/zh/e/pgfincore) | 1.3.1 | 检查和管理操作系统缓冲区缓存 |
 | 5050 | [`pg_cooldown`](/zh/e/pg_cooldown) | [`pg_cooldown`](/zh/e/pg_cooldown) | 0.1 | 从缓冲区中移除特定关系的页面 |
-| 5060 | [`ddlx`](/zh/e/ddlx) | [`pg_ddlx`](/zh/e/ddlx) | 0.29 | 提取数据库对象的DDL |
+| 5060 | [`ddlx`](/zh/e/ddlx) | [`pg_ddlx`](/zh/e/ddlx) | 0.30 | 提取数据库对象的DDL |
 | 5070 | [`prioritize`](/zh/e/prioritize) | [`pg_prioritize`](/zh/e/prioritize) | 1.0.4 | 获取和设置 PostgreSQL 后端的优先级 |
 | 5080 | [`pg_checksums`](/zh/e/pg_checksums) | [`pg_checksums`](/zh/e/pg_checksums) | 1.2 | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
 | 5090 | [`pg_readonly`](/zh/e/pg_readonly) | [`pg_readonly`](/zh/e/pg_readonly) | 1.0.3 | 将集群设置为只读 |
@@ -39,9 +39,9 @@ ADMIN 分类包含 **36** 个 PostgreSQL 扩展。
 | 5840 | [`table_log`](/zh/e/table_log) | [`table_log`](/zh/e/table_log) | 0.6.4 | 记录某张表的修改日志并做表/行级时间点恢复 |
 | 5880 | [`pgagent`](/zh/e/pgagent) | [`pgagent`](/zh/e/pgagent) | 4.2.3 | PostgreSQL任务调度工具，与PGADMIN配合使用 |
 | 5890 | [`pg_prewarm`](/zh/e/pg_prewarm) | [`pg_prewarm`](/zh/e/pg_prewarm) | 1.2 | 预热关系数据 |
-| 5900 | [`pgpool_adm`](/zh/e/pgpool_adm) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.2 | PGPool 管理函数 |
-| 5910 | [`pgpool_recovery`](/zh/e/pgpool_recovery) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.2 | PGPool辅助扩展，从v4.3提供的恢复函数 |
-| 5920 | [`pgpool_regclass`](/zh/e/pgpool_regclass) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.2 | PGPool辅助扩展，RegClass替代 |
+| 5900 | [`pgpool_adm`](/zh/e/pgpool_adm) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.3 | PGPool 管理函数 |
+| 5910 | [`pgpool_recovery`](/zh/e/pgpool_recovery) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.3 | PGPool辅助扩展，从v4.3提供的恢复函数 |
+| 5920 | [`pgpool_regclass`](/zh/e/pgpool_regclass) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.3 | PGPool辅助扩展，RegClass替代 |
 | 5930 | [`lo`](/zh/e/lo) | [`lo`](/zh/e/lo) | 1.1 | 大对象维护 |
 | 5940 | [`basic_archive`](/zh/e/basic_archive) | [`basic_archive`](/zh/e/basic_archive) | - | 归档模块样例 |
 | 5950 | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | - | 添加一种备份到Shell终端到基础备份方式 |
@@ -167,7 +167,7 @@ ADMIN 分类包含 **36** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="ddlx - 0.29">
+<Callout title="ddlx - 0.30">
     <p>提取数据库对象的DDL</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/ddlx) | [官网](https://github.com/lacanoid/pgddl) | 属性 |
@@ -181,8 +181,8 @@ ADMIN 分类包含 **36** 个 PostgreSQL 扩展。
         <div className="space-y-2">
             | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el8 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+| el9 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
 | d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
 | u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
 | u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
@@ -650,7 +650,7 @@ ADMIN 分类包含 **36** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="pgpool_adm - 4.6.2">
+<Callout title="pgpool_adm - 4.6.3">
     <p>PGPool 管理函数</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pgpool_adm) | [官网](https://pgpool.net/) | 属性 |
@@ -673,7 +673,7 @@ ADMIN 分类包含 **36** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="pgpool_recovery - 4.6.2">
+<Callout title="pgpool_recovery - 4.6.3">
     <p>PGPool辅助扩展，从v4.3提供的恢复函数</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pgpool_recovery) | [官网](https://pgpool.net/) | 属性 |
@@ -696,7 +696,7 @@ ADMIN 分类包含 **36** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="pgpool_regclass - 4.6.2">
+<Callout title="pgpool_regclass - 4.6.3">
     <p>PGPool辅助扩展，RegClass替代</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pgpool_regclass) | [官网](https://pgpool.net/) | 属性 |

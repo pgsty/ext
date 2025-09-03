@@ -8,7 +8,7 @@
   "url": "https://pgpool.net/",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "4.6.2",
+  "version": "4.6.3",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "4.6.2",
+  "rpm_ver": "4.6.3",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgpool-II-pg$v-extensions",
   "rpm_pg": [
@@ -41,7 +41,7 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "4.6.2",
+  "deb_ver": "4.6.3",
   "deb_repo": "PGDG",
   "deb_pkg": "postgresql-$v-pgpool2",
   "deb_deps": [],
@@ -105,9 +105,9 @@
       "pname": "pgpool-II-pg17-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 6
     },
     {
       "pg": 17,
@@ -120,9 +120,9 @@
       "pname": "pgpool-II-pg17-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 6
     },
     {
       "pg": 17,
@@ -135,9 +135,9 @@
       "pname": "pgpool-II-pg17-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 6
     },
     {
       "pg": 17,
@@ -150,9 +150,9 @@
       "pname": "pgpool-II-pg17-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 6
     },
     {
       "pg": 17,
@@ -255,9 +255,9 @@
       "pname": "pgpool-II-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 9
     },
     {
       "pg": 16,
@@ -270,9 +270,9 @@
       "pname": "pgpool-II-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 9
     },
     {
       "pg": 16,
@@ -285,9 +285,9 @@
       "pname": "pgpool-II-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 9
     },
     {
       "pg": 16,
@@ -300,9 +300,9 @@
       "pname": "pgpool-II-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 9
     },
     {
       "pg": 16,
@@ -405,9 +405,9 @@
       "pname": "pgpool-II-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 11
     },
     {
       "pg": 15,
@@ -420,9 +420,9 @@
       "pname": "pgpool-II-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 12
     },
     {
       "pg": 15,
@@ -435,9 +435,9 @@
       "pname": "pgpool-II-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 12
     },
     {
       "pg": 15,
@@ -450,9 +450,9 @@
       "pname": "pgpool-II-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 12
     },
     {
       "pg": 15,
@@ -555,9 +555,9 @@
       "pname": "pgpool-II-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 11
     },
     {
       "pg": 14,
@@ -570,9 +570,9 @@
       "pname": "pgpool-II-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 15
     },
     {
       "pg": 14,
@@ -585,9 +585,9 @@
       "pname": "pgpool-II-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 12
     },
     {
       "pg": 14,
@@ -600,9 +600,9 @@
       "pname": "pgpool-II-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 14
     },
     {
       "pg": 14,
@@ -705,9 +705,9 @@
       "pname": "pgpool-II-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 11
     },
     {
       "pg": 13,
@@ -720,9 +720,9 @@
       "pname": "pgpool-II-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 15
     },
     {
       "pg": 13,
@@ -735,9 +735,9 @@
       "pname": "pgpool-II-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 12
     },
     {
       "pg": 13,
@@ -750,9 +750,9 @@
       "pname": "pgpool-II-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "4.6.3",
+      "count": 14
     },
     {
       "pg": 13,
@@ -816,6 +816,2116 @@
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 31324,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "42b45ad844f737310233b376ed46366b8248a41416707157dc1549b86c7ee8bb"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 31164,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "71ecb56b095dc32b23a85ddc21bf3f0f9f685dadaa97715d536ee30fa5c42a4f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 31008,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "8f936d17b20377fd1f5bda5216bbf7b5dbbb9537bbb350b1e5c7161cc0774078"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 30848,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "e1587c7e094a58705547f3a0433b1a16718a01673596e69066e51e061d7371da"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "size": 30572,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "68c51b068bd016eef769454faeae737385814d0d67c8d85e182ebf2205825b27"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30408,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "dd1a61cff495e9caf9e1a945ce1ad3400207b41b4049093d858437257028662d"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 30224,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "9cf09a68aa1856f5d31370b31782603121a9dfd2093eece1935a6623ff856553"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 29904,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "edad228c3bb6c7e19656ae1a092e07932547c76b7d1b27494b4aeb04b83604c4"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 29740,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "caba3f1154aa4e8f3f18582994f1a258e097412ceff3ca81619f16da1e2578fe"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.2-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.4.2-1.rhel8.aarch64.rpm",
+      "size": 29624,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.4.2-1.rhel8.aarch64.rpm",
+      "sha256": "b57c29fc508514fd814157d411649f1ebfa602a689c6a477d771cd1ae1698a03"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.1-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.4.1-1.rhel8.aarch64.rpm",
+      "size": 29140,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pgpool-II-pg13-extensions-4.4.1-1.rhel8.aarch64.rpm",
+      "sha256": "52492a892bb8405955ba279c13bd353bb27d0f2e4cb1473a84b163888770b5d1"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 31800,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "8bf245516d941eb71a2d615de06faf03ff209f7905cd35946ba4e55a0174d0c4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 31632,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "361c3444ec0fd6c25d6e4e9665d6950e2ec4905556f296382a56aa243937fa78"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 31464,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "681ba199f817908f5ec7a540767ea47505daaea960b523bf5878c3289add3fde"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 31304,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "8764c45eee1ff9b926f044fefb4a521a1f5ddff623788f0403c4b25a10e7a013"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "size": 31032,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "9d55da70cdaf8c3b5b5922871b6ebbdd981602adad0b21fcb1115f23cd3bcee4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 30880,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "279f7eec81f6f1e363d037b1e0e33c365761e040f93fd553704a42b0904329bf"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 30692,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "b83cd7d6ab751ea21b4a4c9c6c2265b5c374de29fef1483761278b618685fb1e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 30372,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "fa3a5ef2f8c8aa7a252ca8bc821793415b882f4a76291e0fbf4a9a9c8ccbc787"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 29804,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "fca84b6af171db2ff319f5e94b0304127d3e954803db8e1a19860e5d12e2734c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.2-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.4.2-1.rhel8.x86_64.rpm",
+      "size": 29692,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.4.2-1.rhel8.x86_64.rpm",
+      "sha256": "d3619741710b4e209cc108ed05e0b9ec40d7d40f3c160191003c02388cbddca6"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.1-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.4.1-1.rhel8.x86_64.rpm",
+      "size": 29216,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.4.1-1.rhel8.x86_64.rpm",
+      "sha256": "51b8a0da6e68cb2d5bf4f5cf0d193c882819e76c1df195e4ec7fdd1bf865c3dd"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.3-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.3.3-1.rhel8.x86_64.rpm",
+      "size": 29044,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.3.3-1.rhel8.x86_64.rpm",
+      "sha256": "99076e5d022f436f6a9a5c1066c2e41845b0bacea61c243c1896b9cb48a9e8a5"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.2-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.3.2-1.rhel8.x86_64.rpm",
+      "size": 28924,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.3.2-1.rhel8.x86_64.rpm",
+      "sha256": "80483df292a24c73e79961d013c2c224e0b0d656fee537fd705cab0b0e23fdf8"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.1-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.3.1-1.rhel8.x86_64.rpm",
+      "size": 28828,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.3.1-1.rhel8.x86_64.rpm",
+      "sha256": "055ad2548b424f6ee4a301129f09f1480defe205dc7535aec1e900760209e5f4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.0-1.rhel8",
+      "file": "pgpool-II-pg13-extensions-4.3.0-1.rhel8.x86_64.rpm",
+      "size": 28912,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pgpool-II-pg13-extensions-4.3.0-1.rhel8.x86_64.rpm",
+      "sha256": "351b1c2ee0e96dfa54e2eec08daaad6c43e460f43605cdf4d4856e8e9eb4c066"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30814,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "87463578e0c5ebfd0d0e155c4534b43537ee48f5650a57b2484e99aa3f204c21"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 31060,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "9b7fb7c359178030aad9f7f68b538458646febcf9390b02d6342025692cb6111"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 30928,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "ea2b60899ea7a78d5dd0cab57aa9b46932c7dce3a144bf099648f4248cdf0a79"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30763,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "de7f09bea75eedd3af70684974e81e40cf68c8df1699880ae546542ce511c0dd"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "size": 30642,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "30a428c3e287db2777968593ff8895c503af8974acb5b8255f6ebcbc76b7bc79"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30610,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "4f5afaa29a5727693052a298bf83e32490b83eec7282b0c16440c80d2992a3bd"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30552,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "10fd59337eaf95ae03c10291e3677befa8540148266bcada68ae262e469b2073"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 29934,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "751ac063fffac9eb5deeeb994a24ad6325a85a29c63b653d6be620ab3dc12175"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30328,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "8e6b2da67d157c90d2679d89649ba48bdcc8c77ee2535f60056976a8c6e9474e"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.2-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.4.2-1.rhel9.aarch64.rpm",
+      "size": 30084,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.4.2-1.rhel9.aarch64.rpm",
+      "sha256": "b95db0965ab354816abf0d659607aa266bd4212b269f8574d65725b5e29f9289"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.1-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.4.1-1.rhel9.aarch64.rpm",
+      "size": 29672,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.4.1-1.rhel9.aarch64.rpm",
+      "sha256": "c8d7d1d83980415440ba294edb11e93458ebf1ec56dfbb0ce73c65e78c05c669"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.3-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.3.3-1.rhel9.aarch64.rpm",
+      "size": 29472,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pgpool-II-pg13-extensions-4.3.3-1.rhel9.aarch64.rpm",
+      "sha256": "eb9c005e2553d22979b71ed526741aa366f7f82926ff42e6e28ed46cf6ebd527"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31813,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "bc408a3eb27433f1d97c2dee374c7f66a46ba144860d10271d34c93a4263d341"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 31659,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "464343e0e0424c904fa536f76e93eaa75179a80e808031e9edc8120006409c6d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 31499,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "905b87907adab9ab3a0957c4dc97d2d9cad470e221d2cb47c381be331a14cc66"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 31354,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "ce53b4f412e04cf04a7b9c1d4165a4f817a334ba2d307f379106416e40cabc52"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "size": 31297,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "692f492b0ddbb3b9d54982058c75eef5c0c3d66a17e2ee511b060e11a2c9dc83"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31250,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "dc1db7b8f2cc449eb1b362cf012eb8a5f1227053c6472b1f20e9cfe6fee39493"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31179,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "f89bfa8683c90793245d468cc1ea0ea0e3d5c31069391514b06ca5770cb50853"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 30573,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "effe949adb81e40ecca2f8c81b89c905d3dfdec34fc024b9875700100dbda407"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.5.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 30598,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.5.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "820b7f90867ea29a2b335810862629b8ccff1b349b89e5693c7b07caee8e4933"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.2-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.4.2-1.rhel9.x86_64.rpm",
+      "size": 30589,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.4.2-1.rhel9.x86_64.rpm",
+      "sha256": "890427bf83713c456d053dbdfd90c7ba49d5ed443c1a82b74428df43ab343c14"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.4.1-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.4.1-1.rhel9.x86_64.rpm",
+      "size": 30106,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.4.1-1.rhel9.x86_64.rpm",
+      "sha256": "2d6c711e6193897ec550af80da2f4962e32556538a7e0e6391d2f71301d6fc7a"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.3-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.3.3-1.rhel9.x86_64.rpm",
+      "size": 29940,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.3.3-1.rhel9.x86_64.rpm",
+      "sha256": "3696f8b82729e7c17baad1f277063a6a633a79deb277c8950d0cb77eb6175c8f"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.2-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.3.2-1.rhel9.x86_64.rpm",
+      "size": 29825,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.3.2-1.rhel9.x86_64.rpm",
+      "sha256": "d3ef64658776f5cb44473296e7364007dc6f5ce91fcbe37402803d0008e9a7ad"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pgpool-II-pg13-extensions",
+      "ver": "4.3.1-1.rhel9",
+      "file": "pgpool-II-pg13-extensions-4.3.1-1.rhel9.x86_64.rpm",
+      "size": 29858,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pgpool-II-pg13-extensions-4.3.1-1.rhel9.x86_64.rpm",
+      "sha256": "915be1cb84f84c1590f4371dd0bcaf3a28b18bfdd92489f2a02d06ec06d95cb7"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 31276,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "31c2424876924fd1edf11c7ce8150be7835180cf55c6ae6117379dc170fc7426"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 31108,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "c9c4e77669a119875771dfca047080dc1840f3b0c787900d3cbd3e4d988144ac"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 30960,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "f63464f4867665c6c25a052d722ff75314fba8f0f8a1ece9d5637892f4e2fb36"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 30792,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "9e4524e72e27a7f0d9d590c8437cc3c9ff66334ca4ead4f9d9e8d4d1a601c5f6"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "size": 30520,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "e0b5ba097531c807f8696d6e4035b8a61fd85d11eea1412a7921c1271df78570"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30364,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "f63f6c9586edd382be77606b062ff6350458930cb1510f446114f1b07ad27281"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 30172,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "2383bb436a05f01cbba0ba2ab5282fa3443f6c63550a144dab85cdf7788683a4"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 29852,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "a91a12c1eb0f13722fccecbdc2a3d2b3e2d884bc06226301afb76d7582fd47b2"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 29696,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "d136a8b87811e2c97a473353dbb9ed6f973d32d34c2873fcdb505cced2870738"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.2-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.4.2-1.rhel8.aarch64.rpm",
+      "size": 29584,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.4.2-1.rhel8.aarch64.rpm",
+      "sha256": "48ed983a430cb3cd07587c34dc77e63905d9e949109cfbb541f51a45a28ef1b6"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.1-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.4.1-1.rhel8.aarch64.rpm",
+      "size": 29100,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pgpool-II-pg14-extensions-4.4.1-1.rhel8.aarch64.rpm",
+      "sha256": "d14063d6db2ab415f544572a3f611ec4dadd8da86765243b8436d4a43fc8e972"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 31992,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "fa13cb471fa8825481fa2b965a3655e5c5603173d8d75d5c030b00857992c67e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 31832,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "038d15038c28281f9f1b18567d9695cea9ff8ba62aac100220221f82bbde197c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 31668,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "795f33b15d820eea611e27068ed0acb741bc5dd8e2e949979ed08294c4084bc4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 31516,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "c8f0873b64c42ce1312a78d5474ee5f46e1aff38f328a7047a33656132e1cbc4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "size": 31232,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "153cb65221bf686f0392aed047eaf0e4395fbae4e31a96169051dac7c64cb057"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 31076,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "5a076292df10b3927aa9b8795d230774621d1bc80ee475382be98ca7537c96c5"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 30880,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "dc441f4bd1fe2df9951ca62e52a27f0b274cde3793993f66d89c3bf450c37930"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 30568,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "448fae0c8c2ae53cd8d7d546f375e6ef54cca6fb07d99de103f88026e1a04be4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 29984,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "f758ec6844a488385db13cd012be51d644e791ff2650791b8e9c4c9f1358c3ac"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.2-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.4.2-1.rhel8.x86_64.rpm",
+      "size": 29880,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.4.2-1.rhel8.x86_64.rpm",
+      "sha256": "f08c08f25e705eec88447e394025feb09f134b0c5a0b12c6c2e4a67a6eb6573e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.1-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.4.1-1.rhel8.x86_64.rpm",
+      "size": 29424,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.4.1-1.rhel8.x86_64.rpm",
+      "sha256": "4d3e21d67a9136ba0bf4bbff989f12a1a7b76e144cb140d2c39647d7e9271bcf"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.3-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.3.3-1.rhel8.x86_64.rpm",
+      "size": 29244,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.3.3-1.rhel8.x86_64.rpm",
+      "sha256": "255592a65cc28745f122d355a801e052d39c184b0661569bbfe60805718c71f9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.2-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.3.2-1.rhel8.x86_64.rpm",
+      "size": 29124,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.3.2-1.rhel8.x86_64.rpm",
+      "sha256": "dbdf9726b1da3f5aeb0aea4cd4e7c498daa1da8c3178e568cc8b6aff5510a8af"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.1-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.3.1-1.rhel8.x86_64.rpm",
+      "size": 29028,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.3.1-1.rhel8.x86_64.rpm",
+      "sha256": "3ceba9b2b647acaa91cb20b2bddfcdff67b916825647844b5ad48a9eb5dd2c5c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.0-1.rhel8",
+      "file": "pgpool-II-pg14-extensions-4.3.0-1.rhel8.x86_64.rpm",
+      "size": 29104,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pgpool-II-pg14-extensions-4.3.0-1.rhel8.x86_64.rpm",
+      "sha256": "82ee096be33faaf3072965cf4e328f10d49942dc06923858aca30beb30973b27"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30810,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "4538edf5bc236904ea79a73c43bbd2345006c0be5ab60e8c8bb4eaec020854c9"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 31100,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "7a937996cb93854d8a34db9dbe51cbc251c92a40dc882e82a81da561a61f4d55"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 30936,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "2ea22208ff40daf8ea3ed5706ae3a89984a1bfd9aec5c4a73ea5a63bed5f4faf"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30685,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "ed1c92076ade7aa22ebf3e0e4499a9aecdba90ecc5e1507d4c38e673159acea0"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "size": 30753,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "b3e5cb7f2e37438a4338c6564ca1f492f797a641b82efda7814152cf3ad8560f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30685,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "926d43ee423b079e1bb6b7886dfd4eecbb1984c30835a3e631eda3a76c37a0f0"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30525,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "23f00394f27f2e108ab2167f2232ba74d7de413877026f5ab880959eb7e4e3b9"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 29954,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "e0567aafd3ebf307ea90765d62a6b4b8f00e4487b070d316b905f7d14c8755c3"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30360,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "d1331c7af84d88aaa09d17fb6daf7d349794cb90609fb78c84f0f670e46e8466"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.2-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.4.2-1.rhel9.aarch64.rpm",
+      "size": 30114,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.4.2-1.rhel9.aarch64.rpm",
+      "sha256": "b2af4ccb6d5718f17ba061158220c8c4d1cbc33867ba99cf4935a6a7da53fb84"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.1-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.4.1-1.rhel9.aarch64.rpm",
+      "size": 29720,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.4.1-1.rhel9.aarch64.rpm",
+      "sha256": "bfb26e1a02fa979e1b8c1ea2590ed25c8028a289fa92f648d59478ef70869fa4"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.3-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.3.3-1.rhel9.aarch64.rpm",
+      "size": 29473,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pgpool-II-pg14-extensions-4.3.3-1.rhel9.aarch64.rpm",
+      "sha256": "16b8d25d1d066b17ecd38f2aafb9e6671aa17221746ce0aa95428fc27a54f572"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31767,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "a96eb2e1dcd8e16284314350159030d710d2e2ebbdf9c47caa4cd3672b3e655b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 31593,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "4fe9f4c42265d450f29e86d5ad74ec9aef820a8e99eccdd2399f948325e51665"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 31444,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "c315feb84d2ab2c41fbd5c57dc386937a7ac1d699387d65f6cae3f227eb50b2e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 31285,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "4d081691345513c835fabeabdb242bae5681626820b472c1dd633caee4be0a9c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "size": 31240,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "430e500688e6bc98b36f7689161011596ab9d9cf60b21ce7b729d5802d25100b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31200,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "fc03a58aef82bd704d0951de16a2485e435d93b5e5ff2443ea7d7839ecf4bd9f"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31116,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "e4f84104381dd1b073ae2b882e1ede1a1c831ecfe64a205a7c230cf94378c195"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 30505,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "f5b59dc2033678f3acec337ca681cea3d5e369de01f907bafaf6bd31607dd9c8"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.5.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 30553,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.5.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "652892720ee585ba062355f8957eb9a7d85df52ca6ab92634b9a6e1f7914d57d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.2-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.4.2-1.rhel9.x86_64.rpm",
+      "size": 30587,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.4.2-1.rhel9.x86_64.rpm",
+      "sha256": "f2a6093723f56a9f31c27d42b9f38e13f473f9d70ee3bfeecb635f5c6242dcd1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.4.1-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.4.1-1.rhel9.x86_64.rpm",
+      "size": 30077,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.4.1-1.rhel9.x86_64.rpm",
+      "sha256": "7f850cbf9a2c99095d6bcc3e89292829cc829b628289555a7b0d22163b157835"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.3-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.3.3-1.rhel9.x86_64.rpm",
+      "size": 29907,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.3.3-1.rhel9.x86_64.rpm",
+      "sha256": "0a70a2e12a785b53c54f3481f947b97175a20b3b8734181105293d979d534b98"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.2-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.3.2-1.rhel9.x86_64.rpm",
+      "size": 29781,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.3.2-1.rhel9.x86_64.rpm",
+      "sha256": "79ec21cf4239978a4a23e711553cda08f259065df7953fa12ca7fd64d514c282"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pgpool-II-pg14-extensions",
+      "ver": "4.3.1-1.rhel9",
+      "file": "pgpool-II-pg14-extensions-4.3.1-1.rhel9.x86_64.rpm",
+      "size": 29868,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pgpool-II-pg14-extensions-4.3.1-1.rhel9.x86_64.rpm",
+      "sha256": "148c66353e53e9df6284516583c155d34b5f075ebc137f10c79a6135dc8dd393"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 31280,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "79c14f6723750bdffe049b649c4d02b9fd7dafb31f8511a897bcef972f4aad16"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 31132,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "e72313930b92077212b6c8b4aa580b19b87dcce7364a43a1acd03207069b7f3d"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 30968,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "c53e528f01c7b079a26d4ff7d1bfd6e8e3d588416a58e2689dfc6a3f8a1435d9"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 30816,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "5b62c195b558e4b711e63de3e5583e4c38b35658842ecb4f493f71cb47cb386f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "size": 30532,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "66a84147d392ea2ef77fe6f204037409312fd656c94490c56381fb8a471888b5"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30368,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "eb87b0da368e5316ce923eff8913827de77965391de9af0ca6a5efd3784c9919"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 30184,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "10e41766c99ea491ee1a22296096d34ed04170ed0eb7cc30c6d862baaf6ce5c9"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 29848,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "f27d741aace818fe8ac695e078354a1803062440a5042d08fafc5de98d75e9ba"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 29704,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "e83d4f9fe02fd01075310e9d072899a9eeb31e575ae0171e1cf835df09a59cd5"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.2-1.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.4.2-1.rhel8.aarch64.rpm",
+      "size": 29596,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.4.2-1.rhel8.aarch64.rpm",
+      "sha256": "bfd655808b63fda041d4c4fbabc78530505d3695246ce3cbe7934fa9af1e3311"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.1-1.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.4.1-1.rhel8.aarch64.rpm",
+      "size": 29112,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pgpool-II-pg15-extensions-4.4.1-1.rhel8.aarch64.rpm",
+      "sha256": "c9b200247112fe95336f6876dc1ccbcd789e231a538e5de954863463c7fa42e1"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 32036,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "ec5e84ba8f3aa746ade46fa5f51fa6de29b58ba4e4e4177d7509057cd8c5d0c8"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 31872,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "f2ccd533e2f0f00c6f283ed05fbfc17145b5e14bfdbce58fde863bef8aee3769"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 31704,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "06bfd91e759b82a356c8550858597316370de817cd1502198cb30fc86586a90c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 31548,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "a279e405319bbe332b791c46c26cd94fa781eed70e53790795fba22309eb8ff0"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "size": 31272,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "f35994bbc5f200590b6197150bdbe2291033110b5daf6b2679be2dce15f112e6"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 31120,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "0e42a35b9ad230acc228a3d6b83498ca5653c7e01861b387d7bb985581b94995"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 30928,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "71431b528e9ddf540a1b3230c30b8ea6efaa37250ccfe260904c5212eb30e939"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 30596,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "1dfe63f095916638d63fbc867242f3fcbbdd82f5b776c82aaba6ecd27a43b4b1"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 30016,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "bd4b528e383cfaf302f9d784499ab549138c9f4b479ab32c60163166868f3683"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.2-1.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.4.2-1.rhel8.x86_64.rpm",
+      "size": 29912,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.4.2-1.rhel8.x86_64.rpm",
+      "sha256": "dd4f1a65c11e0669f49db562f8e7046d813398f3ca373e0df4a0670902ecbec4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.1-1.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.4.1-1.rhel8.x86_64.rpm",
+      "size": 29448,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.4.1-1.rhel8.x86_64.rpm",
+      "sha256": "65e4375b725c24d05fd4fe8c9790d12542dc2e3a960a8e8c77f57ac914d22b33"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.3.3-1.rhel8",
+      "file": "pgpool-II-pg15-extensions-4.3.3-1.rhel8.x86_64.rpm",
+      "size": 29272,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pgpool-II-pg15-extensions-4.3.3-1.rhel8.x86_64.rpm",
+      "sha256": "8fd3e3f7aff9657517fde4aed15f0d1a0d466d1dfc78d8cc2c291acda11a0259"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30904,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "036b0099d2b7fdb6f53d0e513834c149d0010992a2acb4fae63657f8ef6472cf"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 31054,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "2f5950dc4c8fbcab871637f8a6c6a0d1f5729686959a4dc4d5524a51c19ffdac"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 30960,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "a8fea9fe669b2444864edbcb3c63e885a0d20eb4dc4e7817e58bd0afe1f1faff"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30704,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "adbddb699b9426c9d07d77f9c6706d3d524bdd3f84489a8bbdf3ee3ca499b00e"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "size": 30752,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "0177306536e3c0a37754f5caf9a4d0f86c995cbcbd08bc1b2287c981e7180bc5"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30641,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "a9573969fd7fab961028c7c2c989bff826f852f4fe94aff6520717c60523b25a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30622,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "efe91f6e54fed99cc05a6d610b791f95df79845ce39a8b121c055b2c9a9dbf18"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 29907,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "65d144dd784cdf6a90515169581b7955b003c97ca68360176a7fde0bdb1f48be"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30375,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "23ee5afe1df9cec8203cb239afe48940e72e75e989b83a8b7851870ef67c4ce2"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.2-1.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.4.2-1.rhel9.aarch64.rpm",
+      "size": 30232,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.4.2-1.rhel9.aarch64.rpm",
+      "sha256": "a53d7f4e6b0b674cfb52fdc99b0296727c87705138c00a44d9188ebfcd682618"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.1-1.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.4.1-1.rhel9.aarch64.rpm",
+      "size": 29660,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.4.1-1.rhel9.aarch64.rpm",
+      "sha256": "42d30aeae741816c0b497a6c3b2da47b9bb3145704f06bbc8b90391381408393"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.3.3-1.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.3.3-1.rhel9.aarch64.rpm",
+      "size": 29523,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pgpool-II-pg15-extensions-4.3.3-1.rhel9.aarch64.rpm",
+      "sha256": "e7e2cc8e5bd6a80767398b7868bb13eedf70b92446d50851b2655953628447c6"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31798,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "a11d53797fb0d898b1051b623e5f2a337c37544cc93633d663aed63bcc533b99"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 31614,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "f15ffb6789aabc65d7baf854ffff6fa73d2e52a75bad6764543985a281373952"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 31465,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "84e02544b82a84a233a181e985e8872b763fc540637317f12ad0a66ec70fec6d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 31296,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "860bc7d74a0f4d3547e821ec1a2a07f70e11dfb617ead54a1d5ca75f20fe9bba"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "size": 31269,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "8c433a003a6733751189ab5eb7e232744a1d181bc2920486acaf6c8128302382"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31216,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "77a60ac5d3a6b2eb163b6333b250691f5d2a0cca0a7421497f9b103c35b012c7"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31147,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "a3f291f49a58d1b12943e67a55a0b212a580de8136965f187ede47b800a57e24"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 30529,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "3b8eeb49e5232eed628e876dccc4f640df0a9de8853c8f147769fb0878ecc7e0"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.5.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 30563,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.5.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "76749fc90149127b4f1c64036e896b72eafe0feabea9c233468e0d74ff2705b1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.2-1.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.4.2-1.rhel9.x86_64.rpm",
+      "size": 30588,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.4.2-1.rhel9.x86_64.rpm",
+      "sha256": "e323a691e6517d5ed254dfa61a6383d3a07b57855f3ac86b36b33cc4bd97eb63"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.4.1-1.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.4.1-1.rhel9.x86_64.rpm",
+      "size": 30093,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.4.1-1.rhel9.x86_64.rpm",
+      "sha256": "68317e1146647038cb0b1ef86701363b7c5bb853f52784e300f236f764e2cfbc"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pgpool-II-pg15-extensions",
+      "ver": "4.3.3-1.rhel9",
+      "file": "pgpool-II-pg15-extensions-4.3.3-1.rhel9.x86_64.rpm",
+      "size": 29927,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pgpool-II-pg15-extensions-4.3.3-1.rhel9.x86_64.rpm",
+      "sha256": "2d4a826364b0f8ec065758d492d15a93c68f2dccea549152a0edecce281711e8"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 31256,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "0eded0cf812488147f67aaa7057b7bf4569fd21b53e9978e067d0a830f0f9d84"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 31104,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "d69b28d318d5ce6fbc765b333ae1aa0de9745782a49cf712ff02ba5e558abdcf"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 30948,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "3e45ddd6f94ba2cc4df7a9e1856188058f9cac9d704d5362dd69f69e94bd768d"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 30776,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "d8079eaad9635df0be7f87c3d230a9add5c3626b3a109b741ed193261f200ca9"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "size": 30512,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "7967d785ef499e6c84f7069ed8bbf003a0a113d00abff5bf5a3ce09b8e3a8427"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30344,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "bd4c7c1fe21ee63970dc82f7db316ae53e25526fa875a6eb36e228ba9a2a17fe"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 30156,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "012b4c0c14c92ac2b4d02c745376502ae046e10582d00edb4099724249ba9937"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 30004,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "32b01a9249289d707ae97a4745590a31b2297aa76b848feab5486a04669c75bf"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 29852,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "7d3281714d203d9d9a3a27b19f5e951d80653884a5b11fa5a4ec5176a36901e1"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 31996,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "d0947fcaa30509ad079e5f766750bf04b127eff99be44bb31b8482c001ebd158"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 31836,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "038d2963b7cd06b3559511da3fffb29df9fac7c841442158f1795fa198790f1c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 31676,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "de2c27df6d4fd1b421f9a46aba03698a979da935e139737f2f489611c4de7306"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 31508,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "a7406537f1bf2f167ff1d2e687851dc26773b9d7bca84cbdd64bd8eefc057a5f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "size": 31228,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "59f693673426f388a53fbe0dea1107be806447eff99e5fb712a2272fafe5c008"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 31076,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "a9afc81336d47ccaa60e78a38e528da1609e8976bcbaf8bfd33fe0fc10494ff9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 30888,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "40b02e26f3c4d3553edfda9a4a661fa229d53962e0ab0811a67da93de073e509"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 30712,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "1d1333a44282247794f635636531007d327067b3097a466b3c6fb160cd9e0657"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 30564,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "8b702ca132233f0acb3ac2e8a7e6071fc4e164362c00e13875c1ac3f3c0f613a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30713,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "f52033bae38fb7f8302c808b30b649fc80e6df87cce3c27a1a6d83d101749afb"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 31114,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "3218b677607816525adbe5b15acd4065d6b3fbef70b4b726e222e46feccb933c"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 30917,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "e365176ee2f089a6a811ea6e697e026db477ba4e11e23ab19f0c320595b6fb27"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30796,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "8673e49f83faf84ad8249fbf521e3e901b3f520e7487daf7d9b7c2ba22698756"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "size": 30636,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "6945b532ad180e2cfc6d3ce98c7e8a17c693dd93cd197a1a2fc30b00bc8bc09c"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30659,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "3a2ae8199c42578a8c4007a2c99ab7b2c0e49bebc9fffa86a5de28babb92920b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30577,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "3372e35f33aa733919450a7a71d99964228de47497959b5cb47516ef898e75d1"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 30421,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "3693d10cd4fdbb3c920cffd5baf88bc799da7d6393958da9dfbcb68de319be78"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 29947,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "fa8efe500ffe94ee8f32f109611bafb529e892688a7cba6919712b0783e8081e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31764,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "373f4fd5bc905d5d0f999c46a4afe7943c6354016f978493b6ef71d38116af96"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 31598,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "64ff02a42f8197b547787eb7bc4cc0fd27189ef41cdacc7a8cbc4e76cf1fc86b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 31441,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "e0f3eda0ba042ccde360f82e52bd219101d4eaa7f7d7e5db3da175e192411e22"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 31273,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "b1d9545c42c1031de2121add928596c6852684fda26439a0420c48a49e0b55c6"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "size": 31243,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "062ab3f6e66a285e23c754f94cb174589dbf8cc408e26b7ed8c23380a1525982"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31200,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "4edb10b1c445b3fa90e4e96c622ee96371d60ab30533d2c3e880fe614c7662c6"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31112,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.5.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "aa2151f4d6ca5c8133f02d2b5c563801553c68749b564d14b1b05a960319dd33"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 30959,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.5.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "cf62d34cc6ff3a008653287b58a35fdc3ec297cc35775ae27e9c05982d967e4c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pgpool-II-pg16-extensions",
+      "ver": "4.5.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 30505,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pgpool-II-pg16-extensions-4.5.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "12ad38669d38b4d1acd344c4c704929ee8f126ded9609152af261f23eed15271"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "size": 31268,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "9a7434ab2a11dd2c6c43246c364c520aaafb9a8e8ca4c4fb43c890989a1d9df4"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "size": 31104,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "d9134d7a4d516f766d62d07f1256736734533a5871f70fef0b29dfe5270d79da"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 30952,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "dc16c9e3194c3fdcf19f1f86bf8379f619f6625c82586746a4c4edee09d45abc"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 30784,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "1833874c45b4f8342c929f17d712c480868bf6f4a5b6f04cfe856827b52753ae"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "size": 30512,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "1b197f1e5a7c9bf7d75e0710d4c0c4860983b783d46d53fd69ed1db8479ee97d"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30352,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "4ae282ecbc484999eae35d38b2fb32180d8ed6c2ada93101c2e0e3e1c8b48a57"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.3-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "size": 31996,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "aec19a4c000e17c357b628710e750111914b009e049e73d1829d8018dff59bfb"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.2-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "size": 31832,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "6450aeb0362a0fbf7339223c85c949f5e8bf713f72d006d2310a9c73f116d671"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.1-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 31668,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "7679485dc1218f38f792d5dc60789ae55f155271653ea1d50bec6487c6f0f9da"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.0-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 31520,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "bda2e142d510a74a0c699ee3b6080f3bd0404fa3ab02c6466ccab67a42f168ed"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.5-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "size": 31244,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "a6a387064bce5acae483130e4639044ce1f28288a1b4b290b828a8e9cf96b09e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.4-1PGDG.rhel8",
+      "file": "pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 31076,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "8159f9ebc37f2b7e5dd33c32c757d0b6346625b2479c40cfc521a028d325dc50"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "size": 30813,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "9314cee774d17f31dc6aa26240b7979bfecdbf6696bca3d4d2085ea62dd0b4ae"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "size": 30996,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "6a83b3ada69084c0f8bcdb6efaf067253bdef86659dc7d1dbce3a1b02349fd1b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 30860,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "ba6c5cab5ca8226d37e9339289f1e2d8f9317865bc4ed69d2894cdf83dc1f3d2"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 30714,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "057f505a74877362ccb8d908928a2fdf0ace308671f72ab22e72fd786b3e7cab"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "size": 30675,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "1d770690d4825f42512cecde29d0313d020a92835279c80c3a5e4f607d391f70"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30622,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "b6b6307165dfee3df6e8f24a3cd83c0ff69ae5c842c12e66301543f65b55e27f"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.3-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "size": 31755,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgpool-II-pg17-extensions-4.6.3-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "5364c0388450507adbc2dcda48dbc1f44baa90c29e25fa80bc1cbe00ca9b270b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.2-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "size": 31602,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgpool-II-pg17-extensions-4.6.2-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "8bcd58dde33f8af3808ac127a4f3c29ff46856b537132e23189849ab9217ae8d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.1-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 31432,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgpool-II-pg17-extensions-4.6.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "168fea778308bea92dc5f8fa6563a44988ee5fa392a573485390c94579f3ab75"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.6.0-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 31277,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgpool-II-pg17-extensions-4.6.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "ca5f501ffd9766b4571b667186432c0a4b8abaeee490ed61ac9ee4a2ba2e1059"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.5-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "size": 31236,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgpool-II-pg17-extensions-4.5.5-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "ba8b1506b1ec3682273e58b1569aa5871176ff0523cb3d33fb900f9d795c39c5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pgpool-II-pg17-extensions",
+      "ver": "4.5.4-1PGDG.rhel9",
+      "file": "pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31202,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgpool-II-pg17-extensions-4.5.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "6f3d219da8543f5e196076f9b3c85f44b12b155ce1d0982fa5e7300e21f7e78d"
+    },
     {
       "os": "d12.aarch64",
       "pg": 13,

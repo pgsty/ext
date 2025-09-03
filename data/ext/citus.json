@@ -8,7 +8,7 @@
   "url": "https://github.com/citusdata/citus",
   "license": "AGPL-3.0",
   "tags": [],
-  "version": "13.1.0",
+  "version": "13.2.0",
   "repo": "PIGSTY",
   "lang": "C",
   "contrib": false,
@@ -30,7 +30,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "13.1.0",
+  "rpm_ver": "13.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "citus_$v*",
   "rpm_pg": [

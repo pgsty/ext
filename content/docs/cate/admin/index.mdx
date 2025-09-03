@@ -18,7 +18,7 @@ ADMIN category contains **36** PostgreSQL extensions.
 | 5030 | [`pg_dirtyread`](/e/pg_dirtyread) | [`pg_dirtyread`](/e/pg_dirtyread) | 2.7 | Read dead but unvacuumed rows from table |
 | 5040 | [`pgfincore`](/e/pgfincore) | [`pgfincore`](/e/pgfincore) | 1.3.1 | examine and manage the os buffer cache |
 | 5050 | [`pg_cooldown`](/e/pg_cooldown) | [`pg_cooldown`](/e/pg_cooldown) | 0.1 | remove buffered pages for specific relations |
-| 5060 | [`ddlx`](/e/ddlx) | [`pg_ddlx`](/e/ddlx) | 0.29 | DDL eXtractor functions |
+| 5060 | [`ddlx`](/e/ddlx) | [`pg_ddlx`](/e/ddlx) | 0.30 | DDL eXtractor functions |
 | 5070 | [`prioritize`](/e/prioritize) | [`pg_prioritize`](/e/prioritize) | 1.0.4 | get and set the priority of PostgreSQL backends |
 | 5080 | [`pg_checksums`](/e/pg_checksums) | [`pg_checksums`](/e/pg_checksums) | 1.2 | Activate/deactivate/verify checksums in offline Postgres clusters |
 | 5090 | [`pg_readonly`](/e/pg_readonly) | [`pg_readonly`](/e/pg_readonly) | 1.0.3 | cluster database read only |
@@ -39,9 +39,9 @@ ADMIN category contains **36** PostgreSQL extensions.
 | 5840 | [`table_log`](/e/table_log) | [`table_log`](/e/table_log) | 0.6.4 | record table modification logs and PITR for table/row |
 | 5880 | [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | 4.2.3 | A PostgreSQL job scheduler |
 | 5890 | [`pg_prewarm`](/e/pg_prewarm) | [`pg_prewarm`](/e/pg_prewarm) | 1.2 | prewarm relation data |
-| 5900 | [`pgpool_adm`](/e/pgpool_adm) | [`pgpool`](/e/pgpool_adm) | 4.6.2 | Administrative functions for pgPool |
-| 5910 | [`pgpool_recovery`](/e/pgpool_recovery) | [`pgpool`](/e/pgpool_adm) | 4.6.2 | recovery functions for pgpool-II for V4.3 |
-| 5920 | [`pgpool_regclass`](/e/pgpool_regclass) | [`pgpool`](/e/pgpool_adm) | 4.6.2 | replacement for regclass |
+| 5900 | [`pgpool_adm`](/e/pgpool_adm) | [`pgpool`](/e/pgpool_adm) | 4.6.3 | Administrative functions for pgPool |
+| 5910 | [`pgpool_recovery`](/e/pgpool_recovery) | [`pgpool`](/e/pgpool_adm) | 4.6.3 | recovery functions for pgpool-II for V4.3 |
+| 5920 | [`pgpool_regclass`](/e/pgpool_regclass) | [`pgpool`](/e/pgpool_adm) | 4.6.3 | replacement for regclass |
 | 5930 | [`lo`](/e/lo) | [`lo`](/e/lo) | 1.1 | Large Object maintenance |
 | 5940 | [`basic_archive`](/e/basic_archive) | [`basic_archive`](/e/basic_archive) | - | an example of an archive module |
 | 5950 | [`basebackup_to_shell`](/e/basebackup_to_shell) | [`basebackup_to_shell`](/e/basebackup_to_shell) | - | adds a custom basebackup target called shell |
@@ -167,7 +167,7 @@ ADMIN category contains **36** PostgreSQL extensions.
     </div>
 </Callout>
 
-<Callout title="ddlx - 0.29">
+<Callout title="ddlx - 0.30">
     <p>DDL eXtractor functions</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [Extension](/e/ddlx) | [Website](https://github.com/lacanoid/pgddl) | Attributes |
@@ -181,8 +181,8 @@ ADMIN category contains **36** PostgreSQL extensions.
         <div className="space-y-2">
             | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
-| el8 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
-| el9 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
+| el8 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
+| el9 | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> | <Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge><Badge variant="blue-subtle">13</Badge> |
 | d12 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
 | u22 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
 | u24 | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> | <Badge variant="amber-subtle">17</Badge><Badge variant="amber-subtle">16</Badge><Badge variant="amber-subtle">15</Badge><Badge variant="amber-subtle">14</Badge><Badge variant="amber-subtle">13</Badge> |
@@ -650,7 +650,7 @@ ADMIN category contains **36** PostgreSQL extensions.
     </div>
 </Callout>
 
-<Callout title="pgpool_adm - 4.6.2">
+<Callout title="pgpool_adm - 4.6.3">
     <p>Administrative functions for pgPool</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [Extension](/e/pgpool_adm) | [Website](https://pgpool.net/) | Attributes |
@@ -673,7 +673,7 @@ ADMIN category contains **36** PostgreSQL extensions.
     </div>
 </Callout>
 
-<Callout title="pgpool_recovery - 4.6.2">
+<Callout title="pgpool_recovery - 4.6.3">
     <p>recovery functions for pgpool-II for V4.3</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [Extension](/e/pgpool_recovery) | [Website](https://pgpool.net/) | Attributes |
@@ -696,7 +696,7 @@ ADMIN category contains **36** PostgreSQL extensions.
     </div>
 </Callout>
 
-<Callout title="pgpool_regclass - 4.6.2">
+<Callout title="pgpool_regclass - 4.6.3">
     <p>replacement for regclass</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [Extension](/e/pgpool_regclass) | [Website](https://pgpool.net/) | Attributes |

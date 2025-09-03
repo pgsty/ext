@@ -10,7 +10,7 @@
   "tags": [
     "pgrx"
   ],
-  "version": "0.17.3",
+  "version": "0.18.0",
   "repo": "PIGSTY",
   "lang": "Rust",
   "contrib": false,
@@ -33,7 +33,7 @@
   "requires": [],
   "require_by": [],
   "see_also": [],
-  "rpm_ver": "0.17.3",
+  "rpm_ver": "0.18.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_search_$v",
   "rpm_pg": [
@@ -43,7 +43,7 @@
     "14"
   ],
   "rpm_deps": [],
-  "deb_ver": "0.17.3",
+  "deb_ver": "0.18.0",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-pg-search",
   "deb_deps": [],

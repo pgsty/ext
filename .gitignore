@@ -42,3 +42,4 @@ data/raw
 data/ext.csv
 data/matrix.csv
 public/
+data/test.sql

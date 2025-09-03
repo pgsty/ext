@@ -129,9 +129,9 @@
       "pname": "dbt2-pg17-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 2
     },
     {
       "pg": 17,
@@ -144,9 +144,9 @@
       "pname": "dbt2-pg17-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 2
     },
     {
       "pg": 17,
@@ -249,9 +249,9 @@
       "pname": "dbt2-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 1
     },
     {
       "pg": 16,
@@ -264,9 +264,9 @@
       "pname": "dbt2-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 1
     },
     {
       "pg": 16,
@@ -279,9 +279,9 @@
       "pname": "dbt2-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 4
     },
     {
       "pg": 16,
@@ -294,9 +294,9 @@
       "pname": "dbt2-pg16-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 4
     },
     {
       "pg": 16,
@@ -399,9 +399,9 @@
       "pname": "dbt2-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 4
     },
     {
       "pg": 15,
@@ -414,9 +414,9 @@
       "pname": "dbt2-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 5
     },
     {
       "pg": 15,
@@ -429,9 +429,9 @@
       "pname": "dbt2-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 8
     },
     {
       "pg": 15,
@@ -444,9 +444,9 @@
       "pname": "dbt2-pg15-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 8
     },
     {
       "pg": 15,
@@ -549,9 +549,9 @@
       "pname": "dbt2-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 4
     },
     {
       "pg": 14,
@@ -564,9 +564,9 @@
       "pname": "dbt2-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 6
     },
     {
       "pg": 14,
@@ -579,9 +579,9 @@
       "pname": "dbt2-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 8
     },
     {
       "pg": 14,
@@ -594,9 +594,9 @@
       "pname": "dbt2-pg14-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 7
     },
     {
       "pg": 14,
@@ -699,9 +699,9 @@
       "pname": "dbt2-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 4
     },
     {
       "pg": 13,
@@ -714,9 +714,9 @@
       "pname": "dbt2-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.53.7",
+      "count": 6
     },
     {
       "pg": 13,
@@ -729,9 +729,9 @@
       "pname": "dbt2-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 8
     },
     {
       "pg": 13,
@@ -744,9 +744,9 @@
       "pname": "dbt2-pg13-extensions",
       "miss": true,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pgdg",
+      "pkg_ver": "0.61.7",
+      "count": 7
     },
     {
       "pg": 13,
@@ -809,5 +809,896 @@
       "count": 0
     }
   ],
-  "package": []
+  "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg13-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 30324,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/dbt2-pg13-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "ad72e5803ae36fe38312b7775eb2a4fa9d6fff23c90181e83dff7eb1df58402a"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.4-1PGDG.rhel8",
+      "file": "dbt2-pg13-extensions-0.53.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30136,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/dbt2-pg13-extensions-0.53.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "9fa61f2d0a9c0414bc0a8c5393948dcfc928814327279d94bb68f071ad5cdea3"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.50.1-1.rhel8",
+      "file": "dbt2-pg13-extensions-0.50.1-1.rhel8.aarch64.rpm",
+      "size": 29912,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/dbt2-pg13-extensions-0.50.1-1.rhel8.aarch64.rpm",
+      "sha256": "507b4aeb2b1b3713f7d70d8fa68a204375f5ab102d4379052bbe8fba5b090fef"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.49.1-1.rhel8",
+      "file": "dbt2-pg13-extensions-0.49.1-1.rhel8.aarch64.rpm",
+      "size": 29852,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/dbt2-pg13-extensions-0.49.1-1.rhel8.aarch64.rpm",
+      "sha256": "1a13e6cc5217d17e6cea27c7fbb3a45d32b7d36ff0f3ac3e389f18f3c1e0eafc"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg13-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 30392,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/dbt2-pg13-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "d6126a80e522f7fea3a2cdcf2da304c7af8691c254aa45624151fdf4d4e7b3f4"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.4-1PGDG.rhel8",
+      "file": "dbt2-pg13-extensions-0.53.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 30200,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/dbt2-pg13-extensions-0.53.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "94c0bb46192d156cbd2a3c2f1bc55462bebe64dde5ce098afdfce44617fafa9a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.50.1-1.rhel8",
+      "file": "dbt2-pg13-extensions-0.50.1-1.rhel8.x86_64.rpm",
+      "size": 29976,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/dbt2-pg13-extensions-0.50.1-1.rhel8.x86_64.rpm",
+      "sha256": "afd97ba624857ce722c6cc3d5f30d1bac4b45330d23e31089292198fce933b09"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.49.1-1.rhel8",
+      "file": "dbt2-pg13-extensions-0.49.1-1.rhel8.x86_64.rpm",
+      "size": 29916,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/dbt2-pg13-extensions-0.49.1-1.rhel8.x86_64.rpm",
+      "sha256": "75320ac4f2644d62435be0769054ae794d6cfe320cf0c8b4223fc31de17b23f3"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.48.7-1.rhel8",
+      "file": "dbt2-pg13-extensions-0.48.7-1.rhel8.x86_64.rpm",
+      "size": 29888,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/dbt2-pg13-extensions-0.48.7-1.rhel8.x86_64.rpm",
+      "sha256": "d5073dcdcf74b28d3cd916ea78da0761dfd821535ad872863a1b494cdd6e7ed3"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.48.3-2.rhel8",
+      "file": "dbt2-pg13-extensions-0.48.3-2.rhel8.x86_64.rpm",
+      "size": 29708,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/dbt2-pg13-extensions-0.48.3-2.rhel8.x86_64.rpm",
+      "sha256": "cdf78b2bc9c388d27f8f0d72ac844cdd8ae7966de29fba14e69552cda4f840f7"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30262,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "bacd30a68d72f06f43a25fab80f449c2200023561913c6958050b8cd41d11f55"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "size": 30322,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "sha256": "4a4cd6e6de876c0f38a2c7b9f8b560226044ede27d0f7a8764d21d11b5005d0e"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30591,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "3482cbdea9573e1f4f5f7275fceb4ca5e7faa0443230615c1152240a05d4a52d"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.4-1PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.53.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30412,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.53.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "dc19ee7ebdac361ea3d6143407a343e19c8d834feb5d1514e97adc7e391f4791"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.50.1-1.rhel9",
+      "file": "dbt2-pg13-extensions-0.50.1-1.rhel9.aarch64.rpm",
+      "size": 30186,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.50.1-1.rhel9.aarch64.rpm",
+      "sha256": "a0b0229709e889b91e6d9e68866911827cbc56d46c251a72ddd56d7fabc5e861"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.49.1-1.rhel9",
+      "file": "dbt2-pg13-extensions-0.49.1-1.rhel9.aarch64.rpm",
+      "size": 30121,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.49.1-1.rhel9.aarch64.rpm",
+      "sha256": "9c76b6e688d5e1396110f8fed615abd140ad2008d1ed4df47474dc1ff69a548d"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.48.7-1.rhel9",
+      "file": "dbt2-pg13-extensions-0.48.7-1.rhel9.aarch64.rpm",
+      "size": 30079,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.48.7-1.rhel9.aarch64.rpm",
+      "sha256": "279f5546f6671c547a3f9eb42233072ca8e15830075f624055c5ec9246c7b2fe"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.48.3-2.rhel9",
+      "file": "dbt2-pg13-extensions-0.48.3-2.rhel9.aarch64.rpm",
+      "size": 29908,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/dbt2-pg13-extensions-0.48.3-2.rhel9.aarch64.rpm",
+      "sha256": "57d4c09839f3b5f851dee3de57c66531e95b795ac1013a4000d10799e6a0d01d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 30633,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/dbt2-pg13-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "886a98aa12f08986e11cafe5462840ca1c0677aa1be83db50175af45105bcea1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "size": 30686,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/dbt2-pg13-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "sha256": "bffa9794057d1d73ffe066e92e766ba1bfcf27af8c3fa0dae7eaf376ab84c1e6"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 31205,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/dbt2-pg13-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "2c289a1d7535ea01e0cb7c8c72928905e50e69f1c175f429976f6234dc29bb53"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.53.4-1PGDG.rhel9",
+      "file": "dbt2-pg13-extensions-0.53.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31019,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/dbt2-pg13-extensions-0.53.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "33ed5d07e9aa2e010f2321c7eb9439ff5fac79546697248ffc8bd26fc7e90b2b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.50.1-1.rhel9",
+      "file": "dbt2-pg13-extensions-0.50.1-1.rhel9.x86_64.rpm",
+      "size": 30808,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/dbt2-pg13-extensions-0.50.1-1.rhel9.x86_64.rpm",
+      "sha256": "175bc1dc1ae1794732d63fb0e1a459f5906bdfade0f99f25834ef6c6859e151c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.49.1-1.rhel9",
+      "file": "dbt2-pg13-extensions-0.49.1-1.rhel9.x86_64.rpm",
+      "size": 30735,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/dbt2-pg13-extensions-0.49.1-1.rhel9.x86_64.rpm",
+      "sha256": "fda79a9f58d3e75657521f46c9947eb158241e53469357db56350e41a65401ff"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "dbt2-pg13-extensions",
+      "ver": "0.48.7-1.rhel9",
+      "file": "dbt2-pg13-extensions-0.48.7-1.rhel9.x86_64.rpm",
+      "size": 30702,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/dbt2-pg13-extensions-0.48.7-1.rhel9.x86_64.rpm",
+      "sha256": "3c3bba105b0a1404bf237be548a5c45a72b40fbea1d82c24a2ec5c9c0fed6068"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg14-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 30336,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/dbt2-pg14-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "f8c7aa366641436a446ed41fb77b1918452c1f978252109113d1f5818023dca2"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.4-1PGDG.rhel8",
+      "file": "dbt2-pg14-extensions-0.53.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30148,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/dbt2-pg14-extensions-0.53.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "4d4dd807c45eb6ff776e155e83de6bcf8e69a67e3f51b49b7055681aad33bdee"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.50.1-1.rhel8",
+      "file": "dbt2-pg14-extensions-0.50.1-1.rhel8.aarch64.rpm",
+      "size": 29924,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/dbt2-pg14-extensions-0.50.1-1.rhel8.aarch64.rpm",
+      "sha256": "0869e1ef3dcda9be7760b27319f7299719d8adf25300d45a0df4369c04bc123f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.49.1-1.rhel8",
+      "file": "dbt2-pg14-extensions-0.49.1-1.rhel8.aarch64.rpm",
+      "size": 29868,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/dbt2-pg14-extensions-0.49.1-1.rhel8.aarch64.rpm",
+      "sha256": "f572f3dfa907f8526b51ccd0c08a31f69f9e5eb9340a1daaed544ea69721e04a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg14-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 30652,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/dbt2-pg14-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "f2e53463f8bcfbef4f3d62fb5e311c1ab0b212543eed876b83b5fd850a67224e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.4-1PGDG.rhel8",
+      "file": "dbt2-pg14-extensions-0.53.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 30460,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/dbt2-pg14-extensions-0.53.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "3407c9a521c408deb11567a34c5a5d30a2e12a881c5164e970efa8ab7e48bd2e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.50.1-1.rhel8",
+      "file": "dbt2-pg14-extensions-0.50.1-1.rhel8.x86_64.rpm",
+      "size": 30232,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/dbt2-pg14-extensions-0.50.1-1.rhel8.x86_64.rpm",
+      "sha256": "f0da246b243d0638c12725432b887f53130c37121a3e2a70e8abed52f4fda147"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.49.1-1.rhel8",
+      "file": "dbt2-pg14-extensions-0.49.1-1.rhel8.x86_64.rpm",
+      "size": 30180,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/dbt2-pg14-extensions-0.49.1-1.rhel8.x86_64.rpm",
+      "sha256": "09cc562b8610eb4d14e6c2e5700e00d35c3d4dfd701d8ac44345525a4dc2ab0d"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.48.7-1.rhel8",
+      "file": "dbt2-pg14-extensions-0.48.7-1.rhel8.x86_64.rpm",
+      "size": 30148,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/dbt2-pg14-extensions-0.48.7-1.rhel8.x86_64.rpm",
+      "sha256": "cfdad75884e4a1168311bed6684387b315d7c5717c1324b7712770ac452fd98f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.48.3-2.rhel8",
+      "file": "dbt2-pg14-extensions-0.48.3-2.rhel8.x86_64.rpm",
+      "size": 29968,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/dbt2-pg14-extensions-0.48.3-2.rhel8.x86_64.rpm",
+      "sha256": "41950a81b426031fc66080378d28ac1e46bc6f57b9c6c4e5b5c0b504c4b847c7"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30326,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "acd8bc3177de25fc79430b29ebd3f3a47fc6f9214b8e7fef1c03c6aee28d3b5c"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "size": 30397,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "sha256": "aa5d0da671a1b77076c77fc3bcc8b0e462a7953c228ea9640074148980918f36"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30650,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "2e4e90b8c67a61b435aaf5e76ad75feb3568fd6632bc6dc95e97beabaae869f3"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.4-1PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.53.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30469,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.53.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "f85863ad9930d8cf6d8e981356b57574e9fe1b89fb99acfa47bb30046d78ca60"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.50.1-1.rhel9",
+      "file": "dbt2-pg14-extensions-0.50.1-1.rhel9.aarch64.rpm",
+      "size": 30249,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.50.1-1.rhel9.aarch64.rpm",
+      "sha256": "9a7ca720db0b5b4bed9630b96079913302eaaaa161d7b164dd48e386f0fb3031"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.49.1-1.rhel9",
+      "file": "dbt2-pg14-extensions-0.49.1-1.rhel9.aarch64.rpm",
+      "size": 30178,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.49.1-1.rhel9.aarch64.rpm",
+      "sha256": "be2567c7bf6e35377a4a1bb83e354bdeb0bb8480059823b5e0b432daed1dc54f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.48.7-1.rhel9",
+      "file": "dbt2-pg14-extensions-0.48.7-1.rhel9.aarch64.rpm",
+      "size": 30137,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.48.7-1.rhel9.aarch64.rpm",
+      "sha256": "71bbaa2029a361675128631a04d8644d756acc26c2207cd4eca34061f7e71286"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.48.3-2.rhel9",
+      "file": "dbt2-pg14-extensions-0.48.3-2.rhel9.aarch64.rpm",
+      "size": 29953,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/dbt2-pg14-extensions-0.48.3-2.rhel9.aarch64.rpm",
+      "sha256": "d48c4737ad7a5a4e0f0bb157352a1c22f23a2f1ddbcd4d3ddf995323f2233735"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 30667,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/dbt2-pg14-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "ed9293444f3a85d4229563ce837f595307be2a512a0f64508793e27619e681b5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "size": 30729,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/dbt2-pg14-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "sha256": "7b3ad1a2ba5dacc9edbc3820949cadf3482fbb1aecb9ecc6fc20ae55b22fea57"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 31253,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/dbt2-pg14-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "c37fe43f7c0c6291f3cd9ba29914cd2d3381b27f04dac519a3e9eacc85f59bce"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.53.4-1PGDG.rhel9",
+      "file": "dbt2-pg14-extensions-0.53.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31065,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/dbt2-pg14-extensions-0.53.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "ad8694f650020af4b3e87e2a02a797e4279ec3c2d48a2eb03eed9f4d9c151c0d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.50.1-1.rhel9",
+      "file": "dbt2-pg14-extensions-0.50.1-1.rhel9.x86_64.rpm",
+      "size": 30832,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/dbt2-pg14-extensions-0.50.1-1.rhel9.x86_64.rpm",
+      "sha256": "aa29a71f3ca1fb85cf9304671281d9cc6d69e42a63a210b83e1da875f8f1f469"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.49.1-1.rhel9",
+      "file": "dbt2-pg14-extensions-0.49.1-1.rhel9.x86_64.rpm",
+      "size": 30768,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/dbt2-pg14-extensions-0.49.1-1.rhel9.x86_64.rpm",
+      "sha256": "812a040a29f55d09a1edb67c5ea2ab297c162d84a9c321eaceee548eada84da1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "dbt2-pg14-extensions",
+      "ver": "0.48.7-1.rhel9",
+      "file": "dbt2-pg14-extensions-0.48.7-1.rhel9.x86_64.rpm",
+      "size": 30733,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/dbt2-pg14-extensions-0.48.7-1.rhel9.x86_64.rpm",
+      "sha256": "caebb7a8b26e02afb010777c4aa2cb8ba3db87eca566eddfa1af72637bc76b42"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg15-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 30360,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/dbt2-pg15-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "c3ca0cbe4dd0bada178544a3a1a612d3df39f492d3cc34fb8fe77cb9791ee756"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.4-1PGDG.rhel8",
+      "file": "dbt2-pg15-extensions-0.53.4-1PGDG.rhel8.aarch64.rpm",
+      "size": 30168,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/dbt2-pg15-extensions-0.53.4-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "8e81b39ae358d90dc9806e0b3522d6b34cd3b833a349325a9585846b1c64c87a"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.50.1-1.rhel8",
+      "file": "dbt2-pg15-extensions-0.50.1-1.rhel8.aarch64.rpm",
+      "size": 29940,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/dbt2-pg15-extensions-0.50.1-1.rhel8.aarch64.rpm",
+      "sha256": "0d0082b23ff86e4ecc864bfd055cf9bf9c07904d3947dd5b2b26892dbee48ecf"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.49.1-1.rhel8",
+      "file": "dbt2-pg15-extensions-0.49.1-1.rhel8.aarch64.rpm",
+      "size": 29880,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/dbt2-pg15-extensions-0.49.1-1.rhel8.aarch64.rpm",
+      "sha256": "fb3b8d1f53dd5cb5b35024b851b5f69ee962ddc78e62b526b18a0db606bb0245"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg15-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 30664,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/dbt2-pg15-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "3247ef74b233f5503d13e8781b50d4c2196fd3ff30478f03f6089117864d55af"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.4-1PGDG.rhel8",
+      "file": "dbt2-pg15-extensions-0.53.4-1PGDG.rhel8.x86_64.rpm",
+      "size": 30472,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/dbt2-pg15-extensions-0.53.4-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "eac26e816f29f275591cadec59e914703e2648e60ba1c32b990c32f9d1b9bc04"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.50.1-1.rhel8",
+      "file": "dbt2-pg15-extensions-0.50.1-1.rhel8.x86_64.rpm",
+      "size": 30248,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/dbt2-pg15-extensions-0.50.1-1.rhel8.x86_64.rpm",
+      "sha256": "e25685bca2d5eb02d906fa1067af068037156d0f1996a9be4b2d29409c8708f1"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.49.1-1.rhel8",
+      "file": "dbt2-pg15-extensions-0.49.1-1.rhel8.x86_64.rpm",
+      "size": 30200,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/dbt2-pg15-extensions-0.49.1-1.rhel8.x86_64.rpm",
+      "sha256": "a9711fb7fc2905ad2038c6da3dee77135090c42b71555ddfef88532f4c1c03b6"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.48.7-1.rhel8",
+      "file": "dbt2-pg15-extensions-0.48.7-1.rhel8.x86_64.rpm",
+      "size": 30160,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/dbt2-pg15-extensions-0.48.7-1.rhel8.x86_64.rpm",
+      "sha256": "9c447a13e87c7f33c20d9e340e298d3554dba9c23b78bdcd73d02e41e0efd51e"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30341,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "ec637df44f61d0123d1608e78a0efdc232b6fc242360919a8ff1e7013937cc04"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "size": 30404,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "sha256": "8f8f0f0a6339722bfa73a0f9b3f4145410e1a69ea17baadee86ff096105c2a6c"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30662,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "711f2c093cfa4b64d03e58802cde9c19f9a17a9a79097f77feaa7aebe1f8c9ee"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.4-1PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.53.4-1PGDG.rhel9.aarch64.rpm",
+      "size": 30470,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.53.4-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "d9fe6bae6399c77e1756ec6d2c84c3b068b8787ff4464f6993d79ba8d269bfd8"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.50.1-1.rhel9",
+      "file": "dbt2-pg15-extensions-0.50.1-1.rhel9.aarch64.rpm",
+      "size": 30259,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.50.1-1.rhel9.aarch64.rpm",
+      "sha256": "695d707730e7a34c3d7eee6a11be61c0b2b79f8266fc13b9bd15e101b9e87b8a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.49.1-1.rhel9",
+      "file": "dbt2-pg15-extensions-0.49.1-1.rhel9.aarch64.rpm",
+      "size": 30180,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.49.1-1.rhel9.aarch64.rpm",
+      "sha256": "dbd204dca8fecfb7b0a0b2b4211d04b2add54a872df2e4e64e52847904cbf78d"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.48.7-1.rhel9",
+      "file": "dbt2-pg15-extensions-0.48.7-1.rhel9.aarch64.rpm",
+      "size": 30149,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.48.7-1.rhel9.aarch64.rpm",
+      "sha256": "60d275126ba74857903ffe9bac6795dc0492e3298af288b574d993d6b4fe8d31"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.48.3-2.rhel9",
+      "file": "dbt2-pg15-extensions-0.48.3-2.rhel9.aarch64.rpm",
+      "size": 29961,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/dbt2-pg15-extensions-0.48.3-2.rhel9.aarch64.rpm",
+      "sha256": "3f702221b550f7e4c937f63ef5257a457cecb7e0d363e40012020f58c3dae439"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 30683,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "ec73801217e1e5b9ac65337e0ee1f37ab82a8605e569164df3f210eff715ae8f"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "size": 30739,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "sha256": "5478d978af6b08860059bbcffbe84e11a59b1f20b5f68309cda5837bc97c22d1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 31259,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "d46abdda1c956f884fe4364d8bac8148d079738f4d4f6205d5249e9ea7558da5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.53.4-1PGDG.rhel9",
+      "file": "dbt2-pg15-extensions-0.53.4-1PGDG.rhel9.x86_64.rpm",
+      "size": 31055,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.53.4-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "a8e1390b78cc2f4ce8179405f1870ef3aa2b09013b2d27fc25ecdc96c4707e7d"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.50.1-1.rhel9",
+      "file": "dbt2-pg15-extensions-0.50.1-1.rhel9.x86_64.rpm",
+      "size": 30843,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.50.1-1.rhel9.x86_64.rpm",
+      "sha256": "91fa3fdee9419f5c9eee3e5ca30b70371f3883618fca00bb05db71e3b894c64c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.49.1-1.rhel9",
+      "file": "dbt2-pg15-extensions-0.49.1-1.rhel9.x86_64.rpm",
+      "size": 30766,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.49.1-1.rhel9.x86_64.rpm",
+      "sha256": "e62704436b7d59da7b59c4f8bfc324d47cd67481a16842e2a5077e1585c971a5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.48.7-1.rhel9",
+      "file": "dbt2-pg15-extensions-0.48.7-1.rhel9.x86_64.rpm",
+      "size": 30731,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.48.7-1.rhel9.x86_64.rpm",
+      "sha256": "7ce2d6fcad5d1f200c06ddd03ca4c8f2c7b8a2b5e059b5ec9936a949ef0184a0"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "dbt2-pg15-extensions",
+      "ver": "0.48.3-2.rhel9",
+      "file": "dbt2-pg15-extensions-0.48.3-2.rhel9.x86_64.rpm",
+      "size": 30567,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/dbt2-pg15-extensions-0.48.3-2.rhel9.x86_64.rpm",
+      "sha256": "d83f467cbdfc5feaa51a9c93a9d2b64aa4d5dc496d0555e46ed33f161a4e29dd"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg16-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 30336,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/dbt2-pg16-extensions-0.53.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "d369ec1f673ca60fb024f61ba902258cafc02cd018fb53cf062fea0f50f3e031"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.53.7-1PGDG.rhel8",
+      "file": "dbt2-pg16-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 30640,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/dbt2-pg16-extensions-0.53.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "e22fd9b165bc7f3e292d2dc528e7a2497ac1e404abb66528c03a4703371e7e6a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30366,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/dbt2-pg16-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "bdb418fc2c1c971cb06176623d8f33a7f3c051057c9d61f8c4d270d80254a0f6"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "size": 30431,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/dbt2-pg16-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "sha256": "f1d446a6babb39cf5fa0850476ca295a197edb181c7d872f509bf0b2d443bbc9"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30721,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/dbt2-pg16-extensions-0.53.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "4d0866edc0b550a10642e8f92ac387b2789a888435aa28e30b6d4007e663c566"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.53.6-1PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.53.6-1PGDG.rhel9.aarch64.rpm",
+      "size": 30600,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/dbt2-pg16-extensions-0.53.6-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "bd9134fb805adb1e9ea18b0b1d7fd54bc6898d43ae6b5503b303a5de35ed8c9b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 30655,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/dbt2-pg16-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "bf8f394040994404cc8ffc753d77d06d7ea30f22731b383ff767b11fb3a592ea"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "size": 30719,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/dbt2-pg16-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "sha256": "ffabfee62f462a4ad5c48f5abdc720fc9c3939607c0ebe5cec1736c582d3fc3e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.53.7-1PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 31220,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/dbt2-pg16-extensions-0.53.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "1af28d1e9ce2e832d98099f24895f2abbea1acc9acb793cd26271d037d5b5450"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "dbt2-pg16-extensions",
+      "ver": "0.53.6-1PGDG.rhel9",
+      "file": "dbt2-pg16-extensions-0.53.6-1PGDG.rhel9.x86_64.rpm",
+      "size": 31103,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/dbt2-pg16-extensions-0.53.6-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "72ed45acaa43798c42ad64fbc4c88f7ecc1081e17358dedb6c42efb650cedc5f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "dbt2-pg17-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg17-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 30373,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/dbt2-pg17-extensions-0.61.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "66c9d4c2398328af8b735637f97f9483f2693280fccb882c822e7855fec411d6"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "dbt2-pg17-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg17-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "size": 30429,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/dbt2-pg17-extensions-0.61.6-2PGDG.rhel9.aarch64.rpm",
+      "sha256": "db39d837f7720f5ecf75f35418edb5c95d60beae007b3e5c97b05d0a9fc9288b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "dbt2-pg17-extensions",
+      "ver": "0.61.7-1PGDG.rhel9",
+      "file": "dbt2-pg17-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 30655,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/dbt2-pg17-extensions-0.61.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "a724a619781091d22207bf1b0a7b3d5e48919f2fcd6f0310b35853d8029291cc"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "dbt2-pg17-extensions",
+      "ver": "0.61.6-2PGDG.rhel9",
+      "file": "dbt2-pg17-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "size": 30717,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/dbt2-pg17-extensions-0.61.6-2PGDG.rhel9.x86_64.rpm",
+      "sha256": "fdc4a4730ceea36727614b87223c1b927282d57c8fc526359631689b74d73c13"
+    }
+  ]
 }
