@@ -92,7 +92,7 @@ interface ExtensionData {
 }
 
 const DEFAULT_OS = ['el8.x86_64', 'el8.aarch64', 'el9.x86_64', 'el9.aarch64', 'd12.x86_64', 'd12.aarch64', 'u22.x86_64', 'u22.aarch64', 'u24.x86_64', 'u24.aarch64'];
-const DEFAULT_PG = [17, 16, 15, 14, 13];
+const DEFAULT_PG = [18, 17, 16, 15, 14];
 
 function formatBool(value: boolean | null, trueText: string = "Yes", falseText: string = "No", isChinese: boolean = false): string {
   if (value === null) return isChinese ? "未知" : "Unknown";

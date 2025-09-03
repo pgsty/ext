@@ -66,7 +66,7 @@ class LinuxListGenerator:
         }
         
         # PostgreSQL versions to check
-        self.pg_versions = ['17', '16', '15', '14', '13']
+        self.pg_versions = ['18', '17', '16', '15', '14']
     
     def generate(self):
         """Generate Linux distribution list pages."""
@@ -196,7 +196,7 @@ class LinuxListGenerator:
             count = len(problematic_exts)
             
             # Generate table for problematic extensions
-            table_lines = ['| Extension | Package | 17 | 16 | 15 | 14 | 13 |',
+            table_lines = ['| Extension | Package | 18 | 17 | 16 | 15 | 14 |',
                           '|:----------|:--------|:--:|:--:|:--:|:--:|:--:|']
             
             for item in problematic_exts:
@@ -284,7 +284,7 @@ This page lists PostgreSQL extensions that have availability issues on specific 
             count = len(problematic_exts)
             
             # Generate table for problematic extensions
-            table_lines = ['| 扩展 | 扩展包 | 17 | 16 | 15 | 14 | 13 |',
+            table_lines = ['| 扩展 | 扩展包 | 18 | 17 | 16 | 15 | 14 |',
                           '|:-----|:-------|:--:|:--:|:--:|:--:|:--:|']
             
             for item in problematic_exts:

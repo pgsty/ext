@@ -261,7 +261,7 @@ import {{ Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Box
             x86_badges = []
             arm_badges = []
             
-            for pg_ver in ['17', '16', '15', '14', '13']:
+            for pg_ver in ['18', '17', '16', '15', '14']:
                 if is_contrib:
                     # For CONTRIB extensions, use pg_ver field to determine availability
                     pg_versions = ext_data.get('pg_ver', [])

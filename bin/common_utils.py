@@ -53,7 +53,7 @@ class Config:
             ]
         
         if self.PG_VERSIONS is None:
-            self.PG_VERSIONS = [17, 16, 15, 14, 13]
+            self.PG_VERSIONS = [18, 17, 16, 15, 14]
 
 
 # =============================================================================
