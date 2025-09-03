@@ -68,6 +68,156 @@
   ],
   "matrix": [
     {
+      "pg": 18,
+      "os": "d12.aarch64",
+      "type": "deb",
+      "os_code": "d12",
+      "os_arch": "aarch64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "postgresql-18-emaj",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "d12.x86_64",
+      "type": "deb",
+      "os_code": "d12",
+      "os_arch": "x86_64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "postgresql-18-emaj",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "el8.aarch64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "aarch64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "e-maj_18",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "el8.x86_64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "x86_64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "e-maj_18",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "el9.aarch64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "aarch64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "e-maj_18",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "el9.x86_64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "x86_64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "e-maj_18",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "u22.aarch64",
+      "type": "deb",
+      "os_code": "u22",
+      "os_arch": "aarch64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "postgresql-18-emaj",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "u22.x86_64",
+      "type": "deb",
+      "os_code": "u22",
+      "os_arch": "x86_64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "postgresql-18-emaj",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "u24.aarch64",
+      "type": "deb",
+      "os_code": "u24",
+      "os_arch": "aarch64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "postgresql-18-emaj",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
+      "pg": 18,
+      "os": "u24.x86_64",
+      "type": "deb",
+      "os_code": "u24",
+      "os_arch": "x86_64",
+      "pkg": "emaj",
+      "ext": "emaj",
+      "pname": "postgresql-18-emaj",
+      "miss": true,
+      "hide": false,
+      "pkg_repo": null,
+      "pkg_ver": null,
+      "count": 0
+    },
+    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -874,20 +1024,20 @@
       "pg": 13,
       "name": "e-maj_13",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_13-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "size": 4804020,
-      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/e-maj_13-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "sha256": "f2d93c947f8880acd8f16fc3736107f3b598bc985ae28e8b2860d1fd74104646"
+      "file": "e-maj_13-4.3.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 4804056,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/e-maj_13-4.3.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "9cde3e37e2da5b2b1bfc2dc5f42d6ea29251ec8c4dc52c58f4fd168efa1e6dec"
     },
     {
       "os": "el8.aarch64",
       "pg": 13,
       "name": "e-maj_13",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_13-4.3.0-1PGDG.rhel8.aarch64.rpm",
-      "size": 4804056,
-      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/e-maj_13-4.3.0-1PGDG.rhel8.aarch64.rpm",
-      "sha256": "9cde3e37e2da5b2b1bfc2dc5f42d6ea29251ec8c4dc52c58f4fd168efa1e6dec"
+      "file": "e-maj_13-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "size": 4804020,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/e-maj_13-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "sha256": "f2d93c947f8880acd8f16fc3736107f3b598bc985ae28e8b2860d1fd74104646"
     },
     {
       "os": "el8.aarch64",
@@ -1324,20 +1474,20 @@
       "pg": 14,
       "name": "e-maj_14",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_14-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "size": 4804068,
-      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/e-maj_14-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "sha256": "ffcaf8eada632d49f5f69508d990b158268274ef6781a19b3064e9acf466cb40"
+      "file": "e-maj_14-4.3.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 4804100,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/e-maj_14-4.3.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "de59305fb6ab6c4878f9e305f49452e67ae6c12f2af5af81ecd08e3a65809b55"
     },
     {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "e-maj_14",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_14-4.3.0-1PGDG.rhel8.x86_64.rpm",
-      "size": 4804100,
-      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/e-maj_14-4.3.0-1PGDG.rhel8.x86_64.rpm",
-      "sha256": "de59305fb6ab6c4878f9e305f49452e67ae6c12f2af5af81ecd08e3a65809b55"
+      "file": "e-maj_14-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "size": 4804068,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/e-maj_14-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "sha256": "ffcaf8eada632d49f5f69508d990b158268274ef6781a19b3064e9acf466cb40"
     },
     {
       "os": "el8.x86_64",
@@ -1504,20 +1654,20 @@
       "pg": 14,
       "name": "e-maj_14",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_14-4.3.0-1PGDG.rhel9.x86_64.rpm",
-      "size": 4387909,
-      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/e-maj_14-4.3.0-1PGDG.rhel9.x86_64.rpm",
-      "sha256": "160f977173c00367d77d86dafec6efd7547ea898a6eedbb17513b5241e0a18c4"
+      "file": "e-maj_14-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "size": 4387869,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/e-maj_14-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "sha256": "8d4ef1d84c92650ddad4236c8e6804887a783a043dff855c43db2b7c0d2869ea"
     },
     {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "e-maj_14",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_14-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "size": 4387869,
-      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/e-maj_14-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "sha256": "8d4ef1d84c92650ddad4236c8e6804887a783a043dff855c43db2b7c0d2869ea"
+      "file": "e-maj_14-4.3.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 4387909,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/e-maj_14-4.3.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "160f977173c00367d77d86dafec6efd7547ea898a6eedbb17513b5241e0a18c4"
     },
     {
       "os": "el9.x86_64",
@@ -1594,20 +1744,20 @@
       "pg": 15,
       "name": "e-maj_15",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "size": 4804020,
-      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "sha256": "582f24c6fcae87a99844bba0e836b52f47cdffac266ee6c00af5f2b9e2e22f81"
+      "file": "e-maj_15-4.3.0-1PGDG.rhel8.aarch64.rpm",
+      "size": 4804056,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/e-maj_15-4.3.0-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "4f99bff0c56fa0d8512f8ee61330b2756a0787e414f3aa0432480d5ca79b1fa0"
     },
     {
       "os": "el8.aarch64",
       "pg": 15,
       "name": "e-maj_15",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_15-4.3.0-1PGDG.rhel8.aarch64.rpm",
-      "size": 4804056,
-      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/e-maj_15-4.3.0-1PGDG.rhel8.aarch64.rpm",
-      "sha256": "4f99bff0c56fa0d8512f8ee61330b2756a0787e414f3aa0432480d5ca79b1fa0"
+      "file": "e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "size": 4804020,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "sha256": "582f24c6fcae87a99844bba0e836b52f47cdffac266ee6c00af5f2b9e2e22f81"
     },
     {
       "os": "el8.aarch64",
@@ -1684,20 +1834,20 @@
       "pg": 15,
       "name": "e-maj_15",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "size": 4804064,
-      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
-      "sha256": "8bf69518532077ff57b800189f3e0a8a1e640b02b545dcafa02efe077a1c37f5"
+      "file": "e-maj_15-4.3.0-1PGDG.rhel8.x86_64.rpm",
+      "size": 4804096,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/e-maj_15-4.3.0-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "0a26f7e0f25139feecee7d65c59757dd71c3af5fc730bdb5372dad22758f2458"
     },
     {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "e-maj_15",
       "ver": "4.3.0-1PGDG.rhel8",
-      "file": "e-maj_15-4.3.0-1PGDG.rhel8.x86_64.rpm",
-      "size": 4804096,
-      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/e-maj_15-4.3.0-1PGDG.rhel8.x86_64.rpm",
-      "sha256": "0a26f7e0f25139feecee7d65c59757dd71c3af5fc730bdb5372dad22758f2458"
+      "file": "e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "size": 4804064,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/e-maj_15-4.3.0-1PGDG.rhel8.noarch.rpm",
+      "sha256": "8bf69518532077ff57b800189f3e0a8a1e640b02b545dcafa02efe077a1c37f5"
     },
     {
       "os": "el8.x86_64",
@@ -1774,20 +1924,20 @@
       "pg": 15,
       "name": "e-maj_15",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_15-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "size": 4387690,
-      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/e-maj_15-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "sha256": "4380a881e3c876079892c79172f5da10aa6148a52fe35ad16ff3bef4c585c331"
+      "file": "e-maj_15-4.3.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 4387717,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/e-maj_15-4.3.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "6ef63de3db8b393aa55ec5b239c6a20f3a602a9c1e198c6d07aa142e25a4b12f"
     },
     {
       "os": "el9.aarch64",
       "pg": 15,
       "name": "e-maj_15",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_15-4.3.0-1PGDG.rhel9.aarch64.rpm",
-      "size": 4387717,
-      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/e-maj_15-4.3.0-1PGDG.rhel9.aarch64.rpm",
-      "sha256": "6ef63de3db8b393aa55ec5b239c6a20f3a602a9c1e198c6d07aa142e25a4b12f"
+      "file": "e-maj_15-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "size": 4387690,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/e-maj_15-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "sha256": "4380a881e3c876079892c79172f5da10aa6148a52fe35ad16ff3bef4c585c331"
     },
     {
       "os": "el9.aarch64",
@@ -2114,20 +2264,20 @@
       "pg": 16,
       "name": "e-maj_16",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_16-4.3.0-1PGDG.rhel9.aarch64.rpm",
-      "size": 4387598,
-      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/e-maj_16-4.3.0-1PGDG.rhel9.aarch64.rpm",
-      "sha256": "5764b64282544f92f46d851e767b186028e73377d60938bd0eb3f10358a1cbef"
+      "file": "e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "size": 4387679,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "sha256": "cdffbf101a4c69d114130b879d62ec0b3d57c511b17a94ede6c07f9f0c2da066"
     },
     {
       "os": "el9.aarch64",
       "pg": 16,
       "name": "e-maj_16",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "size": 4387679,
-      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "sha256": "cdffbf101a4c69d114130b879d62ec0b3d57c511b17a94ede6c07f9f0c2da066"
+      "file": "e-maj_16-4.3.0-1PGDG.rhel9.aarch64.rpm",
+      "size": 4387598,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/e-maj_16-4.3.0-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "5764b64282544f92f46d851e767b186028e73377d60938bd0eb3f10358a1cbef"
     },
     {
       "os": "el9.aarch64",
@@ -2194,20 +2344,20 @@
       "pg": 16,
       "name": "e-maj_16",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_16-4.3.0-1PGDG.rhel9.x86_64.rpm",
-      "size": 4387871,
-      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/e-maj_16-4.3.0-1PGDG.rhel9.x86_64.rpm",
-      "sha256": "9544649e4d532769520c25f30590e21e85e8e3fd1c80a02474096c522fe6ed6b"
+      "file": "e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "size": 4387950,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
+      "sha256": "16cc2efe6783052c036546a40962b11f60807d8f119ab5d3db72b223a473f06c"
     },
     {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "e-maj_16",
       "ver": "4.3.0-1PGDG.rhel9",
-      "file": "e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "size": 4387950,
-      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/e-maj_16-4.3.0-1PGDG.rhel9.noarch.rpm",
-      "sha256": "16cc2efe6783052c036546a40962b11f60807d8f119ab5d3db72b223a473f06c"
+      "file": "e-maj_16-4.3.0-1PGDG.rhel9.x86_64.rpm",
+      "size": 4387871,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/e-maj_16-4.3.0-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "9544649e4d532769520c25f30590e21e85e8e3fd1c80a02474096c522fe6ed6b"
     },
     {
       "os": "el9.x86_64",

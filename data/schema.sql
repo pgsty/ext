@@ -256,8 +256,8 @@ BEGIN
         WITH packages AS (SELECT DISTINCT ON (pkg) pkg,name AS ext,id,name AS extname,category,state,pg_ver,replace(rpm_pkg, '*', '') AS rpm,deb_pkg AS deb FROM pgext.extension WHERE NOT contrib ORDER BY pkg, lead DESC)
         SELECT pg::INTEGER, os, type, os_code, os_arch, pkg, ext, pname, 0 AS count FROM
         (
-            SELECT * FROM (SELECT pkg, ext,'deb' AS type, pg, os, os_code, os_arch, replace((regexp_split_to_array(deb, ' '))[1], '$v', pg::text) AS pname FROM packages, unnest(ARRAY[17,16,15,14,13]) AS pg, (SELECT distinct os, type, os_code, os_arch FROM pgext.repository WHERE type = 'deb' ORDER BY os) r) rp UNION ALL
-            SELECT pkg, ext,'rpm' AS type, pg, os, os_code, os_arch, replace( (regexp_split_to_array(rpm, ' '))[1], '$v', pg::text) AS pname FROM packages, unnest(ARRAY[17,16,15,14,13]) AS pg, (SELECT distinct os, type, os_code, os_arch FROM pgext.repository WHERE type = 'rpm' ORDER BY os) r
+            SELECT * FROM (SELECT pkg, ext,'deb' AS type, pg, os, os_code, os_arch, replace((regexp_split_to_array(deb, ' '))[1], '$v', pg::text) AS pname FROM packages, unnest(ARRAY[18,17,16,15,14,13]) AS pg, (SELECT distinct os, type, os_code, os_arch FROM pgext.repository WHERE type = 'deb' ORDER BY os) r) rp UNION ALL
+            SELECT pkg, ext,'rpm' AS type, pg, os, os_code, os_arch, replace( (regexp_split_to_array(rpm, ' '))[1], '$v', pg::text) AS pname FROM packages, unnest(ARRAY[18,17,16,15,14,13]) AS pg, (SELECT distinct os, type, os_code, os_arch FROM pgext.repository WHERE type = 'rpm' ORDER BY os) r
         ) d ORDER BY pg DESC, type, os;
     UPDATE pgext.matrix SET pname = replace(pname, 'pgaudit', 'pgaudit' || (pg+2)::TEXT ) WHERE pkg = 'pgaudit' AND pg IN (13,14,15) AND type = 'rpm';
     RETURN (SELECT count(*) FROM pgext.matrix);
@@ -404,6 +404,10 @@ BEGIN
     SELECT pg, os, pname, org, type, os_code, os_arch,  repo, name, ver, version, release, file, d.sha256,url, mirror_url, size, size_full
     FROM
         (
+            SELECT 18 as pg, r.os, substr(name, 0, position('_18' in name)+3) AS pname, r.org,r.type,r.os_code,r.os_arch,pkg_id AS sha256,
+                   repo, name, version || '-' || release AS ver, version, release, regexp_replace(y.location_href, '^.*/', '') AS file, format('%s/%s', r.default_url, y.location_href) AS url, format('%s/%s', r.mirror_url, y.location_href) AS mirror_url, size_package AS size, size_installed AS size_full
+            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_18' in name) > 0 OR position('18-' in name) > 0
+            UNION ALL
             SELECT 17 as pg, r.os, substr(name, 0, position('_17' in name)+3) AS pname, r.org,r.type,r.os_code,r.os_arch,pkg_id AS sha256,
                    repo, name, version || '-' || release AS ver, version, release, regexp_replace(y.location_href, '^.*/', '') AS file, format('%s/%s', r.default_url, y.location_href) AS url, format('%s/%s', r.mirror_url, y.location_href) AS mirror_url, size_package AS size, size_installed AS size_full
             FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_17' in name) > 0 OR position('17-' in name) > 0
@@ -430,6 +434,8 @@ BEGIN
         (
             SELECT 17 AS pg, r.os, regexp_replace(regexp_replace(regexp_replace(regexp_replace(package, '-scripts$', ''), '-doc$', ''), '-dbgsym$', ''), '-pgq-node$', '-pgq') AS pname, r.org,r.type,r.os_code,r.os_arch,package as name, repo, version as ver, coalesce(((regexp_match(version, '^(.*)-([^-]+)$'))[1]),version) AS version, (regexp_match(version, '^(.*)-([^-]+)$'))[2] AS release,sha256,
                    regexp_replace(a.filename, '^.*/', '') AS file, format('%s/%s', r.default_url, a.filename) AS url, format('%s/%s', r.mirror_url, a.filename) AS mirror_url, size, size_install AS size_full FROM pgext.apt a JOIN pgext.repository r ON a.repo = r.id WHERE position('-17' in package) > 0 UNION ALL
+            SELECT 18 AS pg, r.os, regexp_replace(regexp_replace(regexp_replace(regexp_replace(package, '-scripts$', ''), '-doc$', ''), '-dbgsym$', ''), '-pgq-node$', '-pgq') AS pname, r.org,r.type,r.os_code,r.os_arch,package as name, repo, version as ver, coalesce(((regexp_match(version, '^(.*)-([^-]+)$'))[1]),version) AS version, (regexp_match(version, '^(.*)-([^-]+)$'))[2] AS release,sha256,
+                   regexp_replace(a.filename, '^.*/', '') AS file, format('%s/%s', r.default_url, a.filename) AS url, format('%s/%s', r.mirror_url, a.filename) AS mirror_url, size, size_install AS size_full FROM pgext.apt a JOIN pgext.repository r ON a.repo = r.id WHERE position('-18' in package) > 0 UNION ALL
             SELECT 16 AS pg, r.os, regexp_replace(regexp_replace(regexp_replace(regexp_replace(package, '-scripts$', ''), '-doc$', ''), '-dbgsym$', ''), '-pgq-node$', '-pgq') AS pname, r.org,r.type,r.os_code,r.os_arch,package as name, repo, version as ver, coalesce(((regexp_match(version, '^(.*)-([^-]+)$'))[1]),version) AS version, (regexp_match(version, '^(.*)-([^-]+)$'))[2] AS release,sha256,
                    regexp_replace(a.filename, '^.*/', '') AS file, format('%s/%s', r.default_url, a.filename) AS url, format('%s/%s', r.mirror_url, a.filename) AS mirror_url, size, size_install AS size_full FROM pgext.apt a JOIN pgext.repository r ON a.repo = r.id WHERE position('-16' in package) > 0 UNION ALL
             SELECT 15 AS pg, r.os, regexp_replace(regexp_replace(regexp_replace(regexp_replace(package, '-scripts$', ''), '-doc$', ''), '-dbgsym$', ''), '-pgq-node$', '-pgq') AS pname, r.org,r.type,r.os_code,r.os_arch,package as name, repo, version as ver, coalesce(((regexp_match(version, '^(.*)-([^-]+)$'))[1]),version) AS version, (regexp_match(version, '^(.*)-([^-]+)$'))[2] AS release,sha256,
@@ -574,3 +580,4 @@ SELECT pgext.init_matrix();
 SELECT pgext.reload_package();
 SELECT pgext.update_matrix();
 VACUUM FULL pgext.matrix;
+
