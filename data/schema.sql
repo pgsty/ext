@@ -406,23 +406,23 @@ BEGIN
         (
             SELECT 17 as pg, r.os, substr(name, 0, position('_17' in name)+3) AS pname, r.org,r.type,r.os_code,r.os_arch,pkg_id AS sha256,
                    repo, name, version || '-' || release AS ver, version, release, regexp_replace(y.location_href, '^.*/', '') AS file, format('%s/%s', r.default_url, y.location_href) AS url, format('%s/%s', r.mirror_url, y.location_href) AS mirror_url, size_package AS size, size_installed AS size_full
-            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_17' in name) > 0
+            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_17' in name) > 0 OR position('17-' in name) > 0
             UNION ALL
             SELECT 16 as pg, r.os, substr(name, 0, position('_16' in name)+3) AS pname, r.org,r.type,r.os_code,r.os_arch,pkg_id AS sha256,
                    repo, name, version || '-' || release AS ver, version, release, regexp_replace(y.location_href, '^.*/', '') AS file, format('%s/%s', r.default_url, y.location_href) AS url, format('%s/%s', r.mirror_url, y.location_href) AS mirror_url, size_package AS size, size_installed AS size_full
-            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_16' in name) > 0
+            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_16' in name) > 0 OR position('16-' in name) > 0
             UNION ALL
             SELECT 15 as pg, r.os, substr(name, 0, position('_15' in name)+3) AS pname, r.org,r.type,r.os_code,r.os_arch,pkg_id AS sha256,
                    repo, name, version || '-' || release AS ver, version, release, regexp_replace(y.location_href, '^.*/', '') AS file, format('%s/%s', r.default_url, y.location_href) AS url, format('%s/%s', r.mirror_url, y.location_href) AS mirror_url, size_package AS size, size_installed AS size_full
-            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_15' in name) > 0
+            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_15' in name) > 0 OR position('15-' in name) > 0
             UNION ALL
             SELECT 14 as pg, r.os, substr(name, 0, position('_14' in name)+3) AS pname, r.org,r.type,r.os_code,r.os_arch,pkg_id AS sha256,
                    repo, name, version || '-' || release AS ver, version, release, regexp_replace(y.location_href, '^.*/', '') AS file, format('%s/%s', r.default_url, y.location_href) AS url, format('%s/%s', r.mirror_url, y.location_href) AS mirror_url, size_package AS size, size_installed AS size_full
-            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_14' in name) > 0
+            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_14' in name) > 0 OR position('14-' in name) > 0
             UNION ALL
             SELECT 13 as pg, r.os, substr(name, 0, position('_13' in name)+3) AS pname, r.org,r.type,r.os_code,r.os_arch,pkg_id AS sha256,
                    repo, name, version || '-' || release AS ver, version, release, regexp_replace(y.location_href, '^.*/', '') AS file, format('%s/%s', r.default_url, y.location_href) AS url, format('%s/%s', r.mirror_url, y.location_href) AS mirror_url, size_package AS size, size_installed AS size_full
-            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_13' in name) > 0
+            FROM pgext.yum y JOIN pgext.repository r ON y.repo = r.id WHERE position('_13' in name) > 0 OR position('13-' in name) > 0
         ) d
     UNION ALL
     SELECT pg, os, pname, org, type, os_code, os_arch, repo, name, ver, version, release, file, sha256, url, mirror_url, size, size_full
