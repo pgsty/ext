@@ -30,7 +30,11 @@
     "pg_cron"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_cron",
+    "pg_ivm",
+    "hstore"
+  ],
   "rpm_ver": "1.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_incremental_$v*",
@@ -51,7 +55,7 @@
     "17",
     "16"
   ],
-  "source": null,
+  "source": "pg_incremental-1.2.0.tar.gz",
   "extra": {},
   "en_desc": "Incremental Processing by Crunchy Data",
   "zh_desc": "增量处理流式事件",

@@ -31,7 +31,16 @@
     "pg_stat_statements"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "pg_stat_monitor",
+    "auto_explain",
+    "pg_hint_plan",
+    "pg_qualstats",
+    "pg_show_plans",
+    "pg_store_plans",
+    "plprofiler"
+  ],
   "rpm_ver": "2.3.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_stat_kcache_$v*",

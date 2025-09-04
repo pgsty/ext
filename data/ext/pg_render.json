@@ -28,7 +28,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.1.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_render_$v",
@@ -49,7 +52,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg_render-0.1.2.tar.gz",
   "extra": {
     "pgrx": "0.12.8"
   },

@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.2.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "url_encode_$v*",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "url_encode-1.2.5.tar.gz",
   "extra": {},
   "en_desc": "url_encode, url_decode functions",
   "zh_desc": "提供URL编码解码函数",

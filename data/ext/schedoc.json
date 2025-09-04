@@ -31,7 +31,11 @@
     "ddl_historization"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "ddl_historization",
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_schedoc_$v",
@@ -58,7 +62,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_schedoc-0.0.1.tar.gz",
   "extra": {},
   "en_desc": "Cross documentation between Django and DBT projects",
   "zh_desc": "在Django与DBT之间通过注释文档交换元数据",

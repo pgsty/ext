@@ -33,7 +33,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_partman",
+    "citus_columnar",
+    "columnar",
+    "duckdb_fdw",
+    "pg_duckdb",
+    "pg_mooncake"
+  ],
   "rpm_ver": "0.3.7",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_analytics_$v",

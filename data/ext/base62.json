@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_base62_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg-base62-0.0.1.tar.gz",
   "extra": {},
   "en_desc": "Base62 extension for PostgreSQL",
   "zh_desc": "Base62编码解码扩展",

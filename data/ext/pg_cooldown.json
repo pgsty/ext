@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_cooldown_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_cooldown-0.1.tar.gz",
   "extra": {},
   "en_desc": "remove buffered pages for specific relations",
   "zh_desc": "从缓冲区中移除特定关系的页面",

@@ -32,7 +32,11 @@
     "cube"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "cube",
+    "pgrouting",
+    "postgis"
+  ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

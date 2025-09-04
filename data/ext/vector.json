@@ -34,7 +34,16 @@
     "vectorize",
     "vectorscale"
   ],
-  "see_also": [],
+  "see_also": [
+    "vchord",
+    "vectorize",
+    "vectorscale",
+    "documentdb",
+    "pg4ml",
+    "pg_summarize",
+    "pg_tiktoken",
+    "pgml"
+  ],
   "rpm_ver": "0.8.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgvector_$v*",

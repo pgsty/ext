@@ -31,7 +31,17 @@
     "postgis"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "postgis",
+    "h3",
+    "h3_postgis",
+    "pointcloud",
+    "pointcloud_postgis",
+    "pgrouting",
+    "postgis_raster",
+    "postgis_sfcgal",
+    "postgis_topology"
+  ],
   "rpm_ver": null,
   "rpm_repo": null,
   "rpm_pkg": null,

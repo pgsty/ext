@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "4.2.3",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgagent_$v*",

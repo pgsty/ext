@@ -29,7 +29,13 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "multicorn",
+    "wrappers",
+    "jdbc_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "0.5.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "odbc_fdw_$v*",

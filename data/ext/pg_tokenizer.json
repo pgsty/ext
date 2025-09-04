@@ -32,7 +32,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_bigm",
+    "pg_trgm",
+    "zhparser",
+    "pg_search",
+    "pgroonga",
+    "pgroonga_database"
+  ],
   "rpm_ver": "0.1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_tokenizer_$v",
@@ -53,7 +60,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg_tokenizer.rs-0.1.0.tar.gz",
   "extra": {
     "pgrx": "0.13.1"
   },

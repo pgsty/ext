@@ -38,7 +38,14 @@
     "omni_containers",
     "omni_kube"
   ],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "omni_http",
+    "omni_types",
+    "omni_aws",
+    "omni_containers",
+    "omni_kube"
+  ],
   "rpm_ver": "0.1.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -61,7 +68,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "HTTP client",
   "zh_desc": "Omnigres HTTP客户端",

@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpython3u",
+    "plv8",
+    "plperl"
+  ],
   "rpm_ver": "1.0.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "plprql_$v",
@@ -51,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "plprql-1.0.0.tar.gz",
   "extra": {
     "pgrx": "0.11.4"
   },

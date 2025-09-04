@@ -29,7 +29,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "decoderbufs",
+    "wal2json",
+    "wal2mongo",
+    "citus",
+    "citus_columnar",
+    "pglogical",
+    "pglogical_origin",
+    "pglogical_ticker"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "decoder_raw_$v*",
@@ -52,7 +61,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "decoder_raw-1.0.tar.gz",
   "extra": {},
   "en_desc": "Output plugin for logical replication in Raw SQL format",
   "zh_desc": "逻辑复制解码输出插件：RAW SQL格式",

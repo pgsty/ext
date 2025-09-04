@@ -33,7 +33,11 @@
     "pglogical"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "wal2json",
+    "pg_bulkload"
+  ],
   "rpm_ver": "2.2.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgl_ddl_deploy_$v*",

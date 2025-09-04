@@ -31,7 +31,11 @@
     "pg_xenophile"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_xenophile",
+    "hstore",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.8.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_xenophile_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_xenophile-0.8.3.tar.gz",
   "extra": {},
   "en_desc": "PostgreSQL l10n toolbox",
   "zh_desc": "PostgreSQL l10n 工具包",

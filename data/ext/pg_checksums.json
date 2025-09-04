@@ -20,7 +20,7 @@
   "need_ddl": false,
   "need_load": false,
   "trusted": false,
-  "relocatable": null,
+  "relocatable": true,
   "schemas": [],
   "pg_ver": [
     "17",
@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "1.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_checksums_$v*",

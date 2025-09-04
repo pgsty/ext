@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_hint_plan",
+    "pg_stat_statements",
+    "auto_explain"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_plan_filter_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_plan_filter.tar.gz",
   "extra": {},
   "en_desc": "filter statements by their execution plans.",
   "zh_desc": "使用执行计划代价过滤阻止特定查询语句",

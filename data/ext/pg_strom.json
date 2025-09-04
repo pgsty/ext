@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "columnar",
+    "pg_partman",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "6.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_strom_$v*",

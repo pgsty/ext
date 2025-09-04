@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "1.1.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "floatvec_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "floatvec-1.1.1.tar.gz",
   "extra": {},
   "en_desc": "Math for vectors (arrays) of numbers",
   "zh_desc": "数组类型数学运算扩展",

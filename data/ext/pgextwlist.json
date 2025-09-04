@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "anon",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "1.19",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgextwlist_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgextwlist-1.17.tar.gz",
   "extra": {},
   "en_desc": "PostgreSQL Extension Whitelisting",
   "zh_desc": "PostgreSQL扩展白名单功能",

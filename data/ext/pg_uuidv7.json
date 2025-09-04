@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "1.6.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_uuidv7_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_uuidv7-1.6.0.tar.gz",
   "extra": {},
   "en_desc": "Create UUIDv7 values in postgres",
   "zh_desc": "UUIDv7 支持",

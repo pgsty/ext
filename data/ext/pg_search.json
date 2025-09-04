@@ -32,7 +32,15 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgroonga",
+    "pgroonga_database",
+    "pg_trgm",
+    "rum",
+    "pg_bigm",
+    "pg_tokenizer",
+    "zhparser"
+  ],
   "rpm_ver": "0.18.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_search_$v",

@@ -34,7 +34,17 @@
     "btree_gist"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "btree_gist",
+    "dblink",
+    "periods",
+    "pg_cron",
+    "pg_partman",
+    "temporal_tables",
+    "timescaledb",
+    "timescaledb_toolkit",
+    "timeseries"
+  ],
   "rpm_ver": "4.7.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "e-maj_$v",
@@ -57,7 +67,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "emaj-4.6.0.tar.gz",
   "extra": {},
   "en_desc": "Enables fine-grained write logging and time travel on subsets of the database.",
   "zh_desc": "让数据库的子集具有细粒度日志和时间旅行功能",

@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpython3u",
+    "plv8",
+    "plperl"
+  ],
   "rpm_ver": "1.20220917",
   "rpm_repo": "PGDG",
   "rpm_pkg": "plsh_$v*",

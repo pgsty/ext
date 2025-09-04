@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "cryptint_$v*",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "cryptint-1.0.0.tar.gz",
   "extra": {},
   "en_desc": "Encryption functions for int and bigint values",
   "zh_desc": "加密INT与BIGINT类型",

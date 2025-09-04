@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_protobuf_$v",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_protobuf-1.0.tar.gz",
   "extra": {},
   "en_desc": "Protobuf support for PostgreSQL",
   "zh_desc": "提供Protobuf函数支持",

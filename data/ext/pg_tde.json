@@ -27,7 +27,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "anon",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "percona-postgresql$v",
@@ -42,7 +46,7 @@
   "deb_pg": [
     "17"
   ],
-  "source": null,
+  "source": "pg_tde-1.0.0.tar.gz",
   "extra": {},
   "en_desc": "Percona pg_tde access method",
   "zh_desc": "Percona加密存储引擎",

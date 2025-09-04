@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "0.9",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "preprepare_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "preprepare-0.9.tar.gz",
   "extra": {},
   "en_desc": "Pre Prepare your Statement server side",
   "zh_desc": "在服务端预先准备好PreparedStatement备用",

@@ -31,7 +31,11 @@
     "plpgsql"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpgsql",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "0.0.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_upless_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_upless-0.0.3.tar.gz",
   "extra": {},
   "en_desc": "Detect Useless UPDATE",
   "zh_desc": "检测表上的无用UPDATE",

@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "anon",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "1.7",
   "rpm_repo": "PGDG",
   "rpm_pkg": "login_hook_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "login_hook-version_1.5.tar.gz",
   "extra": {},
   "en_desc": "login_hook - hook to execute login_hook.login() at login time",
   "zh_desc": "在用户登陆时执行login_hook.login()函数",

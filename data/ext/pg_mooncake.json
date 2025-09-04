@@ -30,7 +30,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "duckdb_fdw",
+    "pg_duckdb",
+    "citus_columnar",
+    "columnar",
+    "pg_analytics",
+    "pg_partman"
+  ],
   "rpm_ver": "0.1.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_mooncake_$v*",
@@ -51,7 +58,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg_mooncake-0.1.2.tar.gz",
   "extra": {},
   "en_desc": "Columnstore Table in Postgres",
   "zh_desc": "PostgreSQL列式存储表",

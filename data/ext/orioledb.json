@@ -27,7 +27,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "pg_trgm",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "orioledb_$v*",
@@ -46,7 +50,7 @@
   "deb_pg": [
     "17"
   ],
-  "source": null,
+  "source": "orioledb-beta12.tar.gz",
   "extra": {},
   "en_desc": "OrioleDB, the next generation transactional engine",
   "zh_desc": "OrioleDB，下一代事务处理引擎",

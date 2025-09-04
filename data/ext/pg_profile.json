@@ -32,7 +32,11 @@
     "plpgsql"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "dblink",
+    "plpgsql",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "4.10",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_profile_$v*",
@@ -55,7 +59,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_profile-4.8.tar.gz",
   "extra": {},
   "en_desc": "PostgreSQL load profile repository and report builder",
   "zh_desc": "PostgreSQL 数据库负载记录与AWR报表工具",

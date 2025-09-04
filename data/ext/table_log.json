@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "0.6.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "table_log_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "table_log-0.6.4.tar.gz",
   "extra": {},
   "en_desc": "record table modification logs and PITR for table/row",
   "zh_desc": "记录某张表的修改日志并做表/行级时间点恢复",

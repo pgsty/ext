@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "1.0.4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_prioritize_$v*",

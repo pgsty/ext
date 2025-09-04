@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hypopg",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pagevis_$v",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pagevis-0.1.tar.gz",
   "extra": {},
   "en_desc": "Visualise database pages in ascii code",
   "zh_desc": "使用ASCII字符可视化数据库物理页面布局",

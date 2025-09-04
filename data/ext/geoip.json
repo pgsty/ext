@@ -35,7 +35,11 @@
     "ip4r"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "ip4r",
+    "pgrouting",
+    "postgis"
+  ],
   "rpm_ver": "0.3.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "geoip_$v",
@@ -58,7 +62,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "geoip-0.3.0.tar.gz",
   "extra": {},
   "en_desc": "IP-based geolocation query",
   "zh_desc": "IP 地理位置扩展（围绕 MaxMind GeoLite 数据集的包装器）",

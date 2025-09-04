@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_search",
+    "pg_trgm",
+    "pgroonga"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "hunspell_nl_nl_$v",

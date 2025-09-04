@@ -33,7 +33,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpython3u",
+    "plv8",
+    "plperl"
+  ],
   "rpm_ver": "1.5.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_tle_$v*",
@@ -56,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_tle-1.5.1.tar.gz",
   "extra": {},
   "en_desc": "Trusted Language Extensions for PostgreSQL",
   "zh_desc": "AWS 可信语言扩展",

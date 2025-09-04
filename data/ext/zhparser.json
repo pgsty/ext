@@ -29,7 +29,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_bigm",
+    "pg_tokenizer",
+    "pg_trgm",
+    "pg_search",
+    "pgroonga",
+    "pgroonga_database"
+  ],
   "rpm_ver": "2.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "zhparser_$v*",
@@ -52,7 +59,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "zhparser-2.3.tar.gz",
   "extra": {},
   "en_desc": "a parser for full-text search of Chinese",
   "zh_desc": "中文分词，全文搜索解析器",

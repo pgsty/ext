@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "1.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_hashids_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_hashids-1.3.tar.gz",
   "extra": {},
   "en_desc": "Short unique id generator for PostgreSQL, using hashids",
   "zh_desc": "加盐将整型ID转为短字符串ID",

@@ -28,7 +28,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "decoder_raw",
+    "decoderbufs",
+    "wal2json",
+    "citus",
+    "citus_columnar",
+    "pglogical",
+    "pglogical_origin",
+    "pglogical_ticker"
+  ],
   "rpm_ver": "1.0.7",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "wal2mongo_$v*",
@@ -49,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "wal2mongo-1.0.7.tar.gz",
   "extra": {},
   "en_desc": "PostgreSQL logical decoding output plugin for MongoDB",
   "zh_desc": "使用逻辑解码捕获MongoDB JSON格式的CDC变更",

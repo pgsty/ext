@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_hashlib_$v",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_hashlib-1.1.tar.gz",
   "extra": {},
   "en_desc": "Stable hash functions for Postgres",
   "zh_desc": "稳定哈希函数包",

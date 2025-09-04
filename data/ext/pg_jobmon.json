@@ -32,7 +32,11 @@
     "dblink"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "dblink",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "1.4.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_jobmon_$v",
@@ -56,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_jobmon-1.4.1.tar.gz",
   "extra": {},
   "en_desc": "Extension for logging and monitoring functions in PostgreSQL",
   "zh_desc": "记录和监控函数",

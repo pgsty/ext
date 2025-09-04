@@ -35,7 +35,11 @@
     "btree_gist"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "btree_gist",
+    "pg_stat_statements",
+    "plpgsql"
+  ],
   "rpm_ver": "5.0.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "powa_$v*",

@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_bzip_$v*",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_bzip-1.0.0.tar.gz",
   "extra": {},
   "en_desc": "Bzip compression and decompression",
   "zh_desc": "BZIP压缩解压缩函数包",

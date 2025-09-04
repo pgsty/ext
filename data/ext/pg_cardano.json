@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "pg_trgm",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_cardano_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_cardano-1.0.5.tar.gz",
   "extra": {
     "pgrx": "0.14.1"
   },

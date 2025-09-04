@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "wal2json",
+    "pg_bulkload"
+  ],
   "rpm_ver": "1.1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_failover_slots_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_failover_slots-1.1.0.tar.gz",
   "extra": {},
   "en_desc": "PG Failover Slots extension",
   "zh_desc": "在Failover过程中保留复制槽",

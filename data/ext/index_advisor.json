@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hypopg",
+    "pg_hint_plan",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "0.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "index_advisor_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "index_advisor-0.2.0.tar.gz",
   "extra": {},
   "en_desc": "Query index advisor",
   "zh_desc": "查询索引建议器",

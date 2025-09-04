@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hypopg",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "1.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "toastinfo_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "toastinfo-1.4.tar.gz",
   "extra": {},
   "en_desc": "show details on toasted datums",
   "zh_desc": "显示TOAST字段的详细信息",

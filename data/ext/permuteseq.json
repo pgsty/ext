@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "1.2.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "permuteseq_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "permuteseq-1.2.2.tar.gz",
   "extra": {},
   "en_desc": "Pseudo-randomly permute sequences with a format-preserving encryption on elements",
   "zh_desc": "伪随机数ID置换生成器",

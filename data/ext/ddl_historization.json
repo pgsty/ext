@@ -33,7 +33,11 @@
   "require_by": [
     "schedoc"
   ],
-  "see_also": [],
+  "see_also": [
+    "plpgsql",
+    "schedoc",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "0.0.7",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "ddl_historization_$v",

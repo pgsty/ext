@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_proctab",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "1.7",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgnodemx_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgnodemx-1.7.tar.gz",
   "extra": {},
   "en_desc": "Capture node OS metrics via SQL queries",
   "zh_desc": "使用SQL查询获取操作系统指标",

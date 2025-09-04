@@ -32,7 +32,11 @@
   "require_by": [
     "babelfishpg_tsql"
   ],
-  "see_also": [],
+  "see_also": [
+    "babelfishpg_tsql",
+    "fuzzystrmatch",
+    "pg_trgm"
+  ],
   "rpm_ver": "1.1",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

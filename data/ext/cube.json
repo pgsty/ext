@@ -33,7 +33,11 @@
     "earthdistance",
     "pg4ml"
   ],
-  "see_also": [],
+  "see_also": [
+    "earthdistance",
+    "pg4ml",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.5",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

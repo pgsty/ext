@@ -34,7 +34,17 @@
     "pg_partman"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "columnar",
+    "pg_cron",
+    "pg_ivm",
+    "pg_partman",
+    "timescaledb",
+    "timescaledb_toolkit",
+    "emaj",
+    "periods",
+    "temporal_tables"
+  ],
   "rpm_ver": "0.1.6",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_timeseries_$v",
@@ -62,7 +72,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_timeseries-0.1.6.tar.gz",
   "extra": {},
   "en_desc": "Convenience API for time series stack",
   "zh_desc": "时序数据API封装",

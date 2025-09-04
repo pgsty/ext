@@ -30,7 +30,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "2.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_curl_$v*",
@@ -54,7 +57,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_curl-2.4.tar.gz",
   "extra": {},
   "en_desc": "Run curl actions for data transfer in URL syntax",
   "zh_desc": "封装CURL，执行各种用URL传输数据的操作",

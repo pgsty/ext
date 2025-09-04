@@ -31,7 +31,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "pglogical_ticker",
+    "citus",
+    "citus_columnar",
+    "decoder_raw",
+    "decoderbufs",
+    "wal2json",
+    "wal2mongo"
+  ],
   "rpm_ver": "2.4.5",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pglogical_$v*",
@@ -54,7 +63,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pglogical_ticker-1.4.1.tar.gz",
   "extra": {},
   "en_desc": "Dummy extension for compatibility when upgrading from Postgres 9.4",
   "zh_desc": "用于从 Postgres 9.4 升级时的兼容性虚拟扩展",

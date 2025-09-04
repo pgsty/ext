@@ -30,7 +30,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "address_standardizer_data_us",
+    "postgis",
+    "postgis_raster",
+    "postgis_sfcgal",
+    "postgis_tiger_geocoder",
+    "postgis_topology"
+  ],
   "rpm_ver": "3.6.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgis35_$v*",

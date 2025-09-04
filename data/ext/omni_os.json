@@ -33,7 +33,11 @@
   "require_by": [
     "omni_credentials"
   ],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "omni_credentials",
+    "hstore"
+  ],
   "rpm_ver": "0.1.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -56,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "Operating system integration",
   "zh_desc": "Omnigres 操作系统集成模块",

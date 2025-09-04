@@ -33,7 +33,13 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgaudit",
+    "pgauditlogtofile",
+    "pgcrypto",
+    "pgcryptokey",
+    "pgsodium"
+  ],
   "rpm_ver": "2.3.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_anon_$v",

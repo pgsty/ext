@@ -32,7 +32,11 @@
   "require_by": [
     "babelfishpg_tds"
   ],
-  "see_also": [],
+  "see_also": [
+    "babelfishpg_common",
+    "uuid-ossp",
+    "babelfishpg_tds"
+  ],
   "rpm_ver": "3.3.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "babelfishpg-tsql*",

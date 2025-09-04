@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "1.4.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "aggs_for_vecs_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "aggs_for_vecs-1.4.0.tar.gz",
   "extra": {},
   "en_desc": "Aggregate functions for array inputs",
   "zh_desc": "针对数组类型的聚合函数集合扩展",

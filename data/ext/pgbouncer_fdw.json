@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "file_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "1.4.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgbouncer_fdw_$v",

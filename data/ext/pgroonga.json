@@ -29,7 +29,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgroonga_database",
+    "pg_search",
+    "zhparser",
+    "pg_bigm",
+    "pg_tokenizer",
+    "pg_trgm"
+  ],
   "rpm_ver": "4.0.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgroonga_$v*",
@@ -56,7 +63,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgroonga-4.0.0.tar.gz",
   "extra": {},
   "en_desc": "Use Groonga as index, fast full text search platform for all languages!",
   "zh_desc": "使用Groonga，面向所有语言的高速全文检索平台",

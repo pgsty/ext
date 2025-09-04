@@ -38,7 +38,11 @@
     "pg_jobmon",
     "pg_profile"
   ],
-  "see_also": [],
+  "see_also": [
+    "emaj",
+    "mimeo",
+    "omni_schema"
+  ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

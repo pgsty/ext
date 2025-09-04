@@ -34,7 +34,18 @@
   "require_by": [
     "h3_postgis"
   ],
-  "see_also": [],
+  "see_also": [
+    "postgis",
+    "address_standardizer",
+    "address_standardizer_data_us",
+    "postgis_sfcgal",
+    "postgis_tiger_geocoder",
+    "postgis_topology",
+    "h3_postgis",
+    "h3",
+    "mobilitydb",
+    "pgrouting"
+  ],
   "rpm_ver": "3.6.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgis35_$v*",

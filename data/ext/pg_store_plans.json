@@ -29,7 +29,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "auto_explain",
+    "pg_show_plans",
+    "pg_hint_plan",
+    "pg_qualstats",
+    "pg_stat_kcache",
+    "pg_stat_monitor",
+    "pg_stat_statements",
+    "plprofiler"
+  ],
   "rpm_ver": "1.8",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_store_plans_$v*",
@@ -52,7 +61,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_store_plans-1.8.tar.gz",
   "extra": {},
   "en_desc": "track plan statistics of all SQL statements executed",
   "zh_desc": "跟踪所有执行的 SQL 语句的计划统计信息",

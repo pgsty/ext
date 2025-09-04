@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "md5hash_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "md5hash-1.0.1.tar.gz",
   "extra": {},
   "en_desc": "type for storing 128-bit binary data inline",
   "zh_desc": "提供128位MD5的原生数据类型",

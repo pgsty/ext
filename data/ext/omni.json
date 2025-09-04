@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "omni_auth",
+    "omni_aws",
+    "omni_cloudevents"
+  ],
   "rpm_ver": "0.2.9",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {
     "lib": "omni--0.2.9.so"
   },

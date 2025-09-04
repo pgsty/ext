@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_xxhash_$v*",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_xxhash-0.0.1.tar.gz",
   "extra": {},
   "en_desc": "xxhash functions for PostgreSQL",
   "zh_desc": "xxhash哈希函数包",

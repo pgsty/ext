@@ -31,7 +31,11 @@
     "hstore"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_readme",
+    "hstore",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "0.7.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_readme_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_readme-0.7.0.tar.gz",
   "extra": {},
   "en_desc": "Test generating a README.md document for extension or schema",
   "zh_desc": "为模式与扩展生成Markdown文档",

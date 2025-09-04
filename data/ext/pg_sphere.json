@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.5.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgsphere_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgsphere-1.5.1.tar.gz",
   "extra": {},
   "en_desc": "spherical objects with useful functions, operators and index support",
   "zh_desc": "球面对象函数、运算符与索引支持",

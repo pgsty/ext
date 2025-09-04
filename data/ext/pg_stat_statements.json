@@ -33,7 +33,17 @@
     "pg_stat_kcache",
     "powa"
   ],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_kcache",
+    "powa",
+    "pg_stat_monitor",
+    "auto_explain",
+    "pg_qualstats",
+    "pg_hint_plan",
+    "pg_show_plans",
+    "pg_store_plans",
+    "plprofiler"
+  ],
   "rpm_ver": "1.11",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

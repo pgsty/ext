@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hypopg",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "3.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "system_stats_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "system_stats-3.2.tar.gz",
   "extra": {},
   "en_desc": "EnterpriseDB system statistics for PostgreSQL",
   "zh_desc": "PostgreSQL 的系统统计函数",

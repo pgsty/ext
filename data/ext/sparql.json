@@ -36,7 +36,11 @@
     "plperlu"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plperl",
+    "plperlu",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgsparql_$v",
@@ -59,7 +63,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgsparql-1.0.tar.gz",
   "extra": {},
   "en_desc": "Query SPARQL datasource with SQL",
   "zh_desc": "使用SQL查询SPARQL数据源",

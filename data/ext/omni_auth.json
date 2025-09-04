@@ -37,7 +37,14 @@
     "omni_polyfill"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "btree_gist",
+    "omni_id",
+    "omni_polyfill",
+    "omni_types",
+    "pgcrypto"
+  ],
   "rpm_ver": "0.1.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -60,7 +67,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "Basic session management",
   "zh_desc": "Omnigres 基础会话认证管理模块",

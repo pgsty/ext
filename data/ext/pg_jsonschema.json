@@ -32,7 +32,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "jsquery",
+    "pg_graphql",
+    "hstore"
+  ],
   "rpm_ver": "0.3.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_jsonschema_$v",
@@ -55,7 +59,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_jsonschema-0.3.3.tar.gz",
   "extra": {
     "pgrx": "0.12.9"
   },

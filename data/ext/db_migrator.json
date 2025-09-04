@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "wal2json",
+    "pg_bulkload"
+  ],
   "rpm_ver": "1.0.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "db_migrator_$v",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "db_migrator-RELEASE_1_0_0.tar.gz",
   "extra": {},
   "en_desc": "Tools to migrate other databases to PostgreSQL",
   "zh_desc": "使用FDW从其他DBMS迁移到PostgreSQL",

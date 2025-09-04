@@ -28,7 +28,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "file_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "5.5.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "mongo_fdw_$v*",

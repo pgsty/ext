@@ -31,7 +31,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgjwt_$v",
@@ -54,7 +57,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgjwt.tar.gz",
   "extra": {},
   "en_desc": "JSON Web Token API for Postgresql",
   "zh_desc": "JSON Web Token API 的PG实现 (supabase)",

@@ -35,7 +35,14 @@
   "require_by": [
     "supabase_vault"
   ],
-  "see_also": [],
+  "see_also": [
+    "supabase_vault",
+    "pgcrypto",
+    "pgcryptokey",
+    "anon",
+    "pgaudit",
+    "pgauditlogtofile"
+  ],
   "rpm_ver": "3.1.9",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgsodium_$v*",
@@ -58,7 +65,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgsodium-3.1.9.tar.gz",
   "extra": {},
   "en_desc": "Postgres extension for libsodium functions",
   "zh_desc": "表数据加密存储 TDE",

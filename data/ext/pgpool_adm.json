@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgpool_recovery",
+    "pgpool_regclass",
+    "pg_repack"
+  ],
   "rpm_ver": "4.6.3",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgpool-II-pg$v-extensions",

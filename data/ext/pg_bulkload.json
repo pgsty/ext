@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "wal2json",
+    "file_fdw"
+  ],
   "rpm_ver": "3.1.22",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_bulkload_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_bulkload-VERSION3_1_22.tar.gz",
   "extra": {},
   "en_desc": "pg_bulkload is a high speed data loading utility for PostgreSQL",
   "zh_desc": "向 PostgreSQL 中高速加载数据",

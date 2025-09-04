@@ -28,7 +28,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "file_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "1.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "log_fdw_$v*",
@@ -49,7 +53,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "log-fdw-1.4.tar.gz",
   "extra": {},
   "en_desc": "foreign-data wrapper for Postgres log file access",
   "zh_desc": "访问PostgreSQL日志文件的FDW",

@@ -35,7 +35,11 @@
     "pgsodium"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgsodium",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "0.3.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "vault_$v*",

@@ -33,7 +33,16 @@
     "pglogical"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "pglogical_origin",
+    "citus",
+    "citus_columnar",
+    "decoder_raw",
+    "decoderbufs",
+    "wal2json",
+    "wal2mongo"
+  ],
   "rpm_ver": "1.4.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pglogical_ticker_$v*",
@@ -60,7 +69,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pglogical_ticker-1.4.1.tar.gz",
   "extra": {},
   "en_desc": "Have an accurate view on pglogical replication delay",
   "zh_desc": "pglogical复制延迟以秒计的精确视图",

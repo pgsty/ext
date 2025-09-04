@@ -32,7 +32,16 @@
     "btree_gist"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "btree_gist",
+    "emaj",
+    "pg_cron",
+    "pg_partman",
+    "temporal_tables",
+    "timescaledb",
+    "timescaledb_toolkit",
+    "timeseries"
+  ],
   "rpm_ver": "1.2.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "periods_$v*",

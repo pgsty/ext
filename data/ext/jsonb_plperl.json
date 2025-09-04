@@ -32,7 +32,11 @@
     "plperl"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "bool_plperl",
+    "hstore_plperl",
+    "plperl"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

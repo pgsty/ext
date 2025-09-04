@@ -32,7 +32,17 @@
     "postgis"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "postgis",
+    "h3",
+    "h3_postgis",
+    "mobilitydb",
+    "pointcloud",
+    "pointcloud_postgis",
+    "postgis_raster",
+    "postgis_sfcgal",
+    "postgis_topology"
+  ],
   "rpm_ver": "3.8.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgrouting_$v*",

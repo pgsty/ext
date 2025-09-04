@@ -30,7 +30,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.9.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "icu_ext_$v*",
@@ -55,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "icu_ext-1.9.0.tar.gz",
   "extra": {},
   "en_desc": "Access ICU functions",
   "zh_desc": "访问ICU库提供的函数",

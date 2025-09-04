@@ -32,7 +32,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_search",
+    "pg_trgm",
+    "pgroonga"
+  ],
   "rpm_ver": "0.2.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "vchord_bm25_$v",
@@ -53,7 +57,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "VectorChord-bm25-0.2.1.tar.gz",
   "extra": {
     "pgrx": "0.13.1"
   },

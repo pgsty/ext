@@ -40,7 +40,18 @@
     "postgis_tiger_geocoder",
     "postgis_topology"
   ],
-  "see_also": [],
+  "see_also": [
+    "address_standardizer",
+    "address_standardizer_data_us",
+    "postgis_raster",
+    "postgis_sfcgal",
+    "postgis_tiger_geocoder",
+    "postgis_topology",
+    "documentdb",
+    "h3_postgis",
+    "mobilitydb",
+    "h3"
+  ],
   "rpm_ver": "3.6.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgis36_$v*",

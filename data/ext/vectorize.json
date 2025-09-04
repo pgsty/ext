@@ -36,7 +36,17 @@
     "vector"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "vector",
+    "pg_cron",
+    "pgmq",
+    "pg_summarize",
+    "pg_tiktoken",
+    "pg4ml",
+    "pgml",
+    "vchord",
+    "vectorscale"
+  ],
   "rpm_ver": "0.22.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_vectorize_$v",
@@ -65,7 +75,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg_vectorize-0.22.2.tar.gz",
   "extra": {
     "pgrx": "0.13.1"
   },

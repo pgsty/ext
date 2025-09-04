@@ -34,7 +34,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "columnar",
+    "pg_partman",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "1.7.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_fkpart_$v",
@@ -58,7 +62,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_fkpart-1.7.0.tar.gz",
   "extra": {},
   "en_desc": "Table partitioning by foreign key utility",
   "zh_desc": "按外键实用程序进行表分区的扩展",

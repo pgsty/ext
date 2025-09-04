@@ -29,7 +29,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_kcache",
+    "pg_stat_statements",
+    "auto_explain",
+    "pg_hint_plan",
+    "pg_qualstats",
+    "pg_show_plans",
+    "pg_store_plans",
+    "plprofiler"
+  ],
   "rpm_ver": "2.2.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_stat_monitor_$v*",
@@ -52,7 +61,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_stat_monitor-2.2.0.tar.gz",
   "extra": {},
   "en_desc": "The pg_stat_monitor is a PostgreSQL Query Performance Monitoring tool, based on PostgreSQL contrib module pg_stat_statements. pg_stat_monitor provides aggregated statistics, client information, plan details including plan, and histogram information.",
   "zh_desc": "提供查询聚合统计、客户端信息、执行计划详细信息和直方图",

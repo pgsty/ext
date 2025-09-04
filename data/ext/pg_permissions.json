@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "1.4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_permissions_$v",
@@ -55,7 +59,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_permissions-REL_1_3.tar.gz",
   "extra": {},
   "en_desc": "view object permissions and compare them with the desired state",
   "zh_desc": "查看对象权限并将其与期望状态进行比较",

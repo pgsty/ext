@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_hint_plan",
+    "pg_stat_statements",
+    "pg_qualstats"
+  ],
   "rpm_ver": "1.4.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "hypopg_$v*",

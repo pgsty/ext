@@ -35,7 +35,12 @@
     "plluau"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore_pllua",
+    "pllua",
+    "hstore",
+    "plluau"
+  ],
   "rpm_ver": null,
   "rpm_repo": null,
   "rpm_pkg": null,

@@ -32,7 +32,15 @@
     "vector"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "vector",
+    "vectorscale",
+    "pg4ml",
+    "pg_summarize",
+    "pg_tiktoken",
+    "pgml",
+    "vectorize"
+  ],
   "rpm_ver": "0.4.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "vchord_$v",
@@ -57,7 +65,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "VectorChord-0.4.3.tar.gz",
   "extra": {
     "pgrx": "0.14.1"
   },

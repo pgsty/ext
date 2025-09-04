@@ -30,7 +30,15 @@
   "require_by": [
     "timeseries"
   ],
-  "see_also": [],
+  "see_also": [
+    "timeseries",
+    "citus_columnar",
+    "duckdb_fdw",
+    "pg_analytics",
+    "pg_duckdb",
+    "pg_mooncake",
+    "pg_partman"
+  ],
   "rpm_ver": "1.1.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "hydra_$v*",
@@ -51,7 +59,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "hydra-1.1.2.tar.gz",
   "extra": {},
   "en_desc": "Hydra Columnar extension",
   "zh_desc": "开源列式存储扩展",

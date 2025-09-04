@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.0.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_rational_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_rational-0.0.2.tar.gz",
   "extra": {},
   "en_desc": "bigint fractions",
   "zh_desc": "使用BIGINT表示的有理数数据类型",

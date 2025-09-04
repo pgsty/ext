@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.2.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_html5_email_address_$v",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_html5_email_address-1.2.3.tar.gz",
   "extra": {},
   "en_desc": "PostgreSQL email validation that is consistent with the HTML5 spec",
   "zh_desc": "验证Email是否符合HTML5规范的扩展",

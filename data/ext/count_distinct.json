@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "3.0.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "count_distinct_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "count_distinct-3.0.2.tar.gz",
   "extra": {},
   "en_desc": "An alternative to COUNT(DISTINCT …) aggregate, usable with HashAggregate",
   "zh_desc": "COUNT(DISTINCT …) 聚合的替代方案",

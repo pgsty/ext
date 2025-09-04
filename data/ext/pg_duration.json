@@ -25,7 +25,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_duration_$v*",
@@ -40,7 +44,7 @@
   "deb_pg": [
     "17"
   ],
-  "source": null,
+  "source": "pg_duration-1.0.2.tar.gz",
   "extra": {},
   "en_desc": "data type for representing durations",
   "zh_desc": "用于表示时间段的强化数据类型",

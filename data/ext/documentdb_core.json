@@ -29,7 +29,11 @@
   "require_by": [
     "documentdb"
   ],
-  "see_also": [],
+  "see_also": [
+    "documentdb",
+    "documentdb_distributed",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "0.105",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "documentdb_$v*",
@@ -57,7 +61,7 @@
     "16",
     "15"
   ],
-  "source": null,
+  "source": "documentdb-0.105.0-ferretdb-2.4.0.tar.gz",
   "extra": {
     "lib": "pg_documentdb,pg_documentdb_core"
   },

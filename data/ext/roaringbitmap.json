@@ -32,7 +32,11 @@
   "require_by": [
     "pgfaceting"
   ],
-  "see_also": [],
+  "see_also": [
+    "pgfaceting",
+    "hstore",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.5.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_roaringbitmap_$v*",

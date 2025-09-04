@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "2.7",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_dirtyread_$v*",
@@ -55,7 +59,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_dirtyread-2.7.tar.gz",
   "extra": {},
   "en_desc": "Read dead but unvacuumed rows from table",
   "zh_desc": "从表中读取尚未垃圾回收的行",

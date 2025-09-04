@@ -37,7 +37,13 @@
     "omni_rest",
     "omni_session"
   ],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "omni_http",
+    "omni_types",
+    "omni_rest",
+    "omni_session"
+  ],
   "rpm_ver": "0.4.6",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -60,7 +66,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "HTTP server",
   "zh_desc": "Omnigres HTTP服务器",

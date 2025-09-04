@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpython3u",
+    "plperl",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "3.2.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "plv8_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "plv8-3.2.4.tar.gz",
   "extra": {},
   "en_desc": "PL/JavaScript (v8) trusted procedural language",
   "zh_desc": "PL/JavaScript (v8) 可信过程程序语言",

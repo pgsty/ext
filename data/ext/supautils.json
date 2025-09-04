@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "anon",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "2.10.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "supautils_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "supautils-2.9.2.tar.gz",
   "extra": {},
   "en_desc": "Extension that secures a cluster on a cloud environment",
   "zh_desc": "用于在云环境中确保数据库集群的安全",

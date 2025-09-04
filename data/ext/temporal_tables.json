@@ -31,7 +31,15 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "emaj",
+    "periods",
+    "pg_cron",
+    "pg_partman",
+    "timescaledb",
+    "timescaledb_toolkit",
+    "timeseries"
+  ],
   "rpm_ver": "1.2.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "temporal_tables_$v*",
@@ -54,7 +62,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "temporal_tables-1.2.2.tar.gz",
   "extra": {},
   "en_desc": "temporal tables",
   "zh_desc": "时态表功能支持",

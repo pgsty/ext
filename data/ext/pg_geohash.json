@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "postgis",
+    "h3",
+    "pgrouting"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_geohash_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_geohash-1.0.tar.gz",
   "extra": {},
   "en_desc": "Handle geohash based functionality for spatial coordinates",
   "zh_desc": "使用GeoHash处理空间坐标的函数包",

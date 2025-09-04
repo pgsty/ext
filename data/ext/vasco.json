@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "0.1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "vasco_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "vasco-0.1.0.tar.gz",
   "extra": {},
   "en_desc": "discover hidden correlations in your data with MIC",
   "zh_desc": "使用MIC发现数据中隐含的关联",

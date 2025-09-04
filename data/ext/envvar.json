@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_envvar_$v*",

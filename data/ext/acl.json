@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "acl_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "acl-1.0.4.tar.gz",
   "extra": {},
   "en_desc": "ACL Data type",
   "zh_desc": "ACL数据类型",

@@ -33,7 +33,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpython3u",
+    "plv8",
+    "plperl"
+  ],
   "rpm_ver": "1.6.8",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pljava_$v*",

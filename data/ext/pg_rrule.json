@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": null,
   "rpm_repo": null,
   "rpm_pkg": null,
@@ -48,7 +52,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_rrule-0.2.0.tar.gz",
   "extra": {},
   "en_desc": "RRULE field type for PostgreSQL",
   "zh_desc": "日历重复规则RRULE数据类型",

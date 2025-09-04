@@ -36,7 +36,18 @@
     "timeseries",
     "vectorize"
   ],
-  "see_also": [],
+  "see_also": [
+    "documentdb",
+    "pg_incremental",
+    "timeseries",
+    "emaj",
+    "periods",
+    "pg_partman",
+    "temporal_tables",
+    "pg_later",
+    "pg_task",
+    "timescaledb"
+  ],
   "rpm_ver": "1.6.5",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_cron_$v*",

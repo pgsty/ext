@@ -31,7 +31,11 @@
     "btree_gist"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "btree_gist",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "2.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_auto_failover_$v*",

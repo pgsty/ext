@@ -37,7 +37,14 @@
     "pgcrypto"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "omni_httpd",
+    "omni_sql",
+    "omni_var",
+    "omni_web",
+    "pgcrypto"
+  ],
   "rpm_ver": "0.1.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -60,7 +67,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "REST API toolkit (with PostgREST support)",
   "zh_desc": "Omnigres REST API 工具包",

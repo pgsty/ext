@@ -29,7 +29,15 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "timescaledb",
+    "timeseries",
+    "emaj",
+    "periods",
+    "pg_cron",
+    "pg_partman",
+    "temporal_tables"
+  ],
   "rpm_ver": "1.21.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "timescaledb-toolkit_$v",
@@ -50,7 +58,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "timescaledb-toolkit-1.21.0.tar.gz",
   "extra": {
     "pgrx": "0.12.9"
   },

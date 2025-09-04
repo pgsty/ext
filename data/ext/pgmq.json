@@ -34,7 +34,12 @@
     "pg_later",
     "vectorize"
   ],
-  "see_also": [],
+  "see_also": [
+    "pg_later",
+    "vectorize",
+    "pg_cron",
+    "pg_background"
+  ],
   "rpm_ver": "1.5.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgmq_$v",
@@ -57,7 +62,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgmq-1.5.1.tar.gz",
   "extra": {},
   "en_desc": "A lightweight message queue. Like AWS SQS and RSMQ but on Postgres.",
   "zh_desc": "基于Postgres实现类似AWS SQS/RSMQ的消息队列",

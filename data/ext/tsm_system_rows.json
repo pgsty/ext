@@ -32,7 +32,11 @@
   "require_by": [
     "documentdb"
   ],
-  "see_also": [],
+  "see_also": [
+    "documentdb",
+    "fuzzystrmatch",
+    "pg_trgm"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

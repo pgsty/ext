@@ -36,7 +36,11 @@
     "pg_readme",
     "pg_readme_test_extension"
   ],
-  "see_also": [],
+  "see_also": [
+    "hstore_pllua",
+    "hstore_plluau",
+    "hstore_plpython3u"
+  ],
   "rpm_ver": "1.8",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

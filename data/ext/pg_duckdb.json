@@ -30,7 +30,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "duckdb_fdw",
+    "pg_mooncake",
+    "pg_analytics",
+    "citus_columnar",
+    "columnar",
+    "pg_partman"
+  ],
   "rpm_ver": "0.3.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_duckdb_$v*",
@@ -51,7 +58,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg_duckdb-0.3.1.tar.gz",
   "extra": {},
   "en_desc": "DuckDB Embedded in Postgres",
   "zh_desc": "在PostgreSQL中的嵌入式DuckDB扩展",

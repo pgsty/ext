@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.0.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pglite_fusion_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pglite-fusion-0.0.5.tar.gz",
   "extra": {
     "pgrx": "0.14.1"
   },

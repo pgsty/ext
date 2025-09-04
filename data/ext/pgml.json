@@ -32,7 +32,15 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg4ml",
+    "pg_tiktoken",
+    "vector",
+    "pg_summarize",
+    "vchord",
+    "vectorize",
+    "vectorscale"
+  ],
   "rpm_ver": "2.10.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgml_$v",
@@ -54,7 +62,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pgml-2.10.0.tar.gz",
   "extra": {
     "pgrx": "0.12.9"
   },

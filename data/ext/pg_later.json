@@ -35,7 +35,11 @@
     "pgmq"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgmq",
+    "pg_cron",
+    "timescaledb"
+  ],
   "rpm_ver": "0.3.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_later_$v",
@@ -62,7 +66,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_later-0.3.0.tar.gz",
   "extra": {
     "pgrx": "0.12.5"
   },

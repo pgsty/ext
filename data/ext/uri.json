@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.20151224",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_uri_$v*",

@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgnodemx",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "1.7",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgnodemx_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgnodemx-1.7.tar.gz",
   "extra": {},
   "en_desc": "PostgreSQL extension to access the OS process table",
   "zh_desc": "通过SQL接口访问操作系统进程表",

@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "h3",
+    "pgrouting",
+    "postgis"
+  ],
   "rpm_ver": "1.1.7",
   "rpm_repo": "PGDG",
   "rpm_pkg": "ogr_fdw_$v*",

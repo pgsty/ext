@@ -32,7 +32,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "hstore",
+    "pg_trgm"
+  ],
   "rpm_ver": "3.5.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgq_$v*",

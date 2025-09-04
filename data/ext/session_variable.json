@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "3.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "session_variable_$v*",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "session_variable-3.4.tar.gz",
   "extra": {},
   "en_desc": "Registration and manipulation of session variables and constants",
   "zh_desc": "Oracle兼容的会话变量/常量操作函数",

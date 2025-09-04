@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "hstore",
+    "pg_trgm"
+  ],
   "rpm_ver": "0.1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "Service management",
   "zh_desc": "Omnigres 服务管理器",

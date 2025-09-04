@@ -30,7 +30,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "timescaledb_toolkit",
+    "timeseries",
+    "pg_cron",
+    "postgis",
+    "pg_partman",
+    "emaj",
+    "periods",
+    "temporal_tables"
+  ],
   "rpm_ver": "2.21.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "timescaledb-tsl_$v*",
@@ -51,7 +60,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "timescaledb-2.21.1.tar.gz",
   "extra": {},
   "en_desc": "Enables scalable inserts and complex queries for time-series data",
   "zh_desc": "时序数据库扩展插件",

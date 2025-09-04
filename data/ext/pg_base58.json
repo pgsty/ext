@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_base58_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_base58-0.0.1.tar.gz",
   "extra": {
     "pgrx": "0.12.1"
   },

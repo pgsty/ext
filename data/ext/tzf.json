@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "h3",
+    "pgrouting",
+    "postgis"
+  ],
   "rpm_ver": "0.2.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_tzf_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "tzf-pg-0.2.0.tar.gz",
   "extra": {
     "pgrx": "0.14.1"
   },

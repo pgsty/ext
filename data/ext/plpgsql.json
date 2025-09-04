@@ -41,7 +41,11 @@
     "table_version",
     "unit"
   ],
-  "see_also": [],
+  "see_also": [
+    "data_historization",
+    "ddl_historization",
+    "pg4ml"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",
@@ -66,7 +70,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "plpgsql_check-2.8.1.tar.gz",
   "extra": {},
   "en_desc": "PL/pgSQL procedural language",
   "zh_desc": "PL/pgSQL 程序设计语言",

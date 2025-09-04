@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgpdf_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgpdf-0.1.0.tar.gz",
   "extra": {},
   "en_desc": "PDF type with meta admin & Full-Text Search",
   "zh_desc": "PDF数据类型，管理函数与全文检索",

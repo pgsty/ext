@@ -30,7 +30,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "2.0.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_extra_time_$v",
@@ -54,7 +57,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_extra_time-2.0.0.tar.gz",
   "extra": {},
   "en_desc": "Some date time functions and operators that,",
   "zh_desc": "一些关于日期与时间的扩展函数",

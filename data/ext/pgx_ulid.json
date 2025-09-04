@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "0.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgx_ulid_$v",
@@ -51,7 +55,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pgx_ulid-0.2.0.tar.gz",
   "extra": {
     "pgrx": "0.12.7"
   },

@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_cron",
+    "pg_partman",
+    "timescaledb"
+  ],
   "rpm_ver": "2.1.7",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_task_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_task-1.0.0.tar.gz",
   "extra": {},
   "en_desc": "execute any sql command at any specific time at background",
   "zh_desc": "在特定时间点在后台执行SQL命令",

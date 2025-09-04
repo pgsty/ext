@@ -32,7 +32,11 @@
     "plpgsql"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpgsql",
+    "hstore",
+    "uuid-ossp"
+  ],
   "rpm_ver": "7.10",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgresql-unit_$v*",

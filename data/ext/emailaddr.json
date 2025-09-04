@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_emailaddr_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgemailaddr-0.tar.gz",
   "extra": {},
   "en_desc": "Email address type for PostgreSQL",
   "zh_desc": "Email地址数据类型",

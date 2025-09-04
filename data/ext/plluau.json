@@ -34,7 +34,11 @@
   "require_by": [
     "hstore_plluau"
   ],
-  "see_also": [],
+  "see_also": [
+    "hstore_pllua",
+    "hstore_plluau",
+    "pllua"
+  ],
   "rpm_ver": "2.0.12",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pllua_$v*",

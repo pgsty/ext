@@ -29,7 +29,17 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "citus_columnar",
+    "pg_partman",
+    "decoder_raw",
+    "decoderbufs",
+    "pglogical",
+    "pglogical_origin",
+    "pglogical_ticker",
+    "wal2json",
+    "wal2mongo"
+  ],
   "rpm_ver": "13.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "citus_$v*",
@@ -50,7 +60,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "citus-13.1.0.tar.gz",
   "extra": {},
   "en_desc": "Distributed PostgreSQL as an extension",
   "zh_desc": "Citus 分布式数据库",

@@ -33,7 +33,11 @@
   "require_by": [
     "l10n_table_dependent_extension"
   ],
-  "see_also": [],
+  "see_also": [
+    "l10n_table_dependent_extension",
+    "hstore",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.8.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_xenophile_$v",
@@ -56,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_xenophile-0.8.3.tar.gz",
   "extra": {},
   "en_desc": "More than the bare necessities for PostgreSQL i18n and l10n.",
   "zh_desc": "PostgreSQL i8n与l10n工具包",

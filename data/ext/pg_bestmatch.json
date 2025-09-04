@@ -33,7 +33,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_search",
+    "pg_trgm",
+    "pgroonga"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_bestmatch_$v",
@@ -56,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_bestmatch-0.0.1.tar.gz",
   "extra": {
     "pgrx": "0.12.7"
   },

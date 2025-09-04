@@ -31,7 +31,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_statement_rollback_$v*",
@@ -54,7 +57,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_statement_rollback-1.4.tar.gz",
   "extra": {},
   "en_desc": "Server side rollback at statement level for PostgreSQL like Oracle or DB2",
   "zh_desc": "在服务端提供类似Oracle/DB2的语句级回滚能力",

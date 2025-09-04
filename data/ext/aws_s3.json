@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "file_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "aws_s3_$v",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "aws_s3-0.0.1.tar.gz",
   "extra": {},
   "en_desc": "aws_s3 postgres extension to import/export data from/to s3",
   "zh_desc": "从S3导入导出数据的外部数据源包装器",

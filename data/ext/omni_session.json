@@ -37,7 +37,14 @@
     "omni_polyfill"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "omni_httpd",
+    "omni_id",
+    "omni_polyfill",
+    "omni_var",
+    "omni_web"
+  ],
   "rpm_ver": "0.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -60,7 +67,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "Session management",
   "zh_desc": "Omnigres 会话管理器",

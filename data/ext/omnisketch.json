@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "1.0.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnisketch_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnisketch-1.0.2.tar.gz",
   "extra": {},
   "en_desc": "data structure for on-line agg of data into approximate sketch",
   "zh_desc": "实现OmniSketch数据结构，实现近似摘要聚合",

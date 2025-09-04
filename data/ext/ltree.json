@@ -32,7 +32,11 @@
   "require_by": [
     "ltree_plpython3u"
   ],
-  "see_also": [],
+  "see_also": [
+    "ltree_plpython3u",
+    "hstore",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.3",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

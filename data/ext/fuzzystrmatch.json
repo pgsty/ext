@@ -32,7 +32,11 @@
   "require_by": [
     "postgis_tiger_geocoder"
   ],
-  "see_also": [],
+  "see_also": [
+    "postgis_tiger_geocoder",
+    "pg_search",
+    "pg_trgm"
+  ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

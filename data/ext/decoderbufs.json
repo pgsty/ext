@@ -30,7 +30,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "decoder_raw",
+    "wal2json",
+    "wal2mongo",
+    "citus",
+    "citus_columnar",
+    "pglogical",
+    "pglogical_origin",
+    "pglogical_ticker"
+  ],
   "rpm_ver": "3.2.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgres-decoderbufs_$v*",

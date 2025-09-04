@@ -36,7 +36,11 @@
     "pgautofailover",
     "powa"
   ],
-  "see_also": [],
+  "see_also": [
+    "emaj",
+    "omni_auth",
+    "periods"
+  ],
   "rpm_ver": "1.7",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

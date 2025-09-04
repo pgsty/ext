@@ -28,7 +28,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.1.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "hashtypes_$v*",
@@ -49,7 +53,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "hashtypes-0.1.5.tar.gz",
   "extra": {},
   "en_desc": "sha1, md5 and other data types for PostgreSQL",
   "zh_desc": "包括SHA1，MD5在内的多种哈希数据类型",

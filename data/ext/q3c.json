@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "h3",
+    "pgrouting",
+    "postgis"
+  ],
   "rpm_ver": "2.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "q3c_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "q3c-2.0.1.tar.gz",
   "extra": {},
   "en_desc": "q3c sky indexing plugin",
   "zh_desc": "Q3C天空索引插件",

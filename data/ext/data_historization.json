@@ -31,7 +31,11 @@
     "plpgsql"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpgsql",
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "data_historization_$v",

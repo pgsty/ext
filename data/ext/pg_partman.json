@@ -32,7 +32,18 @@
   "require_by": [
     "timeseries"
   ],
-  "see_also": [],
+  "see_also": [
+    "timeseries",
+    "emaj",
+    "periods",
+    "pg_analytics",
+    "pg_cron",
+    "temporal_tables",
+    "citus_columnar",
+    "columnar",
+    "duckdb_fdw",
+    "pg_duckdb"
+  ],
   "rpm_ver": "5.2.4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_partman_$v*",

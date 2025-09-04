@@ -25,7 +25,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.1.0a4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "spat_$v*",
@@ -40,7 +43,7 @@
   "deb_pg": [
     "17"
   ],
-  "source": null,
+  "source": "spat-0.1.0a4.tar.gz",
   "extra": {},
   "en_desc": "Redis-like In-Memory DB Embedded in Postgres",
   "zh_desc": "在PG中嵌入Redis风格的内存数据库",

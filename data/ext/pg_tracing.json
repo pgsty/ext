@@ -27,7 +27,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hypopg",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "0.1.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_tracing_$v*",
@@ -46,7 +50,7 @@
     "16",
     "15"
   ],
-  "source": null,
+  "source": "pg_tracing-0.1.3.tar.gz",
   "extra": {},
   "en_desc": "Distributed Tracing for PostgreSQL",
   "zh_desc": "PostgreSQL分布式Tracing",

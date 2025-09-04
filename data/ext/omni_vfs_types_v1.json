@@ -36,7 +36,11 @@
   "require_by": [
     "omni_vfs_types_v1"
   ],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "dblink",
+    "omni_vfs_types_v1"
+  ],
   "rpm_ver": "0.1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -59,7 +63,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "Virtual File System types (v1)",
   "zh_desc": "Omnigres 虚拟文件系统（v1）",

@@ -29,7 +29,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_tokenizer",
+    "pg_trgm",
+    "zhparser",
+    "pg_search",
+    "pgroonga",
+    "pgroonga_database"
+  ],
   "rpm_ver": "1.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_bigm_$v*",
@@ -52,7 +59,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_bigm-1.2-20240606.tar.gz",
   "extra": {},
   "en_desc": "create 2-gram (bigram) index for faster full text search.",
   "zh_desc": "基于二字组的多语言全文检索扩展",

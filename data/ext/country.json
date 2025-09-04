@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hstore",
+    "ltree",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.0.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_country_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg-country-0.0.3.tar.gz",
   "extra": {},
   "en_desc": "Country data type, ISO 3166-1",
   "zh_desc": "国家代码数据类型，遵循ISO 3166-1标准",

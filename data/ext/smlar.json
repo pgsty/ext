@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_similarity",
+    "pgml",
+    "vector"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "smlar_$v*",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "smlar-1.0.tar.gz",
   "extra": {},
   "en_desc": "Effective similarity search",
   "zh_desc": "高效的相似度搜索函数",

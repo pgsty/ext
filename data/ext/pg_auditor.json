@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "anon",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "0.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_auditor_$v",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_auditor-0.2.tar.gz",
   "extra": {},
   "en_desc": "Audit data changes and provide flashback ability",
   "zh_desc": "审计数据变更并提供闪回能力",

@@ -33,7 +33,12 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_jsonschema",
+    "jsquery",
+    "pg_net",
+    "age"
+  ],
   "rpm_ver": "1.5.11",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_graphql_$v",
@@ -54,7 +59,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg_graphql-1.5.11.tar.gz",
   "extra": {
     "pgrx": "0.12.9"
   },

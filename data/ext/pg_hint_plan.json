@@ -32,7 +32,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_qualstats",
+    "plprofiler",
+    "auto_explain",
+    "pg_show_plans",
+    "pg_stat_kcache",
+    "pg_stat_monitor",
+    "pg_stat_statements",
+    "pg_store_plans"
+  ],
   "rpm_ver": "1.7.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_hint_plan_$v*",

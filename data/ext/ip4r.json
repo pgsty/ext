@@ -32,7 +32,11 @@
   "require_by": [
     "geoip"
   ],
-  "see_also": [],
+  "see_also": [
+    "geoip",
+    "hstore",
+    "uuid-ossp"
+  ],
   "rpm_ver": "2.4.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "ip4r_$v*",

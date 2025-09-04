@@ -32,7 +32,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1.0",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_dbms_lock_$v",

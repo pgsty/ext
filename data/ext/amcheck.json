@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pageinspect",
+    "pg_buffercache",
+    "pg_repack"
+  ],
   "rpm_ver": "1.4",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

@@ -31,7 +31,13 @@
   "require_by": [
     "documentdb"
   ],
-  "see_also": [],
+  "see_also": [
+    "documentdb",
+    "pg_trgm",
+    "jsquery",
+    "pgroonga",
+    "pg_search"
+  ],
   "rpm_ver": "1.3.14",
   "rpm_repo": "PGDG",
   "rpm_pkg": "rum_$v",

@@ -32,7 +32,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "4.4",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgtt_$v*",
@@ -57,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgtt-4.0.tar.gz",
   "extra": {},
   "en_desc": "Extension to add Global Temporary Tables feature to PostgreSQL",
   "zh_desc": "类似Oracle的全局临时表功能",

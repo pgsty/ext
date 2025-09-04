@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "2.0.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_random_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "random-2.0.0-dev.tar.gz",
   "extra": {},
   "en_desc": "random data generator",
   "zh_desc": "随机数生成器",

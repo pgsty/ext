@@ -33,7 +33,11 @@
     "file_fdw"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "file_fdw",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "1.6",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_sqlog_$v",
@@ -56,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_sqlog-1.6.tar.gz",
   "extra": {},
   "en_desc": "Provide SQL interface to logs",
   "zh_desc": "提供访问PostgreSQL日志的SQL接口",

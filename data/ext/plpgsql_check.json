@@ -32,7 +32,11 @@
     "plpgsql"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpgsql",
+    "plpython3u",
+    "plv8"
+  ],
   "rpm_ver": "2.8.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "plpgsql_check_$v*",
@@ -57,7 +61,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "plpgsql_check-2.8.1.tar.gz",
   "extra": {},
   "en_desc": "extended check for plpgsql functions",
   "zh_desc": "对 plpgsql 函数进行扩展检查",

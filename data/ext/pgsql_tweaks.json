@@ -29,7 +29,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.11.3",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgsql_tweaks_$v",
@@ -52,7 +55,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgsql-tweaks-0.11.3.tar.gz",
   "extra": {},
   "en_desc": "Some functions and views for daily usage",
   "zh_desc": "一些日常会用到的便利函数与视图",

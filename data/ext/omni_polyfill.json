@@ -36,7 +36,12 @@
     "omni_ledger",
     "omni_session"
   ],
-  "see_also": [],
+  "see_also": [
+    "omni",
+    "omni_auth",
+    "omni_email",
+    "omni_ledger"
+  ],
   "rpm_ver": "0.2.2",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "omnigres_$v",
@@ -59,7 +64,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "omnigres-20250507.tar.gz",
   "extra": {},
   "en_desc": "Postgres API polyfills",
   "zh_desc": "Omnigres Postgres多态API",

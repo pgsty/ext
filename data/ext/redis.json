@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "file_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "0.0.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_redis_pubsub_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "redis_fdw-1.0-17.tar.gz",
   "extra": {},
   "en_desc": "Send redis pub/sub messages to Redis from PostgreSQL Directly",
   "zh_desc": "从PG向Redis发送Pub/Sub消息",

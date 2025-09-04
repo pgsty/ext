@@ -29,7 +29,13 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgaudit",
+    "anon",
+    "pgcrypto",
+    "pgcryptokey",
+    "pgsodium"
+  ],
   "rpm_ver": "1.7.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgauditlogtofile_$v*",

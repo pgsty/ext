@@ -30,7 +30,16 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_show_plans",
+    "pg_store_plans",
+    "pg_hint_plan",
+    "pg_qualstats",
+    "pg_stat_kcache",
+    "pg_stat_monitor",
+    "pg_stat_statements",
+    "plprofiler"
+  ],
   "rpm_ver": "-",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

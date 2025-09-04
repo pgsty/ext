@@ -30,7 +30,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_bigm",
+    "pg_tokenizer",
+    "zhparser",
+    "pg_search",
+    "pgroonga",
+    "pgroonga_database"
+  ],
   "rpm_ver": "1.6",
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",

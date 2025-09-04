@@ -31,7 +31,13 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "multicorn",
+    "odbc_fdw",
+    "jdbc_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "0.5.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "wrappers_$v",
@@ -52,7 +58,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "wrappers-0.5.3.tar.gz",
   "extra": {
     "pgrx": "0.14.3"
   },

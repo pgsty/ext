@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "anon",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "0.3.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "noset_$v*",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "noset-v0.3.0.tar.gz",
   "extra": {},
   "en_desc": "Module for blocking SET variables for non-super users.",
   "zh_desc": "阻止非超级用户使用SET/RESET设置变量",

@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "0.0.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_convert_$v",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "convert-0.0.4.tar.gz",
   "extra": {
     "pgrx": "0.14.1"
   },

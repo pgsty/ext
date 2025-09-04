@@ -33,7 +33,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "anon",
+    "pgaudit",
+    "pgcrypto"
+  ],
   "rpm_ver": "0.3.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_session_jwt_$v",
@@ -54,7 +58,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg_session_jwt-0.3.1.tar.gz",
   "extra": {
     "pgrx": "0.12.9"
   },

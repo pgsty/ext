@@ -30,7 +30,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "fuzzystrmatch",
+    "pg_trgm",
+    "unaccent"
+  ],
   "rpm_ver": "0.1.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "first_last_agg_$v",
@@ -54,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "first_last_agg-0.1.4.tar.gz",
   "extra": {},
   "en_desc": "first() and last() aggregate functions",
   "zh_desc": "first() 与 last() 聚合函数",

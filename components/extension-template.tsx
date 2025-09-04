@@ -1,8 +1,9 @@
 'use client';
 
 import { File, Folder, Files } from 'fumadocs-ui/components/files';
-import { Package, Box } from 'lucide-react';
+import { Package, Box, Github, Download } from 'lucide-react';
 import { Callout } from 'fumadocs-ui/components/callout';
+import { Card } from 'fumadocs-ui/components/card';
 import { Badge } from '@/components/ui/badge';
 import { TooltipIconButton } from '@/components/ui/tooltip-icon-button';
 import { DynamicCodeBlock } from 'fumadocs-ui/components/dynamic-codeblock';
@@ -92,7 +93,7 @@ interface ExtensionData {
 }
 
 const DEFAULT_OS = ['el8.x86_64', 'el8.aarch64', 'el9.x86_64', 'el9.aarch64', 'd12.x86_64', 'd12.aarch64', 'u22.x86_64', 'u22.aarch64', 'u24.x86_64', 'u24.aarch64'];
-const DEFAULT_PG = [18, 17, 16, 15, 14];
+const DEFAULT_PG = [18, 17, 16, 15, 14, 13];
 
 function formatBool(value: boolean | null, trueText: string = "Yes", falseText: string = "No", isChinese: boolean = false): string {
   if (value === null) return isChinese ? "未知" : "Unknown";
@@ -757,6 +758,33 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
   
   return (
     <div className="space-y-8">
+      {/* Repository and Source Cards */}
+      {(data.url || data.source) && (
+        <div className="grid gap-4 md:grid-cols-2">
+          {/* Repository Card */}
+          {data.url && (
+            <Card 
+              icon={<Github />} 
+              title={isChinese ? "仓库" : "Repository"}
+              href={data.url}
+            >
+              {data.url}
+            </Card>
+          )}
+          
+          {/* Source Card */}
+          {data.source && (
+            <Card 
+              icon={<Download />} 
+              title={isChinese ? "源码包" : "Source"}
+              href={`https://repo.pigsty${isChinese ? '.cc' : '.io'}/pkg/ext/${data.source}`}
+            >
+              {data.source}
+            </Card>
+          )}
+        </div>
+      )}
+
       {/* Overview Section */}
       <section>
         <h2>{isChinese ? "概述" : "Overview"}</h2>
@@ -822,6 +850,22 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
         <h3>{isChinese ? "软件包" : "Packages"}</h3>
         <PackageInfoSection ext={data} isChinese={isChinese} />
       </section>
+
+      {/* See Also Section */}
+      {data.see_also && data.see_also.length > 0 && (
+        <section>
+          <h3>{isChinese ? "相关扩展" : "See Also"}</h3>
+          <div className="flex flex-wrap gap-2">
+            {data.see_also.map((extName) => (
+              <Link key={extName} href={`${baseUrl}/${extName}`}>
+                <Badge variant="outline" className="cursor-pointer hover:bg-accent">
+                  {extName}
+                </Badge>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Dependencies Section */}
       <DependenciesSection ext={data} isChinese={isChinese} />

@@ -30,7 +30,10 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_stat_statements",
+    "uuid-ossp"
+  ],
   "rpm_ver": "1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgpcre_$v",
@@ -55,7 +58,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgpcre-1.tar.gz",
   "extra": {},
   "en_desc": "Perl Compatible Regular Expression functions",
   "zh_desc": "PCRE/Perl风格的正则表达式支持",

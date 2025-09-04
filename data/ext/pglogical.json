@@ -34,7 +34,17 @@
     "pgl_ddl_deploy",
     "pglogical_ticker"
   ],
-  "see_also": [],
+  "see_also": [
+    "pglogical_origin",
+    "pgl_ddl_deploy",
+    "pglogical_ticker",
+    "citus",
+    "citus_columnar",
+    "decoder_raw",
+    "decoderbufs",
+    "wal2json",
+    "wal2mongo"
+  ],
   "rpm_ver": "2.4.5",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pglogical_$v*",
@@ -57,7 +67,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pglogical_ticker-1.4.1.tar.gz",
   "extra": {},
   "en_desc": "PostgreSQL Logical Replication",
   "zh_desc": "PostgreSQL逻辑复制：三方扩展实现",

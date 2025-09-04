@@ -34,7 +34,11 @@
     "roaringbitmap"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "roaringbitmap",
+    "hstore",
+    "uuid-ossp"
+  ],
   "rpm_ver": "0.2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgfaceting_$v",
@@ -57,7 +61,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pgfaceting-0.2.0.tar.gz",
   "extra": {},
   "en_desc": "fast faceting queries using an inverted index",
   "zh_desc": "使用倒排索引的高速切面查询",

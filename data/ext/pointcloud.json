@@ -32,7 +32,17 @@
   "require_by": [
     "pointcloud_postgis"
   ],
-  "see_also": [],
+  "see_also": [
+    "pointcloud_postgis",
+    "h3",
+    "h3_postgis",
+    "mobilitydb",
+    "pgrouting",
+    "postgis",
+    "postgis_raster",
+    "postgis_sfcgal",
+    "postgis_topology"
+  ],
   "rpm_ver": "1.2.5",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pointcloud_$v*",
@@ -56,7 +66,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pointcloud-1.2.5.tar.gz",
   "extra": {},
   "en_desc": "data type for lidar point clouds",
   "zh_desc": "提供激光雷达点云数据类型支持",

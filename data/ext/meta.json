@@ -29,7 +29,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "hypopg",
+    "pg_qualstats",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "0.4.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_meta_$v",
@@ -52,7 +56,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "meta-0.4.0.tar.gz",
   "extra": {},
   "en_desc": "Normalized, friendlier system catalog for PostgreSQL",
   "zh_desc": "标准化，更友好的PostgreSQL系统目录视图",

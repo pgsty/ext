@@ -32,7 +32,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pglogical",
+    "wal2json",
+    "pg_bulkload"
+  ],
   "rpm_ver": "2.0.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_fact_loader_$v*",

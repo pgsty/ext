@@ -31,7 +31,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpython3u",
+    "plv8",
+    "plperl"
+  ],
   "rpm_ver": "0.5.3",
   "rpm_repo": "PGDG",
   "rpm_pkg": "postgresql_faker_$v*",

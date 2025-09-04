@@ -28,7 +28,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "file_fdw",
+    "mysql_fdw",
+    "postgres_fdw"
+  ],
   "rpm_ver": "1.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "jdbc_fdw_$v*",

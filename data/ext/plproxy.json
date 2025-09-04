@@ -32,7 +32,11 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "columnar",
+    "pg_partman",
+    "pg_stat_statements"
+  ],
   "rpm_ver": "2.11.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "plproxy_$v*",
@@ -56,7 +60,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "plproxy-2.11.0.tar.gz",
   "extra": {},
   "en_desc": "Database partitioning implemented as procedural language",
   "zh_desc": "作为过程语言实现的数据库分区",

@@ -30,7 +30,12 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pg_jsonschema",
+    "pg_graphql",
+    "rum",
+    "pgroonga"
+  ],
   "rpm_ver": "1.2",
   "rpm_repo": "PGDG",
   "rpm_pkg": "jsquery_$v*",

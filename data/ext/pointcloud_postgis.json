@@ -33,7 +33,17 @@
     "pointcloud"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pointcloud",
+    "postgis",
+    "h3",
+    "h3_postgis",
+    "mobilitydb",
+    "pgrouting",
+    "postgis_raster",
+    "postgis_sfcgal",
+    "postgis_topology"
+  ],
   "rpm_ver": "1.2.5",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pointcloud_$v*",
@@ -57,7 +67,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pointcloud-1.2.5.tar.gz",
   "extra": {},
   "en_desc": "integration for pointcloud LIDAR data and PostGIS geometry data",
   "zh_desc": "将激光雷达点云与PostGIS几何类型相集成",

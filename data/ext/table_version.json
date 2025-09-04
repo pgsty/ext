@@ -35,7 +35,12 @@
     "plpgsql"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "plpgsql",
+    "pg_cron",
+    "temporal_tables",
+    "timescaledb"
+  ],
   "rpm_ver": "1.11.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "table_version_$v",

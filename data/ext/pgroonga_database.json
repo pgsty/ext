@@ -29,7 +29,14 @@
   ],
   "requires": [],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "pgroonga",
+    "pg_search",
+    "pg_bigm",
+    "pg_tokenizer",
+    "pg_trgm",
+    "zhparser"
+  ],
   "rpm_ver": "4.0.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pgroonga_$v*",
@@ -56,7 +63,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgroonga-4.0.0.tar.gz",
   "extra": {},
   "en_desc": "PGroonga database management module",
   "zh_desc": "PGGroonga 数据库管理模块",

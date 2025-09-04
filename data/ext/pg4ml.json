@@ -34,7 +34,18 @@
     "plpython3u"
   ],
   "require_by": [],
-  "see_also": [],
+  "see_also": [
+    "cube",
+    "plpgsql",
+    "plpython3u",
+    "tablefunc",
+    "pgml",
+    "pg_summarize",
+    "pg_tiktoken",
+    "vchord",
+    "vector",
+    "vectorize"
+  ],
   "rpm_ver": "2.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg4ml_$v",
@@ -57,7 +68,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg4ml-2.0.tar.gz",
   "extra": {},
   "en_desc": "Machine learning framework for PostgreSQL",
   "zh_desc": "PG4ML是一个机器学习框架",
