@@ -739,7 +739,7 @@ function InstallSection({ ext, isChinese = false }: { ext: ExtensionData, isChin
 
 export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
   const pathname = usePathname();
-  const isChinese = pathname?.includes('/zh') || false;
+  const isChinese = pathname?.startsWith('/zh/') || pathname === '/zh' || false;
   
   const nameLink = data.url ? (
     <a href={data.url}><code>{data.name}</code></a>
