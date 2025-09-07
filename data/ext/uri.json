@@ -74,7 +74,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pguri-1.20151224.tar.gz",
   "extra": {},
   "en_desc": "URI Data type for PostgreSQL",
   "zh_desc": "URI数据类型",

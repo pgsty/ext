@@ -112,11 +112,11 @@
       "pkg": "pg_auditor",
       "ext": "pg_auditor",
       "pname": "pg_auditor_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -127,11 +127,11 @@
       "pkg": "pg_auditor",
       "ext": "pg_auditor",
       "pname": "pg_auditor_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -142,11 +142,11 @@
       "pkg": "pg_auditor",
       "ext": "pg_auditor",
       "pname": "pg_auditor_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -157,11 +157,11 @@
       "pkg": "pg_auditor",
       "ext": "pg_auditor",
       "pname": "pg_auditor_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1174,6 +1174,46 @@
       "size": 11150,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_auditor_17-0.2-1PIGSTY.el9.x86_64.rpm",
       "sha256": "066500020c11bafc1bb7f614379f59da748468c196b284ea57d9eecd7199c6dc"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_auditor_18",
+      "ver": "0.2-1PIGSTY.el8",
+      "file": "pg_auditor_18-0.2-1PIGSTY.el8.aarch64.rpm",
+      "size": 11208,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_auditor_18-0.2-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "757c172d5f44d2cd355754a82e2eaca4e668ca415e8c144b099c6c8d41f81d44"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_auditor_18",
+      "ver": "0.2-1PIGSTY.el8",
+      "file": "pg_auditor_18-0.2-1PIGSTY.el8.x86_64.rpm",
+      "size": 11236,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_auditor_18-0.2-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "4f8d4a19a95303ab2479c9e01cc44b5e8bea4e51bf251ad7839a3e25931abd33"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_auditor_18",
+      "ver": "0.2-1PIGSTY.el9",
+      "file": "pg_auditor_18-0.2-1PIGSTY.el9.aarch64.rpm",
+      "size": 11115,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_auditor_18-0.2-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "e46da79361cbca09ecdf1df98b66f25f1c087383630e176ed2a2b96eee4297b5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_auditor_18",
+      "ver": "0.2-1PIGSTY.el9",
+      "file": "pg_auditor_18-0.2-1PIGSTY.el9.x86_64.rpm",
+      "size": 11158,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_auditor_18-0.2-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "98426171afc6a9fd8abd3bdff935cab2b98f7722058aededbcf667a91b0f26d3"
     },
     {
       "os": "d12.aarch64",

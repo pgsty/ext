@@ -9,7 +9,7 @@
   "license": "BSD 3-Clause",
   "tags": [],
   "version": "1.2.5",
-  "repo": "MIXED",
+  "repo": "PGDG",
   "lang": "C",
   "contrib": false,
   "lead": true,
@@ -54,7 +54,7 @@
     "earthdistance"
   ],
   "rpm_ver": "1.2.5",
-  "rpm_repo": "PIGSTY",
+  "rpm_repo": "PGDG",
   "rpm_pkg": "pointcloud_$v*",
   "rpm_pg": [
     "17",

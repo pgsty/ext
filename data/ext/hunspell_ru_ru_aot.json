@@ -65,7 +65,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "hunspell-1.0.tar.gz",
   "extra": {},
   "en_desc": "Russian Hunspell Dictionary (from AOT.ru group)",
   "zh_desc": "Hunspell俄语全文检索词典（来自AOT.ru小组）",

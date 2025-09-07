@@ -127,11 +127,11 @@
       "pkg": "pgfaceting",
       "ext": "pgfaceting",
       "pname": "pgfaceting_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -142,11 +142,11 @@
       "pkg": "pgfaceting",
       "ext": "pgfaceting",
       "pname": "pgfaceting_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -157,11 +157,11 @@
       "pkg": "pgfaceting",
       "ext": "pgfaceting",
       "pname": "pgfaceting_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -172,11 +172,11 @@
       "pkg": "pgfaceting",
       "ext": "pgfaceting",
       "pname": "pgfaceting_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1389,6 +1389,46 @@
       "size": 15696,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgfaceting_17-0.2.0-1PGDG.rhel9.noarch.rpm",
       "sha256": "de789b0f25c4c3eaa4c630e4d55e6cc9e8f777a19a3a3d284ba0dd9d80ffd1e0"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pgfaceting_18",
+      "ver": "0.2.0-1PIGSTY.el8",
+      "file": "pgfaceting_18-0.2.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 14940,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgfaceting_18-0.2.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "6ddcf78f4666871fd9b24fcc043237f25419f9fe27b8ff37e86a7b2f5f54737f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pgfaceting_18",
+      "ver": "0.2.0-1PIGSTY.el8",
+      "file": "pgfaceting_18-0.2.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 14964,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgfaceting_18-0.2.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "5796a57a2242b44ef10d13863e4a69873c232cac5dd6948bdc48a966642ede3d"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pgfaceting_18",
+      "ver": "0.2.0-1PIGSTY.el9",
+      "file": "pgfaceting_18-0.2.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 14716,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgfaceting_18-0.2.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "6fe228125b99989ca661509b2666563d407e83b30b94b2e9d88f22e33913789e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pgfaceting_18",
+      "ver": "0.2.0-1PIGSTY.el9",
+      "file": "pgfaceting_18-0.2.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 14760,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgfaceting_18-0.2.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "30bb3405a9378693999c69d3f90db509f6ea9533a3ed81aa7d287a8816c8000a"
     },
     {
       "os": "d12.aarch64",

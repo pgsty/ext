@@ -60,7 +60,7 @@
     "15",
     "14"
   ],
-  "source": null,
+  "source": "pg-safeupdate-1.5.tar.gz",
   "extra": {},
   "en_desc": "Require criteria for UPDATE and DELETE",
   "zh_desc": "强制在 UPDATE 和 DELETE 时提供 Where 条件",

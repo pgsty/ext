@@ -114,11 +114,11 @@
       "pkg": "plproxy",
       "ext": "plproxy",
       "pname": "plproxy_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.11.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -129,11 +129,11 @@
       "pkg": "plproxy",
       "ext": "plproxy",
       "pname": "plproxy_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.11.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -144,11 +144,11 @@
       "pkg": "plproxy",
       "ext": "plproxy",
       "pname": "plproxy_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.11.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -159,11 +159,11 @@
       "pkg": "plproxy",
       "ext": "plproxy",
       "pname": "plproxy_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.11.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1426,6 +1426,46 @@
       "size": 44907,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plproxy_17-2.11.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "f926706a6f402c9c4a871bed8482426bca503fbbcb330570ad624a7a90d15753"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "plproxy_18",
+      "ver": "2.11.0-1PIGSTY.el8",
+      "file": "plproxy_18-2.11.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 43020,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/plproxy_18-2.11.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "9099ac0b89d3d279722feba13463016aac17ecf44175884066a4f4d4d9e6229a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "plproxy_18",
+      "ver": "2.11.0-1PIGSTY.el8",
+      "file": "plproxy_18-2.11.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 45484,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/plproxy_18-2.11.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "889669e757eed87b04b2a726238a16ab0cf1fba4a0b2018d641d80a23dcd0b3f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "plproxy_18",
+      "ver": "2.11.0-1PIGSTY.el9",
+      "file": "plproxy_18-2.11.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 42442,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/plproxy_18-2.11.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "b4e197635caa86deab8519ce90169bf64e68fee5ced25fd6f01c07797c825457"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "plproxy_18",
+      "ver": "2.11.0-1PIGSTY.el9",
+      "file": "plproxy_18-2.11.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 44883,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/plproxy_18-2.11.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "1b865d978f3f8e15adf7ff4a866849a0eb0c6e63565ea632229f28c44fa91879"
     },
     {
       "os": "d12.aarch64",

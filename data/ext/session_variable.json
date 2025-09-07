@@ -117,11 +117,11 @@
       "pkg": "session_variable",
       "ext": "session_variable",
       "pname": "session_variable_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -132,11 +132,11 @@
       "pkg": "session_variable",
       "ext": "session_variable",
       "pname": "session_variable_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -147,11 +147,11 @@
       "pkg": "session_variable",
       "ext": "session_variable",
       "pname": "session_variable_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -162,11 +162,11 @@
       "pkg": "session_variable",
       "ext": "session_variable",
       "pname": "session_variable_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1479,6 +1479,46 @@
       "size": 35641,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/session_variable_17-3.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "9a0a10b9798da05d5fa87fb1af84fc0fb01f4c6f4542bfbf7c908bbda257db37"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "session_variable_18",
+      "ver": "3.4-1PIGSTY.el8",
+      "file": "session_variable_18-3.4-1PIGSTY.el8.aarch64.rpm",
+      "size": 34084,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/session_variable_18-3.4-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "c1045fa039b2f3a272a81868125e7bbb024bf36bbeb82aee494ed290f1511de0"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "session_variable_18",
+      "ver": "3.4-1PIGSTY.el8",
+      "file": "session_variable_18-3.4-1PIGSTY.el8.x86_64.rpm",
+      "size": 34952,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/session_variable_18-3.4-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "8d9ac5ce73163110110134f851dee7212ba9283e478beb0321f237c4be314f8a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "session_variable_18",
+      "ver": "3.4-1PIGSTY.el9",
+      "file": "session_variable_18-3.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 34121,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/session_variable_18-3.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "f73532407689d43274ad6df5dec36924366d39366a896d5ed8d9cd68fe892efe"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "session_variable_18",
+      "ver": "3.4-1PIGSTY.el9",
+      "file": "session_variable_18-3.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 35216,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/session_variable_18-3.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "3d651b99af9bb16bf83a025b8634779f5b2481d174ddd091614fa3762d98c8ac"
     }
   ]
 }

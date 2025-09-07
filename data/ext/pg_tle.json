@@ -117,11 +117,11 @@
       "pkg": "pg_tle",
       "ext": "pg_tle",
       "pname": "pg_tle_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -132,11 +132,11 @@
       "pkg": "pg_tle",
       "ext": "pg_tle",
       "pname": "pg_tle_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -147,11 +147,11 @@
       "pkg": "pg_tle",
       "ext": "pg_tle",
       "pname": "pg_tle_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -162,11 +162,11 @@
       "pkg": "pg_tle",
       "ext": "pg_tle",
       "pname": "pg_tle_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1979,6 +1979,46 @@
       "size": 60812,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pg_tle_17-1.2.0-2PGDG.rhel9.x86_64.rpm",
       "sha256": "7bca3de466b643bca06628f3f8c60a63e9887403716ac13cb32631de6545bec2"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_tle_18",
+      "ver": "1.5.1-2PIGSTY.el8",
+      "file": "pg_tle_18-1.5.1-2PIGSTY.el8.aarch64.rpm",
+      "size": 62180,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tle_18-1.5.1-2PIGSTY.el8.aarch64.rpm",
+      "sha256": "d74b1f232a763548ec4869aafa801bf4d455ddec10ab6a28f36379c7dbd9c860"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_tle_18",
+      "ver": "1.5.1-2PIGSTY.el8",
+      "file": "pg_tle_18-1.5.1-2PIGSTY.el8.x86_64.rpm",
+      "size": 65632,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_tle_18-1.5.1-2PIGSTY.el8.x86_64.rpm",
+      "sha256": "ce3320157637cbf0b1d3b1bfaaeb86262404d5ad132211b5dad4dd18b468f2b1"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_tle_18",
+      "ver": "1.5.1-2PIGSTY.el9",
+      "file": "pg_tle_18-1.5.1-2PIGSTY.el9.aarch64.rpm",
+      "size": 58909,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tle_18-1.5.1-2PIGSTY.el9.aarch64.rpm",
+      "sha256": "eae4f7bc83c77e14d5d9179b98ec6ae7fa4ca9e80ee55a321e30715e38765b1a"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_tle_18",
+      "ver": "1.5.1-2PIGSTY.el9",
+      "file": "pg_tle_18-1.5.1-2PIGSTY.el9.x86_64.rpm",
+      "size": 62277,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_tle_18-1.5.1-2PIGSTY.el9.x86_64.rpm",
+      "sha256": "c0d2602d174aa9e8d06cbfcf1c0f474180ff36f464b1f884442034c4a6bf47f7"
     },
     {
       "os": "d12.aarch64",

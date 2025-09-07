@@ -115,11 +115,11 @@
       "pkg": "db_migrator",
       "ext": "db_migrator",
       "pname": "db_migrator_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -130,11 +130,11 @@
       "pkg": "db_migrator",
       "ext": "db_migrator",
       "pname": "db_migrator_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -145,11 +145,11 @@
       "pkg": "db_migrator",
       "ext": "db_migrator",
       "pname": "db_migrator_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -160,11 +160,11 @@
       "pkg": "db_migrator",
       "ext": "db_migrator",
       "pname": "db_migrator_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1177,6 +1177,46 @@
       "size": 25941,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/db_migrator_17-1.0.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "7d1750f1a7cc4ebedb1e09e2f9c56e62f26ca048a98851fe33ec6aef4bdaa0b1"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "db_migrator_18",
+      "ver": "1.0.0-1PIGSTY.el8",
+      "file": "db_migrator_18-1.0.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 27028,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/db_migrator_18-1.0.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "b66b429bfe90ff27577a855506d3b93b4f7c6bc21255455109b1ddbf8236fc33"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "db_migrator_18",
+      "ver": "1.0.0-1PIGSTY.el8",
+      "file": "db_migrator_18-1.0.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 27060,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/db_migrator_18-1.0.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "40bce1801c92caa3682d92fb1262afdaa5c26740fffb8a8a2bc62a82e68278c8"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "db_migrator_18",
+      "ver": "1.0.0-1PIGSTY.el9",
+      "file": "db_migrator_18-1.0.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 25889,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/db_migrator_18-1.0.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "cd477bcd972f4a16dcd137a88e8234ee2034a71d0ae506e483127a3628ee2009"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "db_migrator_18",
+      "ver": "1.0.0-1PIGSTY.el9",
+      "file": "db_migrator_18-1.0.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 25938,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/db_migrator_18-1.0.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "c0ebb9f017b816d1d2d57d46186652bf243bd7cc641d09edc925c82ac3fb9828"
     },
     {
       "os": "d12.aarch64",

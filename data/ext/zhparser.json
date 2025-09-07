@@ -114,11 +114,11 @@
       "pkg": "zhparser",
       "ext": "zhparser",
       "pname": "zhparser_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.3",
+      "count": 1
     },
     {
       "pg": 18,
@@ -129,11 +129,11 @@
       "pkg": "zhparser",
       "ext": "zhparser",
       "pname": "zhparser_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.3",
+      "count": 1
     },
     {
       "pg": 18,
@@ -144,11 +144,11 @@
       "pkg": "zhparser",
       "ext": "zhparser",
       "pname": "zhparser_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.3",
+      "count": 1
     },
     {
       "pg": 18,
@@ -159,11 +159,11 @@
       "pkg": "zhparser",
       "ext": "zhparser",
       "pname": "zhparser_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.3",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1476,6 +1476,46 @@
       "size": 4458761,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/zhparser_17-2.3-1PIGSTY.el9.x86_64.rpm",
       "sha256": "923bbc7dcbd459a830ac2d609938052bbbc108f9dc7802e6cc9222297a7728e8"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "zhparser_18",
+      "ver": "2.3-1PIGSTY.el8",
+      "file": "zhparser_18-2.3-1PIGSTY.el8.aarch64.rpm",
+      "size": 4977164,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/zhparser_18-2.3-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "00d3bbec7c0d6c2302dedd4c062475683c50fc5b19577d30f40baeac70363af0"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "zhparser_18",
+      "ver": "2.3-1PIGSTY.el8",
+      "file": "zhparser_18-2.3-1PIGSTY.el8.x86_64.rpm",
+      "size": 4977120,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/zhparser_18-2.3-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "566d87d933e84849b17eaa51dbb960e77089737453f523a861f84f53a7430b1f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "zhparser_18",
+      "ver": "2.3-1PIGSTY.el9",
+      "file": "zhparser_18-2.3-1PIGSTY.el9.aarch64.rpm",
+      "size": 4463372,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/zhparser_18-2.3-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "5a5246a96dbdeca78e4a4322643a521844ce6b87042e8d46a204166636707be5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "zhparser_18",
+      "ver": "2.3-1PIGSTY.el9",
+      "file": "zhparser_18-2.3-1PIGSTY.el9.x86_64.rpm",
+      "size": 4458434,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/zhparser_18-2.3-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "0b0880d30f33b125d6c4eef37ed2a4192f1330e491fd67e67554a429cdf3acd4"
     }
   ]
 }

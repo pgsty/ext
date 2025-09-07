@@ -116,11 +116,11 @@
       "pkg": "decoder_raw",
       "ext": "decoder_raw",
       "pname": "decoder_raw_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -131,11 +131,11 @@
       "pkg": "decoder_raw",
       "ext": "decoder_raw",
       "pname": "decoder_raw_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -146,11 +146,11 @@
       "pkg": "decoder_raw",
       "ext": "decoder_raw",
       "pname": "decoder_raw_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -161,11 +161,11 @@
       "pkg": "decoder_raw",
       "ext": "decoder_raw",
       "pname": "decoder_raw_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1178,6 +1178,46 @@
       "size": 15384,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/decoder_raw_17-1.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "ac8cf11cd4c64eb364d66716c88fc107531ed549e6c6561a0d8596caa35ee6e5"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "decoder_raw_18",
+      "ver": "1.0-1PIGSTY.el8",
+      "file": "decoder_raw_18-1.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 15360,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/decoder_raw_18-1.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "c9844795c694098f37b84b40e3d4bca74dc133fae3714b2db0eb5eb45c0afb96"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "decoder_raw_18",
+      "ver": "1.0-1PIGSTY.el8",
+      "file": "decoder_raw_18-1.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 15616,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/decoder_raw_18-1.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "089dc60ff23b564fd203742b5d1e6f8a3d9059e0b6306ee457faa719be1005a8"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "decoder_raw_18",
+      "ver": "1.0-1PIGSTY.el9",
+      "file": "decoder_raw_18-1.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 14961,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/decoder_raw_18-1.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "25f86bd349f39ed0e6c3d7c9bda67efee63a151cc9f39b0765e00b1da03c1121"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "decoder_raw_18",
+      "ver": "1.0-1PIGSTY.el9",
+      "file": "decoder_raw_18-1.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 15361,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/decoder_raw_18-1.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "5390f2354b139226c733782a09261dc1393b4169a5bc1383dd0e1046ac5681f7"
     },
     {
       "os": "d12.aarch64",

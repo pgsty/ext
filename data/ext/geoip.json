@@ -129,11 +129,11 @@
       "pkg": "geoip",
       "ext": "geoip",
       "pname": "geoip_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -144,11 +144,11 @@
       "pkg": "geoip",
       "ext": "geoip",
       "pname": "geoip_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -159,11 +159,11 @@
       "pkg": "geoip",
       "ext": "geoip",
       "pname": "geoip_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -174,11 +174,11 @@
       "pkg": "geoip",
       "ext": "geoip",
       "pname": "geoip_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1301,6 +1301,46 @@
       "size": 11927,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/geoip_17-0.3.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "7c5524f23da2ef5b6301a41e3a02084fffc0bd7b00acbfe0528587cb3fb39b6c"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "geoip_18",
+      "ver": "0.3.0-1PIGSTY.el8",
+      "file": "geoip_18-0.3.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 11984,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/geoip_18-0.3.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "f540f76f9e16b99ec0cd07e027e18e96e2f4b4a381d6f1dc53afe6e6c14bef4f"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "geoip_18",
+      "ver": "0.3.0-1PIGSTY.el8",
+      "file": "geoip_18-0.3.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 12020,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/geoip_18-0.3.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "bcd32e21c3ff3c376f421f289f280779cfb9c8700084272478a9003b8b6bbaaf"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "geoip_18",
+      "ver": "0.3.0-1PIGSTY.el9",
+      "file": "geoip_18-0.3.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 11877,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/geoip_18-0.3.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "dedd995c57a42ae81edf531fb85aa682fa30bc78ed04477f8f683e6abdad6a9b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "geoip_18",
+      "ver": "0.3.0-1PIGSTY.el9",
+      "file": "geoip_18-0.3.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 11930,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/geoip_18-0.3.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "07d9fa9de1a49cf8033369ae9adfedcbf76be615f5ad3bc8c6646d5fd28c41d5"
     },
     {
       "os": "d12.aarch64",

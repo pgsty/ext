@@ -66,7 +66,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "hunspell-1.0.tar.gz",
   "extra": {},
   "en_desc": "French Hunspell Dictionary",
   "zh_desc": "Hunspell法语全文检索词典",

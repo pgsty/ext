@@ -124,11 +124,11 @@
       "pkg": "pg_rational",
       "ext": "pg_rational",
       "pname": "pg_rational_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -139,11 +139,11 @@
       "pkg": "pg_rational",
       "ext": "pg_rational",
       "pname": "pg_rational_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -154,11 +154,11 @@
       "pkg": "pg_rational",
       "ext": "pg_rational",
       "pname": "pg_rational_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -169,11 +169,11 @@
       "pkg": "pg_rational",
       "ext": "pg_rational",
       "pname": "pg_rational_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.2",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1186,6 +1186,46 @@
       "size": 19164,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_rational_17-0.0.2-1PIGSTY.el9.x86_64.rpm",
       "sha256": "451ead3fe42175e6c53c1cb7a0f728fa393c5edbc730cae363a58419e7906b40"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_rational_18",
+      "ver": "0.0.2-1PIGSTY.el8",
+      "file": "pg_rational_18-0.0.2-1PIGSTY.el8.aarch64.rpm",
+      "size": 18464,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_rational_18-0.0.2-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "613dec0a4a84556b891d20e8c5ec544b5790100e87d7c69fedd65e01645c8f6e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_rational_18",
+      "ver": "0.0.2-1PIGSTY.el8",
+      "file": "pg_rational_18-0.0.2-1PIGSTY.el8.x86_64.rpm",
+      "size": 19036,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_rational_18-0.0.2-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "bf13167ab61daa481e4469be94341a087fdb25591d772105611406354bc92394"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_rational_18",
+      "ver": "0.0.2-1PIGSTY.el9",
+      "file": "pg_rational_18-0.0.2-1PIGSTY.el9.aarch64.rpm",
+      "size": 18661,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_rational_18-0.0.2-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "19a51cbfcdd754437044cb9be8aa4054e33e0906b77a1c296959397a75a8a09a"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_rational_18",
+      "ver": "0.0.2-1PIGSTY.el9",
+      "file": "pg_rational_18-0.0.2-1PIGSTY.el9.x86_64.rpm",
+      "size": 19164,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_rational_18-0.0.2-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "bc348e40fb693998775371539027c2c07f71b112c15415393f1c68a8c5990dca"
     },
     {
       "os": "d12.aarch64",

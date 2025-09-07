@@ -573,8 +573,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.105",
-      "count": 1
+      "pkg_ver": "0.106",
+      "count": 2
     },
     {
       "pg": 15,
@@ -588,8 +588,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.105",
-      "count": 1
+      "pkg_ver": "0.106",
+      "count": 2
     },
     {
       "pg": 15,
@@ -603,8 +603,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.105",
-      "count": 1
+      "pkg_ver": "0.106",
+      "count": 2
     },
     {
       "pg": 15,
@@ -618,8 +618,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.105",
-      "count": 1
+      "pkg_ver": "0.106",
+      "count": 2
     },
     {
       "pg": 15,
@@ -987,11 +987,31 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "documentdb_15",
+      "ver": "0.106-0PIGSTY.el8",
+      "file": "documentdb_15-0.106-0PIGSTY.el8.aarch64.rpm",
+      "size": 2585928,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_15-0.106-0PIGSTY.el8.aarch64.rpm",
+      "sha256": "2c4d0f2cd7b304088e4860c6b953b5b156dd48072c9a1b048f5439e7021bbb67"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "documentdb_15",
       "ver": "0.105-0PIGSTY.el8",
       "file": "documentdb_15-0.105-0PIGSTY.el8.aarch64.rpm",
       "size": 2494164,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_15-0.105-0PIGSTY.el8.aarch64.rpm",
       "sha256": "2cfababbd024cbb6622c4b81b2bd18fb4dd9af39a55b44df8946470b3b1102a8"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "documentdb_15",
+      "ver": "0.106-0PIGSTY.el8",
+      "file": "documentdb_15-0.106-0PIGSTY.el8.x86_64.rpm",
+      "size": 2705112,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/documentdb_15-0.106-0PIGSTY.el8.x86_64.rpm",
+      "sha256": "614281e421ddf388e521d02d0cd90a5fa63bf390a50ab1d6cc6e359bb5cdbfa4"
     },
     {
       "os": "el8.x86_64",
@@ -1007,11 +1027,31 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "documentdb_15",
+      "ver": "0.106-0PIGSTY.el9",
+      "file": "documentdb_15-0.106-0PIGSTY.el9.aarch64.rpm",
+      "size": 2422975,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_15-0.106-0PIGSTY.el9.aarch64.rpm",
+      "sha256": "a02a4b5cb609dbcf26e28135be5669d1e922c04b12c19e7bb2ad9f87d4b8fe25"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "documentdb_15",
       "ver": "0.105-0PIGSTY.el9",
       "file": "documentdb_15-0.105-0PIGSTY.el9.aarch64.rpm",
       "size": 2514219,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_15-0.105-0PIGSTY.el9.aarch64.rpm",
       "sha256": "702d857bb34dd71dda8bcf71d0e2c27fdb5296121184b28857b47519700a6c94"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "documentdb_15",
+      "ver": "0.106-0PIGSTY.el9",
+      "file": "documentdb_15-0.106-0PIGSTY.el9.x86_64.rpm",
+      "size": 2656586,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/documentdb_15-0.106-0PIGSTY.el9.x86_64.rpm",
+      "sha256": "aa260cf8bcf5208d0d46e4143021f8ce17b579be76f1953d9489d0da117a3311"
     },
     {
       "os": "el9.x86_64",
@@ -1031,7 +1071,7 @@
       "file": "documentdb_16-0.106-0PIGSTY.el8.aarch64.rpm",
       "size": 2569792,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_16-0.106-0PIGSTY.el8.aarch64.rpm",
-      "sha256": "67233cf6af6c2f6e2b9e93fc26e9a13efd69e1b4b6938d4b2f50c7861ba5eb43"
+      "sha256": "7fd91c1e63a35e8248bb09213e172e4ecc3545c63bad015c3dff7133fb3513e2"
     },
     {
       "os": "el8.aarch64",
@@ -1049,9 +1089,9 @@
       "name": "documentdb_16",
       "ver": "0.106-0PIGSTY.el8",
       "file": "documentdb_16-0.106-0PIGSTY.el8.x86_64.rpm",
-      "size": 2686728,
+      "size": 2686732,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/documentdb_16-0.106-0PIGSTY.el8.x86_64.rpm",
-      "sha256": "7dbbff284aad547a9bb5bf6c9b4db48610e6fac5a2f8023be28ff28f7c223072"
+      "sha256": "61cbcbeead6897704b889ebf563add2be01e48df7a6f933bcd6267f6827a84b1"
     },
     {
       "os": "el8.x86_64",
@@ -1069,9 +1109,9 @@
       "name": "documentdb_16",
       "ver": "0.106-0PIGSTY.el9",
       "file": "documentdb_16-0.106-0PIGSTY.el9.aarch64.rpm",
-      "size": 2589726,
+      "size": 2415744,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_16-0.106-0PIGSTY.el9.aarch64.rpm",
-      "sha256": "04400bd97af5504f8f3c0872b870137f7786a8fdfcd1950eef5048610c8c5d30"
+      "sha256": "9a87cdcf1b4333e6cc0a4f44b1bbec87e071b141c7e2fc5f0fb493081ee8827e"
     },
     {
       "os": "el9.aarch64",
@@ -1089,9 +1129,9 @@
       "name": "documentdb_16",
       "ver": "0.106-0PIGSTY.el9",
       "file": "documentdb_16-0.106-0PIGSTY.el9.x86_64.rpm",
-      "size": 2653306,
+      "size": 2653308,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/documentdb_16-0.106-0PIGSTY.el9.x86_64.rpm",
-      "sha256": "c18faac15290a6f6eebe304a5a2d75f4b169ac64f70d8b5ff7b9b52247a4de3e"
+      "sha256": "008add4be67bfee82f8b7cfb8512c9c36fc6ea45d2a4226f72228a6536da5b2a"
     },
     {
       "os": "el9.x86_64",
@@ -1109,9 +1149,9 @@
       "name": "documentdb_17",
       "ver": "0.106-0PIGSTY.el8",
       "file": "documentdb_17-0.106-0PIGSTY.el8.aarch64.rpm",
-      "size": 2568028,
+      "size": 2568032,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/documentdb_17-0.106-0PIGSTY.el8.aarch64.rpm",
-      "sha256": "010820ad1b57385b5821b7d262c425f9ae35cc25c6cb2a870dbf19578b95b285"
+      "sha256": "71f4ef2b0b870d5411e3298ae98508805bbe90d81c3eed2d08aa08186f2fab97"
     },
     {
       "os": "el8.aarch64",
@@ -1131,7 +1171,7 @@
       "file": "documentdb_17-0.106-0PIGSTY.el8.x86_64.rpm",
       "size": 2685104,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/documentdb_17-0.106-0PIGSTY.el8.x86_64.rpm",
-      "sha256": "4c4c2758a1baff51b26dac2a254a59f7797d6929e956daf1e052f05d57158c56"
+      "sha256": "f2c132aeaa206023e8cb95446434a0f9b2e6a66f0f9020497ce9028b53af72be"
     },
     {
       "os": "el8.x86_64",
@@ -1149,9 +1189,9 @@
       "name": "documentdb_17",
       "ver": "0.106-0PIGSTY.el9",
       "file": "documentdb_17-0.106-0PIGSTY.el9.aarch64.rpm",
-      "size": 2588561,
+      "size": 2412687,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/documentdb_17-0.106-0PIGSTY.el9.aarch64.rpm",
-      "sha256": "a92d5f7ca169b673ea26a76292caea77162ecb92408209275c7132ffd4d5926e"
+      "sha256": "00cd35af9154d2d3ba8be34590a4838f9e4ecca7453d5895fe9e3aa76d7d9fb5"
     },
     {
       "os": "el9.aarch64",
@@ -1169,9 +1209,9 @@
       "name": "documentdb_17",
       "ver": "0.106-0PIGSTY.el9",
       "file": "documentdb_17-0.106-0PIGSTY.el9.x86_64.rpm",
-      "size": 2646668,
+      "size": 2646656,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/documentdb_17-0.106-0PIGSTY.el9.x86_64.rpm",
-      "sha256": "c0646996b7d6634dc3acce6a5ca0706ccaba5bfa26c73f2c97985c6dfd649bbb"
+      "sha256": "c179cafd5e3fdacc2ba0127a0c777e7363371ab437140c7af6ff3182c521ea58"
     },
     {
       "os": "el9.x86_64",

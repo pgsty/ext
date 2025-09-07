@@ -263,11 +263,11 @@
       "pkg": "pg_rewrite",
       "ext": "pg_rewrite",
       "pname": "pg_rewrite_17",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0.0",
+      "count": 1
     },
     {
       "pg": 17,
@@ -278,11 +278,11 @@
       "pkg": "pg_rewrite",
       "ext": "pg_rewrite",
       "pname": "pg_rewrite_17",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0.0",
+      "count": 1
     },
     {
       "pg": 17,
@@ -293,11 +293,11 @@
       "pkg": "pg_rewrite",
       "ext": "pg_rewrite",
       "pname": "pg_rewrite_17",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0.0",
+      "count": 1
     },
     {
       "pg": 17,
@@ -308,11 +308,11 @@
       "pkg": "pg_rewrite",
       "ext": "pg_rewrite",
       "pname": "pg_rewrite_17",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0.0",
+      "count": 1
     },
     {
       "pg": 17,
@@ -1295,6 +1295,46 @@
       "size": 37298,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pg_rewrite_16-1.1.0-1PGDG.rhel9.x86_64.rpm",
       "sha256": "f96987d27ac1b3909eba65bb4d0690f98a40b4a25df8335f7120b525c4a2c1ee"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pg_rewrite_17",
+      "ver": "2.0.0-1PIGSTY.el8",
+      "file": "pg_rewrite_17-2.0.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 35800,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_rewrite_17-2.0.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "86b95a1d24cdfd476e1b373a0581fdbe96a12af13c906b80784ae1afa518aee9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pg_rewrite_17",
+      "ver": "2.0.0-1PIGSTY.el8",
+      "file": "pg_rewrite_17-2.0.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 37936,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_rewrite_17-2.0.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "f0a45f1cd76083c5b72cf7078d9a2352b14f3be5fc7719c06baeba0b975bc17c"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pg_rewrite_17",
+      "ver": "2.0.0-1PIGSTY.el9",
+      "file": "pg_rewrite_17-2.0.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 36952,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_rewrite_17-2.0.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "3314255173a3d16e5df41d3a0d6fac961265300da5b4edc2204e33c0bb9c73e7"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pg_rewrite_17",
+      "ver": "2.0.0-1PIGSTY.el9",
+      "file": "pg_rewrite_17-2.0.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 38653,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_rewrite_17-2.0.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "7bdcc50d9efe336b15d7626bb8218e624fb2a608a5c365f3545ed65e7beb86bf"
     },
     {
       "os": "el8.aarch64",

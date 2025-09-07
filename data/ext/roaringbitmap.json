@@ -77,7 +77,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pg_roaringbitmap-0.5.4.tar.gz",
   "extra": {},
   "en_desc": "support for Roaring Bitmaps",
   "zh_desc": "支持RoaringBitmap数据类型",
@@ -126,11 +126,11 @@
       "pkg": "roaringbitmap",
       "ext": "roaringbitmap",
       "pname": "pg_roaringbitmap_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.5.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -141,11 +141,11 @@
       "pkg": "roaringbitmap",
       "ext": "roaringbitmap",
       "pname": "pg_roaringbitmap_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.5.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -156,11 +156,11 @@
       "pkg": "roaringbitmap",
       "ext": "roaringbitmap",
       "pname": "pg_roaringbitmap_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.5.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -171,11 +171,11 @@
       "pkg": "roaringbitmap",
       "ext": "roaringbitmap",
       "pname": "pg_roaringbitmap_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.5.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1388,6 +1388,46 @@
       "size": 73696,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pg_roaringbitmap_17-0.5.4-1PGDG.rhel9.x86_64.rpm",
       "sha256": "5e2cdd731b61837877ff4f668a845ad4b4bfd7d8b4fc97705de6bbc1851f5dbe"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_roaringbitmap_18",
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "pg_roaringbitmap_18-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "size": 96332,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_roaringbitmap_18-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "c580f0404ad2ae8504e474fdd26a22a08dd93b122021aa25f48c22c5461fe86d"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_roaringbitmap_18",
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "pg_roaringbitmap_18-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "size": 106384,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_roaringbitmap_18-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "1909c38a4cd48a89936efb42b9f51b5122240b635caeae8e3d13b0785d170df8"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_roaringbitmap_18",
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "pg_roaringbitmap_18-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 67379,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_roaringbitmap_18-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "26b3db9b0be1ce2eef04cd70d89a912be7f8c17233dce97ac25ac23dbca0ab75"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_roaringbitmap_18",
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "pg_roaringbitmap_18-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 69678,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_roaringbitmap_18-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "04fecd9301c4f104e64398808dec3996205e5feb2a521960ebdf6e75d551fa43"
     },
     {
       "os": "d12.aarch64",

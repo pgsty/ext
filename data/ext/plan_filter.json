@@ -111,11 +111,11 @@
       "pkg": "pg_plan_filter",
       "ext": "plan_filter",
       "pname": "pg_plan_filter_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -126,11 +126,11 @@
       "pkg": "pg_plan_filter",
       "ext": "plan_filter",
       "pname": "pg_plan_filter_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -141,11 +141,11 @@
       "pkg": "pg_plan_filter",
       "ext": "plan_filter",
       "pname": "pg_plan_filter_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -156,11 +156,11 @@
       "pkg": "pg_plan_filter",
       "ext": "plan_filter",
       "pname": "pg_plan_filter_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.0.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1173,6 +1173,46 @@
       "size": 11058,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_plan_filter_17-0.0.1-1PIGSTY.el9.x86_64.rpm",
       "sha256": "be70580f27e036285d1ed634d428d319ae286b6f79fffb80d77739c4018780b1"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_plan_filter_18",
+      "ver": "0.0.1-1PIGSTY.el8",
+      "file": "pg_plan_filter_18-0.0.1-1PIGSTY.el8.aarch64.rpm",
+      "size": 11268,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_plan_filter_18-0.0.1-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "3f17750a704c33e778b0646774ce827a3b33fc089f6fcbedbae307d5316569f0"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_plan_filter_18",
+      "ver": "0.0.1-1PIGSTY.el8",
+      "file": "pg_plan_filter_18-0.0.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 11256,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_plan_filter_18-0.0.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "6e97cdf9ae35cfc568252d643bec98f7de133321b41fa315001281f6041e3c77"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_plan_filter_18",
+      "ver": "0.0.1-1PIGSTY.el9",
+      "file": "pg_plan_filter_18-0.0.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 10719,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_plan_filter_18-0.0.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "1d409c6eef0f8b2fc06748cbc4f879d5694639f5d344ea1a4b178762a66fee4c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_plan_filter_18",
+      "ver": "0.0.1-1PIGSTY.el9",
+      "file": "pg_plan_filter_18-0.0.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 10995,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_plan_filter_18-0.0.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "374e17136d244fdc670318c876f2f6f083d08dc8da6acdd2ba104a3a55ef5568"
     },
     {
       "os": "d12.aarch64",

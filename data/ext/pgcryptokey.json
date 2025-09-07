@@ -115,11 +115,11 @@
       "pkg": "pgcryptokey",
       "ext": "pgcryptokey",
       "pname": "pgcryptokey_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.85",
+      "count": 1
     },
     {
       "pg": 18,
@@ -130,11 +130,11 @@
       "pkg": "pgcryptokey",
       "ext": "pgcryptokey",
       "pname": "pgcryptokey_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.85",
+      "count": 1
     },
     {
       "pg": 18,
@@ -145,11 +145,11 @@
       "pkg": "pgcryptokey",
       "ext": "pgcryptokey",
       "pname": "pgcryptokey_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.85",
+      "count": 1
     },
     {
       "pg": 18,
@@ -160,11 +160,11 @@
       "pkg": "pgcryptokey",
       "ext": "pgcryptokey",
       "pname": "pgcryptokey_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.85",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1347,6 +1347,46 @@
       "size": 17530,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgcryptokey_17-0.85-1PIGSTY.el9.x86_64.rpm",
       "sha256": "7a7c0748f6ac41b13be0f1ef985346728e65b70ecd079900fc72710a6e20724f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pgcryptokey_18",
+      "ver": "0.85-1PIGSTY.el8",
+      "file": "pgcryptokey_18-0.85-1PIGSTY.el8.aarch64.rpm",
+      "size": 17616,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgcryptokey_18-0.85-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "9fb89fd80b01c2dc0ad1cb69dd812cd99742f315d7614b64bd1d68951ca5c7f1"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pgcryptokey_18",
+      "ver": "0.85-1PIGSTY.el8",
+      "file": "pgcryptokey_18-0.85-1PIGSTY.el8.x86_64.rpm",
+      "size": 17528,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgcryptokey_18-0.85-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "76c80ff58f646c2ec1bec88b0447345cc907cee9f3c16629b94c242bea1bbb72"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pgcryptokey_18",
+      "ver": "0.85-1PIGSTY.el9",
+      "file": "pgcryptokey_18-0.85-1PIGSTY.el9.aarch64.rpm",
+      "size": 17305,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgcryptokey_18-0.85-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "2e69c55ec8e3d5ee7fbeea6273115943b9bf75c08c2fb39101b158a39044cf7c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pgcryptokey_18",
+      "ver": "0.85-1PIGSTY.el9",
+      "file": "pgcryptokey_18-0.85-1PIGSTY.el9.x86_64.rpm",
+      "size": 17520,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgcryptokey_18-0.85-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "9975d1684a6e58a75142c3941b902c1dbf19697ac7296d06c86414bbad9664e0"
     },
     {
       "os": "d12.aarch64",

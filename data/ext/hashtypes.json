@@ -120,11 +120,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 18,
@@ -135,11 +135,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 18,
@@ -150,11 +150,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 18,
@@ -165,11 +165,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 18,
@@ -870,11 +870,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_13",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 13,
@@ -885,11 +885,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_13",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 13,
@@ -900,11 +900,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_13",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 13,
@@ -915,11 +915,11 @@
       "pkg": "hashtypes",
       "ext": "hashtypes",
       "pname": "hashtypes_13",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.5",
+      "count": 1
     },
     {
       "pg": 13,
@@ -983,6 +983,46 @@
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "hashtypes_13",
+      "ver": "0.1.5-1PIGSTY.el8",
+      "file": "hashtypes_13-0.1.5-1PIGSTY.el8.aarch64.rpm",
+      "size": 23772,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/hashtypes_13-0.1.5-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "c72a4d1ec549ffd0d20271112d4ca3ae691483e0c2b9211a8db202997b0c287a"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "hashtypes_13",
+      "ver": "0.1.5-1PIGSTY.el8",
+      "file": "hashtypes_13-0.1.5-1PIGSTY.el8.x86_64.rpm",
+      "size": 24008,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/hashtypes_13-0.1.5-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "3e67d70c0d3ed28692c2c16838e68ee1f84981cf7d4bfa48cecdc6432d8f1689"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "hashtypes_13",
+      "ver": "0.1.5-1PIGSTY.el9",
+      "file": "hashtypes_13-0.1.5-1PIGSTY.el9.aarch64.rpm",
+      "size": 23849,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/hashtypes_13-0.1.5-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "3ab0579babba25f67d125420dc5d6fa3799b82045549c6d09542dc51cd739c56"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "hashtypes_13",
+      "ver": "0.1.5-1PIGSTY.el9",
+      "file": "hashtypes_13-0.1.5-1PIGSTY.el9.x86_64.rpm",
+      "size": 24295,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/hashtypes_13-0.1.5-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "df5692852c247244694d66f787c174a212e0c46104e10171c437f4932aa954f3"
+    },
     {
       "os": "el8.aarch64",
       "pg": 14,
@@ -1142,6 +1182,46 @@
       "size": 24222,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/hashtypes_17-0.1.5-1PIGSTY.el9.x86_64.rpm",
       "sha256": "5ff1a43a4c37c53970df21f92e966cfa27a2541a381f59533c8c4873e85e99cd"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "hashtypes_18",
+      "ver": "0.1.5-1PIGSTY.el8",
+      "file": "hashtypes_18-0.1.5-1PIGSTY.el8.aarch64.rpm",
+      "size": 23712,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/hashtypes_18-0.1.5-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "e5643b75b11b493a9684217f8404dc955242b24ceb0f49136607f040694466d0"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "hashtypes_18",
+      "ver": "0.1.5-1PIGSTY.el8",
+      "file": "hashtypes_18-0.1.5-1PIGSTY.el8.x86_64.rpm",
+      "size": 24004,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/hashtypes_18-0.1.5-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "a0664eb0b4dbccaba42a177043b564f4ef72e38ee15f5e5c00424bd9e4bf5172"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "hashtypes_18",
+      "ver": "0.1.5-1PIGSTY.el9",
+      "file": "hashtypes_18-0.1.5-1PIGSTY.el9.aarch64.rpm",
+      "size": 23722,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/hashtypes_18-0.1.5-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "f4e32f3dce50ceeae6103c4d554c32484ebefafb882fddf772a4d5f49a2b557a"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "hashtypes_18",
+      "ver": "0.1.5-1PIGSTY.el9",
+      "file": "hashtypes_18-0.1.5-1PIGSTY.el9.x86_64.rpm",
+      "size": 24186,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/hashtypes_18-0.1.5-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "d044cba96c82a0949eb52666f8e6922e7401ae806ee65bd8f1caed110fd3a756"
     },
     {
       "os": "d12.aarch64",

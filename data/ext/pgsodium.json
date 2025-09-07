@@ -117,11 +117,11 @@
       "pkg": "pgsodium",
       "ext": "pgsodium",
       "pname": "pgsodium_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.1.9",
+      "count": 1
     },
     {
       "pg": 18,
@@ -132,11 +132,11 @@
       "pkg": "pgsodium",
       "ext": "pgsodium",
       "pname": "pgsodium_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.1.9",
+      "count": 1
     },
     {
       "pg": 18,
@@ -147,11 +147,11 @@
       "pkg": "pgsodium",
       "ext": "pgsodium",
       "pname": "pgsodium_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.1.9",
+      "count": 1
     },
     {
       "pg": 18,
@@ -162,11 +162,11 @@
       "pkg": "pgsodium",
       "ext": "pgsodium",
       "pname": "pgsodium_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "3.1.9",
+      "count": 1
     },
     {
       "pg": 18,
@@ -2449,6 +2449,46 @@
       "size": 55601,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgsodium_17-3.1.9-1PIGSTY.el9.x86_64.rpm",
       "sha256": "2e54a53d3f5bb7d2007552e9a0188033bf9176d6df99e250a60fe4d514cc447e"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pgsodium_18",
+      "ver": "3.1.9-1PIGSTY.el8",
+      "file": "pgsodium_18-3.1.9-1PIGSTY.el8.aarch64.rpm",
+      "size": 51084,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgsodium_18-3.1.9-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "3fb26fa104e9a5ee96681e16b3ebe9be0d33f43ea0c1e2e1f6be36c854c86ac6"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pgsodium_18",
+      "ver": "3.1.9-1PIGSTY.el8",
+      "file": "pgsodium_18-3.1.9-1PIGSTY.el8.x86_64.rpm",
+      "size": 54668,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pgsodium_18-3.1.9-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "b07dc22c3bde48f4de1cdcb118baa3be8c6bc505e4c994e70debff3eed694b8a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pgsodium_18",
+      "ver": "3.1.9-1PIGSTY.el9",
+      "file": "pgsodium_18-3.1.9-1PIGSTY.el9.aarch64.rpm",
+      "size": 52683,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgsodium_18-3.1.9-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "b63565c75722f8be3e659210de684c314cd2b645134b2296e7e233ef98b2dfe5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pgsodium_18",
+      "ver": "3.1.9-1PIGSTY.el9",
+      "file": "pgsodium_18-3.1.9-1PIGSTY.el9.x86_64.rpm",
+      "size": 55592,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgsodium_18-3.1.9-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "3a8faf80bc74a494545bb352a1039ae6a1995dd02f00f1c586e391d398a99df5"
     },
     {
       "os": "d12.aarch64",

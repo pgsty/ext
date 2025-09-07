@@ -124,11 +124,11 @@
       "pkg": "pg_geohash",
       "ext": "pg_geohash",
       "pname": "pg_geohash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -139,11 +139,11 @@
       "pkg": "pg_geohash",
       "ext": "pg_geohash",
       "pname": "pg_geohash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -154,11 +154,11 @@
       "pkg": "pg_geohash",
       "ext": "pg_geohash",
       "pname": "pg_geohash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -169,11 +169,11 @@
       "pkg": "pg_geohash",
       "ext": "pg_geohash",
       "pname": "pg_geohash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1186,6 +1186,46 @@
       "size": 15479,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_geohash_17-1.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "6b59c41ecc9f62b502302dda4a6978ae6dea501360cfe88112362b804060adf6"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_geohash_18",
+      "ver": "1.0-1PIGSTY.el8",
+      "file": "pg_geohash_18-1.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 15920,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_geohash_18-1.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "617518542d0375e2cfd6776fdd59e133ac627700e0bfea84f7c35e1d49681d33"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_geohash_18",
+      "ver": "1.0-1PIGSTY.el8",
+      "file": "pg_geohash_18-1.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 16268,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_geohash_18-1.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "4cf3f69bb68f7fe71e86c30bd86d4261124e8c2541472781380da1aa8cf949f3"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_geohash_18",
+      "ver": "1.0-1PIGSTY.el9",
+      "file": "pg_geohash_18-1.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 15022,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_geohash_18-1.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "9e86639e5d6b123283e1a38564ccdef2e5a5cf22ec594507a2eb0b8b3bfe1018"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_geohash_18",
+      "ver": "1.0-1PIGSTY.el9",
+      "file": "pg_geohash_18-1.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 15489,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_geohash_18-1.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "1d22912bf225c7ec8ef7d70cb8f4a251f8fd6f3a5cd967968e62f1d31887459d"
     },
     {
       "os": "d12.aarch64",

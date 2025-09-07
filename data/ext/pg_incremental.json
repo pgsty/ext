@@ -110,11 +110,11 @@
       "pkg": "pg_incremental",
       "ext": "pg_incremental",
       "pname": "pg_incremental_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -125,11 +125,11 @@
       "pkg": "pg_incremental",
       "ext": "pg_incremental",
       "pname": "pg_incremental_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -140,11 +140,11 @@
       "pkg": "pg_incremental",
       "ext": "pg_incremental",
       "pname": "pg_incremental_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -155,11 +155,11 @@
       "pkg": "pg_incremental",
       "ext": "pg_incremental",
       "pname": "pg_incremental_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1132,6 +1132,46 @@
       "size": 26714,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pg_incremental_17-1.0.0-1PGDG.rhel9.x86_64.rpm",
       "sha256": "269adc2ef9f14b94b6bc2c35567c37806c9fadbeaccd863fd585589363461fbe"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_incremental_18",
+      "ver": "1.2.0-1PIGSTY.el8",
+      "file": "pg_incremental_18-1.2.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 28908,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_incremental_18-1.2.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "e222971b3507188f9cbbfba0658bb2591264bfaa97c2cc6fbe7a23ae1de178c9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_incremental_18",
+      "ver": "1.2.0-1PIGSTY.el8",
+      "file": "pg_incremental_18-1.2.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 29680,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_incremental_18-1.2.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "2917ebc1c5da1d169c7f1b245f8c6280a6ad3fde7338df093a0418f3497a0fc0"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_incremental_18",
+      "ver": "1.2.0-1PIGSTY.el9",
+      "file": "pg_incremental_18-1.2.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 28588,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_incremental_18-1.2.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "66f77390946d13012882e6694fb88f108327034289636ca72df520cfd187c520"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_incremental_18",
+      "ver": "1.2.0-1PIGSTY.el9",
+      "file": "pg_incremental_18-1.2.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 29111,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_incremental_18-1.2.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "098dc38e889189c639c1d206f859bda628f4370567dd0e189a80fea4bb600b84"
     },
     {
       "os": "d12.aarch64",

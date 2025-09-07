@@ -52,10 +52,11 @@
     "pg_render",
     "pg_readme"
   ],
-  "rpm_ver": "1.0.0",
+  "rpm_ver": "1.0.1",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgsql_gzip_$v*",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -74,7 +75,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgsql-gzip-1.0.1.tar.gz",
   "extra": {},
   "en_desc": "gzip and gunzip functions.",
   "zh_desc": "使用SQL执行Gzip压缩与解压缩",

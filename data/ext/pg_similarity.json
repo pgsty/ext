@@ -131,11 +131,11 @@
       "pkg": "pg_similarity",
       "ext": "pg_similarity",
       "pname": "pg_similarity_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -146,11 +146,11 @@
       "pkg": "pg_similarity",
       "ext": "pg_similarity",
       "pname": "pg_similarity_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -161,11 +161,11 @@
       "pkg": "pg_similarity",
       "ext": "pg_similarity",
       "pname": "pg_similarity_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1178,6 +1178,36 @@
       "size": 42167,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_similarity_17-1.0-2PIGSTY.el9.x86_64.rpm",
       "sha256": "545dd13b816727f3dabd74c6c7955857ee5e05ec494de273d3bb7a780275f0a3"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_similarity_18",
+      "ver": "1.0-2PIGSTY.el8",
+      "file": "pg_similarity_18-1.0-2PIGSTY.el8.x86_64.rpm",
+      "size": 42580,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_similarity_18-1.0-2PIGSTY.el8.x86_64.rpm",
+      "sha256": "52256c4fad95581f140cc5aa7d3ccfd47088951189b92e1167cc40add94d5e82"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_similarity_18",
+      "ver": "1.0-2PIGSTY.el9",
+      "file": "pg_similarity_18-1.0-2PIGSTY.el9.aarch64.rpm",
+      "size": 40506,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_similarity_18-1.0-2PIGSTY.el9.aarch64.rpm",
+      "sha256": "41328b7bcbc7a7832293f46bfba722a8d1f6f60b8cf6bc80fa948aefd04f9ec3"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_similarity_18",
+      "ver": "1.0-2PIGSTY.el9",
+      "file": "pg_similarity_18-1.0-2PIGSTY.el9.x86_64.rpm",
+      "size": 42140,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_similarity_18-1.0-2PIGSTY.el9.x86_64.rpm",
+      "sha256": "d81fc27651db86b5a526684ec3bdc47b662d8c8f8794cf72d6d85c7a28675ae3"
     },
     {
       "os": "d12.aarch64",

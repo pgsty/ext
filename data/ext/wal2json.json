@@ -50,6 +50,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "wal2json_$v*",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -69,7 +70,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "wal2json-2.6.tar.gz",
   "extra": {},
   "en_desc": "Changing data capture in JSON format",
   "zh_desc": "用逻辑解码捕获 JSON 格式的 CDC 变更",
@@ -118,11 +119,11 @@
       "pkg": "wal2json",
       "ext": "wal2json",
       "pname": "wal2json_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.6",
+      "count": 1
     },
     {
       "pg": 18,
@@ -133,11 +134,11 @@
       "pkg": "wal2json",
       "ext": "wal2json",
       "pname": "wal2json_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.6",
+      "count": 1
     },
     {
       "pg": 18,
@@ -148,11 +149,11 @@
       "pkg": "wal2json",
       "ext": "wal2json",
       "pname": "wal2json_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.6",
+      "count": 1
     },
     {
       "pg": 18,
@@ -163,11 +164,11 @@
       "pkg": "wal2json",
       "ext": "wal2json",
       "pname": "wal2json_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.6",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1740,6 +1741,46 @@
       "size": 33260,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/wal2json_17-2.6-2PGDG.rhel9.x86_64.rpm",
       "sha256": "f4e628b7ea214f300757ffba741b114087790e10e9f7224554bab7f41bbeff77"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "wal2json_18",
+      "ver": "2.6-1PIGSTY.el8",
+      "file": "wal2json_18-2.6-1PIGSTY.el8.aarch64.rpm",
+      "size": 30216,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wal2json_18-2.6-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "669567c929469c3a91a33e2bf4afb69da998ae1bc4fe538220cf4c15499cd039"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "wal2json_18",
+      "ver": "2.6-1PIGSTY.el8",
+      "file": "wal2json_18-2.6-1PIGSTY.el8.x86_64.rpm",
+      "size": 32112,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wal2json_18-2.6-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "a5ad9acff075a1dcf820c7242c6ade1f6b668e80ae5ae116f9785981dc20e160"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "wal2json_18",
+      "ver": "2.6-1PIGSTY.el9",
+      "file": "wal2json_18-2.6-1PIGSTY.el9.aarch64.rpm",
+      "size": 30807,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wal2json_18-2.6-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "4883097968fd8615a5856aba1c0e05afea6015988d8d2b04e46c80e1b85cca4e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "wal2json_18",
+      "ver": "2.6-1PIGSTY.el9",
+      "file": "wal2json_18-2.6-1PIGSTY.el9.x86_64.rpm",
+      "size": 32614,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wal2json_18-2.6-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "6244f2364406cba9d850e638268e89245cea5f41669623d3569fa647512099d1"
     }
   ]
 }

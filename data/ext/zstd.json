@@ -74,7 +74,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgzstd-1.1.2.tar.gz",
   "extra": {},
   "en_desc": "Zstandard compression algorithm implementation in PostgreSQL",
   "zh_desc": "ZSTD压缩解压缩函数包",

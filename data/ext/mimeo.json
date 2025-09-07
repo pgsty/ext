@@ -50,6 +50,7 @@
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "mimeo_$v",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -118,11 +119,11 @@
       "pkg": "mimeo",
       "ext": "mimeo",
       "pname": "mimeo_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -133,11 +134,11 @@
       "pkg": "mimeo",
       "ext": "mimeo",
       "pname": "mimeo_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -148,11 +149,11 @@
       "pkg": "mimeo",
       "ext": "mimeo",
       "pname": "mimeo_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -163,11 +164,11 @@
       "pkg": "mimeo",
       "ext": "mimeo",
       "pname": "mimeo_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.5.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1180,6 +1181,46 @@
       "size": 115832,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/mimeo_17-1.5.1-1PIGSTY.el9.x86_64.rpm",
       "sha256": "d6c1da2384e207297e4d0a79ad24d6f33aa91a4591875f3e8b63db5de0606b3c"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "mimeo_18",
+      "ver": "1.5.1-1PIGSTY.el8",
+      "file": "mimeo_18-1.5.1-1PIGSTY.el8.aarch64.rpm",
+      "size": 143008,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/mimeo_18-1.5.1-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "50a3efb976866e6a0202ff0cd11689d28a4a5c1d09bb1f71dc876a5fb68934bd"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "mimeo_18",
+      "ver": "1.5.1-1PIGSTY.el8",
+      "file": "mimeo_18-1.5.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 143040,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/mimeo_18-1.5.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "d6cac11617d9e8c7f06fde22417281e2d0529710d8bc2e18af216a677fc50912"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "mimeo_18",
+      "ver": "1.5.1-1PIGSTY.el9",
+      "file": "mimeo_18-1.5.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 115693,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/mimeo_18-1.5.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "199c4de75ee044f489a43701036b03ef540badb4291af7015346d6eaa33a4c65"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "mimeo_18",
+      "ver": "1.5.1-1PIGSTY.el9",
+      "file": "mimeo_18-1.5.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 115747,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/mimeo_18-1.5.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "66ce0d24deb8ac0cc52501ef97c12a1fe2356acd5461447dccdf415f6d000492"
     },
     {
       "os": "d12.aarch64",

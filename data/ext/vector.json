@@ -21,6 +21,7 @@
   "relocatable": true,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -53,6 +54,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "pgvector_$v*",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -65,13 +67,14 @@
   "deb_pkg": "postgresql-$v-pgvector",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",
     "14",
     "13"
   ],
-  "source": null,
+  "source": "pgvector-0.8.1.tar.gz",
   "extra": {},
   "en_desc": "vector data type and ivfflat and hnsw access methods",
   "zh_desc": "向量数据类型和 ivfflat / hnsw 访问方法",
@@ -120,11 +123,11 @@
       "pkg": "pgvector",
       "ext": "vector",
       "pname": "pgvector_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.8.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -150,11 +153,11 @@
       "pkg": "pgvector",
       "ext": "vector",
       "pname": "pgvector_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.8.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -165,11 +168,11 @@
       "pkg": "pgvector",
       "ext": "vector",
       "pname": "pgvector_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.8.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -3422,6 +3425,36 @@
       "size": 106180,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pgvector_17-0.7.4-1PGDG.rhel9.x86_64.rpm",
       "sha256": "37226011269fb005a07f82755ffb894705250e8b315b578737d1a874e3603655"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pgvector_18",
+      "ver": "0.8.1-1PGDG.el8",
+      "file": "pgvector_18-0.8.1-1PGDG.el8.aarch64.rpm",
+      "size": 97268,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pgvector_18-0.8.1-1PGDG.el8.aarch64.rpm",
+      "sha256": "30c47a6a2ff38be3f8bbd965a58797439ef3655036598cca5d7924797abaac73"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pgvector_18",
+      "ver": "0.8.1-1PGDG.el9",
+      "file": "pgvector_18-0.8.1-1PGDG.el9.aarch64.rpm",
+      "size": 95065,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pgvector_18-0.8.1-1PGDG.el9.aarch64.rpm",
+      "sha256": "ff01f47e91d2a0fc7c9303ffa27be7ece8aa8daf932b9bb86ffb0c6a190613ca"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pgvector_18",
+      "ver": "0.8.1-1PGDG.el9",
+      "file": "pgvector_18-0.8.1-1PGDG.el9.x86_64.rpm",
+      "size": 105566,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pgvector_18-0.8.1-1PGDG.el9.x86_64.rpm",
+      "sha256": "a754817f05630106139ed41c4764edba8d506c82db444e02aa102282928f9c23"
     },
     {
       "os": "d12.aarch64",

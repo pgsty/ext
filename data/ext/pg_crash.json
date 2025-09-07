@@ -112,11 +112,11 @@
       "pkg": "pg_crash",
       "ext": "pg_crash",
       "pname": "pg_crash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -127,11 +127,11 @@
       "pkg": "pg_crash",
       "ext": "pg_crash",
       "pname": "pg_crash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -142,11 +142,11 @@
       "pkg": "pg_crash",
       "ext": "pg_crash",
       "pname": "pg_crash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -157,11 +157,11 @@
       "pkg": "pg_crash",
       "ext": "pg_crash",
       "pname": "pg_crash_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1174,6 +1174,46 @@
       "size": 13515,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_crash_17-1.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "251813cc82b2caf7fc88c64a4929083bb1fbca7852f53a5ec93caf9483a48a23"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_crash_18",
+      "ver": "1.0-1PIGSTY.el8",
+      "file": "pg_crash_18-1.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 13464,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_crash_18-1.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "2c1dfb797ee18fadac17f3cb22db09680945c16ec72a641aecfef0d2ad51e949"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_crash_18",
+      "ver": "1.0-1PIGSTY.el8",
+      "file": "pg_crash_18-1.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 13440,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_crash_18-1.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "eb10b5630cc4ad01bb71caecf88cb1a32db1deb86d679e54abbbde1b7a4c7cef"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_crash_18",
+      "ver": "1.0-1PIGSTY.el9",
+      "file": "pg_crash_18-1.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 13188,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_crash_18-1.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "f7f5cf3475f9f1c621011779b5202b408707140af8225ee8461f5a550fcad579"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_crash_18",
+      "ver": "1.0-1PIGSTY.el9",
+      "file": "pg_crash_18-1.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 13516,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_crash_18-1.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "20620db64c7800be0e6295d84433623244ed025179a9335bb35c50195e3e4e02"
     },
     {
       "os": "d12.aarch64",

@@ -121,11 +121,11 @@
       "pkg": "pg4ml",
       "ext": "pg4ml",
       "pname": "pg4ml_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -136,11 +136,11 @@
       "pkg": "pg4ml",
       "ext": "pg4ml",
       "pname": "pg4ml_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -151,11 +151,11 @@
       "pkg": "pg4ml",
       "ext": "pg4ml",
       "pname": "pg4ml_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -166,11 +166,11 @@
       "pkg": "pg4ml",
       "ext": "pg4ml",
       "pname": "pg4ml_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1183,6 +1183,46 @@
       "size": 302009,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg4ml_17-2.0-1PIGSTY.el9.x86_64.rpm",
       "sha256": "7d604217ca90a6d4d9feab5c0c3c4fcb544a4335d885df81d4ffe726ec2efeb7"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg4ml_18",
+      "ver": "2.0-1PIGSTY.el8",
+      "file": "pg4ml_18-2.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 349332,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg4ml_18-2.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "c2067c0323f4e2e4c684bebd2ff6f348e77df7a253489795dba88186a13ff534"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg4ml_18",
+      "ver": "2.0-1PIGSTY.el8",
+      "file": "pg4ml_18-2.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 349360,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg4ml_18-2.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "03f185b00fa458cb8103208d68ac443e373e89e6dc91a17a14101cc9251c5b8b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg4ml_18",
+      "ver": "2.0-1PIGSTY.el9",
+      "file": "pg4ml_18-2.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 301801,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg4ml_18-2.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "dff8af10bcb2def7f3b4b14ced9afb802d143912ebabac0c03bdb15a99170fa1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg4ml_18",
+      "ver": "2.0-1PIGSTY.el9",
+      "file": "pg4ml_18-2.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 301849,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg4ml_18-2.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "58cbb42836443fd2c20ca159651324daaf0fd3311906e5c8902015a9947f42c0"
     },
     {
       "os": "d12.aarch64",

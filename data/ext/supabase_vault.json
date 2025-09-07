@@ -68,7 +68,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "vault-0.3.1.tar.gz",
   "extra": {},
   "en_desc": "Supabase Vault Extension",
   "zh_desc": "在 Vault 中存储加密凭证的扩展 (supabase)",
@@ -117,11 +117,11 @@
       "pkg": "pg_vault",
       "ext": "supabase_vault",
       "pname": "vault_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -132,11 +132,11 @@
       "pkg": "pg_vault",
       "ext": "supabase_vault",
       "pname": "vault_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -147,11 +147,11 @@
       "pkg": "pg_vault",
       "ext": "supabase_vault",
       "pname": "vault_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -162,11 +162,11 @@
       "pkg": "pg_vault",
       "ext": "supabase_vault",
       "pname": "vault_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.3.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1479,6 +1479,46 @@
       "size": 26123,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vault_17-0.3.1-1PIGSTY.el9.x86_64.rpm",
       "sha256": "37de448b5e6f2669aef0691d4d366e8c04e6b8af9f8e4ced299da1dc427b167b"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "vault_18",
+      "ver": "0.3.1-1PIGSTY.el8",
+      "file": "vault_18-0.3.1-1PIGSTY.el8.aarch64.rpm",
+      "size": 26088,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vault_18-0.3.1-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "6ef719a92e34b75e1d197949c08654b6e6a44a480fa52eeb463536fc4311f04b"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "vault_18",
+      "ver": "0.3.1-1PIGSTY.el8",
+      "file": "vault_18-0.3.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 26412,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vault_18-0.3.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "45dab34f80671cde43ee9d3915d53a17bfdb59055d3bea035bb17741c95ce2ba"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "vault_18",
+      "ver": "0.3.1-1PIGSTY.el9",
+      "file": "vault_18-0.3.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 25630,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vault_18-0.3.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "bdc9384cb5e515c2b641b25883efcb76219431e03f3d213a779745eef99fbc53"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "vault_18",
+      "ver": "0.3.1-1PIGSTY.el9",
+      "file": "vault_18-0.3.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 26108,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vault_18-0.3.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "d3316198b91c2f37a00f4f727e48b73516e348dd0b24ccb20079a68f024970fb"
     }
   ]
 }

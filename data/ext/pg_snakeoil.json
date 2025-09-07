@@ -112,11 +112,11 @@
       "pkg": "pg_snakeoil",
       "ext": "pg_snakeoil",
       "pname": "pg_snakeoil_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -127,11 +127,11 @@
       "pkg": "pg_snakeoil",
       "ext": "pg_snakeoil",
       "pname": "pg_snakeoil_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -142,11 +142,11 @@
       "pkg": "pg_snakeoil",
       "ext": "pg_snakeoil",
       "pname": "pg_snakeoil_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -157,11 +157,11 @@
       "pkg": "pg_snakeoil",
       "ext": "pg_snakeoil",
       "pname": "pg_snakeoil_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1174,6 +1174,46 @@
       "size": 16604,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_snakeoil_17-1.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "32cfcbaf5d2ba303bbe80ae5c59d4a6d48243778527f973615d5766f6387b12b"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 18,
+      "name": "pg_snakeoil_18",
+      "ver": "1.4-1PIGSTY.el8",
+      "file": "pg_snakeoil_18-1.4-1PIGSTY.el8.aarch64.rpm",
+      "size": 16324,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_snakeoil_18-1.4-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "a6f81b387a75e2629219f0ebaa2d059fda6b3d9261e7ae4674a6c7a6ce8221b1"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "pg_snakeoil_18",
+      "ver": "1.4-1PIGSTY.el8",
+      "file": "pg_snakeoil_18-1.4-1PIGSTY.el8.x86_64.rpm",
+      "size": 16396,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_snakeoil_18-1.4-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "9751544312df50e818ca2ae750995c0d0e6766ae366287dab3fccff36084494b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "pg_snakeoil_18",
+      "ver": "1.4-1PIGSTY.el9",
+      "file": "pg_snakeoil_18-1.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 16203,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_snakeoil_18-1.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "943767b537f29f1f420916168b13ed1b1310a6ae904858dc88a65e45554db08e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "pg_snakeoil_18",
+      "ver": "1.4-1PIGSTY.el9",
+      "file": "pg_snakeoil_18-1.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 16653,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_snakeoil_18-1.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "8d3d75fcc667158cf7608a4d109a49c59b5b9ca4c023840b9d141e4356103c02"
     },
     {
       "os": "d12.aarch64",

@@ -143,11 +143,11 @@
       "pkg": "sslutils",
       "ext": "sslutils",
       "pname": "sslutils_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -158,11 +158,11 @@
       "pkg": "sslutils",
       "ext": "sslutils",
       "pname": "sslutils_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "1.4",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1585,6 +1585,26 @@
       "size": 24974,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/sslutils_17-1.4-1PGDG.rhel9.x86_64.rpm",
       "sha256": "cab0d7f6bd2c2a1fa0924e816252c62d3c814ef577e681aa1d507ed93be56eb2"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "sslutils_18",
+      "ver": "1.4-1PIGSTY.el9",
+      "file": "sslutils_18-1.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 23524,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/sslutils_18-1.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "c797ac2e0cc5710526e2346b94acf36d9f3908d46ccededed81c141fc5d0569b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "sslutils_18",
+      "ver": "1.4-1PIGSTY.el9",
+      "file": "sslutils_18-1.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 24773,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/sslutils_18-1.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "51761098f3ff04fa4bee11aed5ec31e52a8e4a407c2a45f55feee96077559022"
     }
   ]
 }

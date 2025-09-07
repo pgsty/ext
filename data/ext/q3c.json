@@ -139,11 +139,11 @@
       "pkg": "q3c",
       "ext": "q3c",
       "pname": "q3c_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -154,11 +154,11 @@
       "pkg": "q3c",
       "ext": "q3c",
       "pname": "q3c_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -169,11 +169,11 @@
       "pkg": "q3c",
       "ext": "q3c",
       "pname": "q3c_18",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.0.1",
+      "count": 1
     },
     {
       "pg": 18,
@@ -1746,6 +1746,36 @@
       "size": 104288,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/q3c_17-2.0.1-1PGDG.rhel9.x86_64.rpm",
       "sha256": "4fae30c851030155531204bc3fde27c6b8d88ce559dccc4e77e3bc178d4c2a70"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 18,
+      "name": "q3c_18",
+      "ver": "2.0.1-1PIGSTY.el8",
+      "file": "q3c_18-2.0.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 98908,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/q3c_18-2.0.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "d98a2ed962ff98be9a0be282c8cc161a01700e16fe7280534c01b312402bf177"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 18,
+      "name": "q3c_18",
+      "ver": "2.0.1-1PIGSTY.el9",
+      "file": "q3c_18-2.0.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 128844,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/q3c_18-2.0.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "ebc5c80538f909c6f923de63f8fc831a242a1f8c144e857d4dbc7d01c405145e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 18,
+      "name": "q3c_18",
+      "ver": "2.0.1-1PIGSTY.el9",
+      "file": "q3c_18-2.0.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 134688,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/q3c_18-2.0.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "56c47be55b2e0d6d3eb0ec447ff3b76b98867c3b280e35c521ebfca66ae9e85e"
     }
   ]
 }

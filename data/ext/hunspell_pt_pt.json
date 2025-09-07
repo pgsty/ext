@@ -68,7 +68,7 @@
     "14",
     "13"
   ],
-  "source": null,
+  "source": "hunspell-1.0.tar.gz",
   "extra": {},
   "en_desc": "Portuguese Hunspell Dictionary",
   "zh_desc": "Hunspell葡萄牙语全文检索词典",
