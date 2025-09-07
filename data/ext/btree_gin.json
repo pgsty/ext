@@ -31,9 +31,16 @@
   "requires": [],
   "require_by": [],
   "see_also": [
+    "btree_gist",
+    "unaccent",
     "fuzzystrmatch",
     "pg_trgm",
-    "unaccent"
+    "prefix",
+    "citext",
+    "pg_idkit",
+    "pgx_ulid",
+    "pg_uuidv7",
+    "permuteseq"
   ],
   "rpm_ver": "1.3",
   "rpm_repo": "CONTRIB",

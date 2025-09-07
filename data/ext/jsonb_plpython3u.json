@@ -33,9 +33,15 @@
   ],
   "require_by": [],
   "see_also": [
-    "hstore_plpython3u",
+    "plpython3u",
     "ltree_plpython3u",
-    "plpython3u"
+    "hstore_plpython3u",
+    "faker",
+    "jsonb_plperl",
+    "jsonb_plperlu",
+    "pg_jsonschema",
+    "jsquery",
+    "plpgsql"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

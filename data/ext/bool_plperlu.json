@@ -33,9 +33,14 @@
   ],
   "require_by": [],
   "see_also": [
-    "hstore_plperlu",
+    "plperlu",
     "jsonb_plperlu",
-    "plperlu"
+    "hstore_plperlu",
+    "plperl",
+    "bool_plperl",
+    "plpgsql",
+    "pg_tle",
+    "plv8"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

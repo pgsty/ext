@@ -31,9 +31,16 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "fuzzystrmatch",
-    "pg_trgm",
-    "unaccent"
+    "topn",
+    "quantile",
+    "lower_quantile",
+    "count_distinct",
+    "omnisketch",
+    "ddsketch",
+    "tdigest",
+    "first_last_agg",
+    "aggs_for_vecs",
+    "aggs_for_arrays"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

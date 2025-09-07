@@ -31,9 +31,16 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "fuzzystrmatch",
-    "pg_trgm",
-    "unaccent"
+    "dict_int",
+    "unaccent",
+    "pg_similarity",
+    "smlar",
+    "pg_summarize",
+    "pg_search",
+    "pgroonga",
+    "pg_bigm",
+    "zhparser",
+    "pg_bestmatch"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

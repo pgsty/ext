@@ -31,9 +31,15 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "hypopg",
-    "pg_qualstats",
-    "pg_stat_statements"
+    "pg_relusage",
+    "pg_visibility",
+    "pgstattuple",
+    "amcheck",
+    "toastinfo",
+    "pageinspect",
+    "pg_repack",
+    "pg_squeeze",
+    "old_snapshot"
   ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",

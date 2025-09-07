@@ -31,9 +31,14 @@
   "requires": [],
   "require_by": [],
   "see_also": [
+    "pgcrypto",
+    "adminpack",
+    "file_fdw",
     "pageinspect",
-    "pg_buffercache",
-    "pg_repack"
+    "pg_visibility",
+    "pg_repack",
+    "pg_rewrite",
+    "pg_squeeze"
   ],
   "rpm_ver": "1.1",
   "rpm_repo": "CONTRIB",

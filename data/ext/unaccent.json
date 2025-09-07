@@ -31,9 +31,16 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "fuzzystrmatch",
     "pg_trgm",
-    "tablefunc"
+    "fuzzystrmatch",
+    "citext",
+    "btree_gist",
+    "btree_gin",
+    "prefix",
+    "dict_xsyn",
+    "dict_int",
+    "pg_similarity",
+    "smlar"
   ],
   "rpm_ver": "1.1",
   "rpm_repo": "CONTRIB",

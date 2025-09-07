@@ -31,9 +31,16 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "fuzzystrmatch",
-    "pg_trgm",
-    "unaccent"
+    "aggs_for_arrays",
+    "aggs_for_vecs",
+    "arraymath",
+    "floatvec",
+    "vector",
+    "vchord",
+    "vectorscale",
+    "vectorize",
+    "pg_bestmatch",
+    "floatfile"
   ],
   "rpm_ver": "1.5",
   "rpm_repo": "CONTRIB",

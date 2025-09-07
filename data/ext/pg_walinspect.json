@@ -29,9 +29,14 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "hypopg",
-    "pg_qualstats",
-    "pg_stat_statements"
+    "basic_archive",
+    "pglogical",
+    "pg_failover_slots",
+    "wal2json",
+    "basebackup_to_shell",
+    "decoderbufs",
+    "test_decoding",
+    "pg_profile"
   ],
   "rpm_ver": "1.1",
   "rpm_repo": "CONTRIB",

@@ -34,8 +34,13 @@
   ],
   "see_also": [
     "pg4ml",
-    "columnar",
-    "pg_stat_statements"
+    "cube",
+    "plr",
+    "orafce",
+    "timescaledb",
+    "citus",
+    "pg_partman",
+    "citus_columnar"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

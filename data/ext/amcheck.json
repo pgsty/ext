@@ -31,9 +31,19 @@
   "requires": [],
   "require_by": [],
   "see_also": [
+    "pg_checksums",
+    "pg_catcheck",
+    "pg_visibility",
+    "pg_surgery",
+    "toastinfo",
+    "pagevis",
     "pageinspect",
-    "pg_buffercache",
-    "pg_repack"
+    "pg_freespacemap",
+    "pgstattuple",
+    "pg_repack",
+    "pg_rewrite",
+    "pg_squeeze",
+    "pg_dirtyread"
   ],
   "rpm_ver": "1.4",
   "rpm_repo": "CONTRIB",

@@ -31,9 +31,16 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "anon",
+    "pg_auth_mon",
+    "credcheck",
+    "login_hook",
+    "passwordcheck",
+    "passwordcheck_cracklib",
     "pgaudit",
-    "pgcrypto"
+    "set_user",
+    "pg_permissions",
+    "noset",
+    "sepgsql"
   ],
   "rpm_ver": "-",
   "rpm_repo": "CONTRIB",

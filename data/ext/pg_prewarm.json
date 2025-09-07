@@ -31,9 +31,18 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "pageinspect",
+    "pgfincore",
+    "pg_cooldown",
+    "pgcozy",
     "pg_buffercache",
-    "pg_repack"
+    "pg_repack",
+    "pg_rewrite",
+    "pg_squeeze",
+    "old_snapshot",
+    "pg_visibility",
+    "system_stats",
+    "pgmeminfo",
+    "pgstattuple"
   ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",

@@ -41,7 +41,19 @@
   "see_also": [
     "hstore_plpython3u",
     "jsonb_plpython3u",
-    "ltree_plpython3u"
+    "ltree_plpython3u",
+    "omni_python",
+    "pg4ml",
+    "faker",
+    "plv8",
+    "pllua",
+    "plluau",
+    "pltcl",
+    "pltclu",
+    "plperl",
+    "plperlu",
+    "plpgsql",
+    "pg_tle"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

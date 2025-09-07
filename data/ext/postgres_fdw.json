@@ -31,9 +31,21 @@
   "requires": [],
   "require_by": [],
   "see_also": [
+    "citus",
+    "plproxy",
+    "wrappers",
+    "pgspider_ext",
+    "dblink",
+    "mimeo",
+    "multicorn",
+    "mysql_fdw",
     "oracle_fdw",
-    "file_fdw",
-    "mysql_fdw"
+    "tds_fdw",
+    "db2_fdw",
+    "sqlite_fdw",
+    "firebird_fdw",
+    "documentdb_distributed",
+    "odbc_fdw"
   ],
   "rpm_ver": "1.1",
   "rpm_repo": "CONTRIB",

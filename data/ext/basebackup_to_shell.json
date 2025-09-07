@@ -29,9 +29,14 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "pageinspect",
-    "pg_buffercache",
-    "pg_repack"
+    "basic_archive",
+    "pg_walinspect",
+    "pg_repack",
+    "pg_rewrite",
+    "pg_squeeze",
+    "pg_dirtyread",
+    "pgfincore",
+    "pg_cooldown"
   ],
   "rpm_ver": "-",
   "rpm_repo": "CONTRIB",

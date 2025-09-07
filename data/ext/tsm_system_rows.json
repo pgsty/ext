@@ -33,9 +33,16 @@
     "documentdb"
   ],
   "see_also": [
+    "random",
+    "permuteseq",
+    "tsm_system_time",
     "documentdb",
-    "fuzzystrmatch",
-    "pg_trgm"
+    "pg_crash",
+    "pg_idkit",
+    "pgx_ulid",
+    "pg_uuidv7",
+    "pg_hashids",
+    "sequential_uuids"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

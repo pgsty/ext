@@ -31,9 +31,16 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "fuzzystrmatch",
-    "pg_trgm",
-    "unaccent"
+    "pg_idkit",
+    "pgx_ulid",
+    "pg_uuidv7",
+    "permuteseq",
+    "pg_hashids",
+    "sequential_uuids",
+    "topn",
+    "quantile",
+    "lower_quantile",
+    "count_distinct"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

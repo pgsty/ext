@@ -41,11 +41,16 @@
     "omni_auth",
     "omni_aws",
     "omni_credentials",
+    "omni_kube",
+    "omni_rest",
     "pgcryptokey",
     "pgsodium",
+    "pgsmcrypto",
+    "lo",
     "anon",
-    "pgaudit",
-    "pgauditlogtofile"
+    "pg_tde",
+    "sslutils",
+    "faker"
   ],
   "rpm_ver": "1.3",
   "rpm_repo": "CONTRIB",

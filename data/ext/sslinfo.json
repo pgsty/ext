@@ -31,9 +31,14 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "hypopg",
+    "sslutils",
+    "pg_profile",
+    "pg_tracing",
+    "pg_show_plans",
+    "pg_stat_kcache",
+    "pg_stat_monitor",
     "pg_qualstats",
-    "pg_stat_statements"
+    "pg_store_plans"
   ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",

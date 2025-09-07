@@ -44,7 +44,19 @@
   "see_also": [
     "data_historization",
     "ddl_historization",
-    "pg4ml"
+    "pg4ml",
+    "pg_drop_events",
+    "pg_profile",
+    "pg_upless",
+    "plpgsql_check",
+    "powa",
+    "table_version",
+    "unit",
+    "pldbgapi",
+    "plprofiler",
+    "pltclu",
+    "plv8",
+    "plluau"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

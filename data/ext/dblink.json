@@ -41,7 +41,19 @@
   "see_also": [
     "emaj",
     "mimeo",
-    "omni_schema"
+    "omni_schema",
+    "omni_test",
+    "omni_vfs_types_v1",
+    "pg_jobmon",
+    "pg_profile",
+    "plproxy",
+    "pgbouncer_fdw",
+    "postgres_fdw",
+    "citus",
+    "wrappers",
+    "pgspider_ext",
+    "pglogical",
+    "repmgr"
   ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",

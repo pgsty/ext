@@ -42,7 +42,17 @@
     "bool_plperl",
     "hstore_plperl",
     "jsonb_plperl",
-    "plperl"
+    "sparql",
+    "plperlu",
+    "bool_plperlu",
+    "jsonb_plperlu",
+    "hstore_plperlu",
+    "plpgsql",
+    "pg_tle",
+    "plv8",
+    "pllua",
+    "plprql",
+    "pldbgapi"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

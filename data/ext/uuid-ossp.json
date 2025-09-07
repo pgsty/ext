@@ -33,9 +33,16 @@
     "babelfishpg_tsql"
   ],
   "see_also": [
-    "babelfishpg_tsql",
-    "fuzzystrmatch",
-    "pg_trgm"
+    "pg_idkit",
+    "pgx_ulid",
+    "pg_uuidv7",
+    "pg_hashids",
+    "sequential_uuids",
+    "permuteseq",
+    "ddsketch",
+    "vasco",
+    "tdigest",
+    "babelfishpg_tsql"
   ],
   "rpm_ver": "1.1",
   "rpm_repo": "CONTRIB",

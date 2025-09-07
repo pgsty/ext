@@ -30,9 +30,18 @@
   "requires": [],
   "require_by": [],
   "see_also": [
+    "pg_dirtyread",
+    "amcheck",
     "pageinspect",
-    "pg_buffercache",
-    "pg_repack"
+    "pg_checksums",
+    "pg_catcheck",
+    "pg_cheat_funcs",
+    "pagevis",
+    "pg_visibility",
+    "pg_snakeoil",
+    "pg_orphaned",
+    "pg_crash",
+    "old_snapshot"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

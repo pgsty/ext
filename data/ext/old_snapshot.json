@@ -29,8 +29,15 @@
   "require_by": [],
   "see_also": [
     "pageinspect",
+    "pg_visibility",
+    "pgstattuple",
+    "pg_prewarm",
     "pg_buffercache",
-    "pg_repack"
+    "amcheck",
+    "pg_surgery",
+    "toastinfo",
+    "pg_relusage",
+    "pg_freespacemap"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

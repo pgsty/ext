@@ -34,8 +34,20 @@
   ],
   "see_also": [
     "postgis_tiger_geocoder",
+    "pg_similarity",
+    "smlar",
+    "pg_trgm",
+    "unaccent",
+    "pg_bigm",
+    "citext",
+    "btree_gist",
+    "btree_gin",
     "pg_search",
-    "pg_trgm"
+    "pgroonga",
+    "pgroonga_database",
+    "zhparser",
+    "pg_tokenizer",
+    "hunspell_cs_cz"
   ],
   "rpm_ver": "1.2",
   "rpm_repo": "CONTRIB",

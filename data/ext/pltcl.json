@@ -31,9 +31,14 @@
   "requires": [],
   "require_by": [],
   "see_also": [
+    "plpgsql",
     "pltclu",
+    "plperl",
     "plpython3u",
-    "plv8"
+    "pg_tle",
+    "plv8",
+    "pllua",
+    "pljava"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

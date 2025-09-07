@@ -29,8 +29,13 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "pageinspect",
-    "pg_buffercache",
+    "fio",
+    "lo",
+    "file_fdw",
+    "ddlx",
+    "pgdd",
+    "pg_catcheck",
+    "pg_cheat_funcs",
     "pg_repack"
   ],
   "rpm_ver": "2.1",

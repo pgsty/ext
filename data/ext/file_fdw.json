@@ -34,7 +34,13 @@
   ],
   "see_also": [
     "pg_sqlog",
-    "mysql_fdw",
+    "log_fdw",
+    "wrappers",
+    "sqlite_fdw",
+    "aws_s3",
+    "pg_bulkload",
+    "multicorn",
+    "hdfs_fdw",
     "postgres_fdw"
   ],
   "rpm_ver": "1.0",

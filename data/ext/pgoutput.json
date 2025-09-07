@@ -31,9 +31,17 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "pglogical",
     "wal2json",
-    "pg_bulkload"
+    "decoderbufs",
+    "decoder_raw",
+    "test_decoding",
+    "pglogical",
+    "pg_failover_slots",
+    "pgactive",
+    "kafka_fdw",
+    "pglogical_origin",
+    "wal2mongo",
+    "repmgr"
   ],
   "rpm_ver": "-",
   "rpm_repo": "CONTRIB",

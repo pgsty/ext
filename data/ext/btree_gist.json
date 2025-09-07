@@ -37,9 +37,16 @@
     "powa"
   ],
   "see_also": [
+    "btree_gin",
+    "unaccent",
+    "fuzzystrmatch",
+    "pg_trgm",
+    "prefix",
+    "citext",
+    "periods",
     "emaj",
     "omni_auth",
-    "periods"
+    "pgautofailover"
   ],
   "rpm_ver": "1.7",
   "rpm_repo": "CONTRIB",

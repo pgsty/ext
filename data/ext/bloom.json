@@ -31,9 +31,14 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "hstore",
-    "pg_trgm",
-    "uuid-ossp"
+    "hll",
+    "age",
+    "rum",
+    "pg_graphql",
+    "pg_jsonschema",
+    "jsquery",
+    "pg_hint_plan",
+    "hypopg"
   ],
   "rpm_ver": "1.0",
   "rpm_repo": "CONTRIB",

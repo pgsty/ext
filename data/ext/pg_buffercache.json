@@ -31,9 +31,20 @@
   "requires": [],
   "require_by": [],
   "see_also": [
-    "hypopg",
-    "pg_qualstats",
-    "pg_stat_statements"
+    "pg_repack",
+    "pgfincore",
+    "pgcozy",
+    "pg_prewarm",
+    "pgmeminfo",
+    "pg_squeeze",
+    "old_snapshot",
+    "system_stats",
+    "pg_visibility",
+    "pgstattuple",
+    "pg_cooldown",
+    "pg_stat_kcache",
+    "pgnodemx",
+    "powa"
   ],
   "rpm_ver": "1.5",
   "rpm_repo": "CONTRIB",
