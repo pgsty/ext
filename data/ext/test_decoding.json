@@ -64,7 +64,7 @@
   "en_desc": "SQL-based test/example module for WAL logical decoding",
   "zh_desc": "基于SQL的WAL逻辑解码样例",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "test_decoding"
   ],

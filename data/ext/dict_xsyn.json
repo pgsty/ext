@@ -64,7 +64,7 @@
   "en_desc": "text search dictionary template for extended synonym processing",
   "zh_desc": "用于扩展同义词处理的文本搜索字典模板",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "dict_xsyn"
   ],

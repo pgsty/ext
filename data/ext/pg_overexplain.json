@@ -49,7 +49,7 @@
   "en_desc": "Allow EXPLAIN to dump even more details",
   "zh_desc": "允许 EXPLAIN 转储更多详细",
   "comment": null,
-  "mtime": "2025-05-07",
+  "mtime": "2025-09-06",
   "siblings": [
     "pg_overexplain"
   ],

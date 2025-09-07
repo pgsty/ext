@@ -64,7 +64,7 @@
   "en_desc": "functions for verifying relation integrity",
   "zh_desc": "校验关系完整性",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "amcheck"
   ],

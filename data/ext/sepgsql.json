@@ -64,7 +64,7 @@
   "en_desc": "label-based mandatory access control (MAC) based on SELinux security policy.",
   "zh_desc": "基于SELinux标签的强制访问控制",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "sepgsql"
   ],

@@ -66,7 +66,7 @@
   "en_desc": "transform between jsonb and plperlu",
   "zh_desc": "在 jsonb 和 plperlu 之间转换",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "bool_plperlu",
     "hstore_plperlu",

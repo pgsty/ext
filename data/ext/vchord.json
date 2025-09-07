@@ -10,7 +10,7 @@
   "tags": [
     "pgrx"
   ],
-  "version": "0.4.3",
+  "version": "0.5.1",
   "repo": "PIGSTY",
   "lang": "Rust",
   "contrib": false,
@@ -41,7 +41,7 @@
     "pgml",
     "vectorize"
   ],
-  "rpm_ver": "0.4.3",
+  "rpm_ver": "0.5.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "vchord_$v",
   "rpm_pg": [
@@ -53,7 +53,7 @@
   "rpm_deps": [
     "pgvector_$v"
   ],
-  "deb_ver": "0.4.3",
+  "deb_ver": "0.5.1",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-vchord",
   "deb_deps": [
@@ -67,167 +67,17 @@
   ],
   "source": "VectorChord-0.4.3.tar.gz",
   "extra": {
-    "pgrx": "0.14.1"
+    "pgrx": "0.16.0"
   },
   "en_desc": "Vector database plugin for Postgres, written in Rust",
   "zh_desc": "使用Rust重写的高性能向量扩展",
-  "comment": "pgrx=0.14.1",
+  "comment": "pgrx=0.16.0",
   "mtime": "2025-02-20",
   "siblings": [
     "vchord"
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "postgresql-18-vchord",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "postgresql-18-vchord",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "vchord_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "vchord_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "vchord_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "vchord_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "postgresql-18-vchord",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "postgresql-18-vchord",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "postgresql-18-vchord",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "vchord",
-      "ext": "vchord",
-      "pname": "postgresql-18-vchord",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -239,7 +89,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -254,7 +104,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -269,7 +119,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -284,7 +134,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -299,7 +149,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -314,7 +164,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -329,7 +179,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -344,7 +194,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -359,7 +209,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -374,7 +224,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -389,7 +239,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -404,7 +254,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -419,7 +269,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -434,7 +284,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -449,7 +299,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -464,7 +314,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -479,7 +329,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -494,7 +344,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -509,7 +359,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -524,7 +374,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -539,7 +389,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -554,7 +404,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -569,7 +419,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -584,7 +434,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -599,7 +449,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -614,7 +464,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -629,7 +479,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -644,7 +494,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -659,7 +509,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -674,7 +524,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -689,7 +539,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -704,7 +554,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -719,7 +569,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -734,7 +584,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -749,7 +599,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -764,7 +614,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -779,7 +629,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -794,7 +644,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -809,7 +659,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -824,7 +674,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.3",
+      "pkg_ver": "0.5.1",
       "count": 1
     },
     {
@@ -983,401 +833,401 @@
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-14-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 711920,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-14-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "1aca93d9cf318bdecf8b97227533bfc45ed7089aa14bb0e3f51378d7e238b67d"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-14-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 850784,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-14-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "8abe262b861ee5c6d9e312d7b72372930b89c694114d894052dd568cf9bcb0b6"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-14-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 1041052,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-14-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "aa8f7e4df43d2d2791464936452727595312c28b4aa02dbbc85daa16d3ef7035"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-14-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 1033088,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-14-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "9d244ff45e9b723586a29f3733204b3b871dcea8c8d306381d9ede31ff746e8c"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-14-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "size": 833052,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-14-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "1edcdf6c6c5ec64a03522601a2247e6b43c0af9847f2092a674322f1ff68f78d"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-14-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "size": 1001672,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-14-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "27a66f09850269c4b8f37425ad5c8d95e3dc198ab25bb13ef54538f2df4c2d8d"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-14-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "size": 1151646,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-14-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "f6c09db6b0329a1c831ad144fcfef5e85c7ae671b062d7e991390dca471905d0"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-14-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "size": 1138046,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-14-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "0e986e5ab6271d49233336095691a97293ab320109683484ebc3e30facd339df"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-14-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "size": 825938,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-14-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "180f46684ce9a69690729dccfa4beaf8b12e17bce56d5e7bee2aa7d61bafd59e"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-14-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "size": 994178,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-14-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "4bd4f71bf5a11ec17a78801d7822867f7e65f829dee2fd8c8b409baf48b24de1"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-14-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "size": 1141434,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-14-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "d237ee307014d4401e236dbb50fed72e0a9b4b5441dbc7518ea14077aae04897"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-14-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "size": 1128966,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-14-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "38fb833a939023b62c6fd4cf59ccf99f5c1dfe05d7683c4ce74fd6bf24134620"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-15-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 712504,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-15-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "d8e4da087a2ae92b218adbe0e76e0053968ec6205f196dc7b0e54242c97e1b88"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-15-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 850732,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-15-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "7cb9f597d505857c8dc9a194a620cac148e417734258977785c0dc2dfa1d01f7"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-15-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 1041684,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-15-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "fb0c062cc343073bbff3d6f587b6b6309e834a9a774ac21eb2f59605a9bfdc6a"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-15-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 1032216,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-15-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "0cb10cbfb4788bcbdd2cc2ab352bff92fe0b4ce92697eeb15a4d155fdf2c748d"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-15-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "size": 832380,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-15-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "f61c5604129b8b114cdfb3db1a990add01d8226b8391edaf515696d0a0049e61"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-15-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "size": 1002046,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-15-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "eff27ce1753cc84b16157a5e00b07db25ceb078bc9ee40514635a607d0bb519f"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-15-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "size": 1151620,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-15-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "9b35b5a759769822146a959e558a2a247b6961fd9e80d89447a0039a1f9975dc"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-15-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "size": 1140362,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-15-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "3d65a6b854d268b2f5fa7fb51b50cc22c0f115623315674fd6e6a4096613f7fd"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-15-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "size": 826726,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-15-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "72baffb7edb18f186b7660541272412659163230124746b0ec7fb2e966b21a32"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-15-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "size": 994610,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-15-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "a07660239cf1cb6c32bc7aeb0c04b4b477143e96cdbb1b7b8368cf7592508228"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-15-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "size": 1141292,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-15-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "9fef510836d934b184f65cb31e532dfe62cd82a495f961ec36be714512d675d6"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-15-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "size": 1129630,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-15-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "53b180924737c3d9d183963dbe7053aa9138e31cd5413cbafdfa077033b1b1bf"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-16-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 712548,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-16-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "1d7ece7bd471d5b87baca38009128248a979e997c4a10e537328070ed12ba4ea"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-16-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 850000,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-16-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "7fdbbbb27f24a74ba825115294b08d3586901bf0e707fde5d591aec5c8b5df67"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-16-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 1042100,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-16-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "f27f3959cf67c90cc29f01ccd76fa1397267491d9efcd5c1cd131a1ab8cee717"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-16-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 1032864,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-16-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "b7f481a48204cd43e67e01eb91c9f77c439b15748c616c55132c8964be767c49"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-16-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "size": 832908,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-16-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "646ead7c7d1b20a2c3e499e937d0e77b005cfcce246036ec472a663edcb20cfd"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-16-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "size": 1002090,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-16-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "14729b450572d9fe7ca0b7ecc9d01aacf79c9a056602f64414f2bd8cc1d04d8c"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-16-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "size": 1150234,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-16-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "a08ada6adabf7b79072f14ddb6120b5a7c6321fa8c16d43b7937c81dbdf73f6b"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-16-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "size": 1138586,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-16-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "354126e2931f6b50a565314ecfd69e6423930b7305baaeb49fecd80281f99f88"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-16-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "size": 826446,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-16-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "17a1200862eb6ba37b48595f756ed800b7c6e240962318df62605c575a8ae545"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-16-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "size": 993508,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-16-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "cf31b2b566f26efa128f4e0edfcdb64420be41fc4e4cf7df4c510d4c8ff0e0ba"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-16-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "size": 1140388,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-16-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "97f849fb096edd37dd634083f4eedbd24012d09da1b7f10270e14c7fbc7596fe"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-16-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "size": 1131446,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-16-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "fdc6790758d214744e41b54fdaa12fab4c9cadca13b87a901f1bd8c677596353"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-17-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 729680,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-17-vchord_0.4.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "9fe85b3833572e7350d8b6f7b0e8a708d1a4ad4e310360d4a1f7e2a052d9bf5c"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-17-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 871424,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-17-vchord_0.5.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "652d376c6cc8e8dc973dcd7abc25c39c3de4d87e0d42450eba864eb0ca412159"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-vchord",
-      "ver": "0.4.3-1PIGSTY~bookworm",
-      "file": "postgresql-17-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 1062056,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-17-vchord_0.4.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "ef4ce6b45674d646dedfde514f66149f0f2a8b2a533f16fae661586132540abe"
+      "ver": "0.5.1-1PIGSTY~bookworm",
+      "file": "postgresql-17-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 1059644,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/v/vchord/postgresql-17-vchord_0.5.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "a862a63eedaa44870f09a9a595c4eb2e3cd368176e12b39e14e62de4008d9ef2"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-17-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "size": 854344,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-17-vchord_0.4.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "3be6e5d3c3280bcf60c69b9846246d706bbb0539b7a3fb8d61242ec09cf052ba"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-17-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "size": 1026834,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-17-vchord_0.5.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "c1baef50df6209526a0f6c21a87d7fe7288727f0adfebbcbf44193d88e31e820"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-vchord",
-      "ver": "0.4.3-1PIGSTY~jammy",
-      "file": "postgresql-17-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "size": 1174784,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-17-vchord_0.4.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "ffe8b99369ce7de92589a773f34f0f0d0a61a3618387c130b1cc91a850979664"
+      "ver": "0.5.1-1PIGSTY~jammy",
+      "file": "postgresql-17-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "size": 1171362,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/v/vchord/postgresql-17-vchord_0.5.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "3ac8459b571267ff7be3b6827a6f6324e9f19828c30533977ef2e41c4c590cf8"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-17-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "size": 847504,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-17-vchord_0.4.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "30b51e6f42b636647ce75e7adc1cc2e0847a05acd224441f31d7c80dab4cbea7"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-17-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "size": 1021470,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-17-vchord_0.5.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "66c4b27d8ee80d486e775d2c12229d66f5776c5bfe7024791687b6b41c969d31"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-vchord",
-      "ver": "0.4.3-1PIGSTY~noble",
-      "file": "postgresql-17-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "size": 1164326,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-17-vchord_0.4.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "cac9c71b38b8d7d3fb9d92112667ea0282dc0fc81f00f56e1b116b446a36b3f9"
+      "ver": "0.5.1-1PIGSTY~noble",
+      "file": "postgresql-17-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "size": 1160794,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/v/vchord/postgresql-17-vchord_0.5.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "aeaeb0d9043ae68d343df1a16128125bf996db58c441aaf268e61bab2e25f4a4"
     },
     {
       "os": "el8.aarch64",
       "pg": 14,
       "name": "vchord_14",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_14-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 886044,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_14-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "8ef41b06aba265e8f6c930d13f380e7181f523d61444f9bbe10c7754367f4f41"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_14-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "size": 1056904,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_14-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "266611b9c225352f013d1f4395801390225b972a475e99fe214da17b6aefb1b0"
     },
     {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "vchord_14",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_14-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 1250356,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_14-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "d0c2db79efdf9f89c1dcfa8d1888cb40ffc0db32ca49106e2bba6037ff40b8b0"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_14-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 1241464,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_14-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "183043453e08cecdb5a5734d57c67dc4c07ea434384da1684cbd6d4192436641"
     },
     {
       "os": "el9.aarch64",
       "pg": 14,
       "name": "vchord_14",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_14-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 944168,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_14-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "350fa7a4b1e68070edcbe2e2626c3d225eb3479bc8116e06163ab875839a2b86"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_14-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 1133381,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_14-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "864acc76f759c9df0ced0ad23e183611e9f6c6ed04a42e6709e5abdc6f931be9"
     },
     {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "vchord_14",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_14-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 1263712,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_14-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "ba70ddea15910ec9b2e02e8101b2d1862362d8b82300f9be93d4b0fed5b8de8c"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_14-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 1253613,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_14-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "e7d51348c7ba2ab4772e49dd6e871257d52a2bd488e70ddd4adc6607928865e7"
     },
     {
       "os": "el8.aarch64",
       "pg": 15,
       "name": "vchord_15",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_15-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 886188,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_15-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "77a807af1ef074696c5c70167d762098eeca8cdc42500ec1edca17c1bd9dbdac"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_15-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "size": 1056468,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_15-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "15735cad9c9a973c7e28ce114743f90471e484839b717f772c738990b6d26567"
     },
     {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "vchord_15",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_15-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 1250088,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_15-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "ae4fb1aaffe67ccbae8948587440b9681e1d8d37142ae4bb5ae99ec9170c5b02"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_15-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 1241256,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_15-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "2ec27c934333cc65c7ff1d459f38695a74be090a13bda3aeb7712ceb3c89a0c0"
     },
     {
       "os": "el9.aarch64",
       "pg": 15,
       "name": "vchord_15",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_15-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 944351,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_15-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "d184bb65e506c5b7ff3375cd3e8a23a27734edb7b27ff67d2ae719ddb335ede1"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_15-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 1133156,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_15-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "cba049d2af11b185c269a7da6753f9b3531787851bc6d21a747c82cf1ac24047"
     },
     {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "vchord_15",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_15-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 1263480,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_15-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "213f02527bdeaba34311f975e9d9a0de4164b39152554f335a4e1d44290cb472"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_15-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 1253042,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_15-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "64c8f7b606d1de06d59f0da44bd83e5ef0478b820994d2991a976e5033752d28"
     },
     {
       "os": "el8.aarch64",
       "pg": 16,
       "name": "vchord_16",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_16-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 886376,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_16-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "3ec1b41e49d6a6f2094c4ae83092595a76ae1cbc21df0fd8e34d7d0bedcb2f4d"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_16-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "size": 1056860,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_16-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "c97efc6c305f573941f006f0ec369cccff313239fd967c8fdc2c8c726d3126a9"
     },
     {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "vchord_16",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_16-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 1250588,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_16-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "36af704492a893c7420d8e7993c217a28438b9d29700fbe4dbd6a7226c15d415"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_16-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 1240960,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_16-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "fd48926a418c9d3c5ad1376f07ba11dd365e2e69d2c9612cdb4e6d2ed08c9b9a"
     },
     {
       "os": "el9.aarch64",
       "pg": 16,
       "name": "vchord_16",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_16-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 944393,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_16-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "076e0e726504fc9bcac97cd7b9f71fe0e8002cd76c7a126469237417fc5a61ac"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_16-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 1133499,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_16-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "0de1a9b894ec6199f7c4830f3039460924c6ff0307d267a506c6ca725050a72d"
     },
     {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "vchord_16",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_16-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 1262649,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_16-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "e7bdcfe626c058a58796a545eead21e70d5536cbc93d0bac6c13e32995497483"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_16-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 1253665,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_16-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "7213daa42471e5f55e2425171a3c1899ff20317a135fb7b72c5147d4608b408c"
     },
     {
       "os": "el8.aarch64",
       "pg": 17,
       "name": "vchord_17",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_17-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 906580,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_17-0.4.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "6d83937ab913a0b28afcdb58c7bfbc375b7b9ec4c6b54b111ffcb78ef9eefff8"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_17-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "size": 1084512,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/vchord_17-0.5.1-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "50ea6e338a98dbd322444db52bd88f547668c4364fa10c07f8e4eff31035a3d6"
     },
     {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "vchord_17",
-      "ver": "0.4.3-1PIGSTY.el8",
-      "file": "vchord_17-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 1273508,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_17-0.4.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "0e08eef241ebd3da7f974a921afc1f3d7dba8ff5005143c897d6008c66ceb460"
+      "ver": "0.5.1-1PIGSTY.el8",
+      "file": "vchord_17-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "size": 1274080,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/vchord_17-0.5.1-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "0aece032e2f888dd2ffcf720b400cdfee002581940b7312e217b22cb649a8476"
     },
     {
       "os": "el9.aarch64",
       "pg": 17,
       "name": "vchord_17",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_17-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 966852,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_17-0.4.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "557459b0dda34cdadacf7598e0e8dd18816c7c8d7a414d34d6d45c74e64b781a"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_17-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "size": 1162040,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/vchord_17-0.5.1-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "87f93a730fca6646b49640fe97a99a40464c6c914589308908798b3b926d3652"
     },
     {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "vchord_17",
-      "ver": "0.4.3-1PIGSTY.el9",
-      "file": "vchord_17-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 1285813,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_17-0.4.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "fdc313d5b5ca32ddc81d30aaaab0ec3b0c06b3d66efeecb6bf71fcdb98f7aea1"
+      "ver": "0.5.1-1PIGSTY.el9",
+      "file": "vchord_17-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "size": 1290330,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/vchord_17-0.5.1-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "f0f261473053c59ff24beb885e02a267a7a2f864ff00968a73285c2d320ba27e"
     }
   ]
 }

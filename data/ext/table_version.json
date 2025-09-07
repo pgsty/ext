@@ -25,6 +25,7 @@
     "table_version"
   ],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -68,162 +69,12 @@
   "en_desc": "PostgreSQL table versioning extension",
   "zh_desc": "PostgreSQL 版本控制表扩展",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "table_version"
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "postgresql-18-table-version",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "postgresql-18-table-version",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "table_version_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "table_version_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "table_version_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "table_version_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "postgresql-18-table-version",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "postgresql-18-table-version",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "postgresql-18-table-version",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "table_version",
-      "ext": "table_version",
-      "pname": "postgresql-18-table-version",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -235,7 +86,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -250,7 +101,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -325,7 +176,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -340,7 +191,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -355,7 +206,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -370,7 +221,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -385,7 +236,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -400,7 +251,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -475,7 +326,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -490,7 +341,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -505,7 +356,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -520,7 +371,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -535,7 +386,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -550,7 +401,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -625,7 +476,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -640,7 +491,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -655,7 +506,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -670,7 +521,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -685,7 +536,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -700,7 +551,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -775,7 +626,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -790,7 +641,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -805,7 +656,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -820,7 +671,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -835,7 +686,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -850,7 +701,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -925,7 +776,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -940,7 +791,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -955,7 +806,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     },
     {
@@ -970,7 +821,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11.0",
+      "pkg_ver": "1.11.1",
       "count": 1
     }
   ],
@@ -979,301 +830,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-13-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-13-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "ce7976f17a234962a3e6b88fbdf17fe34de15a435c935c140a625e4bb2999425"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-13-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 28724,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-13-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "a97c58d80d5f264d14522b346fba9f5cb6eb06816b72079ea42116b8406eccd5"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-13-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-13-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "0ee9992b13d0155bcb45cab143c0df0f9a5ee921080a80683e620467d9082e5d"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-13-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 28724,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-13-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "8ab11410c5dea5d5536b7397d207e0e5d6bf55309be7867d8b0f2dbbdadde08b"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-13-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "size": 26526,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-13-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "d612659d4ae3f49be5d3131e1844c652b43d650aebbc3de0c7b2ad52e91b35c1"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-13-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "size": 26552,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-13-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "337151ce64d770a4e93dfe74a83b1df42fa2b6c9805206307d2aa3dc38bf8b7e"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-13-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "size": 26526,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-13-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "d260409ee614bbc181984a9198651b557da75ab9fb9dd719849dba398f4d6a1b"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-13-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "size": 26552,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-13-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "98d8530a9d9bf48d304b8a40a8c773d23404ac2b4ff704a867b952443284ace3"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-13-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "size": 26080,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-13-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "3aa17b342814204096889da63cce2b94acbb10f4e4b087f1d67259168c355e99"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-13-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "size": 26118,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-13-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "237a2b25faa852ae76ae7b6ce6f137bed73a18004299f4739c2cd5ba176c7215"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-13-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "size": 26080,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-13-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "ae9dbfc27cce073bee586e16c2f577568cbc01258ad48ba1e2a0ae4bd4c501b5"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-13-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "size": 26118,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-13-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "9b756f252426100185f7302047ab00a632f66979b3267d4f4b89f141f4fa65dd"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-14-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-14-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "0615f51a24aae4366b6e0aa0fe24db69e04526d656c8f109f1658c8d42422e51"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-14-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 28716,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-14-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "881bac462411b938699860750b939b9882666d8d4ef42fb8df30d8d8675d0757"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-14-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-14-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "9dd6fa40653cc5e5ec90acab90a16f929642365b3b5d8ff86293a11761349c20"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-14-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 28716,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-14-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "0623b46d265cd081544f097e6185518b97385d743bc0abcd9a51d54e78edb87e"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-14-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "size": 26522,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-14-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "0a8ec2a83b14ffd49ada32eec0970c5c92ecbb9d495690b34911550878808a44"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-14-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "size": 26544,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-14-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "9fe63c8c37b13e16aa983e300f6dbc86b06d4502457bf544e0bafda1a2ddae85"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-14-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "size": 26522,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-14-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "e6c2b3bae02885f5c63d7704e0404b9e88ece71b52413a9bc33618028dd95178"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-14-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "size": 26544,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-14-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "471529bcc93c0979aa9617ca24a5a96b72a23d33a33ac9f97f519706e6a81c5c"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-14-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "size": 26090,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-14-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "8b150fd4ea05f1676a719cdebb2d8124beb7aabb3a87e2a40ff36072783df606"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-14-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "size": 26116,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-14-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "a225bb809fe0339e6f24709b2cc60f2a7964258774cade9441cefe7d0e7a383a"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-14-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "size": 26090,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-14-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "480d59f576dbc39c179b50dd2e79d089a6301af35692b3a1157e13035a99a42b"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-14-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "size": 26116,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-14-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "b6697cc4ead31ff14b41f0f537c6b4e3f204f40b20c03776af102212b16361d6"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-15-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-15-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "53383b80b3931787c5b49b9dbd189a4e35dfc90f65297238602c5c62bfdadfac"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-15-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 28724,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-15-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "eff177ac7a2db5f6b69e1d82aa9986bac4ee282527937d4503b2760b5b534c54"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-15-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-15-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "eea5a921909844847666eea09027b235921114b4fdf0e22d286e6c7910ab3974"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-15-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 28724,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-15-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "274b577f2cb2b0c17d7e269288874e75307539a284194be445138fefbc8ce879"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-15-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "size": 26520,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-15-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "688a542111bb35f7438d03cd1c0833225e540185825a8d968adbe01fd26d2d43"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-15-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "size": 26546,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-15-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "2425350142448ecfb809f473bdb5fd952730819ae0efa77781c85246e87e89af"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-15-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "size": 26520,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-15-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "5cb7619e9d8c5d7a623fa6f7d0b50c1419da183fb879d689fea7a6522fe01b3e"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-15-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "size": 26546,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-15-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "5c0247c12a3ff451f376ad830d8cf44cc49534a29519376259f13e97d4e7a976"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-15-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "size": 26080,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-15-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "fea502846bcd2fd7ce49155fe63260f04e884dfecea52b6d62b18d3a94ee5e0c"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-15-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "size": 26118,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-15-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "ca709d3c200d9e808c213f4d017eb264707bf98150ef642e58beefe6e1aae01a"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-15-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "size": 26080,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-15-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "ad602a3a36b4c5549b082b85ab2c48dd37e3629370a30a25f33c595caf864503"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-15-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "size": 26118,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-15-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "a006beb33ce587bc62e16326ef7f647f235cb6552086ac91bb81e6f5c29a3722"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-16-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-16-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "76b84752d4f9fc29a613ef7798dd3d5a4594d9fd31359c8fc1a9fa4eb42f9deb"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-16-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 28720,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-16-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "838e0d43456af3de8ff9ab136dcf0fd56f19a82cc5d14aab6bbc6421eb2c10a7"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-16-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 28660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-16-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "017a24fafafc3a411f1b9e9f1835d52f8c34593c96765b5debc8b26dc50ab376"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-16-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 28720,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-16-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "5cae281a0db59a8467a7ee5fd9e9432eed7bf56a13e4fb7e546b5007a4e70e73"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-16-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "size": 26526,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-16-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "37be5717e577cc748e04f831cd6019ab9097d537ce02b4a7f1523117002cfd65"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-16-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "size": 26546,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-16-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "f4af979615db7833820882e15ed9057225a15eb3f460f1afed80fbb61067b521"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-16-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "size": 26526,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-16-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "1ebc39b1bb780edf13297a015fd354e8e8541c8033a835d97e4037ec90ea6a9d"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-16-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "size": 26546,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-16-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "c68274e8fd4d43214f7db5c695324be07845da439390fb9d5bdb2ec5b55e93e4"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-16-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "size": 26092,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-16-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "0d55fd1038b495117e64e4541ddc97b79de5dcd7eed361015c5fa0e5a00f205d"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-16-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "size": 26120,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-16-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "0f7aa6c1fc7b33b0e62b39e5c0e90fd5ee409d503d13891532b202afe4b2b450"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-16-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "size": 26092,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-16-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "165e3fe1d241a842fb51cc9df4fd84afe0bf46b56a2178794a58d443a332978a"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-16-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "size": 26120,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-16-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "391907b2ce3ee1a4e13593d1aee5a6f2870196c322deb512cf7fe4b4d19aec8c"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-17-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 28656,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-17-table-version_1.11.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "2752646fad58f242fb9ae4350c7bd3ce468101f4fd84c1871fb35dde57f1dfd5"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-17-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "size": 28720,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-17-table-version_1.11.1-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "3b594c01fe62207de893d393f145d0f1ee576b5d4c2f98e3b70b1b3e2bb2e797"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-table-version",
-      "ver": "1.11.0-1PIGSTY~bookworm",
-      "file": "postgresql-17-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 28656,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-17-table-version_1.11.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "ac636934aa44f9e101e037949188207a9843149976f9b99faa4d18fa9262779a"
+      "ver": "1.11.1-1PIGSTY~bookworm",
+      "file": "postgresql-17-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "size": 28720,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/table-version/postgresql-17-table-version_1.11.1-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "e857786317dccf729618ed34d600c0369629111fee0910f8124310dea8de14a0"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-17-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "size": 26524,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-17-table-version_1.11.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "f890be037985ad4dfe76c0a94865f9d981ad87872e67ef3982ccda67f842b258"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-17-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "size": 26544,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-17-table-version_1.11.1-1PIGSTY~jammy_arm64.deb",
+      "sha256": "885f971c469f417ef83ca8d0f4233bc4783bf4a03f9d34afb59544ccb98b40b5"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-table-version",
-      "ver": "1.11.0-1PIGSTY~jammy",
-      "file": "postgresql-17-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "size": 26524,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-17-table-version_1.11.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "4d0daf3dd62cd84b85328e963b64782af3f1a9c3db5c5ca0ba4f5b853a82cd8e"
+      "ver": "1.11.1-1PIGSTY~jammy",
+      "file": "postgresql-17-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "size": 26544,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/table-version/postgresql-17-table-version_1.11.1-1PIGSTY~jammy_amd64.deb",
+      "sha256": "49eecfbc3aea24c720b52189e6fda8968d9b15b816e4f14d7e888d501d341853"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-17-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "size": 26078,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-17-table-version_1.11.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "5d678f9e2772928817e91f7f79357d65a2b521a7d0e891bbd31efa5de1bba53e"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-17-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "size": 26120,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-17-table-version_1.11.1-1PIGSTY~noble_arm64.deb",
+      "sha256": "115f63b5aa8a35608fc2dde2486d2f23b4ac12aa4226c7b4e26373f6e192fb28"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-table-version",
-      "ver": "1.11.0-1PIGSTY~noble",
-      "file": "postgresql-17-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "size": 26078,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-17-table-version_1.11.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "3738304c00d25a83d7d627b417eb17c7f70f9a4eb9f51bb7c1ecdd027578115e"
+      "ver": "1.11.1-1PIGSTY~noble",
+      "file": "postgresql-17-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "size": 26120,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/table-version/postgresql-17-table-version_1.11.1-1PIGSTY~noble_amd64.deb",
+      "sha256": "16300ab642185aab0fe7deb40c22afb7402f170d1ef3f4bd4770974f70d74dd6"
     },
     {
       "os": "el8.aarch64",

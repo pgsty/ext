@@ -72,7 +72,7 @@
   "en_desc": "PL/Python3U untrusted procedural language",
   "zh_desc": "PL/Python3 存储过程语言（未受信/高权限）",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "hstore_plpython3u",
     "jsonb_plpython3u",

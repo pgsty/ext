@@ -63,162 +63,12 @@
   "en_desc": "show details on toasted datums",
   "zh_desc": "显示TOAST字段的详细信息",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "toastinfo"
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "postgresql-18-toastinfo",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.5",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "postgresql-18-toastinfo",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.5",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "toastinfo_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "toastinfo_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "toastinfo_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "toastinfo_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "postgresql-18-toastinfo",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.5",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "postgresql-18-toastinfo",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.5",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "postgresql-18-toastinfo",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.5",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "toastinfo",
-      "ext": "toastinfo",
-      "pname": "postgresql-18-toastinfo",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.5",
-      "count": 1
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -260,8 +110,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 17,
@@ -275,8 +125,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 17,
@@ -290,8 +140,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 17,
@@ -305,8 +155,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 17,
@@ -410,8 +260,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 16,
@@ -425,8 +275,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 16,
@@ -440,8 +290,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 16,
@@ -455,8 +305,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 16,
@@ -560,8 +410,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 15,
@@ -575,8 +425,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 15,
@@ -590,8 +440,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 15,
@@ -605,8 +455,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 15,
@@ -710,8 +560,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 14,
@@ -725,8 +575,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 14,
@@ -740,8 +590,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 14,
@@ -755,8 +605,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 14,
@@ -860,8 +710,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 13,
@@ -875,8 +725,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 13,
@@ -890,8 +740,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 13,
@@ -905,8 +755,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.4",
-      "count": 1
+      "pkg_ver": "1.5",
+      "count": 2
     },
     {
       "pg": 13,
@@ -1271,64 +1121,14 @@
       "sha256": "76c7428879ceaf6e83bdb7fab85b4a5e9138bf260f4f4b85510e4e350d55c0ef"
     },
     {
-      "os": "d12.aarch64",
-      "pg": 18,
-      "name": "postgresql-18-toastinfo",
-      "ver": "1.5-2.pgdg120+1",
-      "file": "postgresql-18-toastinfo_1.5-2.pgdg120+1_arm64.deb",
-      "size": 12780,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/t/toastinfo/postgresql-18-toastinfo_1.5-2.pgdg120+1_arm64.deb",
-      "sha256": "fecf0cef39d6025ae545f28cc342d40e566213992560eaa670f03d8b13d2bb16"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 18,
-      "name": "postgresql-18-toastinfo",
-      "ver": "1.5-2.pgdg120+1",
-      "file": "postgresql-18-toastinfo_1.5-2.pgdg120+1_amd64.deb",
-      "size": 12856,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/t/toastinfo/postgresql-18-toastinfo_1.5-2.pgdg120+1_amd64.deb",
-      "sha256": "ade8bb33c14c7cc45bd33997a99ef1bf81f2ecbdd8434d5ed462723f89b64a73"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 18,
-      "name": "postgresql-18-toastinfo",
-      "ver": "1.5-2.pgdg22.04+1",
-      "file": "postgresql-18-toastinfo_1.5-2.pgdg22.04+1_arm64.deb",
-      "size": 12688,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/t/toastinfo/postgresql-18-toastinfo_1.5-2.pgdg22.04+1_arm64.deb",
-      "sha256": "5d36f39b1548de0e56bebe5e35e8d82456d1c3fcef2f73340d262ff1083789c9"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 18,
-      "name": "postgresql-18-toastinfo",
-      "ver": "1.5-2.pgdg22.04+1",
-      "file": "postgresql-18-toastinfo_1.5-2.pgdg22.04+1_amd64.deb",
-      "size": 12968,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/t/toastinfo/postgresql-18-toastinfo_1.5-2.pgdg22.04+1_amd64.deb",
-      "sha256": "bc85620579498b5f9b9d7d47e8d384be168ab67ae367bf75211c016d906668f2"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 18,
-      "name": "postgresql-18-toastinfo",
-      "ver": "1.5-2.pgdg24.04+1",
-      "file": "postgresql-18-toastinfo_1.5-2.pgdg24.04+1_arm64.deb",
-      "size": 12816,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/t/toastinfo/postgresql-18-toastinfo_1.5-2.pgdg24.04+1_arm64.deb",
-      "sha256": "484e80f079d4cad91a658e35b28c9e4d5be69b738f3608c3b4b2a9ee058ab84a"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 18,
-      "name": "postgresql-18-toastinfo",
-      "ver": "1.5-2.pgdg24.04+1",
-      "file": "postgresql-18-toastinfo_1.5-2.pgdg24.04+1_amd64.deb",
-      "size": 12924,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/t/toastinfo/postgresql-18-toastinfo_1.5-2.pgdg24.04+1_amd64.deb",
-      "sha256": "51c414db6bc7f174b27619c56c165c4b93226b10eab28612215df3f251ddab17"
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "toastinfo_13",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_13-1.5-1PIGSTY.el8.aarch64.rpm",
+      "size": 13992,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/toastinfo_13-1.5-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "b5015b0a6c93f77d72c76aafa1fe5f1dc5f90b767d9ac5880e7f839164af7c07"
     },
     {
       "os": "el8.aarch64",
@@ -1344,11 +1144,31 @@
       "os": "el8.x86_64",
       "pg": 13,
       "name": "toastinfo_13",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_13-1.5-1PIGSTY.el8.x86_64.rpm",
+      "size": 13976,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_13-1.5-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "f47421798a9c1b28e0d20336ee30ea70fef6801887364acaacd36cc2bdb84259"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "toastinfo_13",
       "ver": "1.4-1PIGSTY.el8",
       "file": "toastinfo_13-1.4-1PIGSTY.el8.x86_64.rpm",
       "size": 13992,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_13-1.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "f415c5328104b44fc360346f07613f697ae5f87c972234952448c918a2e0e5af"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "toastinfo_13",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_13-1.5-1PIGSTY.el9.aarch64.rpm",
+      "size": 13590,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/toastinfo_13-1.5-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "54c8a0884e49fe9ae49e4519ac9e37f7145c01c0e2fa35d052beaf06a98623a7"
     },
     {
       "os": "el9.aarch64",
@@ -1364,11 +1184,31 @@
       "os": "el9.x86_64",
       "pg": 13,
       "name": "toastinfo_13",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_13-1.5-1PIGSTY.el9.x86_64.rpm",
+      "size": 13939,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_13-1.5-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "68a5dfa2cf9541eb96e1113e6cae7feb44349d25228af5ab8b414c5fb3ad4d16"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "toastinfo_13",
       "ver": "1.4-1PIGSTY.el9",
       "file": "toastinfo_13-1.4-1PIGSTY.el9.x86_64.rpm",
       "size": 13952,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_13-1.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "21b7cdf915a16db5af17523424d74a02d8cf903e215e5691e1a29f467c1f1c3c"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "toastinfo_14",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_14-1.5-1PIGSTY.el8.aarch64.rpm",
+      "size": 14068,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/toastinfo_14-1.5-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "e4ca6b7abdf017345cbc0290990d39b0dcf223dcdc08773d54d08f05fcd0bc8b"
     },
     {
       "os": "el8.aarch64",
@@ -1384,11 +1224,31 @@
       "os": "el8.x86_64",
       "pg": 14,
       "name": "toastinfo_14",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_14-1.5-1PIGSTY.el8.x86_64.rpm",
+      "size": 14128,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_14-1.5-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "27fa10607c87628691bbe41efec91cb69fef22028997df6fe20f101616415f1b"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "toastinfo_14",
       "ver": "1.4-1PIGSTY.el8",
       "file": "toastinfo_14-1.4-1PIGSTY.el8.x86_64.rpm",
       "size": 14144,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_14-1.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "88ad524a2aa85e4b46b5a05682b38e85b35aced6e6cdd5114dce0595a28f9e6a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "toastinfo_14",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_14-1.5-1PIGSTY.el9.aarch64.rpm",
+      "size": 13672,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/toastinfo_14-1.5-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "7b0d26bbe1c67a84667660fa6bb1ce5215e4f965db7bc9bfdb2a2256bebe8d10"
     },
     {
       "os": "el9.aarch64",
@@ -1404,11 +1264,31 @@
       "os": "el9.x86_64",
       "pg": 14,
       "name": "toastinfo_14",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_14-1.5-1PIGSTY.el9.x86_64.rpm",
+      "size": 14029,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_14-1.5-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "98279fabd3c59886faa63f517865b4e9ecef86ddfc04f8e15498e2c3cab775d8"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "toastinfo_14",
       "ver": "1.4-1PIGSTY.el9",
       "file": "toastinfo_14-1.4-1PIGSTY.el9.x86_64.rpm",
       "size": 14047,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_14-1.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "296f9e92d2fb4ec8c93bb441502c112338879ba2c4bb07726790c01cc7a83801"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "toastinfo_15",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_15-1.5-1PIGSTY.el8.aarch64.rpm",
+      "size": 14072,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/toastinfo_15-1.5-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "e286263f51cf93ebc12b016385888422c8fff9800ae2cce6f42cdc242e09b534"
     },
     {
       "os": "el8.aarch64",
@@ -1424,11 +1304,31 @@
       "os": "el8.x86_64",
       "pg": 15,
       "name": "toastinfo_15",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_15-1.5-1PIGSTY.el8.x86_64.rpm",
+      "size": 14140,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_15-1.5-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "6da700de6401252ff3213ddd3c50251d31e1b907efbc0e2553f9719f2cc8d9f0"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "toastinfo_15",
       "ver": "1.4-1PIGSTY.el8",
       "file": "toastinfo_15-1.4-1PIGSTY.el8.x86_64.rpm",
       "size": 14148,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_15-1.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "1129bfdb45e5741138b0cd44cb2502145932cb877da8dda393e42f95119ee2e3"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "toastinfo_15",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_15-1.5-1PIGSTY.el9.aarch64.rpm",
+      "size": 13682,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/toastinfo_15-1.5-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "098219aa0c76df7fd6b727b5851162e2c35a66419c364140b38756a05786a747"
     },
     {
       "os": "el9.aarch64",
@@ -1444,11 +1344,31 @@
       "os": "el9.x86_64",
       "pg": 15,
       "name": "toastinfo_15",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_15-1.5-1PIGSTY.el9.x86_64.rpm",
+      "size": 14036,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_15-1.5-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "a97e5834005c3b7d25c9ef4fad6d6cd3bbba20bcd8139a4bea62c44745c3de57"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "toastinfo_15",
       "ver": "1.4-1PIGSTY.el9",
       "file": "toastinfo_15-1.4-1PIGSTY.el9.x86_64.rpm",
       "size": 14040,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_15-1.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "a555d7d4c51bc7be8358908d9accb729b81b2417dc93e86dac230fdb01053149"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "toastinfo_16",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_16-1.5-1PIGSTY.el8.aarch64.rpm",
+      "size": 14060,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/toastinfo_16-1.5-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "4d73046d9e5e1695e8945335425e894644dd869fa2c9228c2eabbe1953f18140"
     },
     {
       "os": "el8.aarch64",
@@ -1464,11 +1384,31 @@
       "os": "el8.x86_64",
       "pg": 16,
       "name": "toastinfo_16",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_16-1.5-1PIGSTY.el8.x86_64.rpm",
+      "size": 14112,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_16-1.5-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "6cd3cd39648299af6145afb04d39a85e39c34fc54b66b5cd4b52fde6d17699df"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "toastinfo_16",
       "ver": "1.4-1PIGSTY.el8",
       "file": "toastinfo_16-1.4-1PIGSTY.el8.x86_64.rpm",
       "size": 14128,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_16-1.4-1PIGSTY.el8.x86_64.rpm",
       "sha256": "9c6de174840616e4af66846aa6ec20e7c93c2dc51f81a49836a25a90cbd6e4e6"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "toastinfo_16",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_16-1.5-1PIGSTY.el9.aarch64.rpm",
+      "size": 13608,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/toastinfo_16-1.5-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "6d97745cb497c06fdbb5ce87c4b4b776dbfb832385de2e936ff50371348b26e8"
     },
     {
       "os": "el9.aarch64",
@@ -1484,11 +1424,31 @@
       "os": "el9.x86_64",
       "pg": 16,
       "name": "toastinfo_16",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_16-1.5-1PIGSTY.el9.x86_64.rpm",
+      "size": 13976,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_16-1.5-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "90bcc8772e1ece10ea345b3cf767fa2888dd2cb74eeb5c70714b5e584c280f38"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "toastinfo_16",
       "ver": "1.4-1PIGSTY.el9",
       "file": "toastinfo_16-1.4-1PIGSTY.el9.x86_64.rpm",
       "size": 13961,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_16-1.4-1PIGSTY.el9.x86_64.rpm",
       "sha256": "43dcf912768c43a344ae5d8e402dbe013f0ffb34398234094df7fabd5c248072"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "toastinfo_17",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_17-1.5-1PIGSTY.el8.aarch64.rpm",
+      "size": 14056,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/toastinfo_17-1.5-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "a19591badd9667790a75c9542560757ff0ae9bb122812a6cd93494d8e57ee00d"
     },
     {
       "os": "el8.aarch64",
@@ -1504,6 +1464,16 @@
       "os": "el8.x86_64",
       "pg": 17,
       "name": "toastinfo_17",
+      "ver": "1.5-1PIGSTY.el8",
+      "file": "toastinfo_17-1.5-1PIGSTY.el8.x86_64.rpm",
+      "size": 14112,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/toastinfo_17-1.5-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "27d0e6183274dc6ccccd125b56ecd062290a9afff8a2a09b11d82744d88c01c9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "toastinfo_17",
       "ver": "1.4-1PIGSTY.el8",
       "file": "toastinfo_17-1.4-1PIGSTY.el8.x86_64.rpm",
       "size": 14124,
@@ -1514,11 +1484,31 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "toastinfo_17",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_17-1.5-1PIGSTY.el9.aarch64.rpm",
+      "size": 13610,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/toastinfo_17-1.5-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "c64132e841690b58b1c83769115edcc6414ef32d2fe3a14f6124aa5eab94fb07"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "toastinfo_17",
       "ver": "1.4-1PIGSTY.el9",
       "file": "toastinfo_17-1.4-1PIGSTY.el9.aarch64.rpm",
       "size": 13750,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/toastinfo_17-1.4-1PIGSTY.el9.aarch64.rpm",
       "sha256": "b61bf7c82ab3ae3197d7ab17d881bcbb0e70319bb0214a1c4313a72221b88086"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "toastinfo_17",
+      "ver": "1.5-1PIGSTY.el9",
+      "file": "toastinfo_17-1.5-1PIGSTY.el9.x86_64.rpm",
+      "size": 13953,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/toastinfo_17-1.5-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "f2297e213c7d2e4e65f941524d9d94ffa243f8c0dac26541a479140b02869fe0"
     },
     {
       "os": "el9.x86_64",

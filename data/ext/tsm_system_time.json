@@ -64,7 +64,7 @@
   "en_desc": "TABLESAMPLE method which accepts time in milliseconds as a limit",
   "zh_desc": "接受毫秒数限制的 TABLESAMPLE 方法",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "tsm_system_time"
   ],

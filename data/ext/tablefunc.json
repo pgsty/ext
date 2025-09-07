@@ -66,7 +66,7 @@
   "en_desc": "functions that manipulate whole tables, including crosstab",
   "zh_desc": "交叉表函数",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "tablefunc"
   ],

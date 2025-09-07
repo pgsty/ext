@@ -72,7 +72,7 @@
   "en_desc": "connect to other PostgreSQL databases from within a database",
   "zh_desc": "从数据库内连接到其他 PostgreSQL 数据库",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "dblink"
   ],

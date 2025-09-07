@@ -49,7 +49,7 @@
   "en_desc": "Logical decoding components inspection",
   "zh_desc": "检视逻辑解码组件详情",
   "comment": null,
-  "mtime": "2025-05-07",
+  "mtime": "2025-09-06",
   "siblings": [
     "pg_logicalinspect"
   ],

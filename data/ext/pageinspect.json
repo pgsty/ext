@@ -64,7 +64,7 @@
   "en_desc": "inspect the contents of database pages at a low level",
   "zh_desc": "检查数据库页面二进制内容",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "pageinspect"
   ],

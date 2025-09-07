@@ -64,7 +64,7 @@
   "en_desc": "pause briefly before reporting authentication failure",
   "zh_desc": "在返回认证失败前暂停一会，避免爆破",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "auth_delay"
   ],

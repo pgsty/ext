@@ -21,7 +21,6 @@
   "relocatable": null,
   "schemas": [],
   "pg_ver": [
-    "18",
     "16",
     "15",
     "14",
@@ -38,7 +37,6 @@
   "rpm_repo": "CONTRIB",
   "rpm_pkg": "postgresql$v-contrib",
   "rpm_pg": [
-    "18",
     "16",
     "15",
     "14",
@@ -50,7 +48,6 @@
   "deb_pkg": "postgresql-$v",
   "deb_deps": [],
   "deb_pg": [
-    "18",
     "16",
     "15",
     "14",
@@ -61,7 +58,7 @@
   "en_desc": "administrative functions for PostgreSQL",
   "zh_desc": "PostgreSQL 管理函数集合",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "adminpack"
   ],

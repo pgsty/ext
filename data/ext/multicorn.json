@@ -63,156 +63,6 @@
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": null,
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": null,
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": "multicorn2_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": "multicorn2_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": "multicorn2_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": "multicorn2_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": null,
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": null,
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": null,
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "multicorn",
-      "ext": "multicorn",
-      "pname": null,
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -254,8 +104,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 17,
@@ -269,8 +119,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 17,
@@ -284,8 +134,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 17,
@@ -299,8 +149,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 17,
@@ -404,8 +254,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 16,
@@ -419,8 +269,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 16,
@@ -434,8 +284,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 16,
@@ -449,8 +299,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 1
+      "pkg_ver": "3.1",
+      "count": 2
     },
     {
       "pg": 16,
@@ -554,8 +404,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 3
+      "pkg_ver": "3.1",
+      "count": 4
     },
     {
       "pg": 15,
@@ -569,8 +419,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 3
+      "pkg_ver": "3.1",
+      "count": 4
     },
     {
       "pg": 15,
@@ -584,8 +434,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 3
+      "pkg_ver": "3.1",
+      "count": 4
     },
     {
       "pg": 15,
@@ -599,8 +449,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 3
+      "pkg_ver": "3.1",
+      "count": 4
     },
     {
       "pg": 15,
@@ -704,8 +554,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 14,
@@ -719,8 +569,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 14,
@@ -734,8 +584,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 14,
@@ -749,8 +599,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 14,
@@ -854,8 +704,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 13,
@@ -869,8 +719,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 13,
@@ -884,8 +734,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 13,
@@ -899,8 +749,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "3.0",
-      "count": 4
+      "pkg_ver": "3.1",
+      "count": 5
     },
     {
       "pg": 13,
@@ -968,6 +818,16 @@
       "os": "el8.aarch64",
       "pg": 13,
       "name": "multicorn2_13",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_13-3.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 137944,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/multicorn2_13-3.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "1c6ec53e75391ef24bd444bb57b7ce994cc4ebb8079d7629b8b80b5f1d445957"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "multicorn2_13",
       "ver": "3.0-1PGDG.rhel8",
       "file": "multicorn2_13-3.0-1PGDG.rhel8.aarch64.rpm",
       "size": 116528,
@@ -1003,6 +863,16 @@
       "size": 116660,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/multicorn2_13-2.3-1.rhel8.aarch64.rpm",
       "sha256": "be81ff2054a36909fd9b172749564749f9b166f3ed070e44c8a032921e31890d"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "multicorn2_13",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_13-3.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 139288,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/multicorn2_13-3.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "4b0aa70f7799bbc56cc2f1c0d34702ebe4562e25ed23badcbf640428742d96a5"
     },
     {
       "os": "el8.x86_64",
@@ -1048,6 +918,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "multicorn2_13",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_13-3.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 115651,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/multicorn2_13-3.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "6eb088a579c837fe2ad153436615e3ccb69cad7bc7707db38ad52b4d8a233897"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "multicorn2_13",
       "ver": "3.0-1PGDG.rhel9",
       "file": "multicorn2_13-3.0-1PGDG.rhel9.aarch64.rpm",
       "size": 115169,
@@ -1083,6 +963,16 @@
       "size": 115748,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/multicorn2_13-2.3-1.rhel9.aarch64.rpm",
       "sha256": "a3f01784acde6d6945f78ebeec7bba341675d72a0b979f49bb89c1a44e7b9e52"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "multicorn2_13",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_13-3.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 116895,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/multicorn2_13-3.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "d1f5ec23e972f59305bc065cf0059810121f9dad40e3cd5a0c382a1f343c4023"
     },
     {
       "os": "el9.x86_64",
@@ -1128,6 +1018,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "multicorn2_14",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_14-3.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 138416,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/multicorn2_14-3.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "75b9f623d0293f721db5223004455ed9b24ec9d37ad4a6085c6d5873173c18dc"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "multicorn2_14",
       "ver": "3.0-1PGDG.rhel8",
       "file": "multicorn2_14-3.0-1PGDG.rhel8.aarch64.rpm",
       "size": 116976,
@@ -1163,6 +1063,16 @@
       "size": 116672,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/multicorn2_14-2.3-1.rhel8.aarch64.rpm",
       "sha256": "d6c222ff761e630da47120935c12bbe7559ed0e875d17f4046029c81b0104b74"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "multicorn2_14",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_14-3.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 140132,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/multicorn2_14-3.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "e103de77218974ff668918755ba3e8ebdd6d742d1600eca0f1841344d1442466"
     },
     {
       "os": "el8.x86_64",
@@ -1208,6 +1118,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "multicorn2_14",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_14-3.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 116037,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/multicorn2_14-3.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "dbfc6d7f8a71f1e7340d07f6dea728f561defc5b41068ec12a98f84ea50b49f1"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "multicorn2_14",
       "ver": "3.0-1PGDG.rhel9",
       "file": "multicorn2_14-3.0-1PGDG.rhel9.aarch64.rpm",
       "size": 115531,
@@ -1243,6 +1163,16 @@
       "size": 115776,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/multicorn2_14-2.3-1.rhel9.aarch64.rpm",
       "sha256": "3a8fe50e3fc70c162091060bbf9eb8f238d4a4152df6de2bd5a13791d639106e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "multicorn2_14",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_14-3.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 117568,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/multicorn2_14-3.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "fb7a109f379ec2d743575e558cd2df4a2bf37f3187cc4f548d866b158a9bc277"
     },
     {
       "os": "el9.x86_64",
@@ -1288,6 +1218,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "multicorn2_15",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_15-3.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 138436,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/multicorn2_15-3.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "13c869acbe88e934e5690dc4ebdd6e90e1da63e6e6a7232de1598ff69c5f8861"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "multicorn2_15",
       "ver": "3.0-1PGDG.rhel8",
       "file": "multicorn2_15-3.0-1PGDG.rhel8.aarch64.rpm",
       "size": 116992,
@@ -1313,6 +1253,16 @@
       "size": 36236,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/multicorn2_15-2.4-1.rhel8.aarch64.rpm",
       "sha256": "cf617c770955d65b7b00417f664a770345654901da796871bdf5aaea6444c775"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "multicorn2_15",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_15-3.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 140128,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/multicorn2_15-3.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "be04d14b3c157ee98e0fc7592bb775f73cf304ef1b9137fcb4234fa678302480"
     },
     {
       "os": "el8.x86_64",
@@ -1348,6 +1298,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "multicorn2_15",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_15-3.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 116080,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/multicorn2_15-3.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "4e49fca9f093f5ec591495007edee92d1b8f9ddd80e6ae25442d09ad4b8aff53"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "multicorn2_15",
       "ver": "3.0-1PGDG.rhel9",
       "file": "multicorn2_15-3.0-1PGDG.rhel9.aarch64.rpm",
       "size": 115574,
@@ -1373,6 +1333,16 @@
       "size": 36611,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/multicorn2_15-2.4-1.rhel9.aarch64.rpm",
       "sha256": "785e80d4644f6a49f587e5f6201f0fb5a25aec9ae08b2fe1a753b7e48272fdcb"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "multicorn2_15",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_15-3.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 117573,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/multicorn2_15-3.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "7b00eda73cc4853db15a5f8ff20fc59fb2b013a667e8bdbbf2fb9322f625a843"
     },
     {
       "os": "el9.x86_64",
@@ -1408,11 +1378,31 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "multicorn2_16",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_16-3.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 137204,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/multicorn2_16-3.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "4fc241c549626817a91824e0197b3067e5b16c43b6085838d7cb67fae87bf47d"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "multicorn2_16",
       "ver": "3.0-1PGDG.rhel8",
       "file": "multicorn2_16-3.0-1PGDG.rhel8.aarch64.rpm",
       "size": 115928,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/multicorn2_16-3.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "48be2555d94adddb6300ee5ef0f7167a296c9b7829be6a54e88f6d0adc925d46"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "multicorn2_16",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_16-3.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 138676,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/multicorn2_16-3.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "ac8ea2484c3fe23a284a0009431687200e25034feef197d66c9c1d8e38511e51"
     },
     {
       "os": "el8.x86_64",
@@ -1428,11 +1418,31 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "multicorn2_16",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_16-3.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 112745,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/multicorn2_16-3.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "e6b7e370e6aa34330040efdf95ebb1258ccedea85a0c0a495de9f99364a49b9e"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "multicorn2_16",
       "ver": "3.0-1PGDG.rhel9",
       "file": "multicorn2_16-3.0-1PGDG.rhel9.aarch64.rpm",
       "size": 112432,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/multicorn2_16-3.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "7e28857fe9d2702cc0fd369f7e71ec230359fde66942d56ed189814b9921a29a"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "multicorn2_16",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_16-3.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 113696,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/multicorn2_16-3.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "2b8d20470e2b212e7ddeaea340262a26a5b099f018b9d1d0059f0217d142bfc7"
     },
     {
       "os": "el9.x86_64",
@@ -1448,11 +1458,31 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "multicorn2_17",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_17-3.1-1PGDG.rhel8.aarch64.rpm",
+      "size": 137140,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/multicorn2_17-3.1-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "15de49d8ecc6bbc14e10bf0f20f2f3adaeb266b6a5779a5d63863c1ea7a1045e"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "multicorn2_17",
       "ver": "3.0-1PGDG.rhel8",
       "file": "multicorn2_17-3.0-1PGDG.rhel8.aarch64.rpm",
       "size": 115788,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/multicorn2_17-3.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "ed3a491129e07618fee153ba52de5034a05e996a1405b451c1907cb1eb113bca"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "multicorn2_17",
+      "ver": "3.1-1PGDG.rhel8",
+      "file": "multicorn2_17-3.1-1PGDG.rhel8.x86_64.rpm",
+      "size": 138696,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/multicorn2_17-3.1-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "83683f1748f44805ba406a7fe85f0e019bcda2b8d40ee5c0fad364448d738a13"
     },
     {
       "os": "el8.x86_64",
@@ -1468,11 +1498,31 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "multicorn2_17",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_17-3.1-1PGDG.rhel9.aarch64.rpm",
+      "size": 112588,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/multicorn2_17-3.1-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "a70b81bb9e80baa716f0084372402a14e7aabfd16b9156a97fb00e3d3514b398"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "multicorn2_17",
       "ver": "3.0-1PGDG.rhel9",
       "file": "multicorn2_17-3.0-1PGDG.rhel9.aarch64.rpm",
       "size": 112267,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/multicorn2_17-3.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "f65276f6e960dc5f12587309e2b6c19f170b28578ae6f553fc9120601c1596db"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "multicorn2_17",
+      "ver": "3.1-1PGDG.rhel9",
+      "file": "multicorn2_17-3.1-1PGDG.rhel9.x86_64.rpm",
+      "size": 113706,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/multicorn2_17-3.1-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "729ded98d4e7dd079c25ff62af95e25b59d5f0c59a249683661c0e8a947b08e0"
     },
     {
       "os": "el9.x86_64",

@@ -39,7 +39,7 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 | <Badge icon={<Boxes />} variant="gray-subtle"><a href="#type" className="no-underline">TYPE</a></Badge> | 37 | 自定义类型扩展：前缀树，语义版本号，SI单位，位图，无符号整型，高精度数值，有理数，哈希值，IP地址段，球面，RRULE等 |
 | <Badge icon={<Wrench />} variant="amber-subtle"><a href="#util" className="no-underline">UTIL</a></Badge> | 31 | 实用功能扩展：HTTP请求，GZIP压缩，JWT处理，邮件客户端，正则，字符编码，编码解码，加密解密等实用功能 |
 | <Badge icon={<Variable />} variant="pink-subtle"><a href="#func" className="no-underline">FUNC</a></Badge> | 43 | 标识聚合函数：ID生成器，各类聚合函数，摘要函数，数组处理函数，数学函数，统计量，伪随机，等等 |
-| <Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> | 36 | 管理工具扩展：膨胀治理，脏读，检视缓冲区，数据目录，校验和，腐败检查，优先级管理，权限管理，语句准备，限制批量更新等 |
+| <Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> | 37 | 管理工具扩展：膨胀治理，脏读，检视缓冲区，数据目录，校验和，腐败检查，优先级管理，权限管理，语句准备，限制批量更新等 |
 | <Badge icon={<Activity />} variant="green-subtle"><a href="#stat" className="no-underline">STAT</a></Badge> | 34 | 监控统计扩展：AWR报告，可观测性指标，显示执行计划，查询统计信息，内存使用，配置变更，等待事件采样，慢查询日志，等等 |
 | <Badge icon={<Shield />} variant="red-subtle"><a href="#sec" className="no-underline">SEC</a></Badge> | 26 | 安全功能扩展：强制密码强度，阉割超级用户，密钥管理，商密算法，PII匿名处理，扩展白名单，审计日志，变更追溯，反病毒等等 |
 | <Badge icon={<FileInput />} variant="blue-subtle"><a href="#fdw" className="no-underline">FDW</a></Badge> | 22 | 外部数据源包装器：FDW开发框架 Wrappers，Multicorn，访问外部的 Mongo，MySQL，SQLite，HDFS，MSSQL，Oracle，DB2，…… |
@@ -58,12 +58,12 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 | 1050 | [`emaj`](/zh/e/emaj) | [`emaj`](/zh/e/emaj) | 4.7.0 | 让数据库的子集具有细粒度日志和时间旅行功能 |
 | 1030 | [`periods`](/zh/e/periods) | [`periods`](/zh/e/periods) | 1.2.3 | 为 PERIODs 和 SYSTEM VERSIONING 提供标准 SQL 功能 |
 | 1100 | [`pg_background`](/zh/e/pg_background) | [`pg_background`](/zh/e/pg_background) | 1.3 | 在后台运行 SQL 查询 |
-| 1070 | [`pg_cron`](/zh/e/pg_cron) | [`pg_cron`](/zh/e/pg_cron) | 1.6.5 | 定时任务调度器 |
+| 1070 | [`pg_cron`](/zh/e/pg_cron) | [`pg_cron`](/zh/e/pg_cron) | 1.6.7 | 定时任务调度器 |
 | 1090 | [`pg_later`](/zh/e/pg_later) | [`pg_later`](/zh/e/pg_later) | 0.3.0 | 执行查询，并在稍后异步获取查询结果 |
 | 1080 | [`pg_task`](/zh/e/pg_task) | [`pg_task`](/zh/e/pg_task) | 1.0.0 | 在特定时间点在后台执行SQL命令 |
 | 1060 | [`table_version`](/zh/e/table_version) | [`table_version`](/zh/e/table_version) | 1.11.1 | PostgreSQL 版本控制表扩展 |
 | 1040 | [`temporal_tables`](/zh/e/temporal_tables) | [`temporal_tables`](/zh/e/temporal_tables) | 1.2.2 | 时态表功能支持 |
-| 1000 | [`timescaledb`](/zh/e/timescaledb) | [`timescaledb`](/zh/e/timescaledb) | 2.21.1 | 时序数据库扩展插件 |
+| 1000 | [`timescaledb`](/zh/e/timescaledb) | [`timescaledb`](/zh/e/timescaledb) | 2.22.0 | 时序数据库扩展插件 |
 | 1010 | [`timescaledb_toolkit`](/zh/e/timescaledb_toolkit) | [`timescaledb_toolkit`](/zh/e/timescaledb_toolkit) | 1.21.0 | 超表分析查询，时间序列流式处理，以及其他SQL工具 |
 | 1020 | [`timeseries`](/zh/e/timeseries) | [`pg_timeseries`](/zh/e/timeseries) | 0.1.6 | 时序数据API封装 |
 
@@ -79,10 +79,10 @@ import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxe
 | 1506 | [`address_standardizer_data_us`](/zh/e/address_standardizer_data_us) | [`postgis`](/zh/e/postgis) | 3.6.0 | 地址标准化函数：美国数据集示例 |
 | 1690 | [`earthdistance`](/zh/e/earthdistance) | [`earthdistance`](/zh/e/earthdistance) | 1.2 | 计算地球表面上的大圆距离 |
 | 1560 | [`geoip`](/zh/e/geoip) | [`geoip`](/zh/e/geoip) | 0.3.0 | IP 地理位置扩展（围绕 MaxMind GeoLite 数据集的包装器） |
-| 1530 | [`h3`](/zh/e/h3) | [`pg_h3`](/zh/e/h3) | 4.2.2 | H3六边形层级索引支持 |
-| 1531 | [`h3_postgis`](/zh/e/h3_postgis) | [`pg_h3`](/zh/e/h3) | 4.2.2 | H3与PostGIS集成的扩展插件 |
+| 1530 | [`h3`](/zh/e/h3) | [`pg_h3`](/zh/e/h3) | 4.2.3 | H3六边形层级索引支持 |
+| 1531 | [`h3_postgis`](/zh/e/h3_postgis) | [`pg_h3`](/zh/e/h3) | 4.2.3 | H3与PostGIS集成的扩展插件 |
 | 1650 | [`mobilitydb`](/zh/e/mobilitydb) | [`mobilitydb`](/zh/e/mobilitydb) | 1.2.0 | MobilityDB地理空间投影数据管理分析平台 |
-| 1550 | [`ogr_fdw`](/zh/e/ogr_fdw) | [`ogr_fdw`](/zh/e/ogr_fdw) | 1.1.6 | GIS 数据外部数据源包装器 |
+| 1550 | [`ogr_fdw`](/zh/e/ogr_fdw) | [`ogr_fdw`](/zh/e/ogr_fdw) | 1.1.7 | GIS 数据外部数据源包装器 |
 | 1590 | [`pg_geohash`](/zh/e/pg_geohash) | [`pg_geohash`](/zh/e/pg_geohash) | 1.0 | 使用GeoHash处理空间坐标的函数包 |
 | 1570 | [`pg_polyline`](/zh/e/pg_polyline) | [`pg_polyline`](/zh/e/pg_polyline) | 0.0.1 | Google快速Polyline编码解码扩展 |
 | 1510 | [`pgrouting`](/zh/e/pgrouting) | [`pgrouting`](/zh/e/pgrouting) | 3.8.0 | 提供寻路能力 |
@@ -110,8 +110,8 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 1870 | [`pg_tiktoken`](/zh/e/pg_tiktoken) | [`pg_tiktoken`](/zh/e/pg_tiktoken) | 0.0.1 | 在PostgreSQL中计算OpenAI使用的Token数 |
 | 1890 | [`pgml`](/zh/e/pgml) | [`pgml`](/zh/e/pgml) | 2.10.0 | PostgresML：用SQL运行机器学习算法并训练模型 |
 | 1850 | [`smlar`](/zh/e/smlar) | [`smlar`](/zh/e/smlar) | 1.0 | 高效的相似度搜索函数 |
-| 1810 | [`vchord`](/zh/e/vchord) | [`vchord`](/zh/e/vchord) | 0.4.3 | 使用Rust重写的高性能向量扩展 |
-| 1800 | [`vector`](/zh/e/vector) | [`pgvector`](/zh/e/vector) | 0.8.0 | 向量数据类型和 ivfflat / hnsw 访问方法 |
+| 1810 | [`vchord`](/zh/e/vchord) | [`vchord`](/zh/e/vchord) | 0.5.1 | 使用Rust重写的高性能向量扩展 |
+| 1800 | [`vector`](/zh/e/vector) | [`pgvector`](/zh/e/vector) | 0.8.1 | 向量数据类型和 ivfflat / hnsw 访问方法 |
 | 1830 | [`vectorize`](/zh/e/vectorize) | [`pg_vectorize`](/zh/e/vectorize) | 0.22.2 | 在PostgreSQL中封装RAG向量检索服务 |
 | 1820 | [`vectorscale`](/zh/e/vectorscale) | [`pgvectorscale`](/zh/e/vectorscale) | 0.8.0 | 使用DiskANN算法对向量进行高效索引 |
 
@@ -136,7 +136,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 2179 | [`hunspell_ru_ru_aot`](/zh/e/hunspell_ru_ru_aot) | [`hunspell_ru_ru_aot`](/zh/e/hunspell_ru_ru_aot) | 1.0 | Hunspell俄语全文检索词典（来自AOT.ru小组） |
 | 2140 | [`pg_bestmatch`](/zh/e/pg_bestmatch) | [`pg_bestmatch`](/zh/e/pg_bestmatch) | 0.0.1 | 在数据库内生成BM25稀疏向量 |
 | 2120 | [`pg_bigm`](/zh/e/pg_bigm) | [`pg_bigm`](/zh/e/pg_bigm) | 1.2 | 基于二字组的多语言全文检索扩展 |
-| 2100 | [`pg_search`](/zh/e/pg_search) | [`pg_search`](/zh/e/pg_search) | 0.18.0 | ParadeDB BM25算法全文检索插件，ES全文检索 |
+| 2100 | [`pg_search`](/zh/e/pg_search) | [`pg_search`](/zh/e/pg_search) | 0.18.1 | ParadeDB BM25算法全文检索插件，ES全文检索 |
 | 2160 | [`pg_tokenizer`](/zh/e/pg_tokenizer) | [`pg_tokenizer`](/zh/e/pg_tokenizer) | 0.1.0 | 用于全文检索的分词器 |
 | 2190 | [`pg_trgm`](/zh/e/pg_trgm) | [`pg_trgm`](/zh/e/pg_trgm) | 1.6 | 文本相似度测量函数与模糊检索 |
 | 2110 | [`pgroonga`](/zh/e/pgroonga) | [`pgroonga`](/zh/e/pgroonga) | 4.0.0 | 使用Groonga，面向所有语言的高速全文检索平台 |
@@ -160,7 +160,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 2430 | [`pg_duckdb`](/zh/e/pg_duckdb) | [`pg_duckdb`](/zh/e/pg_duckdb) | 0.3.1 | 在PostgreSQL中的嵌入式DuckDB扩展 |
 | 2500 | [`pg_fkpart`](/zh/e/pg_fkpart) | [`pg_fkpart`](/zh/e/pg_fkpart) | 1.7.0 | 按外键实用程序进行表分区的扩展 |
 | 2440 | [`pg_mooncake`](/zh/e/pg_mooncake) | [`pg_mooncake`](/zh/e/pg_mooncake) | 0.1.2 | PostgreSQL列式存储表 |
-| 2460 | [`pg_parquet`](/zh/e/pg_parquet) | [`pg_parquet`](/zh/e/pg_parquet) | 0.4.0 | 在PostgreSQL与本地/S3中的Parquet文件复制数据 |
+| 2460 | [`pg_parquet`](/zh/e/pg_parquet) | [`pg_parquet`](/zh/e/pg_parquet) | 0.4.3 | 在PostgreSQL与本地/S3中的Parquet文件复制数据 |
 | 2510 | [`pg_partman`](/zh/e/pg_partman) | [`pg_partman`](/zh/e/pg_partman) | 5.2.4 | 用于按时间或 ID 管理分区表的扩展 |
 | 2530 | [`pg_strom`](/zh/e/pg_strom) | [`pg_strom`](/zh/e/pg_strom) | 6.0 | 使用GPU与NVMe加速大数据处理 |
 | 2520 | [`plproxy`](/zh/e/plproxy) | [`plproxy`](/zh/e/plproxy) | 2.11.0 | 作为过程语言实现的数据库分区 |
@@ -177,7 +177,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 2760 | [`age`](/zh/e/age) | [`age`](/zh/e/age) | 1.5.0 | Apache AGE，图数据库扩展 （Deb可用） |
 | 2990 | [`bloom`](/zh/e/bloom) | [`bloom`](/zh/e/bloom) | 1.0 | bloom 索引-基于指纹的索引 |
 | 2770 | [`hll`](/zh/e/hll) | [`hll`](/zh/e/hll) | 2.18 | hyperloglog 数据类型 |
-| 2830 | [`hypopg`](/zh/e/hypopg) | [`hypopg`](/zh/e/hypopg) | 1.4.1 | 假设索引，用于创建一个虚拟索引检验执行计划 |
+| 2830 | [`hypopg`](/zh/e/hypopg) | [`hypopg`](/zh/e/hypopg) | 1.4.2 | 假设索引，用于创建一个虚拟索引检验执行计划 |
 | 2860 | [`imgsmlr`](/zh/e/imgsmlr) | [`imgsmlr`](/zh/e/imgsmlr) | 1.0 | 使用Haar小波分析计算图片相似度 |
 | 2840 | [`index_advisor`](/zh/e/index_advisor) | [`index_advisor`](/zh/e/index_advisor) | 0.2.0 | 查询索引建议器 |
 | 2810 | [`jsquery`](/zh/e/jsquery) | [`jsquery`](/zh/e/jsquery) | 1.2 | 用于内省 JSONB 数据类型的查询类型 |
@@ -223,7 +223,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 2790 | [`pg_graphql`](/zh/e/pg_graphql) | [`pg_graphql`](/zh/e/pg_graphql) | 1.5.11 | PG内的GraphQL支持 |
 | 2820 | [`pg_hint_plan`](/zh/e/pg_hint_plan) | [`pg_hint_plan`](/zh/e/pg_hint_plan) | 1.7.1 | 添加强制指定执行计划的能力 |
 | 2880 | [`pg_incremental`](/zh/e/pg_incremental) | [`pg_incremental`](/zh/e/pg_incremental) | 1.2.0 | 增量处理流式事件 |
-| 2870 | [`pg_ivm`](/zh/e/pg_ivm) | [`pg_ivm`](/zh/e/pg_ivm) | 1.11 | 增量维护的物化视图 |
+| 2870 | [`pg_ivm`](/zh/e/pg_ivm) | [`pg_ivm`](/zh/e/pg_ivm) | 1.12 | 增量维护的物化视图 |
 | 2800 | [`pg_jsonschema`](/zh/e/pg_jsonschema) | [`pg_jsonschema`](/zh/e/pg_jsonschema) | 0.3.3 | 提供JSON Schema校验能力 |
 | 2900 | [`pgmq`](/zh/e/pgmq) | [`pgmq`](/zh/e/pgmq) | 1.5.1 | 基于Postgres实现类似AWS SQS/RSMQ的消息队列 |
 | 2910 | [`pgq`](/zh/e/pgq) | [`pgq`](/zh/e/pgq) | 3.5.1 | 通用队列的PG实现 |
@@ -312,7 +312,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 3510 | [`semver`](/zh/e/semver) | [`pg_semver`](/zh/e/semver) | 0.40.0 | 语义版本号数据类型 |
 | 3890 | [`timestamp9`](/zh/e/timestamp9) | [`timestamp9`](/zh/e/timestamp9) | 1.4.0 | 纳秒分辨率时间戳 |
 | 3730 | [`uint`](/zh/e/uint) | [`pguint`](/zh/e/uint) | 1.20231206 | 无符号整型数据类型 |
-| 3740 | [`uint128`](/zh/e/uint128) | [`pg_uint128`](/zh/e/uint128) | 1.0.0 | 原生128位无符号整型数据类型 |
+| 3740 | [`uint128`](/zh/e/uint128) | [`pg_uint128`](/zh/e/uint128) | 1.1.0 | 原生128位无符号整型数据类型 |
 | 3520 | [`unit`](/zh/e/unit) | [`pgunit`](/zh/e/unit) | 7.10 | SI 国标单位扩展 |
 | 3840 | [`uri`](/zh/e/uri) | [`pg_uri`](/zh/e/uri) | 1.20151224 | URI数据类型 |
 | 3990 | [`xml2`](/zh/e/xml2) | [`xml2`](/zh/e/xml2) | 1.1 | XPath 查询和 XSLT |
@@ -335,7 +335,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 4400 | [`hashlib`](/zh/e/hashlib) | [`pg_hashlib`](/zh/e/hashlib) | 1.1 | 稳定哈希函数包 |
 | 4070 | [`http`](/zh/e/http) | [`pg_http`](/zh/e/http) | 1.7.0 | HTTP客户端，允许在数据库内收发HTTP请求 (supabase) |
 | 4240 | [`icu_ext`](/zh/e/icu_ext) | [`icu_ext`](/zh/e/icu_ext) | 1.10.0 | 访问ICU库提供的函数 |
-| 4090 | [`pg_curl`](/zh/e/pg_curl) | [`pg_curl`](/zh/e/pg_curl) | 2.4 | 封装CURL，执行各种用URL传输数据的操作 |
+| 4090 | [`pg_curl`](/zh/e/pg_curl) | [`pg_curl`](/zh/e/pg_curl) | 2.4.5 | 封装CURL，执行各种用URL传输数据的操作 |
 | 4220 | [`pg_extra_time`](/zh/e/pg_extra_time) | [`pg_extra_time`](/zh/e/pg_extra_time) | 2.0.0 | 一些关于日期与时间的扩展函数 |
 | 4180 | [`pg_html5_email_address`](/zh/e/pg_html5_email_address) | [`pg_html5_email_address`](/zh/e/pg_html5_email_address) | 1.2.3 | 验证Email是否符合HTML5规范的扩展 |
 | 4080 | [`pg_net`](/zh/e/pg_net) | [`pg_net`](/zh/e/pg_net) | 0.9.2 | 用 SQL 进行异步非阻塞HTTP/HTTPS 请求的扩展 (supabase) |
@@ -391,7 +391,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 4550 | [`permuteseq`](/zh/e/permuteseq) | [`permuteseq`](/zh/e/permuteseq) | 1.2.2 | 伪随机数ID置换生成器 |
 | 4830 | [`pg_base58`](/zh/e/pg_base58) | [`pg_base58`](/zh/e/pg_base58) | 0.0.1 | Base58 编码/解码函数 |
 | 4560 | [`pg_hashids`](/zh/e/pg_hashids) | [`pg_hashids`](/zh/e/pg_hashids) | 1.3 | 加盐将整型ID转为短字符串ID |
-| 4500 | [`pg_idkit`](/zh/e/pg_idkit) | [`pg_idkit`](/zh/e/pg_idkit) | 0.3.0 | 生成各式各样的唯一标识符：UUIDv6, ULID, KSUID |
+| 4500 | [`pg_idkit`](/zh/e/pg_idkit) | [`pg_idkit`](/zh/e/pg_idkit) | 0.3.1 | 生成各式各样的唯一标识符：UUIDv6, ULID, KSUID |
 | 4770 | [`pg_math`](/zh/e/pg_math) | [`pg_math`](/zh/e/pg_math) | 1.0 | 使用GSL库的数学统计函数 |
 | 4540 | [`pg_uuidv7`](/zh/e/pg_uuidv7) | [`pg_uuidv7`](/zh/e/pg_uuidv7) | 1.6.0 | UUIDv7 支持 |
 | 4510 | [`pgx_ulid`](/zh/e/pgx_ulid) | [`pgx_ulid`](/zh/e/pgx_ulid) | 0.2.0 | ULID数据类型与函数 |
@@ -413,7 +413,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 
 管理工具扩展：膨胀治理，脏读，检视缓冲区，数据目录，校验和，腐败检查，优先级管理，权限管理，语句准备，限制批量更新等
 
-<Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> <Badge icon={<Package />} variant="gray-subtle">36 个扩展</Badge>
+<Badge icon={<Landmark />} variant="gray-subtle"><a href="#admin" className="no-underline">ADMIN</a></Badge> <Badge icon={<Package />} variant="gray-subtle">37 个扩展</Badge>
 
 | ID | 扩展 | 扩展包 | 版本 | 描述 |
 |:---:|:---|:---|:---|:---|
@@ -421,36 +421,37 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 5980 | [`amcheck`](/zh/e/amcheck) | [`amcheck`](/zh/e/amcheck) | 1.4 | 校验关系完整性 |
 | 5950 | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | [`basebackup_to_shell`](/zh/e/basebackup_to_shell) | - | 添加一种备份到Shell终端到基础备份方式 |
 | 5940 | [`basic_archive`](/zh/e/basic_archive) | [`basic_archive`](/zh/e/basic_archive) | - | 归档模块样例 |
-| 5060 | [`ddlx`](/zh/e/ddlx) | [`pg_ddlx`](/zh/e/ddlx) | 0.30 | 提取数据库对象的DDL |
+| 5080 | [`ddlx`](/zh/e/ddlx) | [`pg_ddlx`](/zh/e/ddlx) | 0.30 | 提取数据库对象的DDL |
 | 5230 | [`fio`](/zh/e/fio) | [`pg_fio`](/zh/e/fio) | 1.0 | PostgreSQL文件IO函数包 |
 | 5930 | [`lo`](/zh/e/lo) | [`lo`](/zh/e/lo) | 1.1 | 大对象维护 |
 | 5960 | [`old_snapshot`](/zh/e/old_snapshot) | [`old_snapshot`](/zh/e/old_snapshot) | 1.0 | 支持 old_snapshot_threshold 的实用程序 |
-| 5130 | [`pg_catcheck`](/zh/e/pg_catcheck) | [`pg_catcheck`](/zh/e/pg_catcheck) | 1.6.0 | 用于诊断系统目录是否损坏的工具 |
-| 5200 | [`pg_cheat_funcs`](/zh/e/pg_cheat_funcs) | [`pg_cheat_funcs`](/zh/e/pg_cheat_funcs) | 1.0 | 一些超级实用的作弊函数 |
-| 5080 | [`pg_checksums`](/zh/e/pg_checksums) | [`pg_checksums`](/zh/e/pg_checksums) | 1.2 | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
-| 5050 | [`pg_cooldown`](/zh/e/pg_cooldown) | [`pg_cooldown`](/zh/e/pg_cooldown) | 0.1 | 从缓冲区中移除特定关系的页面 |
-| 5190 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 1.0 | 向数据库进程随机发送信号模拟故障 |
-| 5030 | [`pg_dirtyread`](/zh/e/pg_dirtyread) | [`pg_dirtyread`](/zh/e/pg_dirtyread) | 2.7 | 从表中读取尚未垃圾回收的行 |
+| 5160 | [`pg_catcheck`](/zh/e/pg_catcheck) | [`pg_catcheck`](/zh/e/pg_catcheck) | 1.6.0 | 用于诊断系统目录是否损坏的工具 |
+| 5220 | [`pg_cheat_funcs`](/zh/e/pg_cheat_funcs) | [`pg_cheat_funcs`](/zh/e/pg_cheat_funcs) | 1.0 | 一些超级实用的作弊函数 |
+| 5110 | [`pg_checksums`](/zh/e/pg_checksums) | [`pg_checksums`](/zh/e/pg_checksums) | 1.2 | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
+| 5070 | [`pg_cooldown`](/zh/e/pg_cooldown) | [`pg_cooldown`](/zh/e/pg_cooldown) | 0.1 | 从缓冲区中移除特定关系的页面 |
+| 5210 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 1.0 | 向数据库进程随机发送信号模拟故障 |
+| 5050 | [`pg_dirtyread`](/zh/e/pg_dirtyread) | [`pg_dirtyread`](/zh/e/pg_dirtyread) | 2.7 | 从表中读取尚未垃圾回收的行 |
 | 5830 | [`pg_drop_events`](/zh/e/pg_drop_events) | [`pg_drop_events`](/zh/e/pg_drop_events) | 0.1.0 | 记录删表删列删视图的事务号，辅助PITR确定时间点 |
-| 5180 | [`pg_orphaned`](/zh/e/pg_orphaned) | [`pg_orphaned`](/zh/e/pg_orphaned) | 1.0 | 处理孤儿文件的扩展插件 |
-| 5110 | [`pg_permissions`](/zh/e/pg_permissions) | [`pg_permissions`](/zh/e/pg_permissions) | 1.4 | 查看对象权限并将其与期望状态进行比较 |
+| 5200 | [`pg_orphaned`](/zh/e/pg_orphaned) | [`pg_orphaned`](/zh/e/pg_orphaned) | 1.0 | 处理孤儿文件的扩展插件 |
+| 5140 | [`pg_permissions`](/zh/e/pg_permissions) | [`pg_permissions`](/zh/e/pg_permissions) | 1.4 | 查看对象权限并将其与期望状态进行比较 |
 | 5890 | [`pg_prewarm`](/zh/e/pg_prewarm) | [`pg_prewarm`](/zh/e/pg_prewarm) | 1.2 | 预热关系数据 |
-| 5090 | [`pg_readonly`](/zh/e/pg_readonly) | [`pg_readonly`](/zh/e/pg_readonly) | 1.0.3 | 将集群设置为只读 |
-| 5010 | [`pg_repack`](/zh/e/pg_repack) | [`pg_repack`](/zh/e/pg_repack) | 1.5.2 | 在线垃圾清理与表膨胀治理 |
+| 5120 | [`pg_readonly`](/zh/e/pg_readonly) | [`pg_readonly`](/zh/e/pg_readonly) | 1.0.3 | 将集群设置为只读 |
+| 5010 | [`pg_repack`](/zh/e/pg_repack) | [`pg_repack`](/zh/e/pg_repack) | 2.0.0 | 在线垃圾清理与表膨胀治理 |
+| 5020 | [`pg_rewrite`](/zh/e/pg_rewrite) | [`pg_rewrite`](/zh/e/pg_rewrite) | 1.5.2 | 在线垃圾清理与表膨胀治理 |
 | 5810 | [`pg_savior`](/zh/e/pg_savior) | [`pg_savior`](/zh/e/pg_savior) | 0.0.1 | 阻止不带条件的全表更新以避免意外事故 |
-| 5020 | [`pg_squeeze`](/zh/e/pg_squeeze) | [`pg_squeeze`](/zh/e/pg_squeeze) | 1.9.0 | 从关系中删除未使用空间 |
+| 5040 | [`pg_squeeze`](/zh/e/pg_squeeze) | [`pg_squeeze`](/zh/e/pg_squeeze) | 1.9.0 | 从关系中删除未使用空间 |
 | 5990 | [`pg_surgery`](/zh/e/pg_surgery) | [`pg_surgery`](/zh/e/pg_surgery) | 1.0 | 对损坏的关系进行手术 |
-| 5150 | [`pg_upless`](/zh/e/pg_upless) | [`pg_upless`](/zh/e/pg_upless) | 0.0.3 | 检测表上的无用UPDATE |
+| 5180 | [`pg_upless`](/zh/e/pg_upless) | [`pg_upless`](/zh/e/pg_upless) | 0.0.3 | 检测表上的无用UPDATE |
 | 5880 | [`pgagent`](/zh/e/pgagent) | [`pgagent`](/zh/e/pgagent) | 4.2.3 | PostgreSQL任务调度工具，与PGADMIN配合使用 |
-| 5120 | [`pgautofailover`](/zh/e/pgautofailover) | [`pgautofailover`](/zh/e/pgautofailover) | 2.2 | PG 自动故障迁移 |
-| 5170 | [`pgcozy`](/zh/e/pgcozy) | [`pgcozy`](/zh/e/pgcozy) | 1.0 | 根据先前的pg_buffercache快照预热内存缓冲区 |
-| 5100 | [`pgdd`](/zh/e/pgdd) | [`pgdd`](/zh/e/pgdd) | 0.6.0 | 提供通过标准SQL查询数据库目录集簇的能力 |
-| 5040 | [`pgfincore`](/zh/e/pgfincore) | [`pgfincore`](/zh/e/pgfincore) | 1.3.1 | 检查和管理操作系统缓冲区缓存 |
+| 5150 | [`pgautofailover`](/zh/e/pgautofailover) | [`pgautofailover`](/zh/e/pgautofailover) | 2.2 | PG 自动故障迁移 |
+| 5190 | [`pgcozy`](/zh/e/pgcozy) | [`pgcozy`](/zh/e/pgcozy) | 1.0 | 根据先前的pg_buffercache快照预热内存缓冲区 |
+| 5130 | [`pgdd`](/zh/e/pgdd) | [`pgdd`](/zh/e/pgdd) | 0.6.0 | 提供通过标准SQL查询数据库目录集簇的能力 |
+| 5060 | [`pgfincore`](/zh/e/pgfincore) | [`pgfincore`](/zh/e/pgfincore) | 1.3.1 | 检查和管理操作系统缓冲区缓存 |
 | 5900 | [`pgpool_adm`](/zh/e/pgpool_adm) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.3 | PGPool 管理函数 |
 | 5910 | [`pgpool_recovery`](/zh/e/pgpool_recovery) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.3 | PGPool辅助扩展，从v4.3提供的恢复函数 |
 | 5920 | [`pgpool_regclass`](/zh/e/pgpool_regclass) | [`pgpool`](/zh/e/pgpool_adm) | 4.6.3 | PGPool辅助扩展，RegClass替代 |
-| 5140 | [`pre_prepare`](/zh/e/pre_prepare) | [`preprepare`](/zh/e/pre_prepare) | 0.9 | 在服务端预先准备好PreparedStatement备用 |
-| 5070 | [`prioritize`](/zh/e/prioritize) | [`pg_prioritize`](/zh/e/prioritize) | 1.0.4 | 获取和设置 PostgreSQL 后端的优先级 |
+| 5170 | [`pre_prepare`](/zh/e/pre_prepare) | [`preprepare`](/zh/e/pre_prepare) | 0.9 | 在服务端预先准备好PreparedStatement备用 |
+| 5090 | [`prioritize`](/zh/e/prioritize) | [`pg_prioritize`](/zh/e/prioritize) | 1.0.4 | 获取和设置 PostgreSQL 后端的优先级 |
 | 5820 | [`safeupdate`](/zh/e/safeupdate) | [`safeupdate`](/zh/e/safeupdate) | 1.5 | 强制在 UPDATE 和 DELETE 时提供 Where 条件 |
 | 5840 | [`table_log`](/zh/e/table_log) | [`table_log`](/zh/e/table_log) | 0.6.4 | 记录某张表的修改日志并做表/行级时间点恢复 |
 
@@ -523,7 +524,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 7090 | [`pgauditlogtofile`](/zh/e/pgauditlogtofile) | [`pgauditlogtofile`](/zh/e/pgauditlogtofile) | 1.7.1 | pgAudit 子扩展，将审计日志写入单独的文件中 |
 | 7980 | [`pgcrypto`](/zh/e/pgcrypto) | [`pgcrypto`](/zh/e/pgcrypto) | 1.3 | 实用加解密函数 |
 | 7120 | [`pgcryptokey`](/zh/e/pgcryptokey) | [`pgcryptokey`](/zh/e/pgcryptokey) | 0.85 | PG密钥管理 |
-| 7180 | [`pgextwlist`](/zh/e/pgextwlist) | [`pgextwlist`](/zh/e/pgextwlist) | 1.17 | PostgreSQL扩展白名单功能 |
+| 7180 | [`pgextwlist`](/zh/e/pgextwlist) | [`pgextwlist`](/zh/e/pgextwlist) | 1.19 | PostgreSQL扩展白名单功能 |
 | 7070 | [`pgsmcrypto`](/zh/e/pgsmcrypto) | [`pgsmcrypto`](/zh/e/pgsmcrypto) | 0.1.0 | 为PostgreSQL提供商密算法支持：SM2,SM3,SM4 |
 | 7020 | [`pgsodium`](/zh/e/pgsodium) | [`pgsodium`](/zh/e/pgsodium) | 3.1.9 | 表数据加密存储 TDE |
 | 7960 | [`sepgsql`](/zh/e/sepgsql) | [`sepgsql`](/zh/e/sepgsql) | - | 基于SELinux标签的强制访问控制 |
@@ -561,7 +562,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 8710 | [`redis_fdw`](/zh/e/redis_fdw) | [`redis_fdw`](/zh/e/redis_fdw) | 1.0 | 查询外部Redis数据源 |
 | 8640 | [`sqlite_fdw`](/zh/e/sqlite_fdw) | [`sqlite_fdw`](/zh/e/sqlite_fdw) | 2.5.0 | SQLite 外部数据包装器 |
 | 8620 | [`tds_fdw`](/zh/e/tds_fdw) | [`tds_fdw`](/zh/e/tds_fdw) | 2.0.4 | TDS 数据库（Sybase/SQL Server）外部数据包装器 |
-| 8500 | [`wrappers`](/zh/e/wrappers) | [`wrappers`](/zh/e/wrappers) | 0.5.3 | Supabase提供的外部数据源包装器捆绑包 |
+| 8500 | [`wrappers`](/zh/e/wrappers) | [`wrappers`](/zh/e/wrappers) | 0.5.4 | Supabase提供的外部数据源包装器捆绑包 |
 
 ## SIM
 
@@ -575,9 +576,9 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 9330 | [`babelfishpg_money`](/zh/e/babelfishpg_money) | [`babelfishpg_money`](/zh/e/babelfishpg_money) | 1.1.0 | SQL Server 货币数据类型兼容扩展 |
 | 9320 | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | [`babelfishpg_tds`](/zh/e/babelfishpg_tds) | 1.0.0 | SQL Server TDS线缆协议兼容扩展 |
 | 9310 | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | [`babelfishpg_tsql`](/zh/e/babelfishpg_tsql) | 3.3.1 | SQL Server SQL语法兼容性扩展 |
-| 9000 | [`documentdb`](/zh/e/documentdb) | [`documentdb`](/zh/e/documentdb) | 0.105 | 微软DocumentDB的API层 |
-| 9010 | [`documentdb_core`](/zh/e/documentdb_core) | [`documentdb`](/zh/e/documentdb) | 0.105 | 微软DocumentDB的核心API层实现 |
-| 9020 | [`documentdb_distributed`](/zh/e/documentdb_distributed) | [`documentdb`](/zh/e/documentdb) | 0.105 | DocumentDB多节点模式的API层 |
+| 9000 | [`documentdb`](/zh/e/documentdb) | [`documentdb`](/zh/e/documentdb) | 0.106 | 微软DocumentDB的API层 |
+| 9010 | [`documentdb_core`](/zh/e/documentdb_core) | [`documentdb`](/zh/e/documentdb) | 0.106 | 微软DocumentDB的核心API层实现 |
+| 9020 | [`documentdb_distributed`](/zh/e/documentdb_distributed) | [`documentdb`](/zh/e/documentdb) | 0.106 | DocumentDB多节点模式的API层 |
 | 9100 | [`orafce`](/zh/e/orafce) | [`orafce`](/zh/e/orafce) | 4.14.4 | 模拟 Oracle RDBMS 的一部分函数和包的函数和运算符 |
 | 9260 | [`pg_dbms_job`](/zh/e/pg_dbms_job) | [`pg_dbms_job`](/zh/e/pg_dbms_job) | 1.5 | 添加 Oracle DBMS_JOB 兼容性支持的扩展 |
 | 9250 | [`pg_dbms_lock`](/zh/e/pg_dbms_lock) | [`pg_dbms_lock`](/zh/e/pg_dbms_lock) | 1.0 | 为PG添加对 Oracle DBMS_LOCK 的完整兼容性支持 |
@@ -603,7 +604,7 @@ AI与RAG扩展插件：向量数据库，DiskANN 向量索引，相似度度量�
 | 9830 | [`pg_bulkload`](/zh/e/pg_bulkload) | [`pg_bulkload`](/zh/e/pg_bulkload) | 3.1.22 | 向 PostgreSQL 中高速加载数据 |
 | 9820 | [`pg_fact_loader`](/zh/e/pg_fact_loader) | [`pg_fact_loader`](/zh/e/pg_fact_loader) | 2.0.1 | 在 Postgres 中构建事实表 |
 | 9530 | [`pg_failover_slots`](/zh/e/pg_failover_slots) | [`pg_failover_slots`](/zh/e/pg_failover_slots) | 1.1.0 | 在Failover过程中保留复制槽 |
-| 9550 | [`pgactive`](/zh/e/pgactive) | [`pgactive`](/zh/e/pgactive) | 2.1.5 | PostgreSQL多主逻辑复制 |
+| 9550 | [`pgactive`](/zh/e/pgactive) | [`pgactive`](/zh/e/pgactive) | 2.1.6 | PostgreSQL多主逻辑复制 |
 | 9520 | [`pgl_ddl_deploy`](/zh/e/pgl_ddl_deploy) | [`pgl_ddl_deploy`](/zh/e/pgl_ddl_deploy) | 2.2.1 | 使用 pglogical 执行自动 DDL 部署 |
 | 9500 | [`pglogical`](/zh/e/pglogical) | [`pglogical`](/zh/e/pglogical) | 2.4.5 | PostgreSQL逻辑复制：三方扩展实现 |
 | 9501 | [`pglogical_origin`](/zh/e/pglogical_origin) | [`pglogical`](/zh/e/pglogical) | 2.4.5 | 用于从 Postgres 9.4 升级时的兼容性虚拟扩展 |

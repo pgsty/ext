@@ -64,7 +64,7 @@
   "en_desc": "integer aggregator and enumerator (obsolete)",
   "zh_desc": "整数聚合器和枚举器（过时）",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "intagg"
   ],

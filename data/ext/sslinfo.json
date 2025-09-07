@@ -64,7 +64,7 @@
   "en_desc": "information about SSL certificates",
   "zh_desc": "关于 SSL 证书的信息",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "sslinfo"
   ],

@@ -64,7 +64,7 @@
   "en_desc": "foreign-data wrapper for remote PostgreSQL servers",
   "zh_desc": "用于远程 PostgreSQL 服务器的外部数据包装器",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "postgres_fdw"
   ],

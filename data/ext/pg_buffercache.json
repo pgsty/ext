@@ -64,7 +64,7 @@
   "en_desc": "examine the shared buffer cache",
   "zh_desc": "检查共享缓冲区缓存",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "pg_buffercache"
   ],

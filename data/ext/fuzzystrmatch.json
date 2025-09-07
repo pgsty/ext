@@ -66,7 +66,7 @@
   "en_desc": "determine similarities and distance between strings",
   "zh_desc": "确定字符串之间的相似性和距离",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "fuzzystrmatch"
   ],

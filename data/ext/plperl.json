@@ -73,7 +73,7 @@
   "en_desc": "PL/Perl procedural language",
   "zh_desc": "PL/Perl 存储过程语言",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "bool_plperl",
     "hstore_plperl",

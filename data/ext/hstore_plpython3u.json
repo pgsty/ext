@@ -68,7 +68,7 @@
   "en_desc": "transform between hstore and plpython3u",
   "zh_desc": "在 hstore 和 plpython3u 之间转换",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "hstore_plpython3u",
     "jsonb_plpython3u",

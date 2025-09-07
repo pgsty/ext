@@ -61,7 +61,7 @@
   "en_desc": "extension to perform surgery on a damaged relation",
   "zh_desc": "对损坏的关系进行手术",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "pg_surgery"
   ],

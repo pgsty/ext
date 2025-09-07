@@ -20,7 +20,7 @@ import { FileCode2, Package } from 'lucide-react';
 
 | Language | Count | Description |
 |:-------:|:-----:|:------------|
-| <a href="#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> | 334 | The traditional PostgreSQL extension language |
+| <a href="#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> | 335 | The traditional PostgreSQL extension language |
 | <a href="#sql"><Badge icon={<FileCode2 />} variant="green-subtle">SQL</Badge></a> | 37 | Pure SQL extensions and functions |
 | <a href="#rust"><Badge icon={<FileCode2 />} variant="amber-subtle">Rust</Badge></a> | 33 | Extensions written in Rust with the pgrx framework |
 | <a href="#data"><Badge icon={<FileCode2 />} variant="teal-subtle">Data</Badge></a> | 10 | Data-only extensions |
@@ -31,7 +31,7 @@ import { FileCode2, Package } from 'lucide-react';
 
 ## C
 
-<a href="#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> <Badge icon={<Package />} variant="gray-subtle">334 Extensions</Badge>
+<a href="#c"><Badge icon={<FileCode2 />} variant="blue-subtle">C</Badge></a> <Badge icon={<Package />} variant="gray-subtle">335 Extensions</Badge>
 
 The traditional PostgreSQL extension language
 
@@ -198,14 +198,14 @@ The traditional PostgreSQL extension language
 | 2120 | [`pg_bigm`](/e/pg_bigm) | [`pg_bigm`](/e/pg_bigm) | create 2-gram (bigram) index for faster full text search. |
 | 6930 | [`pg_buffercache`](/e/pg_buffercache) | [`pg_buffercache`](/e/pg_buffercache) | examine the shared buffer cache |
 | 9830 | [`pg_bulkload`](/e/pg_bulkload) | [`pg_bulkload`](/e/pg_bulkload) | pg_bulkload is a high speed data loading utility for PostgreSQL |
-| 5130 | [`pg_catcheck`](/e/pg_catcheck) | [`pg_catcheck`](/e/pg_catcheck) | Diagnosing system catalog corruption |
-| 5200 | [`pg_cheat_funcs`](/e/pg_cheat_funcs) | [`pg_cheat_funcs`](/e/pg_cheat_funcs) | Provides cheat (but useful) functions |
-| 5080 | [`pg_checksums`](/e/pg_checksums) | [`pg_checksums`](/e/pg_checksums) | Activate/deactivate/verify checksums in offline Postgres clusters |
-| 5050 | [`pg_cooldown`](/e/pg_cooldown) | [`pg_cooldown`](/e/pg_cooldown) | remove buffered pages for specific relations |
-| 5190 | [`pg_crash`](/e/pg_crash) | [`pg_crash`](/e/pg_crash) | Send random signals to random processes |
+| 5160 | [`pg_catcheck`](/e/pg_catcheck) | [`pg_catcheck`](/e/pg_catcheck) | Diagnosing system catalog corruption |
+| 5220 | [`pg_cheat_funcs`](/e/pg_cheat_funcs) | [`pg_cheat_funcs`](/e/pg_cheat_funcs) | Provides cheat (but useful) functions |
+| 5110 | [`pg_checksums`](/e/pg_checksums) | [`pg_checksums`](/e/pg_checksums) | Activate/deactivate/verify checksums in offline Postgres clusters |
+| 5070 | [`pg_cooldown`](/e/pg_cooldown) | [`pg_cooldown`](/e/pg_cooldown) | remove buffered pages for specific relations |
+| 5210 | [`pg_crash`](/e/pg_crash) | [`pg_crash`](/e/pg_crash) | Send random signals to random processes |
 | 1070 | [`pg_cron`](/e/pg_cron) | [`pg_cron`](/e/pg_cron) | Job scheduler for PostgreSQL |
 | 4090 | [`pg_curl`](/e/pg_curl) | [`pg_curl`](/e/pg_curl) | Run curl actions for data transfer in URL syntax |
-| 5030 | [`pg_dirtyread`](/e/pg_dirtyread) | [`pg_dirtyread`](/e/pg_dirtyread) | Read dead but unvacuumed rows from table |
+| 5050 | [`pg_dirtyread`](/e/pg_dirtyread) | [`pg_dirtyread`](/e/pg_dirtyread) | Read dead but unvacuumed rows from table |
 | 3830 | [`pg_duration`](/e/pg_duration) | [`pg_duration`](/e/pg_duration) | data type for representing durations |
 | 9820 | [`pg_fact_loader`](/e/pg_fact_loader) | [`pg_fact_loader`](/e/pg_fact_loader) | build fact tables with Postgres |
 | 9530 | [`pg_failover_slots`](/e/pg_failover_slots) | [`pg_failover_slots`](/e/pg_failover_slots) | PG Failover Slots extension |
@@ -218,7 +218,7 @@ The traditional PostgreSQL extension language
 | 6890 | [`pg_logicalinspect`](/e/pg_logicalinspect) | [`pg_logicalinspect`](/e/pg_logicalinspect) | Logical decoding components inspection |
 | 4770 | [`pg_math`](/e/pg_math) | [`pg_math`](/e/pg_math) | GSL statistical functions for postgresql |
 | 4080 | [`pg_net`](/e/pg_net) | [`pg_net`](/e/pg_net) | Async HTTP Requests |
-| 5180 | [`pg_orphaned`](/e/pg_orphaned) | [`pg_orphaned`](/e/pg_orphaned) | Deal with orphaned files |
+| 5200 | [`pg_orphaned`](/e/pg_orphaned) | [`pg_orphaned`](/e/pg_orphaned) | Deal with orphaned files |
 | 6880 | [`pg_overexplain`](/e/pg_overexplain) | [`pg_overexplain`](/e/pg_overexplain) | Allow EXPLAIN to dump even more details |
 | 2510 | [`pg_partman`](/e/pg_partman) | [`pg_partman`](/e/pg_partman) | Extension to manage partitioned tables by time or ID |
 | 5890 | [`pg_prewarm`](/e/pg_prewarm) | [`pg_prewarm`](/e/pg_prewarm) | prewarm relation data |
@@ -229,16 +229,17 @@ The traditional PostgreSQL extension language
 | 3720 | [`pg_rational`](/e/pg_rational) | [`pg_rational`](/e/pg_rational) | bigint fractions |
 | 4300 | [`pg_readme`](/e/pg_readme) | [`pg_readme`](/e/pg_readme) | Generate a README.md document for a database extension or schema |
 | 4301 | [`pg_readme_test_extension`](/e/pg_readme_test_extension) | [`pg_readme`](/e/pg_readme) | Test generating a README.md document for extension or schema |
-| 5090 | [`pg_readonly`](/e/pg_readonly) | [`pg_readonly`](/e/pg_readonly) | cluster database read only |
+| 5120 | [`pg_readonly`](/e/pg_readonly) | [`pg_readonly`](/e/pg_readonly) | cluster database read only |
 | 6380 | [`pg_relusage`](/e/pg_relusage) | [`pg_relusage`](/e/pg_relusage) | Log all the queries that reference a particular column |
 | 5010 | [`pg_repack`](/e/pg_repack) | [`pg_repack`](/e/pg_repack) | Reorganize tables in PostgreSQL databases with minimal locks |
+| 5020 | [`pg_rewrite`](/e/pg_rewrite) | [`pg_rewrite`](/e/pg_rewrite) | Reorganize tables in PostgreSQL databases with minimal locks |
 | 3880 | [`pg_rrule`](/e/pg_rrule) | [`pg_rrule`](/e/pg_rrule) | RRULE field type for PostgreSQL |
 | 5810 | [`pg_savior`](/e/pg_savior) | [`pg_savior`](/e/pg_savior) | Postgres extension to save OOPS mistakes |
 | 6210 | [`pg_show_plans`](/e/pg_show_plans) | [`pg_show_plans`](/e/pg_show_plans) | show query plans of all currently running SQL statements |
 | 1840 | [`pg_similarity`](/e/pg_similarity) | [`pg_similarity`](/e/pg_similarity) | support similarity queries |
 | 7170 | [`pg_snakeoil`](/e/pg_snakeoil) | [`pg_snakeoil`](/e/pg_snakeoil) | The PostgreSQL Antivirus |
 | 3590 | [`pg_sphere`](/e/pg_sphere) | [`pgsphere`](/e/pg_sphere) | spherical objects with useful functions, operators and index support |
-| 5020 | [`pg_squeeze`](/e/pg_squeeze) | [`pg_squeeze`](/e/pg_squeeze) | A tool to remove unused space from a relation. |
+| 5040 | [`pg_squeeze`](/e/pg_squeeze) | [`pg_squeeze`](/e/pg_squeeze) | A tool to remove unused space from a relation. |
 | 6220 | [`pg_stat_kcache`](/e/pg_stat_kcache) | [`pg_stat_kcache`](/e/pg_stat_kcache) | Kernel statistics gathering |
 | 6230 | [`pg_stat_monitor`](/e/pg_stat_monitor) | [`pg_stat_monitor`](/e/pg_stat_monitor) | The pg_stat_monitor is a PostgreSQL Query Performance Monitoring tool, based on PostgreSQL contrib module pg_stat_statements. pg_stat_monitor provides aggregated statistics, client information, plan details including plan, and histogram information. |
 | 6990 | [`pg_stat_statements`](/e/pg_stat_statements) | [`pg_stat_statements`](/e/pg_stat_statements) | track planning and execution statistics of all SQL statements executed |
@@ -259,11 +260,11 @@ The traditional PostgreSQL extension language
 | 5880 | [`pgagent`](/e/pgagent) | [`pgagent`](/e/pgagent) | A PostgreSQL job scheduler |
 | 7080 | [`pgaudit`](/e/pgaudit) | [`pgaudit`](/e/pgaudit) | provides auditing functionality |
 | 7090 | [`pgauditlogtofile`](/e/pgauditlogtofile) | [`pgauditlogtofile`](/e/pgauditlogtofile) | pgAudit addon to redirect audit log to an independent file |
-| 5120 | [`pgautofailover`](/e/pgautofailover) | [`pgautofailover`](/e/pgautofailover) | pg_auto_failover |
+| 5150 | [`pgautofailover`](/e/pgautofailover) | [`pgautofailover`](/e/pgautofailover) | pg_auto_failover |
 | 7980 | [`pgcrypto`](/e/pgcrypto) | [`pgcrypto`](/e/pgcrypto) | cryptographic functions |
 | 7120 | [`pgcryptokey`](/e/pgcryptokey) | [`pgcryptokey`](/e/pgcryptokey) | cryptographic key management |
 | 7180 | [`pgextwlist`](/e/pgextwlist) | [`pgextwlist`](/e/pgextwlist) | PostgreSQL Extension Whitelisting |
-| 5040 | [`pgfincore`](/e/pgfincore) | [`pgfincore`](/e/pgfincore) | examine and manage the os buffer cache |
+| 5060 | [`pgfincore`](/e/pgfincore) | [`pgfincore`](/e/pgfincore) | examine and manage the os buffer cache |
 | 4150 | [`pgjq`](/e/pgjq) | [`pgjq`](/e/pgjq) | Use jq in Postgres |
 | 9520 | [`pgl_ddl_deploy`](/e/pgl_ddl_deploy) | [`pgl_ddl_deploy`](/e/pgl_ddl_deploy) | automated ddl deployment using pglogical |
 | 9500 | [`pglogical`](/e/pglogical) | [`pglogical`](/e/pglogical) | PostgreSQL Logical Replication |
@@ -314,9 +315,9 @@ The traditional PostgreSQL extension language
 | 1504 | [`postgis_tiger_geocoder`](/e/postgis_tiger_geocoder) | [`postgis`](/e/postgis) | PostGIS tiger geocoder and reverse geocoder |
 | 1501 | [`postgis_topology`](/e/postgis_topology) | [`postgis`](/e/postgis) | PostGIS topology spatial types and functions |
 | 8990 | [`postgres_fdw`](/e/postgres_fdw) | [`postgres_fdw`](/e/postgres_fdw) | foreign-data wrapper for remote PostgreSQL servers |
-| 5140 | [`pre_prepare`](/e/pre_prepare) | [`preprepare`](/e/pre_prepare) | Pre Prepare your Statement server side |
+| 5170 | [`pre_prepare`](/e/pre_prepare) | [`preprepare`](/e/pre_prepare) | Pre Prepare your Statement server side |
 | 3500 | [`prefix`](/e/prefix) | [`pg_prefix`](/e/prefix) | Prefix Range module for PostgreSQL |
-| 5070 | [`prioritize`](/e/prioritize) | [`pg_prioritize`](/e/prioritize) | get and set the priority of PostgreSQL backends |
+| 5090 | [`prioritize`](/e/prioritize) | [`pg_prioritize`](/e/prioritize) | get and set the priority of PostgreSQL backends |
 | 1540 | [`q3c`](/e/q3c) | [`q3c`](/e/q3c) | q3c sky indexing plugin |
 | 4610 | [`quantile`](/e/quantile) | [`quantile`](/e/quantile) | Quantile aggregation function |
 | 4780 | [`random`](/e/random) | [`pg_random`](/e/random) | random data generator |
@@ -384,7 +385,7 @@ Pure SQL extensions and functions
 | 4320 | [`data_historization`](/e/data_historization) | [`data_historization`](/e/data_historization) | PLPGSQL Script to historize data in partitionned table |
 | 9540 | [`db_migrator`](/e/db_migrator) | [`db_migrator`](/e/db_migrator) | Tools to migrate other databases to PostgreSQL |
 | 4310 | [`ddl_historization`](/e/ddl_historization) | [`ddl_historization`](/e/ddl_historization) | Historize the ddl changes inside PostgreSQL database |
-| 5060 | [`ddlx`](/e/ddlx) | [`pg_ddlx`](/e/ddlx) | DDL eXtractor functions |
+| 5080 | [`ddlx`](/e/ddlx) | [`pg_ddlx`](/e/ddlx) | DDL eXtractor functions |
 | 3870 | [`debversion`](/e/debversion) | [`debversion`](/e/debversion) | Debian version number data type |
 | 1050 | [`emaj`](/e/emaj) | [`emaj`](/e/emaj) | Enables fine-grained write logging and time travel on subsets of the database. |
 | 1560 | [`geoip`](/e/geoip) | [`geoip`](/e/geoip) | IP-based geolocation query |
@@ -402,13 +403,13 @@ Pure SQL extensions and functions
 | 2500 | [`pg_fkpart`](/e/pg_fkpart) | [`pg_fkpart`](/e/pg_fkpart) | Table partitioning by foreign key utility |
 | 4180 | [`pg_html5_email_address`](/e/pg_html5_email_address) | [`pg_html5_email_address`](/e/pg_html5_email_address) | PostgreSQL email validation that is consistent with the HTML5 spec |
 | 7130 | [`pg_jobmon`](/e/pg_jobmon) | [`pg_jobmon`](/e/pg_jobmon) | Extension for logging and monitoring functions in PostgreSQL |
-| 5110 | [`pg_permissions`](/e/pg_permissions) | [`pg_permissions`](/e/pg_permissions) | view object permissions and compare them with the desired state |
+| 5140 | [`pg_permissions`](/e/pg_permissions) | [`pg_permissions`](/e/pg_permissions) | view object permissions and compare them with the desired state |
 | 6330 | [`pg_sqlog`](/e/pg_sqlog) | [`pg_sqlog`](/e/pg_sqlog) | Provide SQL interface to logs |
 | 6260 | [`pg_track_settings`](/e/pg_track_settings) | [`pg_track_settings`](/e/pg_track_settings) | Track settings changes |
-| 5150 | [`pg_upless`](/e/pg_upless) | [`pg_upless`](/e/pg_upless) | Detect Useless UPDATE |
+| 5180 | [`pg_upless`](/e/pg_upless) | [`pg_upless`](/e/pg_upless) | Detect Useless UPDATE |
 | 3610 | [`pg_xenophile`](/e/pg_xenophile) | [`pg_xenophile`](/e/pg_xenophile) | More than the bare necessities for PostgreSQL i18n and l10n. |
 | 8650 | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | [`pgbouncer_fdw`](/e/pgbouncer_fdw) | Extension for querying PgBouncer stats from normal SQL views & running pgbouncer commands from normal SQL functions |
-| 5170 | [`pgcozy`](/e/pgcozy) | [`pgcozy`](/e/pgcozy) | Pre-warming shared buffers according to previous pg_buffercache snapshots for PostgreSQL. |
+| 5190 | [`pgcozy`](/e/pgcozy) | [`pgcozy`](/e/pgcozy) | Pre-warming shared buffers according to previous pg_buffercache snapshots for PostgreSQL. |
 | 3580 | [`pgfaceting`](/e/pgfaceting) | [`pgfaceting`](/e/pgfaceting) | fast faceting queries using an inverted index |
 | 4160 | [`pgjwt`](/e/pgjwt) | [`pgjwt`](/e/pgjwt) | JSON Web Token API for Postgresql |
 | 2900 | [`pgmq`](/e/pgmq) | [`pgmq`](/e/pgmq) | A lightweight message queue. Like AWS SQS and RSMQ but on Postgres. |
@@ -446,7 +447,7 @@ Extensions written in Rust with the pgrx framework
 | 1860 | [`pg_summarize`](/e/pg_summarize) | [`pg_summarize`](/e/pg_summarize) | Text Summarization using LLMs. Built using pgrx |
 | 1870 | [`pg_tiktoken`](/e/pg_tiktoken) | [`pg_tiktoken`](/e/pg_tiktoken) | tiktoken tokenizer for use with OpenAI models in postgres |
 | 2160 | [`pg_tokenizer`](/e/pg_tokenizer) | [`pg_tokenizer`](/e/pg_tokenizer) | Tokenizers for full-text search |
-| 5100 | [`pgdd`](/e/pgdd) | [`pgdd`](/e/pgdd) | Introspect pg data dictionary via standard SQL |
+| 5130 | [`pgdd`](/e/pgdd) | [`pgdd`](/e/pgdd) | Introspect pg data dictionary via standard SQL |
 | 3540 | [`pglite_fusion`](/e/pglite_fusion) | [`pglite_fusion`](/e/pglite_fusion) | Embed an SQLite database in your PostgreSQL table |
 | 1890 | [`pgml`](/e/pgml) | [`pgml`](/e/pgml) | Run AL/ML workloads with SQL interface |
 | 7070 | [`pgsmcrypto`](/e/pgsmcrypto) | [`pgsmcrypto`](/e/pgsmcrypto) | PostgreSQL SM Algorithm Extension |

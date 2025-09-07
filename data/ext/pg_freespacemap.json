@@ -64,7 +64,7 @@
   "en_desc": "examine the free space map (FSM)",
   "zh_desc": "检查自由空间映射的内容（FSM）",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "pg_freespacemap"
   ],

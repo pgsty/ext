@@ -64,7 +64,7 @@
   "en_desc": "show row-level locking information",
   "zh_desc": "显示行级锁信息",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "pgrowlocks"
   ],

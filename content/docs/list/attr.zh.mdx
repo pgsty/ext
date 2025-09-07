@@ -31,7 +31,7 @@ import { Badge } from '@/components/ui/badge';
 | 7990 | [`passwordcheck`](/zh/e/passwordcheck) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 用于强制拒绝修改弱密码的扩展 |
 | 7000 | [`passwordcheck_cracklib`](/zh/e/passwordcheck_cracklib) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 使用cracklib加固PG用户密码 |
 | 2140 | [`pg_bestmatch`](/zh/e/pg_bestmatch) | [`pg_bestmatch`](/zh/e/pg_bestmatch) | 在数据库内生成BM25稀疏向量 |
-| 5190 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 向数据库进程随机发送信号模拟故障 |
+| 5210 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 向数据库进程随机发送信号模拟故障 |
 | 1070 | [`pg_cron`](/zh/e/pg_cron) | [`pg_cron`](/zh/e/pg_cron) | 定时任务调度器 |
 | 2430 | [`pg_duckdb`](/zh/e/pg_duckdb) | [`pg_duckdb`](/zh/e/pg_duckdb) | 在PostgreSQL中的嵌入式DuckDB扩展 |
 | 9530 | [`pg_failover_slots`](/zh/e/pg_failover_slots) | [`pg_failover_slots`](/zh/e/pg_failover_slots) | 在Failover过程中保留复制槽 |
@@ -41,8 +41,9 @@ import { Badge } from '@/components/ui/badge';
 | 5890 | [`pg_prewarm`](/zh/e/pg_prewarm) | [`pg_prewarm`](/zh/e/pg_prewarm) | 预热关系数据 |
 | 6240 | [`pg_qualstats`](/zh/e/pg_qualstats) | [`pg_qualstats`](/zh/e/pg_qualstats) | 收集有关 quals 的统计信息的扩展 |
 | 6380 | [`pg_relusage`](/zh/e/pg_relusage) | [`pg_relusage`](/zh/e/pg_relusage) | 打印查询引用的表与列 |
+| 5020 | [`pg_rewrite`](/zh/e/pg_rewrite) | [`pg_rewrite`](/zh/e/pg_rewrite) | 在线垃圾清理与表膨胀治理 |
 | 7170 | [`pg_snakeoil`](/zh/e/pg_snakeoil) | [`pg_snakeoil`](/zh/e/pg_snakeoil) | PostgreSQL动态链接库反病毒功能 |
-| 5020 | [`pg_squeeze`](/zh/e/pg_squeeze) | [`pg_squeeze`](/zh/e/pg_squeeze) | 从关系中删除未使用空间 |
+| 5040 | [`pg_squeeze`](/zh/e/pg_squeeze) | [`pg_squeeze`](/zh/e/pg_squeeze) | 从关系中删除未使用空间 |
 | 6220 | [`pg_stat_kcache`](/zh/e/pg_stat_kcache) | [`pg_stat_kcache`](/zh/e/pg_stat_kcache) | 内核统计信息收集 |
 | 6230 | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | [`pg_stat_monitor`](/zh/e/pg_stat_monitor) | 提供查询聚合统计、客户端信息、执行计划详细信息和直方图 |
 | 6990 | [`pg_stat_statements`](/zh/e/pg_stat_statements) | [`pg_stat_statements`](/zh/e/pg_stat_statements) | 跟踪所有执行的 SQL 语句的计划和执行统计信息 |
@@ -55,7 +56,7 @@ import { Badge } from '@/components/ui/badge';
 | 6270 | [`pg_wait_sampling`](/zh/e/pg_wait_sampling) | [`pg_wait_sampling`](/zh/e/pg_wait_sampling) | 基于采样的等待事件统计 |
 | 9550 | [`pgactive`](/zh/e/pgactive) | [`pgactive`](/zh/e/pgactive) | PostgreSQL多主逻辑复制 |
 | 7080 | [`pgaudit`](/zh/e/pgaudit) | [`pgaudit`](/zh/e/pgaudit) | 提供审计功能 |
-| 5120 | [`pgautofailover`](/zh/e/pgautofailover) | [`pgautofailover`](/zh/e/pgautofailover) | PG 自动故障迁移 |
+| 5150 | [`pgautofailover`](/zh/e/pgautofailover) | [`pgautofailover`](/zh/e/pgautofailover) | PG 自动故障迁移 |
 | 7180 | [`pgextwlist`](/zh/e/pgextwlist) | [`pgextwlist`](/zh/e/pgextwlist) | PostgreSQL扩展白名单功能 |
 | 3540 | [`pglite_fusion`](/zh/e/pglite_fusion) | [`pglite_fusion`](/zh/e/pglite_fusion) | 在PG表中嵌入SQLite数据库作为数据类型 |
 | 9510 | [`pglogical_ticker`](/zh/e/pglogical_ticker) | [`pglogical_ticker`](/zh/e/pglogical_ticker) | pglogical复制延迟以秒计的精确视图 |
@@ -90,8 +91,8 @@ import { Badge } from '@/components/ui/badge';
 | 9650 | [`decoderbufs`](/zh/e/decoderbufs) | [`decoderbufs`](/zh/e/decoderbufs) | 将WAL逻辑解码为ProtocolBuffer协议的消息 |
 | 7990 | [`passwordcheck`](/zh/e/passwordcheck) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 用于强制拒绝修改弱密码的扩展 |
 | 7000 | [`passwordcheck_cracklib`](/zh/e/passwordcheck_cracklib) | [`passwordcheck`](/zh/e/passwordcheck_cracklib) | 使用cracklib加固PG用户密码 |
-| 5080 | [`pg_checksums`](/zh/e/pg_checksums) | [`pg_checksums`](/zh/e/pg_checksums) | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
-| 5190 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 向数据库进程随机发送信号模拟故障 |
+| 5110 | [`pg_checksums`](/zh/e/pg_checksums) | [`pg_checksums`](/zh/e/pg_checksums) | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
+| 5210 | [`pg_crash`](/zh/e/pg_crash) | [`pg_crash`](/zh/e/pg_crash) | 向数据库进程随机发送信号模拟故障 |
 | 9530 | [`pg_failover_slots`](/zh/e/pg_failover_slots) | [`pg_failover_slots`](/zh/e/pg_failover_slots) | 在Failover过程中保留复制槽 |
 | 6880 | [`pg_overexplain`](/zh/e/pg_overexplain) | [`pg_overexplain`](/zh/e/pg_overexplain) | 允许 EXPLAIN 转储更多详细 |
 | 6380 | [`pg_relusage`](/zh/e/pg_relusage) | [`pg_relusage`](/zh/e/pg_relusage) | 打印查询引用的表与列 |

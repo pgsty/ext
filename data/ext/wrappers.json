@@ -11,7 +11,7 @@
     "pgrx",
     "supabase"
   ],
-  "version": "0.5.3",
+  "version": "0.5.4",
   "repo": "PIGSTY",
   "lang": "Rust",
   "contrib": false,
@@ -38,7 +38,7 @@
     "mysql_fdw",
     "postgres_fdw"
   ],
-  "rpm_ver": "0.5.3",
+  "rpm_ver": "0.5.4",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "wrappers_$v",
   "rpm_pg": [
@@ -48,7 +48,7 @@
     "14"
   ],
   "rpm_deps": [],
-  "deb_ver": "0.5.3",
+  "deb_ver": "0.5.4",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-wrappers",
   "deb_deps": [],
@@ -58,7 +58,7 @@
     "15",
     "14"
   ],
-  "source": "wrappers-0.5.3.tar.gz",
+  "source": "wrappers-0.5.4.tar.gz",
   "extra": {
     "pgrx": "0.14.3"
   },
@@ -71,156 +71,6 @@
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "postgresql-18-wrappers",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "postgresql-18-wrappers",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "wrappers_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "wrappers_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "wrappers_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "wrappers_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "postgresql-18-wrappers",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "postgresql-18-wrappers",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "postgresql-18-wrappers",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "wrappers",
-      "ext": "wrappers",
-      "pname": "postgresql-18-wrappers",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -232,7 +82,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -247,7 +97,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -262,7 +112,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -277,7 +127,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -292,7 +142,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -307,7 +157,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -322,7 +172,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -337,7 +187,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -352,7 +202,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -367,7 +217,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -382,7 +232,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -397,7 +247,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -412,7 +262,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -427,7 +277,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -442,7 +292,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -457,7 +307,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -472,7 +322,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -487,7 +337,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -502,7 +352,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -517,7 +367,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -532,7 +382,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -547,7 +397,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -562,7 +412,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -577,7 +427,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -592,7 +442,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -607,7 +457,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -622,7 +472,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -637,7 +487,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -652,7 +502,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -667,7 +517,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -682,7 +532,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -697,7 +547,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -712,7 +562,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -727,7 +577,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -742,7 +592,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -757,7 +607,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -772,7 +622,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -787,7 +637,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -802,7 +652,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -817,7 +667,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.5.3",
+      "pkg_ver": "0.5.4",
       "count": 1
     },
     {
@@ -976,401 +826,401 @@
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-14-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 126248,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-14-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "eb368b0c3a3f199310add15aec3b0043fe172472989ce5508f8877aa4738081f"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-14-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "size": 125916,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-14-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "74a4380379fe691797d334d94ed59b534a1a25e3696cf18b2e6571ccaf12feeb"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-14-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 141856,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-14-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "06ff5648c9dc690ac40e684cf29b5daf5e155d9fab6dba149bc3fc18732adf6e"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-14-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "size": 142024,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-14-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "1baa7ade8c7a52edb45f85ad2d7ee60d99c934efd05dcda2fb9f47c314edab46"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-14-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "size": 145492,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-14-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "ea20d5818ba5663060950425ae86ca1e31abd6ccee095dc7842d340b0fcb02d4"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-14-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "size": 145184,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-14-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "sha256": "8f4fbe08e03bb4215c3dbb00e2253e8827af33325a99c4c9b5a1a2b9b8ff2fe1"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-14-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "size": 154158,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-14-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "8df382b43f891d73463df3fd26a061bbeb10f40f96fef76ed5a3d48079e9d606"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-14-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "size": 154436,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-14-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "sha256": "0e6fd46f7c42b1b60182130bbb0a7618e4934598c0178e013cf8e4b4770edab0"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-14-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "size": 144398,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-14-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "607f9be35085501813bac338f5359344a9f07544d9a386010be63832153f22e3"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-14-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "size": 144026,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-14-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "sha256": "16036bd00087fbb660ff87ab63a8b25709b5fd700807f06d0966e668fdac4c11"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-14-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "size": 152962,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-14-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "25d8c79e2824664e3a8da90ca12e81e5ab72e23e86ffaa64377582d0283c380a"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-14-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "size": 153366,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-14-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "sha256": "cd74d510585273a08b92958e11f217d22c22617608ffa12b4bcc9b250f379ee2"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-15-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 126224,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-15-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "0cbbdc734a5cc079d733781451f2f71b6225531e6fca788d7823ca7f74716121"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-15-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "size": 125916,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-15-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "501e207baf8d2531e2dd878f435c0bbad4a9c0ba4de2f9dfd4d4550d4c0e9067"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-15-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 141856,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-15-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "316a43f56ad4e8e918ae29886335b08b1031441b849ae0c4e6b468230a77d8e4"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-15-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "size": 141992,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-15-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "e8082ac244b91da41a7d2b2198f2f08eb3ad44e8c273ce52c2d896447dfce036"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-15-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "size": 145508,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-15-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "48882c72d259d44c13998fbf3e2ca333ee9ad137f2496bab4d8cb8a6b20a5012"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-15-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "size": 145604,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-15-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "sha256": "223f0e767a38b1205c46c9218a9b0969ccd16e85a40299f80a27afb87231d038"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-15-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "size": 154154,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-15-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "46ce77d21771745be28cb2c30cad015a5edcfe8505c86cec088b8da9977f8ed4"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-15-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "size": 154486,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-15-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "sha256": "114891bc876f515ae58b4dac61de1476e842a3a9b0fec661a262d8cc6d91d0e1"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-15-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "size": 144342,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-15-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "7a39442504afa825934beb08324d659d892c4ef59dc41b4f7c9969fa788bb746"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-15-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "size": 144010,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-15-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "sha256": "2be340d67fe7081e2cbcf7d5e6383cd0a1826210e3a5f3cedebc6a58542384fc"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-15-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "size": 152952,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-15-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "cba27d4f65505daeebb6ccbd30ae57ad3f89f9af63b01e0901fd880e5e41e22d"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-15-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "size": 153374,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-15-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "sha256": "d67c5a658f9463d356c073b12dadb15936db086e2329c2a0001684369bac8fa8"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-16-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 126168,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-16-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "7d7a5af7edb732c5f9cd68406acde2724824e9c0da973f5aec8775ac0d188283"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-16-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "size": 125936,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-16-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "6eeac6d68431bd47c055d81e818921b801d06d749b1552e129b7b0aec9ed1426"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-16-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 141768,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-16-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "d9c68f9ae05d36ab1b6b4f904ae34c8f4724f9e6e45ac3c3d9982cf94db6894c"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-16-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "size": 141944,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-16-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "31eef1eae6e2bfbf287da423a02c4553803f0a62e1dc0102fe4a85d5dfb4e9da"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-16-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "size": 145516,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-16-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "d517c61f6e95fb3a8e3c90e64092da3139fb08125599dde5df6eb922cd216022"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-16-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "size": 145374,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-16-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "sha256": "0595e04393701d0986a48bb8aee8a4c1395295657b6a45138c9ca3a41c3c51f2"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-16-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "size": 154172,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-16-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "db62ada370f53cfe73a075e1ac8348534d95eaf35d8c7d29555cdfdd51b35509"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-16-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "size": 154404,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-16-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "sha256": "8e337685b5624c761700cc15d8a18bc088ba7e8350ac3c207818069b4129cbd6"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-16-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "size": 144342,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-16-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "8be63e3ab9d31d5757d38e6d16812c0a818ba38c8f45617e8009c1139f5e975d"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-16-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "size": 143990,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-16-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "sha256": "2ffaf0b15a8696c8584b6646159212d8a758b5590f8b5302bcbeebcdf7fac5f6"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-16-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "size": 152974,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-16-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "ef3509825ef5b7442bd2877c571974f5d678c16675d0bb2426c7008e936e5c4b"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-16-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "size": 153374,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-16-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "sha256": "36c64013717ce6c313e00a5f84639db48861cc33f5b7902ba2a5cc3b6f7556b8"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-17-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 126236,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-17-wrappers_0.5.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "f996af8a017b37cf4feacfbf068e875cd4bf67ce74851551f634f3ba88e8a7fd"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-17-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "size": 125928,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-17-wrappers_0.5.4-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "50f54dac7e0fd240cf97a23b5822bbd6b20b69430be1faab7e4e1f25bcabea97"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-wrappers",
-      "ver": "0.5.3-1PIGSTY~bookworm",
-      "file": "postgresql-17-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 141840,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-17-wrappers_0.5.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "dc32c8aa5c0bf096fb87b46adfcfe8680581cf953e46798841a45e81c1676a92"
+      "ver": "0.5.4-1PIGSTY~bookworm",
+      "file": "postgresql-17-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "size": 142008,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/w/wrappers/postgresql-17-wrappers_0.5.4-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "7dcf1755603b6b01dd69177300592507c7f6f146588933ec6bacbeddd40aba0f"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-17-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "size": 145674,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-17-wrappers_0.5.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "96a814646cfe3f8b6ce4d268dbdd5be6f9b6fa5c4051101651780095d04b197e"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-17-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "size": 145610,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-17-wrappers_0.5.4-1PIGSTY~jammy_arm64.deb",
+      "sha256": "8abc29113e6a30079d4ef34158cc15fe685d8b1b7eccdbf526a9cb9993031ffe"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-wrappers",
-      "ver": "0.5.3-1PIGSTY~jammy",
-      "file": "postgresql-17-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "size": 154134,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-17-wrappers_0.5.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "cbd94f92c6569ab1c2f603d9f2ef65e88c87fe26a7bb120c3aa753d1569c839e"
+      "ver": "0.5.4-1PIGSTY~jammy",
+      "file": "postgresql-17-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "size": 154368,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/w/wrappers/postgresql-17-wrappers_0.5.4-1PIGSTY~jammy_amd64.deb",
+      "sha256": "c5d50db67d8a89f51acead7233bf9206da82be1315b6209618e8943e4fdee3a7"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-17-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "size": 144330,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-17-wrappers_0.5.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "8dbc37b7267fdcce9fc431808b5bd359a470c9704441360826f68e782373bfb6"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-17-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "size": 143994,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-17-wrappers_0.5.4-1PIGSTY~noble_arm64.deb",
+      "sha256": "6fabdf33d4f7b83422b18ba94e0db9f28e6a871376c25522d86d8a5a5aa150c7"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-wrappers",
-      "ver": "0.5.3-1PIGSTY~noble",
-      "file": "postgresql-17-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "size": 152946,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-17-wrappers_0.5.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "7cf5a189c90f02df65fc5009e09612c9d2072d6eb4f0f799d9abe93b4f828225"
+      "ver": "0.5.4-1PIGSTY~noble",
+      "file": "postgresql-17-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "size": 153346,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/w/wrappers/postgresql-17-wrappers_0.5.4-1PIGSTY~noble_amd64.deb",
+      "sha256": "aa9dfc3a826525074f295327f0c83eb0c82b6774c91a2dd1abd6354144f61e38"
     },
     {
       "os": "el8.aarch64",
       "pg": 14,
       "name": "wrappers_14",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_14-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 160196,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_14-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "e709b6a28044d4073a91061bf5ff55719ad18d19f6c0e67ae2df0ec21fc96456"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_14-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "size": 159824,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_14-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "3f72c265b065a117f07e56daa2ca3f077f626416f0c4cb0ae6de491a134bc7af"
     },
     {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "wrappers_14",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_14-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 171548,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_14-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "08cba64a6355928bb4cf165dff2749d7c5694ef93f37b763a4cc72d61045fe82"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_14-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "size": 171892,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_14-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "e7897a2862b2249015eddc82684d77ec362e3160effceb2a25df4bd825596e27"
     },
     {
       "os": "el9.aarch64",
       "pg": 14,
       "name": "wrappers_14",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_14-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 171246,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_14-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "9a68a8469885341faba609bb5bc8d904d905818d51997c90ed7227b0f3f6ca78"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_14-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 170855,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_14-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "e1c58bca3b9327fad38607da53ff345061563b890e8a3891978cd810a8bf811a"
     },
     {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "wrappers_14",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_14-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 175363,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_14-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "c2aa48745e7e8e8b60aa9ead7c3687648f802fc93d1007136b52a27166784820"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_14-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 176063,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_14-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "89052201aeb9cbd5897702434ebbaf3e4ae23077d2680c33676265874799b9db"
     },
     {
       "os": "el8.aarch64",
       "pg": 15,
       "name": "wrappers_15",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_15-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 160112,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_15-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "eeca86bf56cf8d185f6296a8d830df555afaed6638e6afd623b9e5595fbeebf5"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_15-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "size": 159864,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_15-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "b99e54f6ccd54086cc5a9c9a6414806727a25d77ffbd1358fb9e76dacf6a4d83"
     },
     {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "wrappers_15",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_15-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 171528,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_15-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "7c660f757b2a3c44b0c11c1418344b59679d0b94df59abdee1746d93fcc932d6"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_15-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "size": 171900,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_15-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "fc00024e83591797a34d716b33789545c28a381dabf481275348f1ad5c95a319"
     },
     {
       "os": "el9.aarch64",
       "pg": 15,
       "name": "wrappers_15",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_15-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 171287,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_15-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "f50d820b11ce903298d9cb244e500969de7729a4ee04d9d03f149b3c4eeb75b8"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_15-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 170894,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_15-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "26273514a74396fa33d3d8848641cc4b4427eda6d7e24685568df6500dd87651"
     },
     {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "wrappers_15",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_15-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 175332,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_15-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "bd9599605048d24764c06b1eb2778561dde2c2f84104d8adb2fecca7f373482c"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_15-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 175997,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_15-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "30a4d96300681a1e59540b55c7236160efcf9571140bb8138e501456ead93a75"
     },
     {
       "os": "el8.aarch64",
       "pg": 16,
       "name": "wrappers_16",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_16-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 160140,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_16-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "6aac99a2873f34cb5bff4a3533ba69fef3b7e6f73eec6c33471d527fdc730b3f"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_16-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "size": 159900,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_16-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "0da3d2b3e220acec81dca9c741ddc3e488f27919cf35da6e777a09160a341119"
     },
     {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "wrappers_16",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_16-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 171616,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_16-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "401163baf5ea61c621b94dd9a325c97f5c1903e606526cbd32f0337b39712d42"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_16-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "size": 171956,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_16-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "65a0bb7d9752fc626bf8fd18d465e5c7d65d1b1d4a83494a1cdbb87f1d12a877"
     },
     {
       "os": "el9.aarch64",
       "pg": 16,
       "name": "wrappers_16",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_16-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 171270,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_16-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "2eb62c1c32a1b0b7ed18e7018c94ef334b555b4b140138dd8ddd10e745fb7d82"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_16-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 170896,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_16-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "9d463568307d0e39f1c6009e6913a358ad51db338425376b89a7b2c17115216a"
     },
     {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "wrappers_16",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_16-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 175459,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_16-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "c7a6728f0de3cca294186e68fc7bfa8593eb50b0c15c46a6073a488cebc486c4"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_16-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 175965,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_16-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "6d83ce14585eba15e6db8ad3233f4b0dc7754e8067b01c7621f832d30982678b"
     },
     {
       "os": "el8.aarch64",
       "pg": 17,
       "name": "wrappers_17",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_17-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "size": 160144,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_17-0.5.3-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "90905812cc617bdb1e4bafa7b02d172b9314dc0d8d1f027bb6bc8dba48c59337"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_17-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "size": 159868,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/wrappers_17-0.5.4-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "a47603d8110bef9d4b47bcf7dae05f9b253ff3fad4c198bf00f25a10c44ce7d5"
     },
     {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "wrappers_17",
-      "ver": "0.5.3-1PIGSTY.el8",
-      "file": "wrappers_17-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "size": 171620,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_17-0.5.3-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "7dcd142b603b1bf3d8a70e58673a5438d986364af1899da061507355a4822a0d"
+      "ver": "0.5.4-1PIGSTY.el8",
+      "file": "wrappers_17-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "size": 171940,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/wrappers_17-0.5.4-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "b3b79fdd7c6daa1c0f92b3e333912b50db14df145dd3a38785ee14dde9075ca8"
     },
     {
       "os": "el9.aarch64",
       "pg": 17,
       "name": "wrappers_17",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_17-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "size": 171264,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_17-0.5.3-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "ca530db399a31582769ead2c69b418065c41c7df195b91be45ab59057f67ce0f"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_17-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "size": 170971,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/wrappers_17-0.5.4-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "2eba5cafdcfd67d9798f3320be51a4211da0e2a5601dc6c37ba8214f0570eede"
     },
     {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "wrappers_17",
-      "ver": "0.5.3-1PIGSTY.el9",
-      "file": "wrappers_17-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "size": 175438,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_17-0.5.3-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "bb50122038abfb66486e30775db072fe42e505be923ab7edc40417120c4214f0"
+      "ver": "0.5.4-1PIGSTY.el9",
+      "file": "wrappers_17-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "size": 175999,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/wrappers_17-0.5.4-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "7e4b2aa136a0a68fdf533b92fae661663d6082165ecdff01fd13109cb23776d6"
     }
   ]
 }

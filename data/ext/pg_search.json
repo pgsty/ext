@@ -10,7 +10,7 @@
   "tags": [
     "pgrx"
   ],
-  "version": "0.18.0",
+  "version": "0.18.1",
   "repo": "PIGSTY",
   "lang": "Rust",
   "contrib": false,
@@ -41,7 +41,7 @@
     "pg_tokenizer",
     "zhparser"
   ],
-  "rpm_ver": "0.18.0",
+  "rpm_ver": "0.18.1",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_search_$v",
   "rpm_pg": [
@@ -51,7 +51,7 @@
     "14"
   ],
   "rpm_deps": [],
-  "deb_ver": "0.18.0",
+  "deb_ver": "0.18.1",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-pg-search",
   "deb_deps": [],
@@ -74,156 +74,6 @@
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "postgresql-18-pg-search",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "postgresql-18-pg-search",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "pg_search_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "pg_search_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "pg_search_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "pg_search_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "postgresql-18-pg-search",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "postgresql-18-pg-search",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "postgresql-18-pg-search",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "pg_search",
-      "ext": "pg_search",
-      "pname": "postgresql-18-pg-search",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -235,7 +85,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -250,7 +100,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -265,7 +115,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -280,7 +130,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -295,7 +145,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -310,7 +160,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -325,7 +175,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -340,7 +190,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -355,7 +205,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -370,7 +220,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -385,7 +235,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -400,7 +250,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -415,7 +265,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -430,7 +280,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -445,7 +295,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -460,7 +310,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -475,7 +325,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -490,7 +340,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -505,7 +355,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -520,7 +370,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -535,7 +385,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -550,7 +400,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -565,7 +415,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -580,7 +430,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -595,7 +445,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -610,7 +460,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -625,7 +475,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -640,7 +490,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -655,7 +505,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -670,7 +520,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -685,7 +535,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -700,7 +550,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -715,7 +565,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -730,7 +580,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -745,7 +595,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -760,7 +610,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -775,7 +625,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -790,7 +640,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -805,7 +655,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -820,7 +670,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.17.3",
+      "pkg_ver": "0.18.1",
       "count": 1
     },
     {
@@ -979,401 +829,401 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pg_search_14",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_14-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "size": 46577912,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_14-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "sha256": "49e702a616da07d5eb31b623d33bd630dec3271eee29598f84241f29231849d5"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_14-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "size": 46979528,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_14-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "sha256": "5264d19b78c578aba9799fa79cd3b4567593c554e294d411c0e3e07bed8ac6b5"
     },
     {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "pg_search_14",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_14-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "size": 47139476,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_14-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "sha256": "1c882cfc61b85a9320e5a9a80c950c9ffbf9564f3895ce32697300af7a8111d6"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_14-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "size": 47592780,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_14-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "sha256": "f1039efdf68f1d1d149b0b5dcbcfa312315129c47ec1ac122dccd8e7914b5115"
     },
     {
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pg_search_14",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_14-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "size": 46809271,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_14-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "sha256": "54a73f7955a7f1a8742f76281f7459642a74ab6b88f2b70a32eed14a98e0d231"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_14-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "size": 47213409,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_14-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "sha256": "961912ea7cacf3597d867cb3e8c6187f98fbf8724c095da224ba37d64fb3818c"
     },
     {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "pg_search_14",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_14-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "size": 47026282,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_14-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "sha256": "8adf8af52d144848095c8409cbf6657ad9b225370ecb351516d511a12b5403c6"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_14-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "size": 47412132,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_14-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "sha256": "7eec67c1d67fd412e40941480ba9e2a2ce6bcb8ebd82ffc5e5601871d21c5e25"
     },
     {
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pg_search_15",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_15-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "size": 46575076,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_15-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "sha256": "43c35eaf2d14e29f6912e70705ca2a2d0dcee691dff213631a9049b3ca647614"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_15-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "size": 46979588,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_15-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "sha256": "1a13076888cd9a67822e187eeae1adbfa9e09ef0d589d31f802d4213f27c586e"
     },
     {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "pg_search_15",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_15-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "size": 47139316,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_15-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "sha256": "7f5507e230312ed1c4f716964cefaf6cab1fdacef5c4de37e36fcdd2a368f3fb"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_15-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "size": 47592896,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_15-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "sha256": "149b86e3bcb9a740182dd0c0e1b27a30d01e5afc1ae86aea75ae505a5e58c713"
     },
     {
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pg_search_15",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_15-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "size": 46796260,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_15-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "sha256": "d9be0a106a9172745ad67994ac3502b071ffccb697c84226da850decb58ca808"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_15-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "size": 47191108,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_15-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "sha256": "7f358ff442ab6a9fe85fc32cf5ff245ded24dc7da75a15bdbbd012a3c753ff15"
     },
     {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "pg_search_15",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_15-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "size": 47026128,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_15-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "sha256": "994c98b392d4ec2b2f372545d925ef060f893445aafc759e7fbf9d62eb93c584"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_15-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "size": 47423074,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_15-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "sha256": "357b2f92551652d0bbe730dd72ea033eabcdd6b1a7953ebad3a0008fd83932f4"
     },
     {
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pg_search_16",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_16-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "size": 46591096,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_16-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "sha256": "549c5333897f586ad955fa549b8d0d50aacef6b4cb36b90ccbcd6df351fd780b"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_16-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "size": 47003128,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_16-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "sha256": "b444ccf2613a2d8b14d20e5646bd3e4afbab1381f774fd9bf8f45762b33511df"
     },
     {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "pg_search_16",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_16-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "size": 47153716,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_16-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "sha256": "62cd1bddd160631c12098f7b85d0bd3caefb3c51cad7cd46a8f43d6fadbeb960"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_16-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "size": 47610368,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_16-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "sha256": "77b04cde2f94749848dcb5027aa1c92482ec04a0f06f609a72cf3adde708d266"
     },
     {
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pg_search_16",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_16-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "size": 46829184,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_16-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "sha256": "6c57b0f862a3b3eac185496738d56d498336b8e3fbd43aca90195974636f6cc4"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_16-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "size": 47230642,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_16-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "sha256": "c7affc6c5c02cf69afba7d453987f352cfc7b70d2527bbaa9c8cafb4094d39ea"
     },
     {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "pg_search_16",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_16-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "size": 47041648,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_16-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "sha256": "2fca7bc89905bc0b2922b5308a30b33eb387cfdebcc21219bd02b5e690910a50"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_16-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "size": 47452499,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_16-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "sha256": "09594855b43f915e1a008b4ec117032217a0760108b28523898c03770417c19d"
     },
     {
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pg_search_17",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_17-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "size": 46576020,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_17-0.17.3-1PARADEDB.el8.aarch64.rpm",
-      "sha256": "0c3e1f31c69e50f8da429216e443f4bd59de185f3ca81d986ac4c198d6cdfaf6"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_17-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "size": 46998820,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_search_17-0.18.1-1PARADEDB.el8.aarch64.rpm",
+      "sha256": "f13a36150b9d81426449d91287e18af12034cef637af5e77b474baa04a13757b"
     },
     {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "pg_search_17",
-      "ver": "0.17.3-1.el8",
-      "file": "pg_search_17-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "size": 47146912,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_17-0.17.3-1PARADEDB.el8.x86_64.rpm",
-      "sha256": "3263930e49c0aac988ecf879aa37b91670a148bc2b8d36b877c48397dafc11af"
+      "ver": "0.18.1-1.el8",
+      "file": "pg_search_17-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "size": 47602920,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_search_17-0.18.1-1PARADEDB.el8.x86_64.rpm",
+      "sha256": "114abe7a8a70eeddcf76c072f699e287fd8ba85a55e04f5b24a8cd0e3fcba632"
     },
     {
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pg_search_17",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_17-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "size": 46796318,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_17-0.17.3-1PARADEDB.el9.aarch64.rpm",
-      "sha256": "51b7409bc22d6739f91ac318de306502dcb62f8000a04724a51c54de9497b087"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_17-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "size": 47224658,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_search_17-0.18.1-1PARADEDB.el9.aarch64.rpm",
+      "sha256": "a043dfc6d26c72e6882711f29ebc167fd569b256111d108c4e4fe918b3ff7f62"
     },
     {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "pg_search_17",
-      "ver": "0.17.3-1.el9",
-      "file": "pg_search_17-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "size": 47031845,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_17-0.17.3-1PARADEDB.el9.x86_64.rpm",
-      "sha256": "2fcc5955f354ad31cf4ecf1134d6133d75360e46c0eb025d3ef4b50a60c2cadd"
+      "ver": "0.18.1-1.el9",
+      "file": "pg_search_17-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "size": 47426553,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_search_17-0.18.1-1PARADEDB.el9.x86_64.rpm",
+      "sha256": "e9c93fe1d8b1b86c6bffc1733abf9d7bd5f569d0adb7dcffc93373e80d28b263"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-14-pg-search_0.17.3_arm64.deb",
-      "size": 46035856,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.17.3_arm64.deb",
-      "sha256": "125b06409d0053f1b918d4657d5212a96e68001966290928b25962e63c8f1b9e"
+      "ver": "0.18.1",
+      "file": "postgresql-14-pg-search_0.18.1_arm64.deb",
+      "size": 46391876,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.18.1_arm64.deb",
+      "sha256": "b2cb33182db430d713e0c99a6e9ecd1b072034220fd97d78a6872da0ba2cd121"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-14-pg-search_0.17.3_amd64.deb",
-      "size": 46508892,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.17.3_amd64.deb",
-      "sha256": "85bc68125e107f1b4287ea5e4f6841e15ab53559cf8e202f39034599a6f2abe5"
+      "ver": "0.18.1",
+      "file": "postgresql-14-pg-search_0.18.1_amd64.deb",
+      "size": 46905748,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.18.1_amd64.deb",
+      "sha256": "a00ff8f2a213ec0208d19bb4022f7601e7679eb1c209b99ca039957584ee9f90"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-14-pg-search_0.17.3_arm64.deb",
-      "size": 46036296,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.17.3_arm64.deb",
-      "sha256": "b7f4335248a2f9707287e3907c444f32b96f27ba3a55be2a8f0fe5f6590ec176"
+      "ver": "0.18.1",
+      "file": "postgresql-14-pg-search_0.18.1_arm64.deb",
+      "size": 46391272,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.18.1_arm64.deb",
+      "sha256": "402a4f866516471fbb940267a636849275a75f178e7458eccb1c8b69ae3c3ad9"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-14-pg-search_0.17.3_amd64.deb",
-      "size": 46502480,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.17.3_amd64.deb",
-      "sha256": "474e7d02770f06d50db6ed4ec0e0562d074dbedc04a17091af6461d449990c8d"
+      "ver": "0.18.1",
+      "file": "postgresql-14-pg-search_0.18.1_amd64.deb",
+      "size": 46898048,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.18.1_amd64.deb",
+      "sha256": "489fd565ae599ffc9cceb6b267123819eea1abb912e8f8af04c5dab6436ab440"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-14-pg-search_0.17.3_arm64.deb",
-      "size": 46037268,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.17.3_arm64.deb",
-      "sha256": "1a2653356d959af2dd28ad037de65e2780ec203929babacc211ed713458bad9e"
+      "ver": "0.18.1",
+      "file": "postgresql-14-pg-search_0.18.1_arm64.deb",
+      "size": 46397324,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.18.1_arm64.deb",
+      "sha256": "baf1d4690cd99d7cb06c5d04e4cec7ae48f7f907b9fdf1e1fcce2c99957ba4e4"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-14-pg-search_0.17.3_amd64.deb",
-      "size": 46515160,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.17.3_amd64.deb",
-      "sha256": "245a94b7ede908b061da1b9dbe355cafc4c51dc57e97d9dc1f63fe77398121cc"
+      "ver": "0.18.1",
+      "file": "postgresql-14-pg-search_0.18.1_amd64.deb",
+      "size": 46912892,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-14-pg-search/postgresql-14-pg-search_0.18.1_amd64.deb",
+      "sha256": "22137ff15d20825a1ef6a25a8cfc37edf797d7ea4e0e6d8cd0d26ddc4a25bf62"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-15-pg-search_0.17.3_arm64.deb",
-      "size": 46036436,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.17.3_arm64.deb",
-      "sha256": "3f72691be390e7567d31c8eeb0bdc90ba664a8cac5ae5227e9a9bd298b45b98f"
+      "ver": "0.18.1",
+      "file": "postgresql-15-pg-search_0.18.1_arm64.deb",
+      "size": 46393832,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.18.1_arm64.deb",
+      "sha256": "ca28c7da3b048dcbc7ce5b0f357932818f756daf4e5084be67196d27080880ce"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-15-pg-search_0.17.3_amd64.deb",
-      "size": 46506908,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.17.3_amd64.deb",
-      "sha256": "0edd5630e68a97c7899163431225dcd4618258314c204f356d5ff39a8b04dcae"
+      "ver": "0.18.1",
+      "file": "postgresql-15-pg-search_0.18.1_amd64.deb",
+      "size": 46907240,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.18.1_amd64.deb",
+      "sha256": "a686f6469bb9858e7905756f6df25e92fa281a579b0062e2d331770ecaa04e84"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-15-pg-search_0.17.3_arm64.deb",
-      "size": 46038888,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.17.3_arm64.deb",
-      "sha256": "953915fe20f3dc41639bcbe596de514903f0e353cdc14410630681a31109f71e"
+      "ver": "0.18.1",
+      "file": "postgresql-15-pg-search_0.18.1_arm64.deb",
+      "size": 46392176,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.18.1_arm64.deb",
+      "sha256": "b7217c411b876aa4f5ff3e0a85304a064a0475d590a2d409279bec92c8227355"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-15-pg-search_0.17.3_amd64.deb",
-      "size": 46499240,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.17.3_amd64.deb",
-      "sha256": "9e40db53c3705b493f7de4649131b18d101c4b6c41d9e37da08b0a56b1ff1e96"
+      "ver": "0.18.1",
+      "file": "postgresql-15-pg-search_0.18.1_amd64.deb",
+      "size": 46895616,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.18.1_amd64.deb",
+      "sha256": "60bc0a1c95efa60aa2eba3d9a7c89a707c4bb363acc278a8eda3a3d366ddecfb"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-15-pg-search_0.17.3_arm64.deb",
-      "size": 46048132,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.17.3_arm64.deb",
-      "sha256": "5929e03552a4eb3fe15ce346f08cb5711e884fe9d6154cdc16533dd64b82cb97"
+      "ver": "0.18.1",
+      "file": "postgresql-15-pg-search_0.18.1_arm64.deb",
+      "size": 46392988,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.18.1_arm64.deb",
+      "sha256": "c8860d3bff57b56721b3dde536949337a7d5938a631bcb71c1208bf6c804f5ed"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-15-pg-search_0.17.3_amd64.deb",
-      "size": 46512588,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.17.3_amd64.deb",
-      "sha256": "15bed399d86be2ba80ef9ee16a8b3ad3bcbe297fa293ef40225eaa6125e65412"
+      "ver": "0.18.1",
+      "file": "postgresql-15-pg-search_0.18.1_amd64.deb",
+      "size": 46914368,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-15-pg-search/postgresql-15-pg-search_0.18.1_amd64.deb",
+      "sha256": "fb80d9e71b2206aeef16ecf5cad5c20a01ed25b31c911b626a891676a139f883"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-16-pg-search_0.17.3_arm64.deb",
-      "size": 46056492,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.17.3_arm64.deb",
-      "sha256": "06b9281fe2a371f879dbcda755400b11a4ae5b0aa40766a4c8b4557ed4129688"
+      "ver": "0.18.1",
+      "file": "postgresql-16-pg-search_0.18.1_arm64.deb",
+      "size": 46406404,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.18.1_arm64.deb",
+      "sha256": "0a5da5b1f4ca6df7125317f36f32f2cad9a501b340f988c4301ff05372e9c23e"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-16-pg-search_0.17.3_amd64.deb",
-      "size": 46532248,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.17.3_amd64.deb",
-      "sha256": "67b9608344208177680f468f2799d3de005952782b79c9508876f80585f7bd80"
+      "ver": "0.18.1",
+      "file": "postgresql-16-pg-search_0.18.1_amd64.deb",
+      "size": 46926688,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.18.1_amd64.deb",
+      "sha256": "bf908876676403aaf85dc3ebb93cb2030e5bbb8979313d4130e7d9d953dda02c"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-16-pg-search_0.17.3_arm64.deb",
-      "size": 46056384,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.17.3_arm64.deb",
-      "sha256": "e8cbf35eb4a0466cfa01b7e5129c77aa1f0b19c9d90652366533840d9fb94a11"
+      "ver": "0.18.1",
+      "file": "postgresql-16-pg-search_0.18.1_arm64.deb",
+      "size": 46403540,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.18.1_arm64.deb",
+      "sha256": "6795aa5ae9ef3da0760a1769eb956127762c841bf18ee3d479a0403cde90a9a4"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-16-pg-search_0.17.3_amd64.deb",
-      "size": 46519812,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.17.3_amd64.deb",
-      "sha256": "6e284ff7b54ffa42647d671a28f29d58b964088494ff17d4b0bd49f7b62b466c"
+      "ver": "0.18.1",
+      "file": "postgresql-16-pg-search_0.18.1_amd64.deb",
+      "size": 46921728,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.18.1_amd64.deb",
+      "sha256": "05fb82491e5b6f2b99b9745e365eaa3a7ff789baafd64174f7decfa500206a6e"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-16-pg-search_0.17.3_arm64.deb",
-      "size": 46059436,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.17.3_arm64.deb",
-      "sha256": "f57eeb1bf8d4c3b6894db607378f638403c4f4780a7fc262e30c183a406f188d"
+      "ver": "0.18.1",
+      "file": "postgresql-16-pg-search_0.18.1_arm64.deb",
+      "size": 46411408,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.18.1_arm64.deb",
+      "sha256": "a4bf5e1d001a9c262ab06cdcd9b23504e45a4851a88c1ed2b961a5b26daa0e87"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-16-pg-search_0.17.3_amd64.deb",
-      "size": 46533328,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.17.3_amd64.deb",
-      "sha256": "423da0f536712355722c0476441383c66cdd705be40cfd04863abb73186c2c13"
+      "ver": "0.18.1",
+      "file": "postgresql-16-pg-search_0.18.1_amd64.deb",
+      "size": 46932452,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-16-pg-search/postgresql-16-pg-search_0.18.1_amd64.deb",
+      "sha256": "f1756a693e1c59b3b46bc7ed0a224173033eef975377a003614227abcf9c39b2"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-17-pg-search_0.17.3_arm64.deb",
-      "size": 46049700,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.17.3_arm64.deb",
-      "sha256": "7b5c842fe2daa3492ab09c4c791774e5145038c98c10d9cf38c0cc9df4059d40"
+      "ver": "0.18.1",
+      "file": "postgresql-17-pg-search_0.18.1_arm64.deb",
+      "size": 46401724,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.18.1_arm64.deb",
+      "sha256": "6efa06675b19722d5a3ae310781fcc87bb740c76bb590bbc7a9ab11c47a9fd6e"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-17-pg-search_0.17.3_amd64.deb",
-      "size": 46524252,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.17.3_amd64.deb",
-      "sha256": "afb8eb21dcb9498e13a9e8763bf80a7d73f95be6d3d5d646f79a61ab943f7fb6"
+      "ver": "0.18.1",
+      "file": "postgresql-17-pg-search_0.18.1_amd64.deb",
+      "size": 46921052,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.18.1_amd64.deb",
+      "sha256": "a10b16ea0036ed1e2b829c1bd0bb1beef6b275f033c54f2e171a557a1e048533"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-17-pg-search_0.17.3_arm64.deb",
-      "size": 46043700,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.17.3_arm64.deb",
-      "sha256": "9bc054704ca9cd111d59d28a35d90234ca6b13ef66c218903a3e98b1a761b52c"
+      "ver": "0.18.1",
+      "file": "postgresql-17-pg-search_0.18.1_arm64.deb",
+      "size": 46396912,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.18.1_arm64.deb",
+      "sha256": "1a9029702bef1ccfe92627253c9f77c79adbc4f052f2859636687dd938bbb64c"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-17-pg-search_0.17.3_amd64.deb",
-      "size": 46516736,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.17.3_amd64.deb",
-      "sha256": "74117ea6ebe1a9c7240ebc1f880288147e245ea5352dbf98fe7268c6011cbc1b"
+      "ver": "0.18.1",
+      "file": "postgresql-17-pg-search_0.18.1_amd64.deb",
+      "size": 46911000,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.18.1_amd64.deb",
+      "sha256": "d341ceadbceb9e4f676d570d868e1b10fc64d179bb357e4c7d9e9f2b0368b5e8"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-17-pg-search_0.17.3_arm64.deb",
-      "size": 46052216,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.17.3_arm64.deb",
-      "sha256": "871bf3c392360a34bba40e7f3272e9d145a35185cdb9fc89ceac9a5e812aa1d4"
+      "ver": "0.18.1",
+      "file": "postgresql-17-pg-search_0.18.1_arm64.deb",
+      "size": 46409092,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.18.1_arm64.deb",
+      "sha256": "fa8568940949b6df1f7a3f57cc9c40fa29fa3bca76756158dbd528868a37dc2a"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-search",
-      "ver": "0.17.3",
-      "file": "postgresql-17-pg-search_0.17.3_amd64.deb",
-      "size": 46518164,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.17.3_amd64.deb",
-      "sha256": "ffc5bd6c09ab4935372709112167a733f6363772523d57798a6dfa3ca872d2e5"
+      "ver": "0.18.1",
+      "file": "postgresql-17-pg-search_0.18.1_amd64.deb",
+      "size": 46927564,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/postgresql-17-pg-search/postgresql-17-pg-search_0.18.1_amd64.deb",
+      "sha256": "97deeb2de088f4c797f26728b456c71735971359019328d1a1c68b54d0fee972"
     }
   ]
 }

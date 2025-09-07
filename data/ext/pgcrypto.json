@@ -76,7 +76,7 @@
   "en_desc": "cryptographic functions",
   "zh_desc": "实用加解密函数",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "pgcrypto"
   ],

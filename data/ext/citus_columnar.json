@@ -51,7 +51,7 @@
     "14"
   ],
   "rpm_deps": [],
-  "deb_ver": "13.1.0",
+  "deb_ver": "13.2.0",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-citus",
   "deb_deps": [],
@@ -73,156 +73,6 @@
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "postgresql-18-citus",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "postgresql-18-citus",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "citus_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "citus_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "citus_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "citus_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "postgresql-18-citus",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "postgresql-18-citus",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "postgresql-18-citus",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "postgresql-18-citus",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -234,7 +84,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -249,7 +99,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -263,9 +113,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 7
+      "count": 8
     },
     {
       "pg": 17,
@@ -278,9 +128,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 7
+      "count": 8
     },
     {
       "pg": 17,
@@ -293,9 +143,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 7
+      "count": 8
     },
     {
       "pg": 17,
@@ -308,9 +158,9 @@
       "pname": "citus_17",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 7
+      "count": 8
     },
     {
       "pg": 17,
@@ -324,7 +174,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -339,7 +189,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -354,7 +204,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -369,7 +219,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -384,7 +234,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -399,7 +249,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -413,9 +263,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 14
+      "count": 15
     },
     {
       "pg": 16,
@@ -428,9 +278,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 14
+      "count": 15
     },
     {
       "pg": 16,
@@ -443,9 +293,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 14
+      "count": 15
     },
     {
       "pg": 16,
@@ -458,9 +308,9 @@
       "pname": "citus_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 14
+      "count": 15
     },
     {
       "pg": 16,
@@ -474,7 +324,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -489,7 +339,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -504,7 +354,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -519,7 +369,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -534,7 +384,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -549,7 +399,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -563,27 +413,27 @@
       "pname": "citus_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "13.2.0",
-      "count": 21
-    },
-    {
-      "pg": 15,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "citus",
-      "ext": "citus",
-      "pname": "citus_15",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
       "count": 22
     },
     {
       "pg": 15,
+      "os": "el8.x86_64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "x86_64",
+      "pkg": "citus",
+      "ext": "citus",
+      "pname": "citus_15",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pigsty",
+      "pkg_ver": "13.2.0",
+      "count": 23
+    },
+    {
+      "pg": 15,
       "os": "el9.aarch64",
       "type": "rpm",
       "os_code": "el9",
@@ -593,9 +443,9 @@
       "pname": "citus_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 22
+      "count": 23
     },
     {
       "pg": 15,
@@ -608,9 +458,9 @@
       "pname": "citus_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "13.2.0",
-      "count": 22
+      "count": 23
     },
     {
       "pg": 15,
@@ -624,7 +474,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -639,7 +489,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -654,7 +504,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -669,7 +519,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "13.1.0",
+      "pkg_ver": "13.2.0",
       "count": 1
     },
     {
@@ -2418,6 +2268,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "citus_15",
+      "ver": "13.2.0-9PIGSTY.el8",
+      "file": "citus_15-13.2.0-9PIGSTY.el8.aarch64.rpm",
+      "size": 980888,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/citus_15-13.2.0-9PIGSTY.el8.aarch64.rpm",
+      "sha256": "00ff7c3d1790f66d00d40c4e00eb0b51b50aae4d492ea73851dd1c05b27e9e16"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "citus_15",
       "ver": "13.2.0-1PGDG.rhel8",
       "file": "citus_15-13.2.0-1PGDG.rhel8.aarch64.rpm",
       "size": 835052,
@@ -2623,6 +2483,16 @@
       "size": 735964,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/citus_15-11.1.3-1.rhel8.aarch64.rpm",
       "sha256": "805b8e5d0fa4d474f6cacd7b4d2f2dedce63c26089094737b403de56b499065c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "citus_15",
+      "ver": "13.2.0-9PIGSTY.el8",
+      "file": "citus_15-13.2.0-9PIGSTY.el8.x86_64.rpm",
+      "size": 1023356,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/citus_15-13.2.0-9PIGSTY.el8.x86_64.rpm",
+      "sha256": "574224e416f4953ffc0cc3f2fef8c172fa6e13d7d61643bf8f3acf9eb3c1d92f"
     },
     {
       "os": "el8.x86_64",
@@ -2848,6 +2718,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "citus_15",
+      "ver": "13.2.0-9PIGSTY.el9",
+      "file": "citus_15-13.2.0-9PIGSTY.el9.aarch64.rpm",
+      "size": 876742,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/citus_15-13.2.0-9PIGSTY.el9.aarch64.rpm",
+      "sha256": "e3775b10fe60fc061b4bee7c38f6f0146ee2efe7000322d0736dfa7c47c1b4f4"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "citus_15",
       "ver": "13.2.0-1PGDG.rhel9",
       "file": "citus_15-13.2.0-1PGDG.rhel9.aarch64.rpm",
       "size": 839120,
@@ -3063,6 +2943,16 @@
       "size": 741640,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/citus_15-11.1.2-1.rhel9.aarch64.rpm",
       "sha256": "aa0da97c0cbba403eeb12e725fb7350918c064c4701c7762aaea85ac92a00013"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "citus_15",
+      "ver": "13.2.0-9PIGSTY.el9",
+      "file": "citus_15-13.2.0-9PIGSTY.el9.x86_64.rpm",
+      "size": 914825,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/citus_15-13.2.0-9PIGSTY.el9.x86_64.rpm",
+      "sha256": "315d7296a8bc51c26d7cb6c21d875275fe95c2cc23a08a2a3c4a4e485ec16878"
     },
     {
       "os": "el9.x86_64",
@@ -3288,6 +3178,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "citus_16",
+      "ver": "13.2.0-9PIGSTY.el8",
+      "file": "citus_16-13.2.0-9PIGSTY.el8.aarch64.rpm",
+      "size": 936992,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/citus_16-13.2.0-9PIGSTY.el8.aarch64.rpm",
+      "sha256": "f223db1f545ff53ac783c87532495fb5f9875ee2733e284866e5df83b4ae7d4b"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "citus_16",
       "ver": "13.2.0-1PGDG.rhel8",
       "file": "citus_16-13.2.0-1PGDG.rhel8.aarch64.rpm",
       "size": 815084,
@@ -3423,6 +3323,16 @@
       "size": 767968,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/citus_16-12.1.0-2PGDG.rhel8.aarch64.rpm",
       "sha256": "ce250cbf996c92924940138966ae72db4f375bb48bbf00bcd18b1e1a3a15969c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "citus_16",
+      "ver": "13.2.0-9PIGSTY.el8",
+      "file": "citus_16-13.2.0-9PIGSTY.el8.x86_64.rpm",
+      "size": 976392,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/citus_16-13.2.0-9PIGSTY.el8.x86_64.rpm",
+      "sha256": "846f6c2222aa623c683d24b8299cf452e7529f8a5cc5348acfa4d0bb01cbe344"
     },
     {
       "os": "el8.x86_64",
@@ -3568,6 +3478,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "citus_16",
+      "ver": "13.2.0-9PIGSTY.el9",
+      "file": "citus_16-13.2.0-9PIGSTY.el9.aarch64.rpm",
+      "size": 827480,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/citus_16-13.2.0-9PIGSTY.el9.aarch64.rpm",
+      "sha256": "0d072849c866ef36ae890288a195a3c5a13f8029d32d668eab2801b6a3ebbfbf"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "citus_16",
       "ver": "13.2.0-1PGDG.rhel9",
       "file": "citus_16-13.2.0-1PGDG.rhel9.aarch64.rpm",
       "size": 801557,
@@ -3703,6 +3623,16 @@
       "size": 756645,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/citus_16-12.1.0-2PGDG.rhel9.aarch64.rpm",
       "sha256": "dc9b6b9315e59e917fe72af4259581e9dba21e36c73e23ce61e11d572b270326"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "citus_16",
+      "ver": "13.2.0-9PIGSTY.el9",
+      "file": "citus_16-13.2.0-9PIGSTY.el9.x86_64.rpm",
+      "size": 855663,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/citus_16-13.2.0-9PIGSTY.el9.x86_64.rpm",
+      "sha256": "c3eb077931f59eab4aa6e75aac82a449ae56636c8787d0e8a733e5e00ee81192"
     },
     {
       "os": "el9.x86_64",
@@ -3848,6 +3778,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "citus_17",
+      "ver": "13.2.0-9PIGSTY.el8",
+      "file": "citus_17-13.2.0-9PIGSTY.el8.aarch64.rpm",
+      "size": 944896,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/citus_17-13.2.0-9PIGSTY.el8.aarch64.rpm",
+      "sha256": "8ff4fbf319bafb2f9f9109c6baf4a39e639e3b356ff14cd0a903d7e45250bc53"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "citus_17",
       "ver": "13.2.0-1PGDG.rhel8",
       "file": "citus_17-13.2.0-1PGDG.rhel8.aarch64.rpm",
       "size": 821840,
@@ -3913,6 +3853,16 @@
       "size": 777128,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/citus_17-13.0.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "2c10267a8c71e13ce845e580ef3a153b218925b8a8403edea1b9bcbeca0f3f03"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "citus_17",
+      "ver": "13.2.0-9PIGSTY.el8",
+      "file": "citus_17-13.2.0-9PIGSTY.el8.x86_64.rpm",
+      "size": 983928,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/citus_17-13.2.0-9PIGSTY.el8.x86_64.rpm",
+      "sha256": "76db2091c82a7db312682d0ff943e264c0373f40743f8119937a69636157684c"
     },
     {
       "os": "el8.x86_64",
@@ -3988,6 +3938,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "citus_17",
+      "ver": "13.2.0-9PIGSTY.el9",
+      "file": "citus_17-13.2.0-9PIGSTY.el9.aarch64.rpm",
+      "size": 834918,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/citus_17-13.2.0-9PIGSTY.el9.aarch64.rpm",
+      "sha256": "af65b02aa752768e279468cc52bf1445b26495174a7eef2244e0bc3ca17ecc70"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "citus_17",
       "ver": "13.2.0-1PGDG.rhel9",
       "file": "citus_17-13.2.0-1PGDG.rhel9.aarch64.rpm",
       "size": 808109,
@@ -4053,6 +4013,16 @@
       "size": 764714,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/citus_17-13.0.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "81ab348e75d37a8d410adeb09045d672ffe3f78900357f996de25caa3d86ad4b"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "citus_17",
+      "ver": "13.2.0-9PIGSTY.el9",
+      "file": "citus_17-13.2.0-9PIGSTY.el9.x86_64.rpm",
+      "size": 862190,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/citus_17-13.2.0-9PIGSTY.el9.x86_64.rpm",
+      "sha256": "862425fcbe65039fca136fb7fac01d6b6b49c82218ddd41f0cf0a51700ec401c"
     },
     {
       "os": "el9.x86_64",
@@ -4188,181 +4158,181 @@
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-citus",
-      "ver": "13.1.0-9PIGSTY~bookworm",
-      "file": "postgresql-15-citus_13.1.0-9PIGSTY~bookworm_arm64.deb",
-      "size": 3186204,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-15-citus_13.1.0-9PIGSTY~bookworm_arm64.deb",
-      "sha256": "d18ac2921c1fb4e0fbd85a2f3951e6b66a2af21017e8fc9cb39055e1baed1cea"
+      "ver": "13.2.0-9PIGSTY~bookworm",
+      "file": "postgresql-15-citus_13.2.0-9PIGSTY~bookworm_arm64.deb",
+      "size": 2694496,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-15-citus_13.2.0-9PIGSTY~bookworm_arm64.deb",
+      "sha256": "8af1b5b15aa8f007f85b63b6c5ec692b9b8c75713cea891dae19777d0c95e2b8"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-citus",
-      "ver": "13.1.0-9PIGSTY~bookworm",
-      "file": "postgresql-15-citus_13.1.0-9PIGSTY~bookworm_amd64.deb",
-      "size": 3268696,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-15-citus_13.1.0-9PIGSTY~bookworm_amd64.deb",
-      "sha256": "7540d1a87b9f0754d9d2c92b54c71f619a20d9f3847527fdb7c4f6482e615555"
+      "ver": "13.2.0-9PIGSTY~bookworm",
+      "file": "postgresql-15-citus_13.2.0-9PIGSTY~bookworm_amd64.deb",
+      "size": 2777900,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-15-citus_13.2.0-9PIGSTY~bookworm_amd64.deb",
+      "sha256": "3ecb6b33949929110a8c57bae8d5d001f5672af7f59fba1158e9cb6cca4054dd"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-citus",
-      "ver": "13.1.0-9PIGSTY~jammy",
-      "file": "postgresql-15-citus_13.1.0-9PIGSTY~jammy_arm64.deb",
-      "size": 3362428,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-15-citus_13.1.0-9PIGSTY~jammy_arm64.deb",
-      "sha256": "3d11be31291fb308efcfe3ff39b088a010ce21c8ad910f7e56552037f3150399"
+      "ver": "13.2.0-9PIGSTY~jammy",
+      "file": "postgresql-15-citus_13.2.0-9PIGSTY~jammy_arm64.deb",
+      "size": 3434424,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-15-citus_13.2.0-9PIGSTY~jammy_arm64.deb",
+      "sha256": "63e61f7f8fd362127a325facc75e731a2afcc03f3c6e45d1f3ce80e49fcc8fb2"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-citus",
-      "ver": "13.1.0-9PIGSTY~jammy",
-      "file": "postgresql-15-citus_13.1.0-9PIGSTY~jammy_amd64.deb",
-      "size": 3411314,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-15-citus_13.1.0-9PIGSTY~jammy_amd64.deb",
-      "sha256": "6f7ddacae22262300ee4c042cdbe53a56d9f85981f30df25225df6ee08aba510"
+      "ver": "13.2.0-9PIGSTY~jammy",
+      "file": "postgresql-15-citus_13.2.0-9PIGSTY~jammy_amd64.deb",
+      "size": 3484338,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-15-citus_13.2.0-9PIGSTY~jammy_amd64.deb",
+      "sha256": "7553c2a6e940034b54474fd85aa1e5eceab8f4ce7f7f52768d6bd691ac991ec3"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-citus",
-      "ver": "13.1.0-9PIGSTY~noble",
-      "file": "postgresql-15-citus_13.1.0-9PIGSTY~noble_arm64.deb",
-      "size": 2785664,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-15-citus_13.1.0-9PIGSTY~noble_arm64.deb",
-      "sha256": "f403ebe29339b3e2d3b818c6fb2fb966da9b40f48807363112e3213dcaa388dc"
+      "ver": "13.2.0-9PIGSTY~noble",
+      "file": "postgresql-15-citus_13.2.0-9PIGSTY~noble_arm64.deb",
+      "size": 2852264,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-15-citus_13.2.0-9PIGSTY~noble_arm64.deb",
+      "sha256": "8b195a1c19507130362972c67c1a02f9a026eb0fa1c09f660aa3709b1f6140b1"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-citus",
-      "ver": "13.1.0-9PIGSTY~noble",
-      "file": "postgresql-15-citus_13.1.0-9PIGSTY~noble_amd64.deb",
-      "size": 2823122,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-15-citus_13.1.0-9PIGSTY~noble_amd64.deb",
-      "sha256": "93ab67508f04bf67d162419fd459c0cc5e20559627ca29ffeb6ee08d7319f1fc"
+      "ver": "13.2.0-9PIGSTY~noble",
+      "file": "postgresql-15-citus_13.2.0-9PIGSTY~noble_amd64.deb",
+      "size": 2889992,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-15-citus_13.2.0-9PIGSTY~noble_amd64.deb",
+      "sha256": "c1f4e12418959142d4389920ae8341e8a68ed2c85513b49f6ad71689800e6049"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-citus",
-      "ver": "13.1.0-9PIGSTY~bookworm",
-      "file": "postgresql-16-citus_13.1.0-9PIGSTY~bookworm_arm64.deb",
-      "size": 2604192,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-16-citus_13.1.0-9PIGSTY~bookworm_arm64.deb",
-      "sha256": "ec3977062a06f6bffc409c983bb9d1f383fc0ba629bc6f69e584e0e97d4fc5a9"
+      "ver": "13.2.0-9PIGSTY~bookworm",
+      "file": "postgresql-16-citus_13.2.0-9PIGSTY~bookworm_arm64.deb",
+      "size": 2663824,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-16-citus_13.2.0-9PIGSTY~bookworm_arm64.deb",
+      "sha256": "2e1c55b2e987f689425c360669fce7af620114bc3b73710043013decbc52aca0"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-citus",
-      "ver": "13.1.0-9PIGSTY~bookworm",
-      "file": "postgresql-16-citus_13.1.0-9PIGSTY~bookworm_amd64.deb",
-      "size": 2681444,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-16-citus_13.1.0-9PIGSTY~bookworm_amd64.deb",
-      "sha256": "2a6942f5eda01a6c9e08c9424af08965e12961ed2b255dfb4e66bec42074c1a0"
+      "ver": "13.2.0-9PIGSTY~bookworm",
+      "file": "postgresql-16-citus_13.2.0-9PIGSTY~bookworm_amd64.deb",
+      "size": 2746948,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-16-citus_13.2.0-9PIGSTY~bookworm_amd64.deb",
+      "sha256": "bf64a6a4a8dfe4a8dfbda310bca63e4fd4ba250712a498708acb618f904ad219"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-citus",
-      "ver": "13.1.0-9PIGSTY~jammy",
-      "file": "postgresql-16-citus_13.1.0-9PIGSTY~jammy_arm64.deb",
-      "size": 3331408,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-16-citus_13.1.0-9PIGSTY~jammy_arm64.deb",
-      "sha256": "530971059eb329277378356d4b25d5e6f701fd1d47095d05fb5926e011a3c5cd"
+      "ver": "13.2.0-9PIGSTY~jammy",
+      "file": "postgresql-16-citus_13.2.0-9PIGSTY~jammy_arm64.deb",
+      "size": 3403976,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-16-citus_13.2.0-9PIGSTY~jammy_arm64.deb",
+      "sha256": "e67d5f05d24d21446dc42d26c194646cbe8f0a543de2f0e2dd234424fafb93fb"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-citus",
-      "ver": "13.1.0-9PIGSTY~jammy",
-      "file": "postgresql-16-citus_13.1.0-9PIGSTY~jammy_amd64.deb",
-      "size": 3376172,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-16-citus_13.1.0-9PIGSTY~jammy_amd64.deb",
-      "sha256": "d5eeac10c64d8d23872b850b47d145eb363c921bfb18cd606041dce212262219"
+      "ver": "13.2.0-9PIGSTY~jammy",
+      "file": "postgresql-16-citus_13.2.0-9PIGSTY~jammy_amd64.deb",
+      "size": 3451440,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-16-citus_13.2.0-9PIGSTY~jammy_amd64.deb",
+      "sha256": "528b94c001a135de2482d26b470ff1d3b502eb63bbceea9563f6cdf65f890f3b"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-citus",
-      "ver": "13.1.0-9PIGSTY~noble",
-      "file": "postgresql-16-citus_13.1.0-9PIGSTY~noble_arm64.deb",
-      "size": 2810770,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-16-citus_13.1.0-9PIGSTY~noble_arm64.deb",
-      "sha256": "7181c3f2182f42d4c414695066e036346fe77faaa4a66f39c5bda16837cf59b3"
+      "ver": "13.2.0-9PIGSTY~noble",
+      "file": "postgresql-16-citus_13.2.0-9PIGSTY~noble_arm64.deb",
+      "size": 2818322,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-16-citus_13.2.0-9PIGSTY~noble_arm64.deb",
+      "sha256": "b6f95946846c81e8108a2a695798540a0dd4137d2a0ba0721076c0a2af42f48c"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-citus",
-      "ver": "13.1.0-9PIGSTY~noble",
-      "file": "postgresql-16-citus_13.1.0-9PIGSTY~noble_amd64.deb",
-      "size": 2851982,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-16-citus_13.1.0-9PIGSTY~noble_amd64.deb",
-      "sha256": "962504866a5d319e31bbe62aae78283d74b94fc17ee0e379bcea4019861bbf0b"
+      "ver": "13.2.0-9PIGSTY~noble",
+      "file": "postgresql-16-citus_13.2.0-9PIGSTY~noble_amd64.deb",
+      "size": 2861408,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-16-citus_13.2.0-9PIGSTY~noble_amd64.deb",
+      "sha256": "05b617d4d54d13844a9a21d0f70caa9bbec6e576c5a0d01736140541b4766e0a"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-citus",
-      "ver": "13.1.0-9PIGSTY~bookworm",
-      "file": "postgresql-17-citus_13.1.0-9PIGSTY~bookworm_arm64.deb",
-      "size": 2619632,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-17-citus_13.1.0-9PIGSTY~bookworm_arm64.deb",
-      "sha256": "abde5f85d68ec53e37557f5deed4de621d805a14406a4896d1511b600775fdd2"
+      "ver": "13.2.0-9PIGSTY~bookworm",
+      "file": "postgresql-17-citus_13.2.0-9PIGSTY~bookworm_arm64.deb",
+      "size": 2687612,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-17-citus_13.2.0-9PIGSTY~bookworm_arm64.deb",
+      "sha256": "264703e6ab110354b5e5f0c87019cbc0cab51875edc94d642427de0e8f3a1f3c"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-citus",
-      "ver": "13.1.0-9PIGSTY~bookworm",
-      "file": "postgresql-17-citus_13.1.0-9PIGSTY~bookworm_amd64.deb",
-      "size": 2696892,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-17-citus_13.1.0-9PIGSTY~bookworm_amd64.deb",
-      "sha256": "8266d6bbd39b7af6ce81c75830c36925fafb9c7c5c5d88cda77470aed8f8f73c"
+      "ver": "13.2.0-9PIGSTY~bookworm",
+      "file": "postgresql-17-citus_13.2.0-9PIGSTY~bookworm_amd64.deb",
+      "size": 2770664,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/c/citus/postgresql-17-citus_13.2.0-9PIGSTY~bookworm_amd64.deb",
+      "sha256": "96e35bbe42491f4f0d66d124fb9e2563aee20e7fb7d27bb2cb0692db2fff1dcf"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-citus",
-      "ver": "13.1.0-9PIGSTY~jammy",
-      "file": "postgresql-17-citus_13.1.0-9PIGSTY~jammy_arm64.deb",
-      "size": 3413018,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-17-citus_13.1.0-9PIGSTY~jammy_arm64.deb",
-      "sha256": "16d775809b51b14f953f03077a16f5972b7a60152a0150a42d11d2ebd31fe123"
+      "ver": "13.2.0-9PIGSTY~jammy",
+      "file": "postgresql-17-citus_13.2.0-9PIGSTY~jammy_arm64.deb",
+      "size": 3487026,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-17-citus_13.2.0-9PIGSTY~jammy_arm64.deb",
+      "sha256": "925abc7c20d2a916705e281cc44dc197fcf99d8d10045db2fd8e298720e71652"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-citus",
-      "ver": "13.1.0-9PIGSTY~jammy",
-      "file": "postgresql-17-citus_13.1.0-9PIGSTY~jammy_amd64.deb",
-      "size": 3458356,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-17-citus_13.1.0-9PIGSTY~jammy_amd64.deb",
-      "sha256": "0ecb5b0afa9a73e4f90af11df8ca9f54d480f2ff9c9f2d99cb67d56994fcacaa"
+      "ver": "13.2.0-9PIGSTY~jammy",
+      "file": "postgresql-17-citus_13.2.0-9PIGSTY~jammy_amd64.deb",
+      "size": 3535542,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/c/citus/postgresql-17-citus_13.2.0-9PIGSTY~jammy_amd64.deb",
+      "sha256": "54725a4086886c1bf27debdf4c92242cc2e654a3edd934cc1602c77001639efc"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-citus",
-      "ver": "13.1.0-9PIGSTY~noble",
-      "file": "postgresql-17-citus_13.1.0-9PIGSTY~noble_arm64.deb",
-      "size": 2776654,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-17-citus_13.1.0-9PIGSTY~noble_arm64.deb",
-      "sha256": "077f0b4d3ebf34c6758b6806132e3116fed0597b329097920de948c3fab0be21"
+      "ver": "13.2.0-9PIGSTY~noble",
+      "file": "postgresql-17-citus_13.2.0-9PIGSTY~noble_arm64.deb",
+      "size": 2842930,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-17-citus_13.2.0-9PIGSTY~noble_arm64.deb",
+      "sha256": "420c487a65f9d165b989801cb63a5d19d98387175a78f8a011a3c72fa21d81fe"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-citus",
-      "ver": "13.1.0-9PIGSTY~noble",
-      "file": "postgresql-17-citus_13.1.0-9PIGSTY~noble_amd64.deb",
-      "size": 2816376,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-17-citus_13.1.0-9PIGSTY~noble_amd64.deb",
-      "sha256": "ab96af2cca094de4dedaaf29d76f9feebe38351c08a5d40caa1d7398b425f522"
+      "ver": "13.2.0-9PIGSTY~noble",
+      "file": "postgresql-17-citus_13.2.0-9PIGSTY~noble_amd64.deb",
+      "size": 2884644,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/c/citus/postgresql-17-citus_13.2.0-9PIGSTY~noble_amd64.deb",
+      "sha256": "e2926ed293d3c9352711ca878877c18dc35b74a88d40e3d9ac30ba988397cd78"
     }
   ]
 }

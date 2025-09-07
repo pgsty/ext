@@ -70,7 +70,7 @@
   "en_desc": "data type for storing sets of (key, value) pairs",
   "zh_desc": "用于存储（键，值）对集合的数据类型",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "hstore"
   ],

@@ -67,7 +67,7 @@
   "en_desc": "data type for multidimensional cubes",
   "zh_desc": "用于存储多维立方体的数据类型",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "cube"
   ],

@@ -34,7 +34,7 @@
     "pg_stat_statements",
     "uuid-ossp"
   ],
-  "rpm_ver": "1.9.0",
+  "rpm_ver": "1.10.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "icu_ext_$v*",
   "rpm_pg": [
@@ -63,162 +63,12 @@
   "en_desc": "Access ICU functions",
   "zh_desc": "访问ICU库提供的函数",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "icu_ext"
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "postgresql-18-icu-ext",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "postgresql-18-icu-ext",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "icu_ext_18",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "icu_ext_18",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "icu_ext_18",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "icu_ext_18",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "postgresql-18-icu-ext",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "postgresql-18-icu-ext",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "postgresql-18-icu-ext",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "icu_ext",
-      "ext": "icu_ext",
-      "pname": "postgresql-18-icu-ext",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.10.0",
-      "count": 1
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -260,8 +110,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -275,8 +125,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -290,8 +140,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -305,8 +155,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 17,
@@ -410,8 +260,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 16,
@@ -425,8 +275,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 16,
@@ -440,8 +290,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 16,
@@ -455,8 +305,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 16,
@@ -560,8 +410,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 15,
@@ -575,8 +425,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 15,
@@ -590,8 +440,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 15,
@@ -605,8 +455,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 15,
@@ -710,8 +560,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 14,
@@ -725,8 +575,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 14,
@@ -740,8 +590,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 14,
@@ -755,8 +605,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 14,
@@ -860,8 +710,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 13,
@@ -875,8 +725,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 13,
@@ -890,8 +740,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 13,
@@ -905,8 +755,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.9.0",
-      "count": 2
+      "pkg_ver": "1.10.0",
+      "count": 3
     },
     {
       "pg": 13,
@@ -974,6 +824,16 @@
       "os": "el8.aarch64",
       "pg": 13,
       "name": "icu_ext_13",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_13-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 46580,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/icu_ext_13-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "62c0bc2b74c4456c54cd66084b4f0dda970ea5c6cc33d2a339453806b2e96121"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "icu_ext_13",
       "ver": "1.9.0-1PIGSTY.el8",
       "file": "icu_ext_13-1.9.0-1PIGSTY.el8.aarch64.rpm",
       "size": 45792,
@@ -989,6 +849,16 @@
       "size": 46344,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/icu_ext_13-1.9.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "a87777e3364cbd0d99b0d5060e457dc057dc9a7f834b676231241089d080cabd"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "icu_ext_13",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_13-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 47200,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/icu_ext_13-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "667a7d04da6a3e3918d804e7d28725f8ba9e595716bfbd3f53d15694de72b038"
     },
     {
       "os": "el8.x86_64",
@@ -1014,6 +884,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "icu_ext_13",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_13-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 47534,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/icu_ext_13-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "107774549f3e3f6e303e101f345efe6fa9767283680fc0ca1e20316a1c612efb"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "icu_ext_13",
       "ver": "1.9.0-1PIGSTY.el9",
       "file": "icu_ext_13-1.9.0-1PIGSTY.el9.aarch64.rpm",
       "size": 46795,
@@ -1029,6 +909,16 @@
       "size": 47361,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/icu_ext_13-1.9.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "b5481b6be7826ace522017320aaa57ac62171ef517bc44cabf26ec50cf35bdb9"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "icu_ext_13",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_13-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 49515,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/icu_ext_13-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "28b461509360c69b2116c337fde8f4efc42b4f9a30e34f611372e0123afd5da0"
     },
     {
       "os": "el9.x86_64",
@@ -1054,6 +944,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "icu_ext_14",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_14-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 46644,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/icu_ext_14-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "dac84989e1903f895b3b06c6458af5711476163049a9e95dd42398882e476afa"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "icu_ext_14",
       "ver": "1.9.0-1PIGSTY.el8",
       "file": "icu_ext_14-1.9.0-1PIGSTY.el8.aarch64.rpm",
       "size": 45860,
@@ -1069,6 +969,16 @@
       "size": 46416,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/icu_ext_14-1.9.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "39e7db6348ee43e78e962cd1b5f36542dac526c23a63ee36d584dc5f239c84cc"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "icu_ext_14",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_14-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 48120,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/icu_ext_14-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "c28d686fae756a71f0f86aa86c63ac976e54f55496d6563aade53a45ec184604"
     },
     {
       "os": "el8.x86_64",
@@ -1094,6 +1004,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "icu_ext_14",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_14-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 47521,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/icu_ext_14-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "02d20eaeedd2c0fb448160e66f1afe572cfec01c8b2c03bc3f92fe29a0f9a5c5"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "icu_ext_14",
       "ver": "1.9.0-1PIGSTY.el9",
       "file": "icu_ext_14-1.9.0-1PIGSTY.el9.aarch64.rpm",
       "size": 46832,
@@ -1109,6 +1029,16 @@
       "size": 47396,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/icu_ext_14-1.9.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "21eeebcfa2fd296cbfa968824b20435475ccf50642295ad816ae2dd266d6ffd1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "icu_ext_14",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_14-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 49500,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/icu_ext_14-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "3e04c39aa84dea343210d98fc59dcc7e6ab685ea1a6a06f3a7469e671645f866"
     },
     {
       "os": "el9.x86_64",
@@ -1134,6 +1064,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "icu_ext_15",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_15-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 46488,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/icu_ext_15-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "b7fd6bfbb43038aa4f0a6e0ddecc7eef30e25442a708ae5bebe128cab49bd2e9"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "icu_ext_15",
       "ver": "1.9.0-1PIGSTY.el8",
       "file": "icu_ext_15-1.9.0-1PIGSTY.el8.aarch64.rpm",
       "size": 45736,
@@ -1149,6 +1089,16 @@
       "size": 46296,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/icu_ext_15-1.9.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "1175d50e69b758231d8adf170a7ac7dd5e8337f2f1d09ff26182331120f3dbb2"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "icu_ext_15",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_15-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 47940,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/icu_ext_15-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "64c6fb3020dec6ed206d3e27f73297533c2677f0da986070c5f4177ffc6659f3"
     },
     {
       "os": "el8.x86_64",
@@ -1174,6 +1124,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "icu_ext_15",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_15-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 47404,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/icu_ext_15-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "0d858f235280d400896e0c9e0889242184240a1b5af6f4556743d3567393e76f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "icu_ext_15",
       "ver": "1.9.0-1PIGSTY.el9",
       "file": "icu_ext_15-1.9.0-1PIGSTY.el9.aarch64.rpm",
       "size": 46666,
@@ -1189,6 +1149,16 @@
       "size": 47260,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/icu_ext_15-1.9.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "1b9d2c19edad2a2d52d07bbb84df7fd30556feb6654b38334b346e2b0e6e30a1"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "icu_ext_15",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_15-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 49358,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/icu_ext_15-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "e987258bed58ce6a0b6c891b977df1435a87b99f48aec7791773e065b3a1cf19"
     },
     {
       "os": "el9.x86_64",
@@ -1214,6 +1184,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "icu_ext_16",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_16-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 46508,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/icu_ext_16-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "e0c0a821fab3206bede5da1b468f981ac99db88268143a83bd7cbbb349b15c4c"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "icu_ext_16",
       "ver": "1.9.0-1PIGSTY.el8",
       "file": "icu_ext_16-1.9.0-1PIGSTY.el8.aarch64.rpm",
       "size": 45704,
@@ -1229,6 +1209,16 @@
       "size": 46256,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/icu_ext_16-1.9.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "b54c3cb42cfd4c1ad59e94ecb8d066cc7f2e6f5f065c4d442dccbef462afad90"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "icu_ext_16",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_16-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 47788,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/icu_ext_16-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "d6cf66235c297a222bcf6e681469154929eadcab86f1dced9293f72c9ef51708"
     },
     {
       "os": "el8.x86_64",
@@ -1254,6 +1244,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "icu_ext_16",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_16-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 47137,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/icu_ext_16-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "dbd42a905f8fd26fa58ed2d3630f78df3c72aa1f55ceb173e211c17ff6cb2d30"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "icu_ext_16",
       "ver": "1.9.0-1PIGSTY.el9",
       "file": "icu_ext_16-1.9.0-1PIGSTY.el9.aarch64.rpm",
       "size": 46508,
@@ -1269,6 +1269,16 @@
       "size": 47048,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/icu_ext_16-1.9.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "495f30dcedf93b403f1fc59b90f1cbacc2430b0e2fa42d20cc671fbe5734a6a4"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "icu_ext_16",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_16-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 49031,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/icu_ext_16-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "1b6218b909b917f45ba643acc23526fc46e790955189e54324e7527e1c2f72f3"
     },
     {
       "os": "el9.x86_64",
@@ -1294,6 +1304,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "icu_ext_17",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_17-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 46520,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/icu_ext_17-1.10.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "8d4efddb1ccd48b8d7fed5e27189e33ac51b40ec9d5f4fa203cf060ee51a6f48"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "icu_ext_17",
       "ver": "1.9.0-1PIGSTY.el8",
       "file": "icu_ext_17-1.9.0-1PIGSTY.el8.aarch64.rpm",
       "size": 45708,
@@ -1309,6 +1329,16 @@
       "size": 46264,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/icu_ext_17-1.9.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "3997cc81a49348a5d3f0f38a48b2251887f42a2bef369efa7b295a6e76483d07"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "icu_ext_17",
+      "ver": "1.10.0-1PIGSTY.el8",
+      "file": "icu_ext_17-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 47916,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/icu_ext_17-1.10.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "749e403554d0cf8107adc8341f9fad25fb3a4f9d078d80d3ec6e7c36cd64e5a2"
     },
     {
       "os": "el8.x86_64",
@@ -1334,6 +1364,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "icu_ext_17",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_17-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 47157,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/icu_ext_17-1.10.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "ccf3999377ff00b3383d77c7d5304b23c7e7abf91ebfcc1ea7f75024af3d1dde"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "icu_ext_17",
       "ver": "1.9.0-1PIGSTY.el9",
       "file": "icu_ext_17-1.9.0-1PIGSTY.el9.aarch64.rpm",
       "size": 46514,
@@ -1354,6 +1394,16 @@
       "os": "el9.x86_64",
       "pg": 17,
       "name": "icu_ext_17",
+      "ver": "1.10.0-1PIGSTY.el9",
+      "file": "icu_ext_17-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 49058,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/icu_ext_17-1.10.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "7d23334e9228a786bbe07f40a751f5abc884d1e9a9bb6e979082950643914084"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "icu_ext_17",
       "ver": "1.9.0-1PIGSTY.el9",
       "file": "icu_ext_17-1.9.0-1PIGSTY.el9.x86_64.rpm",
       "size": 48300,
@@ -1369,46 +1419,6 @@
       "size": 48806,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/icu_ext_17-1.9.0-1PGDG.rhel9.x86_64.rpm",
       "sha256": "56a92b8b0be94e53c9a8185acc06e046887384b439a3b5e8d54fabd98c0e9309"
-    },
-    {
-      "os": "el8.aarch64",
-      "pg": 18,
-      "name": "icu_ext_18",
-      "ver": "1.10.0-1PGDG.rhel8",
-      "file": "icu_ext_18-1.10.0-1PGDG.rhel8.aarch64.rpm",
-      "size": 47696,
-      "url": "https://download.postgresql.org/pub/repos/yum/testing/18/redhat/rhel-8-aarch64/icu_ext_18-1.10.0-1PGDG.rhel8.aarch64.rpm",
-      "sha256": "22527a4b7f20ba9c546a8232d47218ee3abcf67b0f00303827fd94d10734647d"
-    },
-    {
-      "os": "el8.x86_64",
-      "pg": 18,
-      "name": "icu_ext_18",
-      "ver": "1.10.0-1PGDG.rhel8",
-      "file": "icu_ext_18-1.10.0-1PGDG.rhel8.x86_64.rpm",
-      "size": 49116,
-      "url": "https://download.postgresql.org/pub/repos/yum/testing/18/redhat/rhel-8-x86_64/icu_ext_18-1.10.0-1PGDG.rhel8.x86_64.rpm",
-      "sha256": "a654a2d5cab964025f99c3de596c5a406a8a40eab02507c98ce5b8a40161bb9f"
-    },
-    {
-      "os": "el9.aarch64",
-      "pg": 18,
-      "name": "icu_ext_18",
-      "ver": "1.10.0-1PGDG.rhel9",
-      "file": "icu_ext_18-1.10.0-1PGDG.rhel9.aarch64.rpm",
-      "size": 48434,
-      "url": "https://download.postgresql.org/pub/repos/yum/testing/18/redhat/rhel-9-aarch64/icu_ext_18-1.10.0-1PGDG.rhel9.aarch64.rpm",
-      "sha256": "16fb36ff1cdda2830106c22ff8042d45e75ce298b48743200878b2939c4dfc49"
-    },
-    {
-      "os": "el9.x86_64",
-      "pg": 18,
-      "name": "icu_ext_18",
-      "ver": "1.10.0-1PGDG.rhel9",
-      "file": "icu_ext_18-1.10.0-1PGDG.rhel9.x86_64.rpm",
-      "size": 50208,
-      "url": "https://download.postgresql.org/pub/repos/yum/testing/18/redhat/rhel-9-x86_64/icu_ext_18-1.10.0-1PGDG.rhel9.x86_64.rpm",
-      "sha256": "ddecdac636f865da4e0d4dd0c5ddb47b2f0c6b79a9fd1feea1bd7d3973143904"
     },
     {
       "os": "d12.aarch64",
@@ -1709,66 +1719,6 @@
       "size": 96652,
       "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/i/icu-ext/postgresql-17-icu-ext_1.10.0-1.pgdg24.04+1_amd64.deb",
       "sha256": "21343019fab9ee67d0b1251d9504a91d0b6502754d2c3335f980ae153e6d5502"
-    },
-    {
-      "os": "d12.aarch64",
-      "pg": 18,
-      "name": "postgresql-18-icu-ext",
-      "ver": "1.10.0-1.pgdg120+1",
-      "file": "postgresql-18-icu-ext_1.10.0-1.pgdg120+1_arm64.deb",
-      "size": 94396,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/i/icu-ext/postgresql-18-icu-ext_1.10.0-1.pgdg120+1_arm64.deb",
-      "sha256": "b8479568db9a3427c033b87f3744317ba2e1b039848c2ddc1d1d9b91c3e0be21"
-    },
-    {
-      "os": "d12.x86_64",
-      "pg": 18,
-      "name": "postgresql-18-icu-ext",
-      "ver": "1.10.0-1.pgdg120+1",
-      "file": "postgresql-18-icu-ext_1.10.0-1.pgdg120+1_amd64.deb",
-      "size": 96596,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/i/icu-ext/postgresql-18-icu-ext_1.10.0-1.pgdg120+1_amd64.deb",
-      "sha256": "d549ccd02cd73544db8cb55f96c8112e0e168ab6651c8f97e8ffe7e4009ee2d2"
-    },
-    {
-      "os": "u22.aarch64",
-      "pg": 18,
-      "name": "postgresql-18-icu-ext",
-      "ver": "1.10.0-1.pgdg22.04+1",
-      "file": "postgresql-18-icu-ext_1.10.0-1.pgdg22.04+1_arm64.deb",
-      "size": 94772,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/i/icu-ext/postgresql-18-icu-ext_1.10.0-1.pgdg22.04+1_arm64.deb",
-      "sha256": "c73655e54d17a8f5ea319f0f64e979a9bf202ea2ad11ef3d07197eb777a894c1"
-    },
-    {
-      "os": "u22.x86_64",
-      "pg": 18,
-      "name": "postgresql-18-icu-ext",
-      "ver": "1.10.0-1.pgdg22.04+1",
-      "file": "postgresql-18-icu-ext_1.10.0-1.pgdg22.04+1_amd64.deb",
-      "size": 97624,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/i/icu-ext/postgresql-18-icu-ext_1.10.0-1.pgdg22.04+1_amd64.deb",
-      "sha256": "3bb85fce63ac5404d35d4da6746e777a2fcf65484acea3568d4737e2b31a6b5a"
-    },
-    {
-      "os": "u24.aarch64",
-      "pg": 18,
-      "name": "postgresql-18-icu-ext",
-      "ver": "1.10.0-1.pgdg24.04+1",
-      "file": "postgresql-18-icu-ext_1.10.0-1.pgdg24.04+1_arm64.deb",
-      "size": 94852,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/i/icu-ext/postgresql-18-icu-ext_1.10.0-1.pgdg24.04+1_arm64.deb",
-      "sha256": "5d949053cbf1ebd1da76fbab863c09861b593f910c98604dfe5cb365929e46a3"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 18,
-      "name": "postgresql-18-icu-ext",
-      "ver": "1.10.0-1.pgdg24.04+1",
-      "file": "postgresql-18-icu-ext_1.10.0-1.pgdg24.04+1_amd64.deb",
-      "size": 96628,
-      "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/i/icu-ext/postgresql-18-icu-ext_1.10.0-1.pgdg24.04+1_amd64.deb",
-      "sha256": "8640c9d0bb46f3fcf3f105844345ddbd82386e2534d70f10671caff0955ac303"
     }
   ]
 }

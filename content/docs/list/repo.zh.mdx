@@ -8,11 +8,11 @@ full: true
 import { Badge } from '@/components/ui/badge';
 import { Clock, Globe, Brain, Search, ChartNoAxesCombined, Sparkles, BookA, Boxes, Wrench, Variable, Landmark, Activity, Shield, FileInput, Shell, Truck } from 'lucide-react';
 
-总共有 **423** 个 PostgreSQL 扩展：**71** 个 CONTRIB 扩展，**333** 个在 EL 和 Debian 平台上都可用，**13** 个仅在 EL 平台上可用，**6** 个仅在 Debian 平台上可用。
+总共有 **424** 个 PostgreSQL 扩展：**71** 个 CONTRIB 扩展，**334** 个在 EL 和 Debian 平台上都可用，**13** 个仅在 EL 平台上可用，**6** 个仅在 Debian 平台上可用。
 
 | 条目 | 总计 | [CONTRIB](#contrib) | [都支持](#both) | [仅 EL](#el) | [仅 Debian](#debian) |
 |:-----:|:---:|:-------------------:|:-------------:|:--------------:|:----------------------:|
-| 数量 | 423 | 71 | 333 | 13 | 6 |
+| 数量 | 424 | 71 | 334 | 13 | 6 |
 
 ## CONTRIB
 
@@ -94,7 +94,7 @@ PostgreSQL 核心发行版自带的扩展。共有 **71** 个 contrib 扩展。
 
 ## BOTH
 
-**333** 个非 contrib 扩展在 EL 和 Debian 平台上都可用。
+**334** 个非 contrib 扩展在 EL 和 Debian 平台上都可用。
 
 | ID | 名称 | 分类 | RPM | DEB | 描述 |
 |:---:|:---|:---|:---:|:---:|:---|
@@ -320,24 +320,25 @@ PostgreSQL 核心发行版自带的扩展。共有 **71** 个 contrib 扩展。
 | 4840 | [`financial`](/zh/e/financial) | <Badge icon={<Variable />} variant="pink-subtle"><a href="/zh/cate/func" className="no-underline">FUNC</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 金融领域聚合函数 |
 | 4850 | [`convert`](/zh/e/convert) | <Badge icon={<Variable />} variant="pink-subtle"><a href="/zh/cate/func" className="no-underline">FUNC</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 用于空间里程等的公英制转换函数 |
 | 5010 | [`pg_repack`](/zh/e/pg_repack) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 在线垃圾清理与表膨胀治理 |
-| 5020 | [`pg_squeeze`](/zh/e/pg_squeeze) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 从关系中删除未使用空间 |
-| 5030 | [`pg_dirtyread`](/zh/e/pg_dirtyread) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 从表中读取尚未垃圾回收的行 |
-| 5040 | [`pgfincore`](/zh/e/pgfincore) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 检查和管理操作系统缓冲区缓存 |
-| 5050 | [`pg_cooldown`](/zh/e/pg_cooldown) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 从缓冲区中移除特定关系的页面 |
-| 5060 | [`ddlx`](/zh/e/ddlx) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 提取数据库对象的DDL |
-| 5070 | [`prioritize`](/zh/e/prioritize) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 获取和设置 PostgreSQL 后端的优先级 |
-| 5080 | [`pg_checksums`](/zh/e/pg_checksums) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
-| 5090 | [`pg_readonly`](/zh/e/pg_readonly) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 将集群设置为只读 |
-| 5100 | [`pgdd`](/zh/e/pgdd) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 提供通过标准SQL查询数据库目录集簇的能力 |
-| 5110 | [`pg_permissions`](/zh/e/pg_permissions) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 查看对象权限并将其与期望状态进行比较 |
-| 5120 | [`pgautofailover`](/zh/e/pgautofailover) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | PG 自动故障迁移 |
-| 5130 | [`pg_catcheck`](/zh/e/pg_catcheck) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 用于诊断系统目录是否损坏的工具 |
-| 5140 | [`pre_prepare`](/zh/e/pre_prepare) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 在服务端预先准备好PreparedStatement备用 |
-| 5150 | [`pg_upless`](/zh/e/pg_upless) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 检测表上的无用UPDATE |
-| 5170 | [`pgcozy`](/zh/e/pgcozy) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 根据先前的pg_buffercache快照预热内存缓冲区 |
-| 5180 | [`pg_orphaned`](/zh/e/pg_orphaned) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 处理孤儿文件的扩展插件 |
-| 5190 | [`pg_crash`](/zh/e/pg_crash) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 向数据库进程随机发送信号模拟故障 |
-| 5200 | [`pg_cheat_funcs`](/zh/e/pg_cheat_funcs) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 一些超级实用的作弊函数 |
+| 5020 | [`pg_rewrite`](/zh/e/pg_rewrite) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 在线垃圾清理与表膨胀治理 |
+| 5040 | [`pg_squeeze`](/zh/e/pg_squeeze) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 从关系中删除未使用空间 |
+| 5050 | [`pg_dirtyread`](/zh/e/pg_dirtyread) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 从表中读取尚未垃圾回收的行 |
+| 5060 | [`pgfincore`](/zh/e/pgfincore) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 检查和管理操作系统缓冲区缓存 |
+| 5070 | [`pg_cooldown`](/zh/e/pg_cooldown) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 从缓冲区中移除特定关系的页面 |
+| 5080 | [`ddlx`](/zh/e/ddlx) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 提取数据库对象的DDL |
+| 5090 | [`prioritize`](/zh/e/prioritize) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 获取和设置 PostgreSQL 后端的优先级 |
+| 5110 | [`pg_checksums`](/zh/e/pg_checksums) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 在离线模式下激活/启用/禁用数据库集群的校验和功能 |
+| 5120 | [`pg_readonly`](/zh/e/pg_readonly) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 将集群设置为只读 |
+| 5130 | [`pgdd`](/zh/e/pgdd) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 提供通过标准SQL查询数据库目录集簇的能力 |
+| 5140 | [`pg_permissions`](/zh/e/pg_permissions) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 查看对象权限并将其与期望状态进行比较 |
+| 5150 | [`pgautofailover`](/zh/e/pgautofailover) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | PG 自动故障迁移 |
+| 5160 | [`pg_catcheck`](/zh/e/pg_catcheck) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 用于诊断系统目录是否损坏的工具 |
+| 5170 | [`pre_prepare`](/zh/e/pre_prepare) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 在服务端预先准备好PreparedStatement备用 |
+| 5180 | [`pg_upless`](/zh/e/pg_upless) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 检测表上的无用UPDATE |
+| 5190 | [`pgcozy`](/zh/e/pgcozy) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 根据先前的pg_buffercache快照预热内存缓冲区 |
+| 5200 | [`pg_orphaned`](/zh/e/pg_orphaned) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 处理孤儿文件的扩展插件 |
+| 5210 | [`pg_crash`](/zh/e/pg_crash) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 向数据库进程随机发送信号模拟故障 |
+| 5220 | [`pg_cheat_funcs`](/zh/e/pg_cheat_funcs) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 一些超级实用的作弊函数 |
 | 5230 | [`fio`](/zh/e/fio) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | PostgreSQL文件IO函数包 |
 | 5810 | [`pg_savior`](/zh/e/pg_savior) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | <Badge variant="amber-subtle">PIGSTY</Badge> | 阻止不带条件的全表更新以避免意外事故 |
 | 5820 | [`safeupdate`](/zh/e/safeupdate) | <Badge icon={<Landmark />} variant="gray-subtle"><a href="/zh/cate/admin" className="no-underline">ADMIN</a></Badge> | <Badge variant="blue-subtle">PGDG</Badge> | <Badge variant="blue-subtle">PGDG</Badge> | 强制在 UPDATE 和 DELETE 时提供 Where 条件 |

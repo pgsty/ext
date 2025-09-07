@@ -1,6 +1,7 @@
 {
   "pages": [
     "[pg_repack](/e/pg_repack)",
+    "[pg_rewrite](/e/pg_rewrite)",
     "[pg_squeeze](/e/pg_squeeze)",
     "[pg_dirtyread](/e/pg_dirtyread)",
     "[pgfincore](/e/pgfincore)",

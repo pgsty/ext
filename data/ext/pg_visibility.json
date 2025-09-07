@@ -64,7 +64,7 @@
   "en_desc": "examine the visibility map (VM) and page-level visibility info",
   "zh_desc": "检查可见性图（VM）和页面级可见性信息",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "pg_visibility"
   ],

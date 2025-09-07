@@ -8,7 +8,7 @@
   "url": "https://github.com/timescale/timescaledb",
   "license": "Timescale",
   "tags": [],
-  "version": "2.21.1",
+  "version": "2.22.0",
   "repo": "PIGSTY",
   "lang": "C",
   "contrib": false,
@@ -40,7 +40,7 @@
     "periods",
     "temporal_tables"
   ],
-  "rpm_ver": "2.21.1",
+  "rpm_ver": "2.22.0",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "timescaledb-tsl_$v*",
   "rpm_pg": [
@@ -50,7 +50,7 @@
     "14"
   ],
   "rpm_deps": [],
-  "deb_ver": "2.21.1",
+  "deb_ver": "2.22.0",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-timescaledb-tsl",
   "deb_deps": [],
@@ -71,247 +71,97 @@
   ],
   "matrix": [
     {
-      "pg": 18,
+      "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
       "os_code": "d12",
       "os_arch": "aarch64",
       "pkg": "timescaledb",
       "ext": "timescaledb",
-      "pname": "postgresql-18-timescaledb-tsl",
-      "miss": true,
+      "pname": "postgresql-17-timescaledb-tsl",
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.22.0",
+      "count": 1
     },
     {
-      "pg": 18,
+      "pg": 17,
       "os": "d12.x86_64",
       "type": "deb",
       "os_code": "d12",
       "os_arch": "x86_64",
       "pkg": "timescaledb",
       "ext": "timescaledb",
-      "pname": "postgresql-18-timescaledb-tsl",
-      "miss": true,
+      "pname": "postgresql-17-timescaledb-tsl",
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.22.0",
+      "count": 1
     },
     {
-      "pg": 18,
+      "pg": 17,
       "os": "el8.aarch64",
       "type": "rpm",
       "os_code": "el8",
       "os_arch": "aarch64",
       "pkg": "timescaledb",
       "ext": "timescaledb",
-      "pname": "timescaledb-tsl_18",
-      "miss": true,
+      "pname": "timescaledb-tsl_17",
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.22.0",
+      "count": 2
     },
     {
-      "pg": 18,
+      "pg": 17,
       "os": "el8.x86_64",
       "type": "rpm",
       "os_code": "el8",
       "os_arch": "x86_64",
       "pkg": "timescaledb",
       "ext": "timescaledb",
-      "pname": "timescaledb-tsl_18",
-      "miss": true,
+      "pname": "timescaledb-tsl_17",
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.22.0",
+      "count": 20
     },
     {
-      "pg": 18,
+      "pg": 17,
       "os": "el9.aarch64",
       "type": "rpm",
       "os_code": "el9",
       "os_arch": "aarch64",
       "pkg": "timescaledb",
       "ext": "timescaledb",
-      "pname": "timescaledb-tsl_18",
-      "miss": true,
+      "pname": "timescaledb-tsl_17",
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.22.0",
+      "count": 2
     },
     {
-      "pg": 18,
+      "pg": 17,
       "os": "el9.x86_64",
       "type": "rpm",
       "os_code": "el9",
       "os_arch": "x86_64",
       "pkg": "timescaledb",
       "ext": "timescaledb",
-      "pname": "timescaledb-tsl_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "postgresql-18-timescaledb-tsl",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "postgresql-18-timescaledb-tsl",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "postgresql-18-timescaledb-tsl",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "postgresql-18-timescaledb-tsl",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 17,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "postgresql-17-timescaledb-tsl",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
-    },
-    {
-      "pg": 17,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "postgresql-17-timescaledb-tsl",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
-    },
-    {
-      "pg": 17,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
       "pname": "timescaledb-tsl_17",
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
-    },
-    {
-      "pg": 17,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "timescaledb-tsl_17",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
       "pkg_ver": "2.22.0",
       "count": 19
     },
     {
       "pg": 17,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "timescaledb-tsl_17",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
-    },
-    {
-      "pg": 17,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "timescaledb-tsl_17",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "2.22.0",
-      "count": 18
-    },
-    {
-      "pg": 17,
       "os": "u22.aarch64",
       "type": "deb",
       "os_code": "u22",
@@ -322,7 +172,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -337,7 +187,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -352,7 +202,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -367,7 +217,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -382,7 +232,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -397,7 +247,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -412,8 +262,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
+      "pkg_ver": "2.22.0",
+      "count": 2
     },
     {
       "pg": 16,
@@ -426,42 +276,42 @@
       "pname": "timescaledb-tsl_16",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.22.0",
+      "count": 26
+    },
+    {
+      "pg": 16,
+      "os": "el9.aarch64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "aarch64",
+      "pkg": "timescaledb",
+      "ext": "timescaledb",
+      "pname": "timescaledb-tsl_16",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pigsty",
+      "pkg_ver": "2.22.0",
+      "count": 2
+    },
+    {
+      "pg": 16,
+      "os": "el9.x86_64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "x86_64",
+      "pkg": "timescaledb",
+      "ext": "timescaledb",
+      "pname": "timescaledb-tsl_16",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pigsty",
       "pkg_ver": "2.22.0",
       "count": 25
     },
     {
       "pg": 16,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "timescaledb-tsl_16",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
-    },
-    {
-      "pg": 16,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "timescaledb",
-      "ext": "timescaledb",
-      "pname": "timescaledb-tsl_16",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "2.22.0",
-      "count": 24
-    },
-    {
-      "pg": 16,
       "os": "u22.aarch64",
       "type": "deb",
       "os_code": "u22",
@@ -472,7 +322,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -487,7 +337,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -502,7 +352,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -517,7 +367,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -532,7 +382,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -547,7 +397,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -562,8 +412,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
+      "pkg_ver": "2.22.0",
+      "count": 2
     },
     {
       "pg": 15,
@@ -576,9 +426,9 @@
       "pname": "timescaledb-tsl_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "2.22.0",
-      "count": 24
+      "count": 25
     },
     {
       "pg": 15,
@@ -592,8 +442,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
-      "count": 1
+      "pkg_ver": "2.22.0",
+      "count": 2
     },
     {
       "pg": 15,
@@ -606,9 +456,9 @@
       "pname": "timescaledb-tsl_15",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "2.22.0",
-      "count": 32
+      "count": 33
     },
     {
       "pg": 15,
@@ -622,7 +472,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -637,7 +487,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -652,7 +502,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -667,7 +517,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "2.21.1",
+      "pkg_ver": "2.22.0",
       "count": 1
     },
     {
@@ -1036,181 +886,181 @@
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~bookworm",
-      "file": "postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_arm64.deb",
-      "size": 661464,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_arm64.deb",
-      "sha256": "47fe88eff9536be243125f80f559b52c56d84195ea5fbb0053194e56cb76486b"
+      "ver": "2.22.0-9PIGSTY~bookworm",
+      "file": "postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_arm64.deb",
+      "size": 662584,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_arm64.deb",
+      "sha256": "ed293b4339d7947b4f52953fba0bf303e4b234131168312174042f3e992c01fa"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~bookworm",
-      "file": "postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_amd64.deb",
-      "size": 727240,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_amd64.deb",
-      "sha256": "4c42bbd2f611d9733fede81ddbd062e23e9442cdc34f06c23370183ef70d9089"
+      "ver": "2.22.0-9PIGSTY~bookworm",
+      "file": "postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_amd64.deb",
+      "size": 725188,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_amd64.deb",
+      "sha256": "e714d71bedacd72658ee58ce8162d23d3266756cf2e7558d1e42c70b930f0a6c"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~jammy",
-      "file": "postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~jammy_arm64.deb",
-      "size": 760080,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~jammy_arm64.deb",
-      "sha256": "99856430feb94353dea85be3c0524a13e0fd39114a183d38be6338d469cf2c4c"
+      "ver": "2.22.0-9PIGSTY~jammy",
+      "file": "postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~jammy_arm64.deb",
+      "size": 759894,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~jammy_arm64.deb",
+      "sha256": "72e3712cac7d971942896374870739c91d1455a476ae1509b7ff50044828b585"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~jammy",
-      "file": "postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~jammy_amd64.deb",
-      "size": 793910,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~jammy_amd64.deb",
-      "sha256": "ccab8c8ac900e7d66be036fbb911f461d4a040c885c58e4ff62c130a2a43a520"
+      "ver": "2.22.0-9PIGSTY~jammy",
+      "file": "postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~jammy_amd64.deb",
+      "size": 791852,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~jammy_amd64.deb",
+      "sha256": "8105e3370dac95463f204ead20628dd61632dd8ce03c21f6af40a6d90ad893e5"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~noble",
-      "file": "postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~noble_arm64.deb",
-      "size": 753712,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~noble_arm64.deb",
-      "sha256": "298c51ba0b13c14fdc8913b108039c9c6d422aec48e3da61473cd7c81332daee"
+      "ver": "2.22.0-9PIGSTY~noble",
+      "file": "postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~noble_arm64.deb",
+      "size": 757000,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~noble_arm64.deb",
+      "sha256": "02ef86e3c10d5bd6c9294ccd4081d4b0a8b1a055c51a552d525bc7a1ec83d244"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~noble",
-      "file": "postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~noble_amd64.deb",
-      "size": 780760,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.21.1-9PIGSTY~noble_amd64.deb",
-      "sha256": "b56a51778e5d6900a000b4579abe93fc1eff1e427d77019b2743f50f091097b5"
+      "ver": "2.22.0-9PIGSTY~noble",
+      "file": "postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~noble_amd64.deb",
+      "size": 780494,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-15-timescaledb-tsl_2.22.0-9PIGSTY~noble_amd64.deb",
+      "sha256": "567c1f48193c4c9557e3725c2e17d2f42aa994778b9faead72e64431b237e062"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~bookworm",
-      "file": "postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_arm64.deb",
-      "size": 665664,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_arm64.deb",
-      "sha256": "b807604bc2d533002da92758b0538a93e6797bbe239b9fd101aaedb3b6d7d993"
+      "ver": "2.22.0-9PIGSTY~bookworm",
+      "file": "postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_arm64.deb",
+      "size": 667008,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_arm64.deb",
+      "sha256": "2daf9045fc2fd649a5c7a64687197e7f4b8c6a1367a663d6526c371b94afa8fd"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~bookworm",
-      "file": "postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_amd64.deb",
-      "size": 731988,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_amd64.deb",
-      "sha256": "cd04f1c4e25310c09cd4b5e396eba1cb369884fef94d291f69f6826ab5ef00b3"
+      "ver": "2.22.0-9PIGSTY~bookworm",
+      "file": "postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_amd64.deb",
+      "size": 730592,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_amd64.deb",
+      "sha256": "5053303f365766478f7c46aaef31123de0ba42175f8c8bd253b6fffc144d6f5d"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~jammy",
-      "file": "postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~jammy_arm64.deb",
-      "size": 767106,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~jammy_arm64.deb",
-      "sha256": "7b0051038ed5d796c44576dc3dca275e3143b8e8494a2abca9cf1cd656131a98"
+      "ver": "2.22.0-9PIGSTY~jammy",
+      "file": "postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~jammy_arm64.deb",
+      "size": 764288,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~jammy_arm64.deb",
+      "sha256": "4b6023300438c313714e8e3dd4a510320a5491ccf4340a4a2c10267335722e31"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~jammy",
-      "file": "postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~jammy_amd64.deb",
-      "size": 800088,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~jammy_amd64.deb",
-      "sha256": "f0bbec17baf82f6bef2c848b40ca39781c09b461648dda3c4e9abd2b7d2e929d"
+      "ver": "2.22.0-9PIGSTY~jammy",
+      "file": "postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~jammy_amd64.deb",
+      "size": 797240,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~jammy_amd64.deb",
+      "sha256": "e0d67a86a21abc68132327fa5b102db93d1468668524f3b00cdff283ba9c2a00"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~noble",
-      "file": "postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~noble_arm64.deb",
-      "size": 760430,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~noble_arm64.deb",
-      "sha256": "3a678e915b0a43157aed487c04f3120dab371a159a98794d84f23e92efd0d14f"
+      "ver": "2.22.0-9PIGSTY~noble",
+      "file": "postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~noble_arm64.deb",
+      "size": 760294,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~noble_arm64.deb",
+      "sha256": "c5c623920accdfbb5f444de65258733e087c992efc21bcc2d94d9bcf4642bd56"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~noble",
-      "file": "postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~noble_amd64.deb",
-      "size": 784222,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.21.1-9PIGSTY~noble_amd64.deb",
-      "sha256": "4607ca112f84bdb851e5a7a0a81254fbfbd075c82dcc4b2ece78e366879d7f9a"
+      "ver": "2.22.0-9PIGSTY~noble",
+      "file": "postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~noble_amd64.deb",
+      "size": 784614,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-16-timescaledb-tsl_2.22.0-9PIGSTY~noble_amd64.deb",
+      "sha256": "b97c462e3bbf75aea629ed241f6ce6b5b0baa700eab972c2d01599efb9854034"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~bookworm",
-      "file": "postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_arm64.deb",
-      "size": 667780,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_arm64.deb",
-      "sha256": "1f8bb604cefeea95a326ba10daf9537828d3e4d524bf519abcb2083fb98b6d96"
+      "ver": "2.22.0-9PIGSTY~bookworm",
+      "file": "postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_arm64.deb",
+      "size": 670256,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_arm64.deb",
+      "sha256": "cceaf15f4bd58d69a652787b56993f1a81b6bdca4e6d821d5ba8e4d58709d74a"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~bookworm",
-      "file": "postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_amd64.deb",
-      "size": 733564,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~bookworm_amd64.deb",
-      "sha256": "2c450c6db0b511be1ab3ac3cd488a9b1d12334f1f5b5026f3d8deca5d707be65"
+      "ver": "2.22.0-9PIGSTY~bookworm",
+      "file": "postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_amd64.deb",
+      "size": 732868,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~bookworm_amd64.deb",
+      "sha256": "86c617933f0aef635bac48305df1bab971f1f952c27f8cd68ea50962a3f28572"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~jammy",
-      "file": "postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~jammy_arm64.deb",
-      "size": 770672,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~jammy_arm64.deb",
-      "sha256": "33b6fb1e8755f46ce34548b7e8d5b6123b1c6141a80e36d60c8c28e82c2fd405"
+      "ver": "2.22.0-9PIGSTY~jammy",
+      "file": "postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~jammy_arm64.deb",
+      "size": 764850,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~jammy_arm64.deb",
+      "sha256": "7e296e4533041094917aa5f8a6cc4268092d1601ae343fd8b913856d42c2151f"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~jammy",
-      "file": "postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~jammy_amd64.deb",
-      "size": 800910,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~jammy_amd64.deb",
-      "sha256": "e2ef23ab0498e16cd3cef5f69c9b1f93ebf18d316d9c064a56882c13caa0e628"
+      "ver": "2.22.0-9PIGSTY~jammy",
+      "file": "postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~jammy_amd64.deb",
+      "size": 799990,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~jammy_amd64.deb",
+      "sha256": "f53331d4fcae36df30aedc74d53e1bf78f3dd278bedc771af44f5c67d6749739"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~noble",
-      "file": "postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~noble_arm64.deb",
-      "size": 762640,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~noble_arm64.deb",
-      "sha256": "d852285a3cb421e95c9b4327a1c7eda6972f7643a95055e4a6af85001a2fae78"
+      "ver": "2.22.0-9PIGSTY~noble",
+      "file": "postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~noble_arm64.deb",
+      "size": 764802,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~noble_arm64.deb",
+      "sha256": "7e75377d33b6ebc846bf8df078ebde3c4c493d30f8c0e678c803f625f3bf0b9a"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-timescaledb-tsl",
-      "ver": "2.21.1-9PIGSTY~noble",
-      "file": "postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~noble_amd64.deb",
-      "size": 784350,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.21.1-9PIGSTY~noble_amd64.deb",
-      "sha256": "d9a74a0ae4aad9d84d4fc4ad94c3e12039e734281d6da3366ed518261f9d33f5"
+      "ver": "2.22.0-9PIGSTY~noble",
+      "file": "postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~noble_amd64.deb",
+      "size": 787456,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/t/timescaledb-tsl/postgresql-17-timescaledb-tsl_2.22.0-9PIGSTY~noble_amd64.deb",
+      "sha256": "4552ab72776b323209648f1205dd980a7b073516579c43465ea39d58904a8a72"
     },
     {
       "os": "el8.x86_64",
@@ -2286,11 +2136,31 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "timescaledb-tsl_15",
+      "ver": "2.22.0-1PIGSTY.el8",
+      "file": "timescaledb-tsl_15-2.22.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 752948,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/timescaledb-tsl_15-2.22.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "c5f235efde374bc4b4d105543492dd9eb205649115be253d41be56aa9a566b40"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "timescaledb-tsl_15",
       "ver": "2.21.1-1PIGSTY.el8",
       "file": "timescaledb-tsl_15-2.21.1-1PIGSTY.el8.aarch64.rpm",
       "size": 757528,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/timescaledb-tsl_15-2.21.1-1PIGSTY.el8.aarch64.rpm",
       "sha256": "624f8e20a632594d617525792cffafa36deb51c4acbca63a46db953dba778f19"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "timescaledb-tsl_15",
+      "ver": "2.22.0-1PIGSTY.el8",
+      "file": "timescaledb-tsl_15-2.22.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 819440,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/timescaledb-tsl_15-2.22.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "9593bcfe0e3720a9007232d8bfcae551bbb597bce7da3905ec81551cbc1381d1"
     },
     {
       "os": "el8.x86_64",
@@ -2536,11 +2406,31 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "timescaledb-tsl_15",
+      "ver": "2.22.0-1PIGSTY.el9",
+      "file": "timescaledb-tsl_15-2.22.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 706630,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/timescaledb-tsl_15-2.22.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "74b633ed149ee04d79b8b722fbd0ffc78a2405d81e5772d77c0e37b66066a6e9"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "timescaledb-tsl_15",
       "ver": "2.21.1-1PIGSTY.el9",
       "file": "timescaledb-tsl_15-2.21.1-1PIGSTY.el9.aarch64.rpm",
       "size": 708857,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/timescaledb-tsl_15-2.21.1-1PIGSTY.el9.aarch64.rpm",
       "sha256": "3fad6d2e8e8d3e1b66f0fc6c1a7e36b428ac34d3af7d52a5bddb11dfcd99ae71"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "timescaledb-tsl_15",
+      "ver": "2.22.0-1PIGSTY.el9",
+      "file": "timescaledb-tsl_15-2.22.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 743818,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/timescaledb-tsl_15-2.22.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "36e3328f7d6f0c7ca4a4ecf088b84ef3ffe83b21f627563dcddb15777ff19f1f"
     },
     {
       "os": "el9.x86_64",
@@ -2866,11 +2756,31 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "timescaledb-tsl_16",
+      "ver": "2.22.0-1PIGSTY.el8",
+      "file": "timescaledb-tsl_16-2.22.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 754288,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/timescaledb-tsl_16-2.22.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "32333764ad11f4b44e235860319bc09bea1c4837e14c75f32be8cb90130bb8b7"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "timescaledb-tsl_16",
       "ver": "2.21.1-1PIGSTY.el8",
       "file": "timescaledb-tsl_16-2.21.1-1PIGSTY.el8.aarch64.rpm",
       "size": 759088,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/timescaledb-tsl_16-2.21.1-1PIGSTY.el8.aarch64.rpm",
       "sha256": "df6a567f8964f30569f2d5cee6f60c00bffc093546a186a1257426fbda954ac2"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "timescaledb-tsl_16",
+      "ver": "2.22.0-1PIGSTY.el8",
+      "file": "timescaledb-tsl_16-2.22.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 821044,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/timescaledb-tsl_16-2.22.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "f37b946ea6fa8766d259462ef59955efce28476cd144e5d72a59d2c8c8c29152"
     },
     {
       "os": "el8.x86_64",
@@ -3126,11 +3036,31 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "timescaledb-tsl_16",
+      "ver": "2.22.0-1PIGSTY.el9",
+      "file": "timescaledb-tsl_16-2.22.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 707835,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/timescaledb-tsl_16-2.22.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "d6666aa19602b6cfd40b70b3191b4db8f5d0e38be9c5f7960f7977e5c9b55f2b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "timescaledb-tsl_16",
       "ver": "2.21.1-1PIGSTY.el9",
       "file": "timescaledb-tsl_16-2.21.1-1PIGSTY.el9.aarch64.rpm",
       "size": 712446,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/timescaledb-tsl_16-2.21.1-1PIGSTY.el9.aarch64.rpm",
       "sha256": "a744937e6efaffd03022976d590a789b570d424927cca8ed196d68b7e3d8b9f9"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "timescaledb-tsl_16",
+      "ver": "2.22.0-1PIGSTY.el9",
+      "file": "timescaledb-tsl_16-2.22.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 744422,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/timescaledb-tsl_16-2.22.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "9b184d669bbe76b035771db84677dc40291c00c0cdbf72428fe0f8947af17e73"
     },
     {
       "os": "el9.x86_64",
@@ -3376,11 +3306,31 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "timescaledb-tsl_17",
+      "ver": "2.22.0-1PIGSTY.el8",
+      "file": "timescaledb-tsl_17-2.22.0-1PIGSTY.el8.aarch64.rpm",
+      "size": 753620,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/timescaledb-tsl_17-2.22.0-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "d047d78d11429bc616cf8f3805167a348aad3b0cf821045f026db9d0d2a7a302"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "timescaledb-tsl_17",
       "ver": "2.21.1-1PIGSTY.el8",
       "file": "timescaledb-tsl_17-2.21.1-1PIGSTY.el8.aarch64.rpm",
       "size": 759624,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/timescaledb-tsl_17-2.21.1-1PIGSTY.el8.aarch64.rpm",
       "sha256": "cab66c018abf9cfe4025b754dd3ca710fe17a77100adb9106f9e6315ab7da8c9"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "timescaledb-tsl_17",
+      "ver": "2.22.0-1PIGSTY.el8",
+      "file": "timescaledb-tsl_17-2.22.0-1PIGSTY.el8.x86_64.rpm",
+      "size": 821780,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/timescaledb-tsl_17-2.22.0-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "9cde97551c76c8866e7fb246b00b0569976d49da351defab04701a17773bb27f"
     },
     {
       "os": "el8.x86_64",
@@ -3576,11 +3526,31 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "timescaledb-tsl_17",
+      "ver": "2.22.0-1PIGSTY.el9",
+      "file": "timescaledb-tsl_17-2.22.0-1PIGSTY.el9.aarch64.rpm",
+      "size": 707592,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/timescaledb-tsl_17-2.22.0-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "a81387ba0cb1871c31f90d015c55a5ebc95610086167c0fdfe93bcc9723dac8f"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "timescaledb-tsl_17",
       "ver": "2.21.1-1PIGSTY.el9",
       "file": "timescaledb-tsl_17-2.21.1-1PIGSTY.el9.aarch64.rpm",
       "size": 711956,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/timescaledb-tsl_17-2.21.1-1PIGSTY.el9.aarch64.rpm",
       "sha256": "89e45fc6f3485df6e8002d3218e1f3b2d0789f3ff034e9d288156bf63312b3c7"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "timescaledb-tsl_17",
+      "ver": "2.22.0-1PIGSTY.el9",
+      "file": "timescaledb-tsl_17-2.22.0-1PIGSTY.el9.x86_64.rpm",
+      "size": 746568,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/timescaledb-tsl_17-2.22.0-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "2f48b21470623fa49bc9357d4905cfb8ae74e6e4d2e77f42f8a74b6da994f3fc"
     },
     {
       "os": "el9.x86_64",

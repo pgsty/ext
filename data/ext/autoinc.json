@@ -64,7 +64,7 @@
   "en_desc": "functions for autoincrementing fields",
   "zh_desc": "用于自动递增字段的函数",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "autoinc"
   ],

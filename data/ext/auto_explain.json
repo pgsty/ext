@@ -69,7 +69,7 @@
   "en_desc": "Provides a means for logging execution plans of slow statements automatically",
   "zh_desc": "提供一种自动记录执行计划的手段",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "auto_explain"
   ],

@@ -58,7 +58,7 @@
   "en_desc": "adds a custom basebackup target called shell",
   "zh_desc": "添加一种备份到Shell终端到基础备份方式",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "basebackup_to_shell"
   ],

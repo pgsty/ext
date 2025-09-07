@@ -64,7 +64,7 @@
   "en_desc": "functions, operators, and index support for 1-D arrays of integers",
   "zh_desc": "1维整数数组的额外函数、运算符和索引支持",
   "comment": null,
-  "mtime": "2025-02-20",
+  "mtime": "2025-09-06",
   "siblings": [
     "intarray"
   ],

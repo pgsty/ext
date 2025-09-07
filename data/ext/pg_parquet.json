@@ -10,7 +10,7 @@
   "tags": [
     "pgrx"
   ],
-  "version": "0.4.0",
+  "version": "0.4.3",
   "repo": "PIGSTY",
   "lang": "Rust",
   "contrib": false,
@@ -35,7 +35,7 @@
     "pg_partman",
     "pg_stat_statements"
   ],
-  "rpm_ver": "0.4.0",
+  "rpm_ver": "0.4.3",
   "rpm_repo": "PIGSTY",
   "rpm_pkg": "pg_parquet_$v",
   "rpm_pg": [
@@ -45,7 +45,7 @@
     "14"
   ],
   "rpm_deps": [],
-  "deb_ver": "0.4.0",
+  "deb_ver": "0.4.3",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-pg-parquet",
   "deb_deps": [],
@@ -55,169 +55,19 @@
     "15",
     "14"
   ],
-  "source": "pg_parquet-0.4.0.tar.gz",
+  "source": "pg_parquet-0.4.3.tar.gz",
   "extra": {
-    "pgrx": "0.14.1"
+    "pgrx": "0.16.0"
   },
   "en_desc": "copy data between Postgres and Parquet",
   "zh_desc": "在PostgreSQL与本地/S3中的Parquet文件复制数据",
-  "comment": "pgrx=0.14.1",
+  "comment": "pgrx=0.16.0",
   "mtime": "2025-03-20",
   "siblings": [
     "pg_parquet"
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "postgresql-18-pg-parquet",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "postgresql-18-pg-parquet",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "pg_parquet_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "pg_parquet_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "pg_parquet_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "pg_parquet_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "postgresql-18-pg-parquet",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "postgresql-18-pg-parquet",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "postgresql-18-pg-parquet",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "pg_parquet",
-      "ext": "pg_parquet",
-      "pname": "postgresql-18-pg-parquet",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -229,7 +79,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -244,7 +94,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -259,7 +109,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -274,7 +124,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -289,7 +139,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -304,7 +154,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -319,7 +169,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -334,7 +184,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -349,7 +199,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -364,7 +214,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -379,7 +229,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -394,7 +244,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -409,7 +259,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -424,7 +274,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -439,7 +289,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -454,7 +304,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -469,7 +319,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -484,7 +334,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -499,7 +349,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -514,7 +364,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -529,7 +379,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -544,7 +394,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -559,7 +409,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -574,7 +424,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -589,7 +439,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -604,7 +454,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -619,7 +469,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -634,7 +484,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -649,7 +499,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -664,7 +514,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -679,7 +529,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -694,7 +544,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -709,7 +559,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -724,7 +574,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -739,7 +589,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -754,7 +604,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -769,7 +619,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -784,7 +634,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -799,7 +649,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -814,7 +664,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "0.4.0",
+      "pkg_ver": "0.4.3",
       "count": 1
     },
     {
@@ -973,401 +823,401 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pg_parquet_14",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_14-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 6232664,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_14-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "5a985340befa11cf0338e9d7a1be5182681ea2913cd52c1e6f8bd55676d164d1"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_14-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "size": 6855244,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_14-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "0bcb6fcf0af54faac823e997c1ad43c9d0b0b5ec4789d72ad049954332126cee"
     },
     {
       "os": "el8.x86_64",
       "pg": 14,
       "name": "pg_parquet_14",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_14-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 6885220,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_14-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "950c926c89c09fada12c91472bb01c6ecafb064f781a372208bb78ac65268d0e"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_14-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "size": 7622352,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_14-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "1722f9cf6d82e6b578d14d6cae53799526a6ff2629928b6bcba1c73b32195247"
     },
     {
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pg_parquet_14",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_14-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 6447398,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_14-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "3ea50871f8957f3f4d8c0a42b7effa25ddbb5dd0be33e89e26dae8bdcd92d288"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_14-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "size": 7076893,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_14-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "1c0048c3d5341054b7c2fd0986c23d4d306adfc5c4bb405f0b7e9fe5acd0a9e2"
     },
     {
       "os": "el9.x86_64",
       "pg": 14,
       "name": "pg_parquet_14",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_14-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 6662312,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_14-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "64bc0e0af54e5f0c30483129aff51c43ea2e6d6099a040787dd4254aa8996f72"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_14-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "size": 7448497,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_14-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "8fca6fbb6d909a2f1a76e1b702abc0a298c120a0ed993fb5b118dbd2ead968cd"
     },
     {
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pg_parquet_15",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_15-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 6232364,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_15-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "1c6fbb4d246b97d4aaf4a16a9126511c99c02276aee0fdd60de4febb45ee4d3e"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_15-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "size": 6855428,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_15-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "7af99fb781e9eb48cbfef8bcc5b26dc500c45ea1087b9f11f96e53427b15b0e8"
     },
     {
       "os": "el8.x86_64",
       "pg": 15,
       "name": "pg_parquet_15",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_15-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 6884624,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_15-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "11e88bfdccca631b8a4c2fa02b2b02f5b03b257e59c7f737bf121f8d61bb656e"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_15-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "size": 7624140,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_15-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "948a827f4898efecfbd9ed1d1f5e54ecc99e4fdbfdf5860a21df244381efec5a"
     },
     {
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pg_parquet_15",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_15-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 6432570,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_15-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "f945b7dc91d4b4be91b88dc00448c6ba7f3e6c08b9aae11c011e671dd4aca621"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_15-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "size": 7075646,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_15-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "85f52122e232e7455be93835d1e012267b830b17c899bd16794028df204e722c"
     },
     {
       "os": "el9.x86_64",
       "pg": 15,
       "name": "pg_parquet_15",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_15-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 6663243,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_15-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "1e7e12cf6e28d04d8ccd04301a42286a4317fe6cce4ae2219e0d88aced809a1a"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_15-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "size": 7446195,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_15-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "740ce18154450aea3d0b5873568b122888dcfda768a844d62c5afef723f7aa14"
     },
     {
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pg_parquet_16",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_16-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 6234364,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_16-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "2d2d8a0cdfc4826cd60adec74526e2082b1a61f016218c6bd893b745df4e98e1"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_16-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "size": 6854520,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_16-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "bd5d27a0118becc0f9b5ff5928ff36381413edc2e215577a65a8f7f34272d081"
     },
     {
       "os": "el8.x86_64",
       "pg": 16,
       "name": "pg_parquet_16",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_16-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 6886548,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_16-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "33187eec4a2845efd55436a069e86d6a662f210b6f1a9f668e3c7bbf897cf208"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_16-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "size": 7624940,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_16-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "a11b57d2ec3e0f027cf8b58403eb394c95cbd63df6dd306814119d341764e921"
     },
     {
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pg_parquet_16",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_16-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 6447952,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_16-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "c53f23e5a2722e97df670289eb5eed7b578b09bb0146f54e86db2c3503e28ecf"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_16-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "size": 7076038,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_16-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "396b914a6214675345b4fbe0d6b896ac00937c1fbf9e14955eb6905e19e1a831"
     },
     {
       "os": "el9.x86_64",
       "pg": 16,
       "name": "pg_parquet_16",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_16-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 6663377,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_16-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "45c1e838e87e91f2062da5ce85d3b3fbce4d6ca84c391524ead8affd0ce9d299"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_16-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "size": 7457243,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_16-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "9dba75cc838fb679b549eea37957dbea7d2d07c6d15fb8fdded98e3138d0598a"
     },
     {
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pg_parquet_17",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_17-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "size": 6234168,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_17-0.4.0-1PIGSTY.el8.aarch64.rpm",
-      "sha256": "529c0338fc97850970da9c4db6e1a3f325a6a22f8073f57cfdc8ad43a85140ba"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_17-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "size": 6854816,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_parquet_17-0.4.3-1PIGSTY.el8.aarch64.rpm",
+      "sha256": "83fb919395d979c9fffec0c29f67dc1977ca398f813b3aaa8af259665a19f131"
     },
     {
       "os": "el8.x86_64",
       "pg": 17,
       "name": "pg_parquet_17",
-      "ver": "0.4.0-1PIGSTY.el8",
-      "file": "pg_parquet_17-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "size": 6886244,
-      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_17-0.4.0-1PIGSTY.el8.x86_64.rpm",
-      "sha256": "79a05e66a07f4c1fd868b9d91dd9bf018ca81bf18784aff6fc41a23c9e7e6608"
+      "ver": "0.4.3-1PIGSTY.el8",
+      "file": "pg_parquet_17-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "size": 7624844,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_parquet_17-0.4.3-1PIGSTY.el8.x86_64.rpm",
+      "sha256": "b833a176d1b0c09ead6547dff8d8787dfdb4b11768f51dcd38c33168051b9214"
     },
     {
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pg_parquet_17",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_17-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "size": 6449044,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_17-0.4.0-1PIGSTY.el9.aarch64.rpm",
-      "sha256": "d82b43a02f3f19d2eb40d65bb6748d03225c0e6a090b9897f759c82322d7e189"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_17-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "size": 7072782,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_parquet_17-0.4.3-1PIGSTY.el9.aarch64.rpm",
+      "sha256": "55b5ad6ff775162d87f34b0310cd9faa9f01e26c9cfd2bf19027c17ca9f6d005"
     },
     {
       "os": "el9.x86_64",
       "pg": 17,
       "name": "pg_parquet_17",
-      "ver": "0.4.0-1PIGSTY.el9",
-      "file": "pg_parquet_17-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "size": 6661501,
-      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_17-0.4.0-1PIGSTY.el9.x86_64.rpm",
-      "sha256": "bf247afad97bb495fa27056b071a12cff6c11ac1a8164553d55608a7fbfadb18"
+      "ver": "0.4.3-1PIGSTY.el9",
+      "file": "pg_parquet_17-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "size": 7451932,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_parquet_17-0.4.3-1PIGSTY.el9.x86_64.rpm",
+      "sha256": "6acb698381688f25f77d5ea24f81c306ee6d730d92bf731d39cfcc36b8572e83"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-14-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 4840084,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "21b7b6ced18a71be1b76a3e0ce14dbe1a5f132066929c146472f304469c55b9b"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-14-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "size": 5375828,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "4d31e25f46a61137d73713ccc909891a285e01d22f8d3251908203a0fdfd7d15"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-14-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 5509516,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "dd3a8f33199f377479df9c2f46f445f3f4cae5320c849f1c832d13911a8078bf"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-14-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "size": 6199548,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "7ce5844be2db4f21caecc53b4e5f86ead2f3fd4baf6c0644fc38503c02d0172d"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-14-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "size": 5721500,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "f934d146b258d11fdf832a2598e9e92c2ed3c5403cca216d1da47de0f133a0c0"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-14-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "size": 6342686,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "sha256": "8e521da8ec15f0823cec464f511e1ce24d0d3eeb3b28bd3b10d70e04546dea72"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-14-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "size": 6097556,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "aa08a0293fe4b267d148b6db0274e4cdfc7abde381266738fe40b2bd1e023ab5"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-14-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "size": 6850552,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "sha256": "db5df4cf86452463f3a435dc7208d9a690ddc9dffa3fd86c312a42867d156daa"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-14-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "size": 5686240,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "ee309175d52c74526bed06c1511d111f4f13191511ea858d347d6cdadf3d9924"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-14-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "size": 6313920,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "sha256": "e0c039d149a4f97ad7d7296f45282203b8be1c0df4e5172a0a6b8e9d1e62afed"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-14-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "size": 6046792,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "566ec592cab13e044e286b590a7405f2d90153a140041ec6adefaf3bce395d00"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-14-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "size": 6807116,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-14-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "sha256": "f1d270b051f31ea87e47daa9f70d32c2988d1286e753675753f71a24f8a6e9d0"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 4839364,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "284f2f3397efd911741f9f78eb4f49ca464843cd3e25f576fc314af3aadbeeec"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-15-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "size": 5369596,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "ace324e9888c8c5f425d6a0f0f3ee8066a11a4b0853f8e4fb7b9cd2a3c066ce5"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 5518128,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "33aea8824f97ac68a01ce9525a25b4d1abc904c2d9c1bc2f42ad0cda4b6e223a"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-15-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "size": 6200152,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "b5be525958068442199f7dafc3a89f35269d1ec43d667277cfd17dc50639bc0c"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "size": 5723176,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "8351a8640526e4e7125f8986956a91391961ed8b47521b99432290de57911d57"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-15-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "size": 6341314,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "sha256": "c3563e0ddf9e65917e599e2f6667e379d400c9c769c9848bf7d120fe39d4c039"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "size": 6092612,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "05d41a51808728b3379f80a390d122375aea4bc9228f7fca928495ef982962a9"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-15-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "size": 6861044,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "sha256": "ec516f1f91ee6457fa7a4bc7dc3ef1b3024dae83a4df5d89abc9f1e58869c3a6"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-15-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "size": 5692670,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "3e6888d36111272569dfb67518908b92ffc74135348a9341e0c21b94c17cee27"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-15-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "size": 6310990,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "sha256": "86623fdf77c1b170a185003b4415f57dfa6d98cd3af8ec32f2ce1e0541e62859"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-15-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "size": 6053898,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "9cd978f97803e4269587ebfe1e192a4ec610232408a032d25f3cf49020020f2e"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-15-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "size": 6813274,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-15-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "sha256": "a674fe875b7f3c3fb13035efad73fdab8b643509773ae5458f0359b92898d293"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 4836040,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "a7415d83425415348d3002a75b6a1cfce7e74be6ed75686cf57a9b2b2800b256"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-16-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "size": 5370332,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "498af99ee509f36d92caddcc7accf24324c7d4f463aaea6cdbeaedf0115c5f67"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 5508812,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "159b31c6a7d570206a32e9fd9034de5cb7b329cfadccf06a772001764f22f94a"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-16-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "size": 6206296,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "5c2212d22fc1f43ef2821b07c5c23210259a19f05692126a8376beefd3c7fef1"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "size": 5718186,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "839d324688c214cd101a65b6782cc4b028df3554b57a3235efe7ea3fa8d2c5ee"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-16-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "size": 6345474,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "sha256": "29ec241251fdebc49fddf6228b588746f19bbdf2341822afe12f8f319de8c772"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "size": 6090204,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "05ad155025fa03a4f97a1db07147040ad70c6d9792914bc933484a404afe6637"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-16-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "size": 6850132,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "sha256": "56f89b2b633e81edeb7c912622ebc855e88d801bc839cc4bcc8a50f67358f218"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-16-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "size": 5695144,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "8d672633669c1b42a193ab8304f4b8b5466d37a4c30e8b2a3a140ac35feed3e3"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-16-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "size": 6312114,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "sha256": "7735f18278406a9ecc922fa8d1c8a6d1f6e9448cd14efcc4eb25596d0778760d"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-16-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "size": 6048386,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "27034ca012883036fb6557a35f6ebd17908be4b5923c5a6785f573cf2e04ce31"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-16-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "size": 6810082,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-16-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "sha256": "ba88d9706d8ddfe38e1fde48063b56e2efc33cc67c50289d67eef70396f67b2a"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 4839004,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "9f282cbfb8241047ac4b0ef006d470717ae5177db9ab3ca283b9b3a8726480a2"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-17-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "size": 5366004,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.3-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "569d61b46a7e054a2f1d32c89ece791a3ec9724be48ec9046c5ad591424acf1c"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 5509440,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "d49143c5c5946132888d2fa064ce9f11fe70aa921e932cf08796595f2606f63a"
+      "ver": "0.4.3-1PIGSTY~bookworm",
+      "file": "postgresql-17-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "size": 6199420,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.3-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "439b820ec6f2ea556fb28a82c87b3890e84f4f5477b68c86923bdbe605130bfd"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "size": 5721182,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "102384cb290ec165d284f7f7d47553fe6f4db02f60c6fc429f1156f472dbba31"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-17-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "size": 6352008,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.3-1PIGSTY~jammy_arm64.deb",
+      "sha256": "c3a2a17ff5ac40f5426ec179fc7c9aabc9e2db37adb1dad516c293b531d729cc"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "size": 6098440,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "48ae0c2434a9ae3804fbba9b7170e63ae1a929bb5fa84449bac6d4a1af283010"
+      "ver": "0.4.3-1PIGSTY~jammy",
+      "file": "postgresql-17-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "size": 6859088,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.3-1PIGSTY~jammy_amd64.deb",
+      "sha256": "5e2efae1a6feb94200583617381696f8b2a428f5f6cb6aa08b4d28b9f8032ce6"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-17-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "size": 5692018,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "b0f93994831c9fc8130df2d06b04c5d98aa10263f804c8869e4372905a6ce175"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-17-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "size": 6311212,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.3-1PIGSTY~noble_arm64.deb",
+      "sha256": "7dca205b75624ab059f3b886a1b473fa6919782dd78aae3d0a4e1f906fbe134f"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-parquet",
-      "ver": "0.4.0-1PIGSTY~noble",
-      "file": "postgresql-17-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "size": 6053592,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "2c53eff2196d1819b57c196355e06e5464bd58878baf80366cda856f404d7eed"
+      "ver": "0.4.3-1PIGSTY~noble",
+      "file": "postgresql-17-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "size": 6810234,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-parquet/postgresql-17-pg-parquet_0.4.3-1PIGSTY~noble_amd64.deb",
+      "sha256": "87ecce73db1e1b4f92642d844ebdb9fdb8165929caf0a2a4b949f5eca65defe2"
     }
   ]
 }

@@ -21,6 +21,7 @@
   "relocatable": true,
   "schemas": [],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -61,162 +62,12 @@
   "en_desc": "active session history",
   "zh_desc": "活跃会话历史",
   "comment": null,
-  "mtime": "2025-05-23",
+  "mtime": "2025-09-06",
   "siblings": [
     "pgsentinel"
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "postgresql-18-pgsentinel",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "postgresql-18-pgsentinel",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "pgsentinel_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "pgsentinel_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "pgsentinel_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "pgsentinel_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "postgresql-18-pgsentinel",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "postgresql-18-pgsentinel",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "postgresql-18-pgsentinel",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "pgsentinel",
-      "ext": "pgsentinel",
-      "pname": "postgresql-18-pgsentinel",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -227,7 +78,7 @@
       "pname": "postgresql-17-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -242,7 +93,7 @@
       "pname": "postgresql-17-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -317,7 +168,7 @@
       "pname": "postgresql-17-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -332,7 +183,7 @@
       "pname": "postgresql-17-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -347,7 +198,7 @@
       "pname": "postgresql-17-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -362,7 +213,7 @@
       "pname": "postgresql-17-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -377,7 +228,7 @@
       "pname": "postgresql-16-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -392,7 +243,7 @@
       "pname": "postgresql-16-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -467,7 +318,7 @@
       "pname": "postgresql-16-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -482,7 +333,7 @@
       "pname": "postgresql-16-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -497,7 +348,7 @@
       "pname": "postgresql-16-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -512,7 +363,7 @@
       "pname": "postgresql-16-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -527,7 +378,7 @@
       "pname": "postgresql-15-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -542,7 +393,7 @@
       "pname": "postgresql-15-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -617,7 +468,7 @@
       "pname": "postgresql-15-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -632,7 +483,7 @@
       "pname": "postgresql-15-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -647,7 +498,7 @@
       "pname": "postgresql-15-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -662,7 +513,7 @@
       "pname": "postgresql-15-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -677,7 +528,7 @@
       "pname": "postgresql-14-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -692,7 +543,7 @@
       "pname": "postgresql-14-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -767,7 +618,7 @@
       "pname": "postgresql-14-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -782,7 +633,7 @@
       "pname": "postgresql-14-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -797,7 +648,7 @@
       "pname": "postgresql-14-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -812,7 +663,7 @@
       "pname": "postgresql-14-pgsentinel",
       "miss": false,
       "hide": false,
-      "pkg_repo": "pgdg",
+      "pkg_repo": "pigsty",
       "pkg_ver": "1.2.0",
       "count": 2
     },
@@ -828,7 +679,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.1.0",
+      "pkg_ver": "1.2.0",
       "count": 1
     },
     {
@@ -843,7 +694,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.1.0",
+      "pkg_ver": "1.2.0",
       "count": 1
     },
     {
@@ -918,7 +769,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.1.0",
+      "pkg_ver": "1.2.0",
       "count": 1
     },
     {
@@ -933,7 +784,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.1.0",
+      "pkg_ver": "1.2.0",
       "count": 1
     },
     {
@@ -948,7 +799,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.1.0",
+      "pkg_ver": "1.2.0",
       "count": 1
     },
     {
@@ -963,7 +814,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.1.0",
+      "pkg_ver": "1.2.0",
       "count": 1
     }
   ],
@@ -1372,61 +1223,71 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-13-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 39348,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "20d90d9f589def0f022d64b47d4d47d5c66fe6bfb8a2d8d762187af785cf880d"
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-13-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "size": 39364,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "d06d66e0469c4c68e9b354ddd32a90a40171341f37b14c3f4bcae8088d3ee0cc"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-13-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 40804,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "d849d0fd84a088d7cc914802d734998b0ed8eb39eff89574c02a56f8eaedcf4b"
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-13-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "size": 40868,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "d762a217c6cd1ab47b6c85e73d64dd5c48abee28bc2f7c51f326f8c8f160a8ce"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-13-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "size": 48620,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "3846004168e78fac41835ae041194eb3ab2b389e0352cc8f81e6ed26c839c1b1"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-13-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "size": 48696,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "sha256": "a7d23a8f61dcc3fb9fbb8082059d446d20c26faf14ed99c26aeaa40cead689f3"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-13-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "size": 49442,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "bc6607877a450c28970d27a3ad53c5dc6b70b2966b7ab63793013d4330b5f262"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-13-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "size": 49486,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "sha256": "d0604563abd8564a891490155f83e88a08b7a633894f5e6b2e344bb7cb03bf49"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-13-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "size": 42058,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "e6a962fe8a9b77204da11a0ee089bfef229e284f7f8527597a9f10d2c5906be7"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-13-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "size": 42106,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "sha256": "4ed289990769dc7183bee21e2d3d1c405431562ec942733b1f67c8ca51472c13"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-13-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "size": 43070,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "39a9afc8e068da59f6897e9269a34fb686c9f4a01e780d41827e33cf64474ff6"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-13-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "size": 43128,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-13-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "sha256": "df7b837aa55452288bb19cf118999958f8b9f9399e5b15ef667720ebf390b263"
+    },
+    {
+      "os": "d12.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-pgsentinel",
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-14-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "size": 39456,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "55cad95401e21ff87eb03838383d02583c8b84a44dc98087dc5173f198aacfbe"
     },
     {
       "os": "d12.aarch64",
@@ -1439,14 +1300,14 @@
       "sha256": "967498584a56ca272d5a9ffee480c8e63d8c0daa4f6f236c7aa0d6e8ff86ab25"
     },
     {
-      "os": "d12.aarch64",
+      "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-14-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 39400,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "aa5de0436e9508f0ed45a068acd94d834b82b0c791a5c07717a93b0744fb1c5d"
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-14-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "size": 41100,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "5302c41c495ed03ce3d0ca082d844d06ad927d97876307938182b8994fd3e7fc"
     },
     {
       "os": "d12.x86_64",
@@ -1459,14 +1320,14 @@
       "sha256": "6cd5185b5da061780e35133849d22d2acde6236b41b4b48b3a7c200e7e85e20b"
     },
     {
-      "os": "d12.x86_64",
+      "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-14-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 41028,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "6f8f07c9c3db889a3925a9397b6a9c2944446ff807390521766ccce6b8008b24"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-14-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "size": 49294,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "sha256": "bb05b738f6ef8041bb660ad12600a40da5b5d431c0698d9b32a11cad4478c927"
     },
     {
       "os": "u22.aarch64",
@@ -1479,14 +1340,14 @@
       "sha256": "97f14ba3d7e72e2746e9fb5ddcbe8ac1afea9274fe10fa99887faa35a21180d8"
     },
     {
-      "os": "u22.aarch64",
+      "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-14-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "size": 49228,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "7aedb41c20b4f7031ae4b0259b4acf7b526ee96dc390a9f8773eb305d59acad5"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-14-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "size": 50068,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "sha256": "c234099e0ce5d5fe85bc3f15f570936426b452c0e6235a8e86dc151841c82cc1"
     },
     {
       "os": "u22.x86_64",
@@ -1499,14 +1360,14 @@
       "sha256": "049a68f83811105e0057158c93ec5f0ed51391c5675fe2c9561e4e34dab0cf47"
     },
     {
-      "os": "u22.x86_64",
+      "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-14-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "size": 50018,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "61e2516f2ebfddb10b64d44d4f77cd4acc3a52fe9cdc18081efd9d7f36ab7ba2"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-14-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "size": 42236,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "sha256": "0100afe035f8613e8005c74e5d37e370e97f0fad8a753c758abc56a0e41d72d2"
     },
     {
       "os": "u24.aarch64",
@@ -1519,14 +1380,14 @@
       "sha256": "7f25d1a4052319bd1cb882a8eaa603cbb06a7e02f26f83ba20c710fcde36e52d"
     },
     {
-      "os": "u24.aarch64",
+      "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-14-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "size": 42198,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "0ab64cd9ed4472582e7b5cfa50ef26a5c4edf1dc9864c5f685c0493873ada52d"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-14-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "size": 43466,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "sha256": "28665635e56e3beea6a8bf8d85250c22821a3b31cefb0676e8018fb1aadb9bf1"
     },
     {
       "os": "u24.x86_64",
@@ -1539,14 +1400,14 @@
       "sha256": "de2ec5770857c2918dfda4b467170bceb7101cbfef5f999f110476d60cf1a991"
     },
     {
-      "os": "u24.x86_64",
-      "pg": 14,
-      "name": "postgresql-14-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-14-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "size": 43294,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-14-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "32b41f218510591bf1dabeabde2b250b1874528a929071c5cf09a10958cb3e79"
+      "os": "d12.aarch64",
+      "pg": 15,
+      "name": "postgresql-15-pgsentinel",
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-15-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "size": 39700,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "2c15e6a737f05b49f974005840d5e4b8b11ca3d8f6d33b18c46147667203a7a9"
     },
     {
       "os": "d12.aarch64",
@@ -1559,14 +1420,14 @@
       "sha256": "34d110511462ad230ecbb040f46482f07daa10d2546dda37211c07004896e813"
     },
     {
-      "os": "d12.aarch64",
+      "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-15-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 39628,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "f0181dad9a4deda52ec03c7188c72a713c905151cbf9fdbde0eb54869f287092"
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-15-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "size": 41312,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "5f57e4b39278e1ab52322189db9c4a88edba288fd8553b5b29499464d76656eb"
     },
     {
       "os": "d12.x86_64",
@@ -1579,14 +1440,14 @@
       "sha256": "8e2da91e282004bfdda2be05704cc2df890202af5914de626a2b2e46b3577fa8"
     },
     {
-      "os": "d12.x86_64",
+      "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-15-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 41296,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "88c0d4ca1604e6e94b0d011cb3541ac6ced211edadbb1cb48a3099e8c5eb85e9"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-15-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "size": 51722,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "sha256": "f43ed6780105f7c6dd9b49326ef5a26766648c2db9d9770e05d13725c703c9fd"
     },
     {
       "os": "u22.aarch64",
@@ -1599,14 +1460,14 @@
       "sha256": "e078f1bcb307b681d5eee2acff5effb031ebb89d7806ad8842cc37b76f59c68d"
     },
     {
-      "os": "u22.aarch64",
+      "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-15-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "size": 51642,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "c367774afc683a2de4e83ed1084eeaefe847695fd6ce060af060d95cc68febcc"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-15-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "size": 52598,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "sha256": "687fde7c9c13af11b859d43196f40f533e44c61578dab3678ad1b41ca6f1b71f"
     },
     {
       "os": "u22.x86_64",
@@ -1619,14 +1480,14 @@
       "sha256": "9deff26200b246440f613d50c7cae955ef81fe28c84c4dcf0fe7591a734e511b"
     },
     {
-      "os": "u22.x86_64",
+      "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-15-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "size": 52540,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "31079d60d8a5a447b5aa120e23064131658f6429995c88a305d49214b68cc52a"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-15-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "size": 42572,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "sha256": "3b5b2a754b82923cde5d3a59bc8210e8a21015ecbd627fe7f9b51a7eac5674c9"
     },
     {
       "os": "u24.aarch64",
@@ -1639,14 +1500,14 @@
       "sha256": "5a388e4a2da8a1dbcbde019212a161a26e291dfd6b2f13ce7aec6704c69f2ade"
     },
     {
-      "os": "u24.aarch64",
+      "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-15-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "size": 42518,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "6d37be107bee8536c3579e3b281ebdd510e3845da9be60ceefb6b4cef6e50516"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-15-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "size": 43652,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "sha256": "666f0863d957a7606393968127a1c4f981532fcbf03034a737e1a6a7ed0384dc"
     },
     {
       "os": "u24.x86_64",
@@ -1659,14 +1520,14 @@
       "sha256": "e6373618a4b61dd2459c72d336b31fd004d43dfe79c4efe6890adc3351d4a098"
     },
     {
-      "os": "u24.x86_64",
-      "pg": 15,
-      "name": "postgresql-15-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-15-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "size": 43598,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-15-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "405d4f39b14c6b73e0b35790f44540ec29b4771d3c3870cf3c35ac8a8d36764e"
+      "os": "d12.aarch64",
+      "pg": 16,
+      "name": "postgresql-16-pgsentinel",
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-16-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "size": 39724,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "5af6ce12061a27240db0720e1228a16fdb88facc57c63b46c7a1d53371a22cee"
     },
     {
       "os": "d12.aarch64",
@@ -1679,14 +1540,14 @@
       "sha256": "80de9a0b08bcd4d272985a4ad8824d71e2953bd4274a7beaa3fdb3e380eaf803"
     },
     {
-      "os": "d12.aarch64",
+      "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-16-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 39676,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "9e433c142dc2299158e2adfb87c5ed36feede21e8e9b9d3162e62fa994bec94d"
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-16-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "size": 41268,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "75f632cac336bfbcac020893c7ff3ae3936df4d33a5ad93ae668957cee067090"
     },
     {
       "os": "d12.x86_64",
@@ -1699,14 +1560,14 @@
       "sha256": "05ca98ae008ce92a8d50ca558e0c704f75ac2f9a027fba5146d0d333a78a9f6c"
     },
     {
-      "os": "d12.x86_64",
+      "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-16-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 41316,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "1dbb9f6f1daec429a997f89d9f356f016f07b34e571cef9e5ea9470f19e8e951"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-16-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "size": 51790,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "sha256": "07acf3a0396ba38d1a527c69d02907f14036abc9236ecff3eec096b90f97e079"
     },
     {
       "os": "u22.aarch64",
@@ -1719,14 +1580,14 @@
       "sha256": "4cf1cbbf03b040b3a9fcc666494fa22de58aca00c6e7734b1de079fa151b9682"
     },
     {
-      "os": "u22.aarch64",
+      "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-16-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "size": 51732,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "0552addaa72af244d3d9c7abd3f151033bc86023eecbee5557e39c267c013a57"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-16-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "size": 52596,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "sha256": "3ed5958960b3ca1ef2ebee6364745e11a5b011af6a26595b433afa494483ddc3"
     },
     {
       "os": "u22.x86_64",
@@ -1739,14 +1600,14 @@
       "sha256": "a2a71c22fa4ab50c6f200f2578efa193e1de3700fb14b8c680b3a36d0257e735"
     },
     {
-      "os": "u22.x86_64",
+      "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-16-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "size": 52528,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "cee6474e73439dd678fad86f227f7b832323c330352925a55c9eaf585de717bf"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-16-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "size": 42558,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "sha256": "81ce8ebb73fd3c24abe4da20542d3c9a5b52f36d931fe5c2dc3f0bafd6246acd"
     },
     {
       "os": "u24.aarch64",
@@ -1759,14 +1620,14 @@
       "sha256": "57d686605b9e3dae9a239ba498710217097c09391845eb894bfccc8d457c02e3"
     },
     {
-      "os": "u24.aarch64",
+      "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-16-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "size": 42500,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "3e27df96e681c0db350c04ba3612d552b136497d00e7a8eb589a5f0fe8e1f5cb"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-16-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "size": 43646,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "sha256": "14b385f0e3e1bc88f6e32b2b54c012c003dc06b7792777bcb55e5c88d7e8d194"
     },
     {
       "os": "u24.x86_64",
@@ -1779,14 +1640,14 @@
       "sha256": "1a8ba66ee7f67b941dfd0e39e56b1ac665394a87082fa8d0c28dc750e2a11f2b"
     },
     {
-      "os": "u24.x86_64",
-      "pg": 16,
-      "name": "postgresql-16-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-16-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "size": 43484,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-16-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "fca9d9751a80343cfefaa448907fffc08226c557a088e83baa5b113a929367dc"
+      "os": "d12.aarch64",
+      "pg": 17,
+      "name": "postgresql-17-pgsentinel",
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-17-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "size": 39764,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.2.0-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "25fbd076113c319d263b48256e6c577b81ad70d18e02956ce6bcf5b211f27aa6"
     },
     {
       "os": "d12.aarch64",
@@ -1799,14 +1660,14 @@
       "sha256": "21a3daf0f7bcb28ab7802a7c2c16dd87299e6098976b879e413f10f75e5ae036"
     },
     {
-      "os": "d12.aarch64",
+      "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-17-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "size": 39688,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.1.0-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "fc6217b28081e2077fa2f46460a59af108480cf6885696e28dfc9ce048b56ce6"
+      "ver": "1.2.0-1PIGSTY~bookworm",
+      "file": "postgresql-17-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "size": 41328,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.2.0-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "d2c81bc7544cefc240bfdd863f1e6560f6ae24934079e520a86f26a8c3edcc47"
     },
     {
       "os": "d12.x86_64",
@@ -1819,14 +1680,14 @@
       "sha256": "92303b9ea6c10d51355fa7480c22546d0064386f9b85f5c768ec4f445635107b"
     },
     {
-      "os": "d12.x86_64",
+      "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~bookworm",
-      "file": "postgresql-17-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "size": 41240,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.1.0-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "75c8349b85c1ff25143ac560a7bc6d0a039b32dea1bd1a3bf5dbcccb745b182f"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-17-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "size": 51996,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.2.0-1PIGSTY~jammy_arm64.deb",
+      "sha256": "4277f414a766ca32ab030a117b04d19942640e63a196c90b4cd1c3a33c1a4f5a"
     },
     {
       "os": "u22.aarch64",
@@ -1839,14 +1700,14 @@
       "sha256": "27a9a60a6c5c51131f896622e6c51a8f90c5a82bc54d7e6f8b94c19df3ea92e2"
     },
     {
-      "os": "u22.aarch64",
+      "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-17-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "size": 51950,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.1.0-1PIGSTY~jammy_arm64.deb",
-      "sha256": "1f9dc6c8b5b0cb81c494c1fab0846a919322fe31b2e876e71951e59f42647fb6"
+      "ver": "1.2.0-1PIGSTY~jammy",
+      "file": "postgresql-17-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "size": 52806,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.2.0-1PIGSTY~jammy_amd64.deb",
+      "sha256": "7eeee57da42f57c12c6210ca2bc52e1a0b804788b5d91dfae34c90e94c122e36"
     },
     {
       "os": "u22.x86_64",
@@ -1859,14 +1720,14 @@
       "sha256": "37b1ab790c15172b49166fd705ed6b01528f95fe3fcd1d34a37f919ea0887fe5"
     },
     {
-      "os": "u22.x86_64",
+      "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~jammy",
-      "file": "postgresql-17-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "size": 52758,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.1.0-1PIGSTY~jammy_amd64.deb",
-      "sha256": "35587aa559b8095f930e7f675367d90ed1f05264245c5e8d080a4388c4707861"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-17-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "size": 42598,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.2.0-1PIGSTY~noble_arm64.deb",
+      "sha256": "daa4a091a5b384bdc227c29d4b60be551de26005dfd0a9ddeda325f900c62b8a"
     },
     {
       "os": "u24.aarch64",
@@ -1879,14 +1740,14 @@
       "sha256": "7e7e2b29e2904cf65e8a35c7470d1728c7c6e907617ec1cc30facf25672b65a7"
     },
     {
-      "os": "u24.aarch64",
+      "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-17-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "size": 42534,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.1.0-1PIGSTY~noble_arm64.deb",
-      "sha256": "2e2ebc1d19b57403461edd10942bb959f5ff388834937f9ef78ee3a49265f39e"
+      "ver": "1.2.0-1PIGSTY~noble",
+      "file": "postgresql-17-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "size": 43674,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.2.0-1PIGSTY~noble_amd64.deb",
+      "sha256": "3ed4c79a34de45148581527f32b89ed55856b39671a274afae1a413badf9f535"
     },
     {
       "os": "u24.x86_64",
@@ -1897,16 +1758,6 @@
       "size": 45020,
       "url": "https://apt.postgresql.org/pub/repos/apt/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.2.0-1.pgdg24.04+1_amd64.deb",
       "sha256": "a779a66633091daa0add29d4b44ba3283d43eb59493a88f9aa7af78e975451f7"
-    },
-    {
-      "os": "u24.x86_64",
-      "pg": 17,
-      "name": "postgresql-17-pgsentinel",
-      "ver": "1.1.0-1PIGSTY~noble",
-      "file": "postgresql-17-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "size": 43602,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pgsentinel/postgresql-17-pgsentinel_1.1.0-1PIGSTY~noble_amd64.deb",
-      "sha256": "3a26672d08bfc702a517ea21644219f3d4ecd61b20dd7cc31e1ef98d8d80270a"
     }
   ]
 }

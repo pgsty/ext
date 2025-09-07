@@ -20,11 +20,11 @@ FEAT 分类包含 **56** 个 PostgreSQL 扩展。
 | 2800 | [`pg_jsonschema`](/zh/e/pg_jsonschema) | [`pg_jsonschema`](/zh/e/pg_jsonschema) | 0.3.3 | 提供JSON Schema校验能力 |
 | 2810 | [`jsquery`](/zh/e/jsquery) | [`jsquery`](/zh/e/jsquery) | 1.2 | 用于内省 JSONB 数据类型的查询类型 |
 | 2820 | [`pg_hint_plan`](/zh/e/pg_hint_plan) | [`pg_hint_plan`](/zh/e/pg_hint_plan) | 1.7.1 | 添加强制指定执行计划的能力 |
-| 2830 | [`hypopg`](/zh/e/hypopg) | [`hypopg`](/zh/e/hypopg) | 1.4.1 | 假设索引，用于创建一个虚拟索引检验执行计划 |
+| 2830 | [`hypopg`](/zh/e/hypopg) | [`hypopg`](/zh/e/hypopg) | 1.4.2 | 假设索引，用于创建一个虚拟索引检验执行计划 |
 | 2840 | [`index_advisor`](/zh/e/index_advisor) | [`index_advisor`](/zh/e/index_advisor) | 0.2.0 | 查询索引建议器 |
 | 2850 | [`plan_filter`](/zh/e/plan_filter) | [`pg_plan_filter`](/zh/e/plan_filter) | 0.0.1 | 使用执行计划代价过滤阻止特定查询语句 |
 | 2860 | [`imgsmlr`](/zh/e/imgsmlr) | [`imgsmlr`](/zh/e/imgsmlr) | 1.0 | 使用Haar小波分析计算图片相似度 |
-| 2870 | [`pg_ivm`](/zh/e/pg_ivm) | [`pg_ivm`](/zh/e/pg_ivm) | 1.11 | 增量维护的物化视图 |
+| 2870 | [`pg_ivm`](/zh/e/pg_ivm) | [`pg_ivm`](/zh/e/pg_ivm) | 1.12 | 增量维护的物化视图 |
 | 2880 | [`pg_incremental`](/zh/e/pg_incremental) | [`pg_incremental`](/zh/e/pg_incremental) | 1.2.0 | 增量处理流式事件 |
 | 2900 | [`pgmq`](/zh/e/pgmq) | [`pgmq`](/zh/e/pgmq) | 1.5.1 | 基于Postgres实现类似AWS SQS/RSMQ的消息队列 |
 | 2910 | [`pgq`](/zh/e/pgq) | [`pgq`](/zh/e/pgq) | 3.5.1 | 通用队列的PG实现 |
@@ -201,11 +201,11 @@ FEAT 分类包含 **56** 个 PostgreSQL 扩展。
         <div className="space-y-2">
             | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
-| el8 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| el9 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| d12 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u22 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u24 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| el8 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| el9 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| d12 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u22 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u24 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
         </div>
     </div>
 </Callout>
@@ -224,16 +224,16 @@ FEAT 分类包含 **56** 个 PostgreSQL 扩展。
         <div className="space-y-2">
             | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
-| el8 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| el9 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| d12 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u22 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u24 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| el8 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| el9 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| d12 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u22 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u24 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
         </div>
     </div>
 </Callout>
 
-<Callout title="hypopg - 1.4.1">
+<Callout title="hypopg - 1.4.2">
     <p>假设索引，用于创建一个虚拟索引检验执行计划</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/hypopg) | [官网](https://github.com/HypoPG/hypopg) | 属性 |
@@ -247,11 +247,11 @@ FEAT 分类包含 **56** 个 PostgreSQL 扩展。
         <div className="space-y-2">
             | OS/Arch | x86_64 | aarch64 |
 |:-----:|:---:|:---:|
-| el8 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| el9 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| d12 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u22 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u24 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| el8 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| el9 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| d12 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u22 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u24 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
         </div>
     </div>
 </Callout>
@@ -325,7 +325,7 @@ FEAT 分类包含 **56** 个 PostgreSQL 扩展。
     </div>
 </Callout>
 
-<Callout title="pg_ivm - 1.11">
+<Callout title="pg_ivm - 1.12">
     <p>增量维护的物化视图</p>
     <div className="grid grid-cols-2 gap-4"><div className="space-y-2">
             | [扩展](/zh/e/pg_ivm) | [官网](https://github.com/sraoss/pg_ivm) | 属性 |
@@ -410,9 +410,9 @@ FEAT 分类包含 **56** 个 PostgreSQL 扩展。
 |:-----:|:---:|:---:|
 | el8 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
 | el9 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| d12 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u22 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u24 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| d12 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u22 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u24 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
         </div>
     </div>
 </Callout>
@@ -481,7 +481,7 @@ FEAT 分类包含 **56** 个 PostgreSQL 扩展。
 | el9 | <Badge variant="red-subtle">18</Badge><Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="red-subtle">17</Badge><Badge variant="red-subtle">16</Badge><Badge variant="red-subtle">15</Badge><Badge variant="red-subtle">14</Badge> |
 | d12 | <Badge variant="red-subtle">18</Badge><Badge variant="red-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="red-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
 | u22 | <Badge variant="red-subtle">18</Badge><Badge variant="red-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="red-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
-| u24 | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="blue-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
+| u24 | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> | <Badge variant="red-subtle">18</Badge><Badge variant="blue-subtle">17</Badge><Badge variant="blue-subtle">16</Badge><Badge variant="blue-subtle">15</Badge><Badge variant="blue-subtle">14</Badge> |
         </div>
     </div>
 </Callout>

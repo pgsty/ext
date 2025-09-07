@@ -8,7 +8,7 @@
   "url": "https://github.com/sraoss/pg_ivm",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "1.11",
+  "version": "1.12",
   "repo": "MIXED",
   "lang": "C",
   "contrib": false,
@@ -23,6 +23,7 @@
     "pg_catalog"
   ],
   "pg_ver": [
+    "18",
     "17",
     "16",
     "15",
@@ -42,6 +43,7 @@
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_ivm_$v*",
   "rpm_pg": [
+    "18",
     "17",
     "16",
     "15",
@@ -49,178 +51,29 @@
     "13"
   ],
   "rpm_deps": [],
-  "deb_ver": "1.11",
+  "deb_ver": "1.12",
   "deb_repo": "PIGSTY",
   "deb_pkg": "postgresql-$v-pg-ivm",
   "deb_deps": [],
   "deb_pg": [
+    "18",
     "17",
     "16",
     "15",
     "14",
     "13"
   ],
-  "source": "pg_ivm-1.11.tar.gz",
+  "source": "pg_ivm-1.12.tar.gz",
   "extra": {},
   "en_desc": "incremental view maintenance on PostgreSQL",
   "zh_desc": "增量维护的物化视图",
-  "comment": "no pg12 on el8/9 pgdg repo",
+  "comment": null,
   "mtime": "2025-02-20",
   "siblings": [
     "pg_ivm"
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "postgresql-18-pg-ivm",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "postgresql-18-pg-ivm",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "pg_ivm_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "pg_ivm_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "pg_ivm_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "pg_ivm_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "postgresql-18-pg-ivm",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "postgresql-18-pg-ivm",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "postgresql-18-pg-ivm",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "pg_ivm",
-      "ext": "pg_ivm",
-      "pname": "postgresql-18-pg-ivm",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -232,7 +85,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -247,7 +100,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -322,7 +175,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -337,7 +190,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -352,7 +205,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -367,7 +220,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -382,7 +235,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -397,7 +250,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -472,7 +325,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -487,7 +340,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -502,7 +355,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -517,7 +370,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -532,7 +385,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -547,7 +400,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -622,7 +475,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -637,7 +490,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -652,7 +505,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -667,7 +520,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -682,7 +535,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -697,7 +550,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -772,7 +625,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -787,7 +640,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -802,7 +655,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -817,7 +670,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -832,7 +685,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -847,7 +700,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -922,7 +775,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -937,7 +790,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -952,7 +805,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     },
     {
@@ -967,7 +820,7 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pigsty",
-      "pkg_ver": "1.11",
+      "pkg_ver": "1.12",
       "count": 1
     }
   ],
@@ -2446,301 +2299,301 @@
       "os": "d12.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-13-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "size": 190008,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "c02275cfb96a420f92aeaef2e15d56ad87cbdae904651da405ee87ec7459b60f"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-13-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "size": 189804,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "5af275c6441b1f82338277eac12fa56e3c2b45524b1d7b9dc375569f1fcedad4"
     },
     {
       "os": "d12.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-13-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "size": 196776,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "6c6463fadad2f555990c008a70db8a3bbb2631d29238d0fae212014f65a9b9ef"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-13-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "size": 196756,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "3faa90c14442397253ffcc87d85496cfe3b75a258bf23710120e0f9c5dcbeba7"
     },
     {
       "os": "u22.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-13-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "size": 234326,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "sha256": "7cbcb714cde09b83bf26a9e77d4845f50a2f59a3c0ac83d9d369553d8300ae25"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-13-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "size": 234440,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "sha256": "e4b952d6c3564b910f804132b2c06e73251156c6f70ae9abf05bf78f2b556d71"
     },
     {
       "os": "u22.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-13-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "size": 239470,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "sha256": "d40e7316a0e34bbd9fe9f7f8339458ce46e91504ba4ca84e8664b52a50832a77"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-13-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "size": 239514,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "sha256": "d5cfebffa03eb30540bda4a598c94063ad16e8496b548772b10a0a13e0b687c9"
     },
     {
       "os": "u24.aarch64",
       "pg": 13,
       "name": "postgresql-13-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-13-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "size": 203228,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "sha256": "4af633acfc85c6f88281ae450183bcd55b5e67929daf2a7363bac8d4cf98944f"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-13-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "size": 203190,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "sha256": "94ea3d826ddfcc1bfb049259b341a258ce8bbd0b8dce22f4f49c728c10e49381"
     },
     {
       "os": "u24.x86_64",
       "pg": 13,
       "name": "postgresql-13-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-13-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "size": 205464,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "sha256": "f554957abcbee996f38ee1d55cf893b45f207a3709962ac91eedcf4100072842"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-13-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "size": 205506,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-13-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "sha256": "752fb57ff04fde2306390de6485ba62927fac162383679fa4f6741834fd0f5cf"
     },
     {
       "os": "d12.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-14-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "size": 191048,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "5d352aa78feb68b6f031f0e3c876545be6411bd2234d66b5c4d63e978c008ae7"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-14-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "size": 191136,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "386ec48dde174817419671bf1f888725009ec6c15e0ce0c2394ea0d5972ec67a"
     },
     {
       "os": "d12.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-14-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "size": 198028,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "88f67485d0b9a6f9cbfcc370cd21399bebf9499dbbeb1ae40061c266e13a8b89"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-14-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "size": 197880,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "bdf9e402bc1dc4a95b8268ab8645cf7292b62d994a413f38a6202a599c6c1305"
     },
     {
       "os": "u22.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-14-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "size": 236574,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "sha256": "948be8ce5735e1dbd0b81d248150d928d233b9336839aae35d30816ba80dc41a"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-14-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "size": 236634,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "sha256": "0a014eb3b21613113f196c48f51f948e6813a80e2dc6d434abe20658bb728f75"
     },
     {
       "os": "u22.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-14-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "size": 241042,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "sha256": "16fd3bd030250d3c9b62b6fac7df85ea33cc98b91c63ce93cf8d7045f11f6ea2"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-14-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "size": 241090,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "sha256": "5455d51ca300fca539905299f41a0b6abb440f8a685e789fc2997a6ba0b9b1ca"
     },
     {
       "os": "u24.aarch64",
       "pg": 14,
       "name": "postgresql-14-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-14-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "size": 204618,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "sha256": "3f3a96cd9ff20763f1d380415c057b685d66c506a25c87a2ac614cad908db128"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-14-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "size": 203706,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "sha256": "7d711a762a2f814af2e58400c55818b62f85c19aa00f54b227b33e2ebc50cd64"
     },
     {
       "os": "u24.x86_64",
       "pg": 14,
       "name": "postgresql-14-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-14-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "size": 207076,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "sha256": "a67ee9810344287f208f10fb784207b37373bac24e57d19baea8ab78d3cbfc44"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-14-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "size": 206990,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-14-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "sha256": "f6b25f4f7a8ccf4c826a2f8bccc3ee30c56b40b7f5399a2730f5d4b4875e5a1e"
     },
     {
       "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "size": 101660,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "37b0753e2e327a152cffdd3ae31d2951cf7dfc6155e6440d53360ccf0b0ae461"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-15-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "size": 101676,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "5c68c9251e9cbac8c2b7861f40edecafa2ff2c64f633a3e12a3a99e7337a3ff3"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "size": 104776,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "8a66aaa63ff35924e52fb5c38bd9393dee7bd800e8ca928532ad6d443e98a04f"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-15-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "size": 105160,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "ca5181fdd4731f39c4528aa1d742d44be1f0eed3ffb45e50702d9dcef8d346c9"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "size": 131688,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "sha256": "59e768a3436e1e302199580093bfa2dc3a016cc087912d2502c057430a492b83"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-15-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "size": 131690,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "sha256": "510b36cf35bbf17d2ba0c7a7c3611ce3a0855973bfb5b0a1d72b8e2bcdd64f33"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "size": 134106,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "sha256": "e72745e02495e3dbc0d709d6678297309f6616c320d606420548d1fe72d15cdd"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-15-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "size": 134084,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "sha256": "18f79726a06204a1dda07a8dc272372a458ca3323ab625695befa5bdf434b34f"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-15-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "size": 108450,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "sha256": "826ea745729d15675b028a5dd0d263d62dde5266c0bb4c8bcc9a8f734b2739e6"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-15-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "size": 108452,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "sha256": "6eca64fd13bc7eef4d9ee9a6100444d57587b460027a8ce7e21e1d5539589e8f"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-15-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "size": 109938,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "sha256": "5cdfe1d09728fc1264a9987cfb5cc487afa8416ad65d8807b0c2830a72bd1338"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-15-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "size": 109932,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-15-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "sha256": "c5716fa65b4d2a826f0aa505bbcfca94847a57677194465110db0b5e5833792a"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "size": 101340,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "2431bafbe64bfb71a612aef0695e6ffcbda488f17195e1418201ea51629258d6"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-16-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "size": 101388,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "00a7cbcf0c6eeec34f6030e55e908795789fdeb073590527d6b12411ea87732d"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "size": 104388,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "66f6ea488e8ae5e660014ae5ce2e806e80f82bccc8fad76b88d4526ef6b54111"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-16-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "size": 104508,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "60e196a8bf3cd3bff565509da318cef67263601efaffc7343673f8aba01961b5"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "size": 131174,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "sha256": "e60a802042cef208ebdd9518ebadc030357fa2c5d3b99d8338f9d3681692f052"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-16-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "size": 131176,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "sha256": "ea1f59e54b02935892a706779e1a992ef98be209308b8b020f2c5ced354b89e5"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "size": 133066,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "sha256": "5d432a86c3ee72c9d533a3a2c1730c5860b78a7868ea6f988827987a1b7aeae0"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-16-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "size": 133076,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "sha256": "51d6ab8c8b41742afbebe9ed757aa4cbcdd1ea9d6511a97da81a9959ce4e87a4"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-16-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "size": 107658,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "sha256": "e5aeac5a61603dfa80e768d1edcb1a14678495abe8400782a3a7983e38647a3f"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-16-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "size": 107688,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "sha256": "344a6e6b76399b83595787373f2e10588096c22150e3998f320d68f17f496470"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-16-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "size": 109246,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "sha256": "2c1b25e18378aa53672862a0b44e203f8b8e783694b28e743ca797d0f50229e9"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-16-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "size": 109304,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-16-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "sha256": "0a623332643b1ff761ba41ec16376de361ee715d8196e3b14090cb4d759117f1"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "size": 101240,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.11-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "93a99f92f835b8d3e4f7ea8d0c7499ee3e95402c76c1b556748e1e76d8d37677"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-17-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "size": 101320,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.12-1PIGSTY~bookworm_arm64.deb",
+      "sha256": "23308fa85fe1e1cebe95926fc8ee65ad9c67ec747ec75b3d5bd64499cf7567c2"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-ivm",
-      "ver": "1.11-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "size": 104476,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.11-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "0b2f77b5e9a74a5df898c4bbe0cc01b3774518479685a667ff90ae418c82d65d"
+      "ver": "1.12-1PIGSTY~bookworm",
+      "file": "postgresql-17-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "size": 104484,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.12-1PIGSTY~bookworm_amd64.deb",
+      "sha256": "3e9e5a69e5d2f99ab9647a32fb183ff3a9abd837281e0a3a05344ca526676d85"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "size": 132922,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.11-1PIGSTY~jammy_arm64.deb",
-      "sha256": "cb02b7b180cd22d577d1abc3793d918907950404c91b8b0efbca81c447588f21"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-17-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "size": 132846,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.12-1PIGSTY~jammy_arm64.deb",
+      "sha256": "2fae4301c2bda2e1a1894a37bc1ae64a698b37a3509d90075a1b8565a0bfe803"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-ivm",
-      "ver": "1.11-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "size": 134924,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.11-1PIGSTY~jammy_amd64.deb",
-      "sha256": "65faecede4abf91500c916d46d99e3ec584de7a0016234f287edba0076093cbf"
+      "ver": "1.12-1PIGSTY~jammy",
+      "file": "postgresql-17-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "size": 134962,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.12-1PIGSTY~jammy_amd64.deb",
+      "sha256": "be63bddefbc3d32b275c1b05f6197f7fa002438934b8668b9440b74ced9630c0"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-17-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "size": 107542,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.11-1PIGSTY~noble_arm64.deb",
-      "sha256": "2f9ca4c9453790032a12abcb6b64e699e631891e47e119235cce103650e4adfe"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-17-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "size": 107604,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.12-1PIGSTY~noble_arm64.deb",
+      "sha256": "c2d793910efbb0a3a0c0229c62af036863d077c74248e72b90faaf1cab4da2ef"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-ivm",
-      "ver": "1.11-1PIGSTY~noble",
-      "file": "postgresql-17-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "size": 109218,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.11-1PIGSTY~noble_amd64.deb",
-      "sha256": "803e6006f38b63f6b024d6f680b79cd278689c52459f1ae0fe359fdee94c5dce"
+      "ver": "1.12-1PIGSTY~noble",
+      "file": "postgresql-17-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "size": 109270,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-ivm/postgresql-17-pg-ivm_1.12-1PIGSTY~noble_amd64.deb",
+      "sha256": "9dfa7f241e413b6835c7458c40cd10d6dce51094c067b74798bf999f4f38f822"
     }
   ]
 }

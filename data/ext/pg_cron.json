@@ -8,7 +8,7 @@
   "url": "https://github.com/citusdata/pg_cron",
   "license": "PostgreSQL",
   "tags": [],
-  "version": "1.6.5",
+  "version": "1.6.7",
   "repo": "PGDG",
   "lang": "C",
   "contrib": false,
@@ -48,7 +48,7 @@
     "pg_task",
     "timescaledb"
   ],
-  "rpm_ver": "1.6.5",
+  "rpm_ver": "1.6.7",
   "rpm_repo": "PGDG",
   "rpm_pkg": "pg_cron_$v*",
   "rpm_pg": [
@@ -81,156 +81,6 @@
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-18-cron",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-18-cron",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-18-cron",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-18-cron",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-18-cron",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-18-cron",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -272,8 +122,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 2
+      "pkg_ver": "1.6.7",
+      "count": 3
     },
     {
       "pg": 17,
@@ -287,8 +137,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 2
+      "pkg_ver": "1.6.7",
+      "count": 3
     },
     {
       "pg": 17,
@@ -302,8 +152,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 2
+      "pkg_ver": "1.6.7",
+      "count": 3
     },
     {
       "pg": 17,
@@ -317,8 +167,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 2
+      "pkg_ver": "1.6.7",
+      "count": 3
     },
     {
       "pg": 17,
@@ -422,8 +272,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 6
+      "pkg_ver": "1.6.7",
+      "count": 7
     },
     {
       "pg": 16,
@@ -437,8 +287,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 6
+      "pkg_ver": "1.6.7",
+      "count": 7
     },
     {
       "pg": 16,
@@ -452,8 +302,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 6
+      "pkg_ver": "1.6.7",
+      "count": 7
     },
     {
       "pg": 16,
@@ -467,8 +317,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 6
+      "pkg_ver": "1.6.7",
+      "count": 7
     },
     {
       "pg": 16,
@@ -572,8 +422,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
+      "pkg_ver": "1.6.7",
+      "count": 10
     },
     {
       "pg": 15,
@@ -587,8 +437,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
+      "pkg_ver": "1.6.7",
+      "count": 10
     },
     {
       "pg": 15,
@@ -602,8 +452,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
+      "pkg_ver": "1.6.7",
+      "count": 10
     },
     {
       "pg": 15,
@@ -617,8 +467,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
+      "pkg_ver": "1.6.7",
+      "count": 10
     },
     {
       "pg": 15,
@@ -722,8 +572,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
+      "pkg_ver": "1.6.7",
+      "count": 10
     },
     {
       "pg": 14,
@@ -737,160 +587,160 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 11
-    },
-    {
-      "pg": 14,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_14",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
-    },
-    {
-      "pg": 14,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_14",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
-    },
-    {
-      "pg": 14,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-14-cron",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 1
-    },
-    {
-      "pg": 14,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-14-cron",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 1
-    },
-    {
-      "pg": 14,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-14-cron",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 1
-    },
-    {
-      "pg": 14,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-14-cron",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 1
-    },
-    {
-      "pg": 13,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-13-cron",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 1
-    },
-    {
-      "pg": 13,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "postgresql-13-cron",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 1
-    },
-    {
-      "pg": 13,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_13",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
-    },
-    {
-      "pg": 13,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pg_cron",
-      "ext": "pg_cron",
-      "pname": "pg_cron_13",
-      "miss": false,
-      "hide": false,
-      "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
+      "pkg_ver": "1.6.7",
       "count": 12
     },
     {
+      "pg": 14,
+      "os": "el9.aarch64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "aarch64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "pg_cron_14",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.7",
+      "count": 10
+    },
+    {
+      "pg": 14,
+      "os": "el9.x86_64",
+      "type": "rpm",
+      "os_code": "el9",
+      "os_arch": "x86_64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "pg_cron_14",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.7",
+      "count": 10
+    },
+    {
+      "pg": 14,
+      "os": "u22.aarch64",
+      "type": "deb",
+      "os_code": "u22",
+      "os_arch": "aarch64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "postgresql-14-cron",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.5",
+      "count": 1
+    },
+    {
+      "pg": 14,
+      "os": "u22.x86_64",
+      "type": "deb",
+      "os_code": "u22",
+      "os_arch": "x86_64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "postgresql-14-cron",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.5",
+      "count": 1
+    },
+    {
+      "pg": 14,
+      "os": "u24.aarch64",
+      "type": "deb",
+      "os_code": "u24",
+      "os_arch": "aarch64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "postgresql-14-cron",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.5",
+      "count": 1
+    },
+    {
+      "pg": 14,
+      "os": "u24.x86_64",
+      "type": "deb",
+      "os_code": "u24",
+      "os_arch": "x86_64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "postgresql-14-cron",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.5",
+      "count": 1
+    },
+    {
+      "pg": 13,
+      "os": "d12.aarch64",
+      "type": "deb",
+      "os_code": "d12",
+      "os_arch": "aarch64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "postgresql-13-cron",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.5",
+      "count": 1
+    },
+    {
+      "pg": 13,
+      "os": "d12.x86_64",
+      "type": "deb",
+      "os_code": "d12",
+      "os_arch": "x86_64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "postgresql-13-cron",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.5",
+      "count": 1
+    },
+    {
+      "pg": 13,
+      "os": "el8.aarch64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "aarch64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "pg_cron_13",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.7",
+      "count": 10
+    },
+    {
+      "pg": 13,
+      "os": "el8.x86_64",
+      "type": "rpm",
+      "os_code": "el8",
+      "os_arch": "x86_64",
+      "pkg": "pg_cron",
+      "ext": "pg_cron",
+      "pname": "pg_cron_13",
+      "miss": false,
+      "hide": false,
+      "pkg_repo": "pgdg",
+      "pkg_ver": "1.6.7",
+      "count": 13
+    },
+    {
       "pg": 13,
       "os": "el9.aarch64",
       "type": "rpm",
@@ -902,8 +752,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
+      "pkg_ver": "1.6.7",
+      "count": 10
     },
     {
       "pg": 13,
@@ -917,8 +767,8 @@
       "miss": false,
       "hide": false,
       "pkg_repo": "pgdg",
-      "pkg_ver": "1.6.5",
-      "count": 9
+      "pkg_ver": "1.6.7",
+      "count": 10
     },
     {
       "pg": 13,
@@ -982,6 +832,16 @@
     }
   ],
   "package": [
+    {
+      "os": "el8.aarch64",
+      "pg": 13,
+      "name": "pg_cron_13",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_13-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 45468,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_cron_13-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "c33f00f4f18e345898cd916366d2fa4f319c11ada859121d7ec5188a3db2ecf5"
+    },
     {
       "os": "el8.aarch64",
       "pg": 13,
@@ -1071,6 +931,16 @@
       "size": 108580,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-aarch64/pg_cron_13-1.4.2-1.rhel8.aarch64.rpm",
       "sha256": "3737a8a3ec2889ee89e3237bac3ccce8a050a283d524e57b448bc3c00e906348"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 13,
+      "name": "pg_cron_13",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_13-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 46776,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-8-x86_64/pg_cron_13-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "d32233e5beb51eb9a9ca54377316ea457a7448c24640cdb3c48114063077445f"
     },
     {
       "os": "el8.x86_64",
@@ -1196,6 +1066,16 @@
       "os": "el9.aarch64",
       "pg": 13,
       "name": "pg_cron_13",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_13-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 45645,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_cron_13-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "48a2489ab3940cbc0e5e24a290c1c9efc20c23ac3ac62983f0bc3d0e1916ef04"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 13,
+      "name": "pg_cron_13",
       "ver": "1.6.5-1PGDG.rhel9",
       "file": "pg_cron_13-1.6.5-1PGDG.rhel9.aarch64.rpm",
       "size": 45931,
@@ -1281,6 +1161,16 @@
       "size": 111703,
       "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-aarch64/pg_cron_13-1.4.2-1.rhel9.aarch64.rpm",
       "sha256": "658d2084bc14053530e30e4470b3d01c4db421f80a5597eedb3b1dd6eb40102e"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 13,
+      "name": "pg_cron_13",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_13-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 46808,
+      "url": "https://download.postgresql.org/pub/repos/yum/13/redhat/rhel-9-x86_64/pg_cron_13-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "90df11ca4651b3024bb57dea8c6831de56703defa496699753a19f8dcec00316"
     },
     {
       "os": "el9.x86_64",
@@ -1376,6 +1266,16 @@
       "os": "el8.aarch64",
       "pg": 14,
       "name": "pg_cron_14",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_14-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 45492,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_cron_14-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "31c9194280f9f83ac1058c1ea2f4a2466ad112e5d783a7a039f9942339681c2d"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pg_cron_14",
       "ver": "1.6.5-1PGDG.rhel8",
       "file": "pg_cron_14-1.6.5-1PGDG.rhel8.aarch64.rpm",
       "size": 45012,
@@ -1461,6 +1361,16 @@
       "size": 109256,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-aarch64/pg_cron_14-1.4.2-1.rhel8.aarch64.rpm",
       "sha256": "c2841954fc015786eb000c23372cebff9bf52b5d314e5c1048aff8870d36b8fa"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pg_cron_14",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_14-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 47120,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-8-x86_64/pg_cron_14-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "df7c4683fb3ae1d733810dbcf81f72e471d0d5c66ef3f67bfcf020f4f6576041"
     },
     {
       "os": "el8.x86_64",
@@ -1576,6 +1486,16 @@
       "os": "el9.aarch64",
       "pg": 14,
       "name": "pg_cron_14",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_14-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 45717,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_cron_14-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "397b68416f34f908d6202f7091318ddfff0ca1b4cbfd553bd3e04bdc4e8cea48"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pg_cron_14",
       "ver": "1.6.5-1PGDG.rhel9",
       "file": "pg_cron_14-1.6.5-1PGDG.rhel9.aarch64.rpm",
       "size": 45939,
@@ -1661,6 +1581,16 @@
       "size": 112359,
       "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-aarch64/pg_cron_14-1.4.2-1.rhel9.aarch64.rpm",
       "sha256": "e90e208d40bc9e33cfa6804fc47d81e12d5242138e1cc64e94147bb77946ea9f"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pg_cron_14",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_14-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 46782,
+      "url": "https://download.postgresql.org/pub/repos/yum/14/redhat/rhel-9-x86_64/pg_cron_14-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "729a8f77954deee171703bd55f88c75f1ed661c0f5de805fc8e933a53d10833e"
     },
     {
       "os": "el9.x86_64",
@@ -1756,6 +1686,16 @@
       "os": "el8.aarch64",
       "pg": 15,
       "name": "pg_cron_15",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_15-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 45540,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_cron_15-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "05941b787aa3ed0380c0e929f0014bd2aae2e123e1750685d9d637d605c26a59"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pg_cron_15",
       "ver": "1.6.5-1PGDG.rhel8",
       "file": "pg_cron_15-1.6.5-1PGDG.rhel8.aarch64.rpm",
       "size": 45052,
@@ -1841,6 +1781,16 @@
       "size": 109460,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-aarch64/pg_cron_15-1.4.2-1.rhel8.aarch64.rpm",
       "sha256": "607e1c032c237cb8925a93e470c2bb57d0d0cff7ea86e233df1403756412bd83"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pg_cron_15",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_15-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 47036,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-8-x86_64/pg_cron_15-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "d7be7614b12535b60a0eb9413a85d74ffe64af7463168cb8edd7fab3f08acba5"
     },
     {
       "os": "el8.x86_64",
@@ -1936,6 +1886,16 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pg_cron_15",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_15-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 45719,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_cron_15-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "40f75683a561684605c9146a9d44e831b3bba51e68cdb8f95de83493bac70b75"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pg_cron_15",
       "ver": "1.6.5-1PGDG.rhel9",
       "file": "pg_cron_15-1.6.5-1PGDG.rhel9.aarch64.rpm",
       "size": 45952,
@@ -2021,6 +1981,16 @@
       "size": 112560,
       "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-aarch64/pg_cron_15-1.4.2-1.rhel9.aarch64.rpm",
       "sha256": "b6744502ff1bdcbf9af6811ec5cac9261cba4829eb88dbbbb1bf020d0c43ffce"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pg_cron_15",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_15-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 46690,
+      "url": "https://download.postgresql.org/pub/repos/yum/15/redhat/rhel-9-x86_64/pg_cron_15-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "9e6065ca1efee60238f1e1b1dc29aebc4a4314bc5f7685f00ed125057ad703ff"
     },
     {
       "os": "el9.x86_64",
@@ -2116,6 +2086,16 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pg_cron_16",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_16-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 45224,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_cron_16-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "2c29dbb76a3b331d42e2572e8041d4eb9c4dcc104a55cd05abeb80a78cc16593"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pg_cron_16",
       "ver": "1.6.5-1PGDG.rhel8",
       "file": "pg_cron_16-1.6.5-1PGDG.rhel8.aarch64.rpm",
       "size": 44644,
@@ -2171,6 +2151,16 @@
       "size": 42796,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-aarch64/pg_cron_16-1.6.0-1PGDG.rhel8.aarch64.rpm",
       "sha256": "7f1521f85a8f190b84a186548af4633a0237b5e1aa65cb7aace2f4ca288690be"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pg_cron_16",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_16-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 46908,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-8-x86_64/pg_cron_16-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "b2c2817ebadc825c43a989d46fcac17d5c96fadc97a92ca2735310ea5959b2b3"
     },
     {
       "os": "el8.x86_64",
@@ -2236,6 +2226,16 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pg_cron_16",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_16-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 44706,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_cron_16-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "e6e4f86f4f24feb4096a364cd1ced775366d6f2fad85d2cbc26fa93dbb9d71db"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pg_cron_16",
       "ver": "1.6.5-1PGDG.rhel9",
       "file": "pg_cron_16-1.6.5-1PGDG.rhel9.aarch64.rpm",
       "size": 44664,
@@ -2291,6 +2291,16 @@
       "size": 42804,
       "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-aarch64/pg_cron_16-1.6.0-1PGDG.rhel9.aarch64.rpm",
       "sha256": "ff46990770a3b655061a701247f97d9571e28c9595ab121ec441634372399e46"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pg_cron_16",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_16-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 46231,
+      "url": "https://download.postgresql.org/pub/repos/yum/16/redhat/rhel-9-x86_64/pg_cron_16-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "7bcea2213960ec26ae08570e723df1bcf750ae9d779889262f8f21ebf93e9c83"
     },
     {
       "os": "el9.x86_64",
@@ -2356,6 +2366,16 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pg_cron_17",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_17-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "size": 45256,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_cron_17-1.6.7-1PGDG.rhel8.aarch64.rpm",
+      "sha256": "168d6ba6643b2df7928a97e6be56b4e21c6d0e763031dd4bf824be2035c3c7ab"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pg_cron_17",
       "ver": "1.6.5-1PGDG.rhel8",
       "file": "pg_cron_17-1.6.5-1PGDG.rhel8.aarch64.rpm",
       "size": 44664,
@@ -2371,6 +2391,16 @@
       "size": 43912,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-aarch64/pg_cron_17-1.6.4-1PGDG.rhel8.aarch64.rpm",
       "sha256": "3a667bfbf1eaed1d11119e6d09724bca1a0b1c93eace3846eb1ffed3c5433694"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pg_cron_17",
+      "ver": "1.6.7-1PGDG.rhel8",
+      "file": "pg_cron_17-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "size": 46920,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-8-x86_64/pg_cron_17-1.6.7-1PGDG.rhel8.x86_64.rpm",
+      "sha256": "0ac4ba17049623fe5462949a6a3b9355a585a200ebfb484035b0d95ca0b15cd7"
     },
     {
       "os": "el8.x86_64",
@@ -2396,6 +2426,16 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pg_cron_17",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_17-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "size": 44697,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_cron_17-1.6.7-1PGDG.rhel9.aarch64.rpm",
+      "sha256": "f423da96e59658e8e7e8ae2e7d530bbd82abf4ae43e224afc9db0ebfe326b09b"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pg_cron_17",
       "ver": "1.6.5-1PGDG.rhel9",
       "file": "pg_cron_17-1.6.5-1PGDG.rhel9.aarch64.rpm",
       "size": 44643,
@@ -2411,6 +2451,16 @@
       "size": 44013,
       "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-aarch64/pg_cron_17-1.6.4-1PGDG.rhel9.aarch64.rpm",
       "sha256": "3c77afbe9723c9d9c52e8e7e9f5ef20f956667ab7fc2947c7ed7ab82881b600c"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pg_cron_17",
+      "ver": "1.6.7-1PGDG.rhel9",
+      "file": "pg_cron_17-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "size": 46250,
+      "url": "https://download.postgresql.org/pub/repos/yum/17/redhat/rhel-9-x86_64/pg_cron_17-1.6.7-1PGDG.rhel9.x86_64.rpm",
+      "sha256": "b6521d989d86f382503586ee54c2dbf04875c1f710b54c586385c94fee28df1c"
     },
     {
       "os": "el9.x86_64",

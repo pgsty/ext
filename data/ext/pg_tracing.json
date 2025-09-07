@@ -23,7 +23,8 @@
   "pg_ver": [
     "17",
     "16",
-    "15"
+    "15",
+    "14"
   ],
   "requires": [],
   "require_by": [],
@@ -38,7 +39,8 @@
   "rpm_pg": [
     "17",
     "16",
-    "15"
+    "15",
+    "14"
   ],
   "rpm_deps": [],
   "deb_ver": "0.1.3",
@@ -48,7 +50,8 @@
   "deb_pg": [
     "17",
     "16",
-    "15"
+    "15",
+    "14"
   ],
   "source": "pg_tracing-0.1.3.tar.gz",
   "extra": {},
@@ -61,156 +64,6 @@
   ],
   "matrix": [
     {
-      "pg": 18,
-      "os": "d12.aarch64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "aarch64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "postgresql-18-pg-tracing",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "d12.x86_64",
-      "type": "deb",
-      "os_code": "d12",
-      "os_arch": "x86_64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "postgresql-18-pg-tracing",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.aarch64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "aarch64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "pg_tracing_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el8.x86_64",
-      "type": "rpm",
-      "os_code": "el8",
-      "os_arch": "x86_64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "pg_tracing_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.aarch64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "aarch64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "pg_tracing_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "el9.x86_64",
-      "type": "rpm",
-      "os_code": "el9",
-      "os_arch": "x86_64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "pg_tracing_18",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.aarch64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "aarch64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "postgresql-18-pg-tracing",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u22.x86_64",
-      "type": "deb",
-      "os_code": "u22",
-      "os_arch": "x86_64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "postgresql-18-pg-tracing",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.aarch64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "aarch64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "postgresql-18-pg-tracing",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
-      "pg": 18,
-      "os": "u24.x86_64",
-      "type": "deb",
-      "os_code": "u24",
-      "os_arch": "x86_64",
-      "pkg": "pg_tracing",
-      "ext": "pg_tracing",
-      "pname": "postgresql-18-pg-tracing",
-      "miss": true,
-      "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
-    },
-    {
       "pg": 17,
       "os": "d12.aarch64",
       "type": "deb",
@@ -253,7 +106,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -268,7 +121,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -283,7 +136,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -298,7 +151,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 17,
@@ -403,7 +256,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -418,7 +271,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -433,7 +286,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -448,7 +301,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 16,
@@ -553,7 +406,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -568,7 +421,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -583,7 +436,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -598,7 +451,7 @@
       "hide": false,
       "pkg_repo": "pigsty",
       "pkg_ver": "0.1.3",
-      "count": 1
+      "count": 2
     },
     {
       "pg": 15,
@@ -669,11 +522,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "postgresql-14-pg-tracing",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -684,11 +537,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "postgresql-14-pg-tracing",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -699,11 +552,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "pg_tracing_14",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -714,11 +567,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "pg_tracing_14",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -729,11 +582,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "pg_tracing_14",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -744,11 +597,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "pg_tracing_14",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -759,11 +612,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "postgresql-14-pg-tracing",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -774,11 +627,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "postgresql-14-pg-tracing",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -789,11 +642,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "postgresql-14-pg-tracing",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 14,
@@ -804,11 +657,11 @@
       "pkg": "pg_tracing",
       "ext": "pg_tracing",
       "pname": "postgresql-14-pg-tracing",
-      "miss": true,
+      "miss": false,
       "hide": false,
-      "pkg_repo": null,
-      "pkg_ver": null,
-      "count": 0
+      "pkg_repo": "pigsty",
+      "pkg_ver": "0.1.3",
+      "count": 1
     },
     {
       "pg": 13,
@@ -964,6 +817,56 @@
   "package": [
     {
       "os": "el8.aarch64",
+      "pg": 14,
+      "name": "pg_tracing_14",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_14-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "size": 43880,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tracing_14-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "sha256": "f9eaa3b8ad4d90f1180d915acded3b2d043d05605fe345433d46d3ac99aa075e"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 14,
+      "name": "pg_tracing_14",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_14-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "size": 45392,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_tracing_14-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "sha256": "5fb97ca817943e6be85f02b41c4fbbc3aa716f33f2bcbf80704462133a5375c3"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 14,
+      "name": "pg_tracing_14",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_14-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "size": 45550,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tracing_14-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "sha256": "87c432b62e6d140837434551415d6e182d056bfa0da48f1093a7418ced9c29f2"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 14,
+      "name": "pg_tracing_14",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_14-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "size": 46289,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_tracing_14-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "sha256": "11683849752f97e6a301c786b69d5dd32b013ff16877b5fb7fbd9bc65a25c2d8"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 15,
+      "name": "pg_tracing_15",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_15-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "size": 43164,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tracing_15-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "sha256": "cd6020e3fb0967bd3cdd548252c4dd5f9d3aab4eaa1122e2609fac8075c364a4"
+    },
+    {
+      "os": "el8.aarch64",
       "pg": 15,
       "name": "pg_tracing_15",
       "ver": "0.1.3-1PIGSTY.el8",
@@ -971,6 +874,16 @@
       "size": 43036,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tracing_15-0.1.3-1PIGSTY.el8.aarch64.rpm",
       "sha256": "047917e23c54063efb38b65e20165c34cb7ea12428631e285aa75f18904f6f07"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 15,
+      "name": "pg_tracing_15",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_15-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "size": 45176,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_tracing_15-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "sha256": "d956dab0d2b943ea7265ad7a3e45d844fc126f1c30111dee91a231a62c78d4b7"
     },
     {
       "os": "el8.x86_64",
@@ -986,11 +899,31 @@
       "os": "el9.aarch64",
       "pg": 15,
       "name": "pg_tracing_15",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_15-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "size": 45044,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tracing_15-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "sha256": "33ed2ea79c71be2d633aed4c22dccfdbc0290f8bc104799aaf4765b9d4e721d6"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 15,
+      "name": "pg_tracing_15",
       "ver": "0.1.3-1PIGSTY.el9",
       "file": "pg_tracing_15-0.1.3-1PIGSTY.el9.aarch64.rpm",
       "size": 45064,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tracing_15-0.1.3-1PIGSTY.el9.aarch64.rpm",
       "sha256": "cd949508a5457438ea89cdd9012380315ca1437813ba17d12829cf9605eaf5f2"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 15,
+      "name": "pg_tracing_15",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_15-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "size": 46020,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_tracing_15-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "sha256": "c23e04654fa5404afd1fa757834f679dc8a8bbcba50b9d389ee0ddb0f8f32c7c"
     },
     {
       "os": "el9.x86_64",
@@ -1006,11 +939,31 @@
       "os": "el8.aarch64",
       "pg": 16,
       "name": "pg_tracing_16",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_16-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "size": 41760,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tracing_16-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "sha256": "26a081b4b25a4599abee01e894329c5d03ee57fe3731a33d32ef5c3e9d7cfb87"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 16,
+      "name": "pg_tracing_16",
       "ver": "0.1.3-1PIGSTY.el8",
       "file": "pg_tracing_16-0.1.3-1PIGSTY.el8.aarch64.rpm",
       "size": 41620,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tracing_16-0.1.3-1PIGSTY.el8.aarch64.rpm",
       "sha256": "a4d0c5071803fa9f2f91aaebb6c14ecd9a821a504bb4b5bf121ac45ed6797f1c"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 16,
+      "name": "pg_tracing_16",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_16-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "size": 43644,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_tracing_16-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "sha256": "689ad37cdf6101638ab46c409be6363e0ada9ecbba81580f8b015dc8dbb15d53"
     },
     {
       "os": "el8.x86_64",
@@ -1026,11 +979,31 @@
       "os": "el9.aarch64",
       "pg": 16,
       "name": "pg_tracing_16",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_16-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "size": 42787,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tracing_16-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "sha256": "24deee99c54039de58b4176121e83e14cd218bbe5371f001e59d9916e3e9b143"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 16,
+      "name": "pg_tracing_16",
       "ver": "0.1.3-1PIGSTY.el9",
       "file": "pg_tracing_16-0.1.3-1PIGSTY.el9.aarch64.rpm",
       "size": 42807,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tracing_16-0.1.3-1PIGSTY.el9.aarch64.rpm",
       "sha256": "1cade12824d87e27c4d3011197822c19856f15106ce9d0f54601052a0d4558c5"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 16,
+      "name": "pg_tracing_16",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_16-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "size": 43594,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_tracing_16-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "sha256": "29a1598969fc36003d9af081c4aaf7ebf7ae4a9f5021c81014433372c7f3c405"
     },
     {
       "os": "el9.x86_64",
@@ -1046,11 +1019,31 @@
       "os": "el8.aarch64",
       "pg": 17,
       "name": "pg_tracing_17",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_17-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "size": 41772,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tracing_17-0.1.3-2PIGSTY.el8.aarch64.rpm",
+      "sha256": "9bd799ab8ae3fffd004361da9c036c150b66cb58be0a9812ee30afea997d8e5f"
+    },
+    {
+      "os": "el8.aarch64",
+      "pg": 17,
+      "name": "pg_tracing_17",
       "ver": "0.1.3-1PIGSTY.el8",
       "file": "pg_tracing_17-0.1.3-1PIGSTY.el8.aarch64.rpm",
       "size": 41644,
       "url": "https://repo.pigsty.io/yum/pgsql/el8.aarch64/pg_tracing_17-0.1.3-1PIGSTY.el8.aarch64.rpm",
       "sha256": "18c4477241cd64c4ffee5bb90b247650ca235c995c93b7c5ee3d20607a08a97b"
+    },
+    {
+      "os": "el8.x86_64",
+      "pg": 17,
+      "name": "pg_tracing_17",
+      "ver": "0.1.3-2PIGSTY.el8",
+      "file": "pg_tracing_17-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "size": 43576,
+      "url": "https://repo.pigsty.io/yum/pgsql/el8.x86_64/pg_tracing_17-0.1.3-2PIGSTY.el8.x86_64.rpm",
+      "sha256": "ce2c6600d170bbe9dc3d95b37fa4fdfc756ca868d10a453a9ad33af07b1623cd"
     },
     {
       "os": "el8.x86_64",
@@ -1066,11 +1059,31 @@
       "os": "el9.aarch64",
       "pg": 17,
       "name": "pg_tracing_17",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_17-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "size": 42815,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tracing_17-0.1.3-2PIGSTY.el9.aarch64.rpm",
+      "sha256": "f73d34d684510c6b8c0141165fc7c91ceffda5b9e0367dd56809d1f7ebcb922a"
+    },
+    {
+      "os": "el9.aarch64",
+      "pg": 17,
+      "name": "pg_tracing_17",
       "ver": "0.1.3-1PIGSTY.el9",
       "file": "pg_tracing_17-0.1.3-1PIGSTY.el9.aarch64.rpm",
       "size": 42823,
       "url": "https://repo.pigsty.io/yum/pgsql/el9.aarch64/pg_tracing_17-0.1.3-1PIGSTY.el9.aarch64.rpm",
       "sha256": "4c4f200aa05a124881723c4056d379ae21a8943f4078d9c415a297a1cb622e49"
+    },
+    {
+      "os": "el9.x86_64",
+      "pg": 17,
+      "name": "pg_tracing_17",
+      "ver": "0.1.3-2PIGSTY.el9",
+      "file": "pg_tracing_17-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "size": 43586,
+      "url": "https://repo.pigsty.io/yum/pgsql/el9.x86_64/pg_tracing_17-0.1.3-2PIGSTY.el9.x86_64.rpm",
+      "sha256": "ab6d85129da63b88164955cc8bc32ed54bc8ea6c675c307579e4cdf83dd1ac34"
     },
     {
       "os": "el9.x86_64",
@@ -1084,183 +1097,243 @@
     },
     {
       "os": "d12.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-pg-tracing",
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-14-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "size": 109544,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-14-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "sha256": "dde8410d2a48f6b571af714936dde6618af18e83282a35d0ace3f32be9fc4701"
+    },
+    {
+      "os": "d12.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-pg-tracing",
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-14-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "size": 112196,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-14-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "sha256": "e7b04c142c3e838af3ced0e736ac4e01be9d04846046ff0de51dac5a8c743163"
+    },
+    {
+      "os": "u22.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-pg-tracing",
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-14-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "size": 135938,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-14-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "sha256": "771bf485f00eab80557ad6d14c93d1cb9cb78570dd77bbe86628639f73dfe37a"
+    },
+    {
+      "os": "u22.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-pg-tracing",
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-14-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "size": 136360,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-14-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "sha256": "35f1d492af727ab97d38359330c520173a7829bb40965eed6a7345b65829223d"
+    },
+    {
+      "os": "u24.aarch64",
+      "pg": 14,
+      "name": "postgresql-14-pg-tracing",
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-14-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "size": 116596,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-14-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "sha256": "d901c2cd626150fa0f3d7626be141e613b007b1ce4f63ee99afd309fdb8608f6"
+    },
+    {
+      "os": "u24.x86_64",
+      "pg": 14,
+      "name": "postgresql-14-pg-tracing",
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-14-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "size": 116836,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-14-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "sha256": "f95089034dd4d6068ff7171d757f266c506da46ec52a9b55e5249e0517733865"
+    },
+    {
+      "os": "d12.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-tracing_0.1.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 107780,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "d22c7d5e0e9ee77f5b840be57f975713265916cf958c78c23d7fbc330291899c"
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-15-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "size": 107832,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "sha256": "b0274efd78f181ade52fc260fd336a7c857a19b64e6f0e1204813d07cd370721"
     },
     {
       "os": "d12.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~bookworm",
-      "file": "postgresql-15-pg-tracing_0.1.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 110552,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "475d5d45da6a485493de0569bc4ca1da2c016a9b7c8278d43fe4b5f14ae4b060"
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-15-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "size": 110836,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "sha256": "2858dd3079f7bd0f135931dbebfecef70d3d5d59bf88df01e4fd4569dfe6c3fd"
     },
     {
       "os": "u22.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-tracing_0.1.3-1PIGSTY~jammy_arm64.deb",
-      "size": 133752,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "88a2f1f0ce1f560acede5e3ac15fe92f615234a9a58be23d989ad4c2168e2dd5"
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-15-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "size": 133950,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "sha256": "5326e10a08e4f986beea938e084d28b55f446dfe6d7e7247c2bde22ba2b3e195"
     },
     {
       "os": "u22.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~jammy",
-      "file": "postgresql-15-pg-tracing_0.1.3-1PIGSTY~jammy_amd64.deb",
-      "size": 135122,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "c48e6276783237bbd650e294eab75e425221fe34e66d684fbce998cf317f27c1"
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-15-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "size": 135158,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "sha256": "d26720eb3a6ab36f3ec53a6bb24d2bf00b7861691d155b2361ae63d547cc47b9"
     },
     {
       "os": "u24.aarch64",
       "pg": 15,
       "name": "postgresql-15-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~noble",
-      "file": "postgresql-15-pg-tracing_0.1.3-1PIGSTY~noble_arm64.deb",
-      "size": 115074,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "0d382c28b50132f7ac7b3ecbf6cc65f9804ba64400482c7e2b0f7a50449e0ad1"
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-15-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "size": 115120,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "sha256": "eb433b2758240c8198470bd80453a1dfd5982afa2e82edac8fc6f6adefe889b2"
     },
     {
       "os": "u24.x86_64",
       "pg": 15,
       "name": "postgresql-15-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~noble",
-      "file": "postgresql-15-pg-tracing_0.1.3-1PIGSTY~noble_amd64.deb",
-      "size": 115860,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "0195a06384256c0f2de21062062ad11c23996ded7bfc0562c6ec97955d4cc38d"
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-15-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "size": 115826,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-15-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "sha256": "8b2ebd12682334ebc2b0a5415f06022ad55698a5a37430284b984953e2dadf93"
     },
     {
       "os": "d12.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-tracing_0.1.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 105508,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "f4e826e45682c51c50877113001add016541b7a425e17e7925e212dd89faeef6"
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-16-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "size": 105400,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "sha256": "92e1b1c9086513aea6f58e2205e659f2bf9d12c3aeaf689cdda04f074de7abb2"
     },
     {
       "os": "d12.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~bookworm",
-      "file": "postgresql-16-pg-tracing_0.1.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 107976,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "66a549c592b5733f1950661a990f0f74c032b8a4de61f460b85f522847f0a143"
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-16-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "size": 107960,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "sha256": "6d04929a2424299734c889316635b0545327d1a99a6a8f1b9dad6e6dfe0f3c9c"
     },
     {
       "os": "u22.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-tracing_0.1.3-1PIGSTY~jammy_arm64.deb",
-      "size": 130528,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "799b852275bb1a1e17b2279cbbbc667331ee6b6382b40efd6f5adbab392a6b33"
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-16-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "size": 130700,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "sha256": "3703d6f6e93a32434615bf9ad38e219530cd2883a6457a8031f125e3426da78b"
     },
     {
       "os": "u22.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~jammy",
-      "file": "postgresql-16-pg-tracing_0.1.3-1PIGSTY~jammy_amd64.deb",
-      "size": 131840,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "3f3c587bbb506c0303df5a9691ccbde4ac6e962f70b810e1b77dc2a0b51ff4f3"
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-16-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "size": 131868,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "sha256": "6d6b92031f6f43c9313b189e0dc4199ae2d164ca71ff1fbbeba5d374ca8ac8be"
     },
     {
       "os": "u24.aarch64",
       "pg": 16,
       "name": "postgresql-16-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~noble",
-      "file": "postgresql-16-pg-tracing_0.1.3-1PIGSTY~noble_arm64.deb",
-      "size": 111756,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "40325acb0af23f45ad567533676a8c33de14d6c5b8f8a0cddc62b296329b7554"
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-16-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "size": 111698,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "sha256": "7aa0c7abfd04a2aeea82ccddadaea474d5ad3a4bf85eaf18fbb8c5ba0eba383a"
     },
     {
       "os": "u24.x86_64",
       "pg": 16,
       "name": "postgresql-16-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~noble",
-      "file": "postgresql-16-pg-tracing_0.1.3-1PIGSTY~noble_amd64.deb",
-      "size": 112748,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "c9863b72d36e3d551f98d68d3b9c4b6d3854e4cc309943530c4aa16a8775c87d"
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-16-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "size": 112798,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-16-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "sha256": "ea0d71f01ac38f3cc1bcc38262edc025f1dc129a805850f161dc1869f13414da"
     },
     {
       "os": "d12.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-tracing_0.1.3-1PIGSTY~bookworm_arm64.deb",
-      "size": 105268,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-1PIGSTY~bookworm_arm64.deb",
-      "sha256": "1997841c9a58b2873f5ce809e1c8ce6f5ad94f36049853bc0a399a1f49ce5b30"
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-17-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "size": 105520,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-2PIGSTY~bookworm_arm64.deb",
+      "sha256": "3cd4034865ff46dcad3b9bbcc29ba9b74d0e21e206a8c46373d477efebcc2272"
     },
     {
       "os": "d12.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~bookworm",
-      "file": "postgresql-17-pg-tracing_0.1.3-1PIGSTY~bookworm_amd64.deb",
-      "size": 107828,
-      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-1PIGSTY~bookworm_amd64.deb",
-      "sha256": "7a02b04d4e339512ef4521b269e278339715095ff50dd8e722431d6a1a25bc5c"
+      "ver": "0.1.3-2PIGSTY~bookworm",
+      "file": "postgresql-17-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "size": 107900,
+      "url": "https://repo.pigsty.io/apt/pgsql/bookworm/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-2PIGSTY~bookworm_amd64.deb",
+      "sha256": "c4e929552ab1faaff7d56950bcd77ca2a893cc0e0fbc1448fa4ef26d30955e8b"
     },
     {
       "os": "u22.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-tracing_0.1.3-1PIGSTY~jammy_arm64.deb",
-      "size": 131002,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-1PIGSTY~jammy_arm64.deb",
-      "sha256": "b9a39d4bc92d21a9eccd79e4e32d038676786478e754a4c9ccdfadeba66ba6c8"
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-17-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "size": 131154,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-2PIGSTY~jammy_arm64.deb",
+      "sha256": "c0059b3dd359c580b5df76363b1530d4fad9f45627029266455006c038276128"
     },
     {
       "os": "u22.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~jammy",
-      "file": "postgresql-17-pg-tracing_0.1.3-1PIGSTY~jammy_amd64.deb",
-      "size": 132382,
-      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-1PIGSTY~jammy_amd64.deb",
-      "sha256": "7cffd9e5f832a1f62a9a34d345e0a3b0a9816933132d25aefe5fefbc127435c5"
+      "ver": "0.1.3-2PIGSTY~jammy",
+      "file": "postgresql-17-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "size": 132436,
+      "url": "https://repo.pigsty.io/apt/pgsql/jammy/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-2PIGSTY~jammy_amd64.deb",
+      "sha256": "f538d6d583e958e7607b7d5a5f4b906fd1ec0b8d651684c14f97553484c64c15"
     },
     {
       "os": "u24.aarch64",
       "pg": 17,
       "name": "postgresql-17-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~noble",
-      "file": "postgresql-17-pg-tracing_0.1.3-1PIGSTY~noble_arm64.deb",
-      "size": 111766,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-1PIGSTY~noble_arm64.deb",
-      "sha256": "b12c59bef4a8cae14a1bf334348f30110b804bde5b282c576ac528d3a261a8b9"
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-17-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "size": 111810,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-2PIGSTY~noble_arm64.deb",
+      "sha256": "ed1702e5aad32a5066bc02236eefd9e14d8c87231c41f8226c0ca8bb5dc1b2e0"
     },
     {
       "os": "u24.x86_64",
       "pg": 17,
       "name": "postgresql-17-pg-tracing",
-      "ver": "0.1.3-1PIGSTY~noble",
-      "file": "postgresql-17-pg-tracing_0.1.3-1PIGSTY~noble_amd64.deb",
-      "size": 112774,
-      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-1PIGSTY~noble_amd64.deb",
-      "sha256": "6e629fa0d6a050c83cf27f2eb00fd2472a792964e2bb3cfa832729c68b9993d0"
+      "ver": "0.1.3-2PIGSTY~noble",
+      "file": "postgresql-17-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "size": 112822,
+      "url": "https://repo.pigsty.io/apt/pgsql/noble/pool/main/p/pg-tracing/postgresql-17-pg-tracing_0.1.3-2PIGSTY~noble_amd64.deb",
+      "sha256": "427faeae0093ca46f6a963ce05d9c59a02916b2226ca96ea31fdcbafd8725f01"
     }
   ]
 }
