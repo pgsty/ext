@@ -858,7 +858,7 @@ export default function ExtensionTemplate({ data }: { data: ExtensionData }) {
           <div className="flex flex-wrap gap-2">
             {data.see_also.map((extName) => (
               <Link key={extName} href={`${baseUrl}/${extName}`}>
-                <Badge variant="outline" className="cursor-pointer hover:bg-accent">
+                <Badge variant="gray-subtle" capitalize={false}>
                   {extName}
                 </Badge>
               </Link>
