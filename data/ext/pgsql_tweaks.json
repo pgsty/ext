@@ -5,7 +5,7 @@
   "lead_ext": "pgsql_tweaks",
   "category": "UTIL",
   "state": "available",
-  "url": "https://github.com/sjstoelting/pgsql-tweaks",
+  "url": "https://codeberg.org/pgsql_tweaks/pgsql_tweaks",
   "license": "PostgreSQL",
   "tags": [],
   "version": "0.11.3",
@@ -73,7 +73,7 @@
     "14",
     "13"
   ],
-  "source": "pgsql-tweaks-0.11.3.tar.gz",
+  "source": "pgsql_tweaks-v0.11.5.tar.gz",
   "extra": {},
   "en_desc": "Some functions and views for daily usage",
   "zh_desc": "一些日常会用到的便利函数与视图",
